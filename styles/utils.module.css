@@ -50,3 +50,29 @@
 .lightText {
   color: #666;
 }
+
+.strike {
+  text-decoration: line-through;
+  color: #666 !important;
+}
+
+.innerSection {
+  max-width: 36rem;
+  /* padding: 0 24rem; */
+  /* margin: 0 24rem; */
+  left: 25%;
+  position: relative;
+}
+
+.picture {
+  max-width: 36rem;
+}
+
+.brief_preview {
+  position: relative;
+  margin: 200px 50px;
+  background-color: gray;
+  width: 300px;
+  height: 500px;
+  float: left;
+}
