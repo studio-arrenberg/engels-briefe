@@ -12,8 +12,7 @@ export default function Home() {
         <title>Engelsbriefe</title>
       </Head>
       
-        <h3>sd</h3>
-        <ChangeLog/>
+              <ChangeLog/>
 
     </Layout>
   )
