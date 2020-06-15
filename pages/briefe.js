@@ -23,7 +23,6 @@ export default function Page() {
         <title>Briefe</title>
       </Head>
 
-        <section className={utilStyles.headingMd}>
         <motion.div
           initial="initial"
           animate="enter"
@@ -33,7 +32,6 @@ export default function Page() {
                 {newdata}
                 
         </motion.div>
-        </section>
     </Layout>
   )
 }
@@ -45,11 +43,17 @@ const newdata = data.briefe.map((data, id) => {
       <motion.div  variants={postVariants} layoutId={`${data.id}`}>
         <div key={data.id} className={utilStyles.brief_preview}>
         
+          <img src={`${data.page_01}`}/>
+          <img src={`${data.page_02}`}/>
+
+          <div className={utilStyles.post_description}>
             <Link href="/brief/[brief]" as={`/brief/${data.id}`}>
-                <a>{data.sender} an {data.empfänger}</a>
+                  <a class="post_description_title">{data.sender} an {data.empfänger}</a>
             </Link>
-            <h6>{data.datum}</h6>
-            <h6>{data.text}</h6>
+
+              <h6>{data.datum}</h6>
+              {/* <h6>{data.text}</h6> */}
+            </div>
         </div>
         </motion.div>
         </div>

@@ -11,9 +11,10 @@ export default function Home() {
       <Head>
         <title>Engelsbriefe</title>
       </Head>
-        <h1>Moin</h1>      
-              <ChangeLog/>
 
+      <div class="static">
+              <ChangeLog/>
+        </div>
     </Layout>
   )
 }

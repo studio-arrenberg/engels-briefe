@@ -1,9 +1,18 @@
+@font-face {font-family: 'Gibson-LightIt';src: url('../webfonts/2D7FB2_0_0.eot');src: url('../webfonts/2D7FB2_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2D7FB2_0_0.woff2') format('woff2'),url('../webfonts/2D7FB2_0_0.woff') format('woff'),url('../webfonts/2D7FB2_0_0.ttf') format('truetype');}
+@font-face {font-family: 'Gibson-BoldItalic';src: url('../webfonts/2D7FB2_1_0.eot');src: url('../webfonts/2D7FB2_1_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2D7FB2_1_0.woff2') format('woff2'),url('../webfonts/2D7FB2_1_0.woff') format('woff'),url('../webfonts/2D7FB2_1_0.ttf') format('truetype');}
+@font-face {font-family: 'Gibson-Bold';src: url('../webfonts/2D7FB2_3_0.eot');src: url('../webfonts/2D7FB2_3_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2D7FB2_3_0.woff2') format('woff2'),url('../webfonts/2D7FB2_3_0.woff') format('woff'),url('../webfonts/2D7FB2_3_0.ttf') format('truetype');}
+@font-face {font-family: 'Gibson-Regular';src: url('../webfonts/2D7FB2_4_0.eot');src: url('../webfonts/2D7FB2_4_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2D7FB2_4_0.woff2') format('woff2'),url('../webfonts/2D7FB2_4_0.woff') format('woff'),url('../webfonts/2D7FB2_4_0.ttf') format('truetype');}
+@font-face {font-family: 'Gibson-SemiBold';src: url('../webfonts/2D7FB2_5_0.eot');src: url('../webfonts/2D7FB2_5_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2D7FB2_5_0.woff2') format('woff2'),url('../webfonts/2D7FB2_5_0.woff') format('woff'),url('../webfonts/2D7FB2_5_0.ttf') format('truetype');}
+@font-face {font-family: 'Gibson-Italic';src: url('../webfonts/2D7FB2_6_0.eot');src: url('../webfonts/2D7FB2_6_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2D7FB2_6_0.woff2') format('woff2'),url('../webfonts/2D7FB2_6_0.woff') format('woff'),url('../webfonts/2D7FB2_6_0.ttf') format('truetype');}
+@font-face {font-family: 'Gibson-Light';src: url('../webfonts/2D7FB2_7_0.eot');src: url('../webfonts/2D7FB2_7_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2D7FB2_7_0.woff2') format('woff2'),url('../webfonts/2D7FB2_7_0.woff') format('woff'),url('../webfonts/2D7FB2_7_0.ttf') format('truetype');}
+
+
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Gibson-Light";
   line-height: 1.6;
   font-size: 18px;
   background-color: black;
@@ -14,7 +23,6 @@ body {
 }
 
 a {
-  /* color: #0070f3; */
   color: white;
   text-decoration: none;
 }
@@ -32,3 +40,69 @@ p,h1,h2,h3,h4,h5,h6,ul,li {
   color: white;
 }
 
+header{
+  z-index: 200;
+  position: relative;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2.5rem;
+  padding: 20px 0px 25px 25px;
+}
+
+ .menu_right a{
+  padding: 25px;
+}
+
+
+
+main{
+  height: calc(100% - 150px);
+  width: 100%;
+  position: absolute;
+  top: 150px;
+  z-index: 1;
+  overflow-y: hidden;
+  overflow-x: scroll;
+
+
+}
+
+main > div{
+width: auto;
+display: flex;
+
+}
+
+.static {
+  display: block !important;
+
+
+}
+
+.post {
+  height: 100%;
+  display: inline;
+  float: left;
+
+}
+
+
+.post_description_title {
+  font-size: 1.5rem;
+}
+
+
+
+.post:nth-of-type(2),
+.post:nth-of-type(4),
+.post:nth-of-type(6),
+.post:nth-of-type(8),
+.post:nth-of-type(10),
+.post:nth-of-type(12),
+.post:nth-of-type(14),
+.post:nth-of-type(16){
+  padding-top: 300px;
+}

@@ -4,11 +4,6 @@
   margin: 3rem auto 6rem;
 } */
 
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 .headerImage {
   width: 6rem;
@@ -23,25 +18,3 @@
 .backToHome {
   margin: 3rem 0 0;
 }
-
-/* ## menu ## */
-
-.menu {
-  position: relative;
-  top: 0px;
-  width: 100%;
-  background-color: rebeccapurple;
-  height: 60px;
-}
-
-.menu_left, .menu_right {
-  display: inline;
-  top: 15px;
-  position: relative;
-  padding: 0 10px;
-}
-.menu_right {
-  /* text-align: right; */
-  /* margin-right: 0px; */
-}
-
