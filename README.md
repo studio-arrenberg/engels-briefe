@@ -27,5 +27,5 @@
 
 Markdown | Less | Pretty
 --- | --- | ---
-*Still* | `renders` | **nicely**
+*Hello* | `World` | **nicely**
 1 | 2 | 3
