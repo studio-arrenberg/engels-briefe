@@ -7,16 +7,19 @@ import Router from 'next/router'
 export default function Menu() {
 
     return (
-        <section className={styles.menu}>
+        <nav >
 
             <a className={styles.menu_left} onClick={() => Router.back()}>Go Back</a>
+            
+    
+            <div class="menu_right">
+                <Link href="/"><a >Home</a></Link>
+                <Link href="/briefe"><a >Briefe</a></Link>
+                <Link href="/themen"><a  >Themen</a></Link>
+                <Link href="/familie"><a >Familie</a></Link>
+            </div>
 
-                <Link href="/"><a className={styles.menu_right} >Home</a></Link>
-                <Link href="/briefe"><a className={styles.menu_right} >Briefe</a></Link>
-                <Link href="/themen"><a className={styles.menu_right} >Themen</a></Link>
-                <Link href="/familie"><a className={styles.menu_right} >Familie</a></Link>
-
-        </section>
+        </nav>
     )
 
 

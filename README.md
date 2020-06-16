@@ -6,11 +6,12 @@
 
 * Add data to json file
 * load html files in brief view
-* add css styles
 * images
 * clean syntax
 * undefined is not an object (evaluating 'children.join')
 * brief view file (?)
+* style Themen + Familie Slider + Briefansicht
+* 
 
 ## Done
 
@@ -20,3 +21,5 @@
 * Import Json
 * Header
 * Layout
+* add some css styles
+* Placeholder Briefe
