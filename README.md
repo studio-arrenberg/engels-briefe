@@ -39,17 +39,20 @@ git pull origin master
 ### Check branch
 ```bash
 git fetch
-git checkout *BRANCH_NAME*
+git checkout <BRANCH_NAME>
 ```
 ### Create branch
 ```bash
-git checkout -b *BRANCH_NAME*
+git checkout -b <BRANCH_NAME>
 ```
 ### push files in branch
 ```bash
-git add . *or* git add *FILENAME OR PATH*
-git commit -m "*comment*"
-git push --set-upstream origin *BRANCH_NAME* *or* git push
+git add . 
+# or <FILENAME OR PATH>
+git commit -m "<comment>"
+git push --set-upstream origin <BRANCH_NAME> 
+# or
+git push
 ```
 
 ## Useless Table
