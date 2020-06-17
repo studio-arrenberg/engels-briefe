@@ -73,3 +73,4 @@ Markdown | Less | Pretty
 --- | --- | ---
 *Hello* | `World` | **nicely**
 1 | 2 | 3
+a | b | c
