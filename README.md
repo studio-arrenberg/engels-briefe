@@ -1,6 +1,7 @@
 # Engelsbriefe
 
 ### Repo für das Interface der Engels Ausstellung
+`https://engelsbriefe.arrenberg.studio/`
 
 ## Todo
 
@@ -23,9 +24,45 @@
 * add some css styles
 * Placeholder Briefe
 
+
+## Requirements
+
+* Nodejs
+* npm
+
+## Git Commands
+
+### Set up 
+```bash
+git clone https://github.com/j0hannr/engels-briefe.git
+cd engels-briefe
+npm install
+```
+### Check master
+```bash
+git pull origin master
+```
+### Check branch
+```bash
+git fetch
+git checkout <BRANCH_NAME>
+```
+### Create branch
+```bash
+git checkout -b <BRANCH_NAME>
+```
+### push files (in branch)
+```bash
+git add . 
+# or <FILENAME OR PATH>
+git commit -m "<comment>"
+git push
+# or git push --set-upstream origin <BRANCH_NAME> 
+```
+
 ## Useless Table
 
 Markdown | Less | Pretty
 --- | --- | ---
-*Still* | `renders` | **nicely**
+*Hello* | `World` | **nicely**
 1 | 2 | 3
