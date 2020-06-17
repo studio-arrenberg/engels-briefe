@@ -23,6 +23,35 @@
 * add some css styles
 * Placeholder Briefe
 
+
+## Git
+
+### Set up 
+
+`git clone https://github.com/j0hannr/engels-briefe.git`
+`cd engels-briefe`
+`npm install`
+
+### Check master
+
+`git pull origin master`
+
+### Check branch
+
+`git fetch`
+`git checkout BRANCH_NAME`
+
+### Create branch
+
+`git checkout -b BRANCH_NAME`
+
+### push files in branch
+
+`git add .` or `git add FILENAME`
+`git commit -m "comment"`
+`git push --set-upstream origin trail3`
+
+
 ## Useless Table
 
 Markdown | Less | Pretty
