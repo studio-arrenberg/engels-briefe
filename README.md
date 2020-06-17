@@ -1,6 +1,7 @@
 # Engelsbriefe
 
 ### Repo für das Interface der Engels Ausstellung
+`https://engelsbriefe.arrenberg.studio/`
 
 ## Todo
 
@@ -24,6 +25,11 @@
 * Placeholder Briefe
 
 
+## Requirements
+
+* Nodejs
+* npm
+
 ## Git Commands
 
 ### Set up 
@@ -45,14 +51,13 @@ git checkout <BRANCH_NAME>
 ```bash
 git checkout -b <BRANCH_NAME>
 ```
-### push files in branch
+### push files (in branch)
 ```bash
 git add . 
 # or <FILENAME OR PATH>
 git commit -m "<comment>"
-git push --set-upstream origin <BRANCH_NAME> 
-# or
 git push
+# or git push --set-upstream origin <BRANCH_NAME> 
 ```
 
 ## Useless Table
