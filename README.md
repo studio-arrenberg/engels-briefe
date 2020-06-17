@@ -24,7 +24,7 @@
 * Placeholder Briefe
 
 
-## Git
+## Git Commands
 
 ### Set up 
 
@@ -37,10 +37,10 @@
 `git pull origin master`
 
 ### Check branch
-
+```bash
 `git fetch`
 `git checkout BRANCH_NAME`
-
+```
 ### Create branch
 
 `git checkout -b BRANCH_NAME`
