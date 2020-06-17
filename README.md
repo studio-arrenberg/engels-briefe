@@ -27,30 +27,30 @@
 ## Git Commands
 
 ### Set up 
-
-`git clone https://github.com/j0hannr/engels-briefe.git`
-`cd engels-briefe`
-`npm install`
-
+```bash
+git clone https://github.com/j0hannr/engels-briefe.git
+cd engels-briefe
+npm install
+```
 ### Check master
-
-`git pull origin master`
-
+```bash
+git pull origin master
+```
 ### Check branch
 ```bash
-`git fetch`
-`git checkout BRANCH_NAME`
+git fetch
+git checkout *BRANCH_NAME*
 ```
 ### Create branch
-
-`git checkout -b BRANCH_NAME`
-
+```bash
+git checkout -b *BRANCH_NAME*
+```
 ### push files in branch
-
-`git add .` or `git add FILENAME`
-`git commit -m "comment"`
-`git push --set-upstream origin trail3`
-
+```bash
+git add . *or* git add *FILENAME OR PATH*
+git commit -m "*comment*"
+git push --set-upstream origin *BRANCH_NAME* *or* git push
+```
 
 ## Useless Table
 
