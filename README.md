@@ -30,10 +30,17 @@
 * Nodejs
 * npm
 
+## React Commands
+Start localhost server
+```bash
+npm run dev
+```
+
 ## Git Commands
 
 ### Set up 
 ```bash
+git init
 git clone https://github.com/j0hannr/engels-briefe.git
 cd engels-briefe
 npm install
