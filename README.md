@@ -12,6 +12,7 @@
 * undefined is not an object (evaluating 'children.join')
 * brief view file (?)
 * style Themen + Familie Slider + Briefansicht
+* conditional `go back` *when on subpages*
 
 ## Done
 
@@ -67,13 +68,11 @@ git push
 # or git push --set-upstream origin <BRANCH_NAME> 
 ```
 
-### merge and update branch to master
+### merge and update branch in master
+*you need to push all changes in branch and switch to master*
 ```bash
-git checkout <BRANCH_NAME>
-git merge origin/master
-git push origin <BRANCH_NAME>
-git fetch
-git rebase origin/master
+git checkout origin/master
+git merge <BRANCH_NAME>
 ```
 
 ## Useless Table
