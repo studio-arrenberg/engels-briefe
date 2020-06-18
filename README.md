@@ -67,6 +67,15 @@ git push
 # or git push --set-upstream origin <BRANCH_NAME> 
 ```
 
+### merge and update branch to master
+```bash
+git checkout <BRANCH_NAME>
+git merge origin/master
+git push origin <BRANCH_NAME>
+git fetch
+git rebase origin/master
+```
+
 ## Useless Table
 
 Markdown | Less | Pretty
