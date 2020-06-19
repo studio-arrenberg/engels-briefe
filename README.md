@@ -5,9 +5,10 @@
 
 
 ## Requirements
-
-* Nodejs
-* npm
+```bash
+Nodejs # nodejs needs to be installed seperately 
+npm # will be installed in the Git setup process
+```
 
 ## React Commands
 ```bash
