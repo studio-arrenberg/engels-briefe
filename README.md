@@ -32,6 +32,7 @@ npm run dev
 ```bash
 git init
 git clone https://github.com/j0hannr/engels-briefe.git
+# make sure you are always in the *engels-briefe* directory to execute git and nodejs
 cd engels-briefe
 npm install
 ```
@@ -76,10 +77,13 @@ git merge <BRANCH_NAME>
 * Placeholder Briefe
 
 
-## Useless Table
+## Briefe
 
-Markdown | Less | Pretty
+Nummer *ID* | Author | Status
 --- | --- | ---
+1 | Johann Caspar Engels | fehlt
+2 | - | :warning:
+
+## Markdown Styles
+
 *Hello* | `World` | **nicely**
-1 | 2 | 3
-a | b | c
