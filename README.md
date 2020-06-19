@@ -63,20 +63,6 @@ Nummer *ID* | Author | Status | Kommentar
 4 | - | :white_check_mark: |
 
 
-## Pages
-
-Name | Dir | Kommentar 
---- | --- | --- 
-Index | / | should be replaced by briefe
-briefe | / | - 
-themen | / | -
-personen | / | -
-[brief] | /briefe | 2nd menu + brief ansichten
-[person] | /person | 2nd menu
-[thema] | /thema | 2nd menu
-
-
-
 ## Todo
 
 * Add data to json file
@@ -103,3 +89,15 @@ personen | / | -
 ## Markdown Styles
 
 *Hello* `World` **nicely**
+
+## Pages
+
+Name | Dir | Kommentar 
+--- | --- | --- 
+Index | / | should be replaced by briefe
+briefe | / | - 
+themen | / | -
+personen | / | -
+[brief] | /briefe | 2nd menu + brief ansichten
+[person] | /person | 2nd menu
+[thema] | /thema | 2nd menu
