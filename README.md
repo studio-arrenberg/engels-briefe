@@ -81,7 +81,7 @@ git merge <BRANCH_NAME>
 
 Nummer *ID* | Author | Status
 --- | --- | ---
-1 | Johann Caspar Engels | :missing:
+1 | Johann Caspar Engels | :x:
 2 | - | :warning:
 3 | - | :heavy_check_mark:
 4 | - | :white_check_mark:
