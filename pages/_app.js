@@ -16,7 +16,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import '../styles/global.css'
 // import { motion, AnimateSharedLayout } from "framer-motion"
 import Layout from '../components/layout';
-
 import { useRouter } from 'next/router'
 
 class MyApp extends App {
