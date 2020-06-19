@@ -96,13 +96,6 @@ display: flex;
 
 
 
-.post:nth-of-type(2),
-.post:nth-of-type(4),
-.post:nth-of-type(6),
-.post:nth-of-type(8),
-.post:nth-of-type(10),
-.post:nth-of-type(12),
-.post:nth-of-type(14),
-.post:nth-of-type(16){
+.post:nth-child(2n){
   padding-top: 300px;
 }

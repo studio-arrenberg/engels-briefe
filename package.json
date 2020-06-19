@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "NODE_ENV=production node server.js",
-    "export" : "next export"
+    "export": "next export"
   },
   "dependencies": {
     "date-fns": "^2.11.1",
