@@ -14,17 +14,6 @@
 * style Themen + Familie Slider + Briefansicht
 * conditional `go back` *when on subpages*
 
-## Done
-
-* Framer Motion
-* API
-* Main Pages
-* Import Json
-* Header
-* Layout
-* add some css styles
-* Placeholder Briefe
-
 
 ## Requirements
 
@@ -32,8 +21,8 @@
 * npm
 
 ## React Commands
-Start localhost server
 ```bash
+# Start localhost server
 npm run dev
 ```
 
@@ -74,6 +63,18 @@ git push
 git checkout origin/master
 git merge <BRANCH_NAME>
 ```
+
+## Done
+
+* Framer Motion
+* API
+* Main Pages
+* Import Json
+* Header
+* Layout
+* add some css styles
+* Placeholder Briefe
+
 
 ## Useless Table
 
