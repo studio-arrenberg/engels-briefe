@@ -83,8 +83,8 @@ Nummer *ID* | Author | Status
 --- | --- | ---
 1 | Johann Caspar Engels | fehlt
 2 | - | :warning:
-3 | - | [ ]
-4 | - | [x]
+3 | - | :heavy_check_mark:
+4 | - | :white_check_mark:
 
 ## Markdown Styles
 
