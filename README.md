@@ -30,14 +30,14 @@ npm install
 ```bash
 git pull origin master
 ```
+### Create branch
+```bash
+git checkout -b <BRANCH_NAME>
+```
 ### Check branch
 ```bash
 git fetch
 git checkout <BRANCH_NAME>
-```
-### Create branch
-```bash
-git checkout -b <BRANCH_NAME>
 ```
 ### push files (in branch)
 ```bash
@@ -47,7 +47,6 @@ git commit -m "<comment>"
 git push
 # or git push --set-upstream origin <BRANCH_NAME> 
 ```
-
 ### merge and update branch in master
 *you need to push all changes in branch and switch to master*
 ```bash
