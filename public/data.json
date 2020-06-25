@@ -13,7 +13,8 @@
             "satzspiegel" : {"links":[23,23,23], "open" : [2,2,1]},
             "inhalt" : "",
             "page_01" : "../miscellaneous/digitalisate/FE_68/FE_68_1.png",
-            "page_02" : "../miscellaneous/digitalisate/FE_68/FE_68_2.png"
+            "page_02" : "../miscellaneous/digitalisate/FE_68/FE_68_2.png",
+            "scan": {"cover": "sjdb.png", "page": ["1.png","2.png"]}
 
         },
         {
