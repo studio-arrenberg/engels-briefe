@@ -1,7 +1,7 @@
 # Engelsbriefe
 
 ### Repo für das Interface der Engels Ausstellung
-`https://engelsbriefe.arrenberg.studio/`
+`https://engels.arrenberg.studio/briefe`
 
 
 ## Requirements
