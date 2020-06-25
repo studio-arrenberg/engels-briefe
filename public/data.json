@@ -2,19 +2,19 @@
         {
             "id" : "1",
             "title" : "Hello",
-            "datum" : "1. Mai 1291",
+            "datum" : "1. Mai 1191",
             "sender" : "Johann Caspar Engels",
             "sender_id" : "1",
             "empfänger" : "Friedrich Engels Senior",
-            "scan" : "1.jpg",
             "text" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
             "themen" : {"name":["Reisen","Religon"], "id":[1,2,3,4]},
-            "seiten" : 3,
-            "satzspiegel" : {"links":[23,23,23], "open" : [2,2,1]},
-            "inhalt" : "",
             "page_01" : "../miscellaneous/digitalisate/FE_68/FE_68_1.png",
             "page_02" : "../miscellaneous/digitalisate/FE_68/FE_68_2.png",
-            "scan": {"cover": "sjdb.png", "page": ["1.png","2.png"]}
+            "scan": {"cover": "sjdb.png", "page": ["1.png","2.png"]},
+            "normalisiert" : "",
+            "diplomatisch" : "",
+            "satzspiegel" : {"links":[23,23,23], "open" : [2,2,1]}
+
 
         },
         {
