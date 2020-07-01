@@ -56,11 +56,26 @@ git merge <BRANCH_NAME>
 
 ## Briefe
 
-Nummer *ID* | Author | Status | Kommentar
---- | --- | --- | ---
-1 | Johann Caspar Engels | :x: | noch nichts vorhanden
-2 | - | :warning: |
-4 | - | :white_check_mark: |
+Nummer *ID* | Author | Datum | Ort | Status | Kommentar 
+--- | --- | --- | --- | --- | ---
+001 | Louise Noot | 1791-01-05 | Hagen | :x: | 
+004 | Friedrich Christian Hoffmann | 1791-05-12 | Düsseldorf | :x: |
+021 | Johann Caspar Engels | 1791-09-09| Barmen | :x: |
+022 | Louise Engels, geb. Noot | 1791-09-10 | Ruhrort | :x: |
+029 | Louise Engels, geb. Noot | 1792-10-25 | Barmen | :x: |
+068 | Johann Caspar Engels | 1813-07-04 | Barmen | :x: |
+071 | Johann Caspar Engels | 1813-11-12 | Barmen | :x: |
+075 | Johann Caspar Engels | 1814-02-03 | Barmen | :x: |
+130 | Friedrich Engels sen. | 1816-09-21 | Barmen | :x: |
+169 | Friedrich Engels sen. | 1818-07-03/04 | Barmen | :x: |
+235a | Friedrich Engels sen. | 1820-12-01 | Barmen | :x: |
+255 | Friedrich Engels sen. | 1822-07-09 | Barmen | :x: |
+265 | Friedrich Engels sen. | 1823-05-31 | Barmen | :x: |
+284 | Gerhard Bernhard van Haar | 1826-04-20 | Hamm | :x: |
+294 | Friedrich Engels sen. | 1827-08-16 | Paris | :x: |
+306 | Friedrich Engels sen. | 1838-07-26 | London | :x: |
+307 | Friedrich Engels sen. | 1838-08-11 | Bremen | :x: |
+341 | Friedrich Engels sen. | 1858-09-10 | Manchester | :x: |
 
 
 
@@ -87,6 +102,7 @@ Nummer *ID* | Author | Status | Kommentar
 * Placeholder Briefe
 * Camilo Online
 * Git Desktop Client Test
+* Add Letter Overview
 
 
 ## Markdown Styles

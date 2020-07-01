@@ -48,7 +48,8 @@ const newdata = data.briefe.map((data, id) => {
 
           <div className={utilStyles.post_description}>
             <Link href="/brief/[brief]" as={`/brief/${data.id}`}>
-                  <a class="post_description_title">{data.sender} an {data.empfänger}</a>
+    <a class="post_description_title">{data.sender} an {data.empfänger} {data.sender_ort}</a>
+                  
             </Link>
 
               <h6>{data.datum}</h6>
