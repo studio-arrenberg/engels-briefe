@@ -15,14 +15,14 @@ import App from 'next/app';
 import { motion, AnimatePresence } from 'framer-motion';
 import '../styles/global.css'
 // import { motion, AnimateSharedLayout } from "framer-motion"
-import Layout from '../components/layout';
+// import Layout from '../components/layout';
 import { useRouter } from 'next/router'
 
 class MyApp extends App {
   render() {
     const { Component, pageProps, router } = this.props;
 
-    console.log(router.pathname)
+    // console.log(router.pathname)
     return (
       // <Layout>
         <AnimatePresence exitBeforeEnter>

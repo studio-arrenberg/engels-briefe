@@ -4,28 +4,19 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import data from '../public/data.json'
 import {motion} from 'framer-motion'
-
-import animation_init from '../components/constants'
-const postVariants = animation_init
+import constants from '../components/constants'
 
 export default function Briefe() {
   return (
     <Layout home>
       <Head>
-        <title>Briefe</title>
+        <title>Themen</title>
       </Head>
       
         <section className={utilStyles.headingMd}>
-        <motion.div
-          initial="initial"
-          animate="enter"
-          exit="exit"
-          variants={{ exit: { transition: { staggerChildren: 0.1 } }, enter: { transition: { staggerChildren: 0.1 } } }}
-        >
-                {newdata}
-                
-        </motion.div>
-
+          <motion.div initial="initial" animate="enter" exit="exit" variants={constants.animation.section_exit} >
+              {newdata}
+          </motion.div>
         </section>
 
     </Layout>
@@ -34,8 +25,7 @@ export default function Briefe() {
 
 const newdata = data.themen.map((data, id) => {
     return (
-      // <div key={data.id} className="post">
-      <motion.div key={`themen${data.id}`} variants={postVariants} layoutId={`${data.id}`}>
+      <motion.div key={`themen${data.id}`} variants={constants.animation.post} layoutId={`${data.id}`}>
         <div key={data.id} className={utilStyles.brief_preview}>
             <Link href="/thema/[thema]" as={`/thema/${data.id}`}>
                 <a>{data.title}</a>
@@ -43,8 +33,6 @@ const newdata = data.themen.map((data, id) => {
             <h6>{data.beschreibung}</h6>
             
         </div>
-        </motion.div>
-        // </div>
-        
+        </motion.div>        
     )
 })

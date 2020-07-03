@@ -3,6 +3,12 @@
 ### Repo für das Interface der Engels Ausstellung
 `https://engels.arrenberg.studio/briefe`
 
+*fight against redundant code*
+*ReadMe before asking*
+
+## Open Questions 
+sollen wir nur eine `CSS` datei nutzen?
+`index` as welcome page?
 
 ## Requirements
 ```bash
@@ -118,10 +124,16 @@ Nummer *ID* | Author | Datum | Ort | Status | Kommentar
 
 Name | Dir | Kommentar 
 --- | --- | --- 
-Index | / | should be replaced by briefe
-briefe | / | - 
-themen | / | -
-personen | / | -
-[brief] | /briefe | 2nd menu + brief ansichten
-[person] | /person | 2nd menu
-[thema] | /thema | 2nd menu
+Index | / | landing page link to `briefe`
+briefe | / | main_menu
+themen | / | main_menu
+personen | / | main_menu
+[brief] | /brief | sub_menu + brief ansichten
+[person] | /person | sub_menu
+[thema] | /thema | sub_menu
+
+## Views
+All views are in `/components` *unless in file*
+
+`Brief view`
+displaying the preview of a *brief*
