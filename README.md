@@ -3,11 +3,11 @@
 ### Repo für das Interface der Engels Ausstellung
 `https://engels.arrenberg.studio/briefe`
 
-*fight against redundant code*
+*fight against redundant code* <br>
 *ReadMe before asking*
 
 ## Open Questions 
-sollen wir nur eine `CSS` datei nutzen?
+sollen wir nur eine `CSS` datei nutzen? <br>
 `index` as welcome page?
 
 ## Requirements
