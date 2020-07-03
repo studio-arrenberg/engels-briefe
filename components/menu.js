@@ -17,7 +17,7 @@ export default function Menu() {
 
             <a className={styles.menu_left} onClick={() => Router.back()}>Go Back</a>
 
-            <div class="menu_right">
+            <div className={styles.menu_right}>
                 <Link href="/"><a >Home</a></Link>
                 <Link href="/briefe"><a >Briefe</a></Link>
                 <Link href="/themen"><a  >Themen</a></Link>

@@ -98,10 +98,24 @@
   top: 20px;
 }
 
-
 .post_description{
   position: absolute;
   left: 350px;
   display: block;
   clear: both;
+}
+
+.post {
+  height: 100%;
+  display: inline;
+  float: left;
+
+}
+
+.post_description_title {
+  font-size: 1.5rem;
+}
+
+.post:nth-child(2n){
+  padding-top: 300px;
 }

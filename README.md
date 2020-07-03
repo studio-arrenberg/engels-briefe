@@ -39,6 +39,10 @@ git checkout -b <BRANCH_NAME>
 git fetch
 git checkout <BRANCH_NAME>
 ```
+### update branch
+```bash
+gut pull
+```
 ### push files (in branch)
 ```bash
 git add . 
@@ -53,6 +57,7 @@ git push
 git checkout origin/master
 git merge <BRANCH_NAME>
 ```
+
 
 ## Briefe
 
