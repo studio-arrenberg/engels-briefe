@@ -19,7 +19,6 @@
             "sender": {"name":"Johann Caspar Engels","ort":"Wuppertal", "id":"1"},
             "empfänger" : "Franz",
             "text" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-            "themen" : {"name":["Reisen","Religon"], "id":[1,2]},
             "digitalisate": {"cover": "sjdb.png", "page": ["FE_68_1.png","FE_68_1.png"]},
             "page_01" : "../miscellaneous/digitalisate/FE_68/FE_68_1.png",
             "page_02" : "../miscellaneous/digitalisate/FE_68/FE_68_2.png"
