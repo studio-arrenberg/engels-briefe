@@ -27,7 +27,7 @@ export default function person() {
         <Layout>
 
             <Head>
-              <title>{data.title}</title>
+              <title>Person</title>
             </Head>
 
           <motion.div initial="initial" animate="enter" exit="exit" variants={constants.animation.section_exit}>   

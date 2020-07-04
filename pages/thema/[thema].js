@@ -8,7 +8,13 @@ import {motion} from 'framer-motion'
 import constants from '../../components/constants'
 import Brief_view from '../../components/brief_view'
 
-  
+// export default function thema() {
+//   return (
+//     <h1>hello world</h1>
+//   )
+// }
+
+
 export default function thema() {
 
     const router = useRouter()
@@ -16,7 +22,7 @@ export default function thema() {
 
     const briefe_list = data.briefe.filter(function(item) {
         return item.themen.id.includes(Number(thema))
-    } )
+    })
 
     const item = data.themen.filter(data => {
         return data.id ===  thema;
@@ -27,7 +33,7 @@ export default function thema() {
         <Layout>
 
           <Head>
-            <title>{data.title}</title>
+            <title>Thema</title>
           </Head>
 
           <motion.div initial="initial" animate="enter" exit="exit" variants={constants.animation.section_exit} >
