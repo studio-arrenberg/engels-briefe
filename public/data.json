@@ -3,33 +3,23 @@
             "id" : "1",
             "title" : "Hello",
             "datum" : "1. Mai 1191",
-            "sender" : "Johann Caspar Engels",
-            "sender_ort" : "Wuppertal",
-            "sender_id" : "1",
-            "empfänger" : "Friedrich Engels Senior",
-            "empfänger_ort" : "Hagen",
-            "scan" : "1.jpg",
-            "text" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
             "themen" : {"name":["Reisen","Religon"], "id":[1,2,3,4]},
-            "page_01" : "../miscellaneous/digitalisate/FE_68/FE_68_1.png",
-            "page_02" : "../miscellaneous/digitalisate/FE_68/FE_68_2.png",
-            "scan": {"cover": "sjdb.png", "page": ["1.png","2.png"]},
+            "sender": {"name":"Johann Caspar Engels","ort":"Wuppertal", "id":"1"},
+            "empfänger" : {"name": "Friedrich Engels Senior", "ort": "Hagen"},
+            "text" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+            "digitalisate": {"cover": "sjdb.png", "page": ["FE_68_1.png","FE_68_1.png"]},
             "normalisiert" : "",
-            "diplomatisch" : "",
-            "satzspiegel" : {"links":[23,23,23], "open" : [2,2,1]}
-
-
+            "diplomatisch" : "fe004_norm.html"
         },
         {
             "id" : "2",
             "title" : "Hello",
             "datum" : "1. Mai 1791",
-            "sender" : "Josef",
-            "sender_id" : "2",
+            "themen" : {"name":["Reisen","Religon"], "id":[1,2,3,4]},
+            "sender": {"name":"Johann Caspar Engels","ort":"Wuppertal", "id":"1"},
             "empfänger" : "Franz",
-            "scan" : "1.jpg",
             "text" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-            "themen" : {"name":["Reisen","Religon"], "id":[1,2]},
+            "digitalisate": {"cover": "sjdb.png", "page": ["FE_68_1.png","FE_68_1.png"]},
             "page_01" : "../miscellaneous/digitalisate/FE_68/FE_68_1.png",
             "page_02" : "../miscellaneous/digitalisate/FE_68/FE_68_2.png"
 
@@ -39,29 +29,21 @@
             "id" : "3",
             "title" : "Hello",
             "datum" : "1. Mai 1791",
-            "sender" : "Josef",
-            "sender_id" : "2",
+            "themen" : {"name":["Reisen","Religon"], "id":[1,2,3,4]},
+            "sender": {"name":"Johann Caspar Engels","ort":"Wuppertal", "id":"1"},
             "empfänger" : "Franz",
-            "scan" : "1.jpg",
             "text" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-            "themen" : {"name":["Reisen","Religon"], "id":[1,2]},
-            "page_01" : "../miscellaneous/digitalisate/FE_68/FE_68_1.png",
-            "page_02" : "../miscellaneous/digitalisate/FE_68/FE_68_2.png"
-
-
+            "digitalisate": {"cover": "sjdb.png", "page": ["FE_68_1.png","FE_68_1.png"]}
         },
         {
             "id" : "4",
             "title" : "Hello",
             "datum" : "1. Mai 1791",
-            "sender" : "Josef",
-            "sender_id" : "2",
+            "sender": {"name":"Johann Caspar Engels","ort":"Wuppertal", "id":"1"},
             "empfänger" : "Franz",
-            "scan" : "1.jpg",
             "text" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
             "themen" : {"name":["Reisen","Religon"], "id":[1,2]},
-            "page_01" : "../miscellaneous/digitalisate/FE_68/FE_68_1.png",
-            "page_02" : "../miscellaneous/digitalisate/FE_68/FE_68_2.png"
+            "digitalisate": {"cover": "sjdb.png", "page": ["FE_68_1.png","FE_68_1.png"]}
 
 
         },
@@ -69,14 +51,11 @@
             "id" : "5",
             "title" : "Hello",
             "datum" : "1. Mai 1791",
-            "sender" : "Josef",
-            "sender_id" : "2",
+            "sender": {"name":"Johann Caspar Engels","ort":"Wuppertal", "id":"1"},
             "empfänger" : "Franz",
-            "scan" : "1.jpg",
+            "digitalisate": {"cover": "sjdb.png", "page": ["FE_68_1.png","FE_68_1.png"]},
             "text" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-            "themen" : {"name":["Reisen","Religon"], "id":[1,2]},
-            "page_01" : "../miscellaneous/digitalisate/FE_68/FE_68_1.png",
-            "page_02" : "../miscellaneous/digitalisate/FE_68/FE_68_2.png"
+            "themen" : {"name":["Reisen","Religon"], "id":[1,2]}
 
 
         },
@@ -84,14 +63,12 @@
             "id" : "6",
             "title" : "Hello",
             "datum" : "1. Mai 1791",
-            "sender" : "Josef",
-            "sender_id" : "2",
+            "sender": {"name":"Johann Caspar Engels","ort":"Wuppertal", "id":"1"},
             "empfänger" : "Franz",
-            "scan" : "1.jpg",
+            "digitalisate": {"cover": "sjdb.png", "page": ["FE_68_1.png","FE_68_1.png"]},
             "text" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
             "themen" : {"name":["Reisen","Religon"], "id":[1,2]},
-            "page_01" : "../miscellaneous/digitalisate/FE_68/FE_68_1.png",
-            "page_02" : "../miscellaneous/digitalisate/FE_68/FE_68_2.png"
+            "scan": {"cover": "sjdb.png", "page": ["1.png","2.png"]}
 
 
         },
@@ -99,29 +76,21 @@
             "id" : "7",
             "title" : "Hello",
             "datum" : "1. Mai 1791",
-            "sender" : "Josef",
-            "sender_id" : "2",
+            "sender": {"name":"Johann Caspar Engels","ort":"Wuppertal", "id":"1"},
             "empfänger" : "Franz",
-            "scan" : "1.jpg",
+            "digitalisate": {"cover": "sjdb.png", "page": ["FE_68_1.png","FE_68_1.png"]},
             "text" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-            "themen" : {"name":["Reisen","Religon"], "id":[1,2]},
-            "page_01" : "../miscellaneous/digitalisate/FE_68/FE_68_1.png",
-            "page_02" : "../miscellaneous/digitalisate/FE_68/FE_68_2.png"
-
-
+            "themen" : {"name":["Reisen","Religon"], "id":[1,2]}
         },
         {
             "id" : "8",
             "title" : "Hello",
             "datum" : "1. Mai 1791",
-            "sender" : "Josef",
-            "sender_id" : "2",
+            "sender": {"name":"Johann Caspar Engels","ort":"Wuppertal", "id":"1"},
             "empfänger" : "Franz",
-            "scan" : "1.jpg",
+            "digitalisate": {"cover": "sjdb.png", "page": ["FE_68_1.png","FE_68_1.png"]},
             "text" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-            "themen" : {"name":["Reisen","Religon"], "id":[1,2]},
-            "page_01" : "../miscellaneous/digitalisate/FE_68/FE_68_1.png",
-            "page_02" : "../miscellaneous/digitalisate/FE_68/FE_68_2.png"
+            "themen" : {"name":["Reisen","Religon"], "id":[1,2]}
 
 
         },
@@ -129,14 +98,12 @@
             "id" : "9",
             "title" : "Hello",
             "datum" : "1. Mai 1791",
-            "sender" : "Josef",
-            "sender_id" : "2",
+            "sender": {"name":"Johann Caspar Engels","ort":"Wuppertal", "id":"1"},
             "empfänger" : "Franz",
-            "scan" : "1.jpg",
+            "digitalisate": {"cover": "sjdb.png", "page": ["FE_68_1.png","FE_68_1.png"]},
             "text" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
             "themen" : {"name":["Reisen","Religon"], "id":[1,2]},
-            "page_01" : "../miscellaneous/digitalisate/FE_68/FE_68_1.png",
-            "page_02" : "../miscellaneous/digitalisate/FE_68/FE_68_2.png"
+            "scan": {"cover": "sjdb.png", "page": ["1.png","2.png"]}
 
 
         },
@@ -144,14 +111,11 @@
             "id" : "10",
             "title" : "Hello",
             "datum" : "1. Mai 1791",
-            "sender" : "Josef",
-            "sender_id" : "2",
+            "sender": {"name":"Johann Caspar Engels","ort":"Wuppertal", "id":"1"},
             "empfänger" : "Franz",
-            "scan" : "1.jpg",
+            "digitalisate": {"cover": "sjdb.png", "page": ["FE_68_1.png","FE_68_1.png"]},
             "text" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-            "themen" : {"name":["Reisen","Religon"], "id":[1,2]},
-            "page_01" : "../miscellaneous/digitalisate/FE_68/FE_68_1.png",
-            "page_02" : "../miscellaneous/digitalisate/FE_68/FE_68_2.png"
+            "themen" : {"name":["Reisen","Religon"], "id":[1,2]}
 
 
         },
@@ -159,14 +123,11 @@
             "id" : "11",
             "title" : "Hello",
             "datum" : "1. Mai 1791",
-            "sender" : "Josef",
-            "sender_id" : "2",
+            "sender": {"name":"Johann Caspar Engels","ort":"Wuppertal", "id":1},
             "empfänger" : "Franz",
-            "scan" : "1.jpg",
+            "digitalisate": {"cover": "sjdb.png", "page": ["FE_68_1.png","FE_68_1.png"]},
             "text" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-            "themen" : {"name":["Reisen","Religon"], "id":[1,2]},
-            "page_01" : "../miscellaneous/digitalisate/FE_68/FE_68_1.png",
-            "page_02" : "../miscellaneous/digitalisate/FE_68/FE_68_2.png"
+            "themen" : {"name":["Reisen","Religon"], "id":[1,2]}
 
 
         },
@@ -174,14 +135,12 @@
             "id" : "12",
             "title" : "Hello",
             "datum" : "1. Mai 1791",
-            "sender" : "Josef",
-            "sender_id" : "2",
+            "sender": {"name":"Johann Caspar Engels","ort":"Wuppertal", "id":1},
             "empfänger" : "Franz",
-            "scan" : "1.jpg",
+            "digitalisate": {"cover": "sjdb.png", "page": ["FE_68_1.png","FE_68_1.png"]},
             "text" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-            "themen" : {"name":["Reisen","Religon"], "id":[1,2]},
-            "page_01" : "../miscellaneous/digitalisate/FE_68/FE_68_1.png",
-            "page_02" : "../miscellaneous/digitalisate/FE_68/FE_68_2.png"
+            "themen" : {"name":["Reisen","Religon"], "id":[1,2]}
+            
 
 
         },
@@ -189,14 +148,11 @@
             "id" : "13",
             "title" : "Hello",
             "datum" : "1. Mai 1791",
-            "sender" : "Josef",
-            "sender_id" : "2",
+            "sender": {"name":"Johann Caspar Engels","ort":"Wuppertal", "id":1},
             "empfänger" : "Franz",
-            "scan" : "1.jpg",
+            "digitalisate": {"cover": "sjdb.png", "page": ["FE_68_1.png","FE_68_1.png"]},
             "text" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-            "themen" : {"name":["Reisen","Religon"], "id":[1,2]},
-            "page_01" : "../miscellaneous/digitalisate/FE_68/FE_68_1.png",
-            "page_02" : "../miscellaneous/digitalisate/FE_68/FE_68_2.png"
+            "themen" : {"name":["Reisen","Religon"], "id":[1,2]}
 
 
         }
@@ -230,21 +186,24 @@
             "name":"Franz",
             "beschreibung":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
             "lebzeit":"1702 - 1792",
-            "generation": "2"
+            "generation": "2",
+            "picture":"Franz.jpg"
         },
         {
             "id":"2",
             "name":"Josef",
             "beschreibung":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
             "lebzeit":"1702 - 1792",
-            "generation": "2"
+            "generation": "2",
+            "picture":"Josef.jpg"
         },
         {
             "id":"3",
             "name":"Michel",
             "beschreibung":"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
             "lebzeit":"1702 - 1792",
-            "generation": "2"
+            "generation": "2",
+            "picture":"Michel.jpg"
         }
     ]
 }

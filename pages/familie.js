@@ -30,6 +30,7 @@ const newdata = data.familie.map((data, id) => {
             <Link href="/person/[person]" as={`/person/${data.id}`}>
                 <a>{data.name}</a>
             </Link>
+            <img src={`../pictures/personen/${data.picture}`}/>
             <h6>{data.beschreibung}</h6>
         </div>
         </motion.div>

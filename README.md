@@ -47,7 +47,10 @@ git checkout <BRANCH_NAME>
 ```
 ### update branch
 ```bash
-gut pull
+# update branch internally
+git pull 
+# update from master
+git merge origin/master
 ```
 ### push files (in branch)
 ```bash

@@ -6,6 +6,7 @@ import { motion } from 'framer-motion'
 import constants from './constants'
 
 export default function Brief({data}) {
+    // const url = data.scan.page[0]
     return (
       data.map((data, id) => {
         return (
@@ -13,9 +14,9 @@ export default function Brief({data}) {
             <motion.div variants={constants.animation.post} layoutId={`${data.id}`}>
                 <div key={`${data.id}`} className={utilStyles.brief_preview}>
 
-                    <img src={`${data.page_01}`}/>
+                    <img src={`../pictures/digitalisate/${data.digitalisate.page[0]}`}/>
                     <Link href="/brief/[brief]" as={`/brief/${data.id}`}>
-                        <a>{data.sender} an {data.empfänger}</a>
+                        <a>{data.sender.name} an {data.empfänger.name}</a>
                     </Link>
                     <h4>{data.datum}</h4>
                     <p>{data.text}</p>

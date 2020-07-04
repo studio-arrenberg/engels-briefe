@@ -30,8 +30,8 @@ const newdata = data.themen.map((data, id) => {
             <Link href="/thema/[thema]" as={`/thema/${data.id}`}>
                 <a>{data.title}</a>
             </Link>
+            <img src={`../pictures/themen/${data.picture}`}/>
             <h6>{data.beschreibung}</h6>
-            
         </div>
         </motion.div>        
     )
