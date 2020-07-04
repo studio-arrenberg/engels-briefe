@@ -50,6 +50,7 @@ export function Thema_view({data}) {
                 <div className={utilStyles.brief_preview}>
                   <h1>{data.title}</h1>
                   <p>{data.beschreibung}</p>
+                  <img src={`../pictures/themen/${data.picture}`}/>
                 </div>
             </motion.div>
     

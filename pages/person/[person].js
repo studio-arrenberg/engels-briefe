@@ -15,7 +15,7 @@ export default function person() {
     const { person } = router.query
 
     const briefe_list = data.briefe.filter(function(item) {
-        return item.sender_id.includes(Number(person))
+        return item.id.includes(Number(person))
     } )
 
     const item = data.familie.filter(data => {
@@ -52,6 +52,7 @@ export function Person_view({data}) {
                 <div key={`${data.name}`} className={utilStyles.brief_preview}>
                   <h1>{data.name}</h1>
                   <p>{data.beschreibung}</p>
+                  <img src={`../../pictures/personen/${data.picture}`}/>
                 </div>
               </motion.div>
             </div>

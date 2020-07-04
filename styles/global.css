@@ -64,7 +64,7 @@ main{
   position: absolute;
   top: 150px;
   z-index: 1;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
   overflow-x: scroll;
 
 
