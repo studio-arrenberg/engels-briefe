@@ -10,18 +10,18 @@ export default function Brief({data}) {
     return (
       data.map((data, id) => {
         return (
-          <div key={`${data.id}`} >
+          <div className={utilStyles.item} key={`${data.id}`} >
             <motion.div variants={constants.animation.post} layoutId={`${data.id}`}>
-                <div key={`${data.id}`} className={utilStyles.brief_preview}>
-
+              <Link href="/brief/[brief]" as={`/brief/${data.id}`}>
+                  <div key={`${data.id}`} className={utilStyles.brief_preview}>
                     <img src={`../pictures/digitalisate/${data.digitalisate.page[0]}`}/>
-                    <Link href="/brief/[brief]" as={`/brief/${data.id}`}>
-                        <a>{data.sender.name} an {data.empfänger.name}</a>
-                    </Link>
-                    <h4>{data.datum}</h4>
-                    <p>{data.text}</p>
-    
-                </div>
+                    <div className={utilStyles.post_description}>
+                      <h2>{data.sender.name} an {data.empfänger.name}</h2>
+                      <h4>{data.datum}</h4>
+                      {/* <p>{data.text}</p> */}
+                    </div>
+                  </div>
+              </Link>
             </motion.div>
           </div>
         )
