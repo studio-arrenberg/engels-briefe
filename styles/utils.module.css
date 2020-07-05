@@ -119,3 +119,7 @@
 .post:nth-child(2n){
   padding-top: 300px;
 }
+
+.brief_preview:nth-child(2n){
+  padding-top: 300px;
+}
