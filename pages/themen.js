@@ -13,11 +13,9 @@ export default function Briefe() {
         <title>Themen</title>
       </Head>
       
-        <section className={utilStyles.headingMd}>
           <motion.div initial="initial" animate="enter" exit="exit" variants={constants.animation.section_exit} >
               {newdata}
           </motion.div>
-        </section>
 
     </Layout>
   )
@@ -25,14 +23,24 @@ export default function Briefe() {
 
 const newdata = data.themen.map((data, id) => {
     return (
-      <motion.div key={`themen${data.id}`} variants={constants.animation.post} layoutId={`${data.id}`}>
-        <div key={data.id} className={utilStyles.brief_preview}>
-            <Link href="/thema/[thema]" as={`/thema/${data.id}`}>
-                <a>{data.title}</a>
-            </Link>
+      <div className={utilStyles.item} key={`${data.id}`} >
+        <motion.div key={`themen${data.id}`} variants={constants.animation.post} layoutId={`${data.id}`}>
+          <Link href="/thema/[thema]" as={`/thema/${data.id}`}>
+
+          <div key={data.id} className={utilStyles.brief_preview}>
             <img src={`../pictures/themen/${data.picture}`}/>
-            <h6>{data.beschreibung}</h6>
-        </div>
-        </motion.div>        
+            <div className={utilStyles.post_description}>
+
+            <h2>{data.title}</h2>
+            <p>{data.beschreibung}</p>
+            </div>
+          </div>
+          </Link>
+
+        </motion.div>  
+      </div>
+
     )
 })
+
+  

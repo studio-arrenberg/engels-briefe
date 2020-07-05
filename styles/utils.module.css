@@ -1,10 +1,9 @@
 
+
 .menu_right {
   text-align: right;
   margin-right: 0px;
 }
-
-
 
 
 
@@ -77,6 +76,70 @@
 .picture {
   max-width: 36rem;
 }
+
+
+.brief_preview {
+  position: relative;
+  margin: 200px 50px;
+  width: 700px;
+}
+
+.brief_preview img{
+  width: 300px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.brief_preview img:first-of-type{
+  z-index: 2;
+  left: 20px;
+  top: 20px;
+}
+
+.post_description{
+  position: absolute;
+  left: 350px;
+  display: block;
+  clear: both;
+}
+
+.post {
+  height: 100%;
+  display: inline;
+  float: left;
+
+}
+
+.post_description_title {
+  font-size: 1.5rem;
+}
+
+
+
+.item:nth-of-type(2n){
+  padding-top: 300px;
+}
+
+
+
+
+.static {
+  display: block !important;
+
+
+}
+
+
+
+.menu_right {
+  text-align: right;
+  margin-right: 0px;
+}
+
+
+
+
 
 
 .brief_preview {
