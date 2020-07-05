@@ -12,7 +12,7 @@ export default function Briefe() {
       <Head>
         <title>Themen</title>
       </Head>
-      
+
           <motion.div initial="initial" animate="enter" exit="exit" variants={constants.animation.section_exit} >
               {newdata}
           </motion.div>
