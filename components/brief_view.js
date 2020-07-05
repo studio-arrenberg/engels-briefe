@@ -10,11 +10,13 @@ export default function Brief({data}) {
     return (
       data.map((data, id) => {
         return (
+          
           <div className={utilStyles.item} key={`${data.id}`} >
             <motion.div variants={constants.animation.post} layoutId={`${data.id}`}>
               <Link href="/brief/[brief]" as={`/brief/${data.id}`}>
                   <div key={`${data.id}`} className={utilStyles.brief_preview}>
                     <img src={`../pictures/digitalisate/${data.digitalisate.page[0]}`}/>
+
                     <div className={utilStyles.post_description}>
                       <h2>{data.sender.name} an {data.empfänger.name}</h2>
                       <h4>{data.datum}</h4>
@@ -24,8 +26,8 @@ export default function Brief({data}) {
               </Link>
             </motion.div>
           </div>
+
         )
       })
     )
   }
-  
