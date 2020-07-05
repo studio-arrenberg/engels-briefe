@@ -5,58 +5,77 @@ import { useRouter } from 'next/router'
 import Link from 'next/link'
 import data from '../../public/data.json'
 import {motion} from 'framer-motion'
+import constants from '../../components/constants'
+// import Brief_view from '../../components/brief_view'
 
-const postVariants = {
-    initial: { scale: 0.96, y: 30, opacity: 0 },
-    enter: { scale: 1, y: 0, opacity: 1, transition: { duration: 0.5, ease: [0.48, 0.15, 0.25, 0.96] } },
-    exit: {
-      opacity: 0,
-    }
-  };
 
 export default function Page() {
-  return ( 
-  <Layout>
-  <Head>
-    <title>Hello World</title>
-  </Head>
 
-  <motion.div
-    initial="initial"
-    animate="enter"
-    exit="exit"
-    variants={{ exit: { transition: { staggerChildren: 0.9 } }, enter: { transition: { staggerChildren: 0.1 } } }}
-  >   
-
-      <Post key="brief"/>
-
-  </motion.div>
-
-  </Layout>
-  )
-}
-
-const Post = () => {
   const router = useRouter()
   const { brief } = router.query
 
   const item = data.briefe.filter(data => {
-    return data.id ===  brief;
+    return data.id === brief;
   })
 
-  return (
-    item.map((data, id) => {
-      return (
-        <div key={`${data.id}`} >
-        <motion.div variants={postVariants} layoutId={`${data.id}`}>
-          <div key={`${data.id}`} className={utilStyles.brief_preview}>
-          <img src={`${data.page_01}`}/>
-              <h1>{data.sender} an {data.empfänger}</h1>
-              <h4>{data.datum}</h4>
-              <p>{data.text}</p>
+  // console.log(item)
 
-          </div>
-        </motion.div>
+  return ( 
+    <Layout>
+      <Head>
+        <title>Brief</title>
+      </Head>
+
+      <motion.div initial="initial" animate="enter" exit="exit" variants={constants.animation.section_exit} > 
+
+          <Brief data={item}></Brief>
+
+      </motion.div>
+
+    </Layout>
+  )
+}
+
+
+export function Brief({data}) {
+  return (
+    data.map((data, id) => {
+      return (
+        <div key={`${data.id}`} className={utilStyles.post} >
+          <motion.div variants={constants.animation.post} layoutId={`${data.id}`}>
+              <div key={`${data.id}`} className={utilStyles.brief_preview}>
+
+
+                  {/* meta daten */}
+                  <h1>{data.sender.name} an {data.empfänger.name}</h1>
+                  <p>{data.sender.ort} nach {data.empfänger.ort}</p>
+                  <p>{data.datum}</p>
+
+                  {/* brief inhalt */}
+                  <div className={utilStyles.digitalisate}>
+
+                    {/* in dieser div werden die digitalisate ausgegeben */}
+
+                    <img src={`../../pictures/digitalisate/${data.digitalisate.page[0]}`}/>
+                    <br/>
+                    <img src={`../../pictures/digitalisate/${data.digitalisate.page[1]}`}/>
+                    {/* <img src={`../pictures/digitalisate/${data.digitalisate.page[1]}`}/> */}
+
+                  </div>
+
+                  <div className={utilStyles.brieftext}>
+
+                    {/* in dieser div werden die text basierten ansichten angezeit (diplomatisch/normalisiert) */}
+
+                    <div className={utilStyles.normalisiert}>
+                      
+                      <div className={utilStyles.helloworld} dangerouslySetInnerHTML={{__html: text}}></div>
+
+                    </div>
+                  </div>
+  
+              </div>
+          </motion.div>
         </div>
       )
     })
@@ -64,4 +83,15 @@ const Post = () => {
 }
 
 
+// Notes ::
 
+  // const __html = require('../../public/html/briefe/fe004_dip.js');
+  // var template = { __html: __html };
+
+  // const fullPath = path.join(postsDirectory, fileName)
+  // const fileContents = fs.readFileSync('../public/html/briefe/fe004_dip.html', 'utf8')
+
+
+// Brief Inhalt :: 
+
+const text = '<div class="writing-session" id="index.xml-body.1_div.1"> <h2><span class="headingNumber">1. </span></h2> <div class="pagebreak" id="index.xml-pb-d29e168"><a href="">[Page 1]</a></div> <div class="opener"><span style="display:inline-block" width="6cm"> </span> <div class="dateline"><span class="placeName">Hagen</span> <span class="date">5 <span class="g.enc.tagsdecl.suspension.type3"> (Jan.)</span><span class="expan">Jan<span class="ex">uar</span></span></span></div> </div> <div class="opener"><span style="display:inline-block" width="3cm"> </span><a id="teaser.part.001.s"> <!--anchor--></a> <div class="salute">Liebﬅe beﬅe <span class="abbr"> (F<span class="g.enc.tagsdecl.cc.abbr-colon-sup"><sup>in</sup><span class="orig">⹀</span><span class="corr">.</span></span>)</span><span class="expan">F<span class="ex">reund</span>in</span></div><a id="teaser.part.001.e"> <!--anchor--></a> </div> <p>Ich <span class="orig">Danke</span><span class="corr">danke</span> <span class="orig">dir</span><span class="corr">Dir</span> herzlich dafür, <span class="orig">Daß</span><span class="corr">daß</span> Du mir ſchon ſo bald Nachricht von <span class="orig">dir</span><span class="corr">Dir</span><br class="lb" /> und <span class="orig">Den</span><span class="corr">den</span> Lieben <span class="orig"><span class="g.enc.tagsdecl.suspension.type1"> (deinig)</span><span class="expan">deinig<span class="ex">en</span></span></span><span class="corr"><span class="g.enc.tagsdecl.suspension.type1"> (Deinig)</span><span class="expan">Deinig<span class="ex">en</span></span></span> gabﬅ, so kurz dein Brief auch war, so machte er<br class="lb" /> mir doch viele <span class="orig">Freüde</span><span class="corr">Freude</span>.</p> <p><a id="mark.003.s"> <!--anchor--></a>Zu dem <span class="orig">angetrettenen</span><span class="corr">angetretenen</span> <span class="abbr"> (N.)</span><span class="expan">N<span class="ex">euen</span></span> Jahr wünſche ich dir meine Liebe! <a id="mark.001.s"> <!--anchor--></a>viel<br class="lb" /> <span class="orig">Glük</span><span class="corr">Glück</span> und <span class="orig">Den</span><span class="corr">den</span> beﬅen <span class="g.enc.tagsdecl.suspension.type1"> (Seg.)</span><span class="expan">Seg<span class="ex">en</span></span> Gottes nach dem <span class="g.enc.tagsdecl.suspension.type1"> (äuß)</span><span class="expan">äuß<span class="ex">ern</span></span> und <span class="orig">inern</span><span class="corr">innern</span> Menſchen,<br class="lb" /> vorzüglich wünſche ich: Daß <span class="orig">dis</span><span class="corr">dies</span> Jahr reich für dich ſein mag an<br class="lb" /> <span class="abbr"> (H.)</span><span class="expan">H<span class="ex">eils</span></span> Gütern, du eine Gabe nach der <span class="abbr"> (and.)</span><span class="expan">and<span class="ex">eren</span></span> aus der Gnadenfülle <span class="abbr"> (J.)</span><span class="expan">J<span class="ex">eſu</span></span><br class="lb" /> Chriﬅi <span class="g.enc.tagsdecl.suspension.type1"> (empfang)</span><span class="expan">empfang<span class="ex">en</span></span> mögeﬅ, und gute <span style="text-decoration: line-through">ﬅarke</span> Fortſchritte in der <a id="annot.004.s"> <!--anchor--></a>Heiligung<a id="annot.004.e"> <!--anchor--></a><br class="lb" /> <span class="orig">Thun</span><span class="corr">thun</span> werdeﬅ.<a id="mark.001.e"> <!--anchor--></a><a id="mark.003.e"> <!--anchor--></a> <span class="orig">um</span><span class="corr">Um</span> deine fernere Liebe bitte ich dich <span id="txt.perm002.a">indem <span class="abbr"> (N.)</span><span class="expan">N<span class="ex">euen</span></span> Jahr</span><br class="lb" /> ſehr, und gebe dir <span class="g.enc.tagsdecl.suspension.type1"> (dageg)</span><span class="expan">dageg<span class="ex">en</span></span> Verſichrung von meiner <span class="g.enc.tagsdecl.suspension.type1"> (unaufhörlich)</span><span class="expan">unaufhörlich<span class="ex">en</span></span> Liebe<br class="lb" /> und <span class="orig">Freündſchaft</span><span class="corr">Freundſchaft</span>; <span style="display:inline-block" width="1cm"> </span><a id="mark.004.s"> <!--anchor--></a>für mich <span class="abbr"> (L.)</span><span class="expan">L<span class="ex">iebe</span></span> <span class="orig">Freündin</span><span class="corr">Freundin</span>, war das verfloſſne<br class="lb" /> Jahr ein recht <span class="orig">Merkwürdiges</span><span class="corr">merkwürdiges</span> Jahr, welches mir gewiß Zeitlebens<br class="lb" /> unvergeßlich bleiben wird. <span class="orig">viele</span><span class="corr">Viele</span> Bitterkeit führte es <sup class="sup" id="txt.add001">für mich</sup> mit ſich<br class="lb" /> aber auch wieder <span class="orig">Viele</span><span class="corr">viele</span> <span class="orig">Freüden</span><span class="corr">Freuden</span>, und auch mehr <span class="orig">ſtof</span><span class="corr">Stoff</span> gab es mir<br class="lb" /> <a id="mark.002.s"> <!--anchor--></a><span class="orig">Zum</span><span class="corr">zum</span> Dank und Lobe Gottes, der mir mit ſo <span class="orig">auſerordentlich</span><span class="corr">außerordentlich</span> <span class="orig">Viel</span><span class="corr">viel</span><br class="lb" /> <span class="orig">Weißheit</span><span class="corr">Weisheit</span> und Liebe aus der <span class="orig">groſen</span><span class="corr">großen</span>, mir ſchon <span class="orig">würklich</span><span class="corr">wirklich</span> <span class="g.enc.tagsdecl.suspension.type1"> (umſchwebend)</span><span class="expan">umſchwebend<span class="ex">en</span></span><br class="lb" /> Gefahr errettete, in <span class="orig">Jrthum</span><span class="corr">Jrrthum</span> zu gerathen, über die <span class="g.enc.tagsdecl.suspension.type1"> (<span class="orig">Wichtigﬅ</span><span class="corr">wichtigﬅ</span>)</span><span class="expan"><span class="orig">Wichtigﬅ</span><span class="corr">wichtigﬅ</span><span class="ex">en</span></span><br class="lb" /> <span class="g.enc.tagsdecl.suspension.type1"> (Wahrheit)</span><span class="expan">Wahrheit<span class="ex">en</span></span> des Chriﬅenthums, wodurch der Schaden für mich ſo groß<br class="lb" /> und unausbleiblich geweſen wäre; <a id="teaser.part.002.s"> <!--anchor--></a><span class="orig">Die</span><span class="corr">die</span> Erfahrung ſo ich <span class="orig">Von</span><span class="corr">von</span> der<br class="lb" /> <span class="g.enc.tagsdecl.suspension.type1"> (mächtig)</span><span class="expan">mächtig<span class="ex">en</span></span> <a id="txt.hi.underline001.int.s"> <!--anchor--></a><span style="text-decoration:underline"><span class="orig">hülf</span><span class="corr">Hülf</span> Gotte</span>s<a id="txt.hi.underline001.int.e"> <!--anchor--></a> und von der <span style="text-decoration:underline"><span class="orig">GebätsErhorung</span><span class="corr">Gebetserhörung</span></span> gemacht habe,<br class="lb" /> hat mir unbeſchreiblich wohl gethan, und meine <span class="orig">Hofnung</span><span class="corr">Hoffnung</span> &amp; <span class="g.enc.tagsdecl.suspension.type1"> (Vertrau)</span><span class="expan">Vertrau<span class="ex">en</span></span><br class="lb" /> für die Zukunft ſehr geﬅärkt, ſo <span class="orig">Daß</span><span class="corr">daß</span> ich <span class="orig">jezt</span><span class="corr">jetzt</span> mit <span style="text-decoration:underline">getroﬅem</span><br class="lb" /> <span style="text-decoration:underline">Muth</span> mein ganzes <span class="orig">Schikſal</span><span class="corr">Schickſal</span> in den <span class="g.enc.tagsdecl.suspension.type1"> (Händ)</span><span class="expan">Händ<span class="ex">en</span></span> meines Liebevollen <span class="abbr"> (H.)</span><span class="expan">H<span class="ex">immlischen</span></span><br class="lb" /> Vaters übergeben <span class="orig">kan</span><span class="corr">kann</span>,<a id="teaser.part.002.e"> <!--anchor--></a> in der feﬅen Zuverſicht, daß er <span style="text-decoration:underline">mich</span> ſo<br class="lb" /> <span style="text-decoration:underline">führen wird</span> wie es für meine Ewige Seligkeit und <span class="orig">Herlichkeit</span><span class="corr">Herrlichkeit</span><br class="lb" /> <span class="orig">Das</span><span class="corr">das</span> <span style="text-decoration:underline">beﬅe</span>, <span class="orig">Das</span><span class="corr">das</span> <span class="orig"><span style="text-decoration:underline">vortheilhafteﬅe</span></span><span class="corr"><span style="text-decoration:underline">Vortheilhafteﬅe</span></span> iﬅ, welches auch <span class="orig">jezt</span><span class="corr">jetzt</span> beﬅändig<br class="lb" /> der <span style="text-decoration:underline"><span class="orig">HauptInhalt</span><span class="corr">Hauptinhalt</span></span> meines <span style="text-decoration:underline"><span class="orig">Gebäts</span><span class="corr">Gebets</span></span> <span class="overwritten">iﬅ</span><span class="add">⟨a⟩</span>usmacht; muß hiezu der <span class="orig">weg</span><span class="corr">Weg</span><br class="lb" /> des <span style="text-decoration:underline">Leidens gewählt</span> werden, <span style="text-decoration:underline">nun</span>, ſo <a id="txt.hi.underline002.int.s"> <!--anchor--></a>ge<span style="text-decoration:underline">ſchehe ſein Heiliger Wille!</span><a id="txt.hi.underline002.int.e"> <!--anchor--></a><br class="lb" /> Er der Liebreiche Geber aller guten Gabe wird mir auch <span class="orig">Den<span class="orig"></span><span class="corr">n</span></span><span class="corr">den<span class="orig"></span><span class="corr">n</span></span><br class="lb" /> auf mein <span class="orig">Gebät</span><span class="corr">Gebet</span> <span class="orig">Die</span><span class="corr">die</span> erforderliche <span style="text-decoration:underline">Kräfte und Stärke</span> geben,<br class="lb" /> alles <span class="orig">Das</span><span class="corr">das</span> zu <span class="g.enc.tagsdecl.suspension.type1"> (trag)</span><span class="expan">trag<span class="ex">en</span></span> was ich zu <span class="g.enc.tagsdecl.suspension.type1"> (mein)</span><span class="expan">mein<span class="ex">em</span></span> <span style="text-decoration:underline"><span class="orig">beﬅen</span><span class="corr">Beﬅen</span></span> <span class="g.enc.tagsdecl.suspension.type1"> (trag)</span><span class="expan">trag<span class="ex">en</span></span> muß.</p> <div class="pagebreak" id="index.xml-pb-d29e805"><a href="">[Page 2]</a></div> <p>Silvester wurde hier in <span class="g.enc.tagsdecl.suspension.type1"> (Hag)</span><span class="expan">Hag<span class="ex">en</span></span> durch <span class="g.enc.tagsdecl.suspension.type1"> (ein)</span><span class="expan">ein<span class="ex">en</span></span> <span class="g.enc.tagsdecl.suspension.type1"> (groß)</span><span class="expan">goß<span class="ex">en</span></span> Ball gefeÿert<span class="orig"></span><span class="corr">.</span><br class="lb" /> Liebﬅe <span class="orig">Freündin</span><span class="corr">Freundin</span>! und vom <span class="g.enc.tagsdecl.suspension.type1"> (alt)</span><span class="expan">alt<span class="ex">en</span></span> Jahr ins <span class="orig">Neüe</span><span class="corr">Neue</span> getanzt, <span class="orig">dismal</span><span class="corr">diesmal</span><br class="lb" /> <span class="orig">muﬅe</span><span class="corr">mußte</span> ich <span class="orig">Ihm</span><span class="corr">ihm</span>, so ungern ichs auch that mitbeiwohnen, <span class="orig">Den<span class="orig"></span><span class="corr">n</span></span><span class="corr">den<span class="orig"></span><span class="corr">n</span></span> meine<br class="lb" /> Schweﬅer war beim <span class="g.enc.tagsdecl.suspension.type1"> (vorig)</span><span class="expan">vorig<span class="ex">en</span></span> mir zu gefallen, schon zu Hause ge<br class="g.enc.tagsdecl.hyphenation.divis" /> blieben. <span class="orig">ich</span><span class="corr">Ich</span> muß <span class="g.enc.tagsdecl.suspension.type1"> (sag)</span><span class="expan">sag<span class="ex">en</span></span>, <span class="orig">Daß</span><span class="corr">daß</span> ich mich für der Versuchung fürchtete,<br class="lb" /> weil ich n<span class="overwritten">i</span><span class="add">⟨o⟩</span>ch nicht einmal, seitdem ich <span class="orig">Das</span><span class="corr">das</span> Tanzen dran gab, auf<br class="lb" /> einem Ball war, ich nahm daher oft meine Zuflucht zum <span class="orig">gebät</span><span class="corr">Gebet</span><br class="lb" /> wodurch ich <span class="orig">Dan<span class="orig"></span><span class="corr">n</span></span><span class="corr">dan<span class="orig"></span><span class="corr">n</span></span> auch so viel <span class="orig">ﬅärke</span><span class="corr">Stärke</span> erhielt, daß ich den <span class="g.enc.tagsdecl.suspension.type1"> (<span class="orig">Lokung</span><span class="corr">Lockung</span>)</span><span class="expan"><span class="orig">Lokung</span><span class="corr">Lockung</span><span class="ex">en</span></span><br class="lb" /> und <span class="g.enc.tagsdecl.suspension.type1"> (Reitzung)</span><span class="expan">Reitzung<span class="ex">en</span></span> <span class="orig">glüklich</span><span class="corr">glücklich</span> <span class="orig">wiederﬅand</span><span class="corr">widerﬅand</span> und das Tanzen mit <span class="orig">Gelasenheit</span><span class="corr">Gelassenheit</span><br class="lb" /> und <span class="orig">gleichgültigkeit</span><span class="corr">Gleichgültigkeit</span> <span class="g.enc.tagsdecl.suspension.type1"> (zuseh)</span><span class="expan">zuseh<span class="ex">en</span></span> <span class="orig">konte</span><span class="corr">konnte</span>; <span class="orig">Daß</span><span class="corr">daß</span> es aber kein <span class="g.enc.tagsdecl.suspension.type1"> (angenehm)</span><span class="expan">angenehm<span class="ex">er</span></span><br class="lb" /> Abend für mich war, <span class="orig">Das</span><span class="corr">das</span> <span class="orig">kanﬅ</span><span class="corr">kannﬅ</span> <span class="orig">du</span><span class="corr">Du</span> Dir meine <span class="orig">beﬅe</span><span class="corr">Beﬅe</span>! wohl<br class="lb" /> <span class="orig">Vorﬅellen</span><span class="corr">vorﬅellen</span>, <span class="orig">Die</span><span class="corr">die</span> Verwunderung darüber daß ich als ein <span class="orig">Junges</span><span class="corr">junges</span><br class="lb" /> Madchen nicht tanzte war von allen<span class="orig"><span style="display:inline-block"> </span></span><span class="corr"> </span><span class="g.enc.tagsdecl.suspension.type1"> (<span class="orig">sei</span><span class="corr">Seit</span>)</span><span class="expan"><span class="orig">sei</span><span class="corr">Seit</span><span class="ex">en</span></span> sehr groß und es<br class="lb" /> ging nicht ohne <span class="g.enc.tagsdecl.suspension.type1"> (Leid)</span><span class="expan">Leid<span class="ex">en</span></span> <span class="orig">Dabei</span><span class="corr">dabei</span> wie auch vorher und nachher für<br class="lb" /> mich ab, <span class="orig">Daß</span><span class="corr">daß</span> ich dadurch <span class="orig">zurükgesezt</span><span class="corr">zurückgesetzt</span> wurde, und verschiedene<br class="lb" /> über mich spotteten, merkte ich wohl, diese <span class="orig">bemerkung</span><span class="corr">Bemerkung</span> war<br class="lb" /> nun freilig für <span class="g.enc.tagsdecl.suspension.type1"> (mein)</span><span class="expan">mein<span class="ex">en</span></span> Stolz nicht die <span class="orig">angenemﬅe</span><span class="corr">angenehmﬅe</span>, doch aber<br class="lb" /> für <span class="g.enc.tagsdecl.suspension.type1"> (selbig)</span><span class="expan">selbig<span class="ex">en</span></span> sehr gut und heilsam;</p> <p>Nach der <span class="orig">Uberwindung</span><span class="corr">Überwindung</span> und erhaltnem Siege wards mir<br class="lb" /> außerordentlich wohl <span class="abbr"> (L.)</span><span class="expan">L<span class="ex">iebe</span></span> <span class="abbr"> (F<span class="g.enc.tagsdecl.cc.abbr-period-sup">.<sup>in</sup></span>)</span><span class="expan">F<span class="ex">reund</span>in</span>! und ich <span class="orig">freüte</span><span class="corr">freute</span> mich ſehr<br class="lb" /> <span class="orig">Daß</span><span class="corr">daß</span> ich gewürdigt <span class="g.enc.tagsdecl.suspension.type1"> (word)</span><span class="expan">word<span class="ex">en</span></span> war, um meiner <span class="orig">Überzeügung</span><span class="corr">Überzeugung</span><br class="lb" /> willen etwas zu <span class="g.enc.tagsdecl.suspension.type1"> (<span class="orig">Leid</span><span class="corr">leid</span>)</span><span class="expan"><span class="orig">Leid</span><span class="corr">leid</span><span class="ex">en</span></span>.<a id="mark.002.e"> <!--anchor--></a><a id="mark.004.e"> <!--anchor--></a></p> <blockquote class="closer"> <p><span class="abbr"> (D.)</span><span class="expan">D<span class="ex">einem</span></span> <span class="abbr"> (L.)</span><span class="expan">L<span class="ex">ieben</span></span> <span class="orig">Man</span><span class="corr">Mann</span> und <span class="abbr"> (S.)</span><span class="expan">S<span class="ex">chwester</span></span> Jacobi empfiehl ich mich aufs Herzlichﬅe<span class="orig"></span><span class="corr">.</span></p> </blockquote> <blockquote class="closer"> <p><a id="annot.001.s"> <!--anchor--></a>Meine <span class="persName"><span class="abbr"> (S.)</span><span class="expan">S<span class="ex">chwester</span></span></span><a id="annot.001.e"> <!--anchor--></a> und Nichte <span class="g.rend.script.latin">Märken</span> <span class="g.enc.tagsdecl.suspension.type1"> (grüß)</span><span class="expan">grüß<span class="ex">en</span></span> dich <span class="orig">ebenfals</span><span class="corr">ebenfalls</span><span class="orig"></span><span class="corr">.</span></p> </blockquote> <div class="closer">Lebe recht wohl ewig geliebte <span class="orig">Freündin</span><span class="corr">Freundin</span>, und behalte <span class="orig">Lieb</span><span class="corr">lieb</span> <div class="signed"><span style="display:inline-block" width="12cm"> </span>Deine <span class="orig">treüe</span><span class="corr">treue</span> aufrichtige<br class="lb" /> <span style="display:inline-block" width="12cm"> </span><span class="g.rend.script.latin">L. N.</span></div> </div> </div> '

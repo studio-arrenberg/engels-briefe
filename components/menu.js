@@ -1,3 +1,11 @@
+/* 
+
+deprecated !
+
+
+*/
+
+
 import Head from 'next/head'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
@@ -9,15 +17,12 @@ import { useRouter } from 'next/router'
 
 export default function Menu() {
 
-    // console.log(useRouter.pathname)
-    // console.log(router.pathname)
-
     return (
         <nav >
 
             <a className={styles.menu_left} onClick={() => Router.back()}>Go Back</a>
 
-            <div class="menu_right">
+            <div className={styles.menu_right}>
                 <Link href="/"><a >Home</a></Link>
                 <Link href="/briefe"><a >Briefe</a></Link>
                 <Link href="/themen"><a  >Themen</a></Link>

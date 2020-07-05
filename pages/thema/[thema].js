@@ -5,74 +5,44 @@ import { useRouter } from 'next/router'
 import Link from 'next/link'
 import data from '../../public/data.json'
 import {motion} from 'framer-motion'
+import constants from '../../components/constants'
+import Brief_view from '../../components/brief_view'
 
-const postVariants = {
-    initial: { scale: 0.96, y: 30, opacity: 0 },
-    enter: { scale: 1, y: 0, opacity: 1, transition: { duration: 0.5, ease: [0.48, 0.15, 0.25, 0.96] } },
-    exit: {
-      opacity: 0,
-    }
-  };
-  
-export default function Page() {
+// export default function thema() {
+//   return (
+//     <h1>hello world</h1>
+//   )
+// }
+
+
+export default function thema() {
 
     const router = useRouter()
     const { thema } = router.query
 
     const briefe_list = data.briefe.filter(function(item) {
         return item.themen.id.includes(Number(thema))
-    } )
+    })
 
     const item = data.themen.filter(data => {
         return data.id ===  thema;
-      })
+    })
 
 
     return ( 
         <Layout>
 
-        <Head>
-        <title>{data.title}</title>
-        </Head>
+          <Head>
+            <title>Thema</title>
+          </Head>
 
-
-        <motion.div
-          initial="initial"
-          animate="enter"
-          exit="exit"
-          variants={{ exit: { transition: { staggerChildren: 0.9 } }, enter: { transition: { staggerChildren: 0.1 } } }}
-        >
-
-        <Thema_view data={item} />
-
-        <Brief_view data={briefe_list} />
-
-        </motion.div>
+          <motion.div initial="initial" animate="enter" exit="exit" variants={constants.animation.section_exit} >
+            <Thema_view data={item} />
+            <Brief_view data={briefe_list} />
+          </motion.div>
 
         </Layout>
         
-    )
-}
-
-export function Brief_view({data}) {
-
-    return (
-    data.map((data, id) => {
-        return (
-            <div key={data.id} className="post">
-            <motion.div variants={postVariants} layoutId={`${data.id}`}>
-            <div  key={data.id} className={utilStyles.brief_preview}>
-                <Link href="/brief/[brief]" as={`/brief/${data.id}`}>
-                    <a>{data.sender} an {data.empfänger}</a>
-                </Link>
-                <h6>{data.datum}</h6>
-                <h6>{data.text}</h6>
-                
-            </div>
-            </motion.div>
-            </div>
-        )
-    })
     )
 }
 
@@ -82,18 +52,15 @@ export function Thema_view({data}) {
         data.map((data, id) => {
           return (
     
-            <motion.div key={`themen${data.id}`} variants={postVariants} layoutId={`${data.id}`}>
+            <motion.div key={`themen${data.id}`} variants={constants.animation.post} layoutId={`${data.id}`}>
                 <div className={utilStyles.brief_preview}>
-                <h1>{data.title}</h1>
-                <p>{data.beschreibung}</p>
-        
+                  <h1>{data.title}</h1>
+                  <p>{data.beschreibung}</p>
+                  <img src={`../pictures/themen/${data.picture}`}/>
                 </div>
             </motion.div>
     
           )}
-          
-          )
-          
-          )
-
+        )
+    )
 }

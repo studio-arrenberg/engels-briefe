@@ -12,7 +12,7 @@ export default function Home() {
         <title>Engelsbriefe</title>
       </Head>
 
-      <div class="static">
+      <div className={utilStyles.static}>
               <ChangeLog/>
         </div>
     </Layout>

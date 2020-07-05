@@ -38,6 +38,7 @@ img {
 
 p,h1,h2,h3,h4,h5,h6,ul,li {
   color: white;
+  font-weight: 500;
 }
 
 header{
@@ -64,7 +65,7 @@ main{
   position: absolute;
   top: 150px;
   z-index: 1;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
   overflow-x: scroll;
 
 
@@ -74,28 +75,4 @@ main > div{
 width: auto;
 display: flex;
 
-}
-
-.static {
-  display: block !important;
-
-
-}
-
-.post {
-  height: 100%;
-  display: inline;
-  float: left;
-
-}
-
-
-.post_description_title {
-  font-size: 1.5rem;
-}
-
-
-
-.post:nth-child(2n){
-  padding-top: 300px;
 }
