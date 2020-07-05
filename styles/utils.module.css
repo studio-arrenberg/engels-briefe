@@ -193,6 +193,40 @@
   padding-top: 300px;
 }
 
+.briefcontainer{
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
 .brieftext{
   width: 50%;
+  float: left;
+  padding: 20px;
+}
+
+
+.digitalisate{ 
+  width: 50%;
+  float: left;
+  padding: 20px;
+
+}
+
+
+
+
+
+.orig{
+  color: red;
+}
+
+
+
+.corr{
+  color: green;
+}
+
+.writing-session {
+      font-family: serif;
+
 }

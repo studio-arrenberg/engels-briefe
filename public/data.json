@@ -52,8 +52,7 @@
             "text" : "Wie freue ich mich daß Du glücklich, gesund und munter zu Hause gekommen bist, und Dich nach der Reise so wohl befindest – der gütige Gott seye von ganzem Herzen dafür gedankt daß Er Dich begleitet und vor Unglück bewahret hat – Er der liebevolle Menschenhüter seye Dir dann auf Deiner nächsten Reise hierhin auch wieder recht nahe und führe Dich doch gesund und wohl in meine Armen.",
             "digitalisate": {"cover": "FE_22.1.jpg", "page": ["FE_26.2.jpg","FE_26.3.jpg","FE_26.4.jpg"]},
             "normalisiert" : "",
-            "diplomatisch" : ""
-=======
+            "diplomatisch" : "",
             "datum" : "1. Mai 1791",
             "themen" : {"name":["Reisen","Religon"], "id":[1,2,3,4]},
             "sender": {"name":"Johann Caspar Engels","ort":"Wuppertal", "id":"1"},
@@ -95,7 +94,7 @@
             "text" : "Deine beyde liebe Briefe habe ich vorgestern Morgen zugleich erhalten, der aus Schwalbach muß also Unterwegens liegen geblieben seyn – wie groß war meine Freude als ich etwas von Deiner lieben Hand erblickte, und die erfreuliche Nachricht las, daß Du mein Bester! ",
             "digitalisate": {"cover": "sjdb.png", "page": ["FE_29.1.jpg","FE_29.2.jpg", "FE_29.3.jpg", "FE_29.4.jpg"]},
             "normalisiert" : "",
-            "diplomatisch" : ""
+            "diplomatisch" : "",
             "title" : "Hello",
             "datum" : "1. Mai 1791",
             "sender": {"name":"Johann Caspar Engels","ort":"Wuppertal", "id":"1"},

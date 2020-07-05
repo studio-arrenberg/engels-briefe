@@ -70,3 +70,46 @@ width: auto;
 display: flex;
 
 }
+
+
+
+.orig{
+  /* color: red; */
+}
+
+
+.corr{
+  color: green;
+  display: none;
+
+}
+
+
+
+p > span .latin{
+  font-family: sans-serif;
+  color: red;
+}
+
+.g\.rend\.script\.latin{
+  font-family: sans-serif;
+
+}
+
+.active{
+  color: red;
+}
+
+.headingNumber{
+  display: none;
+}
+
+h1.maintitle{
+  margin-left: 0px;
+}
+
+.g\.enc\.tagsdecl\.suspension\.type1{
+          color: red;
+  display: none;
+
+}
