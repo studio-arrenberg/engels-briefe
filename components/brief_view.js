@@ -30,33 +30,3 @@ export default function Brief({data}) {
       })
     )
   }
-  
-
-  // redundant brief view:
-
-// const newdata = data.briefe.map((data, id) => {
-
-//     return (
-//       <div key={data.id} className={utilStyles.post}>
-//       <motion.div  variants={constants.animation.post} layoutId={`${data.id}`}>
-//         <div key={data.id} className={utilStyles.brief_preview}>
-        
-
-//         {/* path should be included of the first page */}
-//           <img src={`${data.page_01}`}/>
-
-//           <div className={utilStyles.post_description}>
-//             <Link href="/brief/[brief]" as={`/brief/${data.id}`}>
-//                  <a className={utilStyles.post_description_title}>{data.sender} an {data.empfänger} {data.sender_ort}</a>  
-//             </Link>
-
-//               <h6>{data.datum}</h6>
-//               <h6>{data.text}</h6> 
-//             </div>
-//         </div>
-//         </motion.div>
-//         </div>
-      
-//     )
-  
-// })
