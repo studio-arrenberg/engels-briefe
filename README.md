@@ -1,10 +1,10 @@
 # Engelsbriefe
 
 ### Repo für das Interface der Engels Ausstellung
-`https://engels.arrenberg.studio/briefe`
+`https://engels.arrenberg.studio/`
 
 *fight against redundant code* <br>
-*ReadMe before asking*
+*`ReadMe` before asking*
 
 ## Open Questions 
 sollen wir nur eine `CSS` datei nutzen? <br>
@@ -24,7 +24,7 @@ npm run dev
 
 ## Git Commands
 
-### Set up 
+### set up 
 ```bash
 git init
 git clone https://github.com/j0hannr/engels-briefe.git
@@ -32,15 +32,15 @@ git clone https://github.com/j0hannr/engels-briefe.git
 cd engels-briefe
 npm install
 ```
-### Check master
+### check master
 ```bash
 git pull origin master
 ```
-### Create branch
+### create branch
 ```bash
 git checkout -b <BRANCH_NAME>
 ```
-### Check branch
+### check branch
 ```bash
 git fetch
 git checkout <BRANCH_NAME>
