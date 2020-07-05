@@ -72,7 +72,7 @@ git merge <BRANCH_NAME>
 
 Nummer *ID* | Author | Datum | Ort | Status | Kommentar 
 --- | --- | --- | --- | --- | ---
-001 | Louise Noot | 1791-01-05 | Hagen | :x: | 
+001 | Louise Noot | 1791-01-05 | Hagen | :x: | Louise Engels, geb. Noot ???
 004 | Friedrich Christian Hoffmann | 1791-05-12 | Düsseldorf | :x: |
 021 | Johann Caspar Engels | 1791-09-09| Barmen | :x: |
 022 | Louise Engels, geb. Noot | 1791-09-10 | Ruhrort | :x: |

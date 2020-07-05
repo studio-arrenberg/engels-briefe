@@ -6,7 +6,6 @@ import Link from 'next/link'
 import data from '../../public/data.json'
 import {motion} from 'framer-motion'
 import constants from '../../components/constants'
-// import Briefe from '../familie'
 import Brief_view from '../../components/brief_view'
 
 
@@ -64,10 +63,8 @@ export function Brief() {
   // var __html = require('../../public/html/briefe/fe004_dip.html');
   // var template = { __html: __html };
 
-
-
   return (
-    <div className={utilStyles.helloworld} dangerouslySetInnerHTML={{__html: code}}></div>
+    <div className={utilStyles.helloworld} dangerouslySetInnerHTML={{__html: html}}></div>
   )
   
 }
