@@ -13,9 +13,9 @@ export default function Menu() {
         <header className={styles.header}>
             <nav >
 
-                <a className={styles.menu_left} onClick={() => Router.back()}>Go Back</a>
+                <a className={styles.menu_left} onClick={() => Router.back()}></a>
 
-                <div className={styles.menu_right}>
+                <div className={utilStyles.menu_right}>
                     {/* <Link href="/"><a >Home</a></Link> */}
                     <Link href="/briefe"><a >Briefe</a></Link>
                     <Link href="/themen"><a  >Themen</a></Link>
