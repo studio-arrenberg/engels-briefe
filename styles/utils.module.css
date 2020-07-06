@@ -212,21 +212,8 @@
 
 }
 
-
-
-
-
-.orig{
-  color: red;
-}
-
-
-
-.corr{
-  color: green;
-}
-
-.writing-session {
-      font-family: serif;
+.meta{
+  padding: 20px;
+  width: 100%;
 
 }

@@ -43,13 +43,17 @@ export function Brief({data}) {
       return (
         <div key={`${data.id}`} className={utilStyles.briefcontainer} >
           <motion.div variants={constants.animation.post} layoutId={`${data.id}`}>
-              <div className={utilStyles} key={`${data.id}`} >
+              <div  key={`${data.id}`} >
 
 
                   {/* meta daten */}
-                  <h1>{data.sender.name} an {data.empfänger.name}</h1>
-                  <p>{data.sender.ort} nach {data.empfänger.ort}</p>
-                  <p>{data.datum}</p>
+                  <div className={utilStyles.meta}>
+                  <h1>{data.id}</h1>
+
+                    <h1>{data.sender.name} an {data.empfänger.name}</h1>
+                    <p>{data.sender.ort} nach {data.empfänger.ort}</p>
+                    <p>{data.datum}</p>
+                  </div>
 
                   {/* brief inhalt */}
                   <div className={utilStyles.digitalisate}>
