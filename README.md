@@ -7,8 +7,11 @@
 *`ReadMe` before asking*
 
 ## Open Questions 
-sollen wir nur eine `CSS` datei nutzen? <br>
-`index` as welcome page?
+<br>
+`index` as welcome page? - Find ich gut wer will von der Demo ein paar Varianten in Sketch layouten? M
+
+
+
 
 ## Requirements
 ```bash
@@ -98,7 +101,12 @@ Nummer *ID* | Author | Datum | Ort | Status | Kommentar
 * Add data to json file
 * load html files in brief view
 * brief view file (?)
-* style Themen + Familie Slider + Briefansicht
+* Startpage (Index)
+* **Briefansicht Layout in Sketch!**
+* Slider Shadow l/r
+* Themen/ Personen Textfelder anpassen 
+* Animationen (auto slider)
+
 
 ## Done
 
@@ -118,6 +126,8 @@ Nummer *ID* | Author | Datum | Ort | Status | Kommentar
 * clean syntax
 * undefined is not an object (evaluating 'children.join')
 * conditional `go back` *when on subpages*
+* style Themen + Familie Slider + Briefansicht
+
 
 
 ## Markdown Styles
