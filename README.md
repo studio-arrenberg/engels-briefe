@@ -146,3 +146,11 @@ All views are in `/components` *unless in file*
 
 `Brief view`
 displaying the preview of a *brief*
+
+## Tools
+
+#### Code review
+https://deepscan.io/dashboard
+https://www.codefactor.io/
+#### Image optimization 
+https://imgbot.net/app/
