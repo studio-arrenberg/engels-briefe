@@ -3,15 +3,10 @@
 ### Repo für das Interface der Engels Ausstellung
 `https://engels.arrenberg.studio/`
 
-*fight against redundant code* <br>
-*`ReadMe` before asking*
 
 ## Open Questions 
 <br>
 `index` as welcome page? - Find ich gut wer will von der Demo ein paar Varianten in Sketch layouten? M
-
-
-
 
 ## Requirements
 ```bash
@@ -100,11 +95,7 @@ Nummer *ID* | Author | Datum | Ort | Status | Kommentar
 
 * Add data to json file
 * load html files in brief view
-* images
-* clean syntax
-* undefined is not an object (evaluating 'children.join')
 * brief view file (?)
-* conditional `go back` *when on subpages*
 * Startpage (Index)
 * **Briefansicht Layout in Sketch!**
 * Slider Shadow l/r
@@ -126,6 +117,10 @@ Nummer *ID* | Author | Datum | Ort | Status | Kommentar
 * Git Desktop Client Test
 * Add Briefe Overview
 * Briefe Images + Data
+* images
+* clean syntax
+* undefined is not an object (evaluating 'children.join')
+* conditional `go back` *when on subpages*
 * style Themen + Familie Slider + Briefansicht
 
 
