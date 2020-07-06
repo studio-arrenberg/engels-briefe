@@ -150,7 +150,7 @@ displaying the preview of a *brief*
 ## Tools
 
 #### Code review
-https://deepscan.io/dashboard
+https://deepscan.io/dashboard <br>
 https://www.codefactor.io/
 #### Image optimization 
 https://imgbot.net/app/
