@@ -3,15 +3,10 @@
 ### Repo für das Interface der Engels Ausstellung
 `https://engels.arrenberg.studio/`
 
-*fight against redundant code* <br>
-*`ReadMe` before asking*
 
 ## Open Questions 
 <br>
 `index` as welcome page? - Find ich gut wer will von der Demo ein paar Varianten in Sketch layouten? M
-
-
-
 
 ## Requirements
 ```bash
