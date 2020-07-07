@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import styles from './layout.module.css'
+// import Head from 'next/head'
+// import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -15,8 +15,9 @@ export default function Brief({data}) {
             <motion.div variants={constants.animation.post} layoutId={`${data.id}`}>
               <Link href="/brief/[brief]" as={`/brief/${data.id}`}>
                   <div key={`${data.id}`} className={utilStyles.brief_preview}>
-                    <img src={`../pictures/digitalisate/${data.digitalisate.page[0]}`}/>
-                    <img src={`../pictures/digitalisate/${data.digitalisate.page[1]}`}/>
+                    
+                    <img src={`../pictures/digitalisate/thumbnails/${data.digitalisate.page[0]}`}/>
+                    <img src={`../pictures/digitalisate/thumbnails/${data.digitalisate.page[1]}`}/>
 
                     <div className={utilStyles.post_description}>
                       <h2>{data.sender.name} an {data.empfänger.name}</h2>

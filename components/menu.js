@@ -5,14 +5,10 @@ deprecated !
 
 */
 
-
-import Head from 'next/head'
-import styles from './layout.module.css'
+// import Head from 'next/head'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import Router from 'next/router'
-// import { useRouter } from 'next/router'
-import { useRouter } from 'next/router'
 
 
 export default function Menu() {
@@ -20,9 +16,9 @@ export default function Menu() {
     return (
         <nav >
 
-            <a className={styles.menu_left} onClick={() => Router.back()}>Go Back</a>
+            <a className={utilStyles.menu_left} onClick={() => Router.back()}>Go Back</a>
 
-            <div className={styles.menu_right}>
+            <div className={utilStyles.menu_right}>
                 <Link href="/"><a >Home</a></Link>
                 <Link href="/briefe"><a >Briefe</a></Link>
                 <Link href="/themen"><a  >Themen</a></Link>

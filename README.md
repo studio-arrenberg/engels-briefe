@@ -3,15 +3,9 @@
 ### Repo für das Interface der Engels Ausstellung
 `https://engels.arrenberg.studio/`
 
-*fight against redundant code* <br>
-*`ReadMe` before asking*
 
-## Open Questions 
-<br>
+## Open Questions
 `index` as welcome page? - Find ich gut wer will von der Demo ein paar Varianten in Sketch layouten? M
-
-
-
 
 ## Requirements
 ```bash
@@ -21,8 +15,10 @@ npm # will be installed in the Git setup process
 
 ## React Commands
 ```bash
-# Start localhost server
+# Start localhost dev server
 npm run dev
+# Start localhost server
+npm run start
 ```
 
 ## Git Commands
@@ -100,11 +96,7 @@ Nummer *ID* | Author | Datum | Ort | Status | Kommentar
 
 * Add data to json file
 * load html files in brief view
-* images
-* clean syntax
-* undefined is not an object (evaluating 'children.join')
 * brief view file (?)
-* conditional `go back` *when on subpages*
 * Startpage (Index)
 * **Briefansicht Layout in Sketch!**
 * Slider Shadow l/r
@@ -126,6 +118,10 @@ Nummer *ID* | Author | Datum | Ort | Status | Kommentar
 * Git Desktop Client Test
 * Add Briefe Overview
 * Briefe Images + Data
+* images
+* clean syntax
+* undefined is not an object (evaluating 'children.join')
+* conditional `go back` *when on subpages*
 * style Themen + Familie Slider + Briefansicht
 * Adding Thumbnails
 
@@ -152,3 +148,11 @@ All views are in `/components` *unless in file*
 
 `Brief view`
 displaying the preview of a *brief*
+
+## Tools
+
+#### Code review
+https://deepscan.io/dashboard <br>
+https://www.codefactor.io/
+#### Image optimization 
+https://imgbot.net/app/

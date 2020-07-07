@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout'
+import Layout from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import data from '../public/data.json'
@@ -28,7 +28,7 @@ const newdata = data.themen.map((data, id) => {
           <Link href="/thema/[thema]" as={`/thema/${data.id}`}>
 
           <div key={data.id} className={utilStyles.brief_preview}>
-            <img src={`../pictures/themen/${data.picture}`}/>
+            <img src={`../pictures/themen/thumbnails/${data.picture}`}/>
             <div className={utilStyles.post_description}>
 
             <h2>{data.title}</h2>
