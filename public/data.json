@@ -188,7 +188,7 @@
             "sender": {"name":"Friedrich Engels sen.","ort":"London", "id":"1"},
             "empfänger" : {"name": "Elise Engels, geb. van Haar", "ort": "Barmen"},
             "text" : "Soeben Donnerstag Morgen um 7 Uhr sind wir hier glücklich angekommen, nachdem wir eine ungewöhnlich lange Überfahrt gehabt haben. ",
-            "digitalisate": {"cover": "FE_307.2.jpg", "page": ["FE_307.1.jpg"]},
+            "digitalisate": {"cover": "FE_307.2.jpg", "page": ["FE_307.1.jpg","FE_307.2.jpg"]},
             "normalisiert" : "fe004_norm.html",
             "diplomatisch" : "fe004_norm.html"
         },

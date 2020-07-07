@@ -91,7 +91,7 @@ Nummer *ID* | Author | Datum | Ort | Status | Kommentar
 284 | Gerhard Bernhard van Haar | 1826-04-20 | Hamm | :white_check_mark: |
 294 | Friedrich Engels sen. | 1827-08-16 | Paris | :white_check_mark: |
 306 | Friedrich Engels sen. | 1838-07-26 | London | :white_check_mark: |
-307 | Friedrich Engels sen. | 1838-08-11 | Bremen | :white_check_mark: | Digitalisate Benennung Fehlerhaft?
+307 | Friedrich Engels sen. | 1838-08-11 | Bremen | :white_check_mark: | Fehlerhafte Benennung?
 341 | Friedrich Engels sen. | 1858-09-10 | Manchester | :white_check_mark: | Schlechte Scan Qualität!
 
 
@@ -127,6 +127,7 @@ Nummer *ID* | Author | Datum | Ort | Status | Kommentar
 * Add Briefe Overview
 * Briefe Images + Data
 * style Themen + Familie Slider + Briefansicht
+* Adding Thumbnails
 
 
 
