@@ -4,8 +4,7 @@
 `https://engels.arrenberg.studio/`
 
 
-## Open Questions 
-<br>
+## Open Questions
 `index` as welcome page? - Find ich gut wer will von der Demo ein paar Varianten in Sketch layouten? M
 
 ## Requirements
