@@ -15,8 +15,10 @@ npm # will be installed in the Git setup process
 
 ## React Commands
 ```bash
-# Start localhost server
+# Start localhost dev server
 npm run dev
+# Start localhost server
+npm run start
 ```
 
 ## Git Commands
