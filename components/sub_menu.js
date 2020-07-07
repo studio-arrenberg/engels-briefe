@@ -1,11 +1,8 @@
-import Head from 'next/head'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import Router from 'next/router'
 // import { useRouter } from 'next/router'
-import { useRouter } from 'next/router'
-// import backicon from './icons/back.svg'
 import { FiArrowLeft } from "react-icons/fi";
 
 

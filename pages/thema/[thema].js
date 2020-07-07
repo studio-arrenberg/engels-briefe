@@ -2,18 +2,11 @@ import Layout from '../../components/layout'
 import Head from 'next/head'
 import utilStyles from '../../styles/utils.module.css'
 import { useRouter } from 'next/router'
-import Link from 'next/link'
+// import Link from 'next/link'
 import data from '../../public/data.json'
 import {motion} from 'framer-motion'
 import constants from '../../components/constants'
 import Brief_view from '../../components/brief_view'
-
-// export default function thema() {
-//   return (
-//     <h1>hello world</h1>
-//   )
-// }
-
 
 export default function thema() {
 
