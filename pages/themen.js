@@ -28,7 +28,7 @@ const newdata = data.themen.map((data, id) => {
           <Link href="/thema/[thema]" as={`/thema/${data.id}`}>
 
           <div key={data.id} className={utilStyles.brief_preview}>
-            <img src={`../pictures/themen/thumbnail/${data.picture}`}/>
+            <img src={`../pictures/themen/thumbnails/${data.picture}`}/>
             <div className={utilStyles.post_description}>
 
             <h2>{data.title}</h2>

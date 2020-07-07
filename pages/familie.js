@@ -28,7 +28,7 @@ const newdata = data.familie.map((data, id) => {
       <motion.div key={`familir${data.id}`} variants={constants.animation.post} layoutId={`${data.id}`}>
         <Link href="/person/[person]" as={`/person/${data.id}`}>
         <div className={utilStyles.brief_preview}>
-          <img src={`../pictures/personen/${data.picture}`}/>
+          <img src={`../pictures/personen/thumbnails/${data.picture}`}/>
           <div className={utilStyles.post_description}>
             <h2>{data.name}</h2>
             <p>{data.beschreibung}</p>
