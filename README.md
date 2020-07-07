@@ -153,6 +153,7 @@ displaying the preview of a *brief*
 
 #### Code review
 https://deepscan.io/dashboard <br>
-https://www.codefactor.io/
+https://www.codefactor.io/ <br>
+https://codecov.io
 #### Image optimization 
 https://imgbot.net/app/
