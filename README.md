@@ -125,7 +125,11 @@ Nummer *ID* | Author | Datum | Ort | Status | Kommentar
 * style Themen + Familie Slider + Briefansicht
 * Adding Thumbnails
 
+## Additional Testing
 
+* Matomo https://www.npmjs.com/package/@datapunt/matomo-tracker-react
+* LogRocket
+* Service Workers
 
 ## Markdown Styles
 
