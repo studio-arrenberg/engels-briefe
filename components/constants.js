@@ -13,7 +13,7 @@ const constants = {
       // none (exsample)
     },
     section_exit: {
-      exit: { transition: { staggerChildren: 0.03 } }, enter: { transition: { staggerChildren: 0.10 } }
+      exit: { transition: { staggerChildren: 0.01 } }, enter: { transition: { staggerChildren: 0.10 } }
     }
   }
   

@@ -30,7 +30,7 @@ export default function thema() {
           </Head>
 
           <motion.div initial="initial" animate="enter" exit="exit" variants={constants.animation.section_exit} >
-            <Thema_view data={item} />
+            <Thema data={item} />
             <Brief_view data={briefe_list} />
           </motion.div>
 
@@ -39,19 +39,28 @@ export default function thema() {
     )
 }
 
-export function Thema_view({data}) {
+export function Thema({data}) {
 
     return (
         data.map((data, id) => {
           return (
     
+            <div className={utilStyles.item} key={`${data.id}`} >
             <motion.div key={`themen${data.id}`} variants={constants.animation.post} layoutId={`${data.id}`}>
-                <div className={utilStyles.brief_preview}>
-                  <h1>{data.title}</h1>
-                  <p>{data.beschreibung}</p>
-                  <img src={`../pictures/themen/${data.picture}`}/>
+              {/* <Link href="/thema/[thema]" as={`/thema/${data.id}`}> */}
+    
+              <div key={data.id} className={utilStyles.brief_preview}>
+                <img src={`../pictures/themen/thumbnails/${data.picture}`}/>
+                <div className={utilStyles.post_description}>
+    
+                <h2>{data.title}</h2>
+                <p>{data.beschreibung}</p>
                 </div>
-            </motion.div>
+              </div>
+              {/* </Link> */}
+    
+            </motion.div>  
+          </div>
     
           )}
         )
