@@ -18,6 +18,7 @@ npm # will be installed in the Git setup process
 # Start localhost dev server
 npm run dev
 # Start localhost server
+npm run build
 npm run start
 ```
 
