@@ -14,16 +14,18 @@ export default function Briefe() {
       </Head>
 
           <motion.div initial="initial" animate="enter" exit="exit" variants={constants.animation.section_exit} >
-              {newdata}
+              <Thema/>
           </motion.div>
 
     </Layout>
   )
 }
 
-const newdata = data.themen.map((data, id) => {
-    return (
-      <div className={utilStyles.item} key={`${data.id}`} >
+export function Thema() {
+  return (
+    data.themen.map((data, id) => {
+      return (
+        <div className={utilStyles.item} key={`${data.id}`} >
         <motion.div key={`themen${data.id}`} variants={constants.animation.post} layoutId={`${data.id}`}>
           <Link href="/thema/[thema]" as={`/thema/${data.id}`}>
 
@@ -39,8 +41,7 @@ const newdata = data.themen.map((data, id) => {
 
         </motion.div>  
       </div>
-
-    )
-})
-
-  
+      )
+    })
+  )
+}

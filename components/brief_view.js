@@ -16,8 +16,8 @@ export default function Brief({data}) {
               <Link href="/brief/[brief]" as={`/brief/${data.id}`}>
                   <div key={`${data.id}`} className={utilStyles.brief_preview}>
                     
-                    <img src={`../pictures/digitalisate/thumbnails/${data.digitalisate.page[0]}`}/>
-                    <img src={`../pictures/digitalisate/thumbnails/${data.digitalisate.page[1]}`}/>
+                    <img src={`../pictures/digitalisate/small/${data.digitalisate.page[0]}`}/>
+                    <img src={`../pictures/digitalisate/small/${data.digitalisate.page[1]}`}/>
 
                     <div className={utilStyles.post_description}>
                       <h2>{data.sender.name} an {data.empfänger.name}</h2>

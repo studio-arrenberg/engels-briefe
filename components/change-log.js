@@ -34,25 +34,25 @@ export default function ChangeLog() {
 
             <ul>
                 {/* ### list ###  */}
-            <li>
+            <li className={utilStyles.strike}>
                 more & actual data
             </li>
-            <li>
+            <li className={utilStyles.strike}>
                 undefined is not an object (evaluating 'children.join')
             </li>
-            <li >
+            <li className={utilStyles.strike}>
                 Brief View file
             </li>
             <li className={utilStyles.strike}>
                 Framer Motion
             </li>
-            <li>
+            <li className={utilStyles.strike}>
                 Images
             </li>
             <li className={utilStyles.strike}>
                 <Link href='/api/hello'><a>API</a></Link>
             </li>
-            <li>
+            <li className={utilStyles.strike}>
                 Clean Syntax (global functions)
             </li>
             <li className={utilStyles.strike}>

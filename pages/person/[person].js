@@ -32,7 +32,7 @@ export default function person() {
 
           <motion.div initial="initial" animate="enter" exit="exit" variants={constants.animation.section_exit}>   
 
-            <Person_view data={item} />
+            <Familie data={item} />
             <Brief_view data={briefe_list}></Brief_view>
 
           </motion.div>
@@ -42,23 +42,26 @@ export default function person() {
     )
 }
 
-export function Person_view({data}) {
 
-    return (
-        data.map((data, id) => {
-          return (
-            <div key={`${data.name}`}>
-              <motion.div variants={constants.animation.post} layoutId={`${data.id}`}>
-                <div key={`${data.name}`} className={utilStyles.brief_preview}>
-                  <h1>{data.name}</h1>
+export function Familie({data}) {
+  return (
+    data.map((data) => {
+      return (
+        <div className={utilStyles.item} key={`${data.id}`} >
+
+          <motion.div key={`familie${data.id}`} variants={constants.animation.post} layoutId={`${data.id}`}>
+            {/* <Link href="/person/[person]" as={`/person/${data.id}`}> */}
+              <div className={utilStyles.brief_preview}>
+                <img src={`../pictures/personen/thumbnails/${data.picture}`}/>
+                <div className={utilStyles.post_description}>
+                  <h2>{data.name}</h2>
                   <p>{data.beschreibung}</p>
-                  <img src={`../../pictures/personen/${data.picture}`}/>
                 </div>
-              </motion.div>
-            </div>
-    
-          )}
-          
-        )
-    )
+              </div>
+            {/* </Link> */}
+          </motion.div>
+        </div>
+      )
+    })
+  )
 }

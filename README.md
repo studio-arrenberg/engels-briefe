@@ -18,6 +18,7 @@ npm # will be installed in the Git setup process
 # Start localhost dev server
 npm run dev
 # Start localhost server
+npm run build
 npm run start
 ```
 
@@ -125,7 +126,11 @@ Nummer *ID* | Author | Datum | Ort | Status | Kommentar
 * style Themen + Familie Slider + Briefansicht
 * Adding Thumbnails
 
+## Additional Testing
 
+* Matomo https://www.npmjs.com/package/@datapunt/matomo-tracker-react
+* LogRocket
+* Service Workers
 
 ## Markdown Styles
 
@@ -153,6 +158,7 @@ displaying the preview of a *brief*
 
 #### Code review
 https://deepscan.io/dashboard <br>
-https://www.codefactor.io/
+https://www.codefactor.io/ <br>
+https://codecov.io
 #### Image optimization 
 https://imgbot.net/app/
