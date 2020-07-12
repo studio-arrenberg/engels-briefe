@@ -1,7 +1,6 @@
 { "briefe":[
         {
             "id" : "1",
-            "title" : "Hello",
             "datum" : "1. Januar 1791",
             "themen" : {"name":["Religon"], "id":[1]},
             "sender": {"name":"Louise Engels, geb. Noot","ort":"Wuppertal", "id":"1"},
@@ -13,7 +12,6 @@
         },
         {
             "id" : "4",
-            "title" : "Hello",
             "datum" : "12. Mai 1791",
             "themen" : {"name":["Religon", "Liebe/Ehe"], "id":[1,3]},
             "sender": {"name":"Friedrich Christian Hoffmann","ort":"Düsseldorf", "id":"1"},
@@ -25,7 +23,6 @@
         },
         {
             "id" : "21",
-            "title" : "Meine Liebe theure Gattin!",
             "datum" : "9. September 1791",
             "themen" : {"name":["Liebe/Ehe","Religon"], "id":[3,1]},
             "sender": {"name":"Johann Caspar Engels","ort":"Barmen", "id":"1"},
@@ -37,7 +34,6 @@
         },
         {
             "id" : "22",
-            "title" : "Liebstes bestes Männchen!",
             "datum" : "10. September 1791",
             "themen" : {"name":["Liebe/Ehe","Religon"], "id":[3,1]},
             "sender": {"name":"Louise Engels, geb. Noot","ort":"Ruhrort", "id":"1"},
@@ -49,7 +45,6 @@
         },
         {
             "id" : "29",
-            "title" : "Herzlich geliebter Papa!",
             "datum" : "25. Oktober 1791",
             "themen" : {"name":["Reisen","Religon"], "id":[1,2]},
             "sender": {"name":"Louise Engels, geb. Noot","ort":"Barmen", "id":"1"},
@@ -61,7 +56,6 @@
         },
         {
             "id" : "68",
-            "title" : "Lieber Friedrich!",
             "datum" : "04. Juli 1813",
             "themen" : {"name":["Religon"], "id":[1]},
             "sender": {"name":"Johann Caspar Engels","ort":"Barmen", "id":"1"},
@@ -194,7 +188,6 @@
         },
         {
             "id" : "308",
-            "title" : "Liebe Elise",
             "datum" : "11. August 1838",
             "themen" : {"name":["Reisen"], "id":[2]},
             "sender": {"name":"Friedrich Engels sen.","ort":"Bremen", "id":"1"},
@@ -206,7 +199,6 @@
         },
         {
             "id" : "342",
-            "title" : "Liebe Elise,",
             "datum" : "10. September 1858",
             "themen" : {"name":["Reisen"], "id":[2]},
             "sender": {"name":"Friedrich Engels sen.","ort":"Manchester", "id":"1"},
@@ -312,5 +304,115 @@
             "picture":"Friedrich_Engels_jun.jpg"
         }
     
+    ],
+    "orte":[
+        {
+            "id":"1",
+            "title":"Barmen",
+            "beschreibung":"",
+            "picture":"Barmen.jpg",
+            "year":"1810",
+            "artist":"Johann Heinrich Bleuler",
+            "bildnachweis":"Historisches Zentrum Wuppertal"
+        },
+        {
+            "id":"2",
+            "title":"Berlin",
+            "beschreibung":"",
+            "picture":"Berlin.jpg",
+            "year":"1829",
+            "artist":"Johann Heinrich Hintze",
+            "bildnachweis":"Museum Berlin"
+        },
+        {
+            "id":"3",
+            "title":"Bremen",
+            "beschreibung":"",
+            "picture":"Bremen.jpg",
+            "year":"1862",
+            "artist":"Robert Hüser",
+            "bildnachweis":"Gemeinfreies Werk"
+        },
+        {
+            "id":"4",
+            "title":"Düsseldorf",
+            "beschreibung":"Übergang der Franzosen über den Rhein bei Düsseldorf am 6. Sept. 1795",
+            "picture":"Düsseldorf.jpg",
+            "year":"1820",
+            "artist":"Cholet",
+            "bildnachweis":"Stadtmuseum Landeshauptstadt Düsseldorf"
+        },
+        {
+            "id":"5",
+            "title":"Engelskirchen",
+            "beschreibung":"",
+            "picture":"Engelskirchen.jpg",
+            "year":"1868",
+            "artist":"",
+            "bildnachweis":"Archiv Ermen & Engels, LVR-Industriemuseum Engelskirchen"
+        },
+        {
+            "id":"6",
+            "title":"Frankfurt",
+            "beschreibung":"Gefecht der Alliierten und Franzosen an der Alten Brücke",
+            "picture":"Frankfurt.jpg",
+            "year":"1813",
+            "artist":"Unbekannter Künstler",
+            "bildnachweis":"Historisches Museum, Frankfurt am Main"
+        },
+        {
+            "id":"7",
+            "title":"Hagen",
+            "beschreibung":"Ansicht der Stadt Hagen.",
+            "picture":"Hagen.jpg",
+            "year":"1800",
+            "artist":"Unbekannter Künstler",
+            "bildnachweis":"Stadtmuseum Hagen"
+        },
+        {
+            "id":"8",
+            "title":"Hamm",
+            "beschreibung":"Stadtansicht von Hamm aus Borussia",
+            "picture":"Hamm.jpg",
+            "year":"1840",
+            "artist":"Unbekannter Künstler",
+            "bildnachweis":"Gustav-Lübcke-Museum Hamm"
+        },
+        {
+            "id":"9",
+            "title":"Manchester",
+            "beschreibung":"Manchester from Kersal Moor, with rustic figures and goats",
+            "picture":"Manchester.jpg",
+            "year":"1852",
+            "artist":"William Wyld",
+            "bildnachweis":"Gemeinfreies Werk"
+        },
+        {
+            "id":"10",
+            "title":"München",
+            "beschreibung":"",
+            "picture":"München.jpg",
+            "year":"1800",
+            "artist":"Unbekannter Künstler",
+            "bildnachweis":"Bayerische Staatsbibliothek München/Bildarchiv"
+        },
+        {
+            "id":"11",
+            "title":"Paris",
+            "beschreibung":"",
+            "picture":"Paris.jpg",
+            "year":"1854",
+            "artist":"Charles Meryon",
+            "bildnachweis":"Französische Nationalbibliothek"
+        },
+        {
+            "id":"12",
+            "title":"Ruhrort",
+            "beschreibung":"Ausschnitt der Karte des Rheins von Wesel bis Duisburg so wie der Gegend an beyden Ufern der Lippe von Lünen bis Wesel und der Ruhr von Wetter bis Duisburg",
+            "picture":"Ruhrort.jpg",
+            "year":"1812",
+            "artist":"Karl Ludwig von Le Coq",
+            "bildnachweis":"Universitäts- und Landesbibliothek Münster"
+        }
     ]
 }
