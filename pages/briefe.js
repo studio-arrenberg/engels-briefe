@@ -15,12 +15,12 @@ const y2 = 0;
 
 export default function Page() {
 
-  const { scrollX } = useViewportScroll();
+  // const { scrollX } = useViewportScroll();
 
-  const ref = useRef(null);
-  useEffect(() => {
-    console.log('width', ref.current ? ref.current.offsetWidth : 0);
-  }, [ref.current]);
+  // const ref = useRef(null);
+  // useEffect(() => {
+  //   console.log('width', ref.current ? ref.current.offsetWidth : 0);
+  // }, [ref.current]);
   
   return (
       <Layout home >
@@ -30,7 +30,7 @@ export default function Page() {
           <title>Briefe</title>
         </Head>
 
-        <motion.div ref={ref} initial="initial" animate="enter" exit="exit" variants={constants.animation.section_exit}>
+        <motion.div initial="initial" animate="enter" exit="exit" variants={constants.animation.section_exit}>
         
           <Brief_view data={data.briefe}/>
 
@@ -73,7 +73,6 @@ export function Scrolllistener() {
 
   return (
     <>
-    <p>hello worl</p>
     </>
   )
 }
@@ -90,7 +89,7 @@ export function Timeline2() {
 
   // const x = useMotionValue(0)
   const x = scrollX
-  const pagex = 22740
+  const pagex = 9140
   const letters = 18
   const leaverange = 1.3
   // const xRange = [-1, 0, 5, 5.5]
@@ -98,9 +97,7 @@ export function Timeline2() {
   
   const scaleRange = [0.7, 1, 1, 0.7]
 
-
-
-  const xRange1 = [-1, (pagex / letters)*0, (pagex / letters)*1 , ((pagex / letters)*1) * leaverange]
+  const xRange1 = [-10, (pagex / letters)*0, (pagex / letters)*1 , ((pagex / letters)*1) * leaverange]
   const scalex1 = useTransform(x, xRange1, scaleRange)
 
   const xRange2 = [-1, (pagex / letters)*1, (pagex / letters)*2 , ((pagex / letters)*2) *leaverange ]
@@ -173,7 +170,7 @@ export function Timeline2() {
         <motion.div className={utilStyles.linesmall} style={{ scale:scalex7 }} ></motion.div>
         <motion.div className={utilStyles.linesmall} style={{ scale:scalex8 }} ></motion.div>
         <motion.div className={utilStyles.linebig} style={{ scale:scalex9 }}>
-          <p>I. Die Eltern</p>
+          <p>II. Die Eltern</p>
         </motion.div>
         <motion.div className={utilStyles.linesmall} style={{ scale:scalex10 }}></motion.div>
         <motion.div className={utilStyles.linesmall} style={{ scale:scalex11 }}></motion.div>
@@ -181,7 +178,7 @@ export function Timeline2() {
         <motion.div className={utilStyles.linesmall} style={{ scale:scalex13 }}></motion.div>
         <motion.div className={utilStyles.linesmall} style={{ scale:scalex14 }}></motion.div>
         <motion.div className={utilStyles.linebig} style={{ scale:scalex15 }}>
-          <p>I. Peter Lustig</p>
+          <p>III. Peter Lustig</p>
         </motion.div>
         <motion.div className={utilStyles.linesmall} style={{ scale:scalex16 }}></motion.div>
         <motion.div className={utilStyles.linesmall} style={{ scale:scalex17 }}></motion.div>
