@@ -52,6 +52,14 @@ git pull
 # update from master
 git merge origin/master
 ```
+### trash local changes
+```bash
+# particular file
+git checkout -- <FILENAME>
+# all files
+git checkout -- .
+```
+
 ### push files (in branch)
 ```bash
 git add . 
