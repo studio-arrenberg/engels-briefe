@@ -60,9 +60,8 @@ main{
   top: 150px;
   z-index: 1;
   /* overflow-y: hidden; */
-  overflow-x: scroll;
-
-
+  /* main overflow-x: scroll not compatible with timeline animation */
+  /* overflow-x: scroll; */
 }
 
 main > div{
