@@ -14,6 +14,15 @@ const constants = {
     },
     section_exit: {
       exit: { transition: { staggerChildren: 0.01 } }, enter: { transition: { staggerChildren: 0.10 } }
+    },
+    timeline: {
+      initial: { opacity: 0 },
+      enter: { opacity: 1, transition: { duration: 0.5, ease: [0.48, 0.15, 0.25, 0.96] } },
+      exit: {
+        opacity: 0
+      
+      }
+
     }
   }
   
