@@ -20,6 +20,8 @@ npm run dev
 # Start localhost server
 npm run build
 npm run start
+# on Windows
+npm run start_windows
 ```
 
 ## Git Commands
