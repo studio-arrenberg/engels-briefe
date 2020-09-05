@@ -12,21 +12,25 @@ export default function Brief({data}) {
         return (
           
           <div className={utilStyles.item} key={`${data.id}`} >
-            <motion.div variants={constants.animation.post} layoutId={`${data.id}`}>
-              <Link href="/brief/[brief]" as={`/brief/${data.id}`}>
-                  <div key={`${data.id}`} className={utilStyles.brief_preview}>
+          <Link href="/brief/[brief]" as={`/brief/${data.id}`}>
+
+            <motion.div div key={`${data.id}`} className={utilStyles.brief_preview} variants={constants.animation.post} layoutId={`${data.id}`}>
                     
                     <img src={`../pictures/digitalisate/small/${data.digitalisate.page[0]}`}/>
                     <img src={`../pictures/digitalisate/small/${data.digitalisate.page[1]}`}/>
 
                     <div className={utilStyles.post_description}>
-                      <h2>{data.sender.name} an {data.empfänger.name}</h2>
                       <h4>{data.datum}</h4>
+                      <h2>{data.sender.name} an {data.empfänger.name}</h2>
+                      <a>Liebe/ Ehe, Thema</a>
+                      <a className="arrow-back">   &gt;
+        {/* <img src={`../icons/back.svg`}/> */}
+                      </a>
                       {/* <p>{data.text}</p> */}
                     </div>
-                  </div>
-              </Link>
             </motion.div>
+            </Link>
+
           </div>
 
         )
