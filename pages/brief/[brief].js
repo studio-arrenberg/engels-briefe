@@ -48,7 +48,6 @@ export function Brief({data}) {
 
                   {/* meta daten */}
                   <div className={utilStyles.meta}>
-                  <h1>{data.id}</h1>
 
                     <h1>{data.sender.name} an {data.empfänger.name}</h1>
                     <p>{data.sender.ort} nach {data.empfänger.ort}</p>

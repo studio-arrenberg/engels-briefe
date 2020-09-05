@@ -21,7 +21,7 @@ export default function Brief({data}) {
 
                     <div className={utilStyles.post_description}>
                       <h4>{data.datum}</h4>
-                      <h2>{data.sender.name} an {data.empfänger.name}</h2>
+                      <h2><span className="sender_name">{data.sender.name}</span> an <br></br> <span className="empfänger_name"></span>{data.empfänger.name}</h2>
                       <a>Liebe/ Ehe, Thema</a>
                       <a className="arrow-back">   &gt;
         {/* <img src={`../icons/back.svg`}/> */}

@@ -94,7 +94,7 @@
   position: relative;
   margin: 150px 50px;
   width: 800px;
-  height: 300px;
+  height: 300-px;
 }
 
 
@@ -127,6 +127,7 @@
 
 .post_description{
   position: absolute;
+  top: 75px;
   left: 400px;
   display: block;
   clear: both;
@@ -176,7 +177,7 @@
 }
 
 .meta{
-  padding: 20px;
+  padding: 300px;
   width: 100%;
 
 }

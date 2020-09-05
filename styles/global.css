@@ -20,9 +20,10 @@ body {
   background-color: black;
 
   font-family: "Gibson-Light";
-  line-height: 1.6;
   font-size: 18px;
+  font-weight: 500;
   color: #fff;
+
 
   -ms-user-select: None;
   -moz-user-select: None;
@@ -101,7 +102,7 @@ nav{
 
 main{
   position: absolute;
-  top: 200px;
+  top: 150px;
   height: auto;
 
 
@@ -207,7 +208,9 @@ p,h1,h2,h3,h4,h5,h6,ul,li {
 }
 
 h2 {
-  margin-bottom: 10px;
+  line-height: 2.1rem;
+  margin-top: 7px;
+  margin-bottom: 40px;
 }
 
 a {
