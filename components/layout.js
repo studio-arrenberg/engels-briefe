@@ -20,8 +20,12 @@ export default function Layout({ children, home  }) {
       </Head>
 
       <MenuTest/>
+      <main>
+      <div className="gardient left"></div>
+             {children}
 
-      {children}
+      <div className="gardient right"></div>
+      </main>
     </div>
   )
   

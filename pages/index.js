@@ -11,9 +11,9 @@ export default function Home() {
         <title>Engelsbriefe</title>
       </Head>
 
-      <div className={utilStyles.static}>
-              <ChangeLog/>
-        </div>
+      <main>
+          <ChangeLog/>
+        </main>
     </Layout>
   )
 }

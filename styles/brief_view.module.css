@@ -1,0 +1,86 @@
+.brief_view{
+    max-width: 1500px;
+    margin: 0 auto;
+    height: auto;
+
+  }
+
+  
+  .meta{
+    display: flex;
+    padding: 250px 50px;
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+.portrait{
+    width: 400px;
+    margin: 20px
+}
+
+
+.sender, .empfänger {
+    margin-top: 200px;
+}
+.sender{
+    text-align: right;
+}
+
+
+
+.arrow_send {
+    width: 50px;
+    margin: 20px;
+    position: relative;
+    transform: rotate(180deg);
+  }
+
+  .brieftext{
+    width: 50%;
+    padding: 20px;
+  }
+  
+  
+  .digitalisate{ 
+    width: 50%;
+    padding: 20px;
+    
+  }
+
+
+
+
+
+
+
+
+
+
+  .navigation{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    width: 100%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    padding: 25px 100px;
+    text-align: center;
+  }
+
+  .navigation a{
+    margin: 0px 50px;
+  }
+
+  .toggle a{ 
+    float: left;
+  }
+
+
+  .vorlesen{
+    position: fixed;
+    right: 200px;
+    bottom: 20px;
+    
+  }

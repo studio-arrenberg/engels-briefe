@@ -30,21 +30,13 @@ export default function Page() {
           <title>Briefe</title>
         </Head>
 
-        <main>
-          <div className="gardient left"></div>
-          <motion.div className="scrollable" initial="initial" animate="enter" exit="exit" variants={constants.animation.section_exit}>
+
+          <motion.div className="scrollable" initial="initial" animate="enter" exit="exit" variants={constants.animation.section_exit}>            
           
             <Brief_view data={data.briefe}/>
-
-            {/* <Scrolllistener/> */}
             
-
           </motion.div>
-          <div className="gardient right"></div>
-
-        </main>
-
-
+        
 
         <Timeline2 />
 
