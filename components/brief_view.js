@@ -16,8 +16,8 @@ export default function Brief({data}) {
 
             <motion.div div key={`${data.id}`} className="item_preview" variants={constants.animation.post} layoutId={`${data.id}`}>
                     
-                    <img src={`../pictures/digitalisate/small/${data.digitalisate.page[0]}`}/>
-                    <img src={`../pictures/digitalisate/small/${data.digitalisate.page[1]}`}/>
+                    <img src={`../pictures/digitalisate/${data.digitalisate.page[0]}`}/>
+                    <img src={`../pictures/digitalisate/${data.digitalisate.page[1]}`}/>
 
                     <div className="item_description">
                       <h4>{data.datum}</h4>

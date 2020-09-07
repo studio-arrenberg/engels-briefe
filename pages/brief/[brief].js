@@ -1,6 +1,5 @@
 import Layout from '../../components/layout'
 import Head from 'next/head'
-import briefStyles from '../../styles/brief_view.module.css'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 import data from '../../public/data.json'
@@ -27,7 +26,7 @@ export default function Page() {
         <title>Brief</title>
       </Head>
 
-      <motion.div className={briefStyles.brief_view} initial="initial" animate="enter" exit="exit" variants={constants.animation.section_exit} > 
+      <motion.div className="brief_view" initial="initial" animate="enter" exit="exit" variants={constants.animation.section_exit} > 
 
           <Brief data={item}></Brief>
           
@@ -48,18 +47,18 @@ export function Brief({data}) {
      
 
                   {/* META */}
-                  <div className={briefStyles.meta}>
+                  <div className="meta">
 
-                    <div className={briefStyles.sender}>
+                    <div className="sender">
                       <h2><span className="sender_name">{data.sender.name}</span> </h2>
                       <h3>{data.sender.ort}</h3>
                     </div>
-                    <img className={briefStyles.portrait} src={`../pictures/personen/thumbnails/Ida_Louise_Friederike_Noot.jpg`}/>
+                    <img className="portrait" src={`../pictures/personen/thumbnails/Ida_Louise_Friederike_Noot.jpg`}/>
                     
-                    <img className={briefStyles.arrow_send} src={`../icons/back.svg`}/>
+                    <img className="arrow_send" src={`../icons/back.svg`} />
                     
-                    <img className={briefStyles.portrait} src={`../pictures/personen/Friedrich_Engels_sen.jpg`}/>
-                    <div className={briefStyles.empfänger}>
+                    <img className="portrait" src={`../pictures/personen/Friedrich_Engels_sen.jpg`}/>
+                    <div className="empfänger">
                       <h2><span className="empfänger_name">{data.empfänger.name}</span></h2>
                       <h3>{data.empfänger.ort}</h3>
                     </div>
@@ -69,7 +68,7 @@ export function Brief({data}) {
 
                   <div className="vergleichs-ansicht active">
 
-                    <div className={briefStyles.digitalisate}>
+                    <div className="digitalisate">
                       <img className="kuvert_img" src={`../../pictures/digitalisate/${data.digitalisate.cover}`}/>
                       <br/>
                       <img src={`../../pictures/digitalisate/${data.digitalisate.page[1]}`}/>
@@ -78,7 +77,7 @@ export function Brief({data}) {
                 
                     </div>
 
-                    <div className={briefStyles.brieftext}>
+                    <div className="brieftext">
                       <div className="diplomatisch" dangerouslySetInnerHTML={{__html: text}}>
                       </div>
                     </div>
@@ -105,7 +104,7 @@ export function Brief({data}) {
                   </div>
 
 
-                  <div className={briefStyles.navigation}>
+                  <div className="navigation">
                     <a>
                       <h3>Vergleichsansicht</h3>
                       <p> Hallo hallo hallo mein  kleiner </p>
@@ -119,7 +118,7 @@ export function Brief({data}) {
                 
            
 
-                  <div className={briefStyles.vorlesen}>
+                  <div className="vorlesen">
                       <h3>Brief vorlesen</h3>
                   </div>
   

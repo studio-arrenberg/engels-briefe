@@ -17,6 +17,7 @@ export default function Layout({ children, home  }) {
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="Engelsbriefe" />
         <meta name="og:title" content="Engelsbriefe" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
       </Head>
 
       <MenuTest/>
