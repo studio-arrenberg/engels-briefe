@@ -13,9 +13,11 @@ export default function Briefe() {
         <title>Themen</title>
       </Head>
 
-          <motion.div initial="initial" animate="enter" exit="exit" variants={constants.animation.section_exit} >
-              <Thema/>
-          </motion.div>
+        <motion.div className="scrollable" initial="initial" animate="enter" exit="exit" variants={constants.animation.section_exit}>
+        
+          <Thema/>
+
+        </motion.div>
 
     </Layout>
   )
@@ -25,14 +27,13 @@ export function Thema() {
   return (
     data.themen.map((data, id) => {
       return (
-        <div className={utilStyles.item} key={`${data.id}`} >
+        <div className="item" key={`${data.id}`} >
         <motion.div key={`themen${data.id}`} variants={constants.animation.post} layoutId={`${data.id}`}>
           <Link href="/thema/[thema]" as={`/thema/${data.id}`}>
 
-          <div key={data.id} className={utilStyles.brief_preview}>
+          <div key={data.id} className="item_preview">
             <img src={`../pictures/themen/thumbnails/${data.picture}`}/>
-            <div className={utilStyles.post_description}>
-
+            <div className="item_description">
             <h2>{data.title}</h2>
             <p>{data.beschreibung}</p>
             </div>

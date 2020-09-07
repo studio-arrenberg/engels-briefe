@@ -8,18 +8,257 @@
 
 
 
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: "Gibson-Light";
-  line-height: 1.6;
-  font-size: 18px;
-  background-color: black;
-}
-
 * {
   box-sizing: border-box;
+}
+
+
+html,
+body {
+
+  padding: 0;
+  margin: 0;
+  background-color: black;
+
+  font-family: "Gibson-Light";
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+
+
+  -ms-user-select: None;
+  -moz-user-select: None;
+  -webkit-user-select: None;
+  user-select: None;
+}
+
+
+.container{
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+
+
+.static {
+  display: block !important;
+}
+
+
+
+
+
+/* SCROLLBAR REMOVE */
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background: transparent; 
+}
+
+/* Optional:  scrollbar unten
+::-webkit-scrollbar-thumb {
+  background: #fff;
+} */
+
+
+
+/* SCROLLBAR REMOVE CLOSE */
+
+
+
+
+
+/* NAVIGATION OPEN */
+
+nav{
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 200;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 90%);
+  padding-bottom: 150px;
+}
+
+.menu_left svg{
+  margin:50px;
+  width: 50px;
+  height: auto;
+}
+
+.menu_right a{
+  display: block;
+  float: left;
+  margin: 50px;
+  font-size: 2.5rem;
+  opacity: 0.75;
+}
+
+
+.menu_right a:hover, .active{
+  text-decoration: none;
+  opacity: 1;
+}
+
+
+/* NAVIGATION CLOSE*/
+
+
+/* MAIN CONTENT AREA - SCROLLABLE AREA */
+
+main{
+  position: absolute;
+  top: 150px;
+  width: 100%;
+  height: auto;
+}
+
+.gardient{
+  position: fixed;
+  top: 0px;
+  width:300px;
+  height: 100vh;
+  z-index: 100;
+  background: linear-gradient(-90deg, rgba(0,0,0,0) 0%, rgb(0, 0, 0) 100%);
+}
+
+.right{
+  position: fixed;
+  right: 0px;
+  background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgb(0, 0, 0) 100%);
+}
+
+.scrollable{
+  width: auto;
+  display: flex;
+  }
+  
+
+/*  MAIN CLOSE  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.item:nth-of-type(2n){
+  padding-top: 300px;
+}
+
+
+.item_preview {
+  position: relative;
+  margin: 150px 50px;
+  width: 800px;
+  height: 300-px;
+}
+
+
+.item_preview img:first-of-type{
+  z-index: 2;
+  left: 20px;
+  top: 20px;
+  -webkit-box-shadow: 0px 0px 45px 0px rgba(0,0,0,0.35);
+-moz-box-shadow: 0px 0px 45px 0px rgba(0,0,0,0.35);
+box-shadow: 0px 0px 45px 0px rgba(0,0,0,0.35);
+
+}
+
+.item_preview img{
+  width: 350px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+
+.item_preview img:first-of-type{
+  z-index: 2;
+  left: 20px;
+  top: 20px;
+}
+
+
+.item_description{
+  position: absolute;
+  top: 75px;
+  left: 400px;
+  display: block;
+  clear: both;
+}
+
+
+
+
+
+/*  TIMELINE OPEN  */
+
+.timeline {
+  position: fixed;
+  bottom: 0px;
+  left: calc(50% - calc(1300px / 2));
+  height: 140px;
+  width: 1300px;
+  overflow: hidden;
+}
+
+.linesmall {
+  position: relative;
+  top: 100px;
+  float: left;
+  width: 2px;
+  height: 50px;
+  background-color:  white;
+  margin-left: 5%;
+}
+
+.linebig {
+  position: relative;
+  top: 60px;
+  float: left;
+  width: 2px;
+  height: 100px;
+  background-color:  white;
+  margin-left: 5%;
+}
+
+.linebig p {
+  position: relative;
+  top: -50px;
+  left: -150px;
+  width: 300px;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+/*  TIMELINE CLOSE  */
+
+
+
+
+
+/* TYPO */
+
+p,h1,h2,h3,h4,h5,h6,ul,li {
+  font-weight: 500;
+  margin: 0px;
+
+}
+
+h2 {
+  line-height: 2.1rem;
+  margin-top: 7px;
+  margin-bottom: 40px;
 }
 
 a {
@@ -31,56 +270,171 @@ a:hover {
   text-decoration: underline;
 }
 
+
+/* TYPO CLOSE */
+
+
+
+
 img {
   max-width: 100%;
   display: block;
 }
 
-p,h1,h2,h3,h4,h5,h6,ul,li {
-  color: white;
-  font-weight: 500;
+
+
+
+
+
+
+/* BRIEF VIEW */
+
+.brief_view{
+  max-width: 1500px;
+  margin: 0 auto;
+  height: auto;
 }
 
-header{
-  z-index: 200;
+.meta{
+  display: flex;
+  padding: 250px 50px;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.portrait{
+  width: 400px;
+  margin: 20px
+}
+
+.sender, .empfänger {
+  margin-top: 200px;
+}
+.sender{
+  text-align: right;
+}
+
+.arrow_send {
+width: 50px;
+margin: 20px;
+position: relative;
+transform: rotate(180deg);
+}
+
+
+.digitalisate{ 
+  width: 50%;
+  padding: 20px;
+}
+
+
+.brieftext{
+  width: 50%;
+  padding: 20px;
+}
+
+
+.vorlesen{
+  position: fixed;
+  right: 200px;
+  bottom: 20px;
+}
+
+.vergleichs-ansicht{
+  height: 100%;
+  display: flex;  
   position: relative;
 }
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 2.5rem;
-  padding: 20px 0px 25px 25px;
+
+
+.diplomatisch{
+  font-family: serif;
 }
 
-main{
-  height: calc(100% - 150px);
+.diplomatisch .corr{
+display: none;
+}
+
+.detail-ansicht{
   width: 100%;
-  position: absolute;
-  top: 150px;
-  z-index: 1;
-  /* overflow-y: hidden; */
-  /* main overflow-x: scroll not compatible with timeline animation */
-  /* overflow-x: scroll; */
 }
 
-main > div{
-width: auto;
-display: flex;
-
+.normalisiert{
+  width: 50%;
+  margin: 0 auto;
 }
 
-
-
-.orig{
-  /* color: red; */
-}
-
-
-.corr{
-  color: green;
+.normalisiert .orig, .normalisiert .lb{
   display: none;
+}
 
+
+.normalisiert .corr{
+  display: inline;
+} 
+
+
+
+.themen{
+  position: fixed;
+  right: -100px;
+  top:200px;
+  z-index:200;
+}
+
+.themen img{
+    height: 300px;
+    opacity: 0.5;
+}
+
+.themen label{
+  display: block;
+  margin: -30px 0px 35px 15px;
+  opacity: 1;
+  z-index:201;
+  position: relative;
+
+}
+
+.themen a{
+  display: block;
+  transition: 0.2s ease-in-out;
+
+}
+
+
+.themen a:hover{  
+  transform: translateX(-100px);
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+
+
+
+.themen a:hover img{
+  opacity: 1;
+}
+
+
+.kuvert_img{
+  width: 80%;
+  margin-left: 20%;
+  
+
+}
+.kuvert{
+  font-size: 2rem;
+  font-family: serif;
+}
+
+.kuvert small{
+  font-size: 1.4rem;
+}
+
+.page{
+  background-color: #fff;
+  color: #000;
+  margin-bottom: 20px;
 }
 
 
@@ -90,26 +444,46 @@ p > span .latin{
   color: red;
 }
 
-.g\.rend\.script\.latin{
+
+.writing-session .g\.rend\.script\.latin{
   font-family: sans-serif;
-
-}
-
-.active{
-  color: red;
 }
 
 .headingNumber{
   display: none;
 }
 
-h1.maintitle{
-  margin-left: 0px;
-}
+
 
 .g\.enc\.tagsdecl\.suspension\.type1{
   color: red;
   display: none;
 }
+
+
+.navigation{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  width: 100%;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  padding: 25px 100px;
+  text-align: center;
+}
+
+.navigation a{
+  margin: 0px 50px;
+}
+
+.toggle a{ 
+  float: left;
+}
+
+
+/* BRIEF VIEW CLOSE */
+
 
 
