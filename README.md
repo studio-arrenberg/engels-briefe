@@ -71,6 +71,7 @@ Nummer *ID* | Author | Datum | Ort | Vorhanden | Exportiert | Fertig | Audio | K
 *Hello* `World` **nicely**
 :warning:   :white_check_mark:  :x:
 [Git Emojis](https://gist.github.com/parmentf/035de27d6ed1dce0b36a)
+[Another Source](https://gitmoji.carloscuesta.me)
 
 ## Pages
 
