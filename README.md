@@ -81,7 +81,7 @@ git merge <BRANCH_NAME>
 ## Briefe
 
 Nummer *ID* | Author | Datum | Ort | Vorhanden | Exportiert | Fertig | Audio | Kommentar 
---- | --- | --- | --- | --- | ---
+--- | --- | --- | --- | --- | --- | --- | --- | --- 
 001 | Louise Engels, geb. Noot | 1791-01-05 | Hagen | :white_check_mark: | :heavy_check_mark: | :heavy_check_mark: ||falsche audio datei|
 004 | Friedrich Christian Hoffmann | 1791-05-12 | Düsseldorf | :white_check_mark: |
 021 | Johann Caspar Engels | 1791-09-09| Barmen | :white_check_mark: |
@@ -101,11 +101,6 @@ Nummer *ID* | Author | Datum | Ort | Vorhanden | Exportiert | Fertig | Audio | K
 307 | Friedrich Engels sen. | 1838-08-11 | Bremen | :white_check_mark: | Fehlerhafte Benennung?
 341 | Friedrich Engels sen. | 1858-09-10 | Manchester | :white_check_mark: | Schlechte Scan Qualität!
 
-## Contact
-
-Studio Arrenberg 
-hallo@arrenberg.studio
-
 ## Additional Testing
 
 * Matomo https://www.npmjs.com/package/@datapunt/matomo-tracker-react
@@ -115,7 +110,7 @@ hallo@arrenberg.studio
 ## Markdown Styles
 
 *Hello* `World` **nicely**
-:warning:   :heavy_check_mark:  :white_check_mark:
+:warning:   :white_check_mark:
 
 ## Pages
 
@@ -139,3 +134,8 @@ https://codecov.io
 https://imgbot.net/app/
 #### Html to JSX
 https://magic.reactjs.net/htmltojsx.htm 
+
+## Contact
+
+Studio Arrenberg 
+hallo@arrenberg.studio
