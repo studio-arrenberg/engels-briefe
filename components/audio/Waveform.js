@@ -1,14 +1,25 @@
-import React, { useEffect, useRef, useState } from "react";
+// import React, { useEffect, useRef, useState } from "react";
+// // import WaveSurfer from "wavesurfer.js";
 
+// import dynamic from 'next/dynamic';
+// const WaveSurfer = dynamic(
+//     () => import('wavesurfer.js'),
+//     {
+//         ssr: false
+//     }
+// )
+
+
+import React, { useRef, useEffect, useState } from "react";
 import WaveSurfer from "wavesurfer.js";
 
 const formWaveSurferOptions = ref => ({
   container: ref,
-  waveColor: "#eee",
-  progressColor: "OrangeRed",
-  cursorColor: "OrangeRed",
-  barWidth: 3,
-  barRadius: 3,
+  waveColor: "white",
+  progressColor: "black",
+  cursorColor: "black",
+  barWidth: 5,
+  barRadius: 2,
   responsive: true,
   height: 150,
   // If true, normalize by the maximum peak instead of 1.0.
