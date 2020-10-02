@@ -4,9 +4,18 @@
 `https://engels.arrenberg.studio/`
 
 
-## Open Questions
-Html to JSX - https://magic.reactjs.net/htmltojsx.htm 
-*remove all tags including `html` and `body`*
+# Table of Contents
+* [Requirements] (#requirements)
+* [React Commands] (#react-commands)
+* [Git Commands] (#git-commands) 
+    * [Set Up] (#set-up)
+    * [Check Master] (#check-master)
+* [Briefe] (#briefe)
+* [Additional Testing] (#additional-testing)
+* [Markdown Styles] (#markdown-styles)
+* [Pages] (#pages)
+* [Tools] (#tools)
+* [Contact] (#contact)
 
 ## Requirements
 ```bash
@@ -110,7 +119,7 @@ Nummer *ID* | Author | Datum | Ort | Vorhanden | Exportiert | Fertig | Audio | K
 ## Markdown Styles
 
 *Hello* `World` **nicely**
-:warning:   :white_check_mark:
+:warning:   :white_check_mark:  :x:
 
 ## Pages
 
@@ -134,6 +143,7 @@ https://codecov.io
 https://imgbot.net/app/
 #### Html to JSX
 https://magic.reactjs.net/htmltojsx.htm 
+*remove all tags including `html` and `body`*
 
 ## Contact
 
