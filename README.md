@@ -5,7 +5,8 @@
 
 
 ## Open Questions
-`index` as welcome page? - Find ich gut wer will von der Demo ein paar Varianten in Sketch layouten? M
+Html to JSX - https://magic.reactjs.net/htmltojsx.htm 
+*remove all tags including `html` and `body`*
 
 ## Requirements
 ```bash
@@ -77,12 +78,11 @@ git checkout origin/master
 git merge <BRANCH_NAME>
 ```
 
-
 ## Briefe
 
-Nummer *ID* | Author | Datum | Ort | Status | Kommentar 
+Nummer *ID* | Author | Datum | Ort | Vorhanden | Exportiert | Fertig | Audio | Kommentar 
 --- | --- | --- | --- | --- | ---
-001 | Louise Engels, geb. Noot | 1791-01-05 | Hagen | :white_check_mark: | 
+001 | Louise Engels, geb. Noot | 1791-01-05 | Hagen | :white_check_mark: | :heavy_check_mark: | :heavy_check_mark: ||falsche audio datei|
 004 | Friedrich Christian Hoffmann | 1791-05-12 | Düsseldorf | :white_check_mark: |
 021 | Johann Caspar Engels | 1791-09-09| Barmen | :white_check_mark: |
 022 | Louise Engels, geb. Noot | 1791-09-10 | Ruhrort | :white_check_mark: |
@@ -101,40 +101,10 @@ Nummer *ID* | Author | Datum | Ort | Status | Kommentar
 307 | Friedrich Engels sen. | 1838-08-11 | Bremen | :white_check_mark: | Fehlerhafte Benennung?
 341 | Friedrich Engels sen. | 1858-09-10 | Manchester | :white_check_mark: | Schlechte Scan Qualität!
 
+## Contact
 
-
-## Todo
-
-* Add data to json file
-* load html files in brief view
-* brief view file (?)
-* Startpage (Index)
-* **Briefansicht Layout in Sketch!**
-* Slider Shadow l/r
-* Themen/ Personen Textfelder anpassen 
-* Animationen (auto slider)
-
-
-## Done
-
-* Framer Motion
-* API
-* Main Pages
-* Import Json
-* Header
-* Layout
-* add some css styles
-* Placeholder Briefe
-* Camilo Online
-* Git Desktop Client Test
-* Add Briefe Overview
-* Briefe Images + Data
-* images
-* clean syntax
-* undefined is not an object (evaluating 'children.join')
-* conditional `go back` *when on subpages*
-* style Themen + Familie Slider + Briefansicht
-* Adding Thumbnails
+Studio Arrenberg 
+hallo@arrenberg.studio
 
 ## Additional Testing
 
@@ -145,6 +115,7 @@ Nummer *ID* | Author | Datum | Ort | Status | Kommentar
 ## Markdown Styles
 
 *Hello* `World` **nicely**
+:warning:   :heavy_check_mark:  :white_check_mark:
 
 ## Pages
 
@@ -158,12 +129,6 @@ personen | / | main_menu
 [person] | /person | sub_menu
 [thema] | /thema | sub_menu
 
-## Views
-All views are in `/components` *unless in file*
-
-`Brief view`
-displaying the preview of a *brief*
-
 ## Tools
 
 #### Code review
@@ -172,3 +137,5 @@ https://www.codefactor.io/ <br>
 https://codecov.io
 #### Image optimization 
 https://imgbot.net/app/
+#### Html to JSX
+https://magic.reactjs.net/htmltojsx.htm 

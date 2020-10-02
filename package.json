@@ -23,6 +23,7 @@
     "remark-html": "^11.0.2"
   },
   "devDependencies": {
-    "html-loader": "^1.3.0"
+    "html-loader": "^1.3.0",
+    "prettier": "2.1.2"
   }
 }

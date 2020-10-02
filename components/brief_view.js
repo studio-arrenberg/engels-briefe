@@ -12,7 +12,8 @@ export default function Brief({data}) {
         return (
           
           <div className="item" key={`${data.id}`} >
-          <Link href="/brief/[brief]" as={`/brief/${data.id}`}>
+          {/* <Link href="/briefx/[brief]" as={`/briefx/${data.id}`}> */}
+          <Link href={`/brief/${data.id}`} as={`/brief/${data.id}`}>
 
             <motion.div div key={`${data.id}`} className="item_preview" variants={constants.animation.post} layoutId={`${data.id}`}>
                     
