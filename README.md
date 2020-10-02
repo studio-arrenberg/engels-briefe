@@ -70,6 +70,7 @@ Nummer *ID* | Author | Datum | Ort | Vorhanden | Exportiert | Fertig | Audio | K
 
 *Hello* `World` **nicely**
 :warning:   :white_check_mark:  :x:
+[Git Emojis](https://gist.github.com/parmentf/035de27d6ed1dce0b36a)
 
 ## Pages
 
@@ -92,10 +93,10 @@ https://codecov.io
 #### Image optimization 
 https://imgbot.net/app/
 #### Html to JSX
-https://magic.reactjs.net/htmltojsx.htm 
+https://magic.reactjs.net/htmltojsx.htm <br>
 *remove all tags including `html` and `body`*
 
 ## Contact
 
-`Studio Arrenberg`
+`Studio Arrenberg` <br>
 hallo@arrenberg.studio

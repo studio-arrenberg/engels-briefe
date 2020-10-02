@@ -2,6 +2,11 @@ import { motion } from "framer-motion";
 import constants from "./constants";
 import Layout from "./layout";
 import Head from "next/head";
+import Audio from "./audio";
+import Audio2 from "./audiox/final-waveform";
+// import Audio3 from "./audio3/sound";
+// import Audio4 from "./audio4/parent-com";
+import Audio5 from "./audio5/audio5";
 
 export default function Brief_wrapper(props) {
   console.log(props.data);
@@ -80,7 +85,7 @@ export default function Brief_wrapper(props) {
 
             {/* children */}
             <div className="detail-ansicht">
-            <div>{props.children}</div>
+              <div>{props.children}</div>
               <div className="themen">
                 <a>
                   <img src="../pictures/themen/liebe.jpg" />
@@ -109,15 +114,21 @@ export default function Brief_wrapper(props) {
               </a>
             </div>
 
-            {/* audio */}
+
             <div className="vorlesen">
+              <p>moin</p>
               <h3>Brief vorlesen</h3>
             </div>
+
+            <Audio></Audio>
+            {/* <Audio2></Audio2> */}
+            {/* <Audio3></Audio3> */}
+            {/* <Audio4></Audio4> */}
+            
 
             {/* orte */}
 
             {/* weitere briefe / themen */}
-
           </motion.div>
         </motion.div>
       </Layout>
