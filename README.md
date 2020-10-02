@@ -68,9 +68,9 @@ Nummer *ID* | Author | Datum | Ort | Vorhanden | Exportiert | Fertig | Audio | K
 
 ## Markdown Styles
 
-*Hello* `World` **nicely**
-:warning:   :white_check_mark:  :x:
-[Git Emojis](https://gist.github.com/parmentf/035de27d6ed1dce0b36a)
+*Hello* `World` **nicely** <br>
+:warning:   :white_check_mark:  :x: <br>
+[Git Emojis](https://gist.github.com/parmentf/035de27d6ed1dce0b36a) <br>
 [Another Source](https://gitmoji.carloscuesta.me)
 
 ## Pages
