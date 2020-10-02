@@ -8,8 +8,6 @@
 * [Requirements](#requirements)
 * [React Commands](#react-commands)
 * [Git Commands](#git-commands) 
-    * [Set Up](#set-up)
-    * [Check Master](#check-master)
 * [Briefe](#briefe)
 * [Additional Testing](#additional-testing)
 * [Markdown Styles](#markdown-styles)
