@@ -13,9 +13,15 @@ export default function Briefe() {
         <title>Familie</title>
       </Head>
 
-        <motion.div key="familie" initial="initial" animate="enter" exit="exit" variants={constants.animation.section_exit} >
+
+      
+      <motion.div className="scrollable"  key="familie" initial="initial" animate="enter" exit="exit" variants={constants.animation.section_exit}>
+
           <Familie data={data} />     
         </motion.div>
+
+
+
 
     </Layout>
   )
@@ -25,13 +31,13 @@ export function Familie({data}) {
   return (
     data.familie.map((data) => {
       return (
-        <div className={utilStyles.item} key={`${data.id}`} >
+        <div className="item" key={`${data.id}`} >
 
           <motion.div key={`familie${data.id}`} variants={constants.animation.post} layoutId={`${data.id}`}>
             <Link href="/person/[person]" as={`/person/${data.id}`}>
-              <div className={utilStyles.brief_preview}>
+              <div className="item_preview">
                 <img src={`../pictures/personen/thumbnails/${data.picture}`}/>
-                <div className={utilStyles.post_description}>
+                <div className="item_description">
                   <h2>{data.name}</h2>
                   <p>{data.beschreibung}</p>
                 </div>

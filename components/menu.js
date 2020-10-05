@@ -14,19 +14,23 @@ import Router from 'next/router'
 export default function Menu() {
 
     return (
-        <nav >
+        <nav>
 
-            <a className={utilStyles.menu_left} onClick={() => Router.back()}>Go Back</a>
+                <a class="menu_left" onClick={() => Router.back()}></a>
 
-            <div className={utilStyles.menu_right}>
-                <Link href="/"><a >Home</a></Link>
-                <Link href="/briefe"><a >Briefe</a></Link>
-                <Link href="/themen"><a  >Themen</a></Link>
-                <Link href="/familie"><a >Familie</a></Link>
-            </div>
+                <div class="menu_right">
+                    {/* <Link href="/"><a >Home</a></Link> */}
+                    <Link href="/briefe"><a>Briefe</a></Link>
+                    <Link href="/themen"><a>Themen</a></Link>
+                    <Link href="/familie"><a>Familie</a></Link>
+                </div>
 
-        </nav>
+            </nav>
     )
 
     
 }
+
+
+
+

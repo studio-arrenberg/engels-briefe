@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import utilStyles from '../styles/utils.module.css'
+
 // import Link from 'next/link'
 import Main_Menu from '../components/main_menu'
 import Sub_Menu from '../components/sub_menu'
@@ -11,16 +12,21 @@ export default function Layout({ children, home  }) {
 
   return (
     
-    <div className={utilStyles.container}>
+    <div className="container">
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="Engelsbriefe" />
         <meta name="og:title" content="Engelsbriefe" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
       </Head>
 
       <MenuTest/>
+      <main>
+      <div className="gardient left"></div>
+             {children}
 
-      <main>{children}</main>
+      <div className="gardient right"></div>
+      </main>
     </div>
   )
   
@@ -39,8 +45,6 @@ export function MenuTest() {
     return (
       <Main_Menu/>
     )
-   
   }
-
 }
 

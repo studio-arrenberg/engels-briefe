@@ -4,8 +4,16 @@
 `https://engels.arrenberg.studio/`
 
 
-## Open Questions
-`index` as welcome page? - Find ich gut wer will von der Demo ein paar Varianten in Sketch layouten? M
+## Table of Contents
+* [Requirements](#requirements)
+* [React Commands](#react-commands)
+* [Git Commands](#git-commands) 
+* [Briefe](#briefe)
+* [Additional Testing](#additional-testing)
+* [Markdown Styles](#markdown-styles)
+* [Pages](#pages)
+* [Tools](#tools)
+* [Contact](#contact)
 
 ## Requirements
 ```bash
@@ -20,59 +28,20 @@ npm run dev
 # Start localhost server
 npm run build
 npm run start
+# on Windows
+npm run start_windows
 ```
 
 ## Git Commands
 
-### set up 
-```bash
-git init
-git clone https://github.com/j0hannr/engels-briefe.git
-# make sure you are always in the *engels-briefe* directory to execute git and nodejs
-cd engels-briefe
-npm install
-```
-### check master
-```bash
-git pull origin master
-```
-### create branch
-```bash
-git checkout -b <BRANCH_NAME>
-```
-### check branch
-```bash
-git fetch
-git checkout <BRANCH_NAME>
-```
-### update branch
-```bash
-# update branch internally
-git pull 
-# update from master
-git merge origin/master
-```
-### push files (in branch)
-```bash
-git add . 
-# or <FILENAME OR PATH>
-git commit -m "<comment>"
-git push
-# or git push --set-upstream origin <BRANCH_NAME> 
-```
-### merge and update branch in master
-*you need to push all changes in branch and switch to master*
-```bash
-git checkout origin/master
-git merge <BRANCH_NAME>
-```
+[Here](https://github.com/j0hannr/engels-briefe/blob/master/Git-Commands.md)
 
 
 ## Briefe
 
-Nummer *ID* | Author | Datum | Ort | Status | Kommentar 
---- | --- | --- | --- | --- | ---
-001 | Louise Engels, geb. Noot | 1791-01-05 | Hagen | :white_check_mark: | 
+Nummer *ID* | Author | Datum | Ort | Vorhanden | Exportiert | Fertig | Audio | Kommentar 
+--- | --- | --- | --- | --- | --- | --- | --- | --- 
+001 | Louise Engels, geb. Noot | 1791-01-05 | Hagen | :white_check_mark: | | | | falsche audio datei |
 004 | Friedrich Christian Hoffmann | 1791-05-12 | Düsseldorf | :white_check_mark: |
 021 | Johann Caspar Engels | 1791-09-09| Barmen | :white_check_mark: |
 022 | Louise Engels, geb. Noot | 1791-09-10 | Ruhrort | :white_check_mark: |
@@ -82,49 +51,14 @@ Nummer *ID* | Author | Datum | Ort | Status | Kommentar
 075 | Johann Caspar Engels | 1814-02-03 | Barmen | :white_check_mark: |
 130 | Friedrich Engels sen. | 1816-09-21 | Barmen | :white_check_mark: |
 169 | Friedrich Engels sen. | 1818-07-03/04 | Barmen | :white_check_mark: |
-235a | Friedrich Engels sen. | 1820-12-01 | Barmen | :white_check_mark: | Schlechte Scan Qualität!
+235a | Friedrich Engels sen. | 1820-12-01 | Barmen | :white_check_mark: | | | | Schlechte Scan Qualität!
 255 | Friedrich Engels sen. | 1822-07-09 | Barmen | :white_check_mark: |
 265 | Friedrich Engels sen. | 1823-05-31 | Barmen | :white_check_mark: |
 284 | Gerhard Bernhard van Haar | 1826-04-20 | Hamm | :white_check_mark: |
 294 | Friedrich Engels sen. | 1827-08-16 | Paris | :white_check_mark: |
 306 | Friedrich Engels sen. | 1838-07-26 | London | :white_check_mark: |
-307 | Friedrich Engels sen. | 1838-08-11 | Bremen | :white_check_mark: | Fehlerhafte Benennung?
-341 | Friedrich Engels sen. | 1858-09-10 | Manchester | :white_check_mark: | Schlechte Scan Qualität!
-
-
-
-## Todo
-
-* Add data to json file
-* load html files in brief view
-* brief view file (?)
-* Startpage (Index)
-* **Briefansicht Layout in Sketch!**
-* Slider Shadow l/r
-* Themen/ Personen Textfelder anpassen 
-* Animationen (auto slider)
-
-
-## Done
-
-* Framer Motion
-* API
-* Main Pages
-* Import Json
-* Header
-* Layout
-* add some css styles
-* Placeholder Briefe
-* Camilo Online
-* Git Desktop Client Test
-* Add Briefe Overview
-* Briefe Images + Data
-* images
-* clean syntax
-* undefined is not an object (evaluating 'children.join')
-* conditional `go back` *when on subpages*
-* style Themen + Familie Slider + Briefansicht
-* Adding Thumbnails
+307 | Friedrich Engels sen. | 1838-08-11 | Bremen | :white_check_mark: | | | | Fehlerhafte Benennung?
+341 | Friedrich Engels sen. | 1858-09-10 | Manchester | :white_check_mark: | | | | Schlechte Scan Qualität!
 
 ## Additional Testing
 
@@ -134,7 +68,10 @@ Nummer *ID* | Author | Datum | Ort | Status | Kommentar
 
 ## Markdown Styles
 
-*Hello* `World` **nicely**
+*Hello* `World` **nicely** <br>
+:warning:   :white_check_mark:  :x: <br>
+[Git Emojis](https://gist.github.com/parmentf/035de27d6ed1dce0b36a) <br>
+[Another Source](https://gitmoji.carloscuesta.me)
 
 ## Pages
 
@@ -148,12 +85,6 @@ personen | / | main_menu
 [person] | /person | sub_menu
 [thema] | /thema | sub_menu
 
-## Views
-All views are in `/components` *unless in file*
-
-`Brief view`
-displaying the preview of a *brief*
-
 ## Tools
 
 #### Code review
@@ -162,3 +93,12 @@ https://www.codefactor.io/ <br>
 https://codecov.io
 #### Image optimization 
 https://imgbot.net/app/
+#### Html to JSX
+https://magic.reactjs.net/htmltojsx.htm <br>
+*remove all tags including `html` and `body`*
+
+
+## Contact
+
+`Studio Arrenberg` <br>
+hallo@arrenberg.studio
