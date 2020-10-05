@@ -174,7 +174,7 @@
             "digitalisate": {"cover": "", "page": ["FE_285.1.jpg","FE_285.2.jpg","FE_285.3.jpg","FE_285.4.jpg"]},
             "normalisiert" : "",
             "diplomatisch" : "",
-            "audio" :""
+            "audio" :"284.mp3"
         },
         {
             "id" : "295",
@@ -187,7 +187,7 @@
             "digitalisate": {"cover": "FE_295.4.jpg", "page": ["FE_295.1.jpg","FE_295.2.jpg","FE_295.3.jpg","FE_295.5.jpg"]},
             "normalisiert" : "",
             "diplomatisch" : "",
-            "audio" :"294 Briefe.mp3"
+            "audio" :"294.mp3"
         },
         {
             "id" : "307",
@@ -200,7 +200,7 @@
             "digitalisate": {"cover": "FE_307.2.jpg", "page": ["FE_307.1.jpg","FE_307.2.jpg"]},
             "normalisiert" : "",
             "diplomatisch" : "",
-            "audio" :"307.mp3"
+            "audio" :"306.mp3"
         },
         {
             "id" : "308",
@@ -212,7 +212,7 @@
             "digitalisate": {"cover": "FE_308.4.jpg", "page": ["FE_308.1.jpg", "FE_308.2.jpg","FE_308.3.jpg"]},
             "normalisiert" : "",
             "diplomatisch" : "",
-            "audio" :""
+            "audio" :"307.mp3"
         },
         {
             "id" : "342",
@@ -224,7 +224,7 @@
             "digitalisate": {"cover": "FE_342.4.jpg", "page": ["FE_342.1.jpg", "FE_342.2.jpg","FE_342.3.jpg"]},
             "normalisiert" : "",
             "diplomatisch" : "",
-            "audio" :""
+            "audio" :"341.mp3"
         }
     ],
 
