@@ -41,7 +41,7 @@ npm run start_windows
 
 Nummer *ID* | Author | Datum | Ort | Vorhanden | Exportiert | Fertig | Audio | Kommentar 
 --- | --- | --- | --- | --- | --- | --- | --- | --- 
-001 | Louise Engels, geb. Noot | 1791-01-05 | Hagen | :white_check_mark: | | | :x: | falsche audio datei | Weibliche Einlesung, Audio wird nachgeliefert
+001 | Louise Engels, geb. Noot | 1791-01-05 | Hagen | :white_check_mark: | | | :x: | Weibliche Einlesung, Audio wird nachgeliefert
 004 | Friedrich Christian Hoffmann | 1791-05-12 | Düsseldorf | :white_check_mark: | | | :white_check_mark: |
 021 | Johann Caspar Engels | 1791-09-09| Barmen | :white_check_mark: | | | :white_check_mark: |
 022 | Louise Engels, geb. Noot | 1791-09-10 | Ruhrort | :white_check_mark: | | | :x: | Weibliche Einlesung, Audio wird nachgeliefert
