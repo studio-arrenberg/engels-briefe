@@ -1,8 +1,7 @@
-import Head from 'next/head'
-import Layout from '../components/layout'
-import utilStyles from '../styles/utils.module.css'
-import ChangeLog from '../components/change-log'
-
+import Head from "next/head";
+import Layout from "../components/layout";
+import utilStyles from "../styles/utils.module.css";
+import ChangeLog from "../components/change-log";
 
 export default function Home() {
   return (
@@ -12,8 +11,8 @@ export default function Home() {
       </Head>
 
       <main>
-          <ChangeLog/>
-        </main>
+        <ChangeLog />
+      </main>
     </Layout>
-  )
+  );
 }
