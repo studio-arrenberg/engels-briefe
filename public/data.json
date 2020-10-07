@@ -6,7 +6,7 @@
             "sender": {"name":"Louise Engels, geb. Noot","ort":"Wuppertal", "id":"1"},
             "empfänger" : {"name": "eine Unbekannte Freundin", "ort": "Hagen"},
             "text" : "Ich danke Dir herzlich dafür, daß Du mir schon so bald Nachricht von Dir und den Lieben Deinigen gabst, so kurz dein Brief auch war, so machte er mir doch viele Freude.",
-            "digitalisate": {"cover": "sjdb.png", "page": ["FE_01.1.jpg","FE_01.2.jpg"]},
+            "digitalisate": {"cover": "", "page": ["FE_01.1.jpg","FE_01.2.jpg"]},
             "normalisiert" : "",
             "diplomatisch" : "",
             "audio" :""
