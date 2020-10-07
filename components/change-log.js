@@ -25,6 +25,7 @@ export default function ChangeLog() {
         >
 
 <motion.div key='we' variants={postVariants} layoutId='we'>
+        <div className="change-log">
             <h1 className={utilStyles.headingXl} >Engels Briefe</h1>
             <div className={utilStyles.lightText}>
             <p>Simplified Change Log</p>
