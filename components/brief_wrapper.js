@@ -69,11 +69,11 @@ export default function Brief_wrapper(props) {
                 />
                 <br />
                 <img
-                  src={`../../pictures/digitalisate/${data.digitalisate.page[1]}`}
+                  src={`../../pictures/digitalisate/${data.digitalisate.page[0]}`}
                 />
                 <br />
                 <img
-                  src={`../../pictures/digitalisate/${data.digitalisate.page[2]}`}
+                  src={`../../pictures/digitalisate/${data.digitalisate.page[1]}`}
                 />
               </div>
 

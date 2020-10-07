@@ -1,21 +1,66 @@
-@font-face {font-family: 'Gibson-LightIt';src: url('../webfonts/2D7FB2_0_0.eot');src: url('../webfonts/2D7FB2_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2D7FB2_0_0.woff2') format('woff2'),url('../webfonts/2D7FB2_0_0.woff') format('woff'),url('../webfonts/2D7FB2_0_0.ttf') format('truetype');}
-@font-face {font-family: 'Gibson-BoldItalic';src: url('../webfonts/2D7FB2_1_0.eot');src: url('../webfonts/2D7FB2_1_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2D7FB2_1_0.woff2') format('woff2'),url('../webfonts/2D7FB2_1_0.woff') format('woff'),url('../webfonts/2D7FB2_1_0.ttf') format('truetype');}
-@font-face {font-family: 'Gibson-Bold';src: url('../webfonts/2D7FB2_3_0.eot');src: url('../webfonts/2D7FB2_3_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2D7FB2_3_0.woff2') format('woff2'),url('../webfonts/2D7FB2_3_0.woff') format('woff'),url('../webfonts/2D7FB2_3_0.ttf') format('truetype');}
-@font-face {font-family: 'Gibson-Regular';src: url('../webfonts/2D7FB2_4_0.eot');src: url('../webfonts/2D7FB2_4_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2D7FB2_4_0.woff2') format('woff2'),url('../webfonts/2D7FB2_4_0.woff') format('woff'),url('../webfonts/2D7FB2_4_0.ttf') format('truetype');}
-@font-face {font-family: 'Gibson-SemiBold';src: url('../webfonts/2D7FB2_5_0.eot');src: url('../webfonts/2D7FB2_5_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2D7FB2_5_0.woff2') format('woff2'),url('../webfonts/2D7FB2_5_0.woff') format('woff'),url('../webfonts/2D7FB2_5_0.ttf') format('truetype');}
-@font-face {font-family: 'Gibson-Italic';src: url('../webfonts/2D7FB2_6_0.eot');src: url('../webfonts/2D7FB2_6_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2D7FB2_6_0.woff2') format('woff2'),url('../webfonts/2D7FB2_6_0.woff') format('woff'),url('../webfonts/2D7FB2_6_0.ttf') format('truetype');}
-@font-face {font-family: 'Gibson-Light';src: url('../webfonts/2D7FB2_7_0.eot');src: url('../webfonts/2D7FB2_7_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2D7FB2_7_0.woff2') format('woff2'),url('../webfonts/2D7FB2_7_0.woff') format('woff'),url('../webfonts/2D7FB2_7_0.ttf') format('truetype');}
-
-
+@font-face {
+  font-family: "Gibson-LightIt";
+  src: url("../webfonts/2D7FB2_0_0.eot");
+  src: url("../webfonts/2D7FB2_0_0.eot?#iefix") format("embedded-opentype"),
+    url("../webfonts/2D7FB2_0_0.woff2") format("woff2"),
+    url("../webfonts/2D7FB2_0_0.woff") format("woff"),
+    url("../webfonts/2D7FB2_0_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gibson-BoldItalic";
+  src: url("../webfonts/2D7FB2_1_0.eot");
+  src: url("../webfonts/2D7FB2_1_0.eot?#iefix") format("embedded-opentype"),
+    url("../webfonts/2D7FB2_1_0.woff2") format("woff2"),
+    url("../webfonts/2D7FB2_1_0.woff") format("woff"),
+    url("../webfonts/2D7FB2_1_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gibson-Bold";
+  src: url("../webfonts/2D7FB2_3_0.eot");
+  src: url("../webfonts/2D7FB2_3_0.eot?#iefix") format("embedded-opentype"),
+    url("../webfonts/2D7FB2_3_0.woff2") format("woff2"),
+    url("../webfonts/2D7FB2_3_0.woff") format("woff"),
+    url("../webfonts/2D7FB2_3_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gibson-Regular";
+  src: url("../webfonts/2D7FB2_4_0.eot");
+  src: url("../webfonts/2D7FB2_4_0.eot?#iefix") format("embedded-opentype"),
+    url("../webfonts/2D7FB2_4_0.woff2") format("woff2"),
+    url("../webfonts/2D7FB2_4_0.woff") format("woff"),
+    url("../webfonts/2D7FB2_4_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gibson-SemiBold";
+  src: url("../webfonts/2D7FB2_5_0.eot");
+  src: url("../webfonts/2D7FB2_5_0.eot?#iefix") format("embedded-opentype"),
+    url("../webfonts/2D7FB2_5_0.woff2") format("woff2"),
+    url("../webfonts/2D7FB2_5_0.woff") format("woff"),
+    url("../webfonts/2D7FB2_5_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gibson-Italic";
+  src: url("../webfonts/2D7FB2_6_0.eot");
+  src: url("../webfonts/2D7FB2_6_0.eot?#iefix") format("embedded-opentype"),
+    url("../webfonts/2D7FB2_6_0.woff2") format("woff2"),
+    url("../webfonts/2D7FB2_6_0.woff") format("woff"),
+    url("../webfonts/2D7FB2_6_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gibson-Light";
+  src: url("../webfonts/2D7FB2_7_0.eot");
+  src: url("../webfonts/2D7FB2_7_0.eot?#iefix") format("embedded-opentype"),
+    url("../webfonts/2D7FB2_7_0.woff2") format("woff2"),
+    url("../webfonts/2D7FB2_7_0.woff") format("woff"),
+    url("../webfonts/2D7FB2_7_0.ttf") format("truetype");
+}
 
 * {
   box-sizing: border-box;
 }
 
-
 html,
 body {
-
   padding: 0;
   margin: 0;
   background-color: black;
@@ -25,36 +70,28 @@ body {
   font-weight: 500;
   color: #fff;
 
-
   -ms-user-select: None;
   -moz-user-select: None;
   -webkit-user-select: None;
   user-select: None;
 }
 
-
-.container{
+.container {
   height: 100vh;
   width: 100%;
   position: relative;
 }
 
-
-
 .static {
   display: block !important;
 }
-
-
-
-
 
 /* SCROLLBAR REMOVE */
 
 ::-webkit-scrollbar {
   width: 0px;
   height: 0px;
-  background: transparent; 
+  background: transparent;
 }
 
 /* Optional:  scrollbar unten
@@ -62,34 +99,28 @@ body {
   background: #fff;
 } */
 
-
-
 /* SCROLLBAR REMOVE CLOSE */
-
-
-
-
 
 /* NAVIGATION OPEN */
 
-nav{
+nav {
   position: fixed;
   width: 100%;
   display: flex;
   justify-content: space-between;
   z-index: 200;
-  background: rgb(0,0,0);
-  background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 90%);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 90%);
   padding-bottom: 150px;
 }
 
-.menu_left svg{
-  margin:50px;
+.menu_left svg {
+  margin: 50px;
   width: 50px;
   height: auto;
 }
 
-.menu_right a{
+.menu_right a {
   display: block;
   float: left;
   margin: 50px;
@@ -97,64 +128,55 @@ nav{
   opacity: 0.75;
 }
 
-
-.menu_right a:hover, .active{
+.menu_right a:hover,
+.active {
   text-decoration: none;
   opacity: 1;
 }
 
-
 /* NAVIGATION CLOSE*/
-
 
 /* MAIN CONTENT AREA - SCROLLABLE AREA */
 
-main{
+main {
   position: absolute;
   top: 150px;
   width: 100%;
   height: auto;
+  padding: 0px 100px;
 }
 
-.gardient{
+.gardient {
   position: fixed;
   top: 0px;
-  width:300px;
+  left: 0px;
+  width: 300px;
   height: 100vh;
   z-index: 100;
-  background: linear-gradient(-90deg, rgba(0,0,0,0) 0%, rgb(0, 0, 0) 100%);
+  background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
 }
 
-.right{
+.right {
   position: fixed;
+  left: auto;
   right: 0px;
-  background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgb(0, 0, 0) 100%);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
 }
 
-.scrollable{
+.scrollable {
   width: auto;
   display: flex;
-  }
-  
+}
+
+.change-log {
+  margin: 200px;
+}
 
 /*  MAIN CLOSE  */
 
-
-
-
-
-
-
-
-
-
-
-
-
-.item:nth-of-type(2n){
+.item:nth-of-type(2n) {
   padding-top: 300px;
 }
-
 
 .item_preview {
   position: relative;
@@ -163,43 +185,35 @@ main{
   height: 300-px;
 }
 
-
-.item_preview img:first-of-type{
+.item_preview img:first-of-type {
   z-index: 2;
   left: 20px;
   top: 20px;
-  -webkit-box-shadow: 0px 0px 45px 0px rgba(0,0,0,0.35);
--moz-box-shadow: 0px 0px 45px 0px rgba(0,0,0,0.35);
-box-shadow: 0px 0px 45px 0px rgba(0,0,0,0.35);
-
+  -webkit-box-shadow: 0px 0px 45px 0px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0px 0px 45px 0px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 0px 45px 0px rgba(0, 0, 0, 0.35);
 }
 
-.item_preview img{
+.item_preview img {
   width: 350px;
   position: absolute;
   left: 0px;
   top: 0px;
 }
 
-
-.item_preview img:first-of-type{
+.item_preview img:first-of-type {
   z-index: 2;
   left: 20px;
   top: 20px;
 }
 
-
-.item_description{
+.item_description {
   position: absolute;
   top: 75px;
   left: 400px;
   display: block;
   clear: both;
 }
-
-
-
-
 
 /*  TIMELINE OPEN  */
 
@@ -218,7 +232,7 @@ box-shadow: 0px 0px 45px 0px rgba(0,0,0,0.35);
   float: left;
   width: 2px;
   height: 50px;
-  background-color:  white;
+  background-color: white;
   margin-left: 5%;
 }
 
@@ -228,7 +242,7 @@ box-shadow: 0px 0px 45px 0px rgba(0,0,0,0.35);
   float: left;
   width: 2px;
   height: 100px;
-  background-color:  white;
+  background-color: white;
   margin-left: 5%;
 }
 
@@ -243,16 +257,19 @@ box-shadow: 0px 0px 45px 0px rgba(0,0,0,0.35);
 
 /*  TIMELINE CLOSE  */
 
-
-
-
-
 /* TYPO */
 
-p,h1,h2,h3,h4,h5,h6,ul,li {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li {
   font-weight: 500;
   margin: 0px;
-
 }
 
 h2 {
@@ -270,198 +287,170 @@ a:hover {
   text-decoration: underline;
 }
 
-
 /* TYPO CLOSE */
-
-
-
 
 img {
   max-width: 100%;
   display: block;
 }
 
-
-
-
-
-
-
 /* BRIEF VIEW */
 
-.brief_view{
+.brief_view {
   max-width: 1500px;
   margin: 0 auto;
   height: auto;
 }
 
-.meta{
+.meta {
   display: flex;
   padding: 250px 50px;
   width: 100%;
   justify-content: space-around;
 }
 
-.portrait{
+.portrait {
   width: 400px;
-  margin: 20px
+  margin: 20px;
 }
 
-.sender, .empfänger {
+.sender,
+.empfänger {
   margin-top: 200px;
 }
-.sender{
+.sender {
   text-align: right;
 }
 
 .arrow_send {
-width: 50px;
-margin: 20px;
-position: relative;
-transform: rotate(180deg);
+  width: 50px;
+  margin: 20px;
+  position: relative;
+  transform: rotate(180deg);
 }
 
-
-.digitalisate{ 
+.digitalisate {
   width: 50%;
   padding: 20px;
 }
 
-
-.brieftext{
+.brieftext {
   width: 50%;
   padding: 20px;
 }
 
-
-.vorlesen{
+.vorlesen {
   position: fixed;
   right: 200px;
   bottom: 20px;
 }
 
-.vergleichs-ansicht{
+.vergleichs-ansicht {
   height: 100%;
-  display: flex;  
+  display: flex;
   position: relative;
 }
 
-
-.diplomatisch{
-  font-family: serif;
+.vergleichs-ansicht {
+  font-family: "Bitstream Charter";
+  line-height: 1.4rem;
 }
 
-.diplomatisch .corr{
-display: none;
+.vergleichs-ansicht .corr {
+  display: none;
 }
 
-.detail-ansicht{
+.detail-ansicht {
   width: 100%;
 }
 
-.normalisiert{
+.normalisiert {
   width: 50%;
   margin: 0 auto;
 }
 
-.normalisiert .orig, .normalisiert .lb{
+.normalisiert .orig,
+.normalisiert .lb {
   display: none;
 }
 
-
-.normalisiert .corr{
+.normalisiert .corr {
   display: inline;
-} 
+}
 
-
-
-.themen{
+.themen {
   position: fixed;
   right: -100px;
-  top:200px;
-  z-index:200;
+  top: 200px;
+  z-index: 200;
 }
 
-.themen img{
-    height: 300px;
-    opacity: 0.5;
+.themen img {
+  height: 300px;
+  opacity: 0.5;
 }
 
-.themen label{
+.themen label {
   display: block;
   margin: -30px 0px 35px 15px;
   opacity: 1;
-  z-index:201;
+  z-index: 201;
   position: relative;
-
 }
 
-.themen a{
+.themen a {
   display: block;
   transition: 0.2s ease-in-out;
-
 }
 
-
-.themen a:hover{  
+.themen a:hover {
   transform: translateX(-100px);
   text-decoration: none;
   transition: 0.2s ease-in-out;
 }
 
-
-
-.themen a:hover img{
+.themen a:hover img {
   opacity: 1;
 }
 
-
-.kuvert_img{
+.kuvert_img {
   width: 80%;
   margin-left: 20%;
-  
-
 }
-.kuvert{
+.kuvert {
   font-size: 2rem;
-  font-family: serif;
+  line-height: 2.4rem;
 }
 
-.kuvert small{
+.kuvert small {
   font-size: 1.4rem;
 }
 
-.page{
+.page {
   background-color: #fff;
   color: #000;
   margin-bottom: 20px;
 }
 
-
-
-p > span .latin{
+p > span .latin {
   font-family: sans-serif;
   color: red;
 }
 
-
-.writing-session .g\.rend\.script\.latin{
+.writing-session .g\.rend\.script\.latin {
   font-family: sans-serif;
 }
 
-.headingNumber{
+.headingNumber {
   display: none;
 }
 
-
-
-.g\.enc\.tagsdecl\.suspension\.type1{
+.g\.enc\.tagsdecl\.suspension\.type1 {
   color: red;
   display: none;
 }
 
-
-.navigation{
+.navigation {
   position: fixed;
   bottom: 0px;
   right: 0px;
@@ -474,16 +463,12 @@ p > span .latin{
   text-align: center;
 }
 
-.navigation a{
+.navigation a {
   margin: 0px 50px;
 }
 
-.toggle a{ 
+.toggle a {
   float: left;
 }
 
-
 /* BRIEF VIEW CLOSE */
-
-
-
