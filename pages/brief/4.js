@@ -135,13 +135,10 @@ export default function page() {
               <div className="page"
               style={{
                 paddingTop: "120px",
-                paddingLeft: "50px",
-                paddingBottom: "55px",
+                paddingLeft: "70px",
+                paddingBottom: "110px",
               }}>
                 <p>
-                  <span className="pagebreak" id="index.xml-pb-d31e314">
-                    <a href>[Page 2]</a>
-                  </span>{" "}
                   Fortſchritte gemacht; daß ihr das Wohlgefallen Gottes, und
                   ihre innre
                   <br className="lb" /> Ruhe mehr werth iﬅ, als alle Luﬅ dieſer
