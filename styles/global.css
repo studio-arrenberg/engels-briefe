@@ -55,6 +55,46 @@
     url("../webfonts/2D7FB2_7_0.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Charter";
+  src: local("Charter"),
+    url("../webfonts/charter/charter_regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Charter";
+  src: local("Charter Italic"),
+    url("../webfonts/charter/charter_italic.woff") format("woff");
+  font-style: italic;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Charter";
+  src: local("Charter Bold"),
+    url("../webfonts/charter/charter_bold.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Charter";
+  src: local("Charter Bold Italic"),
+    url("../webfonts/charter/charter_bold_italic.woff") format("woff");
+  font-style: italic;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -86,6 +126,16 @@ body {
   display: block !important;
 }
 
+.alice{
+  margin-top: 500px;
+  margin: 200px auto;
+  text-align: center;
+}
+
+.alice img{
+  width: 400px;
+  margin: 0 auto;
+}
 /* SCROLLBAR REMOVE */
 
 ::-webkit-scrollbar {
@@ -339,12 +389,24 @@ img {
   padding: 20px;
 }
 
-.vorlesen {
+.player {
   position: fixed;
-  right: 200px;
-  bottom: 20px;
+  right: 100px;
+  bottom: 0px;
+  width: 300px;
+  display: flex;
+  z-index: 300;
 }
 
+.player .app{
+  width: 100%;
+}
+
+.player .controls{
+  position: absolute;
+  top: 15px;
+  left: -75px
+}
 .vergleichs-ansicht {
   height: 100%;
   display: flex;
@@ -352,8 +414,10 @@ img {
 }
 
 .vergleichs-ansicht {
-  font-family: "Bitstream Charter";
+  font-family: "Charter";
   line-height: 1.4rem;
+  letter-spacing: 0.1px;
+  font-size: 0.9rem;
 }
 
 .vergleichs-ansicht .corr {
@@ -369,8 +433,14 @@ img {
   margin: 0 auto;
 }
 
+.normalisiert .page{
+  padding-top: 100px !important;
+    padding-left: 80px !important;
+    padding-right: 50px !important;
+    padding-bottom: 100px !important;
+}
 .normalisiert .orig,
-.normalisiert .lb {
+.normalisiert .page br {
   display: none;
 }
 
@@ -433,12 +503,12 @@ img {
 }
 
 p > span .latin {
-  font-family: sans-serif;
+  font-family: "Gibson-Regular";
   color: red;
 }
 
 .writing-session .g\.rend\.script\.latin {
-  font-family: sans-serif;
+  font-family: "Gibson-Regular";
 }
 
 .headingNumber {
@@ -459,7 +529,7 @@ p > span .latin {
   background: #000;
   display: flex;
   justify-content: center;
-  padding: 25px 100px;
+  padding: 30px 100px;
   text-align: center;
 }
 
