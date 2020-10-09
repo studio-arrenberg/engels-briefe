@@ -17,11 +17,11 @@ const formWaveSurferOptions = ref => ({
   container: ref,
   waveColor: "white",
   progressColor: "black",
-  cursorColor: "black",
-  barWidth: 5,
-  barRadius: 2,
-  responsive: true,
-  height: 150,
+  cursorColor: "red",
+  barRadius: 1,
+  responsive: true,         
+  height: 50,
+  barWidth: 0.5,
   // If true, normalize by the maximum peak instead of 1.0.
   normalize: true,
   // Use the PeakCache to improve rendering speed of large waveforms.
@@ -78,23 +78,12 @@ export default function Waveform({ url }) {
 
   return (
     <div>
-      <div id="waveform" ref={waveformRef} />
       <div className="controls">
-        <button onClick={handlePlayPause}>{!playing ? "Play" : "Pause"}</button>
-        <input
-          type="range"
-          id="volume"
-          name="volume"
-          // waveSurfer recognize value of `0` same as `1`
-          //  so we need to set some zero-ish value for silence
-          min="0.01"
-          max="1"
-          step=".025"
-          onChange={onVolumeChange}
-          defaultValue={volume}
-        />
-        <label htmlFor="volume">Volume</label>
+      <button onClick={handlePlayPause}>{!playing ? "Play" : "Pause"}</button>
+
       </div>
+      <div id="waveform" ref={waveformRef} />
+     
     </div>
   );
 }

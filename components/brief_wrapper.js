@@ -69,11 +69,11 @@ export default function Brief_wrapper(props) {
                 />
                 <br />
                 <img
-                  src={`../../pictures/digitalisate/${data.digitalisate.page[1]}`}
+                  src={`../../pictures/digitalisate/${data.digitalisate.page[0]}`}
                 />
                 <br />
                 <img
-                  src={`../../pictures/digitalisate/${data.digitalisate.page[2]}`}
+                  src={`../../pictures/digitalisate/${data.digitalisate.page[1]}`}
                 />
               </div>
 
@@ -85,7 +85,7 @@ export default function Brief_wrapper(props) {
 
             {/* children */}
             <div className="detail-ansicht">
-              <div>{props.children}</div>
+              <div className="normalisiert">{props.children}</div>
               <div className="themen">
                 <a>
                   <img src="../pictures/themen/liebe.jpg" />
@@ -105,22 +105,20 @@ export default function Brief_wrapper(props) {
             <div className="navigation">
               <a>
                 <h3>Vergleichsansicht</h3>
-                <p> Hallo hallo hallo mein kleiner </p>
               </a>
 
               <a>
                 <h3>Detailansicht</h3>
-                <p>Hallo hallo hallo mein kleiner </p>
               </a>
             </div>
 
 
-            <div className="vorlesen">
-              <p>moin</p>
-              <h3>Brief vorlesen</h3>
+            <div className="player">
+            
+              <Audio></Audio>
+
             </div>
 
-            <Audio></Audio>
             {/* <Audio2></Audio2> */}
             {/* <Audio3></Audio3> */}
             {/* <Audio4></Audio4> */}
