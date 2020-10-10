@@ -86,7 +86,7 @@ export function Timeline2() {
 
   // const x = useMotionValue(0)
   const x = scrollX
-  const pagex = 9140
+  const pagex = 14140 //9140
   const letters = 18
   const leaverange = 1.3
   // const xRange = [-1, 0, 5, 5.5]

@@ -10,7 +10,10 @@ export default function Home() {
         <title>Engelsbriefe</title>
       </Head>
 
-      <ChangeLog />
+      <main>
+        <ChangeLog />
+      </main>
+      {/* <ChangeLog /> */}
     </Layout>
   );
 }
