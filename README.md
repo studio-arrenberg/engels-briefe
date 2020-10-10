@@ -1,21 +1,21 @@
 # Engelsbriefe
 
-### Repo für das Interface der Engels Ausstellung
-`https://engels.arrenberg.studio/`
+Repo für das [Interface der Engels Ausstellung](https://engels.arrenberg.studio/)
 
-## Wichtig
+
+## Wichtig 🔥
 * Wolf Vorschlag visualisieren (Briefe und Personen zusammenführen)
 
 
 ## Table of Contents
 * [Requirements](#requirements)
 * [React Commands](#react-commands)
-* [Git Commands](#git-commands) 
+* [Git Commands](https://github.com/j0hannr/engels-briefe/blob/master/Git-Commands.md) 
 * [Briefe](#briefe)
-* [Additional Testing](#additional-testing)
-* [Markdown Styles](#markdown-styles)
-* [Pages](#pages)
-* [Tools](#tools)
+* [Additional Testing](https://github.com/j0hannr/engels-briefe/blob/master/Further-ReadMe.md)
+* [Markdown Styles](https://github.com/j0hannr/engels-briefe/blob/master/Further-ReadMe.md)
+* [Pages](https://github.com/j0hannr/engels-briefe/blob/master/Further-ReadMe.md)
+* [Tools](https://github.com/j0hannr/engels-briefe/blob/master/Further-ReadMe.md)
 * [Contact](#contact)
 
 ## Requirements
@@ -34,11 +34,6 @@ npm run start
 # on Windows
 npm run start_windows
 ```
-
-## Git Commands
-
-[Here](https://github.com/j0hannr/engels-briefe/blob/master/Git-Commands.md)
-
 
 ## Briefe
 
@@ -63,45 +58,14 @@ Nummer *ID* | Author | Datum | Ort | Vorhanden | Exportiert | Fertig | Audio | K
 307 | Friedrich Engels sen. | 1838-08-11 | Bremen | :white_check_mark: | | | :white_check_mark: | Fehlerhafte Benennung?
 341 | Friedrich Engels sen. | 1858-09-10 | Manchester | :white_check_mark: | | | :white_check_mark: | Schlechte Scan Qualität!
 
-## Additional Testing
 
-* Matomo https://www.npmjs.com/package/@datapunt/matomo-tracker-react
-* LogRocket
-* Service Workers
+## Developer
 
-## Markdown Styles
+<br>
+<br>
 
-*Hello* `World` **nicely** <br>
-:warning:   :white_check_mark:  :x: <br>
-[Git Emojis](https://gist.github.com/parmentf/035de27d6ed1dce0b36a) <br>
-[Another Source](https://gitmoji.carloscuesta.me)
+<a href="https://arrenberg.studio"><img src="https://resources.arrenberg.studio/logo/black.png"
+     alt="studio arrenberg"
+     style="float: left; margin-right: 10px; height: 120px" /></a>
 
-## Pages
-
-Name | Dir | Kommentar 
---- | --- | --- 
-Index | / | landing page link to `briefe`
-briefe | / | main_menu
-themen | / | main_menu
-personen | / | main_menu
-[brief] | /brief | sub_menu + brief ansichten
-[person] | /person | sub_menu
-[thema] | /thema | sub_menu
-
-## Tools
-
-#### Code review
-https://deepscan.io/dashboard <br>
-https://www.codefactor.io/ <br>
-https://codecov.io
-#### Image optimization 
-https://imgbot.net/app/
-#### Html to JSX
-https://magic.reactjs.net/htmltojsx.htm <br>
-*remove all tags including `html` and `body`*
-
-
-## Contact
-
-`Studio Arrenberg` <br>
-hallo@arrenberg.studio
+<br>
