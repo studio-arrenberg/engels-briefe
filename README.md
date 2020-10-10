@@ -3,6 +3,9 @@
 ### Repo für das Interface der Engels Ausstellung
 `https://engels.arrenberg.studio/`
 
+## Wichtig
+* Wolf Vorschlag visualisieren (Briefe und Personen zusammenführen)
+
 
 ## Table of Contents
 * [Requirements](#requirements)
