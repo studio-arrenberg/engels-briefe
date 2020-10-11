@@ -62,7 +62,7 @@ Nummer *ID* | Author | Datum | Ort | Vorhanden | Exportiert | Fertig | Audio | K
 ## Developer
 
 <br>
-<br>
+hallo@arrenberg.studio
 
 <a href="https://arrenberg.studio">
 <img src="https://resources.arrenberg.studio/logo/black.png" alt="studio arrenberg" height="100">
