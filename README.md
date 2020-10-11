@@ -65,9 +65,7 @@ Nummer *ID* | Author | Datum | Ort | Vorhanden | Exportiert | Fertig | Audio | K
 <br>
 
 <a href="https://arrenberg.studio">
-     
-     <img src="https://resources.arrenberg.studio/logo/black.png" alt="Logo" width="80" height="80">
-
+<img src="https://resources.arrenberg.studio/logo/black.png" alt="Logo" width="80" height="80">
  </a>
 
 <br>
