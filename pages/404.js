@@ -1,8 +1,6 @@
 
 import Link from 'next/link'
 import Router from 'next/router'
-
-
 import Layout from "../components/layout"
 import utilStyles from '../styles/utils.module.css'
 
@@ -22,7 +20,7 @@ export default function Custom404() {
                 <br></br>
                 <br></br>
                 <br></br>
-                <a  onClick={() => Router.back()}> Zurück</a>
+                <h1 onClick={() => Router.back()}> Zurück</h1>
 
             </div>
         </Layout>
