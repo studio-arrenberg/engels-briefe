@@ -1,0 +1,283 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+             <title>021 Johann Casper Engels sen., Barmen, an Louise Engels, geb. Noot, Ruhrort, 8. und 9. September 1791, Mittwoch und Donnerstag (Brief)</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Daten für Museumspräsentation; FE 2020-05-11</p>
+            </publicationStmt>
+            <notesStmt>
+                <!-- Verweis auf Briefnummer bei Knieriem -->
+             <relatedItem n="21" target="reg_global_bibl.xml#bibl.knieriem.1991" type="print"/>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                     <settlement>Wuppertal</settlement>
+                     <repository>Stadtarchiv</repository>
+                     <idno>FE_21_1791-09-09</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <!-- Worttrennung -->
+            <tagsDecl xml:id="gstruct.header.enc.worttrennung">
+                <!-- generisch -->
+                <rendition xml:id="g.enc.tagsdecl.hyphenation.divis">-</rendition>
+                <rendition xml:id="g.enc.tagsdecl.hyphenation.eq">⹀</rendition>
+                <rendition xml:id="g.enc.tagsdecl.hyphenation.colon">:</rendition>
+                <rendition xml:id="g.enc.tagsdecl.hyphenation.space"> </rendition>
+                <!-- dokumentspezifische Deklarationen -->
+   
+                <!-- weitere Deklarationen hier anfügen -->
+            </tagsDecl>
+            
+            <!-- Endsilbenverschleifung -->
+            <tagsDecl xml:id="gstruct.header.enc.suspension">
+                <!-- generisch -->
+                <rendition xml:id="g.enc.tagsdecl.suspension.type1">normale Suspensionsschleife; z.B. "en", "ung"</rendition>
+                <rendition xml:id="g.enc.tagsdecl.suspension.type2">Suspensionsschleife mit Ober- und Unterlänge</rendition>
+                <rendition xml:id="g.enc.tagsdecl.suspension.type3">Suspensionsschleife als "Pluralmarker" (spekulativ)</rendition>
+                <!-- dokumentspezifische Deklarationen -->
+                
+                <!-- weitere Deklarationen hier anfügen -->
+            </tagsDecl>
+            
+            <!-- Schreibrichtung -->
+            <tagsDecl xml:id="gstruct.header.enc.schreibrichtung">
+                <!-- generisch -->
+                <rendition xml:id="g.enc.tagsdecl.wd.vertical-left" scheme="css">transform: rotate(270deg);</rendition>
+                <rendition xml:id="g.enc.tagsdecl.wd.upside-down" scheme="css">transform: rotate(180deg);</rendition>
+                <rendition xml:id="g.enc.tagsdecl.wd.vertical-right" scheme="css">transform: rotate(90deg);</rendition>
+                <rendition xml:id="g.enc.tagsdecl.wd.diagonal-bl-ur" scheme="free">diagonal; links unten bis rechts oben</rendition>
+                <rendition xml:id="g.enc.tagsdecl.wd.diagonal-ul-br" scheme="free">diagonal; links oben bis rechts unten</rendition>
+                <!-- dokumentspezifische Deklarationen -->
+
+                <!-- weitere Deklarationen hier anfügen -->
+            </tagsDecl>
+            
+            <!-- Besonderheiten bei der Benutzung von Schriftzeichen -->
+            <tagsDecl xml:id="gstruct.header.enc.char-combination">
+                <!-- generisch -->
+                <rendition xml:id="g.enc.tagsdecl.cc.abbr-colon-sup">Kombination einer Hochstellung mit ':' als Abkürzungszeichen</rendition>
+                <!-- dokumentspezifische Deklarationen -->
+                
+                <!-- weitere Deklarationen hier anfügen -->
+            </tagsDecl>
+            
+            <!-- Metazeichen -->
+            <tagsDecl xml:id="gstruct.header.enc.metamarks">
+                <!-- generische Deklarationen -->
+                <rendition xml:id="g.enc.tagsdecl.metamark.insertion">
+                    Einweisungsschleife
+                </rendition>
+                <!-- dokumentspezifische Deklarationen -->
+                <!-- ... -->
+            </tagsDecl>
+            
+            <!-- Textverlust -->
+            <p xml:id="gstruct.header.enc.zerstoerte_zeichen">
+             <!--  dokumentspezifische Deklarationen hier einfügen  -->
+             <note type="damageinterp" xml:id="enc.damageinterp.siegelausriss">
+                 <desc>Textverlust durch Siegelausriss; Seite 3, Rand, oben; Erhaltener Text auf Seite 3, Rand, unten</desc>
+                 <seg type="siegelausriss">entſchuldigen</seg>
+             </note>
+            </p>
+            
+            
+            <!-- Weitere, dokumentspezifische Sektionen zur Beschreibung von TEI-Markup hier anfügen -->
+            
+            <!-- Einzüge -->
+            <tagsDecl xml:id="struct.header.enc.indent">
+                <rendition xml:id="enc.tagsdecl.indent-negative">
+                    <dimensions quantity="-5" unit="mm"/>
+                    <desc>negativer Einzug</desc>
+                </rendition>
+                <rendition xml:id="enc.tagsdecl.indent-medium">
+                    <dimensions quantity="10" unit="mm"/>
+                    <desc>Einzug medium</desc>
+                </rendition>
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+   <correspDesc>
+    <correspAction type="sent">
+     <persName ref="#pers.partic.engels-johann-caspar-II">Johann Casper Engels Sen.</persName>
+     <placeName ref="#place.barmen">Barmen</placeName>
+     <date when="1791-09-09"/>
+    </correspAction>
+    <correspAction type="received">
+     <persName ref="#pers.partic.engels-luise">Luise Noot</persName>
+     <placeName ref="#place.ruhrort">Ruhrort</placeName>
+    </correspAction>
+   </correspDesc>
+  </profileDesc>
+ </teiHeader>
+    
+ <facsimile>
+  <graphic xml:id="facs.p1" n="4" url="FE_21.1_09091791.pdf"/>
+  <graphic xml:id="facs.p2" n="2" url="FE_21.2_09091791.pdf"/>
+  <graphic xml:id="facs.p3" n="3" url="FE_21.3_09091791.pdf"/>
+  <graphic xml:id="facs.p4" n="1" url="FE_21.4_09091791.pdf"/>
+ </facsimile>
+
+ <text>
+  <body>
+   <div type="kuvert">
+    <pb facs="#facs.p1" n="4"/>
+    <div n="E">
+     <p rendition="#g.enc.tagsdecl.wd.vertical-left">
+      <address>
+          <space dim="horizontal" quantity="2" unit="cm"/>
+          <addrLine><hi rendition="#g.rend.script.latin">Madame</hi></addrLine>
+       <addrLine>
+           <hi rendition="#g.rend.script.latin"><choice>
+               <abbr>Mad<seg rendition="#g.enc.tagsdecl.cc.abbr-colon-sup"><hi rend="sup">e</hi>
+          <am>..</am></seg>
+         </abbr>
+         <expan n="no" cert="high">Mad<ex>ame</ex>
+         </expan>
+        </choice>
+        <persName ref="#pers.partic.engels-luise">Louise Engels né Nooth</persName></hi>
+       </addrLine>
+          <addrLine><space dim="horizontal" quantity="6" unit="cm"/><hi rendition="#g.rend.script.latin">à</hi></addrLine>
+          <space dim="vertical" quantity="2" unit="lines"/>
+       <addrLine>
+           <space dim="horizontal" quantity="2" unit="cm"/>
+           <placeName ref="#place.ruhrort" rendition="#g.rend.script.latin">Ruhrorth</placeName>
+       </addrLine>
+      </address>
+     </p>
+    </div>
+   </div>
+
+   <div type="writing-session" n="1">
+    <pb n="1" facs="#facs.p4"/>
+    <opener rend="inline">
+        <salute><anchor xml:id="mark.001.s"/>Meine Liebe <choice><orig>theüre</orig><corr type="ortho">theure</corr></choice> 
+            <rs type="person" ref="#pers.partic.engels-luise">Gattin</rs>!</salute>
+    </opener>
+       <p rendition="#enc.tagsdecl.indent-medium"><choice><orig>noch</orig><corr type="ortho">Noch</corr></choice> ehe ich mich ſchlafen<lb/> <choice><orig>Lege</orig><corr type="ortho">lege</corr></choice>, muß ich dir ſagen: daß ich unter der Güte Gottes<lb/> 
+           recht vergnügt <choice><orig>gereißt</orig><corr type="ortho">gereist</corr></choice> und wohlbehalten angekom̅en bin.<lb/> <choice><orig>juﬅ</orig><corr type="ortho">Just</corr></choice> um 9 Uhr, wie ich dir
+           auch geſagt hatte. <anchor xml:id="mark.002.s"/><anchor xml:id="mark.003.s"/>Du,<lb/> meine beﬅe innigﬅ Verbundene, wirﬅ mit mir dafür<lb/> den <choice>
+      <abbr>L<am>.</am>
+      </abbr>
+      <expan n="no" cert="high">L<ex>ieben</ex>
+      </expan>
+           </choice> Him̅liſchen Vater <choice><orig>Preiſen</orig><corr type="ortho">preisen</corr></choice>, der mich nun ſo <choice><orig>oﬀte</orig><corr type="ortho">ofte</corr></choice><lb/> 
+           im̅er <choice><orig>Glüklich</orig><corr type="ortho">glücklich</corr></choice> und unverſehrt hin und her gebracht, und<lb/> 
+           dadurch noch meinen Cörper geﬅärkt hat.<anchor xml:id="mark.001.e"/>
+       </p>
+       <p>wie wirﬅ du mich im Geiﬅ begleitet und für mich<lb/> <choice><orig>gebäten</orig><corr type="ortho">gebeten</corr></choice> haben! <choice><orig>habe</orig><corr type="ortho">Habe</corr></choice> herzlich <choice><orig>dank</orig><corr type="ortho">Dank</corr></choice>
+           dafür, Liebe <choice><orig>beﬅe</orig><corr type="ortho">Beste</corr></choice>!<lb/> mein innerﬅer Wunſch und mein <choice><orig>Gebät</orig><corr type="ortho">Gebet</corr></choice> zu Gott iﬅ: daß<lb/> du dich
+     eben so wohl befinde<subst>
+      <del rend="overwritten">n</del>
+      <add>ﬅ</add>
+     </subst>
+     <del n="1" rend="strikethrough">mögeﬅ</del>, und deine Ruhe<lb/> 
+           und dein Wohlbefinden ſich vermehren möge. <choice><orig>ja</orig><corr type="ortho">Ja</corr></choice> meine<lb/> 
+           herzlich <choice><orig>geliebte</orig><corr type="ortho">Geliebte</corr></choice>! ich fühle es im̅er mehr in meiner Seele<lb/>
+     wie groß die Liebe, Güte und Aufſicht unſres Gottes<lb/> in den vergangenen Tagen über uns
+     geweſen; daß<lb/> alles ſo ordentlich und erwünſcht hergegangen, und alle<lb/> Freunde ſo
+           befriedigt, ja hoch zufrieden ſind, iﬅ ſeine<lb/> <choice><orig>mitwürkung</orig><corr type="ortho">Mitwirkung</corr></choice>, die wir erkennen, und Ihm
+           verdanken<lb/> wollen. <choice><orig>du</orig><corr type="ortho">Du</corr></choice> meine ganz <choice><orig>geliebte</orig><corr type="ortho">Geliebte</corr></choice>! wirﬅ gerne mit mir<lb/> ſagen: bis hiehin hat
+           uns der Herr geholfen! und<lb/> darum wollen wir unſren Herzen zurufen, <choice><orig>Vergiß</orig><corr type="ortho">vergiß</corr></choice><lb/> nicht was
+           er uns <choice><orig>gutes</orig><corr type="ortho">Gutes</corr></choice> gethan; mit voller kindlicher 
+           <pb n="2" facs="#facs.p2"/> <choice><orig>Hofnung</orig><corr type="ortho">Hoffnung</corr></choice> wollen wirs Ihm
+           zutrauen, daß er uns ferner<lb/> beiﬅehen, und in unſrem Eheﬅand unſre Hülfe, <choice><orig>Schuz</orig><corr type="ortho">Schutz</corr></choice>
+           Schirm<lb/> und Schild ſein wird. <choice><orig>er</orig><corr type="ortho">Er</corr></choice> wird uns auch um unſres<lb/> Herrn Jeſu willen all unſre
+     Sünden vergeben und von <lb/> unſren Gebrechen heilen, daß wir im̅er tüchtiger und
+           fertiger<lb/> gemacht werden zu thun, was Ihm <choice><orig>wohlgefält</orig><corr type="ortho">wohlgefällt</corr></choice>.<anchor xml:id="mark.003.e"/><anchor xml:id="mark.002.e"/> —</p>
+       <p>ich kam wie geſagt um 9 Uhr
+           mit ungemeiner Munterkeit<lb/> bei unſren <rs type="person" ref="#pers.partic.engels-johann-peter #pers.partic.engels-benjamin">Brüdern</rs> an, 
+           und aß bei denſelben den <hi rendition="#g.rend.script.latin">Salat</hi>.<lb/> Bruder <persName ref="#pers.partic.engels-johann-peter" rendition="#g.rend.script.latin">Peter</persName> , der
+           noch etwas mit ſeiner <hi rendition="#g.rend.script.latin"><choice><orig>Catarre</orig><corr type="ortho">Katarrhe</corr></choice></hi> zu thun<lb/> hat, ſich
+           ſonﬅ aber wohl befindet hat dich ſehr <choice><orig>Lieb</orig><corr type="ortho">lieb</corr></choice> ge<lb break="no" rendition="#g.enc.tagsdecl.hyphenation.eq"/> wonnen, 
+           und beide <rs type="person" ref="#pers.partic.engels-johann-peter #pers.partic.engels-benjamin">Brüder</rs> erwarten verlangend je
+           eher <lb/> je <choice><orig>Lieber</orig><corr type="ortho">lieber</corr></choice> deinen Einzug und <choice><orig>Laßen</orig><corr type="ortho">lassen</corr></choice> Ihren herzlichen <choice><orig>gegen<lb break="no" rendition="#g.enc.tagsdecl.hyphenation.eq"/>Gruß</orig><corr type="ortho">Gegen<lb/>gruß</corr></choice> melden.</p>
+   </div>
+      <div type="writing-session" n="2"><p rendition="#enc.tagsdecl.indent-medium"><anchor xml:id="teaser.part.001.s"/><choice><orig>nun</orig><corr type="ortho">Nun</corr></choice> meine Liebe Frau <persName ref="#pers.partic.engels-luise">Engels</persName> wink ich dir
+           meinen zärtlichen<lb/> Morgen Gruß und <choice><orig>küße</orig><corr type="ortho">küsse</corr></choice> Dich in Gedanken, ich hoffe du wirﬅ<lb/> eine
+          ebenſo <choice><orig>erquikende</orig><corr type="ortho">erquickende</corr></choice> Nacht Ruhe gehabt haben, wie ich<lb/> es dir Gott Lob von mir ſagen <choice><orig>kan</orig><corr type="ortho">kann</corr></choice>. <anchor xml:id="mark.004.s"/>ich
+     habe mit dir<lb/> um 8 Uhr gebäten, und werde <add place="above">nun</add> mit dir in Gedanken
+          und im<lb/> Herzen, meine Geſchäfte anfangen<anchor xml:id="teaser.part.001.e"/>, und das Nöthige wieder<lb/> aus dem <choice><orig>wege</orig><corr type="ortho">Wege</corr></choice>
+           <choice><orig>Räumen</orig><corr type="ortho">räumen</corr></choice>.</p>
+    <p>Den <rs type="person" ref="#pers.partic.jaeger-johann">Fuhrmann</rs> will ich gleich kom̅en
+        <choice><orig>Laßen</orig><corr type="ortho">lassen</corr></choice>, und überhaupt<lb/> alles <choice><orig>abgeſprochene</orig><corr type="ortho">Abgesprochene</corr></choice> beſorgen.</p>
+          <p>Den <choice><orig>nachmittag</orig><corr type="ortho">Nachmittag</corr></choice> mache ich meinen Gemarker Gang und<lb/> ſage dir Liebe <choice><orig>nechﬅens</orig><corr type="ortho">nächﬅens</corr></choice> mehr;<anchor xml:id="mark.004.e"/> du
+        wirﬅ heute <pb n="3" facs="#facs.p3"/>deinen <persName ref="#pers.partic.engels-johann-caspar-II"><hi rendition="#g.rend.script.latin">Caspar</hi></persName>
+     <damage corresp="#enc.damageinterp.siegelausriss">
+         <gap reason="siegelausriss"/><supplied>entſchuldigen</supplied>
+     </damage> und mit einem kurzen Brief<lb/> <choice><orig>Vorlieb</orig><corr type="ortho">vorlieb</corr></choice> nehmen. <choice><orig>ich</orig><corr type="ortho">Ich</corr></choice> befehle dich ſo wie alle unſre<lb/> dortigen <choice><orig>Freünde</orig><corr type="ortho">Freunde</corr></choice> und Verwandte, die ich
+     herzlich zu <choice>
+      <abbr type="suspension" rendition="#g.enc.tagsdecl.suspension.type1">grüß</abbr>
+      <expan cert="high">grüß<ex>en</ex>
+      </expan>
+     </choice>
+           <lb/> erſuche, dem <choice><orig>Schuz</orig><corr type="ortho">Schutz</corr></choice> und der Bewahrung unſres Gottes<lb/> und bleibe unter innigﬅ
+           zärtlichﬅen <choice><orig>Küßen</orig><corr type="ortho">Küssen</corr></choice> von<lb/>
+        ganzem Herzen
+    </p>
+    <closer>
+     <salute>
+         <space dim="horizontal" quantity="4" unit="words"/>Dein ewig verbundner und <choice><orig>treüer</orig><corr type="ortho">treuer</corr></choice></salute>
+     <lb/>
+     <space dim="vertical" quantity="1" unit="lines"/>
+        <space dim="horizontal" quantity="5" unit="words"/>
+     <signed>
+         <persName ref="#pers.partic.engels-johann-caspar-II"><hi rendition="#g.rend.script.latin">Casper Engels</hi></persName>
+     </signed>
+     <lb/>
+     <space dim="vertical" quantity="1" unit="lines"/>
+        <space dim="horizontal" quantity="6" unit="words"/>     <dateline>
+         <hi rendition="#g.rend.script.latin"><choice>
+          <abbr type="suspension" rendition="#g.enc.tagsdecl.suspension.type1">d<am>.</am>
+       </abbr>
+       <expan n="no" cert="high">d<ex>en</ex>
+       </expan>
+         </choice></hi> 9 <hi rendition="#g.rend.script.latin"><choice>
+             <abbr>7<hi rend="sup">ber</hi>
+       </abbr>
+       <expan n="com"/>
+      </choice></hi> 1791</dateline>
+    </closer>
+    <postscript>
+     <p>Dem guten <choice>
+         <abbr type="suspension" rendition="#g.enc.tagsdecl.suspension.type1">Hr<am>.</am></abbr>
+       <expan n="no">H<ex>er</ex>r<ex>n</ex></expan>
+      </choice> Paﬅor hatte ich <choice>
+       <abbr type="suspension" rendition="#g.enc.tagsdecl.suspension.type1">ein</abbr>
+       <expan>ein<ex>en</ex></expan>
+      </choice> Besuch verſprochen, bei<lb/> <choice><orig>gelegenheit</orig><corr type="ortho">Gelegenheit</corr></choice> bitte mich zu <choice>
+       <abbr type="suspension" rendition="#g.enc.tagsdecl.suspension.type1">entſchuldig</abbr>
+       <expan>entſchuldig<ex>en</ex></expan>
+      </choice>,</p>
+        <p>unſer Knecht <persName ref="#pers.partic.pilgram-johann-arnold" rendition="#g.rend.script.latin">Arnold</persName>, der viel Liebe und Hochachtung für
+      dich<lb/> hat, bat mich eben, dich zu grüßen. </p>
+    </postscript>
+       </div>
+  </body>
+ 
+  <back>
+      <!-- Themenmarkierung -->
+      <div type="mark">
+          <span type="reisen" from="#mark.001.s" to="#mark.001.e"/>
+          <span type="liebe-ehe" from="#mark.002.s" to="#mark.002.e"/>
+          <span type="religion" from="#mark.003.s" to="#mark.003.e"/>
+          <span type="geschaeftliches" from="#mark.004.s" to="#mark.004.e"/>
+      </div>
+      
+      <!-- Stellenerläuterungen -->
+      <div type="com">
+          <!-- WIP -->
+      </div>
+      
+      <!-- Teaser -->
+      <div type="teaser">
+          <span n="1" from="#teaser.part.001.s" to="#teaser.part.001.e"/>
+      </div>
+  </back>
+ </text>
+</TEI>
