@@ -136,7 +136,7 @@ export default function page() {
               style={{
                 paddingTop: "120px",
                 paddingLeft: "70px",
-                paddingBottom: "110px",
+                paddingBottom: "55px",
               }}>
                 <p>
                   Fortſchritte gemacht; daß ihr das Wohlgefallen Gottes, und

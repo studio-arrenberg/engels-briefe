@@ -126,13 +126,13 @@ body {
   display: block !important;
 }
 
-.alice{
+.alice {
   margin-top: 500px;
   margin: 200px auto;
   text-align: center;
 }
 
-.alice img{
+.alice img {
   width: 400px;
   margin: 0 auto;
 }
@@ -390,6 +390,30 @@ img {
   padding: 20px;
 }
 
+.kuvert_img {
+  width: 80%;
+  margin-left: 20%;
+}
+.kuvert {
+  color: #fff;
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+
+.kuvert small {
+  font-size: 1.4rem;
+}
+
+
+.vergleichs-ansicht, .detail-ansicht {
+  color: #000;
+} 
+
+.page {
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
 .player {
   position: fixed;
   right: 100px;
@@ -399,14 +423,14 @@ img {
   z-index: 300;
 }
 
-.player .app{
+.player .app {
   width: 100%;
 }
 
-.player .controls{
+.player .controls {
   position: absolute;
   top: 15px;
-  left: -75px
+  left: -75px;
 }
 .vergleichs-ansicht {
   height: 100%;
@@ -421,21 +445,28 @@ img {
   font-size: 0.9rem;
 }
 
-.vergleichs-ansicht .corr {
+.vergleichs-ansicht .corr, .vergleichs-ansicht .stellenerläuterungen {
   display: none;
 }
 
+
+
+
 .detail-ansicht {
-  width: 100%;
+  width: 100%;  
+  
+  margin-top: 200px;
+  margin-bottom: 200px;
 }
 
 .normalisiert {
   width: 50%;
+  position: relative;
   margin: 0 auto;
 }
 
-.normalisiert .page{
-  padding-top: 100px !important;
+.normalisiert .page {
+    padding-top: 100px !important;
     padding-left: 80px !important;
     padding-right: 50px !important;
     padding-bottom: 100px !important;
@@ -445,8 +476,49 @@ img {
   display: none;
 }
 
+.normalisiert .kuvert{
+  padding-bottom: 100px !important;
+}
+
 .normalisiert .corr {
   display: inline;
+}
+
+.normalisiert span{
+  text-decoration: none !important;
+}
+
+.normalisiert .makierung {
+  background: rgb(219, 219, 219);
+  padding: 2px 7px;
+  margin: -2px 2px;
+  display: inline-block;
+}
+
+.stellenerläuterungen {
+  color: #fff;
+  position: absolute;
+  top: 100px;
+  left: -450px;
+  width: 400px;
+  text-align: right;
+}
+
+.stellenerläuterung {
+  position: absolute;
+  width: 100%;
+}
+
+.stellenerläuterungen hr {
+  width: 40px;
+  position: absolute;
+  right: -50px;
+  border: 1px solid #fff;
+}
+
+.stellenerläuterungen p {
+  margin-top: 5px;
+  font-size: 0.8rem;
 }
 
 .themen {
@@ -484,23 +556,16 @@ img {
   opacity: 1;
 }
 
-.kuvert_img {
-  width: 80%;
-  margin-left: 20%;
-}
-.kuvert {
-  font-size: 2rem;
-  line-height: 2.4rem;
+.themenmakierung-active {
+  color: #eee;
 }
 
-.kuvert small {
-  font-size: 1.4rem;
-}
-
-.page {
-  background-color: #fff;
+.themenmakierung-active .religion.active {
   color: #000;
-  margin-bottom: 20px;
+}
+
+.themenmakierung-active .stellenerläuterungen {
+  opacity: 0.1;
 }
 
 p > span .latin {
