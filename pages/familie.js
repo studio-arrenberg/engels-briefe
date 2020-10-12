@@ -37,13 +37,15 @@ export function Familie({ data }) {
           layoutId={`${data.id}`}
         >
           <Link href="/person/[person]" as={`/person/${data.id}`}>
-            <div className="item_preview">
-              <img src={`../pictures/personen/thumbnails/${data.picture}`} />
-              <div className="item_description">
-                <h2>{data.name}</h2>
-                <p>{data.beschreibung}</p>
+            <a>
+              <div className="item_preview">
+                <img src={`../pictures/personen/thumbnails/${data.picture}`} />
+                <div className="item_description">
+                  <h2>{data.name}</h2>
+                  <p>{data.beschreibung}</p>
+                </div>
               </div>
-            </div>
+            </a>
           </Link>
         </motion.div>
       </div>

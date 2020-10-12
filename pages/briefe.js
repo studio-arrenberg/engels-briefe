@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Layout from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
-// import Link from 'next/link'
 import data from '../public/data.json'
 import { useViewportScroll, motion, useTransform, useMotionValue, useSpring } from "framer-motion"
 import constants from '../components/constants'
@@ -9,9 +8,9 @@ import Brief_view from '../components/brief_view'
 import React, { useState, useEffect, useRef } from 'react';
 
 
-const y = 0;
-const y1 = 0;
-const y2 = 0;
+// const y = 0;
+// const y1 = 0;
+// const y2 = 0;
 
 export default function Page() {
 

@@ -36,13 +36,15 @@ export function Thema() {
           layoutId={`${data.id}`}
         >
           <Link href="/thema/[thema]" as={`/thema/${data.id}`}>
-            <div key={data.id} className="item_preview">
-              <img src={`../pictures/themen/thumbnails/${data.picture}`} />
-              <div className="item_description">
-                <h2>{data.title}</h2>
-                <p>{data.beschreibung}</p>
+            <a>
+              <div key={data.id} className="item_preview">
+                <img src={`../pictures/themen/thumbnails/${data.picture}`} />
+                <div className="item_description">
+                  <h2>{data.title}</h2>
+                  <p>{data.beschreibung}</p>
+                </div>
               </div>
-            </div>
+            </a>
           </Link>
         </motion.div>
       </div>
