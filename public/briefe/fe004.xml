@@ -1,0 +1,268 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>004 Friedrich Christian Hoffmann, Düsseldorf, an Johann Caspar Engels, Barmen, 12. Mai 1791</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Daten für Museumspräsentation; FE 2020-03-04</p>
+            </publicationStmt>
+            <notesStmt>
+                <!-- Verweis auf Briefnummer bei Knieriem -->
+                <relatedItem n="4" target="reg_global_bibl.xml#bibl.knieriem.1991" type="print"/>
+            </notesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Wuppertal</settlement>
+                        <repository>Stadtarchiv</repository>
+                        <idno>FE 4 12.5.1791</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <!-- Worttrennung -->
+            <tagsDecl xml:id="gstruct.header.enc.worttrennung">
+                <!-- generisch -->
+                <rendition xml:id="g.enc.tagsdecl.hyphenation.divis">-</rendition>
+                <rendition xml:id="g.enc.tagsdecl.hyphenation.eq">=</rendition>
+                <rendition xml:id="g.enc.tagsdecl.hyphenation.colon">:</rendition>
+                <rendition xml:id="g.enc.tagsdecl.hyphenation.space"> </rendition>
+                <!-- dokumentspezifische Deklarationen -->
+                
+                <!-- weitere Deklarationen hier anfügen -->
+            </tagsDecl>
+            
+            <!-- Endsilbenverschleifung -->
+            <tagsDecl xml:id="gstruct.header.enc.suspension">
+                <!-- generisch -->
+                <rendition xml:id="g.enc.tagsdecl.suspension.type1">normale Suspensionsschleife; z.B. "en", "ung"</rendition>
+                <rendition xml:id="g.enc.tagsdecl.suspension.type2">Suspensionsschleife mit Ober- und Unterlänge</rendition>
+                <rendition xml:id="g.enc.tagsdecl.suspension.type3">Suspensionsschleife als "Pluralmarker" (spekulativ)</rendition>
+                <!-- dokumentspezifische Deklarationen -->
+                
+                <!-- weitere Deklarationen hier anfügen -->
+            </tagsDecl>
+            
+            <!-- Schreibrichtung -->
+            <tagsDecl xml:id="gstruct.header.enc.schreibrichtung">
+                <!-- generisch -->
+                <rendition xml:id="g.enc.tagsdecl.wd.vertical-left" scheme="css">transform: rotate(270deg);</rendition>
+                <rendition xml:id="g.enc.tagsdecl.wd.upside-down" scheme="css">transform: rotate(180deg);</rendition>
+                <rendition xml:id="g.enc.tagsdecl.wd.vertical-right" scheme="css">transform: rotate(90deg);</rendition>
+                <rendition xml:id="g.enc.tagsdecl.wd.diagonal-bl-ur" scheme="free">diagonal; links unten bis rechts oben</rendition>
+                <rendition xml:id="g.enc.tagsdecl.wd.diagonal-ul-br" scheme="free">diagonal; links oben bis rechts unten</rendition>
+                <!-- dokumentspezifische Deklarationen -->
+
+                <!-- weitere Deklarationen hier anfügen -->
+            </tagsDecl>
+            
+            <!-- Besonderheiten bei der Benutzung von Schriftzeichen -->
+            <tagsDecl xml:id="gstruct.header.enc.char-combination">
+                <!-- generisch -->
+                <rendition xml:id="g.enc.tagsdecl.cc.abbr-colon-sup">Kombination einer Hochstellung mit ':' als Abkürzungszeichen</rendition>
+                <!-- dokumentspezifische Deklarationen -->
+                
+                <!-- weitere Deklarationen hier anfügen -->
+            </tagsDecl>
+            
+            <!-- Metazeichen -->
+            <tagsDecl xml:id="gstruct.header.enc.metamarks">
+                <!-- generische Deklarationen -->
+                <rendition xml:id="g.enc.tagsdecl.metamark.insertion">
+                    Einweisungsschleife
+                </rendition>
+                <!-- dokumentspezifische Deklarationen -->
+                <!-- ... -->
+            </tagsDecl>
+            
+            <!-- Weitere, dokumentspezifische Sektionen zur Beschreibung von TEI-Markup hier anfügen -->
+            
+            <!-- Einzüge -->
+            <tagsDecl xml:id="struct.header.enc.indent">
+                <rendition xml:id="enc.tagsdecl.indent-negative">
+                    <dimensions quantity="-5" unit="mm"/>
+                    <desc>negativer Einzug</desc>
+                </rendition>
+                <rendition xml:id="enc.tagsdecl.indent-medium">
+                    <dimensions quantity="10" unit="mm"/>
+                    <desc>Einzug medium</desc>
+                </rendition>
+            </tagsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#pers.partic.hoffmann-friedrich">Friedrich Hoffmann</persName>
+                    <placeName ref="#place.duesseldorf">Düsseldorf</placeName>
+                    <date when="1791-05-12"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#pers.partic.engels-johann-caspar-II">Johann Caspar Engels</persName>
+                    <placeName ref="#place.barmen">Barmen</placeName>
+                    <!-- falls vorhanden: -->
+                    <date when="1791-05-17"/>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+        <graphic xml:id="facs.p1" n="1" url="FE_04.1_12051791.pdf"/>
+        <graphic xml:id="facs.p2" n="2" url="FE_04.2_12051791.pdf"/>
+        <graphic xml:id="facs.p3" n="3" url="FE_04.3_12051791.pdf"/>
+        <!-- Digitalisat für Leerseite fehlt -->
+    </facsimile>
+    
+    <text>
+        <body>
+            <div type="kuvert">
+                <pb facs="#facs.p3" n="3"/>
+                <div n="E">
+                    <p rendition="#g.enc.tagsdecl.wd.vertical-left">
+                        <address>
+                            <space unit="cm" quantity="2" dim="vertical"/>
+                            <space dim="horizontal" quantity="18" unit="mm"/>
+                            <addrLine>An Herrn <persName ref="#pers.partic.engels-johann-caspar-II" rendition="#g.rend.script.latin">Caspar Engels</persName>
+                            </addrLine>
+                            <space dim="horizontal" quantity="45" unit="mm"/>
+                            <addrLine>Zu eigenen Händen.</addrLine>
+                        </address>
+                    </p>
+                </div>
+            </div>
+            <div type="writing-session" n="1">
+                <pb n="1" facs="#facs.p1"/>
+                <space dim="vertical" unit="mm" quantity="35"/>
+                <opener rend="inline" rendition="#enc.tagsdecl.indent-negative">
+                    <anchor xml:id="teaser.part.001.s"/><salute>Mein werther <rs type="person" ref="#pers.partic.engels-johann-caspar-II">Freund</rs>!</salute><anchor xml:id="teaser.part.001.e"/>
+                </opener>
+                <p> Nach meinem Wunſch, und nach meiner Hoffnung<lb/>
+                    ſind Sie, wenn Sie dieſen <rs type="letter">Brief</rs> erhalten, von Ihrer Sÿnodal-Reiſe<lb/>
+                    geſund und <choice><orig>glüklich</orig><corr type="ortho">glücklich</corr></choice> zurückgekom̅en; <anchor xml:id="mark.002.s"/><anchor xml:id="teaser.part.002.s"/>Ihrer Bitte, daß ich Ihnen eine<lb/>
+                    etwaige Beſchreibung des <hi rendition="#g.rend.script.latin">Characters</hi>, der Geſinnungen, und der Familie<lb/>
+                    der <choice>
+                        <abbr>Demoiſ<am>.</am>
+                        </abbr>
+                        <expan n="no" cert="high">Demoiſ<ex>elle</ex>
+                        </expan>
+                    </choice>
+                    <persName ref="#pers.partic.engels-luise" rendition="#g.rend.script.latin">Noot</persName>
+                    machen mögte, will ich denn nun, ſo gut ich <choice><orig>kan</orig><corr type="ortho">kann</corr></choice>,<lb/>
+                    entſprechen:<anchor xml:id="teaser.part.002.e"/> Ihr natürlicher <hi rendition="#g.rend.script.latin">Character</hi> iﬅ aufrichtig, gefällig, zuvorkom̅end,<lb/>
+                    und gar nichts fordernd, <rs type="person" ref="#pers.partic.hoffmann-clara">meine Frau</rs>, und ich, wir haben in der<lb/>
+                    <choice><orig>gantzen</orig><corr type="ortho">ganzen</corr></choice> Zeit unſers Umgangs mit ihr, gar nichts <choice><orig>falsches</orig><corr type="ortho">Falsches</corr></choice> und <choice><orig>ungerades</orig><corr type="ortho">Ungerades</corr></choice><lb/>
+                    an ihr bemerkt; etwas zu ſagen, das ihr nicht von <choice><orig>Hertzen gienge</orig><corr type="ortho">Herzen ginge</corr></choice>,<lb/>
+                    würde ihr, wie ich vermuthe, überaus ſchwer werden — aber gar nicht<lb/>
+                    ſchwer wird es ihr, ſich nach andern, ſoweit es die Aufrichtigkeit zuläßt,<lb/>
+                    zu <hi rendition="#g.rend.script.latin">accommodi</hi>ren; auf ihren Sinn eigenwillig zu beﬅehen, ſcheint ihr<lb/>
+                    gar nicht eigen, ſondern Nachgiebigkeit, und leichte Lenkſamkeit ein<lb/>
+                    Hauptzug ihrer <hi rendition="#g.rend.script.latin">Characters</hi> zu ſeÿn, dabeÿ iﬅ ſie aber von aller Schmeicheleÿ<lb/>
+                    und Heucheleÿ, ſo wie von allem <choice><orig>Stoltz</orig><corr type="ortho">Stolz</corr></choice> weit entfernt; ſie hat eine<lb/>
+                    ſchlechte <choice><orig>Meÿnung</orig><corr type="ortho">Meinung</corr></choice> von ſich ſelbﬅ, und irrt ſich <choice><orig>darinn</orig><corr type="ortho">darin</corr></choice> oft zu ihrem<lb/>
+                    Nachtheil, indem ſie ſich viel weniger Gutes zuschreibt, und zutraut, als<lb/>
+                    ſie würklich hat; dieſer niedrige Sinn macht dann auch, daß ſie wenig<lb/>
+                    von andern fordert, und weit mehr daran denkt, wie ſie ſich andern<lb/>
+                    gefällig machen, und ihnen zur Freude ſeÿn möge; — <anchor xml:id="mark.001.s"/><span class="regligion">Was ihre Geſinnungen<lb/>
+                    <choice><orig>betrift</orig><corr type="ortho">betrifft</corr></choice>, ſo glaube ich, es ſagen zu dürfen, daß ihr Chriﬅenthum aufrichtig,<lb/>
+                    und nicht nur oberflächig, ſondern feﬅ und tief gegründet iﬅ; Es iﬅ ihr<lb/>
+                    ernﬅlich um ihre Selbﬅbeſſerung zu thun, und ſie hat würklich <choice><orig>darinn</orig><corr type="ortho">darin</corr></choice> ſchon <space dim="horizontal" quantity="10" unit="cm"/><fw type="catch">Fort=<lb/><space dim="horizontal" quantity="10" unit="cm"/>_</fw>
+                    <lb/>
+                    
+<pb n="2" facs="#facs.p2"/>
+                    Fortſchritte gemacht; daß ihr das Wohlgefallen Gottes, und ihre innre<lb/>
+                    Ruhe mehr werth iﬅ, als alle Luﬅ dieſer Welt, und alle <choice>
+                        <abbr rendition="#g.enc.tagsdecl.suspension.type1" type="suspension">Luﬅbarkeit</abbr>
+                        <expan>Luﬅbarkeit<ex>en</ex>
+                        </expan>
+                    </choice>,<lb/>
+                    davon hat ſie verſchiedene ſehr entſcheidende Proben abgelegt; <choice><orig>Schon</orig><corr type="ortho">schon</corr></choice><lb/>
+                    ſeit einigen Jahren nahm ſie an denen Vergnügungen, die in <placeName ref="#place.ruhrort" rendition="#g.rend.script.latin">Ruhrorth</placeName>,<lb/>
+                    und in <placeName ref="#place.hagen" rendition="#g.rend.script.latin">Hagen</placeName>
+                    üblich ſind, nicht mehr Theil, weil ſie dieſelbe einem<lb/>
+                    Chriﬅen unanﬅändig hielt — ;<anchor xml:id="mark.001.e"/></span> Was zuletzt ihre <hi rendition="#g.rend.script.latin">Familie</hi> betrift, ſo<lb/>
+                    iﬅ in derſelben keine <choice><orig>Perſohn</orig><corr type="ortho">Person</corr></choice>, deren ſie Urſache hätte, ſich zu ſchämen.<lb/>
+                    ſie hat, ſoviel ich weiß, 3 Brüder und 2 <rs ref="#pers.partic.maercker-maria #pers.partic.haniel-aletta">Schweﬅern</rs>; der <rs type="person" ref="#pers.partic.noot-diederich-walter">ältere Bruder</rs>
+                    <lb/>
+                    iﬅ OberSaltz <choice><orig>=</orig><corr type="norm">-</corr></choice> <hi rendition="#g.rend.script.latin">Inspector</hi>, und ZollEinnehmer in <placeName ref="#place.ruhrort" rendition="#g.rend.script.latin">Ruhrorth</placeName>; 
+                    Zweÿ ſehr ein<lb break="no" rendition="#g.enc.tagsdecl.hyphenation.eq"/>
+                        trägliche und ehrenvolle Bedienungen; ſeine <rs type="person" ref="#pers.partic.noot-anna-catharina">Frau</rs> iﬅ eine <hi rendition="#g.rend.script.latin">
+                    Mauritz</hi> von <placeName ref="#place.wesel">Weſel</placeName>,<lb/>
+                    Der <choice><orig>Zwe<choice><orig/><corr type="emendation">y</corr></choice>te</orig><corr type="ortho">zwe<choice><orig/><corr type="emendation">y</corr></choice>te</corr></choice> <rs type="person" ref="#pers.partic.noot-gerhard-peter">Bruder</rs> iﬅ <choice><orig>Creiß=Einnehmer</orig><corr type="ortho">Kreis-Einnehmer</corr></choice> gleichfalls in <placeName ref="#place.ruhrort" rendition="#g.rend.script.latin">Ruhrorth</placeName>, und mit<lb/>
+                        einer <rs type="person" ref="#pers.partic.noot-anna-clara" rendition="#g.rend.script.latin">Karthaus</rs> von <placeName ref="#place.hagen" rendition="#g.rend.script.latin">Hagen</placeName> verheirathet; der <rs type="person" ref="#pers.partic.noot-samuel-wilhelm">dritte</rs> noch unverheirathete<lb/>
+                    beſorgt die Geſchäfte der <rs type="person" ref="#pers.partic.haniel-aletta">älteren Schweﬅer</rs>, die <choice><orig/><corr type="emendation">eine</corr></choice> <hi rendition="#g.rend.script.latin">Spedition</hi> hat, und gleichfalls<lb/>
+                    in <placeName ref="#place.ruhrort" rendition="#g.rend.script.latin">Ruhrorth</placeName> wohnt — ; dieſe iﬅ durch die <choice>
+                        <abbr>Demo<am>.</am>
+                        </abbr>
+                        <expan n="no" cert="high">Demo<ex>iſelle</ex>
+                        </expan>
+                    </choice>
+                    <persName ref="#pers.partic.engels-luise" rendition="#g.rend.script.latin">Noot</persName>
+                    aufmerkſahm auf ſich<lb/>
+                    ſelbﬅ, und auf Gottes Wort geworden, und hegt den ernﬅlichen Wunſch ſich<lb/>
+                        zu beſſern; die <rs type="person" ref="#pers.partic.maercker-maria">jüngere Schweﬅer</rs> iﬅ an Herrn <hi rendition="#g.rend.script.latin">Doctor <persName ref="#pers.partic.maercker-johann-christoph">Maercker</persName>
+                    </hi> in <placeName ref="#place.hagen" rendition="#g.rend.script.latin">Hagen</placeName>
+                    <lb/>
+                    verheirathet — ;</p>
+                <p rendition="#enc.tagsdecl.indent-medium">Dieß mein Wertheﬅer! wäre <choice><orig>ohngefehr</orig><corr type="ortho">ungefähr</corr></choice> das, was ich Ihnen in Anſehung
+                        
+                    <lb/>
+                    der <choice>
+                        <abbr>Dem<am>.</am></abbr>
+                        <expan n="no" cert="high">Dem<ex>oiſelle</ex> </expan> </choice> <persName ref="#pers.partic.engels-luise"> <hi rendition="#g.rend.script.latin">Noot</hi>
+                    </persName> ſagen könnte — ; Sie werden daraus ſelbﬅ den Schluß machen,<lb/>
+                    daß ſie nicht zu den alltäglichen Frauenzimmern gehört, ſondern zu denen,<lb/>
+                    die man ſelten antrifft —  beſonders in den <choice><orig>itzigen</orig><corr type="ortho">jetzigen</corr></choice> Zeiten, wo Eitelkeit und<lb/>
+                    <choice><orig>LeichtSinn</orig><corr type="ortho">Leichtsinn</corr></choice> ſo ſehr überhand nimmt; <choice><orig>Nach</orig><corr type="ortho">nach</corr></choice> meinem Urtheil <choice><orig>kan</orig><corr type="ortho">kann</corr></choice> ich nicht<lb/>
+                    anders, als den Mann glücklich ſchätzen, der ſie zur Gattin bekömmt.<anchor xml:id="mark.002.e"/>
+                </p>
+                <closer rendition="#enc.tagsdecl.indent-medium">
+                    <salute>
+                        <rs type="person" ref="#pers.partic.hoffmann-clara"><choice><orig>meine</orig><corr type="ortho">Meine</corr></choice> Frau</rs> und ich, wir grüßen Sie auf das Herzlichﬅe, ich bin mit<lb/>
+                    denen Ihren bekannten Geſinnungen.</salute>
+                    <lb/>
+                    <space dim="horizontal" quantity="11" unit="cm"/> <salute>Ihr aufrichtiger Freund</salute>
+                    <lb/> 
+                    <dateline>
+                        <placeName ref="#place.duesseldorf">
+                            <choice>
+                                <abbr>D<am>.</am>
+                                </abbr>
+                                <expan n="no" cert="high">D<ex>üſſeldorf</ex>
+                                </expan>
+                            </choice>
+                        </placeName> am <date when="1791-05-12">12 Maÿ 1791</date>.  
+                    </dateline>    <space dim="horizontal" quantity="8" unit="cm"/>    <signed>
+                        <persName ref="#pers.partic.hoffmann-friedrich">
+                            <choice>
+                                <abbr> Fr<am>.</am>
+                            </abbr>
+                                <expan n="no" cert="high">Fr<ex>iedrich</ex>  </expan>
+                        </choice> Hoffmann</persName>
+                    </signed> 
+                </closer>
+            </div>
+            <pb facs="#facs.p3" n="4"/>
+        </body>
+        
+        <back>
+            <!-- Themenmarkierung -->
+            <div type="mark">
+                <span type="religion" from="#mark.001.s" to="#mark.001.e"/>
+                <span type="liebe-ehe" from="#mark.002.s" to="#mark.002.e"/>
+            </div>
+            
+            <!-- Stellenerläuterungen -->
+            <div type="com">
+                <!-- WIP -->
+            </div>
+            
+            <!-- Teaser -->
+            <div type="teaser">
+                <span n="1" from="#teaser.part.001.s" to="#teaser.part.001.e"/>
+                <span n="2" from="#teaser.part.002.s" to="#teaser.part.002.e"/>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -80,8 +80,13 @@ export default function Brief_wrapper(props) {
             </div>
 
             {/* children */}
-            <div className="detail-ansicht">
-              <div className="normalisiert">{props.children}</div>
+            <div className="detail-ansicht themenmakierung-active"> {/* If you add themenmakierung-active you get a preview */}
+              <div className="normalisiert">
+                {props.children}
+
+               
+              </div>
+
               <div className="themen">
                 <a>
                   <img src="../pictures/themen/liebe.jpg" />
