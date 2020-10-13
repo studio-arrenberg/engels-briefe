@@ -4,7 +4,7 @@ import Brief_wrapper from "../../components/brief_wrapper";
 
 export default function page() {
   const item = data.briefe.filter((data) => {
-    return data.id === "4";
+    return data.id === "21";
   });
 
   return (

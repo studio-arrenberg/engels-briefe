@@ -6,22 +6,17 @@ import PlayList from "./audio/PlayList";
 
 // const url = "https://www.mfiles.co.uk/mp3-downloads/gs-cd-track2.mp3";
 
-const tracks = [
-  {
-    id: 0,
-    title: "",
-    url:
-      "../audio/001.mp3"
-  },
-  {
-    id: 1,
-    title: "",
-    url:
-      "../public/audio/001.mp3"
-  }
-];
+export default function App({file}) {
 
-export default function App() {
+  const url = '../audio/' + file;
+
+  const tracks = [
+    {
+      id: 0,
+      title: "",
+      url: url
+    }
+  ];
   const [selectedTrack, setSelectedTrack] = useState(tracks[0]);
 
   return (
@@ -31,7 +26,7 @@ export default function App() {
         selectedTrack={selectedTrack}
         setSelectedTrack={setSelectedTrack}
       />
-            <Waveform url={selectedTrack.url} />
+        <Waveform url={selectedTrack.url} />
 
       <br />
     </div>
