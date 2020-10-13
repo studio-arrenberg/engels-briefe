@@ -2,7 +2,7 @@
         {
             "id" : "1",
             "datum" : "1. Januar 1791",
-            "themen" : {"name":["Religon"], "id":[1]},
+            "themen" : {"name":["Religion"], "id":[1]},
             "sender": {"name":"Louise Engels, geb. Noot","ort":"Wuppertal", "id":"2"},
             "empfänger" : {"name": "eine Unbekannte Freundin", "ort": "Hagen", "id":"10"},
             "text" : "Ich danke Dir herzlich dafür, daß Du mir schon so bald Nachricht von Dir und den Lieben Deinigen gabst, so kurz dein Brief auch war, so machte er mir doch viele Freude.",
@@ -12,7 +12,7 @@
         {
             "id" : "4",
             "datum" : "12. Mai 1791",
-            "themen" : {"name":["Religon", "Liebe/Ehe"], "id":[1,3]},
+            "themen" : {"name":["Religion", "Liebe/Ehe"], "id":[1,3]},
             "sender": {"name":"Friedrich Christian Hoffmann","ort":"Düsseldorf", "id":"1"},
             "empfänger" : {"name": "Johann Caspar Engels", "ort": "Barmen", "id":"3"},
             "text" : "Mein werther Freund! Nach meinem Wunsch, und nach meiner Hoffnung sind Sie, wenn Sie diesen Brief erhalten, von Ihrer Synodal-Reise gesund und glücklich zurückgekommen; Ihrer Bitte, daß ich Ihnen eine etwaige Beschreibung des Characters, der Gesinnungen, und der Familie der Demois.",
@@ -22,7 +22,7 @@
         {
             "id" : "21",
             "datum" : "9. September 1791",
-            "themen" : {"name":["Liebe/Ehe","Religon"], "id":[3,1]},
+            "themen" : {"name":["Liebe/Ehe","Religion","Reisen"], "id":[3,1,2]},
             "sender": {"name":"Johann Caspar Engels","ort":"Barmen", "id":"3"},
             "empfänger" : {"name": "Louise Engels, geb. Noot", "ort": "Ruhrort", "id":"2"},
             "text" : "Noch ehe ich mich schlafen lege, muß ich dir sagen: daß ich unter der Güte Gottes recht vergnügt gereist und wohlbehalten angekommen bin. Just um 9 Uhr, wie ich dir auch gesagt hatte. Du, meine beste innigst Verbundene, wirst mit mir dafür den L. Himmlischen Vater preisen, der mich nun so ofte immer glücklich und unversehrt hin und her gebracht, und dadurch noch meinen Cörper gestärkt hat.",
@@ -32,7 +32,7 @@
         {
             "id" : "22",
             "datum" : "10. September 1791",
-            "themen" : {"name":["Liebe/Ehe","Religon"], "id":[3,1]},
+            "themen" : {"name":["Liebe/Ehe","Religion"], "id":[3,1]},
             "sender": {"name":"Louise Engels, geb. Noot","ort":"Ruhrort", "id":"2"},
             "empfänger" : {"name": "Johann Caspar Engels", "ort": "Barmen", "id":"3"},
             "text" : "Wie freue ich mich daß Du glücklich, gesund und munter zu Hause gekommen bist, und Dich nach der Reise so wohl befindest – der gütige Gott seye von ganzem Herzen dafür gedankt daß Er Dich begleitet und vor Unglück bewahret hat – Er der liebevolle Menschenhüter seye Dir dann auf Deiner nächsten Reise hierhin auch wieder recht nahe und führe Dich doch gesund und wohl in meine Armen.",
@@ -42,7 +42,7 @@
         {
             "id" : "29",
             "datum" : "25. Oktober 1791",
-            "themen" : {"name":["Reisen","Religon"], "id":[1,2]},
+            "themen" : {"name":["Reisen","Religion"], "id":[1,2]},
             "sender": {"name":"Louise Engels, geb. Noot","ort":"Barmen", "id":"2"},
             "empfänger" : {"name": "Johann Caspar Engels", "ort": "München", "id":"3"},
             "text" : "Deine beyde liebe Briefe habe ich vorgestern Morgen zugleich erhalten, der aus Schwalbach muß also Unterwegens liegen geblieben seyn – wie groß war meine Freude als ich etwas von Deiner lieben Hand erblickte, und die erfreuliche Nachricht las, daß Du mein Bester! ",
@@ -52,7 +52,7 @@
         {
             "id" : "68",
             "datum" : "04. Juli 1813",
-            "themen" : {"name":["Religon"], "id":[1]},
+            "themen" : {"name":["Religion"], "id":[1]},
             "sender": {"name":"Johann Caspar Engels","ort":"Barmen", "id":"3"},
             "empfänger" : {"name": "Friedrich Engels sen.", "ort": "Frankfurt am Main", "id":"9"},
             "text" : "Zufolge deinen Lieben Briefen vom 12 passati haben wir das Laken und Casimir für dich gekauft, und in 1 paquet F.E. durch Eng. Sieperman, der just nach FFurth in seine Condition reisen wollte, dir zugesandt, wir hoffen daß du solches schon erhalten hast, und daß dir unsre Wahl gefallen wird.",
