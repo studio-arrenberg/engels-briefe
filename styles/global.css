@@ -560,7 +560,7 @@ img {
   color: #eee;
 }
 
-.themenmakierung-active .religion.active {
+.themenmakierung-active .religion.active, .themenmakierung-active .liebe-ehe.active , .themenmakierung-active .reisen.active {
   color: #000;
 }
 

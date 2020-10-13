@@ -34,6 +34,7 @@ export default function page() {
                       {/*anchor*/}</a>
                   </div>
                   <p>Ich <span className="orig">Danke</span><span className="corr">danke</span> <span className="orig">dir</span><span className="corr">Dir</span> herzlich dafür, <span className="orig">Daß</span><span className="corr">daß</span> Du mir ſchon ſo bald Nachricht von <span className="orig">dir</span><span className="corr">Dir</span><br className="lb" /> und <span className="orig">Den</span><span className="corr">den</span> Lieben <span className="orig"><span className="g.enc.tagsdecl.suspension.type1"> (deinig)</span><span className="expan">deinig<span className="ex">en</span></span></span><span className="corr"><span className="g.enc.tagsdecl.suspension.type1"> (Deinig)</span><span className="expan">Deinig<span className="ex">en</span></span></span> gabﬅ, so kurz dein Brief auch war, so machte er<br className="lb" /> mir doch viele <span className="orig">Freüde</span><span className="corr">Freude</span>.</p>
+                  
                   <span className="religion active">
                       <p><a id="mark.003.s">
                       {/*anchor*/}</a>Zu dem <span className="orig">angetrettenen</span><span className="corr">angetretenen</span> <span className="abbr"> (N.)</span><span className="expan">N<span className="ex">euen</span></span> Jahr wünſche ich dir meine Liebe! <a id="mark.001.s">
