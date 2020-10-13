@@ -7,7 +7,7 @@
             "empfänger" : {"name": "eine Unbekannte Freundin", "ort": "Hagen"},
             "text" : "Ich danke Dir herzlich dafür, daß Du mir schon so bald Nachricht von Dir und den Lieben Deinigen gabst, so kurz dein Brief auch war, so machte er mir doch viele Freude.",
             "digitalisate": {"cover": "", "page": ["FE_01.1.jpg","FE_01.2.jpg"]},
-            "normalisiert" : "",
+            "normalisiert" : "", 
             "diplomatisch" : "",
             "audio" :"001.mp3"
 
@@ -17,7 +17,7 @@
             "datum" : "12. Mai 1791",
             "themen" : {"name":["Religon", "Liebe/Ehe"], "id":[1,3]},
             "sender": {"name":"Friedrich Christian Hoffmann","ort":"Düsseldorf", "id":"1"},
-            "empfänger" : {"name": "Johann Caspar Engels", "ort": "Barmen"},
+            "empfänger" : {"name": "Johann Caspar Engels", "ort": "Barmen", "id":"8"},
             "text" : "Mein werther Freund! Nach meinem Wunsch, und nach meiner Hoffnung sind Sie, wenn Sie diesen Brief erhalten, von Ihrer Synodal-Reise gesund und glücklich zurückgekommen; Ihrer Bitte, daß ich Ihnen eine etwaige Beschreibung des Characters, der Gesinnungen, und der Familie der Demois.",
             "digitalisate": {"cover": "FE_04.3.jpg", "page": ["FE_04.1.jpg","FE_04.2.jpg"]},
             "normalisiert" : "",

@@ -32,6 +32,8 @@ export function MenuTest() {
   console.log(router.pathname);
   if (router.pathname.includes("[")) {
     return <Sub_Menu />;
+  } else if (router.pathname.includes("/brief/")) {
+    return <Sub_Menu />;
   } else {
     return <Main_Menu />;
   }

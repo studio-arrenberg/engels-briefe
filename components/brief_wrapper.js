@@ -3,10 +3,47 @@ import constants from "./constants";
 import Layout from "./layout";
 import Head from "next/head";
 import Audio from "./audio";
+import { themen, familie } from "../public/data.json";
 
 export default function Brief_wrapper(props) {
-  console.log(props.data);
   const data = props.data;
+
+  const pics = data.map((data) => data.digitalisate.page);
+  const cover = data.map((data) => data.digitalisate.cover);
+
+  const th = data.map((data) => data.themen.id);
+  const them = [];
+
+  th[0].map((data, id) => {
+    console.log(data);
+    them[id] = themen.filter((item) => {
+      return item.id === data.toString();
+    });
+  });
+
+  const se = data.map((data) => data.sender.id);
+  const sen = [];
+  const em = data.map((data) => data.empfänger.id);
+  const emp = [];
+
+  se.map((data, id) => {
+    sen[id] = familie.filter((item) => {
+      return item.id === data.toString();
+    });
+  });
+
+  // em.map((data, id) => {
+  //   emp[id] = familie.filter((item) => {
+  //     return item.id === data.toString();
+  //   });
+  // });
+
+  console.log(sen[0]);
+
+  // note: require functions OR views
+  // Sender und empfänger (IDs -> Name + Ort + Lebensjahre + Picture)       ALMOST
+  // Brief Inhalt ([if] cover AND Digitalisate)                             DONE
+  // Themen (IDs -> Name + Image)                                           DONE
 
   return data.map((data, id) => {
     return (
@@ -14,6 +51,8 @@ export default function Brief_wrapper(props) {
         <Head>
           <title>Brief</title>
         </Head>
+
+        {/* console.log(data) */}
 
         <motion.div
           className="brief_view"
@@ -30,22 +69,28 @@ export default function Brief_wrapper(props) {
           >
             {/* META */}
             <div className="meta">
-              <div className="sender">
-                <h2>
-                  <span className="sender_name">{data.sender.name}</span>{" "}
-                </h2>
-                <h3>{data.sender.ort}</h3>
-              </div>
-              <img
-                className="portrait"
-                src={`../pictures/personen/thumbnails/Ida_Louise_Friederike_Noot.jpg`}
-              />
+
+              {/* sender */}
+              {sen[0].map((item, index) => (
+                <div className="sender">
+                  <h2>
+                    <span className="sender_name">{item.name}</span>
+                    <span className="sender_name">{item.lebzeit}</span>
+                  </h2>
+                  <h3>{data.sender.ort}</h3>
+                  <img
+                    className="portrait"
+                    src={`../pictures/personen/thumbnails/${item.picture}`}
+                  />
+                </div>
+              ))}
 
               <img className="arrow_send" src={`../icons/back.svg`} />
 
+              {/* empfänger (IDs) MISSING !!! */}
               <img
                 className="portrait"
-                src={`../pictures/personen/Friedrich_Engels_sen.jpg`}
+                src={`../pictures/personen/${data.empfänger.id}.jpg`}
               />
               <div className="empfänger">
                 <h2>
@@ -59,47 +104,40 @@ export default function Brief_wrapper(props) {
 
             <div className="vergleichs-ansicht active">
               <div className="digitalisate">
-                <img
-                  className="kuvert_img"
-                  src={`../../pictures/digitalisate/${data.digitalisate.cover}`}
-                />
-                <br />
-                <img
-                  src={`../../pictures/digitalisate/${data.digitalisate.page[0]}`}
-                />
-                <br />
-                <img
-                  src={`../../pictures/digitalisate/${data.digitalisate.page[1]}`}
-                />
+                {/* load cover */}
+                {cover ? (
+                  <img
+                    className="kuvert_img"
+                    src={`../../pictures/digitalisate/${cover}`}
+                  />
+                ) : (
+                  <></>
+                )}
+                {/* load digitalisate */}
+                {pics[0].map((item, index) => (
+                  <img
+                    src={`../../pictures/digitalisate/${item}`}
+                    key={index}
+                  />
+                ))}
               </div>
 
-              {/* children */}
               <div className="brieftext">
                 <div>{props.children}</div>
               </div>
             </div>
 
-            {/* children */}
-            <div className="detail-ansicht themenmakierung-active"> {/* If you add themenmakierung-active you get a preview */}
-              <div className="normalisiert">
-                {props.children}
-
-               
-              </div>
+            <div className="detail-ansicht">
+              <div className="normalisiert">{props.children}</div>
+              {/* themen */}
 
               <div className="themen">
-                <a>
-                  <img src="../pictures/themen/liebe.jpg" />
-                  <label>Liebe/ Ehe</label>
-                </a>
-                <a>
-                  <img src="../pictures/themen/liebe.jpg" />
-                  <label>Liebe/ Ehe</label>
-                </a>
-                <a>
-                  <img src="../pictures/themen/liebe.jpg" />
-                  <label>Liebe/ Ehe</label>
-                </a>
+                {them.map((item, index) => (
+                  <a key={item[0].id}>
+                    <img src={`../pictures/themen/${item[0].picture}`} />
+                    <label>{item[0].title}</label>
+                  </a>
+                ))}
               </div>
             </div>
 
@@ -116,10 +154,6 @@ export default function Brief_wrapper(props) {
             <div className="player">
               <Audio></Audio>
             </div>
-
-            {/* <Audio2></Audio2> */}
-            {/* <Audio3></Audio3> */}
-            {/* <Audio4></Audio4> */}
 
             {/* orte */}
 
