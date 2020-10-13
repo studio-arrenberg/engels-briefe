@@ -1,7 +1,7 @@
-import React from 'react';
-import App from 'next/app';
-import { AnimatePresence } from 'framer-motion';
-import '../styles/global.css'
+import React from "react";
+import App from "next/app";
+import { AnimatePresence } from "framer-motion";
+import "../styles/global.css";
 
 class MyApp extends App {
   render() {
@@ -9,9 +9,9 @@ class MyApp extends App {
 
     return (
       // <Layout>
-        <AnimatePresence exitBeforeEnter>
-          <Component {...pageProps} key={router.route} />
-       </AnimatePresence>
+      <AnimatePresence exitBeforeEnter>
+        <Component {...pageProps} key={router.route} />
+      </AnimatePresence>
       // </Layout>
     );
   }
