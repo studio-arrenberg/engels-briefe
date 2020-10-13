@@ -1,11 +1,13 @@
-import Link from "next/link"
+
+import Link from 'next/link'
+import Router from 'next/router'
 import Layout from "../components/layout"
 import utilStyles from '../styles/utils.module.css'
 
 export default function Custom404() {
     return (
         <Layout>
-            <div className={utilStyles.innerSection}>
+            <div className="alice">
                 <h1 className={utilStyles.lightText}>You have gone the wronge way</h1>
                 <br></br>
                 <br></br>
@@ -18,7 +20,8 @@ export default function Custom404() {
                 <br></br>
                 <br></br>
                 <br></br>
-                <Link href='/'><a className={utilStyles.lightText}>Home</a></Link>
+                <h1 onClick={() => Router.back()}> Zurück</h1>
+
             </div>
         </Layout>
     

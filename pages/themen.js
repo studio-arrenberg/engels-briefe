@@ -1,10 +1,10 @@
-import Head from 'next/head'
-import Layout from '../components/layout'
-import utilStyles from '../styles/utils.module.css'
-import Link from 'next/link'
-import data from '../public/data.json'
-import {motion} from 'framer-motion'
-import constants from '../components/constants'
+import Head from "next/head";
+import Layout from "../components/layout";
+import utilStyles from "../styles/utils.module.css";
+import Link from "next/link";
+import data from "../public/data.json";
+import { motion } from "framer-motion";
+import constants from "../components/constants";
 
 export default function Briefe() {
   return (
@@ -13,36 +13,41 @@ export default function Briefe() {
         <title>Themen</title>
       </Head>
 
-        <motion.div className="scrollable" initial="initial" animate="enter" exit="exit" variants={constants.animation.section_exit}>
-        
-          <Thema/>
-
-        </motion.div>
-
+      <motion.div
+        className="scrollable"
+        initial="initial"
+        animate="enter"
+        exit="exit"
+        variants={constants.animation.section_exit}
+      >
+        <Thema />
+      </motion.div>
     </Layout>
-  )
+  );
 }
 
 export function Thema() {
-  return (
-    data.themen.map((data, id) => {
-      return (
-        <div className="item" key={`${data.id}`} >
-        <motion.div key={`themen${data.id}`} variants={constants.animation.post} layoutId={`${data.id}`}>
+  return data.themen.map((data, id) => {
+    return (
+      <div className="item" key={`${data.id}`}>
+        <motion.div
+          key={`themen${data.id}`}
+          variants={constants.animation.post}
+          layoutId={`${data.id}`}
+        >
           <Link href="/thema/[thema]" as={`/thema/${data.id}`}>
-
-          <div key={data.id} className="item_preview">
-            <img src={`../pictures/themen/thumbnails/${data.picture}`}/>
-            <div className="item_description">
-            <h2>{data.title}</h2>
-            <p>{data.beschreibung}</p>
-            </div>
-          </div>
+            <a>
+              <div key={data.id} className="item_preview">
+                <img src={`../pictures/themen/thumbnails/${data.picture}`} />
+                <div className="item_description">
+                  <h2>{data.title}</h2>
+                  <p>{data.beschreibung}</p>
+                </div>
+              </div>
+            </a>
           </Link>
-
-        </motion.div>  
+        </motion.div>
       </div>
-      )
-    })
-  )
+    );
+  });
 }

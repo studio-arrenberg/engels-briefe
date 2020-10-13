@@ -9,15 +9,15 @@ import PlayList from "./audio/PlayList";
 const tracks = [
   {
     id: 0,
-    title: "Brahms: St Anthony Chorale - Theme, Two Pianos Op.56b",
+    title: "",
     url:
-      "https://www.mfiles.co.uk/mp3-downloads/brahms-st-anthony-chorale-theme-two-pianos.mp3"
+      "../audio/001.mp3"
   },
   {
     id: 1,
-    title: "Franz Schubert's Ständchen - Voice (Clarinet) & Piano",
+    title: "",
     url:
-      "https://www.mfiles.co.uk/mp3-downloads/franz-schubert-standchen-serenade.mp3"
+      "../public/audio/001.mp3"
   }
 ];
 
@@ -25,15 +25,15 @@ export default function App() {
   const [selectedTrack, setSelectedTrack] = useState(tracks[0]);
 
   return (
-    <div className="App">
-      <Waveform url={selectedTrack.url} />
+    <div className="app">
       <PlayList
         tracks={tracks}
         selectedTrack={selectedTrack}
         setSelectedTrack={setSelectedTrack}
       />
+            <Waveform url={selectedTrack.url} />
+
       <br />
-      <p>Wavesurfer.js with React.JS</p>
     </div>
   );
 }
