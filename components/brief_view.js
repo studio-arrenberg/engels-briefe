@@ -18,6 +18,8 @@ export default function Brief({ data }) {
               variants={constants.animation.post}
               layoutId={`${data.id}`}
             >
+
+              {/* iterate trough pages */}
               <img
                 src={`../pictures/digitalisate/${data.digitalisate.page[0]}`}
               />

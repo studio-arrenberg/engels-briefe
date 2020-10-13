@@ -5,6 +5,7 @@ Repo für das [Interface der Engels Ausstellung](https://engels.arrenberg.studio
 ## Wichtig 🔥
 
 - Wolf Vorschlag visualisieren (Briefe und Personen zusammenführen)
+- `data.json` Empfänger ID fehlt
 
 ## Table of Contents
 
@@ -64,7 +65,9 @@ npm run start_windows
 hallo@arrenberg.studio
 <br>
 <br>
+
 <a href="https://arrenberg.studio">
 <img src="https://resources.arrenberg.studio/logo/black.png" alt="studio arrenberg" height="100">
 </a>
+
 <br>
