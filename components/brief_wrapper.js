@@ -69,15 +69,16 @@ export default function Brief_wrapper(props) {
           >
             {/* META */}
             <div className="meta">
-
               {/* sender */}
               {sen[0].map((item, index) => (
                 <div className="sender">
-                  <h2>
-                    <span className="sender_name">{item.name}</span>
-                    <span className="sender_name">{item.lebzeit}</span>
-                  </h2>
-                  <h3>{data.sender.ort}</h3>
+                  <div className="meta-beschreibung">
+                    <h2 className="name">{item.name}</h2>
+                    <h2>{item.lebzeit}</h2>
+
+                    <h3>{data.sender.ort}</h3>
+                  </div>
+
                   <img
                     className="portrait"
                     src={`../pictures/personen/thumbnails/${item.picture}`}
@@ -88,21 +89,26 @@ export default function Brief_wrapper(props) {
               <img className="arrow_send" src={`../icons/back.svg`} />
 
               {/* empfänger (IDs) MISSING !!! */}
-              <img
-                className="portrait"
-                src={`../pictures/personen/${data.empfänger.id}.jpg`}
-              />
+
               <div className="empfänger">
-                <h2>
-                  <span className="empfänger_name">{data.empfänger.name}</span>
-                </h2>
-                <h3>{data.empfänger.ort}</h3>
+                <img
+                  className="portrait"
+                  src={`../pictures/personen/${data.empfänger.id}.jpg`}
+                />
+                <div className="meta-beschreibung">
+                  <h2>
+                    <span className="empfänger_name">
+                      {data.empfänger.name}
+                    </span>
+                  </h2>
+                  <h3>{data.empfänger.ort}</h3>
+                </div>
               </div>
             </div>
 
             {/* brief inhalt */}
 
-            <div className="vergleichs-ansicht active">
+            <div className="vergleichs-ansicht ">
               <div className="digitalisate">
                 {/* load cover */}
                 {cover ? (
@@ -127,7 +133,7 @@ export default function Brief_wrapper(props) {
               </div>
             </div>
 
-            <div className="detail-ansicht">
+            <div className="detail-ansicht themenmakierung-active">
               <div className="normalisiert">{props.children}</div>
               {/* themen */}
 
