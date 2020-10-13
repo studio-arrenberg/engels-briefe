@@ -14,7 +14,7 @@ const constants = {
       },
     },
     other: {
-      // none (exsample)
+      // none (example)
     },
     section_exit: {
       exit: { transition: { staggerChildren: 0.01 } },

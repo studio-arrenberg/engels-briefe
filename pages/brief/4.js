@@ -3,6 +3,7 @@ import React, { Children, Component } from "react";
 import Brief_wrapper from "../../components/brief_wrapper";
 
 export default function page() {
+  // console.log(router.pathname);
   const item = data.briefe.filter((data) => {
     return data.id === "4";
   });
