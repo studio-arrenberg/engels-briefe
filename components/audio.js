@@ -11,13 +11,13 @@ const tracks = [
     id: 0,
     title: "",
     url:
-      "https://www.mfiles.co.uk/mp3-downloads/brahms-st-anthony-chorale-theme-two-pianos.mp3"
+      "../audio/001.mp3"
   },
   {
     id: 1,
     title: "",
     url:
-      "https://www.mfiles.co.uk/mp3-downloads/franz-schubert-standchen-serenade.mp3"
+      "../public/audio/001.mp3"
   }
 ];
 

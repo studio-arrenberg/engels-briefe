@@ -62,12 +62,12 @@ npm run start_windows
 | 341         | Friedrich Engels sen.        | 1858-09-10    | Manchester | :white_check_mark: |            |        | :white_check_mark: | Schlechte Scan Qualität!                      |
 
 ## Developer
-
+hallo@arrenberg.studio
 <br>
 <br>
 
-<a href="https://arrenberg.studio"><img src="https://resources.arrenberg.studio/logo/black.png"
-     alt="studio arrenberg"
-     style="float: left; margin-right: 10px; height: 100px" /></a>
+<a href="https://arrenberg.studio">
+<img src="https://resources.arrenberg.studio/logo/black.png" alt="studio arrenberg" height="100">
+</a>
 
 <br>

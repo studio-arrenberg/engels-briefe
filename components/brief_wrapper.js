@@ -130,6 +130,7 @@ export default function Brief_wrapper(props) {
             <div className="detail-ansicht">
               <div className="normalisiert">{props.children}</div>
               {/* themen */}
+
               <div className="themen">
                 {them.map((item, index) => (
                   <a key={item[0].id}>
