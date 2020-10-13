@@ -9,7 +9,6 @@ export default function Brief_wrapper(props) {
   const data = props.data;
 
   const pics = data.map((data) => data.digitalisate.page);
-  const cover = data.map((data) => data.digitalisate.cover);
 
   const th = data.map((data) => data.themen.id);
   const them = [];
@@ -38,12 +37,17 @@ export default function Brief_wrapper(props) {
   //   });
   // });
 
-  console.log(sen[0]);
+  // console.log(sen[0]);
 
   // note: require functions OR views
   // Sender und empfänger (IDs -> Name + Ort + Lebensjahre + Picture)       ALMOST
   // Brief Inhalt ([if] cover AND Digitalisate)                             DONE
   // Themen (IDs -> Name + Image)                                           DONE
+
+  function handleClick(e) {
+    e.preventDefault();
+    console.log("The link was clicked.");
+  }
 
   return data.map((data, id) => {
     return (
@@ -69,7 +73,6 @@ export default function Brief_wrapper(props) {
           >
             {/* META */}
             <div className="meta">
-
               {/* sender */}
               {sen[0].map((item, index) => (
                 <div className="sender">
@@ -100,15 +103,20 @@ export default function Brief_wrapper(props) {
               </div>
             </div>
 
+            {/* <ActionLink></ActionLink> */}
+            <a href="#" onClick={handleClick}>
+              Click me
+            </a>
+
             {/* brief inhalt */}
 
             <div className="vergleichs-ansicht active">
               <div className="digitalisate">
                 {/* load cover */}
-                {cover ? (
+                {!!data.digitalisate.cover ? (
                   <img
                     className="kuvert_img"
-                    src={`../../pictures/digitalisate/${cover}`}
+                    src={`../../pictures/digitalisate/${data.digitalisate.cover}`}
                   />
                 ) : (
                   <></>
@@ -152,7 +160,7 @@ export default function Brief_wrapper(props) {
             </div>
 
             <div className="player">
-              <Audio></Audio>
+              <Audio file={data.audio}></Audio>
             </div>
 
             {/* orte */}
@@ -163,4 +171,17 @@ export default function Brief_wrapper(props) {
       </Layout>
     );
   });
+}
+
+function ActionLink() {
+  function handleClick(e) {
+    e.preventDefault();
+    console.log("The link was clicked.");
+  }
+
+  return (
+    <a href="#" onClick={handleClick}>
+      Click me
+    </a>
+  );
 }
