@@ -67,7 +67,7 @@ hallo@arrenberg.studio
 <br>
 
 <a href="https://arrenberg.studio">
-<img src="https://resources.arrenberg.studio/logo/black.png" alt="studio arrenberg" height="100">
+<img src="https://resources.arrenberg.studio/logo/black.png" alt="studio arrenberg" height="45">
 </a>
 
 <br>
