@@ -4,11 +4,14 @@ import { motion } from "framer-motion";
 import constants from "./constants";
 
 export default function Brief({ data }) {
+
   // const url = data.scan.page[0]
+
+  console.log(data);
+
   return data.map((data, id) => {
     return (
       <div className="item" key={`${data.id}`}>
-        {/* <Link href="/briefx/[brief]" as={`/briefx/${data.id}`}> */}
         <Link href={`/brief/${data.id}`} as={`/brief/${data.id}`}>
           <a>
             <motion.div
@@ -19,13 +22,11 @@ export default function Brief({ data }) {
               layoutId={`${data.id}`}
             >
 
-              {/* iterate trough pages */}
-              <img
-                src={`../pictures/digitalisate/${data.digitalisate.page[0]}`}
-              />
-              <img
-                src={`../pictures/digitalisate/${data.digitalisate.page[1]}`}
-              />
+              {data.digitalisate.page.map((item, index) => (
+                <img src={`../../pictures/digitalisate/${item}`} 
+                key={index}
+                />
+              ))}
 
               <div className="item_description">
                 <h4>{data.datum}</h4>
@@ -35,10 +36,6 @@ export default function Brief({ data }) {
                   {data.empfänger.name}
                 </h2>
                 <p>Liebe/ Ehe, Thema</p>
-                {/* <a className="arrow-back"> */}
-                {/* <img src={`../icons/back.svg`}/> */}
-                {/* </a> */}
-                {/* <p>{data.text}</p> */}
               </div>
             </motion.div>
           </a>
