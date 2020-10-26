@@ -6,6 +6,7 @@ Repo für das [Interface der Engels Ausstellung](https://engels.arrenberg.studio
 
 - Wolf Vorschlag visualisieren (Briefe und Personen zusammenführen)
 - IDs für Orte (oder Bilder nach den Orte bennnen bei Familie in der data.json)
+- Einlesungen fangen unterschiedlich an => Herr Lukas Fragen
 
 ## Table of Contents
 
@@ -38,6 +39,26 @@ npm run start
 npm run start_windows
 ```
 
+## Libraries
+
+[React Icons](https://www.npmjs.com/package/react-icons)
+[React Icons (Feather)](https://feathericons.com/?query=back)
+[Wavesurfer](https://wavesurfer-js.org/doc/class/src/wavesurfer.js~WaveSurfer.html#instance-method-playPause)
+
+## React Snippets
+
+### Timeout
+```bash
+setTimeout(
+    function() {
+        this.setState({ position: 1 });
+    }
+    .bind(this),
+    3000
+);
+```
+
+
 ## Briefe
 
 | Nummer _ID_ | Author                       | Datum         | Ort        | Vorhanden          | Exportiert | Fertig | Audio              | Kommentar                                     |
@@ -60,6 +81,10 @@ npm run start_windows
 | 306         | Friedrich Engels sen.        | 1838-07-26    | London     | :white_check_mark: |            |        | :white_check_mark: |
 | 307         | Friedrich Engels sen.        | 1838-08-11    | Bremen     | :white_check_mark: |            |        | :white_check_mark: | Fehlerhafte Benennung?                        |
 | 341         | Friedrich Engels sen.        | 1858-09-10    | Manchester | :white_check_mark: |            |        | :white_check_mark: | Schlechte Scan Qualität!                      |
+
+## Motion Framer Examples 
+
+[Draggable + Toggle](https://codesandbox.io/s/framer-motion-bottom-sheet-fixed-m2vls)
 
 ## Developer
 
