@@ -4,13 +4,11 @@ import Layout from "./layout";
 import Head from "next/head";
 import Audio from "./audio";
 import { themen, familie } from "../public/data.json";
-
 import React, { useState } from "react";
-
 
 export default function Brief_wrapper(props) {
   const data = props.data;
-  console.log(data)
+  console.log(data);
 
   const pics = data.map((data) => data.digitalisate.page);
   const th = data.map((data) => data.themen.id);
@@ -38,6 +36,17 @@ export default function Brief_wrapper(props) {
       return item.id === data.toString();
     });
   });
+
+  // Toggle Themenmarkierung
+  const [isActive, setActive] = useState("false");
+  const [isThema, setThema] = useState("false");
+
+  function themenToggle(name) {
+    // alert(`hello, ${name}`);
+    setActive(!isActive);
+    setThema(name + "-active");
+    console.log(`hello, ${name}`);
+  }
 
   return data.map((data, id) => {
     return (
@@ -101,9 +110,9 @@ export default function Brief_wrapper(props) {
               ))}
             </div>
 
-            {/* toggle experiment */}
-
+            {/* experiments */}
             {/* <Toggleclass /> */}
+            {/* <ExampleComponent /> */}
 
             {/* brief inhalt */}
 
@@ -133,15 +142,19 @@ export default function Brief_wrapper(props) {
               </div>
             </div>
 
-
-            <div className="detail-ansicht themenmakierung-active">
-
+            <div
+              className={`detail-ansicht ${
+                isActive ? null : "themenmakierung-active"
+              } ${isActive ? null : isThema}`}
+            >
               <div className="normalisiert">{props.children}</div>
-              {/* themen */}
 
               <div className="themen">
                 {them.map((item, index) => (
-                  <a key={item[0].id}>
+                  <a
+                    onClick={() => themenToggle(item[0].slug)}
+                    key={item[0].id}
+                  >
                     <img src={`../pictures/themen/${item[0].picture}`} />
                     <label>{item[0].title}</label>
                   </a>
@@ -169,16 +182,16 @@ export default function Brief_wrapper(props) {
               <div className="sender">
                 <h1>{data.sender.ort}</h1>
                 <img
-                    src={`../../pictures/orte/${data.sender.ort}.jpg`}
-                    key={data.sender.id}
-                  />
+                  src={`../../pictures/orte/${data.sender.ort}.jpg`}
+                  key={data.sender.id}
+                />
               </div>
               <div className="empfänger">
                 <h1>{data.empfänger.ort}</h1>
                 <img
-                    src={`../../pictures/orte/${data.empfänger.ort}.jpg`}
-                    key={data.empfänger.id}
-                  />
+                  src={`../../pictures/orte/${data.empfänger.ort}.jpg`}
+                  key={data.empfänger.id}
+                />
               </div>
             </div>
 
@@ -190,22 +203,11 @@ export default function Brief_wrapper(props) {
   });
 }
 
-// function ActionLink() {
-//   function handleClick(e) {
-//     e.preventDefault();
-//     console.log("The link was clicked.");
-//   }
-
-//   return (
-//     <a href="#" onClick={handleClick}>
-//       Click me
-//     </a>
-//   );
-// }
-
+// exsample
 function Toggleclass() {
   // toggle experiment
   const [isActive, setActive] = useState("false");
+  // const [isActive, setActive] = useState("false");
 
   const handleToggle = () => {
     setActive(!isActive);
@@ -213,10 +215,22 @@ function Toggleclass() {
 
   return (
     <>
-      <div className={isActive ? "app" : null}>
-        <h1>Hello react</h1>
+      <div
+        className={isActive ? null : "themenmakierung-active"}
+        className="sd"
+      >
+        <h1 className={isActive ? null : "active"}>Hello react</h1>
       </div>
       <button onClick={handleToggle}>Toggle class</button>
     </>
   );
 }
+
+// onclick example
+const ExampleComponent = () => {
+  function sayHello(name) {
+    alert(`hello, ${name}`);
+  }
+
+  return <button onClick={() => sayHello("James")}>Greet</button>;
+};

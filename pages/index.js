@@ -1,7 +1,8 @@
 import Head from "next/head";
 import Layout from "../components/layout";
-import utilStyles from "../styles/utils.module.css";
 import ChangeLog from "../components/change-log";
+
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
@@ -13,7 +14,14 @@ export default function Home() {
       <main>
         <ChangeLog />
       </main>
-      {/* <ChangeLog /> */}
+
+
+          <motion.div className="sd"
+            dragElastic={0.02}
+            drag="x"
+            dragConstraints={{ left: -200, right: 0 }}
+          />
+          
     </Layout>
   );
 }
