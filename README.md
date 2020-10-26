@@ -5,7 +5,7 @@ Repo für das [Interface der Engels Ausstellung](https://engels.arrenberg.studio
 ## Wichtig 🔥
 
 - Wolf Vorschlag visualisieren (Briefe und Personen zusammenführen)
-- `data.json` Empfänger ID fehlt
+- IDs für Orte (oder Bilder nach den Orte bennnen bei Familie in der data.json)
 
 ## Table of Contents
 
@@ -62,12 +62,11 @@ npm run start_windows
 | 341         | Friedrich Engels sen.        | 1858-09-10    | Manchester | :white_check_mark: |            |        | :white_check_mark: | Schlechte Scan Qualität!                      |
 
 ## Developer
+
 hallo@arrenberg.studio
 <br>
 <br>
-
 <a href="https://arrenberg.studio">
 <img src="https://resources.arrenberg.studio/logo/black.png" alt="studio arrenberg" height="45">
 </a>
-
 <br>

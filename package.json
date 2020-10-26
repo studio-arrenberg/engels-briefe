@@ -10,6 +10,7 @@
     "export": "next export"
   },
   "dependencies": {
+    "activity-detector": "^3.0.0",
     "charter-webfont": "^3.0.2",
     "date-fns": "^2.16.1",
     "framer-motion": "^1.11.1",
@@ -20,8 +21,11 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-icons": "^3.11.0",
+    "react-idle-timer": "^4.3.7",
+    "react-native-user-inactivity": "^1.1.0",
     "remark": "^12.0.1",
     "remark-html": "^11.0.2",
+    "user-idle-tracker": "^1.0.2",
     "wavesurfer.js": "^2.0.0-beta01"
   },
   "devDependencies": {

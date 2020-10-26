@@ -10,6 +10,8 @@ import React, { useState } from "react";
 
 export default function Brief_wrapper(props) {
   const data = props.data;
+  console.log(data)
+
   const pics = data.map((data) => data.digitalisate.page);
   const th = data.map((data) => data.themen.id);
   const them = [];
@@ -162,6 +164,23 @@ export default function Brief_wrapper(props) {
             </div>
 
             {/* orte */}
+
+            <div className="orte">
+              <div className="sender">
+                <h1>{data.sender.ort}</h1>
+                <img
+                    src={`../../pictures/orte/${data.sender.ort}.jpg`}
+                    key={data.sender.id}
+                  />
+              </div>
+              <div className="empfänger">
+                <h1>{data.empfänger.ort}</h1>
+                <img
+                    src={`../../pictures/orte/${data.empfänger.ort}.jpg`}
+                    key={data.empfänger.id}
+                  />
+              </div>
+            </div>
 
             {/* weitere briefe / themen */}
           </motion.div>
