@@ -5,13 +5,20 @@ import Head from "next/head";
 import Audio from "./audio";
 import { themen, familie } from "../public/data.json";
 
+import React, { useState } from "react";
+
+
 export default function Brief_wrapper(props) {
   const data = props.data;
+  console.log(data)
 
   const pics = data.map((data) => data.digitalisate.page);
-
   const th = data.map((data) => data.themen.id);
   const them = [];
+  const se = data.map((data) => data.sender.id);
+  const sen = [];
+  const em = data.map((data) => data.empfänger.id);
+  const emp = [];
 
   th[0].map((data, id) => {
     console.log(data);
@@ -20,34 +27,17 @@ export default function Brief_wrapper(props) {
     });
   });
 
-  const se = data.map((data) => data.sender.id);
-  const sen = [];
-  const em = data.map((data) => data.empfänger.id);
-  const emp = [];
-
   se.map((data, id) => {
     sen[id] = familie.filter((item) => {
       return item.id === data.toString();
     });
   });
 
-  // em.map((data, id) => {
-  //   emp[id] = familie.filter((item) => {
-  //     return item.id === data.toString();
-  //   });
-  // });
-
-  // console.log(sen[0]);
-
-  // note: require functions OR views
-  // Sender und empfänger (IDs -> Name + Ort + Lebensjahre + Picture)       ALMOST
-  // Brief Inhalt ([if] cover AND Digitalisate)                             DONE
-  // Themen (IDs -> Name + Image)                                           DONE
-
-  function handleClick(e) {
-    e.preventDefault();
-    console.log("The link was clicked.");
-  }
+  em.map((data, id) => {
+    emp[id] = familie.filter((item) => {
+      return item.id === data.toString();
+    });
+  });
 
   return data.map((data, id) => {
     return (
@@ -76,11 +66,13 @@ export default function Brief_wrapper(props) {
               {/* sender */}
               {sen[0].map((item, index) => (
                 <div className="sender">
-                  <h2>
-                    <span className="sender_name">{item.name}</span>
-                    <span className="sender_name">{item.lebzeit}</span>
-                  </h2>
-                  <h3>{data.sender.ort}</h3>
+                  <div className="meta-beschreibung">
+                    <h2 className="name">{item.name}</h2>
+                    <h2>{item.lebzeit}</h2>
+
+                    <h3>{data.sender.ort}</h3>
+                  </div>
+
                   <img
                     className="portrait"
                     src={`../pictures/personen/thumbnails/${item.picture}`}
@@ -90,29 +82,35 @@ export default function Brief_wrapper(props) {
 
               <img className="arrow_send" src={`../icons/back.svg`} />
 
-              {/* empfänger (IDs) MISSING !!! */}
-              <img
-                className="portrait"
-                src={`../pictures/personen/${data.empfänger.id}.jpg`}
-              />
-              <div className="empfänger">
-                <h2>
-                  <span className="empfänger_name">{data.empfänger.name}</span>
-                </h2>
-                <h3>{data.empfänger.ort}</h3>
-              </div>
+              {/* empfänger */}
+
+              {emp[0].map((item, index) => (
+                <div className="empfänger">
+                  <div className="meta-beschreibung">
+                    <h2>
+                      <span className="name">{item.name}</span>
+                      <span className="name">{item.lebzeit}</span>
+                    </h2>
+                    <h3>{data.empfänger.ort}</h3>
+                  </div>
+                  <img
+                    className="portrait"
+                    src={`../pictures/personen/thumbnails/${item.picture}`}
+                  />
+                </div>
+              ))}
             </div>
 
-            {/* <ActionLink></ActionLink> */}
-            <a href="#" onClick={handleClick}>
-              Click me
-            </a>
+            {/* toggle experiment */}
+
+            {/* <Toggleclass /> */}
 
             {/* brief inhalt */}
 
-            <div className="vergleichs-ansicht active">
+            <div className="vergleichs-ansicht ">
               <div className="digitalisate">
                 {/* load cover */}
+
                 {!!data.digitalisate.cover ? (
                   <img
                     className="kuvert_img"
@@ -135,7 +133,9 @@ export default function Brief_wrapper(props) {
               </div>
             </div>
 
-            <div className="detail-ansicht">
+
+            <div className="detail-ansicht themenmakierung-active">
+
               <div className="normalisiert">{props.children}</div>
               {/* themen */}
 
@@ -165,6 +165,23 @@ export default function Brief_wrapper(props) {
 
             {/* orte */}
 
+            <div className="orte">
+              <div className="sender">
+                <h1>{data.sender.ort}</h1>
+                <img
+                    src={`../../pictures/orte/${data.sender.ort}.jpg`}
+                    key={data.sender.id}
+                  />
+              </div>
+              <div className="empfänger">
+                <h1>{data.empfänger.ort}</h1>
+                <img
+                    src={`../../pictures/orte/${data.empfänger.ort}.jpg`}
+                    key={data.empfänger.id}
+                  />
+              </div>
+            </div>
+
             {/* weitere briefe / themen */}
           </motion.div>
         </motion.div>
@@ -173,15 +190,33 @@ export default function Brief_wrapper(props) {
   });
 }
 
-function ActionLink() {
-  function handleClick(e) {
-    e.preventDefault();
-    console.log("The link was clicked.");
-  }
+// function ActionLink() {
+//   function handleClick(e) {
+//     e.preventDefault();
+//     console.log("The link was clicked.");
+//   }
+
+//   return (
+//     <a href="#" onClick={handleClick}>
+//       Click me
+//     </a>
+//   );
+// }
+
+function Toggleclass() {
+  // toggle experiment
+  const [isActive, setActive] = useState("false");
+
+  const handleToggle = () => {
+    setActive(!isActive);
+  };
 
   return (
-    <a href="#" onClick={handleClick}>
-      Click me
-    </a>
+    <>
+      <div className={isActive ? "app" : null}>
+        <h1>Hello react</h1>
+      </div>
+      <button onClick={handleToggle}>Toggle class</button>
+    </>
   );
 }

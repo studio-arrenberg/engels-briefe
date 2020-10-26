@@ -20,16 +20,55 @@ export default function page() {
               <section
                 className="kuvert"
                 id="index.xml-body.1_div.1"
-                style={{ paddingTop: "200px", paddingBottom: "210px" }}
+                style={{ paddingTop: "100px", paddingBottom: "160px" }}
               >
-                An Herrn{" "}
-                <span className="g.rend.script.latin">Caspar Engels</span>
-                <br />{" "}
-                <span style={{ display: "inline-block" }} width="45mm">
-                  &nbsp;
-                </span>{" "}
-                <small> Zu eigenen Händen.</small>
-                <br />
+                {" "}
+                <h2>
+                  <span className="headingNumber">1. </span>
+                </h2>
+                <div className="teidiv1" id="index.xml-body.1_div.1_div.1">
+                  <h3>
+                    <span className="headingNumber">1.1. </span>
+                  </h3>
+                  <p className="g.enc.tagsdecl.wd.vertical-left">
+                    <span className="address">
+                      <span style={{ display: "inline-block" }} width="2cm">
+                        &nbsp;
+                      </span>{" "}
+                      <span className="g.rend.script.latin">Madame</span>
+                      <br />{" "}
+                      <span className="g.rend.script.latin">
+                        <span className="abbr">
+                          {" "}
+                          (Mad
+                          <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
+                            <sup>e</sup>
+                            ..
+                          </span>
+                          )
+                        </span>
+                        <span className="expan">
+                          Mad<span className="ex">ame</span>
+                        </span>{" "}
+                        <span className="persName">Louise Engels né Nooth</span>
+                      </span>
+                      <br />{" "}
+                      <span style={{ display: "inline-block" }} width="6cm">
+                        &nbsp;
+                      </span>
+                      <span className="g.rend.script.latin">à</span>
+                      <br />{" "}
+                      <span style={{ display: "inline-block" }} width="2lines">
+                        &nbsp;
+                      </span>{" "}
+                      <span style={{ display: "inline-block" }} width="2cm">
+                        &nbsp;
+                      </span>{" "}
+                      <span className="g.rend.script.latin">Ruhrorth</span>
+                      <br />
+                    </span>
+                  </p>
+                </div>
               </section>
             </div>
 
@@ -37,258 +76,347 @@ export default function page() {
               <div
                 className="page"
                 style={{
-                  paddingTop: "80px",
+                  paddingTop: "55px",
                   paddingLeft: "80px",
-                  paddingBottom: "115px",
+                  paddingBottom: "100px",
                 }}
               >
-                <div className="opener">
-                  <div className="salute">Mein werther Freund!</div>
-                </div>
-                <p>
-                  Nach meinem Wunſch, und nach meiner Hoffnung
-                  <br className="lb" /> ſind Sie, wenn Sie dieſen Brief
-                  erhalten, von Ihrer Sÿnodal-Reiſe
-                  <br className="lb" /> geſund und{" "}
-                  <span className="orig">glüklich</span>
-                  <span className="corr">glücklich</span> zurückgekom̅en;{" "}
-                  <a id="mark.002.s">{/*anchor*/}</a>
-                  <a id="teaser.part.002.s">{/*anchor*/}</a>
-                  <span className="liebe-ehe active">Ihrer Bitte, daß ich
-                  Ihnen eine
-                  <br className="lb" /> etwaige Beſchreibung des{" "}
-                  <span className="g.rend.script.latin">Characters</span>, der
-                  Geſinnungen, und der Familie
-                  <br className="lb" /> der{" "}
-                  <span className="abbr"> (Demoiſ.)</span>
-                  <span className="expan">
-                    Demoiſ<span className="ex">elle</span>
-                  </span>{" "}
-                  <span className="g.rend.script.latin">Noot</span> machen
-                  mögte, will ich denn nun, ſo gut ich{" "}
-                  <span className="orig">kan</span>
-                  <span className="corr">kann</span>,<br className="lb" />{" "}
-                  entſprechen:<a id="teaser.part.002.e">{/*anchor*/}</a></span> Ihr
-                  natürlicher{" "}
-                  <span className="g.rend.script.latin">Character</span> iﬅ
-                  aufrichtig, gefällig, zuvorkom̅end,
-                  <br className="lb" /> und gar nichts fordernd, meine Frau, und
-                  ich, wir haben in der
-                  <br className="lb" /> <span className="orig">gantzen</span>
-                  <span className="corr">ganzen</span> Zeit unſers Umgangs mit
-                  ihr, gar nichts <span className="orig">falsches</span>
-                  <span className="corr">Falsches</span> und{" "}
-                  <span className="orig">ungerades</span>
-                  <span className="corr">Ungerades</span>
-                  <br className="lb" /> an ihr bemerkt; etwas zu ſagen, das ihr
-                  nicht von <span className="orig">Hertzen gienge</span>
-                  <span className="corr">Herzen ginge</span>,
-                  <br className="lb" /> würde ihr, wie ich vermuthe, überaus
-                  ſchwer werden — aber gar nicht
-                  <br className="lb" /> ſchwer wird es ihr, ſich nach andern,
-                  ſoweit es die Aufrichtigkeit zuläßt,
-                  <br className="lb" /> zu{" "}
-                  <span className="g.rend.script.latin">accommodi</span>ren; auf
-                  ihren Sinn eigenwillig zu beﬅehen, ſcheint ihr
-                  <br className="lb" /> gar nicht eigen, ſondern Nachgiebigkeit,
-                  und leichte Lenkſamkeit ein
-                  <br className="lb" /> Hauptzug ihrer{" "}
-                  <span className="g.rend.script.latin">Characters</span> zu
-                  ſeÿn, dabeÿ iﬅ ſie aber von aller Schmeicheleÿ
-                  <br className="lb" /> und Heucheleÿ, ſo wie von allem{" "}
-                  <span className="orig">Stoltz</span>
-                  <span className="corr">Stolz</span> weit entfernt; ſie hat
-                  eine
-                  <br className="lb" /> ſchlechte{" "}
-                  <span className="orig">Meÿnung</span>
-                  <span className="corr">Meinung</span> von ſich ſelbﬅ, und irrt
-                  ſich <span className="orig">darinn</span>
-                  <span className="corr">darin</span> oft zu ihrem
-                  <br className="lb" /> Nachtheil, indem ſie ſich viel weniger
-                  Gutes zuschreibt, und zutraut, als
-                  <br className="lb" /> ſie würklich hat; dieſer niedrige Sinn
-                  macht dann auch, daß ſie wenig
-                  <br className="lb" /> von andern fordert, und weit mehr daran
-                  denkt, wie ſie ſich andern
-                  <br className="lb" /> gefällig machen, und ihnen zur Freude
-                  ſeÿn möge; — <a id="mark.001.s">{/*anchor*/}</a><span className="religion active">Was ihre
-                  Geſinnungen
-                  <br className="lb" /> <span className="orig">betrift</span>
-                  <span className="corr">betrifft</span>, ſo glaube ich, es
-                  ſagen zu dürfen, daß ihr Chriﬅenthum aufrichtig,
-                  <br className="lb" /> und nicht nur oberflächig, ſondern feﬅ
-                  und tief gegründet iﬅ; Es iﬅ ihr
-                  <br className="lb" /> ernﬅlich um ihre Selbﬅbeſſerung zu thun,
-                  und ſie hat würklich <span className="orig">darinn</span>
-                  <span className="corr">darin</span> ſchon{" "}
-                  <span style={{ display: "inline-block" }} width="10cm">
-                    &nbsp;
-                  </span>
-                  Fort=
-                  <br className="lb" />
-                  <span style={{ display: "inline-block" }} width="10cm">
-                    &nbsp;
-                  </span>
-                  _ <br className="lb" />
-                </span></p>{" "}
-              </div>
+                <span type="liebe-ehe" from="#mark.002.s" to="#mark.002.e" />
+                <span type="religion" from="#mark.003.s" to="#mark.003.e" />
+                <span
+                  type="geschaeftliches"
+                  from="#mark.004.s"
+                  to="#mark.004.e"
+                />
 
+                <p>
+                  <span className="reisen active">
+                    Meine Liebe <span className="orig">theüre</span>
+                    <span className="corr">theure</span>
+                    Gattin! <span className="orig">noch</span>
+                    <span className="corr">Noch</span>
+                    ehe ich mich ſchlafen
+                    <br className="lb" /> <span className="orig">Lege</span>
+                    <span className="corr">lege</span>, muß ich dir ſagen: daß
+                    ich unter der Güte Gottes
+                    <br className="lb" /> recht vergnügt{" "}
+                    <span className="orig">gereißt</span>
+                    <span className="corr">gereist</span> und wohlbehalten
+                    angekom̅en bin.
+                    <br className="lb" /> <span className="orig">juﬅ</span>
+                    <span className="corr">Just</span> um 9 Uhr, wie ich dir
+                    auch geſagt hatte.
+                    <span className="liebe-ehe religion ">
+                      Du,
+                      <br className="lb" /> meine beﬅe innigﬅ Verbundene, wirﬅ
+                      mit mir dafür
+                      <br className="lb" />
+                      den <span className="abbr"> (L.)</span>
+                      <span className="expan">
+                        L<span className="ex">ieben</span>
+                      </span>
+                      Him̅liſchen Vater <span className="orig">Preiſen</span>
+                      <span className="corr">preisen</span>, der mich nun ſo{" "}
+                      <span className="orig">oﬀte</span>
+                      <span className="corr">ofte</span>
+                      <br className="lb" /> im̅er{" "}
+                      <span className="orig">Glüklich</span>
+                      <span className="corr">glücklich</span> und unverſehrt hin
+                      und her gebracht, und
+                      <br className="lb" /> dadurch noch meinen Cörper geﬅärkt
+                      hat.
+                    </span>
+                  </span>
+                  <span className="liebe-ehe religion ">
+                    wie wirﬅ du mich im Geiﬅ begleitet und für mich
+                    <br className="lb" /> <span className="orig">gebäten</span>
+                    <span className="corr">gebeten</span> haben!{" "}
+                    <span className="orig">habe</span>
+                    <span className="corr">Habe</span> herzlich
+                    <span className="orig">dank</span>
+                    <span className="corr">Dank</span> dafür, Liebe{" "}
+                    <span className="orig">beﬅe</span>
+                    <span className="corr">Beste</span>!<br className="lb" />{" "}
+                    mein innerﬅer Wunſch und mein
+                    <span className="orig">Gebät</span>
+                    <span className="corr">Gebet</span> zu Gott iﬅ: daß
+                    <br className="lb" />
+                    du dich eben so wohl befinde
+                    <span className="overwritten">n</span>
+                    <span className="add">⟨ﬅ⟩</span>{" "}
+                    <span style={{ textDecoration: "line-through" }}>
+                      mögeﬅ
+                    </span>
+                    , und deine Ruhe
+                    <br className="lb" /> und dein Wohlbefinden ſich vermehren
+                    möge. <span className="orig">ja</span>
+                    <span className="corr">Ja</span> meine
+                    <br className="lb" /> herzlich{" "}
+                    <span className="orig">geliebte</span>
+                    <span className="corr">Geliebte</span>! ich fühle es im̅er
+                    mehr in meiner Seele
+                    <br className="lb" /> wie groß die Liebe, Güte und Aufſicht
+                    unſres Gottes
+                    <br className="lb" /> in den vergangenen Tagen über uns
+                    geweſen; daß
+                    <br className="lb" /> alles ſo ordentlich und erwünſcht
+                    hergegangen, und alle
+                    <br className="lb" /> Freunde ſo befriedigt, ja hoch
+                    zufrieden ſind, iﬅ ſeine
+                    <br className="lb" />{" "}
+                    <span className="orig">mitwürkung</span>
+                    <span className="corr">Mitwirkung</span>, die wir erkennen,
+                    und Ihm verdanken
+                    <br className="lb" /> wollen.{" "}
+                    <span className="orig">du</span>
+                    <span className="corr">Du</span> meine ganz{" "}
+                    <span className="orig">geliebte</span>
+                    <span className="corr">Geliebte</span>! wirﬅ gerne mit mir
+                    <br className="lb" /> ſagen: bis hiehin hat uns der Herr
+                    geholfen! und
+                    <br className="lb" /> darum wollen wir unſren Herzen
+                    zurufen, <span className="orig">Vergiß</span>
+                    <span className="corr">vergiß</span>
+                    <br className="lb" /> nicht was er uns{" "}
+                    <span className="orig">gutes</span>
+                    <span className="corr">Gutes</span> gethan; mit voller
+                    kindlicher
+                  </span>
+                </p>
+              </div>
               <div
                 className="page"
                 style={{
-                  paddingTop: "120px",
+                  paddingTop: "35px",
+                  paddingLeft: "80px",
+                  paddingBottom: "5px",
+                }}
+              >
+                <span className="liebe-ehe religion ">
+                  <span className="orig">Hofnung</span>
+                  <span className="corr">Hoffnung</span> wollen wirs Ihm
+                  zutrauen, daß er uns ferner
+                  <br className="lb" /> beiﬅehen, und in unſrem Eheﬅand unſre
+                  Hülfe, <span className="orig">Schuz</span>
+                  <span className="corr">Schutz</span> Schirm
+                  <br className="lb" /> und Schild ſein wird.{" "}
+                  <span className="orig">er</span>
+                  <span className="corr">Er</span> wird uns auch um unſres
+                  <br className="lb" /> Herrn Jeſu willen all unſre Sünden
+                  vergeben und von <br className="lb" /> unſren Gebrechen
+                  heilen, daß wir im̅er tüchtiger und fertiger
+                  <br className="lb" /> gemacht werden zu thun, was Ihm{" "}
+                  <span className="orig">wohlgefält</span>
+                  <span className="corr">wohlgefällt</span>.
+                </span>
+                <p>
+                  ich kam wie geſagt um 9 Uhr mit ungemeiner Munterkeit
+                  <br className="lb" /> bei unſren Brüdern an, und aß bei
+                  denſelben den{" "}
+                  <span className="g.rend.script.latin">Salat</span>.
+                  <br className="lb" /> Bruder{" "}
+                  <span className="g.rend.script.latin">Peter</span> , der noch
+                  etwas mit ſeiner{" "}
+                  <span className="g.rend.script.latin">
+                    <span className="orig">Catarre</span>
+                    <span className="corr">Katarrhe</span>
+                  </span>
+                  zu thun
+                  <br className="lb" /> hat, ſich ſonﬅ aber wohl befindet hat
+                  dich ſehr <span className="orig">Lieb</span>
+                  <span className="corr">lieb</span> ge
+                  <br className="g.enc.tagsdecl.hyphenation.eq" /> wonnen, und
+                  beide Brüder erwarten verlangend je eher <br className="lb" />{" "}
+                  je <span className="orig">Lieber</span>
+                  <span className="corr">lieber</span> deinen Einzug und{" "}
+                  <span className="orig">Laßen</span>
+                  <span className="corr">lassen</span> Ihren herzlichen{" "}
+                  <span className="orig">
+                    gegen
+                    <br className="g.enc.tagsdecl.hyphenation.eq" />
+                    Gruß
+                  </span>
+                  <span className="corr">
+                    Gegen
+                    <br className="lb" />
+                    gruß
+                  </span>{" "}
+                  melden.
+                </p>
+
+                <p className="enc.tagsdecl.indent-medium">
+                  <span className="reisen ">
+                    <span className="orig">nun</span>
+                    <span className="corr">Nun</span> meine Liebe Frau
+                    <span className="persName">Engels</span> wink ich dir meinen
+                    zärtlichen
+                    <br className="lb" /> Morgen Gruß und
+                    <span className="orig">küße</span>
+                    <span className="corr">küsse</span> Dich in Gedanken, ich
+                    hoffe du wirﬅ
+                    <br className="lb" /> eine ebenſo{" "}
+                    <span className="orig">erquikende</span>
+                    <span className="corr">erquickende</span>
+                    Nacht Ruhe gehabt haben, wie ich
+                    <br className="lb" /> es dir Gott Lob von mir ſagen{" "}
+                    <span className="orig">kan</span>
+                    <span className="corr">kann</span>.{" "}
+                    <a id="mark.004.s">{/*anchor*/}</a>ich habe mit dir
+                    <br className="lb" /> um 8 Uhr gebäten, und werde{" "}
+                    <sup className="sup">nun</sup> mit dir in Gedanken und im
+                    <br className="lb" /> Herzen, meine Geſchäfte anfangen
+                  </span>
+                  , und das Nöthige wieder
+                  <br className="lb" /> aus dem{" "}
+                  <span className="orig">wege</span>
+                  <span className="corr">Wege</span>{" "}
+                  <span className="orig">Räumen</span>
+                  <span className="corr">räumen</span>.
+                </p>
+                <p>
+                  Den Fuhrmann will ich gleich kom̅en{" "}
+                  <span className="orig">Laßen</span>
+                  <span className="corr">lassen</span>, und überhaupt
+                  <br className="lb" /> alles{" "}
+                  <span className="orig">abgeſprochene</span>
+                  <span className="corr">Abgesprochene</span> beſorgen.
+                </p>
+                <p>
+                  Den <span className="orig">nachmittag</span>
+                  <span className="corr">Nachmittag</span> mache ich meinen
+                  Gemarker Gang und
+                  <br className="lb" /> ſage dir Liebe{" "}
+                  <span className="orig">nechﬅens</span>
+                  <span className="corr">nächﬅens</span>
+                  mehr;<a id="mark.004.e">{/*anchor*/}</a> du wirﬅ heute{" "}
+                </p>
+              </div>
+              <div
+                className="page"
+                style={{
+                  paddingTop: "40px",
                   paddingLeft: "70px",
                   paddingBottom: "55px",
                 }}
               >
-                <p><span className="religion active">
-                  Fortſchritte gemacht; daß ihr das Wohlgefallen Gottes, und
-                  ihre innre
-                  <br className="lb" /> Ruhe mehr werth iﬅ, als alle Luﬅ dieſer
-                  Welt, und alle{" "}
+                <p>
+                  deinen{" "}
+                  <span className="persName">
+                    <span className="g.rend.script.latin">Caspar</span>
+                  </span>
+                  <span className="damage">
+                    <span className="gap"> [...]</span>
+                    <span className="supplied">[entſchuldigen]</span>
+                  </span>{" "}
+                  und mit einem kurzen Brief
+                  <br className="lb" /> <span className="orig">Vorlieb</span>
+                  <span className="corr">vorlieb</span>
+                  nehmen. <span className="orig">ich</span>
+                  <span className="corr">Ich</span> befehle dich ſo wie alle
+                  unſre
+                  <br className="lb" /> dortigen{" "}
+                  <span className="orig">Freünde</span>
+                  <span className="corr">Freunde</span>
+                  und Verwandte, die ich herzlich zu{" "}
                   <span className="g.enc.tagsdecl.suspension.type1">
                     {" "}
-                    (Luﬅbarkeit)
+                    (grüß)
                   </span>
                   <span className="expan">
-                    Luﬅbarkeit<span className="ex">en</span>
-                  </span>
-                  ,<br className="lb" /> davon hat ſie verſchiedene ſehr
-                  entſcheidende Proben abgelegt;{" "}
-                  <span className="orig">Schon</span>
-                  <span className="corr">schon</span>
-                  <br className="lb" /> ſeit einigen Jahren nahm ſie an denen
-                  Vergnügungen, die in{" "}
-                  <span className="g.rend.script.latin">Ruhrorth</span>,
-                  <br className="lb" /> und in{" "}
-                  <span className="g.rend.script.latin">Hagen</span> üblich
-                  ſind, nicht mehr Theil, weil ſie dieſelbe einem
-                  <br className="lb" /> Chriﬅen unanﬅändig hielt — ;
-                  <a id="mark.001.e">{/*anchor*/}</a></span>Was zuletzt ihre{" "}
-                  <span className="g.rend.script.latin">Familie</span> betrift,
-                  ſo
-                  <br className="lb" /> iﬅ in derſelben keine{" "}
-                  <span className="orig">Perſohn</span>
-                  <span className="corr">Person</span>, deren ſie Urſache hätte,
-                  ſich zu ſchämen.
-                  <br className="lb" /> ſie hat, ſoviel ich weiß, 3 Brüder und 2
-                  Schweﬅern; der ältere Bruder <br className="lb" /> iﬅ
-                  OberSaltz <span className="orig">=</span>
-                  <span className="corr">-</span>{" "}
-                  <span className="g.rend.script.latin">Inspector</span>, und
-                  ZollEinnehmer in{" "}
-                  <span className="g.rend.script.latin">Ruhrorth</span>; Zweÿ
-                  ſehr ein
-                  <br className="g.enc.tagsdecl.hyphenation.eq" /> trägliche und
-                  ehrenvolle Bedienungen; ſeine Frau iﬅ eine{" "}
-                  <span className="g.rend.script.latin">Mauritz</span> von{" "}
-                  <span className="placeName">Weſel</span>,<br className="lb" />{" "}
-                  Der{" "}
-                  <span className="orig">
-                    Zwe
-                    <span className="orig">
-                      <span className="corr">y</span>te
-                    </span>
-                    <span className="corr">
-                      zwe
-                      <span className="orig">
-                        <span className="corr">y</span>te
-                      </span>{" "}
-                      Bruder iﬅ <span className="orig">Creiß=Einnehmer</span>
-                      <span className="corr">Kreis-Einnehmer</span> gleichfalls
-                      in <span className="g.rend.script.latin">Ruhrorth</span>,
-                      und mit
-                      <br className="lb" /> einer Karthaus von{" "}
-                      <span className="g.rend.script.latin">Hagen</span>{" "}
-                      verheirathet; der dritte noch unverheirathete
-                      <br className="lb" /> beſorgt die Geſchäfte der älteren
-                      Schweﬅer, die{" "}
-                      <span className="orig">
-                        <span className="corr">eine</span>{" "}
-                        <span className="g.rend.script.latin">Spedition</span>{" "}
-                        hat, und gleichfalls
-                        <br className="lb" /> in{" "}
-                        <span className="g.rend.script.latin">Ruhrorth</span>{" "}
-                        wohnt — ; dieſe iﬅ durch die{" "}
-                        <span className="abbr"> (Demo.)</span>
-                        <span className="expan">
-                          Demo<span className="ex">iſelle</span>
-                        </span>{" "}
-                        <span className="g.rend.script.latin">Noot</span>{" "}
-                        aufmerkſahm auf ſich
-                        <br className="lb" /> ſelbﬅ, und auf Gottes Wort
-                        geworden, und hegt den ernﬅlichen Wunſch ſich
-                        <br className="lb" /> zu beſſern; die jüngere Schweﬅer
-                        iﬅ an Herrn{" "}
-                        <span className="g.rend.script.latin">
-                          Doctor <span className="persName">Maercker</span>
-                        </span>{" "}
-                        in <span className="g.rend.script.latin">Hagen</span>{" "}
-                        <br className="lb" /> verheirathet — ;
-                      </span>
-                    </span>
-                  </span>
-                </p>
-                <p className="enc.tagsdecl.indent-medium">
-                  Dieß mein Wertheﬅer! wäre{" "}
-                  <span className="orig">ohngefehr</span>
-                  <span className="corr">ungefähr</span> das, was ich Ihnen in
-                  Anſehung <br className="lb" /> der{" "}
-                  <span className="abbr"> (Dem.)</span>
-                  <span className="expan">
-                    Dem<span className="ex">oiſelle</span>
+                    grüß<span className="ex">en</span>
                   </span>{" "}
-                  <span className="persName">
-                    <span className="g.rend.script.latin">Noot</span>
-                  </span>{" "}
-                  ſagen könnte — ; Sie werden daraus ſelbﬅ den Schluß machen,
-                  <br className="lb" /> daß ſie nicht zu den alltäglichen
-                  Frauenzimmern gehört, ſondern zu denen,
-                  <br className="lb" /> die man ſelten antrifft — beſonders in
-                  den <span className="orig">itzigen</span>
-                  <span className="corr">jetzigen</span> Zeiten, wo Eitelkeit
-                  und
-                  <br className="lb" /> <span className="orig">LeichtSinn</span>
-                  <span className="corr">Leichtsinn</span> ſo ſehr überhand
-                  nimmt; <span className="orig">Nach</span>
-                  <span className="corr">nach</span> meinem Urtheil{" "}
-                  <span className="orig">kan</span>
-                  <span className="corr">kann</span> ich nicht
-                  <br className="lb" /> anders, als den Mann glücklich ſchätzen,
-                  der ſie zur Gattin bekömmt.<a id="mark.002.e">{/*anchor*/}</a>
+                  <br className="lb" /> erſuche, dem{" "}
+                  <span className="orig">Schuz</span>
+                  <span className="corr">Schutz</span> und der Bewahrung unſres
+                  Gottes
+                  <br className="lb" /> und bleibe unter innigﬅ zärtlichﬅen{" "}
+                  <span className="orig">Küßen</span>
+                  <span className="corr">Küssen</span> von
+                  <br className="lb" /> ganzem Herzen
                 </p>
                 <div className="closer">
-                  <span className="orig">meine</span>
-                  <span className="corr">Meine</span> Frau und ich, wir grüßen
-                  Sie auf das Herzlichﬅe, ich bin mit
-                  <br className="lb" /> denen Ihren bekannten Geſinnungen.{" "}
-                  <br className="lb" />{" "}
-                  <span style={{ display: "inline-block" }} width="11cm">
+                  <span style={{ display: "inline-block" }} width="4words">
+                    &nbsp;
+                  </span>
+                  Dein ewig verbundner und <span className="orig">treüer</span>
+                  <span className="corr">
+                    treuer
+                  </span> <br className="lb" />{" "}
+                  <span style={{ display: "inline-block" }} width="1lines">
                     &nbsp;
                   </span>{" "}
-                  Ihr aufrichtiger Freund <br className="lb" />
-                  <div className="dateline">
-                    <span className="placeName">
-                      <span className="abbr"> (D.)</span>
-                      <span className="expan">
-                        D<span className="ex">üſſeldorf</span>
-                      </span>
-                    </span>{" "}
-                    am <span className="date">12 Maÿ 1791</span>.
-                  </div>{" "}
-                  <span style={{ display: "inline-block" }} width="8cm">
+                  <span style={{ display: "inline-block" }} width="5words">
                     &nbsp;
                   </span>
                   <div className="signed">
                     <span className="persName">
-                      <span className="abbr"> (Fr.)</span>
-                      <span className="expan">
-                        Fr<span className="ex">iedrich</span>
-                      </span>{" "}
-                      Hoffmann
+                      <span className="g.rend.script.latin">Casper Engels</span>
                     </span>
+                  </div>{" "}
+                  <br className="lb" />{" "}
+                  <span style={{ display: "inline-block" }} width="1lines">
+                    &nbsp;
+                  </span>{" "}
+                  <span style={{ display: "inline-block" }} width="6words">
+                    &nbsp;
+                  </span>
+                  <div className="dateline">
+                    <span className="g.rend.script.latin">
+                      <span className="g.enc.tagsdecl.suspension.type1">
+                        (d.)
+                      </span>
+                      <span className="expan">
+                        d<span className="ex">en</span>
+                      </span>
+                    </span>{" "}
+                    9{" "}
+                    <span className="g.rend.script.latin">
+                      <span className="abbr">
+                        {" "}
+                        (7<sup>ber</sup>)
+                      </span>
+                      <span className="expan" />
+                    </span>{" "}
+                    1791
                   </div>
                 </div>
+                <p>
+                  Dem guten{" "}
+                  <span className="g.enc.tagsdecl.suspension.type1">
+                    {" "}
+                    (Hr.)
+                  </span>
+                  <span className="expan">
+                    H<span className="ex">er</span>r
+                    <span className="ex">n</span>
+                  </span>{" "}
+                  Paﬅor hatte ich{" "}
+                  <span className="g.enc.tagsdecl.suspension.type1">
+                    {" "}
+                    (ein)
+                  </span>
+                  <span className="expan">
+                    ein<span className="ex">en</span>
+                  </span>{" "}
+                  Besuch verſprochen, bei
+                  <br className="lb" />{" "}
+                  <span className="orig">gelegenheit</span>
+                  <span className="corr">Gelegenheit</span> bitte mich zu{" "}
+                  <span className="g.enc.tagsdecl.suspension.type1">
+                    {" "}
+                    (entſchuldig)
+                  </span>
+                  <span className="expan">
+                    entſchuldig<span className="ex">en</span>
+                  </span>
+                  ,
+                </p>
+                <p>
+                  unſer Knecht{" "}
+                  <span className="g.rend.script.latin">Arnold</span>, der viel
+                  Liebe und Hochachtung für dich
+                  <br className="lb" /> hat, bat mich eben, dich zu grüßen.
+                </p>
               </div>
             </section>
           </div>

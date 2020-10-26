@@ -8,18 +8,30 @@ import {
   useTransform,
   useMotionValue,
   useSpring,
+  useAnimation,
 } from "framer-motion";
 import constants from "../components/constants";
 import Brief_view from "../components/brief_view";
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, Component } from "react";
+
+
 
 export default function Page() {
+
+
+  //   const controls = useAnimation()
+  // controls.start({ y: -500 })
+
+  // function onScroll(info) {
+  //   console.log(info.offset, info.velocity);
+  // }
+
+  // const isIdle = useIdle({ timeToIdle: 1000 })
   return (
     <Layout home>
       <Head>
         <title>Briefe</title>
       </Head>
-
       <motion.div
         className="scrollable"
         initial="initial"
@@ -27,15 +39,16 @@ export default function Page() {
         exit="exit"
         variants={constants.animation.section_exit}
       >
+        {/* <div>{isIdle ? "Are you there?" : "Hello there!"}</div> */}
+
         <Brief_view data={data.briefe} />
       </motion.div>
-
-      <Timeline2 />
+      <Timeline />
     </Layout>
   );
 }
 
-export function Timeline2() {
+export function Timeline() {
   // const { scrollX } = data
   const { scrollX } = useViewportScroll();
   const { scrollXProgress } = useViewportScroll();
@@ -49,13 +62,17 @@ export function Timeline2() {
   // console.log(x)
 
   function Line({ numb, text }) {
-    // note: initial should be -10
-
+    // note: study function and improve
     const scaleRange = [0.7, 1, 1, 0.7];
     const opacityRange = [0.2, 1, 1, 0.2];
+    let initial = -10;
+
+    if (numb == 1) {
+      initial = -10;
+    }
 
     const ra = [
-      -1,
+      initial,
       (pagex / letters) * (numb - 1),
       (pagex / letters) * numb,
       (pagex / letters) * numb * leaverange,
@@ -102,3 +119,4 @@ export function Timeline2() {
     </>
   );
 }
+
