@@ -82,6 +82,10 @@ setTimeout(
 | 307         | Friedrich Engels sen.        | 1838-08-11    | Bremen     | :white_check_mark: |            |        | :white_check_mark: | Fehlerhafte Benennung?                        |
 | 341         | Friedrich Engels sen.        | 1858-09-10    | Manchester | :white_check_mark: |            |        | :white_check_mark: | Schlechte Scan Qualität!                      |
 
+## Motion Framer Examples 
+
+[Draggable + Toggle](https://codesandbox.io/s/framer-motion-bottom-sheet-fixed-m2vls)
+
 ## Developer
 
 hallo@arrenberg.studio
