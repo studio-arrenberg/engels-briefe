@@ -4,11 +4,12 @@ import Layout from "./layout";
 import Head from "next/head";
 import Audio from "./audio";
 import { themen, familie } from "../public/data.json";
+
 import React, { useState } from "react";
+
 
 export default function Brief_wrapper(props) {
   const data = props.data;
-
   console.log(data)
 
   const pics = data.map((data) => data.digitalisate.page);
@@ -65,11 +66,13 @@ export default function Brief_wrapper(props) {
               {/* sender */}
               {sen[0].map((item, index) => (
                 <div className="sender">
-                  <h2>
-                    <span className="sender_name">{item.name}</span>
-                    <span className="sender_name">{item.lebzeit}</span>
-                  </h2>
-                  <h3>{data.sender.ort}</h3>
+                  <div className="meta-beschreibung">
+                    <h2 className="name">{item.name}</h2>
+                    <h2>{item.lebzeit}</h2>
+
+                    <h3>{data.sender.ort}</h3>
+                  </div>
+
                   <img
                     className="portrait"
                     src={`../pictures/personen/thumbnails/${item.picture}`}
@@ -83,11 +86,13 @@ export default function Brief_wrapper(props) {
 
               {emp[0].map((item, index) => (
                 <div className="empfänger">
-                  <h2>
-                    <span className="empfänger_name">{item.name}</span>
-                    <span className="empfänger_name">{item.lebzeit}</span>
-                  </h2>
-                  <h3>{data.empfänger.ort}</h3>
+                  <div className="meta-beschreibung">
+                    <h2>
+                      <span className="name">{item.name}</span>
+                      <span className="name">{item.lebzeit}</span>
+                    </h2>
+                    <h3>{data.empfänger.ort}</h3>
+                  </div>
                   <img
                     className="portrait"
                     src={`../pictures/personen/thumbnails/${item.picture}`}
@@ -102,9 +107,10 @@ export default function Brief_wrapper(props) {
 
             {/* brief inhalt */}
 
-            <div className="vergleichs-ansicht active">
+            <div className="vergleichs-ansicht ">
               <div className="digitalisate">
                 {/* load cover */}
+
                 {!!data.digitalisate.cover ? (
                   <img
                     className="kuvert_img"
@@ -127,7 +133,9 @@ export default function Brief_wrapper(props) {
               </div>
             </div>
 
-            <div className="detail-ansicht">
+
+            <div className="detail-ansicht themenmakierung-active">
+
               <div className="normalisiert">{props.children}</div>
               {/* themen */}
 
