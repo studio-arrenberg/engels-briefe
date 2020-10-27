@@ -195,18 +195,21 @@
         {
             "id":"1",
             "title":"Religion",
+            "slug":"religion",
             "beschreibung":"Wie sehr die Familie Engels im regionalen Pietismus verwurzelt war, belegen insbesondere die mit Bibelzitaten und -referenzen gespickten Korrespondenzen der Großeltern Johann Caspar (II) und Louise sowie der beiden Großväter untereinander, Johann Caspar (II) und Bernhard van Haar. Deutlich wird hier auch die exemplarische Verbindung des Pietismus mit dem frühen Kapitalismus. Allerdings nahm die gelebte Frömmigkeit in der Familie Engels niemals jene lust- und kulturfeindlichen Ausmaße an, wie sie der junge Engels dann 1839 in seinen Briefen aus dem Wupperthal prominent geißeln wird. Die merkliche Abnahme der religiösen Thematik in der Folgegeneration ist Indiz für den im 19. Jahrhundert stattfindenden Prozess der Säkularisierung.",
             "picture":"religion.jpg"
         },
         {
             "id":"2",
             "title":"Reisen",
+            "slug":"reisen",
             "beschreibung":"Die Korrespondenz innerhalb der engeren Familie verdankt sich nicht zuletzt den zahlreichen Reisen zumal der männlichen Mitglieder. Friedrichs Großvater und vermehrt sein Vater unternahmen ausgedehnte Geschäftsreisen, die sie auch ins Ausland, nach Frankreich und England führten. Für den angehenden Kaufmann war zudem vor der Heirat eine eigene Reise obligatorisch, die nicht nur beruflichen Zwecken dienen sollte, sondern gemäß bürgerlichen Vorstellungen auch der eigenen Bildung. Friedrich sen. unternahm während seiner Verlobungszeit eine solche, von Juli bis November 1818 währende Reise nach Süddeutschland, Österreich und Italien.",
             "picture":"reisen.jpg"
         },
         {
             "id":"3",
             "title":"Liebe / Ehe",
+            "slug":"liebe",
             "beschreibung":"Einen bedeutenden Bestandteil des Briefkonvoluts bilden die beiden Partnerbriefwechsel der Großeltern (väterlicherseits) und der Eltern, jeweils vor und nach der Eheschließung. Auch wenn sie nur unvollständig überliefert sind (primär nur die Briefe des Großvaters und des Vaters), so manifestiert sich in ihnen doch ein signifikanter sozial- und mentalitätsgeschichtlicher Wandel im Hinblick auf die Liebeskonzeption und die damit verbundenen Praktiken der Paarbildung. Während der Großvater Johann Caspar noch einem vormodernen Ehekonzept verpflichtet ist, demzufolge die Partnerin nur bedingt individualisiert, potentiell also austauschbar ist und ihre Wahl gemäß angebbaren (in Briefen mit Dritten diskutierten) sozialen, ökonomischen, religiösen und moralischen Kriterien zu erfolgen hat, ist sein Sohn Friedrich bereits ein Kind der Romantik. In seinen Briefen an die Geliebte und Braut Elise van Haar herrscht ein neuer Ton, der unverkennbar auf einen gestiegenen Grad an Emotionalisierung, Intimisierung und Individualisierung verweist. Die Briefe selbst werden für das junge Paar dabei zu dem Medium, in dem diese Liebe sich artikuliert und in dem sie gleichsam exemplarisch ‚gelebt‘ wird.",
             "picture":"liebe.jpg"
         }
