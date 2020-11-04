@@ -6,7 +6,7 @@
             "sender": {"name":"Louise Engels, geb. Noot","ort":"1", "id":"2"},
             "empfänger" : {"name": "eine Unbekannte Freundin", "ort": "7", "id":"10"},
             "text" : "Ich danke Dir herzlich dafür, daß Du mir schon so bald Nachricht von Dir und den Lieben Deinigen gabst, so kurz dein Brief auch war, so machte er mir doch viele Freude.",
-            "digitalisate": {"cover": "", "page": ["FE_01.1.jpg","FE_01.2.jpg"]},
+            "digitalisate": {"cover": "", "page": ["FE_01.1.png","FE_01.2.png"]},
             "audio" :"001.mp3"
         },
         {
@@ -16,7 +16,7 @@
             "sender": {"name":"Friedrich Christian Hoffmann","ort":"4", "id":"1"},
             "empfänger" : {"name": "Johann Caspar Engels", "ort": "1", "id":"3"},
             "text" : "Mein werther Freund! Nach meinem Wunsch, und nach meiner Hoffnung sind Sie, wenn Sie diesen Brief erhalten, von Ihrer Synodal-Reise gesund und glücklich zurückgekommen; Ihrer Bitte, daß ich Ihnen eine etwaige Beschreibung des Characters, der Gesinnungen, und der Familie der Demois.",
-            "digitalisate": {"cover": "FE_04.3.jpg", "page": ["FE_04.1.jpg","FE_04.2.jpg"]},
+            "digitalisate": {"cover": "FE_04.3.png", "page": ["FE_04.1.png","FE_04.2.png"]},
             "audio" :"004.mp3"
         },
         {
@@ -26,7 +26,7 @@
             "sender": {"name":"Johann Caspar Engels","ort":"1", "id":"3"},
             "empfänger" : {"name": "Louise Engels, geb. Noot", "ort": "12", "id":"2"},
             "text" : "Noch ehe ich mich schlafen lege, muß ich dir sagen: daß ich unter der Güte Gottes recht vergnügt gereist und wohlbehalten angekommen bin. Just um 9 Uhr, wie ich dir auch gesagt hatte. Du, meine beste innigst Verbundene, wirst mit mir dafür den L. Himmlischen Vater preisen, der mich nun so ofte immer glücklich und unversehrt hin und her gebracht, und dadurch noch meinen Cörper gestärkt hat.",
-            "digitalisate": {"cover": "FE_21.1.jpg", "page": ["FE_21.2.jpg","FE_21.3.jpg", "FE_21.4.jpg"]},
+            "digitalisate": {"cover": "FE_21.1.png", "page": ["FE_21.2.png","FE_21.3.png", "FE_21.4.png"]},
             "audio" :"021.mp3"
         },
         {
@@ -36,7 +36,7 @@
             "sender": {"name":"Louise Engels, geb. Noot","ort":"12", "id":"2"},
             "empfänger" : {"name": "Johann Caspar Engels", "ort": "1", "id":"3"},
             "text" : "Wie freue ich mich daß Du glücklich, gesund und munter zu Hause gekommen bist, und Dich nach der Reise so wohl befindest – der gütige Gott seye von ganzem Herzen dafür gedankt daß Er Dich begleitet und vor Unglück bewahret hat – Er der liebevolle Menschenhüter seye Dir dann auf Deiner nächsten Reise hierhin auch wieder recht nahe und führe Dich doch gesund und wohl in meine Armen.",
-            "digitalisate": {"cover": "FE_22.1.jpg", "page": ["FE_26.2.jpg","FE_26.3.jpg","FE_26.4.jpg"]},
+            "digitalisate": {"cover": "FE_22.1.png", "page": ["FE_26.2.png","FE_26.3.png","FE_26.4.png"]},
             "audio" :""
         },
         {
@@ -46,7 +46,7 @@
             "sender": {"name":"Louise Engels, geb. Noot","ort":"1", "id":"2"},
             "empfänger" : {"name": "Johann Caspar Engels", "ort": "10", "id":"3"},
             "text" : "Deine beyde liebe Briefe habe ich vorgestern Morgen zugleich erhalten, der aus Schwalbach muß also Unterwegens liegen geblieben seyn – wie groß war meine Freude als ich etwas von Deiner lieben Hand erblickte, und die erfreuliche Nachricht las, daß Du mein Bester! ",
-            "digitalisate": {"cover": "sjdb.png", "page": ["FE_29.1.jpg","FE_29.2.jpg", "FE_29.3.jpg", "FE_29.4.jpg"]},
+            "digitalisate": {"cover": "sjdb.png", "page": ["FE_29.1.png","FE_29.2.png", "FE_29.3.png", "FE_29.4.png"]},
             "audio" :""
         },
         {
@@ -56,7 +56,7 @@
             "sender": {"name":"Johann Caspar Engels","ort":"1", "id":"3"},
             "empfänger" : {"name": "Friedrich Engels sen.", "ort": "6", "id":"9"},
             "text" : "Zufolge deinen Lieben Briefen vom 12 passati haben wir das Laken und Casimir für dich gekauft, und in 1 paquet F.E. durch Eng. Sieperman, der just nach FFurth in seine Condition reisen wollte, dir zugesandt, wir hoffen daß du solches schon erhalten hast, und daß dir unsre Wahl gefallen wird.",
-            "digitalisate": {"cover": "FE_68.4.jpg", "page": ["FE_68.1.jpg","FE_68.2.jpg", "FE_68.3.jpg"]},
+            "digitalisate": {"cover": "FE_68.4.png", "page": ["FE_68.1.png","FE_68.2.png", "FE_68.3.png"]},
             "audio" :"068.mp3"
         },
         {
@@ -67,7 +67,7 @@
             "sender": {"name":"Johann Caspar Engels","ort":"1", "id":"3"},
             "empfänger" : {"name": "Friedrich Engels sen.", "ort": "6", "id":"9"},
             "text" : "Deine Briefe haben wir richtig erhalten, und freuen uns deines Wohlseins, und daß alles für die Stadt Frankfurth so glücklich vorübergegangen ist; angenehm war uns deine Beschreibung, wiewohl wir dieselbe späth erhielten, und durch die Hemmung der Post, dir nicht antworten konnten.",
-            "digitalisate": {"cover": "sjdb.png", "page": ["FE_71.1.jpg","FE_71.2.jpg"]},
+            "digitalisate": {"cover": "sjdb.png", "page": ["FE_71.1.png","FE_71.2.png"]},
             "audio" :"071.mp3"
         },
         {
@@ -78,7 +78,7 @@
             "sender": {"name":"Johann Caspar Engels","ort":"1", "id":"3"},
             "empfänger" : {"name": "Friedrich Engels sen.", "ort": "6", "id":"9"},
             "text" : "Dein Brief vom 31 pass[ati] war zwar beruhigend für uns, doch ist mir das noch nicht gnug, daß die Sache wegen der Landwehr seitdem still lag, ich habe deshalb heute in der Einlage an Hrƺ Ekhard geschrieben und ihn gebeten, sich dahin zu verwenden, daß du von der Liste ausgelöscht werdest, und du so lange in FFurth bleiben mögtest, bis dich unsre Obrigkeit aufruft, dann in jedem Land & Canton ist ja die Organisation der Landwehr, und nur unser Ort hat Recht dich einzufordern, was aber wie ich fast hoffe nicht geschehen wird, da man nun die von 1795 einfordert, und die von 1796 frei und ruhig läßt.",
-            "digitalisate": {"cover": "FE_75.3.jpg", "page": ["FE_75.1.jpg","FE_75.2.jpg"]},
+            "digitalisate": {"cover": "FE_75.3.png", "page": ["FE_75.1.png","FE_75.2.png"]},
             "audio" :"075.mp3"
         },
         {
@@ -89,7 +89,7 @@
             "sender": {"name":"Friedrich Engels sen.","ort":"1", "id":"9"},
             "empfänger" : {"name": "Elise van Haar", "ort": "8", "id":"5"},
             "text" : "An diesem ruhigen Abende, wo alle Arbeiten für diese Woche ruhen, und alles sich auf den kommenden Tag des Herrn vorbereitet – dachte ich einige Augenblicke Dir, der Geliebten meines Herzens zu widmen. Die ganze Woche hatte ich den heutigen Abend dazu bestimmt, und glücklicherweise kommt mir kein Hinderniß in den Weg.",
-            "digitalisate": {"cover": "FE_130.4.jpg", "page": ["FE_130.1.jpg","FE_130.2.jpg","FE_130.3.jpg"]},
+            "digitalisate": {"cover": "FE_130.4.png", "page": ["FE_130.1.png","FE_130.2.png","FE_130.3.png"]},
             "audio" :"130.mp3"
         },
         {
@@ -100,7 +100,7 @@
             "sender": {"name":"Friedrich Engels sen.","ort":"1", "id":"9"},
             "empfänger" : {"name": "Elise van Haar", "ort": "8", "id":"5"},
             "text" : "Mit welchem frohen, seligen Gefühle ich jetzt an dich meine gute innigst geliebte Elise schreibe, kann ich mit Worten nicht ausdrücken; dein mit mir so ganz stimmendes Herz wird es kennen. Ich schreibe nämlich mit der völligen Einwilligung meiner lieben Eltern. ",
-            "digitalisate": {"cover": "FE_169.8.jpg", "page": ["FE_169.1.jpg","FE_169.2.jpg","FE_169.3.jpg","FE_169.4.jpg","FE_169.5.jpg","FE_169.6.jpg"]},
+            "digitalisate": {"cover": "FE_169.8.png", "page": ["FE_169.1.png","FE_169.2.png","FE_169.3.png","FE_169.4.png","FE_169.5.png","FE_169.6.png"]},
             "audio" :"169.mp3"
         },
         {
@@ -111,7 +111,7 @@
             "sender": {"name":"Friedrich Engels sen.","ort":"1", "id":"9"},
             "empfänger" : {"name": "Karl Wilhelm Moritz Snethlage", "ort": "2", "id":"6"},
             "text" : "Freue Dich mit mir, innigst geliebter Karl! der liebe Gott hat unser Gebet erhört, und uns am verfloßnen Dienstagabend, den 29. Nov. Abends um 9 Uhr ein Kindlein, und zwar einen gesunden wohlgestalteten Knaben geschenkt.",
-            "digitalisate": {"cover": "FE_235a.4.jpg", "page": ["FE_235a.1.jpg","FE_235a.2.jpg","FE_235a.3.jpg"]},
+            "digitalisate": {"cover": "FE_235a.4.png", "page": ["FE_235a.1.png","FE_235a.2.png","FE_235a.3.png"]},
             "audio" :"235a.mp3"
         },
         {
@@ -122,7 +122,7 @@
             "sender": {"name":"Friedrich Engels sen.","ort":"1", "id":"9"},
             "empfänger" : {"name": "Elise Engels, geb. van Haar", "ort": "8", "id":"5"},
             "text" : "Dein lieber Brief vom 5. ds. gewährte mir eine rechte Beruhigung, denn ich sahe daraus, daß es Dir und dem kleinen Herzenstippel gut geht. Du glaubst gar nicht, Herzensmama, wie sehr Du u. er mir ans Herz gewachsen seyd, u. Du glaubst auch gar nicht, wie unbehaglich, wie ekelig mir zu Muthe ohne Euch ist.",
-            "digitalisate": {"cover": "", "page": ["FE_255.1.jpg","FE_255.2.jpg","FE_255.3.jpg","FE_255.4.jpg"]},
+            "digitalisate": {"cover": "", "page": ["FE_255.1.png","FE_255.2.png","FE_255.3.png","FE_255.4.png"]},
             "audio" : "255.mp3"
         },
         {
@@ -133,7 +133,7 @@
             "sender": {"name":"Friedrich Engels sen.","ort":"1", "id":"9"},
             "empfänger" : {"name": "Elise Engels, geb. van Haar", "ort": "8", "id":"5"},
             "text" : "Daß dich liebe Elise, das Ausbleiben meines Briefes etwas traurig gemacht hat, freut mich ein klein wenig, denn ich nehme daraus wahr, daß du mich doch nicht gut entbehren kannst. ",
-            "digitalisate": {"cover": "", "page": ["FE_265.1.1.jpg","FE_265.1.2.jpg","FE_265.2.1.jpg","FE_265.2.2.jpg","FE_265.3.1.jpg","FE_265.3.2.jpg","FE_265.4.1.jpg","FE_265.4.2.jpg"]},
+            "digitalisate": {"cover": "", "page": ["FE_265.1.png","FE_265.2.png","FE_265.3.png","FE_265.4.png","FE_265.5.png","FE_265.6.png","FE_265.7.png","FE_265.8.png"]},
             "audio" :"265.mp3"
         },
         {
@@ -144,7 +144,7 @@
             "sender": {"name":"Gerhard Bernhard van Haar","ort":"8", "id":"7"},
             "empfänger" : {"name": "Friedrich Engels sen.", "ort": "1", "id":"9"},
             "text" : "Ja, lieber Friedrich, der Herr hat uns im verflossenen Winter, so wie unser ganzes Leben hindurch unaussprechlich viel Gutes erwiesen. Wir sind beide schon in den Jahren, die das Sprichwort machten: Senectus ipsa morbus laut welches wir also immer krank seyn müßten; und dennoch haben wir für das ganze Jahr 1825.",
-            "digitalisate": {"cover": "", "page": ["FE_285.1.jpg","FE_285.2.jpg","FE_285.3.jpg","FE_285.4.jpg"]},
+            "digitalisate": {"cover": "", "page": ["FE_285.1.png","FE_285.2.png","FE_285.3.png","FE_285.4.png"]},
             "audio" :"284.mp3"
         },
         {
@@ -155,7 +155,7 @@
             "sender": {"name":"Friedrich Engels sen.","ort":"11", "id":"9"},
             "empfänger" : {"name": "Elise Engels, geb. van Haar", "ort": "8", "id":"5"},
             "text" : "Seit Vorgestern Abend sind wir hier in Paris liebe Elise, wo wir zwar etwas ermüdet nach einer 32stündigen Fahrt auf der Diligence, aber sehr vergnügt ankamen. In Boulogne waren wir in einem Hôtel welches so sehr auf englischen Fuß eingerichtet war daß selbst sämmtliche Domestiken kaum französisch verstanden.",
-            "digitalisate": {"cover": "FE_295.4.jpg", "page": ["FE_295.1.jpg","FE_295.2.jpg","FE_295.3.jpg","FE_295.5.jpg"]},
+            "digitalisate": {"cover": "FE_295.4.png", "page": ["FE_295.1.png","FE_295.2.png","FE_295.3.png","FE_295.5.png"]},
             "audio" :"294.mp3"
         },
         {
@@ -166,7 +166,7 @@
             "sender": {"name":"Friedrich Engels sen.","ort":"13", "id":"9"},
             "empfänger" : {"name": "Elise Engels, geb. van Haar", "ort": "1", "id":"5"},
             "text" : "Soeben Donnerstag Morgen um 7 Uhr sind wir hier glücklich angekommen, nachdem wir eine ungewöhnlich lange Überfahrt gehabt haben. ",
-            "digitalisate": {"cover": "FE_307.2.jpg", "page": ["FE_307.1.jpg","FE_307.2.jpg"]},
+            "digitalisate": {"cover": "FE_307.2.png", "page": ["FE_307.1.png","FE_307.2.png"]},
             "audio" :"306.mp3"
         },
         {
@@ -176,7 +176,7 @@
             "sender": {"name":"Friedrich Engels sen.","ort":"3", "id":"9"},
             "empfänger" : {"name": "Elise Engels, geb. van Haar", "ort": "1", "id":"5"},
             "text" : "Gestern Abend sind wir hier Gott sey Dank gesund und wohl angekommen, und ich eile Dich davon mit der ersten Post zu benachrichtigen. ",
-            "digitalisate": {"cover": "FE_308.4.jpg", "page": ["FE_308.1.jpg", "FE_308.2.jpg","FE_308.3.jpg"]},
+            "digitalisate": {"cover": "FE_308.4.png", "page": ["FE_308.1.png", "FE_308.2.png","FE_308.3.png"]},
             "audio" :"307.mp3"
         },
         {
@@ -186,7 +186,7 @@
             "sender": {"name":"Friedrich Engels sen.","ort":"9", "id":"9"},
             "empfänger" : {"name": "Elise Engels, geb. van Haar", "ort": "5", "id":"5"},
             "text" : "Gestern Morgen erhielt ich Deinen l. Brief und gleichzeitig einen aus Barmen von Hermann und Emil. Mit Vergnügen sah ich daraus, daß es Dir wieder besser ging, und Du bald wieder ganz hergestellt bist. Aus Friedrichs Brief hast Du meine glückliche Ankunft gesehen.",
-            "digitalisate": {"cover": "FE_342.4.jpg", "page": ["FE_342.1.jpg", "FE_342.2.jpg","FE_342.3.jpg"]},
+            "digitalisate": {"cover": "FE_342.4.png", "page": ["FE_342.1.png", "FE_342.2.png","FE_342.3.png"]},
             "audio" :"341.mp3"
         }
     ],
