@@ -38,13 +38,21 @@ export default function page() {
                   paddingBottom: "100px",
                 }}
               >
-                <span type="liebe-ehe" from="#mark.002.s" to="#mark.002.e" />
-                <span type="religion" from="#mark.003.s" to="#mark.003.e" />
-                <span
-                  type="geschaeftliches"
-                  from="#mark.004.s"
-                  to="#mark.004.e"
-                />
+                <div type="mark">
+                  <span type="reisen" from="#mark.001.s" to="#mark.001.e" />
+                  <span type="krieg" from="#mark.002.s" to="#mark.002.e" />
+                  <span type="religion" from="#mark.003.s" to="#mark.003.e" />
+                  <span type="liebe-ehe" from="#mark.004.s" to="#mark.004.e" />
+                  <span type="reisen" from="#mark.005.s" to="#mark.005.e" />
+                  <span type="krieg" from="#mark.006.s" to="#mark.006.e" />
+                  <span type="religion" from="#mark.007.s" to="#mark.007.e" />
+                  <span
+                    type="geschaeftliches"
+                    from="#mark.008.s"
+                    to="#mark.008.e"
+                  />
+                  <span type="krieg" from="#mark.009.s" to="#mark.009.e" />
+                </div>
 
                 {/* Insert Page 1 */}
                 <div className="opener">
@@ -63,41 +71,44 @@ export default function page() {
                   aus <span className="placeName">Schwalbach</span> muß alſo
                   Unterwegens liegen ge
                   <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
-                  blieben ſeÿn – <a id="mark.001.s">{/*anchor*/}</a>wie groß war
-                  meine
-                  <span className="orig">Freüde</span>
-                  <span className="corr">Freude</span>
-                  <br className="lb" />
-                  als ich etwas von Deiner lieben Hand erblickte,
-                  <br className="lb" />
-                  und die erfreuliche Nachricht las, daß Du mein
-                  <br className="lb" />
-                  Beﬅer! Dich <span className="orig">Geſund</span>
-                  <span className="corr">geſund</span> und munter befändeﬅ
-                  <br className="lb" />
-                  und bis dahin <span className="orig">Glücklich</span>
-                  <span className="corr">glücklich</span>{" "}
-                  <span className="orig">gereißet</span>
-                  <span className="corr">gereiſet</span> wäreﬅ.
-                  <a id="teaser.part.002.s">{/*anchor*/}</a>
-                  <a id="mark.002.s">{/*anchor*/}</a>
-                  <span className="orig">ich</span>
-                  <span className="corr">Ich</span>
-                  <br className="lb" />
-                  verlangte auſſerordentlich nach einen Brief von
-                  <br className="lb" />
-                  Dir, weil ich wegen den Unruhen mit den
-                  <br className="lb" />
-                  Franzoſen freÿlich etwas beküm̅ert war, indem
-                  <br className="lb" />
-                  ich’s gehört hatte, daß sie
-                  <span className="placeName">Mainz</span> bombardirten
-                  <a id="teaser.part.002.e">{/*anchor*/}</a>
-                  <br className="lb" />
-                  und ich glaubte, daß Du da drüber reiſen
-                  <br className="lb" />
-                  würdeﬅ<a id="mark.002.e">{/*anchor*/}</a>
-                  <a id="mark.001.e">{/*anchor*/}</a> –
+                  blieben ſeÿn –
+                  <span className="reisen">
+                    <a id="mark.001.s">{/*anchor*/}</a>
+                    wie groß war meine
+                    <span className="orig">Freüde</span>
+                    <span className="corr">Freude</span>
+                    <br className="lb" />
+                    als ich etwas von Deiner lieben Hand erblickte,
+                    <br className="lb" />
+                    und die erfreuliche Nachricht las, daß Du mein
+                    <br className="lb" />
+                    Beﬅer! Dich <span className="orig">Geſund</span>
+                    <span className="corr">geſund</span> und munter befändeﬅ
+                    <br className="lb" />
+                    und bis dahin <span className="orig">Glücklich</span>
+                    <span className="corr">glücklich</span>{" "}
+                    <span className="orig">gereißet</span>
+                    <span className="corr">gereiſet</span> wäreﬅ.
+                    <a id="teaser.part.002.s">{/*anchor*/}</a>
+                    <a id="mark.002.s">{/*anchor*/}</a>
+                    <span className="orig">ich</span>
+                    <span className="corr">Ich</span>
+                    <br className="lb" />
+                    verlangte auſſerordentlich nach einen Brief von
+                    <br className="lb" />
+                    Dir, weil ich wegen den Unruhen mit den
+                    <br className="lb" />
+                    Franzoſen freÿlich etwas beküm̅ert war, indem
+                    <br className="lb" />
+                    ich’s gehört hatte, daß sie
+                    <span className="placeName">Mainz</span> bombardirten
+                    <a id="teaser.part.002.e">{/*anchor*/}</a>
+                    <br className="lb" />
+                    und ich glaubte, daß Du da drüber reiſen
+                    <br className="lb" />
+                    würdeﬅ<a id="mark.002.e">{/*anchor*/}</a>
+                    <a id="mark.001.e">{/*anchor*/}</a> –
+                  </span>
                   <a id="mark.003.s">{/*anchor*/}</a>doch suchte ich mir zu
                   hüten nicht
                   <br className="lb" />
