@@ -570,10 +570,13 @@ img {
   color: #eee;
 }
 
-.themenmakierung-active .religion.active, .themenmakierung-active .liebe-ehe.active , .reisen-active {
+.themenmakierung-active .religion.active, .themenmakierung-active .liebe-ehe.active , .themenmakierung-active .reisen.active {
   color: #000;
 }
 
+.reisen-active .reisen{
+  color: #000;
+}
 .themenmakierung-active .stellenerläuterungen {
   opacity: 0.1;
 }
