@@ -3,7 +3,7 @@ import constants from "./constants";
 import Layout from "./layout";
 import Head from "next/head";
 import Audio from "./audio";
-import { themen, familie } from "../public/data.json";
+import { themen, familie, orte } from "../public/data.json";
 import React, { useState } from "react";
 
 export default function Brief_wrapper(props) {
@@ -19,7 +19,7 @@ export default function Brief_wrapper(props) {
   const emp = [];
 
   th[0].map((data, id) => {
-    console.log(data);
+    // console.log(data);
     them[id] = themen.filter((item) => {
       return item.id === data.toString();
     });
@@ -36,6 +36,8 @@ export default function Brief_wrapper(props) {
       return item.id === data.toString();
     });
   });
+
+  // Ort
 
   // Toggle Themenmarkierung
   const [isActive, setActive] = useState("false");
@@ -76,13 +78,22 @@ export default function Brief_wrapper(props) {
               {sen[0].map((item, index) => (
                 <div className="sender">
                   <div className="meta-beschreibung">
-                    <h2 className="name">{item.name}</h2>
-                    <h2>{item.lebzeit}</h2>
-
-                    <h3>{data.sender.ort}</h3>
+                    <h2>
+                      <span className="name">{item.name}</span>
+                      <br></br>
+                      <span className="name">{item.lebzeit}</span>
+                    </h2>
+                    {/* get the ort */}
+                    <h3>
+                    {
+                      orte.filter((item) => {
+                        return item.id === data.sender.ort;
+                      }).map((data) => data.title)
+                    }
+                    </h3>
                   </div>
 
-                  <img
+                  <img 
                     className="portrait"
                     src={`../pictures/personen/thumbnails/${item.picture}`}
                   />
@@ -98,9 +109,17 @@ export default function Brief_wrapper(props) {
                   <div className="meta-beschreibung">
                     <h2>
                       <span className="name">{item.name}</span>
+                      <br></br>
                       <span className="name">{item.lebzeit}</span>
                     </h2>
-                    <h3>{data.empfänger.ort}</h3>
+                    {/* get the ort */}
+                    <h3>
+                    {
+                      orte.filter((item) => {
+                        return item.id === data.empfänger.ort;
+                      }).map((data) => data.title)
+                    }
+                    </h3>
                   </div>
                   <img
                     className="portrait"
