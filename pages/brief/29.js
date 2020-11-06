@@ -39,13 +39,13 @@ export default function page() {
                 }}
               >
                 <div type="mark">
-                  <span type="reisen" from="#mark.001.s" to="#mark.001.e" />
-                  <span type="krieg" from="#mark.002.s" to="#mark.002.e" />
-                  <span type="religion" from="#mark.003.s" to="#mark.003.e" />
-                  <span type="liebe-ehe" from="#mark.004.s" to="#mark.004.e" />
-                  <span type="reisen" from="#mark.005.s" to="#mark.005.e" />
-                  <span type="krieg" from="#mark.006.s" to="#mark.006.e" />
-                  <span type="religion" from="#mark.007.s" to="#mark.007.e" />
+                  {/* <span type="reisen" from="#mark.001.s" to="#mark.001.e" /> */}
+                  {/* <span type="krieg" from="#mark.002.s" to="#mark.002.e" /> */}
+                  {/* <span type="religion" from="#mark.003.s" to="#mark.003.e" /> */}
+                  {/* <span type="liebe-ehe" from="#mark.004.s" to="#mark.004.e" /> */}
+                  {/* <span type="reisen" from="#mark.005.s" to="#mark.005.e" /> */}
+                  {/* <span type="krieg" from="#mark.006.s" to="#mark.006.e" /> */}
+                  {/* <span type="religion" from="#mark.007.s" to="#mark.007.e" /> */}
                   <span
                     type="geschaeftliches"
                     from="#mark.008.s"
@@ -180,6 +180,7 @@ export default function page() {
                     <a id="mark.003.e">{/*anchor*/}</a>
                   </p>
                 </span>
+
                 <p>
                   <a id="mark.004.s">{/*anchor*/}</a>Für Deine Sorgfalt, mir
                   ſchon ſo bald Nachricht von
@@ -204,6 +205,71 @@ export default function page() {
                   <span className="corr">Gedanken</span> ſchicken.
                   <a id="mark.004.e">{/*anchor*/}</a>
                 </p>
+=======
+                <span className="religion">
+                  <p>
+                    hochgelobet, und von ganzem Herzen dafür
+                    <span className="orig">gedanckt</span>
+                    <span className="corr">gedankt</span>!<br className="lb" />
+                    <span className="overwritten">g</span>
+                    <span className="add">⟨daß⟩</span> Er Dich mein Beﬅer!
+                    geleitet, und für die
+                    <br className="lb" />
+                    Gefahr ſo Dir hätte treﬀen können beſchützet hat.
+                    <br className="lb" />
+                    Er ſeÿe Dir dann auch ferner nahe, und{" "}
+                    <span className="orig">laße</span>
+                    <span className="corr">lasse</span> uns
+                    <br className="lb" />
+                    doch die große Freude zu Theil werden, uns
+                    <span className="orig">Geſund</span>
+                    <span className="corr">geſund</span>
+                    <br className="lb" />
+                    wieder zu umarmen, dann wollen wir Jhm
+                    <span className="orig">
+                      gemein
+                      <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
+                      ſchaﬀtlich
+                    </span>
+                    <span className="corr">
+                      gemein
+                      <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
+                      ſchaftlich
+                    </span>
+                    danken, und miteinander Seinen Nahmen
+                    <br className="lb" />
+                    erhöhen!
+                    <a id="mark.003.e">{/*anchor*/}</a>
+                  </p>
+                </span>
+                <span className="liebe">
+                  <p>
+                    <a id="mark.004.s">{/*anchor*/}</a>Für Deine Sorgfalt, mir
+                    ſchon ſo bald Nachricht von
+                    <br className="lb" />
+                    Dir zu geben <span className="orig">dancke</span>
+                    <span className="corr">danke</span> ich Dir mein guter Papa!
+                    <br className="lb" />
+                    herzlich, ich erkenne daraus Deine zärtliche Liebe,
+                    <br className="lb" />
+                    und möchte Dir gerne einen warmen Kuß
+                    <a id="txt.hi.underline001.int.s">{/*anchor*/}</a>i
+                    <span style={{ textDecoration: "underline" }}>
+                      n Natura
+                    </span>
+                    <a id="txt.hi.underline001.int.e">{/*anchor*/}</a>{" "}
+                    <br className="lb" />
+                    dafür geben, da dieſes aber nun nicht ſeÿn
+                    <sup className="sup" id="txt.add001">
+                      kann
+                    </sup>
+                    , will
+                    <br className="lb" />
+                    ich ihn Dir doch in <span className="orig">Gedancken</span>
+                    <span className="corr">Gedanken</span> ſchicken.
+                    <a id="mark.004.e">{/*anchor*/}</a>
+                  </p>
+                </span>
                 <p>
                   Jch hätte Dir ſchon gleich{" "}
                   <span className="orig">Geﬅern</span>
@@ -215,35 +281,39 @@ export default function page() {
                   <span className="persName">Bruder Wilhelm</span>{" "}
                   <br className="lb" />
                   zu ſchicken, kon̅te ich nicht.{" "}
-                  <a id="mark.005.s">{/*anchor*/}</a>
-                  <a id="mark.006.s">{/*anchor*/}</a>
-                  <span style={{ display: "inline-block" }} width="1cm">
-                    &nbsp;
-                  </span>
-                  <span className="orig">meinen</span>
-                  <span className="corr">Meinen</span> Brief
-                  <br className="lb" />
-                  ſo ich unſerer Abſprache gemäß nach
-                  <span className="placeName">Manheim</span> adreſſirt
-                  <br className="lb" />
-                  hatte, hoﬀe ich wirﬅ Du <span className="orig">jezt</span>
-                  <span className="corr">jetzt</span> erhalten haben –
-                  <br className="lb" />
-                  wann er nur{" "}
-                  <sup className="sup" id="txt.add002">
-                    nicht
-                  </sup>{" "}
-                  wegen den Unruhen <span className="orig">verlohren</span>
-                  <span className="corr">verloren</span> ge
-                  <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
-                  gangen iﬅ!
                 </p>
-                <p>
-                  Sehr wohl haﬅ Du gethan mein Jnniggeliebter! und
-                  <br className="lb" />
-                  es freÿlich ganz nach meinen Wunſch gemacht, daß Du wie
-                  <br className="lb" />
-                </p>
+                <span className="reisen">
+                  <p>
+                    <a id="mark.005.s">{/*anchor*/}</a>
+                    <a id="mark.006.s">{/*anchor*/}</a>
+                    <span style={{ display: "inline-block" }} width="1cm">
+                      &nbsp;
+                    </span>
+                    <span className="orig">meinen</span>
+                    <span className="corr">Meinen</span> Brief
+                    <br className="lb" />
+                    ſo ich unſerer Abſprache gemäß nach
+                    <span className="placeName">Manheim</span> adreſſirt
+                    <br className="lb" />
+                    hatte, hoﬀe ich wirﬅ Du <span className="orig">jezt</span>
+                    <span className="corr">jetzt</span> erhalten haben –
+                    <br className="lb" />
+                    wann er nur{" "}
+                    <sup className="sup" id="txt.add002">
+                      nicht
+                    </sup>{" "}
+                    wegen den Unruhen <span className="orig">verlohren</span>
+                    <span className="corr">verloren</span> ge
+                    <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
+                    gangen iﬅ!
+                  </p>
+                  <p>
+                    Sehr wohl haﬅ Du gethan mein Jnniggeliebter! und
+                    <br className="lb" />
+                    es freÿlich ganz nach meinen Wunſch gemacht, daß Du wie
+                    <br className="lb" />
+                  </p>
+                </span>
               </div>
 
               <div
@@ -255,149 +325,161 @@ export default function page() {
                 }}
               >
                 {/* Insert Page 3 */}
-                <p>
-                  es etwas unſicher war, nicht über
-                  <span className="placeName">Manheim</span> ge
-                  <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
-                  reiﬅ biﬅ <a id="mark.006.e">{/*anchor*/}</a>– Vielleicht iﬅ es
-                  auch für die Sache
-                  <br className="lb" />
-                  <span className="orig">beßer</span>
-                  <span className="corr">besser</span>.
-                  <span style={{ display: "inline-block" }} width="2cm">
-                    &nbsp;
+                <span className="reisen">
+                  <p>
+                    es etwas unſicher war, nicht über
+                    <span className="placeName">Manheim</span> ge
+                    <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
+                    reiﬅ biﬅ <a id="mark.006.e">{/*anchor*/}</a>– Vielleicht iﬅ
+                    es auch für die Sache
+                    <br className="lb" />
+                    <span className="orig">beßer</span>
+                    <span className="corr">besser</span>.
+                    <span style={{ display: "inline-block" }} width="2cm">
+                      &nbsp;
+                    </span>
+                    Unſerer Vermuthung nach wirﬅ Du{" "}
+                    <span className="orig">Heute</span>
+                    <span className="corr">heute</span>
+                    <br className="lb" />
+                    in <span className="placeName">München</span> ankom̅en.
+                    <a id="mark.005.e">{/*anchor*/}</a>
+                  </p>
+                </span>
+                <span className="religion">
+                  <p>
+                    <a id="mark.007.s">{/*anchor*/}</a>
+                    <span className="orig">ich</span>
+                    <span className="corr">Ich</span>{" "}
+                    <span className="orig">bäte</span>
+                    <span className="corr">bete</span> mit Dir, daß
+                    <br className="lb" />
+                    unſer liebreicher Herr Jeſu Dir geſchickt machen möge
+                    <br className="lb" />
+                    ſo zu handlen, wie Er es machen würde, wann
+                    <br className="lb" />
+                    Er an Deiner Stelle wäre. Er, unſer Göttlicher Hohen
+                    <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
+                    prieﬅer gebe Euch Beÿde,{" "}
+                    <span className="orig">Weißheit</span>
+                    <span className="corr">Weisheit</span>, und Verﬅand,
+                    <br className="lb" />
+                    Muth, und <span className="orig">Stärcke</span>
+                    <span className="corr">Stärke</span>, ja, alles was Jhr
+                    <span className="orig">jezt</span>
+                    <span className="corr">jetzt</span> nöthig
+                    <br className="lb" />
+                    habt. Wann es mit Seinen vollkom̅nen Willen be
+                    <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
+                    ﬅehen kann, ſo glaube ich ganz ſicher wird die
+                    <br className="lb" />
+                    Sache gelingen, und geſchicht dieſes nicht, ſo wollen
+                    <br className="lb" />
+                    wirs Jhm zutrauen, daß es alsdenn, wenigﬅens
+                    <br className="lb" />
+                    für uns, ſo <span className="orig">beßer</span>
+                    <span className="corr">besser</span>
+                    <span style={{ textDecoration: "line-through" }}>
+                      iﬅ
+                    </span>{" "}
+                    und
+                    <span className="orig">nüzlicher</span>
+                    <span className="corr">nützlicher</span> iﬅ.
+                  </p>
+                  <p>
+                    Herr
+                    <span className="persName">
+                      Doctor
+                      <span className="abbr">
+                        (C<span className="orig">:</span>
+                        <span className="corr">.</span>)
+                      </span>
+                      <span className="expan">
+                        C<span className="ex">ollenbuſch</span>
+                      </span>
+                    </span>
+                    hat vorigen Montag mit mir
+                    <br className="lb" />
+                    gegeſſen, und nachher den Thee getrunken; dieſer
+                    <br className="lb" />
+                    wünſchte noch im̅er daß die Sache nicht durch Geld
+                    <br className="lb" />
+                    getrieben würde, weil er befürchtet daß ſonﬅ
+                    <br className="lb" />
+                    nachher das Geld, und nicht Gott die Ehre gegeben
+                    <br className="lb" />
+                    wird. Wir haben zuſam̅en einige Pſalmen durch
+                    <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
+                    geleſen und darüber geſprochen, unter andern
+                    <br className="lb" />
+                    auch den 36
+                    <span className="orig" />
+                    <span className="corr">.</span> Pſalm.
+                    <span className="orig">die</span>
+                    <span className="corr">Die</span> 4 erﬅe Verſen ſa
+                    <span className="overwritten">t</span>
+                    <span className="add">⟨g⟩</span>te er
+                    <br className="lb" />
+                    paßten ganz auf den <span className="persName">Knap</span> –
+                    die Lehre ſo im
+                  </p>
                   </span>
-                  Unſerer Vermuthung nach wirﬅ Du{" "}
-                  <span className="orig">Heute</span>
-                  <span className="corr">heute</span>
-                  <br className="lb" />
-                  in <span className="placeName">München</span> ankom̅en.
-                  <a id="mark.005.e">{/*anchor*/}</a>
-                  <a id="mark.007.s">{/*anchor*/}</a>
-                  <span className="orig">ich</span>
-                  <span className="corr">Ich</span>{" "}
-                  <span className="orig">bäte</span>
-                  <span className="corr">bete</span> mit Dir, daß
-                  <br className="lb" />
-                  unſer liebreicher Herr Jeſu Dir geſchickt machen möge
-                  <br className="lb" />
-                  ſo zu handlen, wie Er es machen würde, wann
-                  <br className="lb" />
-                  Er an Deiner Stelle wäre. Er, unſer Göttlicher Hohen
-                  <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
-                  prieﬅer gebe Euch Beÿde,{" "}
-                  <span className="orig">Weißheit</span>
-                  <span className="corr">Weisheit</span>, und Verﬅand,
-                  <br className="lb" />
-                  Muth, und <span className="orig">Stärcke</span>
-                  <span className="corr">Stärke</span>, ja, alles was Jhr
-                  <span className="orig">jezt</span>
-                  <span className="corr">jetzt</span> nöthig
-                  <br className="lb" />
-                  habt. Wann es mit Seinen vollkom̅nen Willen be
-                  <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
-                  ﬅehen kann, ſo glaube ich ganz ſicher wird die
-                  <br className="lb" />
-                  Sache gelingen, und geſchicht dieſes nicht, ſo wollen
-                  <br className="lb" />
-                  wirs Jhm zutrauen, daß es alsdenn, wenigﬅens
-                  <br className="lb" />
-                  für uns, ſo <span className="orig">beßer</span>
-                  <span className="corr">besser</span>
-                  <span style={{ textDecoration: "line-through" }}>iﬅ</span> und
-                  <span className="orig">nüzlicher</span>
-                  <span className="corr">nützlicher</span> iﬅ.
-                </p>
-                <p>
-                  Herr
-                  <span className="persName">
-                    Doctor
-                    <span className="abbr">
-                      (C<span className="orig">:</span>
+                </div>
+                <div
+                  className="page"
+                  style={{
+                    paddingTop: "40px",
+                    paddingLeft: "70px",
+                    paddingBottom: "55px",
+                  }}
+                >
+                  {/* Insert Page 4 */}
+                  <span className="religion">
+                  <p>
+                    3<sup style={{ textDecoration: "underline" }}>ten</sup> Vers
+                    vorkämen,
+                    <span className="orig">könte</span>
+                    <span className="corr">könnte</span> man ſeine{" "}
+                    <span className="orig">Schriﬀten</span>
+                    <span className="corr">Schriften</span>
+                    <br className="lb" />
+                    durch verﬅehen.
+                  </p>
+                  <p>
+                    <a id="mark.008.s">{/*anchor*/}</a>Daß die Witterung ſo
+                    günﬅig iﬅ, und Du mein Lieber!
+                    <br className="lb" />
+                    in der <span className="orig">Geſellſchaﬀt</span>
+                    <span className="corr">Geſellſchaft</span> des
+                    <span className="g.enc.tagsdecl.cc.abbr-colon">
+                      (H<span className="orig">:</span>
                       <span className="corr">.</span>)
                     </span>
                     <span className="expan">
-                      C<span className="ex">ollenbuſch</span>
+                      H<span className="ex">err</span>
                     </span>
-                  </span>
-                  hat vorigen Montag mit mir
-                  <br className="lb" />
-                  gegeſſen, und nachher den Thee getrunken; dieſer
-                  <br className="lb" />
-                  wünſchte noch im̅er daß die Sache nicht durch Geld
-                  <br className="lb" />
-                  getrieben würde, weil er befürchtet daß ſonﬅ
-                  <br className="lb" />
-                  nachher das Geld, und nicht Gott die Ehre gegeben
-                  <br className="lb" />
-                  wird. Wir haben zuſam̅en einige Pſalmen durch
-                  <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
-                  geleſen und darüber geſprochen, unter andern
-                  <br className="lb" />
-                  auch den 36
-                  <span className="orig" />
-                  <span className="corr">.</span> Pſalm.
-                  <span className="orig">die</span>
-                  <span className="corr">Die</span> 4 erﬅe Verſen ſa
-                  <span className="overwritten">t</span>
-                  <span className="add">⟨g⟩</span>te er
-                  <br className="lb" />
-                  paßten ganz auf den <span className="persName">Knap</span> –
-                  die Lehre ſo im
-                </p>
-              </div>
-              <div
-                className="page"
-                style={{
-                  paddingTop: "40px",
-                  paddingLeft: "70px",
-                  paddingBottom: "55px",
-                }}
-              >
-                {/* Insert Page 4 */}
-                <p>
-                  3<sup style={{ textDecoration: "underline" }}>ten</sup> Vers
-                  vorkämen,
-                  <span className="orig">könte</span>
-                  <span className="corr">könnte</span> man ſeine{" "}
-                  <span className="orig">Schriﬀten</span>
-                  <span className="corr">Schriften</span>
-                  <br className="lb" />
-                  durch verﬅehen.
-                </p>
-                <p>
-                  <a id="mark.008.s">{/*anchor*/}</a>Daß die Witterung ſo günﬅig
-                  iﬅ, und Du mein Lieber!
-                  <br className="lb" />
-                  in der <span className="orig">Geſellſchaﬀt</span>
-                  <span className="corr">Geſellſchaft</span> des
-                  <span className="g.enc.tagsdecl.cc.abbr-colon">
-                    (H<span className="orig">:</span>
-                    <span className="corr">.</span>)
-                  </span>
-                  <span className="expan">
-                    H<span className="ex">err</span>
-                  </span>
-                  <span className="persName">Wortmann</span> ſo vergnügt
-                  <span className="orig">reißeﬅ</span>
-                  <span className="corr">reiseﬅ</span>
-                  <br className="lb" />
-                  <span className="orig">freüt</span>
-                  <span className="corr">freut</span> mich ſehr – grüße ihm
-                  recht <span className="orig">freundſchaﬀtlich</span>
-                  <span className="corr">freundſchaftlich</span> von
-                  <br className="lb" />
-                  mir. Vielleicht kannﬅ Du ihm{" "}
-                  <span className="orig">nüzlich</span>
-                  <span className="corr">nützlich</span> werden, durch Mit
-                  <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
-                  theilung der Geiﬅesgaben, ſo Du ſchon aus Gnaden vom
-                  <br className="lb" />
-                  Herrn empfangen haﬅ<a id="mark.008.e">{/*anchor*/}</a> und
-                  einige Vorurtheile und Jrr
-                  <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
-                  thümer beÿ ihm zerﬅören.<a id="mark.007.e">{/*anchor*/}</a>
-                </p>
+                    <span className="persName">Wortmann</span> ſo vergnügt
+                    <span className="orig">reißeﬅ</span>
+                    <span className="corr">reiseﬅ</span>
+                    <br className="lb" />
+                    <span className="orig">freüt</span>
+                    <span className="corr">freut</span> mich ſehr – grüße ihm
+                    recht <span className="orig">freundſchaﬀtlich</span>
+                    <span className="corr">freundſchaftlich</span> von
+                    <br className="lb" />
+                    mir. Vielleicht kannﬅ Du ihm{" "}
+                    <span className="orig">nüzlich</span>
+                    <span className="corr">nützlich</span> werden, durch Mit
+                    <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
+                    theilung der Geiﬅesgaben, ſo Du ſchon aus Gnaden vom
+                    <br className="lb" />
+                    Herrn empfangen haﬅ<a id="mark.008.e">{/*anchor*/}</a> und
+                    einige Vorurtheile und Jrr
+                    <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
+                    thümer beÿ ihm zerﬅören.
+                    <a id="mark.007.e">{/*anchor*/}</a>
+                  </p>
+                </span>
                 <p>
                   <a id="mark.009.s">{/*anchor*/}</a>
                   <span className="persName">Bruder Benjamin</span> brachte mir
