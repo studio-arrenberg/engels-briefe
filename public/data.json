@@ -42,7 +42,7 @@
         {
             "id" : "29",
             "datum" : "25. Oktober 1791",
-            "themen" : {"name":["Reisen","Religon"], "id":[1,2]},
+            "themen" : {"name":["Reisen","Religon","Liebe/Ehe"], "id":[1,2,3]},
             "sender": {"name":"Louise Engels, geb. Noot","ort":"1", "id":"2"},
             "empfänger" : {"name": "Johann Caspar Engels", "ort": "10", "id":"3"},
             "text" : "Deine beyde liebe Briefe habe ich vorgestern Morgen zugleich erhalten, der aus Schwalbach muß also Unterwegens liegen geblieben seyn – wie groß war meine Freude als ich etwas von Deiner lieben Hand erblickte, und die erfreuliche Nachricht las, daß Du mein Bester! ",

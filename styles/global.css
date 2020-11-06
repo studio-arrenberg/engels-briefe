@@ -580,11 +580,13 @@ img {
     color: inherit;
 }
 
+
 .religion, .liebe-ehe, .reisen{
   transition: all ease-in-out 0.5s;
 
 }
-.religion-active .religion, .liebe-ehe-active .liebe-ehe, .reisen-active .reisen{
+
+.religion-active .religion, .liebe-active .liebe, .reisen-active .reisen{
   color: #fff;
   font-size: 130%;
 }

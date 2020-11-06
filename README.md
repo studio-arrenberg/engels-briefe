@@ -48,7 +48,7 @@ npm run start_windows
 ## React Snippets
 
 ### Timeout
-```bash
+```js
 setTimeout(
     function() {
         this.setState({ position: 1 });
