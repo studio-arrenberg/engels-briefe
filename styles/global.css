@@ -574,6 +574,17 @@ img {
   color: #000;
 }
 
+<<<<<<< Updated upstream
+=======
+.religion, .liebe-ehe, .reisen{
+  transition: all ease-in-out 0.5s;
+
+}
+.religion-active .religion, .liebe-active .liebe, .reisen-active .reisen{
+  color: #fff;
+  font-size: 130%;
+}
+>>>>>>> Stashed changes
 .themenmakierung-active .stellenerläuterungen {
   opacity: 0.1;
 }
