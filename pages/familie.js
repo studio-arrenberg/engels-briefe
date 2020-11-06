@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import constants from "../components/constants";
 
 export default function Briefe() {
+
   return (
     <Layout home>
       <Head>
@@ -41,7 +42,9 @@ export function Familie({ data }) {
                 <img src={`../pictures/personen/thumbnails/${data.picture}`} />
                 <div className="item_description">
                   <h2>{data.name}</h2>
+                  <p>{data.lebzeit}</p>
                   <p>{data.beschreibung}</p>
+                  <Count id={data.id} />
                 </div>
               </div>
             </a>
@@ -50,4 +53,28 @@ export function Familie({ data }) {
       </div>
     );
   });
+}
+
+export function Count({ id }) {
+  let number = Object.keys(
+    data.briefe.filter((data) => {
+      return data.sender.id === id;
+    })
+  ).length;
+
+  let numberx = Object.keys(
+    data.briefe.filter((data) => {
+      return data.empfänger.id === id;
+    })
+  ).length;
+
+
+  return (
+    <>
+      {/* <p>Person ID: {id}</p> */}
+      <br></br>
+      <p>Briefe geschrieben: {number}</p>
+      <p>Briefe erhalten: {numberx}</p>
+    </>
+  );
 }
