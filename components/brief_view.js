@@ -5,8 +5,6 @@ import constants from "./constants";
 
 export default function Brief({ data }) {
 
-  // const url = data.scan.page[0]
-
   console.log(data);
 
   return data.map((data, id) => {

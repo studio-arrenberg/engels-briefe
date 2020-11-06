@@ -639,11 +639,27 @@ p > span .latin {
 
 /* JOHANNNNNNNN TEST */
 .sd {
-  color: aquamarine;background: white;
+  color: aquamarine;
+  background: white;
   border-radius: 30px;
   width: 150px;
   height: 150px;
   position: absolute;
   top: 400px;
   left: calc(50% - 150px / 2);
+}
+
+/* Brief handle bar */
+.handlebar {
+  position: fixed;
+  top: 5%;
+  left: calc(90% - 15px);
+  width: 60px;
+  height: 90%;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  z-index: 10000; /* divs overlapping (its just a fix */
 }

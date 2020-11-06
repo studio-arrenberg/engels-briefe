@@ -5,8 +5,17 @@ import Head from "next/head";
 import Audio from "./audio";
 import { themen, familie, orte } from "../public/data.json";
 import React, { useState } from "react";
+import { FiMove } from "react-icons/fi";
 
 export default function Brief_wrapper(props) {
+
+  const [width, setWidth] = React.useState(0);
+  React.useEffect(() => {
+    setWidth(window.innerWidth);
+  });
+
+  const leftpixels = width * 0.8;
+
   const data = props.data;
   console.log(data);
 
@@ -58,6 +67,9 @@ export default function Brief_wrapper(props) {
         </Head>
 
         {/* console.log(data) */}
+        {/* <MyComponent/> */}
+
+        {/* <Handle/> */}
 
         <motion.div
           className="brief_view"
@@ -85,15 +97,15 @@ export default function Brief_wrapper(props) {
                     </h2>
                     {/* get the ort */}
                     <h3>
-                    {
-                      orte.filter((item) => {
-                        return item.id === data.sender.ort;
-                      }).map((data) => data.title)
-                    }
+                      {orte
+                        .filter((item) => {
+                          return item.id === data.sender.ort;
+                        })
+                        .map((data) => data.title)}
                     </h3>
                   </div>
 
-                  <img 
+                  <img
                     className="portrait"
                     src={`../pictures/personen/thumbnails/${item.picture}`}
                   />
@@ -114,11 +126,11 @@ export default function Brief_wrapper(props) {
                     </h2>
                     {/* get the ort */}
                     <h3>
-                    {
-                      orte.filter((item) => {
-                        return item.id === data.empfänger.ort;
-                      }).map((data) => data.title)
-                    }
+                      {orte
+                        .filter((item) => {
+                          return item.id === data.empfänger.ort;
+                        })
+                        .map((data) => data.title)}
                     </h3>
                   </div>
                   <img
@@ -181,6 +193,13 @@ export default function Brief_wrapper(props) {
               </div>
             </div>
 
+            {/*  */}
+            <motion.div drag="x" className="handlebar" dragConstraints={{ left: -leftpixels, right: 0 }} >
+              <FiMove />
+            </motion.div>
+
+            
+
             <div className="navigation">
               <a>
                 <h3>Vergleichsansicht</h3>
@@ -222,34 +241,36 @@ export default function Brief_wrapper(props) {
   });
 }
 
+
+
 // exsample
-function Toggleclass() {
-  // toggle experiment
-  const [isActive, setActive] = useState("false");
-  // const [isActive, setActive] = useState("false");
+// function Toggleclass() {
+//   // toggle experiment
+//   const [isActive, setActive] = useState("false");
+//   // const [isActive, setActive] = useState("false");
 
-  const handleToggle = () => {
-    setActive(!isActive);
-  };
+//   const handleToggle = () => {
+//     setActive(!isActive);
+//   };
 
-  return (
-    <>
-      <div
-        className={isActive ? null : "themenmakierung-active"}
-        className="sd"
-      >
-        <h1 className={isActive ? null : "active"}>Hello react</h1>
-      </div>
-      <button onClick={handleToggle}>Toggle class</button>
-    </>
-  );
-}
+//   return (
+//     <>
+//       <div
+//         className={isActive ? null : "themenmakierung-active"}
+//         className="sd"
+//       >
+//         <h1 className={isActive ? null : "active"}>Hello react</h1>
+//       </div>
+//       <button onClick={handleToggle}>Toggle class</button>
+//     </>
+//   );
+// }
 
 // onclick example
-const ExampleComponent = () => {
-  function sayHello(name) {
-    alert(`hello, ${name}`);
-  }
+// const ExampleComponent = () => {
+//   function sayHello(name) {
+//     alert(`hello, ${name}`);
+//   }
 
-  return <button onClick={() => sayHello("James")}>Greet</button>;
-};
+//   return <button onClick={() => sayHello("James")}>Greet</button>;
+// };
