@@ -8,7 +8,6 @@ import React, { useState } from "react";
 import { FiMove } from "react-icons/fi";
 
 export default function Brief_wrapper(props) {
-
   const [width, setWidth] = React.useState(0);
   React.useEffect(() => {
     setWidth(window.innerWidth);
@@ -194,11 +193,16 @@ export default function Brief_wrapper(props) {
             </div>
 
             {/*  */}
-            <motion.div drag="x" className="handlebar" dragConstraints={{ left: -leftpixels, right: 0 }} >
+            <motion.div
+              drag="x"
+              className="handlebar"
+              dragElastic={0.9}
+              dragConstraints={{ left: -leftpixels, right: 0 }}
+              onDrag={(event, info) => console.log(info.point.x, info.point.y)}
+              dragTransition={{ bounceStiffness: 200, bounceDamping: 900 }}
+            >
               <FiMove />
             </motion.div>
-
-            
 
             <div className="navigation">
               <a>
@@ -240,8 +244,6 @@ export default function Brief_wrapper(props) {
     );
   });
 }
-
-
 
 // exsample
 // function Toggleclass() {
