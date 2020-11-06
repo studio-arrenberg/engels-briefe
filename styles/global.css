@@ -566,27 +566,34 @@ img {
   opacity: 1;
 }
 
-.themenmakierung-active {
-  color: #eee;
+.page {
+  transition: all ease-in-out 0.5s;
 }
 
-.themenmakierung-active .religion.active, .themenmakierung-active .liebe-ehe.active , .themenmakierung-active .reisen.active {
-  color: #000;
+.themenmakierung-active .page{
+  background-color: #0a0a0a;
+  color: #0a0a0a;
 }
 
-<<<<<<< Updated upstream
-=======
+.themenmakierung-active .makierung{
+    background: transparent;
+    color: inherit;
+}
+
+
 .religion, .liebe-ehe, .reisen{
   transition: all ease-in-out 0.5s;
 
 }
+
 .religion-active .religion, .liebe-active .liebe, .reisen-active .reisen{
   color: #fff;
   font-size: 130%;
 }
->>>>>>> Stashed changes
 .themenmakierung-active .stellenerläuterungen {
   opacity: 0.1;
+  transition: all ease-in-out 0.5s;
+
 }
 
 p > span .latin {

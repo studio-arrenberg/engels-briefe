@@ -90,42 +90,49 @@ export default function page() {
                     <span className="orig">gereißet</span>
                     <span className="corr">gereiſet</span> wäreﬅ.
                     <a id="teaser.part.002.s">{/*anchor*/}</a>
-                    <a id="mark.002.s">{/*anchor*/}</a>
-                    <span className="orig">ich</span>
-                    <span className="corr">Ich</span>
-                    <br className="lb" />
-                    verlangte auſſerordentlich nach einen Brief von
-                    <br className="lb" />
-                    Dir, weil ich wegen den Unruhen mit den
-                    <br className="lb" />
-                    Franzoſen freÿlich etwas beküm̅ert war, indem
-                    <br className="lb" />
-                    ich’s gehört hatte, daß sie
-                    <span className="placeName">Mainz</span> bombardirten
-                    <a id="teaser.part.002.e">{/*anchor*/}</a>
-                    <br className="lb" />
-                    und ich glaubte, daß Du da drüber reiſen
-                    <br className="lb" />
-                    würdeﬅ<a id="mark.002.e">{/*anchor*/}</a>
+                    <span className="krieg">
+                      <a id="mark.002.s">{/*anchor*/}</a>
+                      <span className="orig">ich</span>
+                      <span className="corr">Ich</span>
+                      <br className="lb" />
+                      verlangte auſſerordentlich nach einen Brief von
+                      <br className="lb" />
+                      Dir, weil ich wegen den Unruhen mit den
+                      <br className="lb" />
+                      Franzoſen freÿlich etwas beküm̅ert war, indem
+                      <br className="lb" />
+                      ich’s gehört hatte, daß sie
+                      <span className="placeName">Mainz</span> bombardirten
+                      <a id="teaser.part.002.e">{/*anchor*/}</a>
+                      <br className="lb" />
+                      und ich glaubte, daß Du da drüber reiſen
+                      <br className="lb" />
+                      würdeﬅ
+                      <a id="mark.002.e">{/*anchor*/}</a>
+                    </span>
                     <a id="mark.001.e">{/*anchor*/}</a> –
                   </span>
-                  <a id="mark.003.s">{/*anchor*/}</a>doch suchte ich mir zu
-                  hüten nicht
-                  <br className="lb" />
-                  in zu ängﬅlicher Sorge zu gerathen, weil
-                  <br className="lb" />
-                  dies kein Wohlverhalten gegen Gott gewesen
-                  <br className="lb" />
-                  wäre, ſondern mich im Vertrauen zu Jhm
-                  <br className="lb" />
-                  zu <span className="orig">ﬅärcken</span>
-                  <span className="corr">ﬅärken</span>, und es von ſeiner großen
-                  <br className="lb" />
-                  Güte zu hoﬀen daß Er mein <span className="orig">Gebät</span>
-                  <span className="corr">Gebet</span> erhören
-                  <br className="lb" />
-                  würde. Er der Liebevolle! ſeÿn dann auch
-                  <br className="lb" />
+                  <span className="religion">
+                    <a id="mark.003.s">{/*anchor*/}</a>doch suchte ich mir zu
+                    hüten nicht
+                    <br className="lb" />
+                    in zu ängﬅlicher Sorge zu gerathen, weil
+                    <br className="lb" />
+                    dies kein Wohlverhalten gegen Gott gewesen
+                    <br className="lb" />
+                    wäre, ſondern mich im Vertrauen zu Jhm
+                    <br className="lb" />
+                    zu <span className="orig">ﬅärcken</span>
+                    <span className="corr">ﬅärken</span>, und es von ſeiner
+                    großen
+                    <br className="lb" />
+                    Güte zu hoﬀen daß Er mein{" "}
+                    <span className="orig">Gebät</span>
+                    <span className="corr">Gebet</span> erhören
+                    <br className="lb" />
+                    würde. Er der Liebevolle! ſeÿn dann auch
+                    <br className="lb" />
+                  </span>
                 </p>
               </div>
               <div
@@ -137,40 +144,43 @@ export default function page() {
                 }}
               >
                 {/* Insert Page 2 */}
-<<<<<<< Updated upstream
-                <p>
-                  hochgelobet, und von ganzem Herzen dafür
-                  <span className="orig">gedanckt</span>
-                  <span className="corr">gedankt</span>!<br className="lb" />
-                  <span className="overwritten">g</span>
-                  <span className="add">⟨daß⟩</span> Er Dich mein Beﬅer!
-                  geleitet, und für die
-                  <br className="lb" />
-                  Gefahr ſo Dir hätte treﬀen können beſchützet hat.
-                  <br className="lb" />
-                  Er ſeÿe Dir dann auch ferner nahe, und{" "}
-                  <span className="orig">laße</span>
-                  <span className="corr">lasse</span> uns
-                  <br className="lb" />
-                  doch die große Freude zu Theil werden, uns
-                  <span className="orig">Geſund</span>
-                  <span className="corr">geſund</span>
-                  <br className="lb" />
-                  wieder zu umarmen, dann wollen wir Jhm
-                  <span className="orig">
-                    gemein
-                    <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
-                    ſchaﬀtlich
-                  </span>
-                  <span className="corr">
-                    gemein
-                    <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
-                    ſchaftlich
-                  </span>
-                  danken, und miteinander Seinen Nahmen
-                  <br className="lb" />
-                  erhöhen!<a id="mark.003.e">{/*anchor*/}</a>
-                </p>
+                <span className="religion">
+                  <p>
+                    hochgelobet, und von ganzem Herzen dafür
+                    <span className="orig">gedanckt</span>
+                    <span className="corr">gedankt</span>!<br className="lb" />
+                    <span className="overwritten">g</span>
+                    <span className="add">⟨daß⟩</span> Er Dich mein Beﬅer!
+                    geleitet, und für die
+                    <br className="lb" />
+                    Gefahr ſo Dir hätte treﬀen können beſchützet hat.
+                    <br className="lb" />
+                    Er ſeÿe Dir dann auch ferner nahe, und{" "}
+                    <span className="orig">laße</span>
+                    <span className="corr">lasse</span> uns
+                    <br className="lb" />
+                    doch die große Freude zu Theil werden, uns
+                    <span className="orig">Geſund</span>
+                    <span className="corr">geſund</span>
+                    <br className="lb" />
+                    wieder zu umarmen, dann wollen wir Jhm
+                    <span className="orig">
+                      gemein
+                      <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
+                      ſchaﬀtlich
+                    </span>
+                    <span className="corr">
+                      gemein
+                      <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
+                      ſchaftlich
+                    </span>
+                    danken, und miteinander Seinen Nahmen
+                    <br className="lb" />
+                    erhöhen!
+                    <a id="mark.003.e">{/*anchor*/}</a>
+                  </p>
+                </span>
+
                 <p>
                   <a id="mark.004.s">{/*anchor*/}</a>Für Deine Sorgfalt, mir
                   ſchon ſo bald Nachricht von
@@ -260,7 +270,6 @@ export default function page() {
                     <a id="mark.004.e">{/*anchor*/}</a>
                   </p>
                 </span>
->>>>>>> Stashed changes
                 <p>
                   Jch hätte Dir ſchon gleich{" "}
                   <span className="orig">Geﬅern</span>

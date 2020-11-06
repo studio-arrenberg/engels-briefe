@@ -86,6 +86,14 @@ setTimeout(
 
 [Draggable + Toggle](https://codesandbox.io/s/framer-motion-bottom-sheet-fixed-m2vls)
 
+## Feedback Uni (Editionswissenschaften)
+
+* Digitalisate sind mit Bleistift beschriftet
+* Digitalisate nicht im gleichen Format vorhanden (scaliert) und nicht immer mit Referenzlineal
+* Audio Datei fangen Unterschiedlich an
+* Inhaltliche Fehler in der XML Datei
+* XML nicht entwicklerfreundlich aufgebaut
+
 ## Developer
 
 hallo@arrenberg.studio
