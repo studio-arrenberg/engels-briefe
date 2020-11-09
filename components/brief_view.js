@@ -2,6 +2,8 @@ import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import constants from "./constants";
+import Image from 'next/image'
+
 
 export default function Brief({ data }) {
 
@@ -9,21 +11,21 @@ export default function Brief({ data }) {
 
   return data.map((data, id) => {
     return (
-      <div className="item" key={`${data.id}`}>
+      <div className="item" key={`briefe-${data.id}`}>
         <Link href={`/brief/${data.id}`} as={`/brief/${data.id}`}>
           <a>
             <motion.div
               div
-              key={`${data.id}`}
+              key={`brief-motion-${data.id}`}
               className="item_preview"
               variants={constants.animation.post}
               layoutId={`${data.id}`}
             >
 
               {data.digitalisate.page.map((item, index) => (
-                <img src={`../../pictures/digitalisate/${item}`} 
-                key={index}
-                />
+                <img src={`../../pictures/digitalisate/${item}`} key={index} />
+                // <Image key={index} src={`/../../pictures/digitalisate/${item}`} width="800" height="1000" alt="Brief"></Image>
+                // console.log(`/../../pictures/digitalisate/${item}`)
               ))}
 
               <div className="item_description">

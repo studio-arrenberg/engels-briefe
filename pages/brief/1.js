@@ -1,15 +1,27 @@
 import data from "../../public/data.json";
 import React, { Children, Component } from "react";
 import Brief_wrapper from "../../components/brief_wrapper";
+import Layout from "../../components/layout";
+import Head from "next/head";
 
 export default function page() {
-  const item = data.briefe.filter((data) => {
+
+  const item = data.briefe.filter((data, index) => {
     return data.id === "1";
   });
 
+  console.log(item);
+  const ners = item.map((data, index) => data.id);
+  const date = item.map((data, index) => data.date);
+  console.log(ners);
+  
   return (
-    <Brief_wrapper data={item}>
+    <Layout>
+    <Head>
+      <title>Brief {date}</title>
+    </Head>
 
+    <Brief_wrapper key={`wrapper-${ners.toString()}`} data={item}>
       <div>
         {/*TEI front*/}
         <div className="toc toc_body ">
@@ -106,5 +118,6 @@ export default function page() {
 
 
     </Brief_wrapper>
+    </Layout>
   );
 }

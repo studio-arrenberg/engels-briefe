@@ -665,3 +665,44 @@ p > span .latin {
   border-radius: 15px;
   z-index: 10000; /* divs overlapping (its just a fix */
 }
+
+/* brief wrapper sections */
+
+.brief-container {
+  width: 100vw;
+  /* position: relative; */
+  /* margin-left: -250px; */
+  /* width: 200vw; */
+  /* overflow: scroll; */
+  /* overflow-y: hidden; */
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr; */
+}
+
+.brief-scroll-container {
+  width: 200vw;
+  display: flex;
+}
+
+.vergleichs-ansicht {
+  /* position: relative;
+  float: left; */
+  /* flex: 1; */
+}
+.detail-ansicht {
+  /* flex: 2; */
+  /* max-width: 1500px; */
+}
+
+.tester {
+  position: relative;
+  top: 200px;
+  left: 600px;
+}
+
+.buttontester {
+  position: fixed;
+  top: 200px;
+  left: 600px;
+  z-index: 100000;
+}

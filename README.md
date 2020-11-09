@@ -58,6 +58,12 @@ setTimeout(
 );
 ```
 
+## Notes
+
+#### Downgraded Framer Motion
+```bash
+npm install framer-motion@2.9.3
+```
 
 ## Briefe
 

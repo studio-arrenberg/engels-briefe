@@ -1,11 +1,13 @@
-import { motion } from "framer-motion";
+import { motion, useAnimation } from "framer-motion";
 import constants from "./constants";
 import Layout from "./layout";
 import Head from "next/head";
 import Audio from "./audio";
 import { themen, familie, orte } from "../public/data.json";
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { FiMove } from "react-icons/fi";
+
+import ReactDOM from "react-dom";
 
 export default function Brief_wrapper(props) {
   const [width, setWidth] = React.useState(0);
@@ -45,8 +47,6 @@ export default function Brief_wrapper(props) {
     });
   });
 
-  // Ort
-
   // Toggle Themenmarkierung
   const [isActive, setActive] = useState("false");
   const [isThema, setThema] = useState("false");
@@ -58,28 +58,77 @@ export default function Brief_wrapper(props) {
     console.log(`hello, ${name}`);
   }
 
+  // Swipe Briefansicht <=> Detailansicht
+  const translate = width * 1.1;
+  const [isOpen, setIsOpen] = useState(false);
+
+  const [buttonText, setButtonText] = useState("left"); //same as creating your state variable where "Next" is the default value for buttonText and setButtonText is the setter function for your state variable instead of setState
+
+  function onClose() {
+    setIsOpen(false);
+  }
+
+  function onOpen() {
+    setIsOpen(true);
+  }
+
+  function onToggle() {
+    setIsOpen(!isOpen);
+
+    if (isOpen) {
+      setButtonText("left");
+      console.log("fire! state:" + isOpen + " txt: " + buttonText);
+    } else {
+      setButtonText("right");
+    }
+  }
+
+  const prevIsOpen = usePrevious(isOpen);
+  const controls = useAnimation();
+
+  function onDragEnd(event, info) {
+    const shouldClose =
+      info.velocity.x > 20 || (info.velocity.x >= 0 && info.point.x > 45);
+    if (shouldClose) {
+      controls.start("hidden");
+      onClose();
+    } else {
+      controls.start("visible");
+      onOpen();
+    }
+  }
+
+  useEffect(() => {
+    if (prevIsOpen && !isOpen) {
+      controls.start("hidden");
+    } else if (!prevIsOpen && isOpen) {
+      controls.start("visible");
+    }
+  }, [controls, isOpen, prevIsOpen]);
+
   return data.map((data, id) => {
     return (
-      <Layout>
-        <Head>
-          <title>Brief</title>
-        </Head>
+      // <Layout>
+      //   <Head>
+      //     <title>Brief</title>
+      //   </Head>
 
-        {/* console.log(data) */}
-        {/* <MyComponent/> */}
-
-        {/* <Handle/> */}
+      <>
+        <Button onClick={onToggle}>{buttonText}</Button>
+        {/* <div className="tester">
+          <BottomSheet onOpen={onOpen} isOpen={isOpen} onClose={onClose} />
+        </div> */}
 
         <motion.div
           className="brief_view"
           initial="initial"
           animate="enter"
           exit="exit"
-          key={data.id}
+          key={`brief-${data.id}`}
           variants={constants.animation.section_exit}
         >
           <motion.div
-            key={`${data.id}`}
+            key={`brief-inner-${data.id}`}
             variants={constants.animation.post}
             layoutId={`${data.id}`}
           >
@@ -87,7 +136,7 @@ export default function Brief_wrapper(props) {
             <div className="meta">
               {/* sender */}
               {sen[0].map((item, index) => (
-                <div className="sender">
+                <div key={`sender-${index}`} className="sender">
                   <div className="meta-beschreibung">
                     <h2>
                       <span className="name">{item.name}</span>
@@ -116,7 +165,7 @@ export default function Brief_wrapper(props) {
               {/* empfänger */}
 
               {emp[0].map((item, index) => (
-                <div className="empfänger">
+                <div key={`reciever-${index}`} className="empfänger">
                   <div className="meta-beschreibung">
                     <h2>
                       <span className="name">{item.name}</span>
@@ -140,79 +189,104 @@ export default function Brief_wrapper(props) {
               ))}
             </div>
 
-            {/* experiments */}
-            {/* <Toggleclass /> */}
-            {/* <ExampleComponent /> */}
-
             {/* brief inhalt */}
-
-            <div className="vergleichs-ansicht ">
-              <div className="digitalisate">
-                {/* load cover */}
-
-                {!!data.digitalisate.cover ? (
-                  <img
-                    className="kuvert_img"
-                    src={`../../pictures/digitalisate/${data.digitalisate.cover}`}
-                  />
-                ) : (
-                  <></>
-                )}
-                {/* load digitalisate */}
-                {pics[0].map((item, index) => (
-                  <img
-                    src={`../../pictures/digitalisate/${item}`}
-                    key={index}
-                  />
-                ))}
-              </div>
-
-              <div className="brieftext">
-                <div>{props.children}</div>
-              </div>
-            </div>
-
-            <div
-              className={`detail-ansicht ${
-                isActive ? null : "themenmakierung-active"
-              } ${isActive ? null : isThema}`}
-            >
-              <div className="normalisiert">{props.children}</div>
-
-              <div className="themen">
-                {them.map((item, index) => (
-                  <a
-                    onClick={() => themenToggle(item[0].slug)}
-                    key={item[0].id}
-                  >
-                    <img src={`../pictures/themen/${item[0].picture}`} />
-                    <label>{item[0].title}</label>
-                  </a>
-                ))}
-              </div>
-            </div>
-
-            {/*  */}
             <motion.div
+              className="brief-container"
               drag="x"
-              className="handlebar"
-              dragElastic={0.9}
-              dragConstraints={{ left: -leftpixels, right: 0 }}
               onDrag={(event, info) => console.log(info.point.x, info.point.y)}
-              dragTransition={{ bounceStiffness: 200, bounceDamping: 900 }}
+              onDragEnd={onDragEnd}
+              className="box"
+              initial="hidden"
+              animate={controls}
+              transition={{
+                type: "spring",
+                damping: 40,
+                stiffness: 700,
+              }}
+              variants={{
+                visible: { x: 0 },
+                hidden: { x: -translate },
+              }}
+              dragConstraints={{ top: 0 }}
+              dragElastic={0.2}
+              style={{
+                display: "inline-block",
+                backgroundColor: "green",
+                marginLeft: 20,
+                width: 200,
+                height: 100,
+              }}
             >
-              <FiMove />
+              <div className="brief-scroll-container">
+                <div className="vergleichs-ansicht ">
+                  <div className="digitalisate">
+                    {/* load cover */}
+
+                    {!!data.digitalisate.cover ? (
+                      <img
+                        className="kuvert_img"
+                        src={`../../pictures/digitalisate/${data.digitalisate.cover}`}
+                      />
+                    ) : (
+                      <></>
+                    )}
+                    {/* load digitalisate */}
+                    {pics[0].map((item, index) => (
+                      <img
+                        src={`../../pictures/digitalisate/${item}`}
+                        key={index}
+                      />
+                    ))}
+                  </div>
+
+                  <div className="brieftext">
+                    <div>{props.children}</div>
+                  </div>
+                </div>
+
+                <div
+                  className={`detail-ansicht ${
+                    isActive ? null : "themenmakierung-active"
+                  } ${isActive ? null : isThema}`}
+                >
+                  <div className="normalisiert">{props.children}</div>
+
+                  <div className="themen">
+                    {them.map((item, index) => (
+                      <a
+                        onClick={() => themenToggle(item[0].slug)}
+                        key={item[0].id}
+                      >
+                        <img src={`../pictures/themen/${item[0].picture}`} />
+                        <label>{item[0].title}</label>
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              </div>
             </motion.div>
 
-            <div className="navigation">
-              <a>
-                <h3>Vergleichsansicht</h3>
-              </a>
+            {/* <motion.div
+            drag="x"
+            className="handlebar"
+            dragElastic={0.9}
+            dragConstraints={{ left: -leftpixels, right: 0 }}
+            // onDrag={(event, info) => console.log(info.point.x, info.point.y)}
+            onDragEnd={(event, info) => console.log(info.point.x, info.point.y)}
+            dragTransition={{ bounceStiffness: 200, bounceDamping: 900 }}
+          >
+            <FiMove />
+          </motion.div> */}
 
-              <a>
-                <h3>Detailansicht</h3>
-              </a>
-            </div>
+            {/* <div className="navigation">
+            <a>
+              <h3>Vergleichsansicht</h3>
+            </a>
+
+            <a>
+              <h3>Detailansicht</h3>
+            </a>
+          </div> */}
 
             <div className="player">
               <Audio file={data.audio}></Audio>
@@ -222,16 +296,36 @@ export default function Brief_wrapper(props) {
 
             <div className="orte">
               <div className="sender">
-                <h1>{data.sender.ort}</h1>
+                <h1>
+                  {orte
+                    .filter((item) => {
+                      return item.id === data.sender.ort;
+                    })
+                    .map((data) => data.title)}
+                </h1>
                 <img
-                  src={`../../pictures/orte/${data.sender.ort}.jpg`}
+                  src={`../../pictures/orte/${orte
+                    .filter((item) => {
+                      return item.id === data.sender.ort;
+                    })
+                    .map((data) => data.title)}.jpg`}
                   key={data.sender.id}
                 />
               </div>
               <div className="empfänger">
-                <h1>{data.empfänger.ort}</h1>
+                <h1>
+                  {orte
+                    .filter((item) => {
+                      return item.id === data.empfänger.ort;
+                    })
+                    .map((data) => data.title)}
+                </h1>
                 <img
-                  src={`../../pictures/orte/${data.empfänger.ort}.jpg`}
+                  src={`../../pictures/orte/${orte
+                    .filter((item) => {
+                      return item.id === data.empfänger.ort;
+                    })
+                    .map((data) => data.title)}.jpg`}
                   key={data.empfänger.id}
                 />
               </div>
@@ -240,39 +334,96 @@ export default function Brief_wrapper(props) {
             {/* weitere briefe / themen */}
           </motion.div>
         </motion.div>
-      </Layout>
+      </>
     );
   });
 }
 
-// exsample
-// function Toggleclass() {
-//   // toggle experiment
-//   const [isActive, setActive] = useState("false");
-//   // const [isActive, setActive] = useState("false");
+// function BottomSheet({ isOpen, onClose, onOpen }, props, onToggle) {
+//   const prevIsOpen = usePrevious(isOpen);
+//   const controls = useAnimation();
 
-//   const handleToggle = () => {
-//     setActive(!isActive);
-//   };
+//   function onDragEnd(event, info) {
+//     const shouldClose =
+//       info.velocity.x > 20 || (info.velocity.x >= 0 && info.point.x > 45);
+//     if (shouldClose) {
+//       controls.start("hidden");
+//       onClose();
+//     } else {
+//       controls.start("visible");
+//       onOpen();
+//     }
+//   }
+
+//   const [width, setWidth] = React.useState(0);
+//   React.useEffect(() => {
+//     setWidth(window.innerWidth);
+//   });
+
+//   const leftpixel = width * 0.8;
+
+//   useEffect(() => {
+//     if (prevIsOpen && !isOpen) {
+//       controls.start("hidden");
+//     } else if (!prevIsOpen && isOpen) {
+//       controls.start("visible");
+//     }
+//   }, [controls, isOpen, prevIsOpen]);
 
 //   return (
-//     <>
-//       <div
-//         className={isActive ? null : "themenmakierung-active"}
-//         className="sd"
-//       >
-//         <h1 className={isActive ? null : "active"}>Hello react</h1>
+//     <motion.div
+//       drag="x"
+//       onDrag={(event, info) => console.log(info.point.x, info.point.y)}
+//       onDragEnd={onDragEnd}
+//       className="box"
+//       initial="hidden"
+//       animate={controls}
+//       transition={{
+//         type: "spring",
+//         damping: 40,
+//         stiffness: 700,
+//       }}
+//       variants={{
+//         visible: { x: 0 },
+//         hidden: { x: "-200px" },
+//       }}
+//       dragConstraints={{ top: 0 }}
+//       dragElastic={0.2}
+//       style={{
+//         display: "inline-block",
+//         backgroundColor: "green",
+//         marginLeft: 20,
+//         width: 200,
+//         height: 100,
+//       }}
+//     >
+//       <div className="inner">
+//         <p>
+//           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+//           nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+//           sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+//           rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+//           ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+//           sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+//           dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+//           et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+//           takimata sanctus est Lorem ipsum dolor sit amet.
+//         </p>
 //       </div>
-//       <button onClick={handleToggle}>Toggle class</button>
-//     </>
+//     </motion.div>
 //   );
 // }
 
-// onclick example
-// const ExampleComponent = () => {
-//   function sayHello(name) {
-//     alert(`hello, ${name}`);
-//   }
+function usePrevious(value) {
+  const previousValueRef = useRef();
 
-//   return <button onClick={() => sayHello("James")}>Greet</button>;
-// };
+  useEffect(() => {
+    previousValueRef.current = value;
+  }, [value]);
+
+  return previousValueRef.current;
+}
+
+function Button(props) {
+  return <button className="buttontester" {...props} />;
+}
