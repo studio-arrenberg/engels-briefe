@@ -350,6 +350,7 @@ export default function page() {
                   <a id="annot.007.e">{/*anchor*/}</a>, der alles näher beﬅim̅en
                   wird.
                 </p>
+                <span className="religion">
                 <p className="enc.tagsdecl.indent-small">
                   <a id="mark.003.s">{/*anchor*/}</a>
                   <span className="orig">fahre</span>
@@ -378,6 +379,7 @@ export default function page() {
                   <span className="orig">den</span>
                   <span className="corr">denn</span>
                 </p>
+                </span>
               </div>
               <div
                 className="page"
@@ -388,9 +390,10 @@ export default function page() {
                 }}
               >
                 {/* Insert Page 2 */}
+                <span className="religion">
                 <p>
                   <span className="pagebreak" id="index.xml-pb-d29e735">
-                    <a href>[Page 2]</a>
+                    {/* <a href>[Page 2]</a> */}
                   </span>
                   er, unſer König Jesus Christus iﬅ unerſchöpflich Reich, und ſo
                   <span className="g.rend.script.latin">Genereus</span>, daß ihm
@@ -421,6 +424,7 @@ export default function page() {
                   24<a id="annot.008.e">{/*anchor*/}</a>
                   <a id="mark.003.e">{/*anchor*/}</a>
                 </p>
+                </span>
                 <p className="enc.tagsdecl.indent-small">
                   <a id="mark.004.s">{/*anchor*/}</a>
                   <a id="mark.005.s">{/*anchor*/}</a>Du haﬅ ganz recht
@@ -730,7 +734,7 @@ export default function page() {
                 {/* Insert Page 3 */}
                 <p>
                   <span className="pagebreak" id="index.xml-pb-d29e1301">
-                    <a href>[Page 3]</a>
+                    {/* <a href>[Page 3]</a> */}
                   </span>
                   Termin <span className="orig">geheÿrathet</span>
                   <span className="corr">geheirathet</span> war, und
@@ -803,6 +807,7 @@ export default function page() {
                 <span style={{ display: "inline-block" }} width="1lines">
                   &nbsp;
                 </span>
+                <span className="religion">
                 <p>
                   <span className="abbr">N. S.</span> <br className="lb" />
                   <a id="mark.006.s">{/*anchor*/}</a>
@@ -930,6 +935,7 @@ export default function page() {
                   </span>
                   auf der Poﬅ?<a id="mark.006.e">{/*anchor*/}</a>
                 </p>
+                </span>
                 <p>
                   <a id="mark.007.s">{/*anchor*/}</a>
                   <span className="orig">und</span>
