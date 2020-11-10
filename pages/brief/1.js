@@ -21,7 +21,7 @@ export default function page() {
       <title>Brief {date}</title>
     </Head>
 
-    <Brief_wrapper key={`wrapper-${ners.toString()}`} data={item}>
+    <Brief_wrapper key={`wrapper-${ners}`} data={item}>
       <div>
         {/*TEI front*/}
         <div className="toc toc_body ">

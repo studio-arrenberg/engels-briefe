@@ -706,3 +706,33 @@ p > span .latin {
   left: 600px;
   z-index: 100000;
 }
+
+.wrapper, .inner {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  color: aquamarine;
+  opacity: 0.8;
+}
+
+.high {
+  z-index: 1000000;
+  position: relative;
+  left: 400px;
+  float: left;
+}
+
+.passiv {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background-color: aquamarine;
+}
+
+.linktest {
+  position: relative;
+  top: 10px;
+  left: 200px;
+}
+
+/* swipetest.js  */

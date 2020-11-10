@@ -5,9 +5,8 @@ import Head from "next/head";
 import Audio from "./audio";
 import { themen, familie, orte } from "../public/data.json";
 import React, { useState, useEffect, useRef } from "react";
-import { FiMove } from "react-icons/fi";
-
-import ReactDOM from "react-dom";
+// import { FiMove } from "react-icons/fi";
+// import ReactDOM from "react-dom";
 
 export default function Brief_wrapper(props) {
   const [width, setWidth] = React.useState(0);
@@ -58,54 +57,6 @@ export default function Brief_wrapper(props) {
     console.log(`hello, ${name}`);
   }
 
-  // Swipe Briefansicht <=> Detailansicht
-  const translate = width * 1.1;
-  const [isOpen, setIsOpen] = useState(false);
-
-  const [buttonText, setButtonText] = useState("left"); //same as creating your state variable where "Next" is the default value for buttonText and setButtonText is the setter function for your state variable instead of setState
-
-  function onClose() {
-    setIsOpen(false);
-  }
-
-  function onOpen() {
-    setIsOpen(true);
-  }
-
-  function onToggle() {
-    setIsOpen(!isOpen);
-
-    if (isOpen) {
-      setButtonText("left");
-      console.log("fire! state:" + isOpen + " txt: " + buttonText);
-    } else {
-      setButtonText("right");
-    }
-  }
-
-  const prevIsOpen = usePrevious(isOpen);
-  const controls = useAnimation();
-
-  function onDragEnd(event, info) {
-    const shouldClose =
-      info.velocity.x > 20 || (info.velocity.x >= 0 && info.point.x > 45);
-    if (shouldClose) {
-      controls.start("hidden");
-      onClose();
-    } else {
-      controls.start("visible");
-      onOpen();
-    }
-  }
-
-  useEffect(() => {
-    if (prevIsOpen && !isOpen) {
-      controls.start("hidden");
-    } else if (!prevIsOpen && isOpen) {
-      controls.start("visible");
-    }
-  }, [controls, isOpen, prevIsOpen]);
-
   return data.map((data, id) => {
     return (
       // <Layout>
@@ -114,10 +65,6 @@ export default function Brief_wrapper(props) {
       //   </Head>
 
       <>
-        <Button onClick={onToggle}>{buttonText}</Button>
-        {/* <div className="tester">
-          <BottomSheet onOpen={onOpen} isOpen={isOpen} onClose={onClose} />
-        </div> */}
 
         <motion.div
           className="brief_view"
@@ -190,33 +137,7 @@ export default function Brief_wrapper(props) {
             </div>
 
             {/* brief inhalt */}
-            <motion.div
-              className="brief-container"
-              drag="x"
-              onDrag={(event, info) => console.log(info.point.x, info.point.y)}
-              onDragEnd={onDragEnd}
-              className="box"
-              initial="hidden"
-              animate={controls}
-              transition={{
-                type: "spring",
-                damping: 40,
-                stiffness: 700,
-              }}
-              variants={{
-                visible: { x: 0 },
-                hidden: { x: -translate },
-              }}
-              dragConstraints={{ top: 0 }}
-              dragElastic={0.2}
-              style={{
-                display: "inline-block",
-                backgroundColor: "green",
-                marginLeft: 20,
-                width: 200,
-                height: 100,
-              }}
-            >
+            
               <div className="brief-scroll-container">
                 <div className="vergleichs-ansicht ">
                   <div className="digitalisate">
@@ -264,19 +185,7 @@ export default function Brief_wrapper(props) {
                   </div>
                 </div>
               </div>
-            </motion.div>
 
-            {/* <motion.div
-            drag="x"
-            className="handlebar"
-            dragElastic={0.9}
-            dragConstraints={{ left: -leftpixels, right: 0 }}
-            // onDrag={(event, info) => console.log(info.point.x, info.point.y)}
-            onDragEnd={(event, info) => console.log(info.point.x, info.point.y)}
-            dragTransition={{ bounceStiffness: 200, bounceDamping: 900 }}
-          >
-            <FiMove />
-          </motion.div> */}
 
             {/* <div className="navigation">
             <a>
@@ -331,13 +240,22 @@ export default function Brief_wrapper(props) {
               </div>
             </div>
 
-            {/* weitere briefe / themen */}
           </motion.div>
         </motion.div>
       </>
     );
   });
 }
+
+
+
+
+
+
+
+
+
+
 
 // function BottomSheet({ isOpen, onClose, onOpen }, props, onToggle) {
 //   const prevIsOpen = usePrevious(isOpen);
@@ -414,16 +332,3 @@ export default function Brief_wrapper(props) {
 //   );
 // }
 
-function usePrevious(value) {
-  const previousValueRef = useRef();
-
-  useEffect(() => {
-    previousValueRef.current = value;
-  }, [value]);
-
-  return previousValueRef.current;
-}
-
-function Button(props) {
-  return <button className="buttontester" {...props} />;
-}

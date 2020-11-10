@@ -22,20 +22,24 @@ export default function Brief({ data }) {
               layoutId={`${data.id}`}
             >
 
+              {/* bild */}
               {data.digitalisate.page.map((item, index) => (
                 <img src={`../../pictures/digitalisate/${item}`} key={index} />
-                // <Image key={index} src={`/../../pictures/digitalisate/${item}`} width="800" height="1000" alt="Brief"></Image>
-                // console.log(`/../../pictures/digitalisate/${item}`)
               ))}
 
               <div className="item_description">
+                
                 <h4>{data.datum}</h4>
                 <h2>
                   <span className="sender_name">{data.sender.name}</span> an{" "}
                   <br></br> <span className="empfänger_name"></span>
                   {data.empfänger.name}
                 </h2>
-                <p>Liebe/ Ehe, Thema</p>
+                {/* themen */}
+                {data.themen.name.map((item, index) =>(
+                  <p>{item}</p>
+                ))}
+
               </div>
             </motion.div>
           </a>

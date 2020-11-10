@@ -5,7 +5,6 @@ Repo für das [Interface der Engels Ausstellung](https://engels.arrenberg.studio
 ## Wichtig 🔥
 
 - Wolf Vorschlag visualisieren (Briefe und Personen zusammenführen)
-- IDs für Orte (oder Bilder nach den Orte bennnen bei Familie in der data.json)
 - Einlesungen fangen unterschiedlich an => Herr Lukas Fragen
 
 ## Table of Contents
@@ -41,8 +40,8 @@ npm run start_windows
 
 ## Libraries
 
-[React Icons](https://www.npmjs.com/package/react-icons)
-[React Icons (Feather)](https://feathericons.com/?query=back)
+[React Icons](https://www.npmjs.com/package/react-icons)<br>
+[React Icons (Feather)](https://feathericons.com/?query=back)<br>
 [Wavesurfer](https://wavesurfer-js.org/doc/class/src/wavesurfer.js~WaveSurfer.html#instance-method-playPause)
 
 ## React Snippets
@@ -64,6 +63,8 @@ setTimeout(
 ```bash
 npm install framer-motion@2.9.3
 ```
+
+
 
 ## Briefe
 
@@ -90,8 +91,9 @@ npm install framer-motion@2.9.3
 
 ## Motion Framer Examples 
 
-[Draggable + Toggle](https://codesandbox.io/s/framer-motion-bottom-sheet-fixed-m2vls)
-
+[Draggable + Toggle](https://codesandbox.io/s/framer-motion-bottom-sheet-fixed-m2vls)<br>
+[Made](https://p1qjw.csb.app/)<br>
+[scroll applictaion](https://stackoverflow.com/questions/63172498/combine-dragging-and-animating-drag-position-on-click-animate-x-set)
 ## Feedback Uni (Editionswissenschaften)
 
 * Digitalisate sind mit Bleistift beschriftet
