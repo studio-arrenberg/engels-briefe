@@ -15,7 +15,6 @@ import Brief_view from "../components/brief_view";
 import React, { useState, useEffect, useRef, Component } from "react";
 
 
-
 export default function Page() {
 
 
@@ -33,6 +32,7 @@ export default function Page() {
         <title>Briefe</title>
       </Head>
       <motion.div
+        key="briefe-slider"
         className="scrollable"
         initial="initial"
         animate="enter"

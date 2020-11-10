@@ -13,7 +13,7 @@
     "activity-detector": "^3.0.0",
     "charter-webfont": "^3.0.2",
     "date-fns": "^2.16.1",
-    "framer-motion": "^1.11.1",
+    "framer-motion": "^2.9.3",
     "fs": "0.0.1-security",
     "gray-matter": "^4.0.2",
     "next": "^10.0.1",
