@@ -10,24 +10,14 @@
     "export": "next export"
   },
   "dependencies": {
-    "activity-detector": "^3.0.0",
-    "charter-webfont": "^3.0.2",
-    "date-fns": "^2.16.1",
+    "@ampproject/toolbox-optimizer": "^2.7.0-alpha.4",
     "framer-motion": "^2.9.3",
-    "fs": "0.0.1-security",
-    "gray-matter": "^4.0.2",
     "next": "^10.0.1",
-    "path": "^0.12.7",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-icons": "^3.11.0",
-    "react-idle-timer": "^4.3.7",
-    "react-native-user-inactivity": "^1.1.0",
     "react-timeout": "^2.0.0",
     "react-window-size": "^1.2.2",
-    "remark": "^12.0.1",
-    "remark-html": "^11.0.2",
-    "user-idle-tracker": "^1.0.2",
     "wavesurfer.js": "^2.0.0-beta01"
   },
   "devDependencies": {
