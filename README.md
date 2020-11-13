@@ -65,7 +65,6 @@ npm install framer-motion@2.9.3
 ```
 
 
-
 ## Briefe
 
 | Nummer _ID_ | Author                       | Datum         | Ort        | Vorhanden          | Exportiert | Fertig | Audio              | Kommentar                                     |
@@ -93,7 +92,9 @@ npm install framer-motion@2.9.3
 
 [Draggable + Toggle](https://codesandbox.io/s/framer-motion-bottom-sheet-fixed-m2vls)<br>
 [Made](https://p1qjw.csb.app/)<br>
-[scroll applictaion](https://stackoverflow.com/questions/63172498/combine-dragging-and-animating-drag-position-on-click-animate-x-set)
+[scroll applictaion](https://stackoverflow.com/questions/63172498/combine-dragging-and-animating-drag-position-on-click-animate-x-set)<br>
+[Sharedlayout w/ nextjs](https://github.com/mikkmartin/nextjs-page-transitions-tutorial) [video](https://www.youtube.com/watch?v=3E9wInQeH7U)
+
 ## Feedback Uni (Editionswissenschaften)
 
 * Digitalisate sind mit Bleistift beschriftet
