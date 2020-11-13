@@ -1,4 +1,11 @@
-import { motion, useAnimation } from "framer-motion";
+import {
+  motion,
+  useAnimation,
+  useMotionValue,
+  useDragControls,
+  transform,
+  useTransform,
+} from "framer-motion";
 import constants from "./constants";
 import Layout from "./layout";
 import Head from "next/head";
@@ -57,205 +64,237 @@ export default function Brief_wrapper(props) {
     console.log(`hello, ${name}`);
   }
 
+  // Vertical Slider
+
+  const x = useMotionValue(0);
+
+  const x_fast = useTransform(x, (latestX) => latestX * 1.2);
+  const x_slow = useTransform(x, (latestX) => latestX * 0.8);
+
+  const [handlex, setHandelx] = useState(0);
+
+  const input = [500, 1500];
+  const output = [600, 1500];
+  const x_dif = useTransform(x, input, output);
+
+  const input_w = [-400, 0, 400];
+  const output_w = [10, 100, 10];
+  // const opacity = useTransform(x, input, output)
+  const width_handle = useTransform(x, input_w, output_w);
+
+  const wid = useTransform(x, [-200, 0, 200], [10, 100, 10]);
+
   return data.map((data, id) => {
     return (
-      // <Layout>
-      //   <Head>
-      //     <title>Brief</title>
-      //   </Head>
+      <motion.div
+        className="brief_view"
+        initial="initial"
+        animate="enter"
+        exit="exit"
+        key={`brief-${data.id}`}
+        variants={constants.animation.section_exit}
+      >
+        <motion.div
+          key={`brief-inner-${data.id}`}
+          variants={constants.animation.post}
+          layoutId={`${data.id}`}
+        >
+          {/* META */}
+          <div className="meta">
+            {/* sender */}
+            {sen[0].map((item, index) => (
+              <div key={`sender-${index}`} className="sender">
+                <div className="meta-beschreibung">
+                  <h2>
+                    <span className="name">{item.name}</span>
+                    <br></br>
+                    <span className="name">{item.lebzeit}</span>
+                  </h2>
+                  {/* get the ort */}
+                  <h3>
+                    {orte
+                      .filter((item) => {
+                        return item.id === data.sender.ort;
+                      })
+                      .map((data) => data.title)}
+                  </h3>
+                </div>
 
-      <>
+                <img
+                  className="portrait"
+                  src={`../pictures/personen/thumbnails/${item.picture}`}
+                />
+              </div>
+            ))}
+
+            <img className="arrow_send" src={`../icons/back.svg`} />
+
+            {/* empfänger */}
+
+            {emp[0].map((item, index) => (
+              <div key={`reciever-${index}`} className="empfänger">
+                <img
+                  className="portrait"
+                  src={`../pictures/personen/thumbnails/${item.picture}`}
+                />
+                <div className="meta-beschreibung">
+                  <h2>
+                    <span className="name">{item.name}</span>
+                    <br></br>
+                    <span className="name">{item.lebzeit}</span>
+                  </h2>
+                  {/* get the ort */}
+                  <h3>
+                    {orte
+                      .filter((item) => {
+                        return item.id === data.empfänger.ort;
+                      })
+                      .map((data) => data.title)}
+                  </h3>
+                </div>
+                
+              </div>
+            ))}
+          </div>
+
+          {/* brief inhalt */}
+        </motion.div>
 
         <motion.div
-          className="brief_view"
+          className="swipewrapper"
+          key="swipewrapper"
           initial="initial"
           animate="enter"
           exit="exit"
-          key={`brief-${data.id}`}
           variants={constants.animation.section_exit}
         >
-          <motion.div
-            key={`brief-inner-${data.id}`}
-            variants={constants.animation.post}
-            layoutId={`${data.id}`}
-          >
-            {/* META */}
-            <div className="meta">
-              {/* sender */}
-              {sen[0].map((item, index) => (
-                <div key={`sender-${index}`} className="sender">
-                  <div className="meta-beschreibung">
-                    <h2>
-                      <span className="name">{item.name}</span>
-                      <br></br>
-                      <span className="name">{item.lebzeit}</span>
-                    </h2>
-                    {/* get the ort */}
-                    <h3>
-                      {orte
-                        .filter((item) => {
-                          return item.id === data.sender.ort;
-                        })
-                        .map((data) => data.title)}
-                    </h3>
-                  </div>
+          <motion.div className="vergleichs-ansicht vergleich">
+            <motion.div
+              key="digitalisat1"
+              className="vergleich-l digitalisate"
+              style={{
+                margin: 10,
+                x: x_slow,
+              }}
+            >
+              {/* load cover */}
 
-                  <img
-                    className="portrait"
-                    src={`../pictures/personen/thumbnails/${item.picture}`}
-                  />
-                </div>
-              ))}
-
-              <img className="arrow_send" src={`../icons/back.svg`} />
-
-              {/* empfänger */}
-
-              {emp[0].map((item, index) => (
-                <div key={`reciever-${index}`} className="empfänger">
-                  <div className="meta-beschreibung">
-                    <h2>
-                      <span className="name">{item.name}</span>
-                      <br></br>
-                      <span className="name">{item.lebzeit}</span>
-                    </h2>
-                    {/* get the ort */}
-                    <h3>
-                      {orte
-                        .filter((item) => {
-                          return item.id === data.empfänger.ort;
-                        })
-                        .map((data) => data.title)}
-                    </h3>
-                  </div>
-                  <img
-                    className="portrait"
-                    src={`../pictures/personen/thumbnails/${item.picture}`}
-                  />
-                </div>
-              ))}
-            </div>
-
-            {/* brief inhalt */}
-            
-              <div className="brief-scroll-container">
-                <div className="vergleichs-ansicht ">
-                  <div className="digitalisate">
-                    {/* load cover */}
-
-                    {!!data.digitalisate.cover ? (
-                      <img
-                        className="kuvert_img"
-                        src={`../../pictures/digitalisate/${data.digitalisate.cover}`}
-                      />
-                    ) : (
-                      <></>
-                    )}
-                    {/* load digitalisate */}
-                    {pics[0].map((item, index) => (
-                      <img
-                        src={`../../pictures/digitalisate/${item}`}
-                        key={index}
-                      />
-                    ))}
-                  </div>
-
-                  <div className="brieftext">
-                    <div>{props.children}</div>
-                  </div>
-                </div>
-
-                <div
-                  className={`detail-ansicht ${
-                    isActive ? null : "themenmakierung-active"
-                  } ${isActive ? null : isThema}`}
-                >
-                  <div className="normalisiert">{props.children}</div>
-
-                  <div className="themen">
-                    {them.map((item, index) => (
-                      <a
-                        onClick={() => themenToggle(item[0].slug)}
-                        key={item[0].id}
-                      >
-                        <img src={`../pictures/themen/${item[0].picture}`} />
-                        <label>{item[0].title}</label>
-                      </a>
-                    ))}
-                  </div>
-                </div>
-              </div>
-
-
-            {/* <div className="navigation">
-            <a>
-              <h3>Vergleichsansicht</h3>
-            </a>
-
-            <a>
-              <h3>Detailansicht</h3>
-            </a>
-          </div> */}
-
-            <div className="player">
-              <Audio file={data.audio}></Audio>
-            </div>
-
-            {/* orte */}
-
-            <div className="orte">
-              <div className="sender">
-                <h1>
-                  {orte
-                    .filter((item) => {
-                      return item.id === data.sender.ort;
-                    })
-                    .map((data) => data.title)}
-                </h1>
+              {!!data.digitalisate.cover ? (
                 <img
-                  src={`../../pictures/orte/${orte
-                    .filter((item) => {
-                      return item.id === data.sender.ort;
-                    })
-                    .map((data) => data.title)}.jpg`}
-                  key={data.sender.id}
+                  className="kuvert_img"
+                  src={`../../pictures/digitalisate/${data.digitalisate.cover}`}
                 />
+              ) : (
+                <></>
+              )}
+              {/* load digitalisate */}
+              {pics[0].map((item, index) => (
+                <img src={`../../pictures/digitalisate/${item}`} key={index} />
+              ))}
+            </motion.div>
+            <motion.div
+              key="digitalisat2"
+              className="vergleich-r"
+              style={{
+                margin: 10,
+                x: x_fast,
+              }}
+            >
+              <div className="brieftext">
+                <div>{props.children}</div>
               </div>
-              <div className="empfänger">
-                <h1>
-                  {orte
-                    .filter((item) => {
-                      return item.id === data.empfänger.ort;
-                    })
-                    .map((data) => data.title)}
-                </h1>
-                <img
-                  src={`../../pictures/orte/${orte
-                    .filter((item) => {
-                      return item.id === data.empfänger.ort;
-                    })
-                    .map((data) => data.title)}.jpg`}
-                  key={data.empfänger.id}
-                />
-              </div>
-            </div>
-
+            </motion.div>
           </motion.div>
+
+          <motion.div
+            drag="x"
+            className="handlebar"
+            style={{
+              // width: wid,
+              // opacity: opacity,
+              x,
+            }}
+            dragConstraints={{ left: -3160, right: 0 }}
+            // 3160 besser wäre 100% - 200px
+            // onDrag={(event, info) => console.log("raw: " + info.point.x + " trans: " + transform(info.point.x, inputRange, outputRange))}
+          ></motion.div>
+
+          <motion.div
+            className="detail"
+            style={{
+              x: x,
+            }}
+          >
+            <div
+              className={`detail-ansicht ${
+                isActive ? null : "themenmakierung-active"
+              } ${isActive ? null : isThema}`}
+            >
+              <div className="normalisiert">{props.children}</div>
+            </div>
+          </motion.div>
+
+          <motion.div className="themen" style={{
+              x: x,
+            }}>
+                {them.map((item, index) => (
+                  <a
+                    onClick={() => themenToggle(item[0].slug)}
+                    key={item[0].id}
+                  >
+                    <img src={`../pictures/themen/${item[0].picture}`} />
+                    <label>{item[0].title}</label>
+                  </a>
+                ))}
+              </motion.div>
         </motion.div>
-      </>
+
+        <div className="player">
+          <Audio file={data.audio}></Audio>
+        </div>
+
+        {/* orte */}
+
+        <div className="orte">
+          <div className="sender">
+            <h1>
+              {orte
+                .filter((item) => {
+                  return item.id === data.sender.ort;
+                })
+                .map((data) => data.title)}
+            </h1>
+            <img
+              src={`../../pictures/orte/${orte
+                .filter((item) => {
+                  return item.id === data.sender.ort;
+                })
+                .map((data) => data.title)}.jpg`}
+              key={data.sender.id}
+            />
+          </div>
+          <div className="empfänger">
+            <h1>
+              {orte
+                .filter((item) => {
+                  return item.id === data.empfänger.ort;
+                })
+                .map((data) => data.title)}
+            </h1>
+            <img
+              src={`../../pictures/orte/${orte
+                .filter((item) => {
+                  return item.id === data.empfänger.ort;
+                })
+                .map((data) => data.title)}.jpg`}
+              key={data.empfänger.id}
+            />
+          </div>
+        </div>
+      </motion.div>
     );
   });
 }
-
-
-
-
-
-
-
-
-
-
 
 // function BottomSheet({ isOpen, onClose, onOpen }, props, onToggle) {
 //   const prevIsOpen = usePrevious(isOpen);
@@ -331,4 +370,3 @@ export default function Brief_wrapper(props) {
 //     </motion.div>
 //   );
 // }
-

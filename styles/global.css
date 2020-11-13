@@ -194,6 +194,7 @@ main {
   width: 100%;
   height: auto;
   padding: 0px 100px;
+  overflow: hidden;
 }
 
 .gardient {
@@ -215,6 +216,8 @@ main {
 
 .scrollable {
   width: auto;
+  height: auto;
+  position: relative;
   display: flex;
 }
 
@@ -232,7 +235,7 @@ main {
   position: relative;
   margin: 150px 50px;
   width: 800px;
-  height: 300-px;
+  height: 300px;
 }
 
 .item_preview img:first-of-type {
@@ -348,16 +351,16 @@ img {
 /* BRIEF VIEW */
 
 .brief_view {
-  max-width: 1500px;
-  margin: 0 auto;
+  width: 100vw;
+  margin: 0 -100px;
   height: auto;
 }
 
 .meta {
   display: flex;
-  padding: 250px 50px;
+  padding: 250px 400px;
   width: 100%;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .meta-beschreibung{
@@ -373,9 +376,12 @@ img {
   margin: 20px;
 }
 
-
 .sender {
   text-align: right;
+}
+
+.empfänger .portrait{
+  float: left;
 }
 
 .arrow_send {
@@ -386,18 +392,17 @@ img {
 }
 
 .digitalisate {
-  width: 50%;  
-  padding: 20px;
+  width: 800px;  
 
 }
 
 .digitalisate img{
   margin-bottom: 20px;
+  width: 100%;
 }
 
 .brieftext {
-  width: 50%;
-  padding: 20px;
+  width: 800px;
 }
 
 .kuvert_img {
@@ -413,7 +418,6 @@ img {
 .kuvert small {
   font-size: 1.4rem;
 }
-
 
 .vergleichs-ansicht, .detail-ansicht {
   color: #000;
@@ -442,11 +446,8 @@ img {
   top: 15px;
   left: -75px;
 }
-.vergleichs-ansicht {
-  height: 100%;
-  display: flex;
-  position: relative;
-}
+
+
 
 .vergleichs-ansicht {
   font-family: "Charter";
@@ -464,13 +465,11 @@ img {
 
 .detail-ansicht {
   width: 100%;  
-  
-  margin-top: 200px;
-  margin-bottom: 200px;
+  margin: 0 auto;
 }
 
 .normalisiert {
-  width: 50%;
+  width: 800px;
   position: relative;
   margin: 0 auto;
 }
@@ -533,9 +532,10 @@ img {
 
 .themen {
   position: fixed;
-  right: -100px;
+  right: calc( -100% + 100px);
+  transform: ;
   top: 200px;
-  z-index: 200;
+  z-index: 2000;
 }
 
 .themen img {
@@ -651,21 +651,7 @@ p > span .latin {
   left: calc(50% - 150px / 2);
 }
 
-/* Brief handle bar */
-.handlebar {
-  position: fixed;
-  top: 5%;
-  left: calc(90% - 15px);
-  width: 60px;
-  height: 90%;
-  background-color: rgba(255, 255, 255, 0.1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 15px;
-  z-index: 10000; /* divs overlapping (its just a fix */
-}
-
+/*
 /* brief wrapper sections */
 
 .brief-container {
@@ -715,22 +701,86 @@ p > span .latin {
   opacity: 0.8;
 }
 
+
+/* 
 .high {
   z-index: 1000000;
   position: relative;
   left: 400px;
   float: left;
-}
-
+} */
+/* 
 .passiv {
   width: 200px;
   height: 200px;
   margin: 10px;
   background-color: aquamarine;
-}
+} */
 
-.linktest {
+/* .linktest {
   position: relative;
   top: 10px;
   left: 200px;
+}
+ */
+
+
+.swipewrapper{
+  width: 100vw;
+  height: 4000px;
+  display: block;
+  position: relative;
+}
+
+
+.vergleich{
+  position: absolute;
+  left: 0px;
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.vergleich-l{
+  z-index: 2;
+}
+
+.vergleich-l, .vergleich-r{
+  width: 800px;
+}
+
+.detail {
+  position: absolute;
+  left: calc( 100% - 200px );
+  width: 100%;
+  height: 100%;
+}
+
+.detail-view{
+  width: 800px;
+  height: 100%;
+  background: #fff;
+  margin: 0 auto;
+}
+
+
+/* Brief handle bar */
+.handlebar {
+  position: fixed;
+  z-index: 10000;
+  top: 0px;
+  right: 0px;
+  width: 200px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.438);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+
+
+.orte{
+  margin-top: 900px;
 }

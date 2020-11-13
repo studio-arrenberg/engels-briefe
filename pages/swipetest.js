@@ -23,7 +23,7 @@ export default function Home() {
   const output = [600, 1500]
   const x_dif = useTransform(x, input, output)
 
-  const input_w = [-200, 0, 200]
+  const input_w = [-400, 0, 400]
   const output_w = [10, 100, 10]
   // const opacity = useTransform(x, input, output)
   const width_handle = useTransform(x, input_w, output_w)
@@ -37,7 +37,7 @@ export default function Home() {
         <title>Swipe Test</title>
       </Head>
 
-      <motion.div
+      <motion.div className="swipewrapper"
         key="swipewrapper"
         initial="initial"
         animate="enter"
@@ -45,49 +45,47 @@ export default function Home() {
         variants={constants.animation.section_exit}
       >
         
-        {/* digitalisate */}
-        <motion.div
-          key="digitalisat1"
-          className="high"
-          style={{
-            backgroundColor: "red",
-            width: 200,
-            height: 200,
-            margin: 10,
-            opacity: 0.4,
-            x: x_slow,
-          }}
-        >
-          <h2>Hello</h2>
-        </motion.div>
-        <motion.div
-          key="digitalisat2"
-          className="high"
-          style={{
-            backgroundColor: "red",
-            width: 200,
-            height: 200,
-            margin: 10,
-            opacity: 0.4,
-            x: x_fast,
-          }}
-        >
-          <h2>World</h2>
-        </motion.div>
+        {/* vergleich */}
+
+        <motion.div className="vergleich">
+          <motion.div
+            key="digitalisat1"
+            className="vergleich-l"
+            style={{
+              backgroundColor: "red",
+              margin: 10,
+              opacity: 0.4,
+              x: x_slow,
+            }}
+          > 
+            <h2>Hello</h2>
+          </motion.div>
+          <motion.div
+            key="digitalisat2"
+            className="vergleich-r"
+            style={{
+              backgroundColor: "red",
+              margin: 10,
+              opacity: 0.4,
+              x: x_fast,
+            }}
+          >
+            <h2>World</h2>
+          </motion.div>
+
+        </motion.div> 
 
         {/* handlebar */}
         <motion.div
           drag="x"
-          className="high"
+          className="handlebar"
           style={{
             backgroundColor: "red",
-            width: wid,
-            height: 200,
-            margin: 10,
+            // width: wid,
             // opacity: opacity,
             x
           }}
-          dragConstraints={{ left: -300, right: 300 }}
+          dragConstraints={{ left: -3360, right: 0 }}
           // onDrag={(event, info) => console.log("raw: " + info.point.x + " trans: " + transform(info.point.x, inputRange, outputRange))}
         >
          
@@ -95,17 +93,19 @@ export default function Home() {
 
         {/* detailansicht */}
         <motion.div
-          className="high"
+          className="detail"
           style={{
-            backgroundColor: "red",
-            width: 200,
-            height: 200,
-            margin: 10,
-            opacity: 0.4,
             x: x,
           }}
         >
-          <h2>Detailansicht</h2>
+          <div className="detail-view">
+            <h2>Detailansicht</h2>
+
+          </div>
+
+          <div className="themen-navi">
+
+          </div>
         </motion.div>
 
       </motion.div>
