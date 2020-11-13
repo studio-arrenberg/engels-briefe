@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
 import WaveSurfer from "wavesurfer.js";
 import { FiSkipBack } from "react-icons/fi";
-import ReactTimeout from "react-timeout";
+// import ReactTimeout from "react-timeout";
 
 const formWaveSurferOptions = (ref) => ({
   container: ref,
@@ -23,7 +23,7 @@ export default function Waveform({ url }) {
   const wavesurfer = useRef(null);
   const [playing, setPlay] = useState(false);
   // Set Volume
-  const [volume, setVolume] = useState(0.1);
+  const [volume, setVolume] = useState(0.8);
 
   // create new WaveSurfer instance
   // On component mount and when url changes

@@ -637,47 +637,15 @@ p > span .latin {
 
 /* BRIEF VIEW CLOSE */
 
-
-
-/* JOHANNNNNNNN TEST */
-.sd {
-  color: aquamarine;
-  background: white;
-  border-radius: 30px;
-  width: 150px;
-  height: 150px;
-  position: absolute;
-  top: 400px;
-  left: calc(50% - 150px / 2);
-}
-
-/*
 /* brief wrapper sections */
 
 .brief-container {
   width: 100vw;
-  /* position: relative; */
-  /* margin-left: -250px; */
-  /* width: 200vw; */
-  /* overflow: scroll; */
-  /* overflow-y: hidden; */
-  /* display: grid; */
-  /* grid-template-columns: 1fr 1fr; */
 }
 
 .brief-scroll-container {
   width: 200vw;
   display: flex;
-}
-
-.vergleichs-ansicht {
-  /* position: relative;
-  float: left; */
-  /* flex: 1; */
-}
-.detail-ansicht {
-  /* flex: 2; */
-  /* max-width: 1500px; */
 }
 
 .tester {
@@ -770,17 +738,18 @@ p > span .latin {
   z-index: 10000;
   top: 0px;
   right: 0px;
-  width: 200px;
+  /* width: 200px; */
   height: 100%;
   background-color: rgba(255, 255, 255, 0.438);
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 15px;
+  opacity: 0;
 }
-
-
 
 .orte{
   margin-top: 900px;
 }
+
+/* animation test */
