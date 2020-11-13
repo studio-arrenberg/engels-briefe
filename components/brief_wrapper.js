@@ -22,9 +22,10 @@ export default function Brief_wrapper(props) {
   });
 
   const leftpixels = width * 0.8;
+  
 
   const data = props.data;
-  console.log(data);
+  // console.log(data);
 
   const pics = data.map((data) => data.digitalisate.page);
   const th = data.map((data) => data.themen.id);
@@ -61,28 +62,25 @@ export default function Brief_wrapper(props) {
     // alert(`hello, ${name}`);
     setActive(!isActive);
     setThema(name + "-active");
-    console.log(`hello, ${name}`);
+    // console.log(`hello, ${name}`);
   }
 
   // Vertical Slider
-
   const x = useMotionValue(0);
 
   const x_fast = useTransform(x, (latestX) => latestX * 1.2);
   const x_slow = useTransform(x, (latestX) => latestX * 0.8);
 
-  const [handlex, setHandelx] = useState(0);
+  // const [handlex, setHandelx] = useState(0);
+  const handlebar_width = 400; 
+  const handle_constraint = width - handlebar_width;
 
-  const input = [500, 1500];
-  const output = [600, 1500];
-  const x_dif = useTransform(x, input, output);
+  const input = [-width, -handle_constraint, -handlebar_width, 0];
+  const output_width = [handlebar_width, width * 0.8, width * 0.8, handlebar_width];
+  const output_opacity = [0,0.2,0.6,1];
 
-  const input_w = [-400, 0, 400];
-  const output_w = [10, 100, 10];
-  // const opacity = useTransform(x, input, output)
-  const width_handle = useTransform(x, input_w, output_w);
-
-  const wid = useTransform(x, [-200, 0, 200], [10, 100, 10]);
+  const handle_width = useTransform(x, input, output_width);
+  const letter_opacity = useTransform(x, input, output_opacity);
 
   return data.map((data, id) => {
     return (
@@ -198,6 +196,7 @@ export default function Brief_wrapper(props) {
               style={{
                 margin: 10,
                 x: x_fast,
+                opacity: letter_opacity
               }}
             >
               <div className="brieftext">
@@ -210,13 +209,13 @@ export default function Brief_wrapper(props) {
             drag="x"
             className="handlebar"
             style={{
-              // width: wid,
-              // opacity: opacity,
+              width: handle_width,
+              // opacity: handle_opacity,
               x,
             }}
-            dragConstraints={{ left: -3160, right: 0 }}
+            dragConstraints={{ left: -handle_constraint, right: 0 }}
             // 3160 besser wäre 100% - 200px
-            // onDrag={(event, info) => console.log("raw: " + info.point.x + " trans: " + transform(info.point.x, inputRange, outputRange))}
+            // onDrag={(event, info) => console.log("raw: " + info.point.x + " trans: " + transform(info.point.x, input, output))}
           ></motion.div>
 
           <motion.div
