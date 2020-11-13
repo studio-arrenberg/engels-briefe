@@ -216,7 +216,10 @@ export default function Brief_wrapper(props) {
             dragConstraints={{ left: -handle_constraint, right: 0 }}
             // 3160 besser wäre 100% - 200px
             // onDrag={(event, info) => console.log("raw: " + info.point.x + " trans: " + transform(info.point.x, input, output))}
-          ></motion.div>
+          >
+          </motion.div>
+
+          <BouncingBall/>
 
           <motion.div
             className="detail"
@@ -293,6 +296,67 @@ export default function Brief_wrapper(props) {
       </motion.div>
     );
   });
+}
+
+export function BouncingBall() {
+
+  const dura = 0.6;
+  const del = 0.1;
+
+  const bounceTransition = {
+    x: {
+      duration: dura,
+      yoyo: Infinity,
+      ease: "easeOut",
+      repeatDelay : del
+    },
+    backgroundColor: {
+      duration: dura / 2,
+      yoyo: Infinity,
+      ease: "easeOut",
+      repeatDelay: (dura / 2) + del,
+    },
+    opacity: {
+      duration: dura / 2,
+      yoyo: Infinity,
+      ease: "easeIn",
+      repeatDelay: (dura / 2) + del,
+    },
+  }
+
+  const ballStyle = {
+    display: "block",
+    // width: "12rem",
+    width: "80px",
+    // height: "6rem",
+    backgroundColor: "white",
+    borderRadius: "3rem"
+  }
+
+  return (
+    <div
+      style={{
+        position: "relative",
+        left: 600,
+        top: 200,
+        width: "2rem",
+        height: "2rem",
+        display: "flex",
+        justifyContent: "space-around",
+      }}
+    >
+      <motion.span
+        style={ballStyle}
+        transition={bounceTransition}
+        animate={{
+          x: ["80px", "-80px"],
+          // backgroundColor: ["#e810e1", "#6666ff"],
+          backgroundColor: ["#000000", "#ffffff"],
+          opacity: [0,0.4],
+        }}
+      />
+    </div>
+  )
 }
 
 // function BottomSheet({ isOpen, onClose, onOpen }, props, onToggle) {
