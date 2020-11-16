@@ -70,11 +70,6 @@ export default function Brief_wrapper(props) {
   const x_fast = useTransform(x, (latestX) => latestX * 1.2);
   const x_slow = useTransform(x, (latestX) => latestX * 0.8);
 
-  // const [view, setView] = useState(0);
-
-  // console.log(view);
-
-  // const [handlex, setHandelx] = useState(0);
   const handlebar_width = 400;
   const handle_constraint = width - handlebar_width;
 
