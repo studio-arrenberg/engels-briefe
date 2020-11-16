@@ -533,7 +533,7 @@ img {
 .themen {
   position: fixed;
   right: calc( -100% + 100px);
-  transform: ;
+  /* transform: ; */
   top: 200px;
   z-index: 2000;
 }
@@ -752,4 +752,10 @@ p > span .latin {
   margin-top: 900px;
 }
 
-/* animation test */
+/* bouncing ball */
+.bouncingball {
+  position: fixed;
+  top: 50%;
+  right: 10%;
+  z-index: 1000000000000;
+}

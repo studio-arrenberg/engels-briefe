@@ -36,8 +36,9 @@ git merge origin/master
 git checkout -- <FILENAME>
 # all files
 git checkout -- .
+## better
+git stash
 ```
-
 ### push files (in branch)
 ```bash
 git add . 
