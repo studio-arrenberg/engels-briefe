@@ -22,7 +22,6 @@ export default function Brief_wrapper(props) {
   });
 
   const leftpixels = width * 0.8;
-  
 
   const data = props.data;
   // console.log(data);
@@ -71,16 +70,27 @@ export default function Brief_wrapper(props) {
   const x_fast = useTransform(x, (latestX) => latestX * 1.2);
   const x_slow = useTransform(x, (latestX) => latestX * 0.8);
 
+  // const [view, setView] = useState(0);
+
+  // console.log(view);
+
   // const [handlex, setHandelx] = useState(0);
-  const handlebar_width = 400; 
+  const handlebar_width = 400;
   const handle_constraint = width - handlebar_width;
 
   const input = [-width, -handle_constraint, -handlebar_width, 0];
-  const output_width = [handlebar_width, width * 0.8, width * 0.8, handlebar_width];
-  const output_opacity = [0,0.2,0.6,1];
+  const output_width = [
+    handlebar_width,
+    width * 0.8,
+    width * 0.8,
+    handlebar_width,
+  ];
+  const output_opacity = [0, 0.2, 0.6, 1];
 
   const handle_width = useTransform(x, input, output_width);
   const letter_opacity = useTransform(x, input, output_opacity);
+  const ball_opacity_right = useTransform(x, input, [0, 0, 0, 1]);
+  const ball_opacity_left = useTransform(x, input, [1, 1, 0, 0]);
 
   return data.map((data, id) => {
     return (
@@ -150,7 +160,6 @@ export default function Brief_wrapper(props) {
                       .map((data) => data.title)}
                   </h3>
                 </div>
-                
               </div>
             ))}
           </div>
@@ -196,7 +205,7 @@ export default function Brief_wrapper(props) {
               style={{
                 margin: 10,
                 x: x_fast,
-                opacity: letter_opacity
+                opacity: letter_opacity,
               }}
             >
               <div className="brieftext">
@@ -210,21 +219,24 @@ export default function Brief_wrapper(props) {
             className="handlebar"
             style={{
               width: handle_width,
-              // opacity: handle_opacity,
               x,
             }}
             dragConstraints={{ left: -handle_constraint, right: 0 }}
-            // 3160 besser wäre 100% - 200px
             // onDrag={(event, info) => console.log("raw: " + info.point.x + " trans: " + transform(info.point.x, input, output))}
-          >
+          ></motion.div>
+
+          <motion.div className="bouncingball" style={{opacity: ball_opacity_right, x : x, rotate: 0}}>
+           <BouncingBall />
           </motion.div>
 
-          <BouncingBall/>
+          <motion.div className="bouncingball" style={{opacity: ball_opacity_left, x : x, rotate: 180}}>
+           <BouncingBall />
+          </motion.div>
 
           <motion.div
             className="detail"
             style={{
-              x: x,
+              x: x
             }}
           >
             <div
@@ -236,19 +248,19 @@ export default function Brief_wrapper(props) {
             </div>
           </motion.div>
 
-          <motion.div className="themen" style={{
+          <motion.div
+            className="themen"
+            style={{
               x: x,
-            }}>
-                {them.map((item, index) => (
-                  <a
-                    onClick={() => themenToggle(item[0].slug)}
-                    key={item[0].id}
-                  >
-                    <img src={`../pictures/themen/${item[0].picture}`} />
-                    <label>{item[0].title}</label>
-                  </a>
-                ))}
-              </motion.div>
+            }}
+          >
+            {them.map((item, index) => (
+              <a onClick={() => themenToggle(item[0].slug)} key={item[0].id}>
+                <img src={`../pictures/themen/${item[0].picture}`} />
+                <label>{item[0].title}</label>
+              </a>
+            ))}
+          </motion.div>
         </motion.div>
 
         <div className="player">
@@ -299,7 +311,6 @@ export default function Brief_wrapper(props) {
 }
 
 export function BouncingBall() {
-
   const dura = 0.6;
   const del = 0.1;
 
@@ -308,21 +319,21 @@ export function BouncingBall() {
       duration: dura,
       yoyo: Infinity,
       ease: "easeOut",
-      repeatDelay : del
+      repeatDelay: del,
     },
     backgroundColor: {
       duration: dura / 2,
       yoyo: Infinity,
       ease: "easeOut",
-      repeatDelay: (dura / 2) + del,
+      repeatDelay: dura / 2 + del,
     },
     opacity: {
       duration: dura / 2,
       yoyo: Infinity,
       ease: "easeIn",
-      repeatDelay: (dura / 2) + del,
+      repeatDelay: dura / 2 + del,
     },
-  }
+  };
 
   const ballStyle = {
     display: "block",
@@ -330,15 +341,15 @@ export function BouncingBall() {
     width: "80px",
     // height: "6rem",
     backgroundColor: "white",
-    borderRadius: "3rem"
-  }
+    borderRadius: "3rem",
+  };
 
   return (
     <div
       style={{
         position: "relative",
-        left: 600,
-        top: 200,
+        left: 0,
+        top: 0,
         width: "2rem",
         height: "2rem",
         display: "flex",
@@ -350,86 +361,10 @@ export function BouncingBall() {
         transition={bounceTransition}
         animate={{
           x: ["80px", "-80px"],
-          // backgroundColor: ["#e810e1", "#6666ff"],
-          backgroundColor: ["#000000", "#ffffff"],
-          opacity: [0,0.4],
+          backgroundColor: ["#000000", "#FFFFFF"],
+          opacity: [0, 0.4],
         }}
       />
     </div>
-  )
+  );
 }
-
-// function BottomSheet({ isOpen, onClose, onOpen }, props, onToggle) {
-//   const prevIsOpen = usePrevious(isOpen);
-//   const controls = useAnimation();
-
-//   function onDragEnd(event, info) {
-//     const shouldClose =
-//       info.velocity.x > 20 || (info.velocity.x >= 0 && info.point.x > 45);
-//     if (shouldClose) {
-//       controls.start("hidden");
-//       onClose();
-//     } else {
-//       controls.start("visible");
-//       onOpen();
-//     }
-//   }
-
-//   const [width, setWidth] = React.useState(0);
-//   React.useEffect(() => {
-//     setWidth(window.innerWidth);
-//   });
-
-//   const leftpixel = width * 0.8;
-
-//   useEffect(() => {
-//     if (prevIsOpen && !isOpen) {
-//       controls.start("hidden");
-//     } else if (!prevIsOpen && isOpen) {
-//       controls.start("visible");
-//     }
-//   }, [controls, isOpen, prevIsOpen]);
-
-//   return (
-//     <motion.div
-//       drag="x"
-//       onDrag={(event, info) => console.log(info.point.x, info.point.y)}
-//       onDragEnd={onDragEnd}
-//       className="box"
-//       initial="hidden"
-//       animate={controls}
-//       transition={{
-//         type: "spring",
-//         damping: 40,
-//         stiffness: 700,
-//       }}
-//       variants={{
-//         visible: { x: 0 },
-//         hidden: { x: "-200px" },
-//       }}
-//       dragConstraints={{ top: 0 }}
-//       dragElastic={0.2}
-//       style={{
-//         display: "inline-block",
-//         backgroundColor: "green",
-//         marginLeft: 20,
-//         width: 200,
-//         height: 100,
-//       }}
-//     >
-//       <div className="inner">
-//         <p>
-//           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-//           nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-//           sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-//           rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-//           ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-//           sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-//           dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-//           et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-//           takimata sanctus est Lorem ipsum dolor sit amet.
-//         </p>
-//       </div>
-//     </motion.div>
-//   );
-// }
