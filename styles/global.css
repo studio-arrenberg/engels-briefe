@@ -401,6 +401,10 @@ img {
 .digitalisate img{
   margin-bottom: 20px;
   width: 100%;
+
+  -webkit-filter: drop-shadow(5px 5px 20px #222);
+  filter: drop-shadow(5px 5px 20px #222);
+
 }
 
 .brieftext {
