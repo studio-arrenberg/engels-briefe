@@ -5,6 +5,7 @@ import {
   useDragControls,
   transform,
   useTransform,
+  useViewportScroll
 } from "framer-motion";
 import constants from "./constants";
 import Layout from "./layout";
@@ -17,8 +18,10 @@ import React, { useState, useEffect, useRef } from "react";
 
 export default function Brief_wrapper(props) {
   const [width, setWidth] = React.useState(0);
+  const [height, setHeight] = React.useState(0);
   React.useEffect(() => {
     setWidth(window.innerWidth);
+    setHeight(window.innerHeight);
   });
 
   const leftpixels = width * 0.8;
@@ -58,15 +61,22 @@ export default function Brief_wrapper(props) {
   const [isThema, setThema] = useState("false");
 
   function themenToggle(name) {
-    // alert(`hello, ${name}`);
-    setActive(!isActive);
-    setThema(name + "-active");
-    // console.log(`hello, ${name}`);
+    // setActive(!isActive);
+    if (name == isThema) {
+      console.log("same");
+      setThema('false');
+      setActive(true);
+    }
+    else {
+      setThema(name);
+      setActive(false);
+    } 
+    console.log("current: " + name + " useState: " + isThema);
   }
 
   // Vertical Slider
   const x = useMotionValue(0);
-  const y = useMotionValue(0);
+  // const y = useMotionValue(0);
 
   const x_fast = useTransform(x, (latestX) => latestX * 1.2); // 15" 1.2
   const x_slow = useTransform(x, (latestX) => latestX * 0.5); // 15" 0.58
@@ -87,6 +97,30 @@ export default function Brief_wrapper(props) {
   const letter_opacity = useTransform(x, input, output_opacity);
   const ball_opacity_right = useTransform(x, input, [0, 0, 0, 1]);
   const ball_opacity_left = useTransform(x, input, [1, 1, 0, 0]);
+
+  // Get swipewrapper height
+  const inputRef = useRef(null);
+  const [swipeheight, setSwipheight] = useState(0);
+
+  useEffect((swipewrapper_height) => {
+    console.log('Input height', inputRef.current.offsetHeight);   
+    setSwipheight(inputRef.current.offsetHeight);
+ }, [inputRef]);
+
+  // Swipe animation fade in / out on y position
+  const { scrollYProgress } = useViewportScroll()
+  const scrollinput = [0, 1200, swipeheight, height];
+  const opacityswipeoutput = [1,1,1,0];
+  const opacityswipe = useTransform(x, scrollinput, opacityswipeoutput);
+
+
+  // Stellenbeschreibung ein und ausblenden
+
+  // normalisierte ansicht preview peak
+
+  // themen card class ausgefahren/activ
+
+
 
   return data.map((data, id) => {
     return (
@@ -169,6 +203,7 @@ export default function Brief_wrapper(props) {
           initial="initial"
           animate="enter"
           exit="exit"
+          ref={inputRef}
           variants={constants.animation.section_exit}
         >
           <motion.div className="vergleichs-ansicht vergleich">
@@ -196,6 +231,7 @@ export default function Brief_wrapper(props) {
               ))}
 
               <h3>Originaldokument </h3>
+
             </motion.div>
             <motion.div
               key="digitalisat2"
@@ -220,7 +256,6 @@ export default function Brief_wrapper(props) {
               width: handle_width,
               opacity: 1,       
               x,
-              y,
             }}
             dragConstraints={{ left: -handle_constraint, right: 0 }}
             // onDrag={(event, info) => console.log("raw: " + info.point.x + " trans: " + transform(info.point.x, input, output))}
@@ -229,7 +264,11 @@ export default function Brief_wrapper(props) {
               className="bouncingball-right"
               style={{ opacity: ball_opacity_right, rotate: 0 }}
             >
+              <motion.div style={{opacity: opacityswipe}}>
               <BouncingBall />
+              </motion.div>
+              
+          {/* <h2>hi {swipeheight}</h2>  */}
             </motion.div>
 
             <motion.div
@@ -249,7 +288,7 @@ export default function Brief_wrapper(props) {
             <div
               className={`detail-ansicht ${
                 isActive ? null : "themenmakierung-active"
-              } ${isActive ? null : isThema}`}
+              } ${isActive ? null : isThema + "-active"}`}
             >
               <div className="normalisiert">
                 {props.children}
@@ -263,8 +302,9 @@ export default function Brief_wrapper(props) {
                 x: x,
               }}
             >
+
               {them.map((item, index) => (
-                <a onClick={() => themenToggle(item[0].slug)} key={item[0].id}>
+                <a className={`${isThema == item[0].slug ? 'activ' : 'null'}`} onClick={() => themenToggle(item[0].slug)} key={item[0].id}>
                   <img src={`../pictures/themen/${item[0].picture}`} />
                   <label>{item[0].title}</label>
                 </a>
@@ -398,3 +438,15 @@ export function BouncingBall() {
     </div>
   );
 }
+
+// const YourComponent = () => {
+//   const inputRef = useRef(null);
+//   useEffect(() => {
+//      const height = inputRef.current.offsetHeight;
+//      console.log('Input height', height);   
+//   }, [inputRef]);
+
+//   return <>
+//     <input style={{height:200}} ref={inputRef} type="text" defaultValue="testing" />
+//   </>
+// }
