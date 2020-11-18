@@ -395,8 +395,8 @@ img {
   padding: 250px 200px;
   width: 100%;
   justify-content: center;
-  background: #000;
-  z-index: 100000;
+  /* background: #000; */
+  /* z-index: 100000; */
   position: relative;
 }
 
