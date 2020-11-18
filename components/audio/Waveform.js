@@ -5,12 +5,13 @@ import { FiSkipBack } from "react-icons/fi";
 
 const formWaveSurferOptions = (ref) => ({
   container: ref,
-  waveColor: "white",
-  progressColor: "black",
-  cursorColor: "white",
-  barRadius: 1,
-  responsive: true,
+  waveColor: "#fff",
+  progressColor: "#000",
+  cursorColor: "#fff",
   height: 50,
+  maxCanvasWidth: 540,
+  pixelRatio: 1,
+  barGap: 20,  // the optional spacing between bars of the wave, if not provided will be calculated in legacy format,
   barWidth: 1,
   // If true, normalize by the maximum peak instead of 1.0.
   normalize: true,
