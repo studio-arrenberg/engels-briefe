@@ -370,7 +370,6 @@ a:hover {
   text-decoration: underline;
 }
 p {
-  line-height: 1.3rem;
 }
 
 /* TYPO CLOSE */
@@ -463,7 +462,7 @@ img {
 
 .page {
   background-color: #fff;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 @keyframes slide-in {
@@ -525,23 +524,29 @@ img {
  */
 
 
-.vergleichs-ansicht {
+.vergleichs-ansicht{
   font-family: "Charter";
   line-height: 1.4rem;
   letter-spacing: 0.1px;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .vergleichs-ansicht .corr, .vergleichs-ansicht .stellenerläuterungen {
   display: none;
 }
 
-
 .vergleichs-ansicht .abbr, .vergleichs-ansicht .ex{
   display: none;
 }
 
-.vergleichs-ansicht .ex:after
+.expan::after {
+  content: ".";
+  display: inline;
+}
+
+ .g\.enc\.tagsdecl\.suspension\.type3{
+  display: none;
+}
 
 
 .detail-ansicht {
