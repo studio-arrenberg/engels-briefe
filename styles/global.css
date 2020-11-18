@@ -227,7 +227,14 @@ main {
 /*  MAIN CLOSE  */
 
 .item:nth-of-type(2n) {
-  padding-top: 300px;
+  padding-top: 500px;
+}
+
+.item:first-of-type {
+  margin-left: 0px;
+}
+.item {
+  margin-left: -300px;
 }
 
 .item_preview {
@@ -238,7 +245,7 @@ main {
 }
 
 .item_preview img {
-  width: 350px;
+  width: 300px;
   position: absolute;
   left: 0px;
   top: 0px;
@@ -285,9 +292,17 @@ main {
 .item_description {
   position: absolute;
   top: 75px;
-  left: 400px;
+  left: 320px;
   display: block;
   clear: both;
+}
+
+.item_description p{
+  font-size: 0.9rem;
+}
+
+.item_description  div{
+  margin-bottom: 5px;
 }
 
 /*  TIMELINE OPEN  */
