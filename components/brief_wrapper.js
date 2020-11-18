@@ -120,13 +120,14 @@ export default function Brief_wrapper(props) {
         key={`brief-${data.id}`}
         variants={constants.animation.section_exit}
       >
+                  {/* META */}
+
         <motion.div
+        className="meta"
           key={`brief-inner-${data.id}`}
           variants={constants.animation.post}
           layoutId={`${data.id}`}
         >
-          {/* META */}
-          <div className="meta">
             {/* sender */}
             {sen[0].map((item, index) => (
               <div key={`sender-${index}`} className="sender">
@@ -180,7 +181,6 @@ export default function Brief_wrapper(props) {
                 </div>
               </div>
             ))}
-          </div>
 
           {/* brief inhalt */}
         </motion.div>
