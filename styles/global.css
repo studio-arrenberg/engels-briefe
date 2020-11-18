@@ -807,7 +807,10 @@ p > span .latin {
   border-radius: 15px;
   z-index: 3000;
   overflow: hidden;
-}
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  }
 
 /* bouncing ball */
 .bouncingball-right {
