@@ -66,11 +66,12 @@ export default function Brief_wrapper(props) {
 
   // Vertical Slider
   const x = useMotionValue(0);
+  const y = useMotionValue(0);
 
-  const x_fast = useTransform(x, (latestX) => latestX * 1.2);
-  const x_slow = useTransform(x, (latestX) => latestX * 0.58);
+  const x_fast = useTransform(x, (latestX) => latestX * 1.2); // 15" 1.2
+  const x_slow = useTransform(x, (latestX) => latestX * 0.5); // 15" 0.58
 
-  const handlebar_width = 400;
+  const handlebar_width = 450;
   const handle_constraint = width - handlebar_width;
 
   const input = [-width, -handle_constraint, -handlebar_width, 0];
@@ -217,26 +218,26 @@ export default function Brief_wrapper(props) {
             className="handlebar"
             style={{
               width: handle_width,
-              opacity: 0.3,
+              opacity: 1,       
               x,
-              padding: 200,
+              y,
             }}
             dragConstraints={{ left: -handle_constraint, right: 0 }}
             // onDrag={(event, info) => console.log("raw: " + info.point.x + " trans: " + transform(info.point.x, input, output))}
-          ></motion.div>
-
-          <motion.div
-            className="bouncingball-right"
-            style={{ opacity: ball_opacity_right, rotate: 0 }}
           >
-            <BouncingBall />
-          </motion.div>
+            <motion.div
+              className="bouncingball-right"
+              style={{ opacity: ball_opacity_right, rotate: 0 }}
+            >
+              <BouncingBall />
+            </motion.div>
 
-          <motion.div
-            className="bouncingball-left"
-            style={{ opacity: ball_opacity_left, rotate: 180 }}
-          >
-            <BouncingBall />
+            <motion.div
+              className="bouncingball-left"
+              style={{ opacity: ball_opacity_left, rotate: 180 }}
+            >
+              <BouncingBall />
+            </motion.div>
           </motion.div>
 
           <motion.div
@@ -250,9 +251,10 @@ export default function Brief_wrapper(props) {
                 isActive ? null : "themenmakierung-active"
               } ${isActive ? null : isThema}`}
             >
-              <div className="normalisiert">{props.children}
-              <h3>Normalisierte Leseansicht</h3></div>
-
+              <div className="normalisiert">
+                {props.children}
+                <h3>Normalisierte Leseansicht</h3>
+              </div>
             </div>
 
             <motion.div

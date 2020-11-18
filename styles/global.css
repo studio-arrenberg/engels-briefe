@@ -754,11 +754,12 @@ p > span .latin {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: red;
+  /* background-color: red; */
+  background-Color: rgba(0,0,0,0);
   opacity: 0;
   border-radius: 15px;
   z-index: 3000;
-
+  overflow: hidden;
 }
 
 /* bouncing ball */
@@ -772,7 +773,7 @@ p > span .latin {
 
 .bouncingball-left {
   position: fixed;
-  left: -7%;
+  left: 75%;
   top: 50vh;
   width: 200px;
   z-index: 1000000000000;
