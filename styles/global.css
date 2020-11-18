@@ -117,7 +117,7 @@ body {
 }
 
 .container {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   position: relative;
 }
@@ -395,8 +395,6 @@ img {
   padding: 250px 200px;
   width: 100%;
   justify-content: center;
-  /* background: #000; */
-  /* z-index: 100000; */
   position: relative;
 }
 
@@ -526,9 +524,14 @@ img {
 
 .vergleichs-ansicht{
   font-family: "Charter";
-  line-height: 1.4rem;
+  line-height: 1.5rem;
   letter-spacing: 0.1px;
-  font-size: 1.1rem;
+  font-size: 1rem;
+}
+.vergleichs-ansicht p {
+  margin-bottom: 4px;
+
+
 }
 
 .vergleichs-ansicht .corr, .vergleichs-ansicht .stellenerläuterungen {
