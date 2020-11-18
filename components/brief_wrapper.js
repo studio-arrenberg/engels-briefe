@@ -68,7 +68,7 @@ export default function Brief_wrapper(props) {
   const x = useMotionValue(0);
 
   const x_fast = useTransform(x, (latestX) => latestX * 1.2);
-  const x_slow = useTransform(x, (latestX) => latestX * 0.8);
+  const x_slow = useTransform(x, (latestX) => latestX * 0.58);
 
   const handlebar_width = 400;
   const handle_constraint = width - handlebar_width;
@@ -202,7 +202,7 @@ export default function Brief_wrapper(props) {
               style={{
                 margin: 10,
                 x: x_fast,
-                opacity: letter_opacity,
+                // opacity: letter_opacity,
               }}
             >
               <div className="brieftext">
@@ -217,22 +217,24 @@ export default function Brief_wrapper(props) {
             className="handlebar"
             style={{
               width: handle_width,
+              opacity: 0.3,
               x,
+              padding: 200,
             }}
             dragConstraints={{ left: -handle_constraint, right: 0 }}
             // onDrag={(event, info) => console.log("raw: " + info.point.x + " trans: " + transform(info.point.x, input, output))}
           ></motion.div>
 
           <motion.div
-            className="bouncingball"
-            style={{ opacity: ball_opacity_right, x: x, rotate: 0 }}
+            className="bouncingball-right"
+            style={{ opacity: ball_opacity_right, rotate: 0 }}
           >
             <BouncingBall />
           </motion.div>
 
           <motion.div
-            className="bouncingball"
-            style={{ opacity: ball_opacity_left, x: x, rotate: 180 }}
+            className="bouncingball-left"
+            style={{ opacity: ball_opacity_left, rotate: 180 }}
           >
             <BouncingBall />
           </motion.div>

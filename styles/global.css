@@ -762,15 +762,21 @@ p > span .latin {
 }
 
 /* bouncing ball */
-.bouncingball {
+.bouncingball-right {
   position: fixed;
-  right: 200px;
+  left: 95%;
   top: 50vh;
   width: 200px;
   z-index: 1000000000000;
 }
 
-
+.bouncingball-left {
+  position: fixed;
+  left: -7%;
+  top: 50vh;
+  width: 200px;
+  z-index: 1000000000000;
+}
 
 .orte{
   margin-top: 0px;
