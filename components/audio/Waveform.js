@@ -7,11 +7,11 @@ const formWaveSurferOptions = (ref) => ({
   container: ref,
   waveColor: "white",
   progressColor: "black",
-  cursorColor: "red",
+  cursorColor: "white",
   barRadius: 1,
   responsive: true,
   height: 50,
-  barWidth: 0.5,
+  barWidth: 1,
   // If true, normalize by the maximum peak instead of 1.0.
   normalize: true,
   // Use the PeakCache to improve rendering speed of large waveforms.
@@ -78,16 +78,15 @@ export default function Waveform({ url }) {
   };
 
   return (
-      <div id="waveform" ref={waveformRef} >
+    <div className="player-container">
+      <div id="waveform" ref={waveformRef}></div>
 
       <div className="controls">
         {/* <button onClick={handlePlayPause}>{!playing ? "Play" : "Pause"}</button> */}
 
-        <div className="reset" onClick={handleRestart}>
-          <FiSkipBack />
-        </div>
-      </div>
+        <img width="15px" src="../icons/backward.svg" onClick={handleRestart} />
 
+      </div>
     </div>
   );
 }
