@@ -58,10 +58,17 @@ export default function Brief_wrapper(props) {
   const [isThema, setThema] = useState("false");
 
   function themenToggle(name) {
-    // alert(`hello, ${name}`);
-    setActive(!isActive);
-    setThema(name + "-active");
-    // console.log(`hello, ${name}`);
+    // setActive(!isActive);
+    if (name == isThema) {
+      console.log("same");
+      setThema('false');
+      setActive(true);
+    }
+    else {
+      setThema(name);
+      setActive(false);
+    } 
+    console.log("current: " + name + " useState: " + isThema);
   }
 
   // Vertical Slider
@@ -87,6 +94,21 @@ export default function Brief_wrapper(props) {
   const letter_opacity = useTransform(x, input, output_opacity);
   const ball_opacity_right = useTransform(x, input, [0, 0, 0, 1]);
   const ball_opacity_left = useTransform(x, input, [1, 1, 0, 0]);
+
+  // Get swipewrapper height
+  const inputRef = useRef(null);
+  const [swipeheight, setSwipheight] = useState(0);
+
+  // Stellenbeschreibung ein und ausblenden
+
+  // normalisierte ansicht preview peak
+
+  // themen card class ausgefahren/activ
+
+  useEffect((swipewrapper_height) => {
+     console.log('Input height', inputRef.current.offsetHeight);   
+     setSwipheight(inputRef.current.offsetHeight);
+  }, [inputRef]);
 
   return data.map((data, id) => {
     return (
@@ -169,6 +191,7 @@ export default function Brief_wrapper(props) {
           initial="initial"
           animate="enter"
           exit="exit"
+          ref={inputRef}
           variants={constants.animation.section_exit}
         >
           <motion.div className="vergleichs-ansicht vergleich">
@@ -196,6 +219,7 @@ export default function Brief_wrapper(props) {
               ))}
 
               <h3>Originaldokument </h3>
+
             </motion.div>
             <motion.div
               key="digitalisat2"
@@ -230,6 +254,7 @@ export default function Brief_wrapper(props) {
               style={{ opacity: ball_opacity_right, rotate: 0 }}
             >
               <BouncingBall />
+          <h2>hi {swipeheight}</h2> 
             </motion.div>
 
             <motion.div
@@ -249,7 +274,7 @@ export default function Brief_wrapper(props) {
             <div
               className={`detail-ansicht ${
                 isActive ? null : "themenmakierung-active"
-              } ${isActive ? null : isThema}`}
+              } ${isActive ? null : isThema + "-active"}`}
             >
               <div className="normalisiert">
                 {props.children}
@@ -263,8 +288,13 @@ export default function Brief_wrapper(props) {
                 x: x,
               }}
             >
+{/* 
+className={`${slug = statehook >}`}
+{isLoggedIn ? 'currently' : 'not'}
+{this.state.value == 'news'? <Text>data</Text>: null } */}
+
               {them.map((item, index) => (
-                <a onClick={() => themenToggle(item[0].slug)} key={item[0].id}>
+                <a className={`${isThema == item[0].slug ? 'activ' : 'null'}`} onClick={() => themenToggle(item[0].slug)} key={item[0].id}>
                   <img src={`../pictures/themen/${item[0].picture}`} />
                   <label>{item[0].title}</label>
                 </a>
@@ -398,3 +428,15 @@ export function BouncingBall() {
     </div>
   );
 }
+
+// const YourComponent = () => {
+//   const inputRef = useRef(null);
+//   useEffect(() => {
+//      const height = inputRef.current.offsetHeight;
+//      console.log('Input height', height);   
+//   }, [inputRef]);
+
+//   return <>
+//     <input style={{height:200}} ref={inputRef} type="text" defaultValue="testing" />
+//   </>
+// }
