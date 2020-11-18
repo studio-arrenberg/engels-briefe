@@ -78,7 +78,8 @@ export default function Waveform({ url }) {
   };
 
   return (
-    <div>
+      <div id="waveform" ref={waveformRef} >
+
       <div className="controls">
         {/* <button onClick={handlePlayPause}>{!playing ? "Play" : "Pause"}</button> */}
 
@@ -87,7 +88,6 @@ export default function Waveform({ url }) {
         </div>
       </div>
 
-      <div id="waveform" ref={waveformRef} />
     </div>
   );
 }

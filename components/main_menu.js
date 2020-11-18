@@ -8,7 +8,7 @@ export default function Menu() {
     <nav>
       <Link href="/">
         <a className="menu_left">
-          <FiHome />
+          <img src="public/icons/back.svg"></img>
         </a>
       </Link>
 
