@@ -353,14 +353,14 @@ img {
   width: 100vw;
   margin: 0 -100px;
   height: auto;
-  overflow: hidden;
+  overflow-x: hidden;
   z-index: 150;
   position: relative;
 }
 
 .meta {
   display: flex;
-  padding: 250px 400px;
+  padding: 250px 200px;
   width: 100%;
   justify-content: center;
 }
@@ -741,18 +741,17 @@ p > span .latin {
 
 /* Brief handle bar */
 .handlebar {
-  position: fixed;
-  z-index: 10000;
-  top: 0px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -10px;
   right: 0px;
-  /* width: 200px; */
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.438);
+  background: red;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 15px;
-  opacity: 0;
+  margin-left: calc( 100vw - 400px );
 }
 
 .orte{
@@ -765,4 +764,18 @@ p > span .latin {
   top: 50%;
   right: 10%;
   z-index: 1000000000000;
+}
+
+main {
+  height: 2000px;
+}
+
+.sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  top: -10px;
+  background: red;
+  height:200px;
+  width: 200px;
+  margin-top:200px;
 }
