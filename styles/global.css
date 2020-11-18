@@ -322,7 +322,9 @@ ul,
 li {
   font-weight: 500;
   margin: 0px;
+ 
 }
+
 
 h2 {
   line-height: 2.1rem;
@@ -330,6 +332,10 @@ h2 {
   margin-bottom: 40px;
 }
 
+h3{
+  color: #fff;
+  font-family: "Gibson-Regular";
+}
 a {
   color: white;
   text-decoration: none;
@@ -538,7 +544,7 @@ img {
 
 .themen {
   position: fixed;
-  right: calc( -100% + 100px);
+  right: calc( -100% + 200px);
   /* transform: ; */
   top: 200px;
   z-index: 2000;
@@ -701,7 +707,7 @@ p > span .latin {
 
 .swipewrapper{
   width: 100vw;
-  height: 4000px;
+  height: 2800px;
   display: block;
   position: relative;
 }
@@ -741,41 +747,59 @@ p > span .latin {
 
 /* Brief handle bar */
 .handlebar {
-  position: -webkit-sticky;
-  position: sticky;
-  top: -10px;
+  position: absolute;
+  top: 0px;
   right: 0px;
   height: 100%;
-  background: red;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: red;
+  opacity: 0;
   border-radius: 15px;
-  margin-left: calc( 100vw - 400px );
-}
+  z-index: 3000;
 
-.orte{
-  margin-top: 900px;
 }
 
 /* bouncing ball */
 .bouncingball {
   position: fixed;
-  top: 50%;
-  right: 10%;
+  right: 200px;
+  top: 50vh;
+  width: 200px;
   z-index: 1000000000000;
 }
 
-main {
-  height: 2000px;
+
+
+.orte{
+  margin-top: 0px;
+  margin-bottom: 200px;
+  display: flex;
+ justify-content: center;
+ /* align-items: flex-end; */
 }
 
-.sticky{
-  position: -webkit-sticky;
-  position: sticky;
-  top: -10px;
-  background: red;
-  height:200px;
-  width: 200px;
-  margin-top:200px;
+.orte img{
+  width: 800px;
+  margin: 10px;
+}
+
+.orte h2 {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  line-height: unset;
+
+}
+
+.bildnachweis::before{
+ content: "©";
+ margin-right: 3px;
+}
+.bildnachweis{
+  font-size: 1rem;
+  align-self: flex-end;
+  opacity: 0.8;
 }

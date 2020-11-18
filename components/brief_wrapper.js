@@ -193,6 +193,8 @@ export default function Brief_wrapper(props) {
               {pics[0].map((item, index) => (
                 <img src={`../../pictures/digitalisate/${item}`} key={index} />
               ))}
+
+              <h3>Originaldokument </h3>
             </motion.div>
             <motion.div
               key="digitalisat2"
@@ -206,6 +208,7 @@ export default function Brief_wrapper(props) {
               <div className="brieftext">
                 <div>{props.children}</div>
               </div>
+              <h3>Transkription</h3>
             </motion.div>
           </motion.div>
 
@@ -220,18 +223,24 @@ export default function Brief_wrapper(props) {
             // onDrag={(event, info) => console.log("raw: " + info.point.x + " trans: " + transform(info.point.x, input, output))}
           ></motion.div>
 
-          <motion.div className="bouncingball" style={{opacity: ball_opacity_right, x : x, rotate: 0}}>
-           <BouncingBall />
+          <motion.div
+            className="bouncingball"
+            style={{ opacity: ball_opacity_right, x: x, rotate: 0 }}
+          >
+            <BouncingBall />
           </motion.div>
 
-          <motion.div className="bouncingball" style={{opacity: ball_opacity_left, x : x, rotate: 180}}>
-           <BouncingBall />
+          <motion.div
+            className="bouncingball"
+            style={{ opacity: ball_opacity_left, x: x, rotate: 180 }}
+          >
+            <BouncingBall />
           </motion.div>
 
           <motion.div
             className="detail"
             style={{
-              x: x
+              x: x,
             }}
           >
             <div
@@ -239,22 +248,24 @@ export default function Brief_wrapper(props) {
                 isActive ? null : "themenmakierung-active"
               } ${isActive ? null : isThema}`}
             >
-              <div className="normalisiert">{props.children}</div>
-            </div>
-          </motion.div>
+              <div className="normalisiert">{props.children}
+              <h3>Normalisierte Leseansicht</h3></div>
 
-          <motion.div
-            className="themen"
-            style={{
-              x: x,
-            }}
-          >
-            {them.map((item, index) => (
-              <a onClick={() => themenToggle(item[0].slug)} key={item[0].id}>
-                <img src={`../pictures/themen/${item[0].picture}`} />
-                <label>{item[0].title}</label>
-              </a>
-            ))}
+            </div>
+
+            <motion.div
+              className="themen"
+              style={{
+                x: x,
+              }}
+            >
+              {them.map((item, index) => (
+                <a onClick={() => themenToggle(item[0].slug)} key={item[0].id}>
+                  <img src={`../pictures/themen/${item[0].picture}`} />
+                  <label>{item[0].title}</label>
+                </a>
+              ))}
+            </motion.div>
           </motion.div>
         </motion.div>
 
@@ -265,14 +276,7 @@ export default function Brief_wrapper(props) {
         {/* orte */}
 
         <div className="orte">
-          <div className="sender">
-            <h1>
-              {orte
-                .filter((item) => {
-                  return item.id === data.sender.ort;
-                })
-                .map((data) => data.title)}
-            </h1>
+          <div className="sender-ort">
             <img
               src={`../../pictures/orte/${orte
                 .filter((item) => {
@@ -281,15 +285,25 @@ export default function Brief_wrapper(props) {
                 .map((data) => data.title)}.jpg`}
               key={data.sender.id}
             />
-          </div>
-          <div className="empfänger">
-            <h1>
+            {/* get the ort */}
+            <h2>
               {orte
                 .filter((item) => {
-                  return item.id === data.empfänger.ort;
+                  return item.id === data.sender.ort;
                 })
+
                 .map((data) => data.title)}
-            </h1>
+
+              <span className="bildnachweis">
+                {orte
+                  .filter((item) => {
+                    return item.id === data.sender.ort;
+                  })
+                  .map((data) => data.bildnachweis)}
+              </span>
+            </h2>
+          </div>
+          <div className="empfänger-ort">
             <img
               src={`../../pictures/orte/${orte
                 .filter((item) => {
@@ -298,6 +312,23 @@ export default function Brief_wrapper(props) {
                 .map((data) => data.title)}.jpg`}
               key={data.empfänger.id}
             />
+
+            <h2>
+              {orte
+                .filter((item) => {
+                  return item.id === data.empfänger.ort;
+                })
+
+                .map((data) => data.title)}
+
+              <span className="bildnachweis">
+                {orte
+                  .filter((item) => {
+                    return item.id === data.empfänger.ort;
+                  })
+                  .map((data) => data.bildnachweis)}
+              </span>
+            </h2>
           </div>
         </div>
       </motion.div>
