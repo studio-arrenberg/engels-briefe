@@ -289,9 +289,9 @@
         },
         {
             "id":"10",
-            "name":"unbekannte Freundin",
+            "name":"Unbekannte Freundin",
             "beschreibung":"",
-            "lebzeit":"Unbekannt",
+            "lebzeit":"",
             "generation": "0",
             "picture":"Unbekannte_Freundin.jpg"
         }

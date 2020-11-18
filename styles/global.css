@@ -164,9 +164,9 @@ nav {
   padding-bottom: 150px;
 }
 
-.menu_left svg {
+.menu_left img {
   margin: 50px;
-  width: 50px;
+  width: 65px;
   height: auto;
 }
 
@@ -237,27 +237,50 @@ main {
   height: 300px;
 }
 
-.item_preview img:first-of-type {
-  z-index: 2;
-  left: 20px;
-  top: 20px;
-  -webkit-box-shadow: 0px 0px 45px 0px rgba(0, 0, 0, 0.35);
-  -moz-box-shadow: 0px 0px 45px 0px rgba(0, 0, 0, 0.35);
-  box-shadow: 0px 0px 45px 0px rgba(0, 0, 0, 0.35);
-}
-
 .item_preview img {
   width: 350px;
   position: absolute;
   left: 0px;
   top: 0px;
+
+  -webkit-filter: drop-shadow(0px 0px 45px rgba(0, 0, 0, 0.35));
+  filter: drop-shadow(0px 0px 45px rgba(0, 0, 0, 0.35));
 }
 
+
 .item_preview img:first-of-type {
-  z-index: 2;
-  left: 20px;
-  top: 20px;
+  z-index: 5;
+  left: 0px;
+  top: 0px;
 }
+
+.item_preview img:nth-of-type(2) {
+  z-index: 4;
+  left: -20px;
+  top: -20px;
+}
+
+.item_preview img:nth-of-type(3) {
+  z-index: 3;
+  left: -40px;
+  top: -40px;
+}
+.item_preview img:nth-of-type(4) {
+  z-index: 2;
+  left: -60px;
+  top: -60px;
+}
+
+.item_preview img:nth-of-type(5) {
+  z-index: 1;
+  left: -80px;
+  top: -80px;
+}
+
+.item_preview img:nth-of-type(6), .item_preview img:nth-of-type(7), .item_preview img:nth-of-type(8) {
+ display: none;
+}
+
 
 .item_description {
   position: absolute;
@@ -322,6 +345,7 @@ ul,
 li {
   font-weight: 500;
   margin: 0px;
+  letter-spacing: 0.04rem;
  
 }
 
@@ -344,6 +368,9 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+p {
+  line-height: 1.3rem;
 }
 
 /* TYPO CLOSE */
@@ -417,10 +444,6 @@ img {
   width: 800px;
 }
 
-.kuvert_img {
-  width: 80%;
-  margin-left: 20%;
-}
 .kuvert {
   color: #fff;
   font-size: 2rem;
@@ -442,23 +465,47 @@ img {
 
 .player {
   position: fixed;
-  right: 100px;
   bottom: 0px;
-  width: 300px;
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
   display: flex;
   z-index: 300;
+  justify-content: center;
+  /* background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 120%); */
+
 }
 
 .player .app {
-  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  width: 600px;
+  padding: 20px 30px 0px 30px;
+  background-color: rgba(0, 0, 0, 0.75);
+  height: 90px;
+
+
 }
 
 .player .controls {
   position: absolute;
-  top: 15px;
-  left: -75px;
+  right: -90px;
+  bottom: 0px;
+  height: 90px;
+  padding: 35px 35px 0px 35px;
+
+  background-color: #000;
+
+  
+}
+/* 
+#waveform{
+  display: flex;
+
+
 }
 
+ */
 
 
 .vergleichs-ansicht {

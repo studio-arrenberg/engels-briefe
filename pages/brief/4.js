@@ -7,7 +7,7 @@ import Head from "next/head";
 export default function page() {
 
   const item = data.briefe.filter((data, index) => {
-    return data.id === "1";
+    return data.id === "4";
   });
 
   console.log(item);
