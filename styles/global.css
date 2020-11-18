@@ -529,7 +529,7 @@ img {
   font-family: "Charter";
   line-height: 1.4rem;
   letter-spacing: 0.1px;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .vergleichs-ansicht .corr, .vergleichs-ansicht .stellenerläuterungen {
@@ -537,6 +537,11 @@ img {
 }
 
 
+.vergleichs-ansicht .abbr, .vergleichs-ansicht .ex{
+  display: none;
+}
+
+.vergleichs-ansicht .ex:after
 
 
 .detail-ansicht {
@@ -608,7 +613,7 @@ img {
 
 .themen {
   position: fixed;
-  right: calc( -100% + 200px);
+  right: calc( -100% + 500px);
   /* transform: ; */
   top: 200px;
   z-index: 2000;
@@ -845,7 +850,7 @@ p > span .latin {
 }
 
 .orte{
-  margin-top: 0px;
+  margin-top: 200px;
   margin-bottom: 200px;
   display: flex;
  justify-content: center;

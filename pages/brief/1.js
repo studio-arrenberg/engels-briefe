@@ -33,7 +33,7 @@ export default function page() {
                 className="page"
                 style={{
                   paddingTop: "20px",
-                  paddingLeft: "80px",
+                  paddingLeft: "75px",
                   paddingBottom: "300px",
                 }}
               >

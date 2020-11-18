@@ -6,7 +6,7 @@ import { FiSkipBack } from "react-icons/fi";
 const formWaveSurferOptions = (ref) => ({
   container: ref,
   waveColor: "#fff",
-  progressColor: "#000",
+  progressColor: "#767676",
   cursorColor: "#fff",
   height: 50,
   maxCanvasWidth: 540,
@@ -24,7 +24,7 @@ export default function Waveform({ url }) {
   const wavesurfer = useRef(null);
   const [playing, setPlay] = useState(false);
   // Set Volume
-  const [volume, setVolume] = useState(0.8);
+  const [volume, setVolume] = useState(0.8); 
 
   // create new WaveSurfer instance
   // On component mount and when url changes
