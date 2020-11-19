@@ -78,13 +78,14 @@ export default function Brief_wrapper(props) {
   const x = useMotionValue(0);
   // const y = useMotionValue(0);
 
-  const handlebar_width = 450;
-  const handle_constraint = width - handlebar_width;
-
-  const x_fast = useTransform(x, (latestX) => latestX * 1.2); // 15" 1.2
-  const x_slow = useTransform(x, (latestX) => latestX * 0.5); // 15" 0.58
+  const x_fast = useTransform(x, (latestX) => latestX * 1.01); // 15" 1.2
+  const x_slow = useTransform(x, (latestX) => latestX * 0.57); // 15" 0.58
   // const x_normal = useTransform(x, (latestX) => latestX - 500);
   const x_normal = useTransform(x, [0, -300, -2500], [-500, -600, -2500]); // test
+
+  const handlebar_width = 450;
+  const handle_constraint = width - handlebar_width;
+  
 
   const input = [-width, -handle_constraint, -handlebar_width, 0];
   const output_width = [

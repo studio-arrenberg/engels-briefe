@@ -863,7 +863,7 @@ p > span .latin {
 
 .bouncingball-left {
   position: fixed;
-  left: 75%;
+  left: 73%;
   top: 50vh;
   width: 200px;
   z-index: 120;
