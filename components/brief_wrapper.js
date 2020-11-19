@@ -78,11 +78,13 @@ export default function Brief_wrapper(props) {
   const x = useMotionValue(0);
   // const y = useMotionValue(0);
 
-  const x_fast = useTransform(x, (latestX) => latestX * 1.2); // 15" 1.2
-  const x_slow = useTransform(x, (latestX) => latestX * 0.5); // 15" 0.58
-
   const handlebar_width = 450;
   const handle_constraint = width - handlebar_width;
+
+  const x_fast = useTransform(x, (latestX) => latestX * 1.2); // 15" 1.2
+  const x_slow = useTransform(x, (latestX) => latestX * 0.5); // 15" 0.58
+  // const x_normal = useTransform(x, (latestX) => latestX - 500);
+  const x_normal = useTransform(x, [0, -300, -2500], [-500, -600, -2500]); // test
 
   const input = [-width, -handle_constraint, -handlebar_width, 0];
   const output_width = [
@@ -108,11 +110,11 @@ export default function Brief_wrapper(props) {
  }, [inputRef]);
 
   // Swipe animation fade in / out on y position
-  const { scrollYProgress } = useViewportScroll()
-  const scrollinput = [0, 1200, swipeheight, height];
-  const opacityswipeoutput = [1,1,1,0];
-  const opacityswipe = useTransform(x, scrollinput, opacityswipeoutput);
-
+  // const { scrollY, scrollYProgress } = useViewportScroll()
+  // const scrollinput = [0, 1150, 1170, swipeheight + 1170,swipeheight + 1200, height];
+  // const opacityswipeoutput = [0,0,1,1,1,0];
+  // const opacityswipe = useTransform(scrollY, scrollinput, opacityswipeoutput);
+  const opacityswipe = 1;
 
   // Stellenbeschreibung ein und ausblenden
 
@@ -132,8 +134,7 @@ export default function Brief_wrapper(props) {
         key={`brief-${data.id}`}
         variants={constants.animation.section_exit}
       >
-                  {/* META */}
-
+        {/* META */}
         <motion.div
         className="meta"
           key={`brief-inner-${data.id}`}
@@ -282,7 +283,7 @@ export default function Brief_wrapper(props) {
           <motion.div
             className="detail"
             style={{
-              x: x,
+              x: x_normal,
             }}
           >
             <div
