@@ -37,7 +37,7 @@
             "empfänger" : {"name": "Johann Caspar Engels", "ort": "1", "id":"3"},
             "text" : "Wie freue ich mich daß Du glücklich, gesund und munter zu Hause gekommen bist, und Dich nach der Reise so wohl befindest – der gütige Gott seye von ganzem Herzen dafür gedankt daß Er Dich begleitet und vor Unglück bewahret hat – Er der liebevolle Menschenhüter seye Dir dann auf Deiner nächsten Reise hierhin auch wieder recht nahe und führe Dich doch gesund und wohl in meine Armen.",
             "digitalisate": {"cover": "FE_22.1.png", "page": ["FE_26.2.png","FE_26.3.png","FE_26.4.png"]},
-            "audio" :""
+            "audio" :"022.mp3"
         },
         {
             "id" : "29",
@@ -47,7 +47,7 @@
             "empfänger" : {"name": "Johann Caspar Engels", "ort": "10", "id":"3"},
             "text" : "Deine beyde liebe Briefe habe ich vorgestern Morgen zugleich erhalten, der aus Schwalbach muß also Unterwegens liegen geblieben seyn – wie groß war meine Freude als ich etwas von Deiner lieben Hand erblickte, und die erfreuliche Nachricht las, daß Du mein Bester! ",
             "digitalisate": {"cover": "sjdb.png", "page": ["FE_29.1.png","FE_29.2.png", "FE_29.3.png", "FE_29.4.png"]},
-            "audio" :""
+            "audio" :"029.mp3"
         },
         {
             "id" : "68",
