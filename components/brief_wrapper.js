@@ -5,7 +5,7 @@ import {
   useDragControls,
   transform,
   useTransform,
-  useViewportScroll
+  useViewportScroll,
 } from "framer-motion";
 import constants from "./constants";
 import Layout from "./layout";
@@ -64,19 +64,19 @@ export default function Brief_wrapper(props) {
     // setActive(!isActive);
     if (name == isThema) {
       console.log("same");
-      setThema('false');
+      setThema("false");
       setActive(true);
-    }
-    else {
+    } else {
       setThema(name);
       setActive(false);
-    } 
+    }
     console.log("current: " + name + " useState: " + isThema);
   }
 
   // Vertical Slider
   const x = useMotionValue(0);
   // const y = useMotionValue(0);
+  const { scrollY, scrollYProgress } = useViewportScroll()
 
   const x_fast = useTransform(x, (latestX) => latestX * 1.08); // 15" 1.2
   const x_slow = useTransform(x, (latestX) => latestX * 0.61); // 15" 0.58
@@ -85,9 +85,8 @@ export default function Brief_wrapper(props) {
 
   const handlebar_width = 550;
   const handle_constraint = width - handlebar_width;
-  
 
-  const input = [-width, -handle_constraint, -handlebar_width, 0];
+  const input = [-width, -width + 200, -200, 0];
   const output_width = [
     handlebar_width,
     width * 0.8,
@@ -96,19 +95,48 @@ export default function Brief_wrapper(props) {
   ];
   const output_opacity = [0, 0.2, 0.6, 1];
 
+  const [pos_y, SetPos_y] = useState(0)
+  const handle_color = ""; // for testing
+  const handle_y = useTransform(scrollY, (latestX) => latestX * 1);
   const handle_width = useTransform(x, input, output_width);
   const letter_opacity = useTransform(x, input, output_opacity);
   const ball_opacity_right = useTransform(x, input, [0, 0, 0, 1]);
   const ball_opacity_left = useTransform(x, input, [1, 1, 0, 0]);
 
+
+  const [lastYPos, setLastYPos] = React.useState(0);
+  const [shouldShowActions, setShouldShowActions] = React.useState(false);
+
+  React.useEffect(() => {
+    function handleScroll() {
+      
+      const yPos = window.scrollY;
+
+      SetPos_y(yPos)
+      const isScrollingUp = yPos < lastYPos;
+
+      setShouldShowActions(isScrollingUp);
+      setLastYPos(yPos);
+    }
+
+    window.addEventListener("scroll", handleScroll, false);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll, false);
+    };
+  }, [lastYPos]);
+
   // Get swipewrapper height
   const inputRef = useRef(null);
   const [swipeheight, setSwipheight] = useState(0);
 
-  useEffect((swipewrapper_height) => {
-    console.log('Input height', inputRef.current.offsetHeight);   
-    setSwipheight(inputRef.current.offsetHeight);
- }, [inputRef]);
+  useEffect(
+    (swipewrapper_height) => {
+      console.log("Input height", inputRef.current.offsetHeight);
+      setSwipheight(inputRef.current.offsetHeight);
+    },
+    [inputRef]
+  );
 
   // Swipe animation fade in / out on y position
   // const { scrollY, scrollYProgress } = useViewportScroll()
@@ -123,9 +151,27 @@ export default function Brief_wrapper(props) {
 
   // themen card class ausgefahren/activ
 
-
-
   return data.map((data, id) => {
+
+    // scrollY.onChange(x => {
+    //   // setFfLayer(x > 0.4 ? -1 : 0)
+    //   console.log("pro: " + scrollY)
+    // })
+
+    // scrollY.onChange((latest) => {
+    //   console.log(latest);
+    // });
+
+    // scrollY.onChange(y => {
+    //   SetPos_y(y - (1000))
+    //   // console.log(pos_y)
+    // })
+
+    // scrollYProgress.onChange(y => {
+    //   // SetPos_y(y)
+    //   console.log(y)
+    // })
+
     return (
       <motion.div
         className="brief_view"
@@ -137,64 +183,64 @@ export default function Brief_wrapper(props) {
       >
         {/* META */}
         <motion.div
-        className="meta"
+          className="meta"
           key={`brief-inner-${data.id}`}
           variants={constants.animation.post}
           layoutId={`${data.id}`}
         >
-            {/* sender */}
-            {sen[0].map((item, index) => (
-              <div key={`sender-${index}`} className="sender">
-                <div className="meta-beschreibung">
-                  <h2>
-                    <span className="name">{item.name}</span>
-                    <br></br>
-                    <span className="name">{item.lebzeit}</span>
-                  </h2>
-                  {/* get the ort */}
-                  <h3>
-                    {orte
-                      .filter((item) => {
-                        return item.id === data.sender.ort;
-                      })
-                      .map((data) => data.title)}
-                  </h3>
-                </div>
-
-                <img
-                  className="portrait"
-                  src={`../pictures/personen/thumbnails/${item.picture}`}
-                />
+          {/* sender */}
+          {sen[0].map((item, index) => (
+            <div key={`sender-${index}`} className="sender">
+              <div className="meta-beschreibung">
+                <h2>
+                  <span className="name">{item.name}</span>
+                  <br></br>
+                  <span className="name">{item.lebzeit}</span>
+                </h2>
+                {/* get the ort */}
+                <h3>
+                  {orte
+                    .filter((item) => {
+                      return item.id === data.sender.ort;
+                    })
+                    .map((data) => data.title)}
+                </h3>
               </div>
-            ))}
 
-            <img className="arrow_send" src={`../icons/back.svg`} />
+              <img
+                className="portrait"
+                src={`../pictures/personen/thumbnails/${item.picture}`}
+              />
+            </div>
+          ))}
 
-            {/* empfänger */}
+          <img className="arrow_send" src={`../icons/back.svg`} />
 
-            {emp[0].map((item, index) => (
-              <div key={`reciever-${index}`} className="empfänger">
-                <img
-                  className="portrait"
-                  src={`../pictures/personen/thumbnails/${item.picture}`}
-                />
-                <div className="meta-beschreibung">
-                  <h2>
-                    <span className="name">{item.name}</span>
-                    <br></br>
-                    <span className="name">{item.lebzeit}</span>
-                  </h2>
-                  {/* get the ort */}
-                  <h3>
-                    {orte
-                      .filter((item) => {
-                        return item.id === data.empfänger.ort;
-                      })
-                      .map((data) => data.title)}
-                  </h3>
-                </div>
+          {/* empfänger */}
+
+          {emp[0].map((item, index) => (
+            <div key={`reciever-${index}`} className="empfänger">
+              <img
+                className="portrait"
+                src={`../pictures/personen/thumbnails/${item.picture}`}
+              />
+              <div className="meta-beschreibung">
+                <h2>
+                  <span className="name">{item.name}</span>
+                  <br></br>
+                  <span className="name">{item.lebzeit}</span>
+                </h2>
+                {/* get the ort */}
+                <h3>
+                  {orte
+                    .filter((item) => {
+                      return item.id === data.empfänger.ort;
+                    })
+                    .map((data) => data.title)}
+                </h3>
               </div>
-            ))}
+            </div>
+          ))}
 
           {/* brief inhalt */}
         </motion.div>
@@ -233,7 +279,6 @@ export default function Brief_wrapper(props) {
               ))}
 
               <h3>Originaldokument </h3>
-
             </motion.div>
             <motion.div
               key="digitalisat2"
@@ -256,21 +301,26 @@ export default function Brief_wrapper(props) {
             className="handlebar"
             style={{
               width: handle_width,
-              opacity: 1,       
+              opacity: 1,
               x,
+              // y : pos_y,
+              backgroundColor: handle_color,
             }}
             dragConstraints={{ left: -handle_constraint, right: 0 }}
             // onDrag={(event, info) => console.log("raw: " + info.point.x + " trans: " + transform(info.point.x, input, output))}
           >
-            <motion.div
+            <motion.div className="hellodiv" style={{
+                y: pos_y,
+            }} />
+            {/* <motion.div
               className="bouncingball-right"
               style={{ opacity: ball_opacity_right, rotate: 0 }}
             >
-              <motion.div style={{opacity: opacityswipe}}>
-              <BouncingBall />
+              <motion.div style={{ opacity: opacityswipe }}>
+                <BouncingBall />
               </motion.div>
-              
-          {/* <h2>hi {swipeheight}</h2>  */}
+
+              <p>detailansicht</p>
             </motion.div>
 
             <motion.div
@@ -278,7 +328,7 @@ export default function Brief_wrapper(props) {
               style={{ opacity: ball_opacity_left, rotate: 180 }}
             >
               <BouncingBall />
-            </motion.div>
+            </motion.div> */}
           </motion.div>
 
           <motion.div
@@ -304,9 +354,12 @@ export default function Brief_wrapper(props) {
                 x: x,
               }}
             >
-
               {them.map((item, index) => (
-                <a className={`${isThema == item[0].slug ? 'activ' : 'null'}`} onClick={() => themenToggle(item[0].slug)} key={item[0].id}>
+                <a
+                  className={`${isThema == item[0].slug ? "activ" : "null"}`}
+                  onClick={() => themenToggle(item[0].slug)}
+                  key={item[0].id}
+                >
                   <img src={`../pictures/themen/${item[0].picture}`} />
                   <label>{item[0].title}</label>
                 </a>
@@ -445,7 +498,7 @@ export function BouncingBall() {
 //   const inputRef = useRef(null);
 //   useEffect(() => {
 //      const height = inputRef.current.offsetHeight;
-//      console.log('Input height', height);   
+//      console.log('Input height', height);
 //   }, [inputRef]);
 
 //   return <>

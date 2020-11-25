@@ -852,21 +852,30 @@ p > span .latin {
   backface-visibility: hidden;
   }
 
+.hellodiv {
+  position: relative;
+  height: 200px;
+  width: 300px;
+  background-color: brown;
+}
+
 /* bouncing ball */
 .bouncingball-right {
-  position: fixed;
+  position: absolute;
   left: 95%;
   top: 50vh;
   width: 200px;
   z-index: 120;
+  background-color: brown;
 }
 
 .bouncingball-left {
-  position: fixed;
+  position: absolute;
   left: 73%;
   top: 50vh;
   width: 200px;
   z-index: 120;
+  background-color: brown;
 }
 
 .orte{

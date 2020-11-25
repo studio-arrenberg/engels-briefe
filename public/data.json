@@ -37,7 +37,7 @@
             "empfänger" : {"name": "Johann Caspar Engels", "ort": "1", "id":"3"},
             "text" : "Wie freue ich mich daß Du glücklich, gesund und munter zu Hause gekommen bist, und Dich nach der Reise so wohl befindest – der gütige Gott seye von ganzem Herzen dafür gedankt daß Er Dich begleitet und vor Unglück bewahret hat – Er der liebevolle Menschenhüter seye Dir dann auf Deiner nächsten Reise hierhin auch wieder recht nahe und führe Dich doch gesund und wohl in meine Armen.",
             "digitalisate": {"cover": "FE_22.1.png", "page": ["FE_26.2.png","FE_26.3.png","FE_26.4.png"]},
-            "audio" :""
+            "audio" :"022.mp3"
         },
         {
             "id" : "29",
@@ -47,7 +47,7 @@
             "empfänger" : {"name": "Johann Caspar Engels", "ort": "10", "id":"3"},
             "text" : "Deine beyde liebe Briefe habe ich vorgestern Morgen zugleich erhalten, der aus Schwalbach muß also Unterwegens liegen geblieben seyn – wie groß war meine Freude als ich etwas von Deiner lieben Hand erblickte, und die erfreuliche Nachricht las, daß Du mein Bester! ",
             "digitalisate": {"cover": "sjdb.png", "page": ["FE_29.1.png","FE_29.2.png", "FE_29.3.png", "FE_29.4.png"]},
-            "audio" :""
+            "audio" :"029.mp3"
         },
         {
             "id" : "68",
@@ -197,6 +197,7 @@
             "title":"Religion",
             "slug":"religion",
             "beschreibung":"Wie sehr die Familie Engels im regionalen Pietismus verwurzelt war, belegen insbesondere die mit Bibelzitaten und -referenzen gespickten Korrespondenzen der Großeltern Johann Caspar (II) und Louise sowie der beiden Großväter untereinander, Johann Caspar (II) und Bernhard van Haar. \n Deutlich wird hier auch die exemplarische Verbindung des Pietismus mit dem frühen Kapitalismus. Allerdings nahm die gelebte Frömmigkeit in der Familie Engels niemals jene lust- und kulturfeindlichen Ausmaße an, wie sie der junge Engels dann 1839 in seinen Briefen aus dem Wupperthal prominent geißeln wird.\n Die merkliche Abnahme der religiösen Thematik in der Folgegeneration ist Indiz für den im 19. Jahrhundert stattfindenden Prozess der Säkularisierung.",
+            "exerpt":"Wie sehr die Familie Engels im regionalen Pietismus verwurzelt war...",
             "picture":"religion.jpg"
         },
         {
@@ -204,6 +205,7 @@
             "title":"Reisen",
             "slug":"reisen",
             "beschreibung":"Die Korrespondenz innerhalb der engeren Familie verdankt sich nicht zuletzt den zahlreichen Reisen zumal der männlichen Mitglieder. Friedrichs Großvater und vermehrt sein Vater unternahmen ausgedehnte Geschäftsreisen, die sie auch ins Ausland, nach Frankreich und England führten. Für den angehenden Kaufmann war zudem vor der Heirat eine eigene Reise obligatorisch, die nicht nur beruflichen Zwecken dienen sollte, sondern gemäß bürgerlichen Vorstellungen auch der eigenen Bildung. Friedrich sen. unternahm während seiner Verlobungszeit eine solche, von Juli bis November 1818 währende Reise nach Süddeutschland, Österreich und Italien.",
+            "exerpt":"Die Korrespondenz innerhalb der engeren Familie verdankt sich nicht zuletzt...",
             "picture":"reisen.jpg"
         },
         {
@@ -211,6 +213,7 @@
             "title":"Liebe / Ehe",
             "slug":"liebe",
             "beschreibung":"Einen bedeutenden Bestandteil des Briefkonvoluts bilden die beiden Partnerbriefwechsel der Großeltern (väterlicherseits) und der Eltern, jeweils vor und nach der Eheschließung. Auch wenn sie nur unvollständig überliefert sind (primär nur die Briefe des Großvaters und des Vaters), so manifestiert sich in ihnen doch ein signifikanter sozial- und mentalitätsgeschichtlicher Wandel im Hinblick auf die Liebeskonzeption und die damit verbundenen Praktiken der Paarbildung. Während der Großvater Johann Caspar noch einem vormodernen Ehekonzept verpflichtet ist, demzufolge die Partnerin nur bedingt individualisiert, potentiell also austauschbar ist und ihre Wahl gemäß angebbaren (in Briefen mit Dritten diskutierten) sozialen, ökonomischen, religiösen und moralischen Kriterien zu erfolgen hat, ist sein Sohn Friedrich bereits ein Kind der Romantik. In seinen Briefen an die Geliebte und Braut Elise van Haar herrscht ein neuer Ton, der unverkennbar auf einen gestiegenen Grad an Emotionalisierung, Intimisierung und Individualisierung verweist. Die Briefe selbst werden für das junge Paar dabei zu dem Medium, in dem diese Liebe sich artikuliert und in dem sie gleichsam exemplarisch ‚gelebt‘ wird.",
+            "exerpt":"Einen bedeutenden Bestandteil des Briefkonvoluts bilden die beiden Partnerbriefwechsel...",
             "picture":"liebe.jpg"
         }
     ],
