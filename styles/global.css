@@ -400,7 +400,7 @@ img {
   width: 100vw;
   margin: 0 -100px;
   height: auto;
-  overflow-x: hidden;
+  overflow: hidden;
   z-index: 150;
   position: relative;
 }
@@ -846,7 +846,7 @@ p > span .latin {
   opacity: 0;
   border-radius: 15px;
   z-index: 3000;
-  overflow: hidden;
+  /* overflow: hidden; */
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   backface-visibility: hidden;
