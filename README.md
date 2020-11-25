@@ -62,6 +62,21 @@ scrollYProgress.onChange(x => {
     setFfLayer(x > 0.4 ? -1 : 0)
   })
 ```
+### Get Element height
+```js
+const YourComponent = () => {
+  const inputRef = useRef(null);
+  useEffect(() => {
+     const height = inputRef.current.offsetHeight;
+     console.log('Input height', height);
+  }, [inputRef]);
+
+  return <>
+    <input style={{height:200}} ref={inputRef} type="text" defaultValue="testing" />
+  </>
+}
+```
+
 
 ## Notes
 

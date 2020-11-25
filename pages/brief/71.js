@@ -9,10 +9,14 @@ export default function page() {
     return data.id === "71";
   });
 
-  console.log(item);
-  const ners = item.map((data, index) => data.id);
+  const key = item.map((data, index) => data.id);
   const date = item.map((data, index) => data.date);
-  console.log(ners);
+
+  const [isStellen, setStellen] = useState(false);
+  function stellen(state) {
+    // console.log("Stellen: " + state);
+    setStellen(state);
+  }
 
   return (
     <Layout>
@@ -20,7 +24,7 @@ export default function page() {
         <title>Brief {date}</title>
       </Head>
 
-      <Brief_wrapper key={`wrapper-${ners}`} data={item}>
+      <Brief_wrapper stellen={stellen} key={`wrapper-${key}`} data={item}>
         <div>
           {/*TEI front*/}
           <div className="toc toc_body">

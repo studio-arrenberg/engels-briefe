@@ -1,27 +1,30 @@
 import data from "../../public/data.json";
-import React, { Children, Component } from "react";
+import React, { Children, Component, useState } from "react";
 import Brief_wrapper from "../../components/brief_wrapper";
 import Layout from "../../components/layout";
 import Head from "next/head";
 
 export default function page() {
-
   const item = data.briefe.filter((data, index) => {
     return data.id === "1";
   });
 
-  console.log(item);
-  const ners = item.map((data, index) => data.id);
+  const key = item.map((data, index) => data.id);
   const date = item.map((data, index) => data.date);
-  console.log(ners);
-  
+
+  const [isStellen, setStellen] = useState(false);
+  function stellen(state) {
+    // console.log("Stellen: " + state);
+    setStellen(state);
+  }
+
   return (
     <Layout>
     <Head>
       <title>Brief {date}</title>
     </Head>
 
-    <Brief_wrapper key={`wrapper-${ners}`} data={item}>
+    <Brief_wrapper stellen={stellen} key={`wrapper-${key}`} data={item}>
       <div>
         {/*TEI front*/}
         <div className="toc toc_body ">
@@ -97,7 +100,7 @@ export default function page() {
         </div> 
       </div>
 
-      <div className="stellenerläuterungen">
+      <div className={`stellenerläuterungen ${isStellen ? "activ" : null}`}>
        <div className="stellenerläuterung" style={{
           top: "250px"
         }}>
@@ -113,7 +116,6 @@ export default function page() {
         <label>Maria Elisabeth Märker</label>
           <p>geb. Noot (1753–1831)</p>
         </div>
-
        </div>
 
 

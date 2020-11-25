@@ -8,27 +8,21 @@ import {
   useViewportScroll,
 } from "framer-motion";
 import constants from "./constants";
-import Layout from "./layout";
-import Head from "next/head";
 import Audio from "./audio";
 import { themen, familie, orte } from "../public/data.json";
 import React, { useState, useEffect, useRef } from "react";
-// import { FiMove } from "react-icons/fi";
-// import ReactDOM from "react-dom";
 
 export default function Brief_wrapper(props) {
+
   const [width, setWidth] = React.useState(0);
-  const [height, setHeight] = React.useState(0);
+  // const [height, setHeight] = React.useState(0);
   React.useEffect(() => {
     setWidth(window.innerWidth);
-    setHeight(window.innerHeight);
+    // setHeight(window.innerHeight);
   });
 
-  const leftpixels = width * 0.8;
-
+  // prep data
   const data = props.data;
-  // console.log(data);
-
   const pics = data.map((data) => data.digitalisate.page);
   const th = data.map((data) => data.themen.id);
   const them = [];
@@ -75,17 +69,18 @@ export default function Brief_wrapper(props) {
 
   // Vertical Slider
   const x = useMotionValue(0);
-  // const y = useMotionValue(0);
   const { scrollY, scrollYProgress } = useViewportScroll();
 
-  const x_fast = useTransform(x, (latestX) => latestX * 1.08); // 15" 1.2
-  const x_slow = useTransform(x, (latestX) => latestX * 0.61); // 15" 0.58
-  // const x_normal = useTransform(x, (latestX) => latestX - 500);
-  const x_normal = useTransform(x, [0, -300, -2500], [-300, -600, -2450]); // test
+  // Brief Pages
+  const x_fast = useTransform(x, (latestX) => latestX * 1.0); // 15" 1.2 // prev 1.08
+  const x_slow = useTransform(x, (latestX) => latestX * 0.595); // 15" 0.58 // prev 0.61
+  const x_normal = useTransform(x, [0, -300, -2500], [-350, -600, -2450]); // test
 
+  // Handlebar
   const handlebar_width = 550;
   const handle_constraint = width - handlebar_width;
 
+  // Transform
   const input = [-width, -width + 200, -200, 0];
   const output_width = [
     handlebar_width,
@@ -93,152 +88,58 @@ export default function Brief_wrapper(props) {
     width * 0.8,
     handlebar_width,
   ];
-  const output_opacity = [0, 0.2, 0.6, 1];
-
-  const [pos_y, SetPos_y] = useState(0);
   const handle_color = ""; // for testing
-  const handle_y = useTransform(scrollY, (latestX) => latestX * 1);
   const handle_width = useTransform(x, input, output_width);
-  const letter_opacity = useTransform(x, input, output_opacity);
   const ball_opacity_right = useTransform(x, input, [0, 0, 0, 1]);
   const ball_opacity_left = useTransform(x, input, [1, 1, 0, 0]);
 
-  const [lastYPos, setLastYPos] = React.useState(0);
-  const [shouldShowActions, setShouldShowActions] = React.useState(false);
+  // Toggle Stellenerläuterungen
+  const [isStellen, setStellen] = useState(false);
 
-  React.useEffect(() => {
-    function handleScroll() {
-      const yPos = window.scrollY;
-
-      SetPos_y(yPos);
-      const isScrollingUp = yPos < lastYPos;
-
-      setShouldShowActions(isScrollingUp);
-      setLastYPos(yPos);
+  x.onChange(x_pos => {
+    if (Math.abs(x_pos) < Math.abs(-1800)) {
+      // console.log("false")
+      setStellen(false)
     }
-
-    window.addEventListener("scroll", handleScroll, false);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll, false);
-    };
-  }, [lastYPos]);
-
-  // Get swipewrapper height
-  const inputRef = useRef(null);
-  const [swipeheight, setSwipheight] = useState(0);
-
-  useEffect(
-    (swipewrapper_height) => {
-      console.log("Input height", inputRef.current.offsetHeight);
-      setSwipheight(inputRef.current.offsetHeight);
-    },
-    [inputRef]
-  );
-
-  // Swipe animation fade in / out on y position
-  // const { scrollY, scrollYProgress } = useViewportScroll()
-  // const scrollinput = [0, 1150, 1170, swipeheight + 1170,swipeheight + 1200, height];
-  // const opacityswipeoutput = [0,0,1,1,1,0];
-  // const opacityswipe = useTransform(scrollY, scrollinput, opacityswipeoutput);
-  const opacityswipe = 1;
-
-  // Stellenbeschreibung ein und ausblenden
-
-  // normalisierte ansicht preview peak
-
-  // themen card class ausgefahren/activ
+    else {
+      // console.log("pro: " + Math.abs(x_pos))
+      // console.log("true")
+      setStellen(true)
+    }
+    // console.log(isStellen)
+    props.stellen(isStellen)
+  })
 
   return data.map((data, id) => {
-    // scrollY.onChange(x => {
-    //   // setFfLayer(x > 0.4 ? -1 : 0)
-    //   console.log("pro: " + scrollY)
-    // })
-
-    // scrollY.onChange((latest) => {
-    //   console.log(latest);
-    // });
-
-    // scrollY.onChange(y => {
-    //   SetPos_y(y - (1000))
-    //   // console.log(pos_y)
-    // })
-
-    // scrollYProgress.onChange(y => {
-    //   // SetPos_y(y)
-    //   console.log(y)
-    // })
 
     return (
-<<<<<<< HEAD
-      
-      <motion.div
-        className="brief_view"
-        initial="initial"
-        animate="enter"
-        exit="exit"
-        key={`brief-${data.id}`}
-        variants={constants.animation.section_exit}
-      >
-        {/* META */}
-        <motion.div
-          className="meta"
-          key={`brief-inner-${data.id}`}
-          variants={constants.animation.post}
-          layoutId={`${data.id}`}
-        >
-          {/* sender */}
-          {sen[0].map((item, index) => (
-            <div key={`sender-${index}`} className="sender">
-              <div className="meta-beschreibung">
-                <h2>
-                  <span className="name">{item.name}</span>
-                  <br></br>
-                  <span className="name">{item.lebzeit}</span>
-                </h2>
-                {/* get the ort */}
-                <h3>
-                  {orte
-                    .filter((item) => {
-                      return item.id === data.sender.ort;
-                    })
-                    .map((data) => data.title)}
-                </h3>
-              </div>
-
-              <img
-                className="portrait"
-                src={`../pictures/personen/thumbnails/${item.picture}`}
-              />
-            </div>
-          ))}
-=======
       <>
+        {/* swipe animation */}
         <div className="sticky-container">
-          
->>>>>>> 0843130a1ff79348ca2c5529413f3cea5b1e9fa2
-
           <motion.div
             className="bouncingbal"
-            style={{ opacity: ball_opacity_left, rotate: 180 }}
+            style={{ opacity: ball_opacity_left }}
           >
-            <BouncingBall />
-            <p>Vergleichsansicht</p>
+            <motion.div style={{ rotate: 180 }}>
+              <BouncingBall />
+            </motion.div>
 
+            <p>Vergleichsansicht</p>
           </motion.div>
 
-            <motion.div
+          <motion.div
             className="bouncingball"
             style={{ opacity: ball_opacity_right, rotate: 0 }}
           >
-            <motion.div style={{ opacity: opacityswipe }}>
+            <motion.div>
               <BouncingBall />
             </motion.div>
 
             <p>Detailansicht</p>
           </motion.div>
-
         </div>
+
+        {/* brief view */}
         <motion.div
           className="brief_view"
           initial="initial"
@@ -247,6 +148,7 @@ export default function Brief_wrapper(props) {
           key={`brief-${data.id}`}
           variants={constants.animation.section_exit}
         >
+          
           {/* META */}
           <motion.div
             className="meta"
@@ -317,7 +219,6 @@ export default function Brief_wrapper(props) {
             initial="initial"
             animate="enter"
             exit="exit"
-            ref={inputRef}
             variants={constants.animation.section_exit}
           >
             <motion.div className="vergleichs-ansicht vergleich">
@@ -365,6 +266,7 @@ export default function Brief_wrapper(props) {
               </motion.div>
             </motion.div>
 
+            {/* swipe handlebar */}
             <motion.div
               drag="x"
               className="handlebar"
@@ -376,31 +278,7 @@ export default function Brief_wrapper(props) {
                 backgroundColor: handle_color,
               }}
               dragConstraints={{ left: -handle_constraint, right: 0 }}
-              // onDrag={(event, info) => console.log("raw: " + info.point.x + " trans: " + transform(info.point.x, input, output))}
             >
-              <motion.div
-                className="hellodiv"
-                style={{
-                  y: pos_y,
-                }}
-              />
-              {/* <motion.div
-              className="bouncingball-right"
-              style={{ opacity: ball_opacity_right, rotate: 0 }}
-            >
-              <motion.div style={{ opacity: opacityswipe }}>
-                <BouncingBall />
-              </motion.div>
-
-              <p>detailansicht</p>
-            </motion.div>
-
-            <motion.div
-              className="bouncingball-left"
-              style={{ opacity: ball_opacity_left, rotate: 180 }}
-            >
-              <BouncingBall />
-            </motion.div> */}
             </motion.div>
 
             <motion.div
@@ -428,7 +306,7 @@ export default function Brief_wrapper(props) {
               >
                 {them.map((item, index) => (
                   <a
-                    className={`${isThema == item[0].slug ? "activ" : "null"}`}
+                    className={`${isThema == item[0].slug ? "activ" : null}`}
                     onClick={() => themenToggle(item[0].slug)}
                     key={item[0].id}
                   >
@@ -533,30 +411,10 @@ export function BouncingBall() {
     },
   };
 
-  const ballStyle = {
-    display: "block",
-    // width: "12rem",
-    width: "80px",
-    // height: "6rem",
-    backgroundColor: "white",
-    borderRadius: "3rem",
-  };
-
   return (
-    <div
-      style={{
-        position: "relative",
-        left: 0,
-        top: 0,
-        marginLeft: "auto",
-        width: "2rem",
-        height: "2rem",
-        display: "flex",
-        justifyContent: "space-around",
-      }}
-    >
+    <div className="ball">
       <motion.span
-        style={ballStyle}
+        className="ballStyle"
         transition={bounceTransition}
         animate={{
           x: ["80px", "-80px"],
@@ -567,15 +425,3 @@ export function BouncingBall() {
     </div>
   );
 }
-
-// const YourComponent = () => {
-//   const inputRef = useRef(null);
-//   useEffect(() => {
-//      const height = inputRef.current.offsetHeight;
-//      console.log('Input height', height);
-//   }, [inputRef]);
-
-//   return <>
-//     <input style={{height:200}} ref={inputRef} type="text" defaultValue="testing" />
-//   </>
-// }
