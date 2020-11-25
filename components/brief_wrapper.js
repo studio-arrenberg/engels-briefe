@@ -76,7 +76,7 @@ export default function Brief_wrapper(props) {
   // Vertical Slider
   const x = useMotionValue(0);
   // const y = useMotionValue(0);
-  const { scrollY, scrollYProgress } = useViewportScroll()
+  const { scrollY, scrollYProgress } = useViewportScroll();
 
   const x_fast = useTransform(x, (latestX) => latestX * 1.08); // 15" 1.2
   const x_slow = useTransform(x, (latestX) => latestX * 0.61); // 15" 0.58
@@ -95,7 +95,7 @@ export default function Brief_wrapper(props) {
   ];
   const output_opacity = [0, 0.2, 0.6, 1];
 
-  const [pos_y, SetPos_y] = useState(0)
+  const [pos_y, SetPos_y] = useState(0);
   const handle_color = ""; // for testing
   const handle_y = useTransform(scrollY, (latestX) => latestX * 1);
   const handle_width = useTransform(x, input, output_width);
@@ -103,16 +103,14 @@ export default function Brief_wrapper(props) {
   const ball_opacity_right = useTransform(x, input, [0, 0, 0, 1]);
   const ball_opacity_left = useTransform(x, input, [1, 1, 0, 0]);
 
-
   const [lastYPos, setLastYPos] = React.useState(0);
   const [shouldShowActions, setShouldShowActions] = React.useState(false);
 
   React.useEffect(() => {
     function handleScroll() {
-      
       const yPos = window.scrollY;
 
-      SetPos_y(yPos)
+      SetPos_y(yPos);
       const isScrollingUp = yPos < lastYPos;
 
       setShouldShowActions(isScrollingUp);
@@ -152,7 +150,6 @@ export default function Brief_wrapper(props) {
   // themen card class ausgefahren/activ
 
   return data.map((data, id) => {
-
     // scrollY.onChange(x => {
     //   // setFfLayer(x > 0.4 ? -1 : 0)
     //   console.log("pro: " + scrollY)
@@ -173,6 +170,7 @@ export default function Brief_wrapper(props) {
     // })
 
     return (
+<<<<<<< HEAD
       
       <motion.div
         className="brief_view"
@@ -214,106 +212,179 @@ export default function Brief_wrapper(props) {
               />
             </div>
           ))}
+=======
+      <>
+        <div className="sticky-container">
+          
+>>>>>>> 0843130a1ff79348ca2c5529413f3cea5b1e9fa2
 
-          <img className="arrow_send" src={`../icons/back.svg`} />
+          <motion.div
+            className="bouncingbal"
+            style={{ opacity: ball_opacity_left, rotate: 180 }}
+          >
+            <BouncingBall />
+            <p>Vergleichsansicht</p>
 
-          {/* empfänger */}
+          </motion.div>
 
-          {emp[0].map((item, index) => (
-            <div key={`reciever-${index}`} className="empfänger">
-              <img
-                className="portrait"
-                src={`../pictures/personen/thumbnails/${item.picture}`}
-              />
-              <div className="meta-beschreibung">
-                <h2>
-                  <span className="name">{item.name}</span>
-                  <br></br>
-                  <span className="name">{item.lebzeit}</span>
-                </h2>
-                {/* get the ort */}
-                <h3>
-                  {orte
-                    .filter((item) => {
-                      return item.id === data.empfänger.ort;
-                    })
-                    .map((data) => data.title)}
-                </h3>
-              </div>
-            </div>
-          ))}
+            <motion.div
+            className="bouncingball"
+            style={{ opacity: ball_opacity_right, rotate: 0 }}
+          >
+            <motion.div style={{ opacity: opacityswipe }}>
+              <BouncingBall />
+            </motion.div>
 
-          {/* brief inhalt */}
-        </motion.div>
+            <p>Detailansicht</p>
+          </motion.div>
 
+        </div>
         <motion.div
-          className="swipewrapper"
-          key="swipewrapper"
+          className="brief_view"
           initial="initial"
           animate="enter"
           exit="exit"
-          ref={inputRef}
+          key={`brief-${data.id}`}
           variants={constants.animation.section_exit}
         >
-          <motion.div className="vergleichs-ansicht vergleich">
-            <motion.div
-              key="digitalisat1"
-              className="vergleich-l digitalisate"
-              style={{
-                margin: 10,
-                x: x_slow,
-              }}
-            >
-              {/* load cover */}
+          {/* META */}
+          <motion.div
+            className="meta"
+            key={`brief-inner-${data.id}`}
+            variants={constants.animation.post}
+            layoutId={`${data.id}`}
+          >
+            {/* sender */}
+            {sen[0].map((item, index) => (
+              <div key={`sender-${index}`} className="sender">
+                <div className="meta-beschreibung">
+                  <h2>
+                    <span className="name">{item.name}</span>
+                    <br></br>
+                    <span className="name">{item.lebzeit}</span>
+                  </h2>
+                  {/* get the ort */}
+                  <h3>
+                    {orte
+                      .filter((item) => {
+                        return item.id === data.sender.ort;
+                      })
+                      .map((data) => data.title)}
+                  </h3>
+                </div>
 
-              {!!data.digitalisate.cover ? (
                 <img
-                  className="kuvert_img"
-                  src={`../../pictures/digitalisate/${data.digitalisate.cover}`}
+                  className="portrait"
+                  src={`../pictures/personen/thumbnails/${item.picture}`}
                 />
-              ) : (
-                <></>
-              )}
-              {/* load digitalisate */}
-              {pics[0].map((item, index) => (
-                <img src={`../../pictures/digitalisate/${item}`} key={index} />
-              ))}
-
-              <h3>Originaldokument </h3>
-            </motion.div>
-            <motion.div
-              key="digitalisat2"
-              className="vergleich-r"
-              style={{
-                margin: 10,
-                x: x_fast,
-                // opacity: letter_opacity,
-              }}
-            >
-              <div className="brieftext">
-                <div>{props.children}</div>
               </div>
-              <h3>Transkription</h3>
-            </motion.div>
+            ))}
+
+            <img className="arrow_send" src={`../icons/back.svg`} />
+
+            {/* empfänger */}
+
+            {emp[0].map((item, index) => (
+              <div key={`reciever-${index}`} className="empfänger">
+                <img
+                  className="portrait"
+                  src={`../pictures/personen/thumbnails/${item.picture}`}
+                />
+                <div className="meta-beschreibung">
+                  <h2>
+                    <span className="name">{item.name}</span>
+                    <br></br>
+                    <span className="name">{item.lebzeit}</span>
+                  </h2>
+                  {/* get the ort */}
+                  <h3>
+                    {orte
+                      .filter((item) => {
+                        return item.id === data.empfänger.ort;
+                      })
+                      .map((data) => data.title)}
+                  </h3>
+                </div>
+              </div>
+            ))}
+
+            {/* brief inhalt */}
           </motion.div>
 
           <motion.div
-            drag="x"
-            className="handlebar"
-            style={{
-              width: handle_width,
-              opacity: 1,
-              x,
-              // y : pos_y,
-              backgroundColor: handle_color,
-            }}
-            dragConstraints={{ left: -handle_constraint, right: 0 }}
-            // onDrag={(event, info) => console.log("raw: " + info.point.x + " trans: " + transform(info.point.x, input, output))}
+            className="swipewrapper"
+            key="swipewrapper"
+            initial="initial"
+            animate="enter"
+            exit="exit"
+            ref={inputRef}
+            variants={constants.animation.section_exit}
           >
-            <motion.div className="hellodiv" style={{
-                y: pos_y,
-            }} />
-            {/* <motion.div
+            <motion.div className="vergleichs-ansicht vergleich">
+              <motion.div
+                key="digitalisat1"
+                className="vergleich-l digitalisate"
+                style={{
+                  margin: 10,
+                  x: x_slow,
+                }}
+              >
+                {/* load cover */}
+
+                {!!data.digitalisate.cover ? (
+                  <img
+                    className="kuvert_img"
+                    src={`../../pictures/digitalisate/${data.digitalisate.cover}`}
+                  />
+                ) : (
+                  <></>
+                )}
+                {/* load digitalisate */}
+                {pics[0].map((item, index) => (
+                  <img
+                    src={`../../pictures/digitalisate/${item}`}
+                    key={index}
+                  />
+                ))}
+
+                <h3>Originaldokument </h3>
+              </motion.div>
+              <motion.div
+                key="digitalisat2"
+                className="vergleich-r"
+                style={{
+                  margin: 10,
+                  x: x_fast,
+                  // opacity: letter_opacity,
+                }}
+              >
+                <div className="brieftext">
+                  <div>{props.children}</div>
+                </div>
+                <h3>Transkription</h3>
+              </motion.div>
+            </motion.div>
+
+            <motion.div
+              drag="x"
+              className="handlebar"
+              style={{
+                width: handle_width,
+                opacity: 1,
+                x,
+                // y : pos_y,
+                backgroundColor: handle_color,
+              }}
+              dragConstraints={{ left: -handle_constraint, right: 0 }}
+              // onDrag={(event, info) => console.log("raw: " + info.point.x + " trans: " + transform(info.point.x, input, output))}
+            >
+              <motion.div
+                className="hellodiv"
+                style={{
+                  y: pos_y,
+                }}
+              />
+              {/* <motion.div
               className="bouncingball-right"
               style={{ opacity: ball_opacity_right, rotate: 0 }}
             >
@@ -330,108 +401,109 @@ export default function Brief_wrapper(props) {
             >
               <BouncingBall />
             </motion.div> */}
-          </motion.div>
-
-          <motion.div
-            className="detail"
-            style={{
-              x: x_normal,
-            }}
-          >
-            <div
-              className={`detail-ansicht ${
-                isActive ? null : "themenmakierung-active"
-              } ${isActive ? null : isThema + "-active"}`}
-            >
-              <div className="normalisiert">
-                {props.children}
-                <h3>Normalisierte Leseansicht</h3>
-              </div>
-            </div>
+            </motion.div>
 
             <motion.div
-              className="themen"
+              className="detail"
               style={{
-                x: x,
+                x: x_normal,
               }}
             >
-              {them.map((item, index) => (
-                <a
-                  className={`${isThema == item[0].slug ? "activ" : "null"}`}
-                  onClick={() => themenToggle(item[0].slug)}
-                  key={item[0].id}
-                >
-                  <img src={`../pictures/themen/${item[0].picture}`} />
-                  <label>{item[0].title}</label>
-                </a>
-              ))}
+              <div
+                className={`detail-ansicht ${
+                  isActive ? null : "themenmakierung-active"
+                } ${isActive ? null : isThema + "-active"}`}
+              >
+                <div className="normalisiert">
+                  {props.children}
+                  <h3>Normalisierte Leseansicht</h3>
+                </div>
+              </div>
+
+              <motion.div
+                className="themen"
+                style={{
+                  x: x,
+                }}
+              >
+                {them.map((item, index) => (
+                  <a
+                    className={`${isThema == item[0].slug ? "activ" : "null"}`}
+                    onClick={() => themenToggle(item[0].slug)}
+                    key={item[0].id}
+                  >
+                    <img src={`../pictures/themen/${item[0].picture}`} />
+                    <label>{item[0].title}</label>
+                  </a>
+                ))}
+              </motion.div>
             </motion.div>
           </motion.div>
-        </motion.div>
 
-        <div className="player">
-          <Audio file={data.audio}></Audio>
-        </div>
+          <div className="player">
+            <Audio file={data.audio}></Audio>
+          </div>
 
-        {/* orte */}
+          {/* orte */}
 
-        <div className="orte">
-          <div className="sender-ort">
-            <img
-              src={`../../pictures/orte/${orte
-                .filter((item) => {
-                  return item.id === data.sender.ort;
-                })
-                .map((data) => data.title)}.jpg`}
-              key={data.sender.id}
-            />
-            {/* get the ort */}
-            <h2>
-              {orte
-                .filter((item) => {
-                  return item.id === data.sender.ort;
-                })
-
-                .map((data) => data.title)}
-
-              <span className="bildnachweis">
+          <div className="orte">
+            <div className="sender-ort">
+              <img
+                src={`../../pictures/orte/${orte
+                  .filter((item) => {
+                    return item.id === data.sender.ort;
+                  })
+                  .map((data) => data.title)}.jpg`}
+                key={data.sender.id}
+              />
+              {/* get the ort */}
+              <h2>
                 {orte
                   .filter((item) => {
                     return item.id === data.sender.ort;
                   })
-                  .map((data) => data.bildnachweis)}
-              </span>
-            </h2>
-          </div>
-          <div className="empfänger-ort">
-            <img
-              src={`../../pictures/orte/${orte
-                .filter((item) => {
-                  return item.id === data.empfänger.ort;
-                })
-                .map((data) => data.title)}.jpg`}
-              key={data.empfänger.id}
-            />
 
-            <h2>
-              {orte
-                .filter((item) => {
-                  return item.id === data.empfänger.ort;
-                })
+                  .map((data) => data.title)}
 
-                .map((data) => data.title)}
+                <span className="bildnachweis">
+                  {orte
+                    .filter((item) => {
+                      return item.id === data.sender.ort;
+                    })
+                    .map((data) => data.bildnachweis)}
+                </span>
+              </h2>
+            </div>
+            <div className="empfänger-ort">
+              <img
+                src={`../../pictures/orte/${orte
+                  .filter((item) => {
+                    return item.id === data.empfänger.ort;
+                  })
+                  .map((data) => data.title)}.jpg`}
+                key={data.empfänger.id}
+              />
 
-              <span className="bildnachweis">
+              <h2>
                 {orte
                   .filter((item) => {
                     return item.id === data.empfänger.ort;
                   })
-                  .map((data) => data.bildnachweis)}
-              </span>
-            </h2>
+
+                  .map((data) => data.title)}
+
+                <span className="bildnachweis">
+                  {orte
+                    .filter((item) => {
+                      return item.id === data.empfänger.ort;
+                    })
+                    .map((data) => data.bildnachweis)}
+                </span>
+              </h2>
+            </div>
           </div>
-        </div>
-      </motion.div>
+        </motion.div>
+      </>
     );
   });
 }
@@ -476,6 +548,7 @@ export function BouncingBall() {
         position: "relative",
         left: 0,
         top: 0,
+        marginLeft: "auto",
         width: "2rem",
         height: "2rem",
         display: "flex",

@@ -90,10 +90,10 @@ npm install framer-motion@2.9.3
 | 071         | Johann Caspar Engels         | 1813-11-12    | Barmen     | :white_check_mark: | :white_check_mark: |        | :white_check_mark: |
 | 075         | Johann Caspar Engels         | 1814-02-03    | Barmen     | :white_check_mark: | :white_check_mark: |        | :white_check_mark: |
 | 130         | Friedrich Engels sen.        | 1816-09-21    | Barmen     | :white_check_mark: | :white_check_mark: |        | :white_check_mark: |
-| 169         | Friedrich Engels sen.        | 1818-07-03/04 | Barmen     | :white_check_mark: |  |        | :white_check_mark: |
-| 235a        | Friedrich Engels sen.        | 1820-12-01    | Barmen     | :white_check_mark: |  |        | :white_check_mark: | Schlechte Scan Qualität!                      |
-| 255         | Friedrich Engels sen.        | 1822-07-09    | Barmen     | :white_check_mark: |  |        | :white_check_mark: |
-| 265         | Friedrich Engels sen.        | 1823-05-31    | Barmen     | :white_check_mark: |  |        | :white_check_mark: |
+| 169         | Friedrich Engels sen.        | 1818-07-03/04 | Barmen     | :white_check_mark: | :white_check_mark: |        | :white_check_mark: | Themenmarkierung 009 Doppelt vorhanden
+| 235a        | Friedrich Engels sen.        | 1820-12-01    | Barmen     | :white_check_mark: | :white_check_mark: |        | :white_check_mark: | Schlechte Scan Qualität!                      |
+| 255         | Friedrich Engels sen.        | 1822-07-09    | Barmen     | :white_check_mark: | :white_check_mark: |        | :white_check_mark: |
+| 265         | Friedrich Engels sen.        | 1823-05-31    | Barmen     | :white_check_mark: | :white_check_mark: |        | :white_check_mark: |
 | 284         | Gerhard Bernhard van Haar    | 1826-04-20    | Hamm       | :white_check_mark: |  |        | :white_check_mark: | Fehlerhaftes Datum in XML Dokument, teilweise 1925 angegeben
 | 294         | Friedrich Engels sen.        | 1827-08-16    | Paris      | :white_check_mark: |  |        | :white_check_mark: |
 | 306         | Friedrich Engels sen.        | 1838-07-26    | London     | :white_check_mark: |  |        | :white_check_mark: |
