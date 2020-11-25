@@ -173,6 +173,7 @@ export default function Brief_wrapper(props) {
     // })
 
     return (
+      
       <motion.div
         className="brief_view"
         initial="initial"

@@ -109,6 +109,10 @@ npm install framer-motion@2.9.3
 [Bouncing Ball](https://blog.sethcorker.com/framer-motion-bouncing-ball-animation)<br>
 [Tap to expand](https://blog.sethcorker.com/react-animation-tap-to-expand)<br>
 
+## React Examples
+
+[Inactivity Timeout](https://medium.com/tinyso/how-to-detect-inactive-user-to-auto-logout-by-using-idle-timeout-in-javascript-react-angular-and-b6279663acf2)
+
 ## Feedback Uni (Editionswissenschaften)
 
 * Digitalisate sind mit Bleistift beschriftet
