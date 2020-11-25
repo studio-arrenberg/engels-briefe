@@ -14,11 +14,19 @@ export default function Home() {
       <Head>
         <title>Engelsbriefe</title>
       </Head>
-
+      <div className=" scrollable-index">
       <Thema id="2" />
       <Ort id="1" />
       <Person id="1" />
       <Brief id="1" />
+      <Brief id="1" />
+      <Brief id="1" />
+      <Brief id="1" />
+      <Brief id="1" />
+      <Brief id="1" />
+      <Brief id="1" />
+      <Brief id="1" />
+      </div>
     </Layout>
   );
 }
