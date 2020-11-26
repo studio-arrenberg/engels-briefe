@@ -11,6 +11,8 @@ import constants from "./constants";
 import Audio from "./audio";
 import { themen, familie, orte } from "../public/data.json";
 import React, { useState, useEffect, useRef } from "react";
+import IdleTimer from '../components/IdleTimer';
+// import idleTimer from "idle-timer";
 
 export default function Brief_wrapper(props) {
 
@@ -96,24 +98,23 @@ export default function Brief_wrapper(props) {
   // Toggle Stellenerläuterungen
   const [isStellen, setStellen] = useState(false);
 
-  x.onChange(x_pos => {
+  x.onChange((x_pos) => {
     if (Math.abs(x_pos) < Math.abs(-1800)) {
       // console.log("false")
-      setStellen(false)
-    }
-    else {
+      setStellen(false);
+    } else {
       // console.log("pro: " + Math.abs(x_pos))
       // console.log("true")
-      setStellen(true)
+      setStellen(true);
     }
     // console.log(isStellen)
-    props.stellen(isStellen)
-  })
+    props.stellen(isStellen);
+  });
 
   return data.map((data, id) => {
-
     return (
       <>
+      <IdleTimer/>
         {/* swipe animation */}
         <div className="sticky-container">
           <motion.div
@@ -148,7 +149,6 @@ export default function Brief_wrapper(props) {
           key={`brief-${data.id}`}
           variants={constants.animation.section_exit}
         >
-          
           {/* META */}
           <motion.div
             className="meta"
@@ -156,6 +156,7 @@ export default function Brief_wrapper(props) {
             variants={constants.animation.post}
             layoutId={`${data.id}`}
           >
+            
             {/* sender */}
             {sen[0].map((item, index) => (
               <div key={`sender-${index}`} className="sender">
@@ -278,8 +279,7 @@ export default function Brief_wrapper(props) {
                 backgroundColor: handle_color,
               }}
               dragConstraints={{ left: -handle_constraint, right: 0 }}
-            >
-            </motion.div>
+            ></motion.div>
 
             <motion.div
               className="detail"
