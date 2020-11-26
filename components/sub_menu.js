@@ -3,11 +3,12 @@ import Link from "next/link";
 import Router from "next/router";
 import { FiArrowLeft } from "react-icons/fi";
 
+
 export default function Menu() {
   return (
     <nav>
       <a className="menu_left" onClick={() => Router.back()}>
-        <FiArrowLeft />
+      <img src="../icons/back.svg"></img>
       </a>
 
       <div className="menu_right">

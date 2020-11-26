@@ -27,6 +27,7 @@ export default function Briefe() {
 }
 
 export function Thema() {
+
   return data.themen.map((data, id) => {
     return (
       <div className="item" key={`${data.id}`}>
@@ -41,7 +42,7 @@ export function Thema() {
                 <img src={`../pictures/themen/thumbnails/${data.picture}`} />
                 <div className="item_description">
                   <h2>{data.title}</h2>
-                  <p>{data.beschreibung}</p>
+                  <p>{data.beschreibung.split('\n').map( (it, i) => <div key={'x'+i}>{it}</div> )}</p>
                 </div>
               </div>
             </a>

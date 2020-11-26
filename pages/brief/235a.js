@@ -1,14 +1,30 @@
 import data from "../../public/data.json";
-import React, { Children, Component } from "react";
+import React, { Children, Component, useState } from "react";
 import Brief_wrapper from "../../components/brief_wrapper";
+import Layout from "../../components/layout";
+import Head from "next/head";
 
 export default function page() {
   const item = data.briefe.filter((data) => {
     return data.id === "235";
   });
 
+  const key = item.map((data, index) => data.id);
+  const date = item.map((data, index) => data.date);
+
+  const [isStellen, setStellen] = useState(false);
+  function stellen(state) {
+    // console.log("Stellen: " + state);
+    setStellen(state);
+  }
+
   return (
-    <Brief_wrapper data={item}>
+    <Layout>
+    <Head>
+      <title>Brief {date}</title>
+    </Head>
+
+    <Brief_wrapper stellen={stellen} key={`wrapper-${key}`} data={item}>
       {/* brief text goes here */}
       {/* <!-- Themenmarkierung --> */}
       <div type="mark">
@@ -464,5 +480,6 @@ export default function page() {
         </div>
       </div>
     </Brief_wrapper>
+    </Layout>
   );
 }

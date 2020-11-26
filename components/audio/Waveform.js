@@ -1,17 +1,18 @@
 import React, { useRef, useEffect, useState } from "react";
 import WaveSurfer from "wavesurfer.js";
 import { FiSkipBack } from "react-icons/fi";
-import ReactTimeout from "react-timeout";
+// import ReactTimeout from "react-timeout";
 
 const formWaveSurferOptions = (ref) => ({
   container: ref,
-  waveColor: "white",
-  progressColor: "black",
-  cursorColor: "red",
-  barRadius: 1,
-  responsive: true,
+  waveColor: "#fff",
+  progressColor: "#767676",
+  cursorColor: "#fff",
   height: 50,
-  barWidth: 0.5,
+  maxCanvasWidth: 540,
+  // pixelRatio: 2,
+  barGap: 20,  // the optional spacing between bars of the wave, if not provided will be calculated in legacy format,
+  barWidth: 1,
   // If true, normalize by the maximum peak instead of 1.0.
   normalize: true,
   // Use the PeakCache to improve rendering speed of large waveforms.
@@ -23,7 +24,7 @@ export default function Waveform({ url }) {
   const wavesurfer = useRef(null);
   const [playing, setPlay] = useState(false);
   // Set Volume
-  const [volume, setVolume] = useState(0.1);
+  const [volume, setVolume] = useState(0.8); 
 
   // create new WaveSurfer instance
   // On component mount and when url changes
@@ -78,16 +79,15 @@ export default function Waveform({ url }) {
   };
 
   return (
-    <div>
+    <div className="player-container">
+      <div id="waveform" ref={waveformRef}></div>
+
       <div className="controls">
         {/* <button onClick={handlePlayPause}>{!playing ? "Play" : "Pause"}</button> */}
 
-        <div className="reset" onClick={handleRestart}>
-          <FiSkipBack />
-        </div>
-      </div>
+        <img width="15px" src="../icons/backward.svg" onClick={handleRestart} />
 
-      <div id="waveform" ref={waveformRef} />
+      </div>
     </div>
   );
 }

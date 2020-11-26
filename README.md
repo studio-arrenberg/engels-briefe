@@ -5,7 +5,6 @@ Repo für das [Interface der Engels Ausstellung](https://engels.arrenberg.studio
 ## Wichtig 🔥
 
 - Wolf Vorschlag visualisieren (Briefe und Personen zusammenführen)
-- IDs für Orte (oder Bilder nach den Orte bennnen bei Familie in der data.json)
 - Einlesungen fangen unterschiedlich an => Herr Lukas Fragen
 
 ## Table of Contents
@@ -41,14 +40,14 @@ npm run start_windows
 
 ## Libraries
 
-[React Icons](https://www.npmjs.com/package/react-icons)
-[React Icons (Feather)](https://feathericons.com/?query=back)
+[React Icons](https://www.npmjs.com/package/react-icons)<br>
+[React Icons (Feather)](https://feathericons.com/?query=back)<br>
 [Wavesurfer](https://wavesurfer-js.org/doc/class/src/wavesurfer.js~WaveSurfer.html#instance-method-playPause)
 
 ## React Snippets
 
 ### Timeout
-```bash
+```js
 setTimeout(
     function() {
         this.setState({ position: 1 });
@@ -57,6 +56,40 @@ setTimeout(
     3000
 );
 ```
+### [Scroll](https://blog.sethcorker.com/scroll-animation-with-framer-motion)
+```js
+scrollYProgress.onChange(x => {
+    setFfLayer(x > 0.4 ? -1 : 0)
+  })
+```
+### Get Element height
+```js
+const YourComponent = () => {
+  const inputRef = useRef(null);
+  useEffect(() => {
+     const height = inputRef.current.offsetHeight;
+     console.log('Input height', height);
+  }, [inputRef]);
+
+  return <>
+    <input style={{height:200}} ref={inputRef} type="text" defaultValue="testing" />
+  </>
+}
+```
+
+
+## Notes
+
+#### Downgraded Framer Motion
+```bash
+npm install framer-motion@2.9.3
+```
+
+#### Surface Studio
+
+##### Pixel Ration
+`width` 4500 (2250 for testing)
+`height` 3000 (1500 for testing)
 
 
 ## Briefe
@@ -84,7 +117,16 @@ setTimeout(
 
 ## Motion Framer Examples 
 
-[Draggable + Toggle](https://codesandbox.io/s/framer-motion-bottom-sheet-fixed-m2vls)
+[Draggable + Toggle](https://codesandbox.io/s/framer-motion-bottom-sheet-fixed-m2vls)<br>
+[Made](https://p1qjw.csb.app/)<br>
+[scroll applictaion](https://stackoverflow.com/questions/63172498/combine-dragging-and-animating-drag-position-on-click-animate-x-set)<br>
+[Sharedlayout w/ nextjs](https://github.com/mikkmartin/nextjs-page-transitions-tutorial) [video](https://www.youtube.com/watch?v=3E9wInQeH7U)<br>
+[Bouncing Ball](https://blog.sethcorker.com/framer-motion-bouncing-ball-animation)<br>
+[Tap to expand](https://blog.sethcorker.com/react-animation-tap-to-expand)<br>
+
+## React Examples
+
+[Inactivity Timeout](https://medium.com/tinyso/how-to-detect-inactive-user-to-auto-logout-by-using-idle-timeout-in-javascript-react-angular-and-b6279663acf2)
 
 ## Feedback Uni (Editionswissenschaften)
 
