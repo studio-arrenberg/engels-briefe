@@ -239,12 +239,39 @@ main {
 
 /* Index */
 
+.intro-stage-link {
+  position: fixed;
+  display: block;
+  min-width: 100vw;
+  height: 100vh;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  z-index: 2000;
+  overflow: hidden;
+}
+
 .intro-stage {
   position: fixed;
-  top: calc(50vh - 300px / 2);
   width: 500px;
-  height: 300px;
-  z-index: 200;
+  padding-left: 0px;
+  top: 0px;
+  height: 100%;
+  z-index: 250;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.no-scroll {
+  position: fixed;
+  display: block;
+  min-width: 100vw;
+  height: 100vh;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
 }
 
 .intro-stage-background {
@@ -267,7 +294,7 @@ main {
     transform: translateX(0);
   }
   50%{
-    transform: translateX(-8000px);
+    transform: translateX(-7000px);
   }
   100% {
     transform: translateX(0);
@@ -277,13 +304,13 @@ main {
 .scrollable-index {
   width: calc(800px * 13);
   position: absolute;
-  top: 0px;
+  top: 10%;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   transform: translateX(0);
-
   padding-left: 500px;
-  animation-duration: 300s;
+  animation-duration: calc( 4 * 60s );
   animation-delay: 2s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
@@ -335,20 +362,18 @@ main {
   margin-top: 0px;
 }
 
-
-.button{
+.button {
   display: inline-block;
   letter-spacing: 1px;
   margin-top: 30px;
-  padding: 20px 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
   border: 1px solid #fff;
+  width: 300px;
 }
 
-
-
-/* INDEX END */ 
-
-
+/* INDEX END */
 
 .item_preview {
   position: relative;
@@ -494,8 +519,6 @@ a {
 
 a:hover {
   text-decoration: underline;
-}
-p {
 }
 
 /* TYPO CLOSE */
