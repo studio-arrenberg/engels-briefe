@@ -51,15 +51,16 @@ export default function page() {
                 <div
                   className="page"
                   style={{
-                    paddingTop: "80px",
+                    paddingTop: "115px",
                     paddingLeft: "80px",
-                    paddingBottom: "115px",
+                    paddingBottom: "80px",
                   }}
                 >
-                  <div className="opener">
-                    <div className="salute">Mein werther Freund!</div>
-                  </div>
                   <p>
+                  <span className="opener">
+                    <span className="salute">Mein werther Freund! </span>
+                  </span>
+                  
                     Nach meinem Wunſch, und nach meiner Hoffnung
                     <br className="lb" /> ſind Sie, wenn Sie dieſen Brief
                     erhalten, von Ihrer Sÿnodal-Reiſe
@@ -155,9 +156,10 @@ export default function page() {
                 <div
                   className="page"
                   style={{
+                    marginTop: "20px",
                     paddingTop: "120px",
                     paddingLeft: "70px",
-                    paddingBottom: "205px",
+                    paddingBottom: "120px",
                   }}
                 >
                   <p>

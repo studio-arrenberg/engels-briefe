@@ -14,61 +14,70 @@ export default function Home() {
       <Head>
         <title>Engelsbriefe</title>
       </Head>
-     <div className="intro-stage">
-       <h1>Briefe der Familie Engels</h1>
-       <p>Entdecken Sie die Korrospondenz der Familie Engels. <br></br>
-       In diesem Exponat erhalten Sie den Einblick in 18 ausgewählte Briefe, welche die historische Entwicklung über die Jahrzehnte darstellen.</p>
-        <a className="button">Korrespondenz entdecken</a> 
-    </div>
-    <div className="intro-stage-background"></div>
-      <div className="scrollable-index">
-        <Brief id="1" />
-        <Thema id="1" />
-        <Ort id="3" />
-        <Person id="1" />
-        <Person id="1" />
-        <Brief id="4" />
-        <Brief id="1" />
-        <Brief id="1" />
-        <Brief id="1" />
-        <Brief id="1" />
-        <Thema id="2" />
-        <Ort id="1" />
-        <Person id="1" />
-        <Person id="1" />
-        <Brief id="1" />
-        <Brief id="1" />
-        <Brief id="1" />
-        <Brief id="1" />
-        <Brief id="1" />
-        <Thema id="2" />
-        <Ort id="1" />
-        <Person id="1" />
-        <Person id="1" />
-        <Brief id="1" />
-        <Brief id="1" />
-        <Brief id="1" />
-        <Brief id="1" />
-        <Brief id="1" />
-        <Thema id="2" />
-        <Ort id="1" />
-        <Person id="1" />
-        <Person id="1" />
-        <Brief id="1" />
-        <Brief id="1" />
-        <Brief id="1" />
-        <Brief id="1" />
-        <Brief id="1" />
-        <Thema id="2" />
-        <Ort id="1" />
-        <Person id="1" />
-        <Person id="1" />
-        <Brief id="1" />
-        <Brief id="1" />
-        <Brief id="1" />
-        <Brief id="1" />
+      <Link href="/briefe">
+        <a className="intro-stage-link"></a>
+      </Link>
+
+      <div className="intro-stage">
+        <h1>Briefe der Familie Engels</h1>
+        <p>
+          Entdecken Sie die Korrospondenz der Familie Engels. In diesem Exponat
+          erhalten Sie den Einblick in 18 ausgewählte Briefe, welche die
+          historische Entwicklung über die Jahrzehnte darstellen.
+        </p>
+        <a className="button">Korrespondenz entdecken</a>
+      </div>
+      <div className="intro-stage-background"></div>
+
+      <div className="no-scroll">
+        <div className="scrollable-index">
+          <Brief id="1" />
+          <Thema id="1" />
+          <Ort id="3" />
+          <Person id="1" />
+          <Person id="1" />
+          <Brief id="4" />
+          <Brief id="1" />
+          <Brief id="1" />
+          <Brief id="1" />
+          <Brief id="1" />
+          <Thema id="2" />
+          <Ort id="1" />
+          <Person id="1" />
+          <Person id="1" />
+          <Brief id="1" />
+          <Brief id="1" />
+          <Brief id="1" />
+          <Brief id="1" />
+          <Brief id="1" />
+          <Thema id="2" />
+          <Ort id="1" />
+          <Person id="1" />
+          <Person id="1" />
+          <Brief id="1" />
+          <Brief id="1" />
+          <Brief id="1" />
+          <Brief id="1" />
+          <Brief id="1" />
+          <Thema id="2" />
+          <Ort id="1" />
+          <Person id="1" />
+          <Person id="1" />
+          <Brief id="1" />
+          <Brief id="1" />
+          <Brief id="1" />
+          <Brief id="1" />
+          <Brief id="1" />
+          <Thema id="2" />
+          <Ort id="1" />
+          <Person id="1" />
+          <Person id="1" />
+          <Brief id="1" />
+          <Brief id="1" />
+          <Brief id="1" />
+          <Brief id="1" />
         </div>
-      {/* </div> */}
+      </div>
     </Layout>
   );
 }

@@ -111,20 +111,7 @@ export default function Brief_wrapper (props) {
     props.stellen(isStellen);
   });
 
-  // Detail ansicht anpassung trial 
-  // function componentDidMount() {  // using this syntax auto-binds 'this'
-  //   alert("weew");
-  //   React.useEffect(() => {
-  //     alert("weew");
-  //   },[]);
-  // }
 
-  // function componentDidUpdate() {  // using this syntax auto-binds 'this'
-  // alert("weew");
-  //   console.log('Child did mount.');
-  //   document.getElementsByClassName('normalisiert').style.display = "none";
-
-  // }
 
   React.useEffect(() => {
     // alert("weew");
@@ -141,13 +128,6 @@ export default function Brief_wrapper (props) {
     // setHeight(window.innerHeight);
   }, []);
 
-
-
-  
-
-  // .replace("ſ","s")
-
-  // var cl = document.getElementsByClassName('normalisiert')
 
   return data.map((data, id) => {
     return (
