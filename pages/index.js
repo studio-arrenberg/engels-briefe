@@ -68,7 +68,7 @@ export default function Home() {
         <Brief id="1" />
         <Brief id="1" />
         </div>
-      </div>
+      {/* </div> */}
     </Layout>
   );
 }

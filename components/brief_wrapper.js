@@ -14,7 +14,7 @@ import React, { useState, useEffect, useRef } from "react";
 import IdleTimer from '../components/IdleTimer';
 // import idleTimer from "idle-timer";
 
-export default function Brief_wrapper(props) {
+export default function Brief_wrapper (props) {
 
   const [width, setWidth] = React.useState(0);
   // const [height, setHeight] = React.useState(0);
@@ -99,7 +99,7 @@ export default function Brief_wrapper(props) {
   const [isStellen, setStellen] = useState(false);
 
   x.onChange((x_pos) => {
-    if (Math.abs(x_pos) < Math.abs(-1800)) {
+    if (Math.abs(x_pos) < Math.abs(-1500)) {
       // console.log("false")
       setStellen(false);
     } else {
@@ -111,16 +111,54 @@ export default function Brief_wrapper(props) {
     props.stellen(isStellen);
   });
 
+  // Detail ansicht anpassung trial 
+  // function componentDidMount() {  // using this syntax auto-binds 'this'
+  //   alert("weew");
+  //   React.useEffect(() => {
+  //     alert("weew");
+  //   },[]);
+  // }
+
+  // function componentDidUpdate() {  // using this syntax auto-binds 'this'
+  // alert("weew");
+  //   console.log('Child did mount.');
+  //   document.getElementsByClassName('normalisiert').style.display = "none";
+
+  // }
+
+  React.useEffect(() => {
+    // alert("weew");
+    // console.log('Child did mount.');
+    // document.getElementsByClassName('normalisiert').outerHTML.replace("ſ","s")
+    // document.body.innerHTML.replace("M","8");
+    // document.getElementById('normalisiert').innerHTML.replace("L","8")
+
+    // document.getElementById('testj').innerText.replace("ſ","s").replace("ﬅ","st").replace("ﬅ","st")
+    // console.log(document.getElementById('testj').innerText.replace("ſ","s").replace("ﬅ","st").replace("ﬅ","st"))
+
+
+    // document.body.style.display = "none"
+    // setHeight(window.innerHeight);
+  }, []);
+
+
+
+  
+
+  // .replace("ſ","s")
+
+  // var cl = document.getElementsByClassName('normalisiert')
+
   return data.map((data, id) => {
     return (
       <>
         {/* swipe animation */}
         <div className="sticky-container">
-          <motion.div
+          <motion.div 
             className="bouncingbal"
-            style={{ opacity: ball_opacity_left }}
+            style={{ opacity: ball_opacity_left, x: '50px', y : '50px' }}
           >
-            <motion.div style={{ rotate: 180 }}>
+            <motion.div style={{ rotate: 180, x : '-80px', y : '-25px' }}>
               <BouncingBall />
             </motion.div>
 
@@ -129,7 +167,7 @@ export default function Brief_wrapper(props) {
 
           <motion.div
             className="bouncingball"
-            style={{ opacity: ball_opacity_right, rotate: 0 }}
+            style={{ opacity: ball_opacity_right }}
           >
             <motion.div>
               <BouncingBall />
@@ -290,7 +328,7 @@ export default function Brief_wrapper(props) {
                   isActive ? null : "themenmakierung-active"
                 } ${isActive ? null : isThema + "-active"}`}
               >
-                <div className="normalisiert">
+                <div className="normalisiert" id="normalisiert">
                     {props.children}
                   <h3>Normalisierte Leseansicht</h3>
                 </div>
@@ -381,7 +419,7 @@ export default function Brief_wrapper(props) {
             </div>
 
           </div>
-          <IdleTimer/>
+          {/* <IdleTimer/> */}
 
         </motion.div>
       </>
