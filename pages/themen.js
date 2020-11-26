@@ -42,7 +42,7 @@ export function Thema() {
                 <img src={`../pictures/themen/thumbnails/${data.picture}`} />
                 <div className="item_description">
                   <h2>{data.title}</h2>
-                  <p>{data.beschreibung.split('\n').map( (it, i) => <div key={'x'+i}>{it}</div> )}</p>
+                  <p>{data.kurzbeschreibung.split('\n').map( (it, i) => <div key={'x'+i}>{it}</div> )}</p>
                 </div>
               </div>
             </a>
