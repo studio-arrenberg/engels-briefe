@@ -25,9 +25,7 @@ export default function Brief({ data }) {
 
               {/* bild */}
               {data.digitalisate.page.map((item, index) => (
-                // <motion.div>
                 <>
-                {/* var rand = (-5) + Math.random() * (5 - (-5)) */}
                 <img style={{transform: `rotate(${(min) + Math.random() * (max - min)}deg)`}} src={`../../pictures/digitalisate/${item}`} key={index} />
                 </>
               ))}
