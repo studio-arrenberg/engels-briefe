@@ -62,7 +62,12 @@ export default function Brief_wrapper (props) {
       console.log("same");
       setThema("false");
       setActive(true);
-    } else {
+    }
+    else if (name == 'off') {
+      setThema("false");
+      setActive(true);
+    } 
+    else {
       setThema(name);
       setActive(false);
     }
@@ -121,7 +126,7 @@ export default function Brief_wrapper (props) {
     // document.getElementById('normalisiert').innerHTML.replace("L","8")
 
     // document.getElementById('testj').innerText.replace("ſ","s").replace("ﬅ","st").replace("ﬅ","st")
-    // console.log(document.getElementById('testj').innerText.replace("ſ","s").replace("ﬅ","st").replace("ﬅ","st"))
+    console.log(document.getElementById('index.xml-body.1_div.2').innerHTML.replace("ſ","s").replace("ﬅ","st").replace("ﬅ","st"))
 
 
     // document.body.style.display = "none"
@@ -303,7 +308,8 @@ export default function Brief_wrapper (props) {
                 x: x_normal,
               }}
             >
-              <div
+              {/* themenToggle(item[0].slug) */}
+              <div onClick={() => themenToggle('off')}
                 className={`detail-ansicht ${
                   isActive ? null : "themenmakierung-active"
                 } ${isActive ? null : isThema + "-active"}`}
@@ -399,7 +405,7 @@ export default function Brief_wrapper (props) {
             </div>
 
           </div>
-          {/* <IdleTimer/> */}
+          <IdleTimer/>
 
         </motion.div>
       </>

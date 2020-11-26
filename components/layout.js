@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Main_Menu from "../components/main_menu";
 import Sub_Menu from "../components/sub_menu";
+import Start_Menu from "../components/start_menu";
 import { useRouter } from "next/router";
 
 export default function Layout({ children, home }) {
@@ -34,6 +35,9 @@ export function MenuTest() {
     return <Sub_Menu />;
   } else if (router.pathname.includes("/brief/")) {
     return <Sub_Menu />;
+  } else if (router.pathname == '/') {
+    // return <Start_Menu />;
+    return (<></>)
   } else {
     return <Main_Menu />;
   }
