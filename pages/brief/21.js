@@ -35,7 +35,7 @@ export default function page() {
               <section
                 className="kuvert"
                 id="index.xml-body.1_div.1"
-                style={{ paddingTop: "220px", paddingBottom: "225px" }}
+                style={{ paddingTop: "220px", paddingBottom: "235px" }}
               >
                 {" "}
                 <h2>
@@ -91,9 +91,9 @@ export default function page() {
               <div
                 className="page"
                 style={{
-                  paddingTop: "55px",
-                  paddingLeft: "30px",
-                  paddingBottom: "100px",
+                  paddingTop: "95px",
+                  paddingLeft: "80px",
+                  paddingBottom: "240px",
                 }}
               >
                 <span type="liebe-ehe" from="#mark.002.s" to="#mark.002.e" />
@@ -139,7 +139,7 @@ export default function page() {
                       <span className="corr">glücklich</span> und unverſehrt hin
                       und her gebracht, und
                       <br className="lb" /> dadurch noch meinen Cörper geﬅärkt
-                      hat.
+                      hat.<br className="lb" /> 
                     </span>
                   </span>
                   <span className="liebe-ehe religion ">
@@ -202,9 +202,9 @@ export default function page() {
               <div
                 className="page"
                 style={{
-                  paddingTop: "35px",
+                  paddingTop: "55px",
                   paddingLeft: "80px",
-                  paddingBottom: "5px",
+                  paddingBottom: "220px",
                 }}
               >
                 <span className="liebe-ehe religion ">
@@ -311,7 +311,7 @@ export default function page() {
                 style={{
                   paddingTop: "40px",
                   paddingLeft: "70px",
-                  paddingBottom: "55px",
+                  paddingBottom: "450px",
                 }}
               >
                 <p>
@@ -349,20 +349,16 @@ export default function page() {
                   <span className="corr">Küssen</span> von
                   <br className="lb" /> ganzem Herzen
                 </p>
-                <div className="closer">
-                  <span style={{ display: "inline-block" }} width="4words">
-                    &nbsp;
-                  </span>
+                <div className="closer" style={{
+                  textAlign: "right",
+                  marginRight: "30px",
+                }}>
+                  
                   Dein ewig verbundner und <span className="orig">treüer</span>
                   <span className="corr">
                     treuer
                   </span> <br className="lb" />{" "}
-                  <span style={{ display: "inline-block" }} width="1lines">
-                    &nbsp;
-                  </span>{" "}
-                  <span style={{ display: "inline-block" }} width="5words">
-                    &nbsp;
-                  </span>
+                  
                   <div className="signed">
                     <span className="persName">
                       <span className="g.rend.script.latin">Casper Engels</span>
