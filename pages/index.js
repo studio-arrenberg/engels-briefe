@@ -10,22 +10,64 @@ import constants from "../components/constants";
 
 export default function Home() {
   return (
-    <Layout home>
+    <Layout>
       <Head>
         <title>Engelsbriefe</title>
       </Head>
-      <div className=" scrollable-index">
-      <Thema id="2" />
-      <Ort id="1" />
-      <Person id="1" />
-      <Brief id="1" />
-      <Brief id="1" />
-      <Brief id="1" />
-      <Brief id="1" />
-      <Brief id="1" />
-      <Brief id="1" />
-      <Brief id="1" />
-      <Brief id="1" />
+     <div className="intro-stage">
+       <h1>Briefe der Familie Engels</h1>
+       <p>Entdecken Sie die Korrospondenz der Familie Engels. <br></br>
+       In diesem Exponat erhalten Sie den Einblick in 18 ausgewählte Briefe, welche die historische Entwicklung über die Jahrzehnte darstellen.</p>
+        <a className="button">Korrespondenz entdecken</a> 
+    </div>
+    <div className="intro-stage-background"></div>
+      <div className="scrollable-index">
+        <Brief id="1" />
+        <Thema id="1" />
+        <Ort id="3" />
+        <Person id="1" />
+        <Person id="1" />
+        <Brief id="4" />
+        <Brief id="1" />
+        <Brief id="1" />
+        <Brief id="1" />
+        <Brief id="1" />
+        <Thema id="2" />
+        <Ort id="1" />
+        <Person id="1" />
+        <Person id="1" />
+        <Brief id="1" />
+        <Brief id="1" />
+        <Brief id="1" />
+        <Brief id="1" />
+        <Brief id="1" />
+        <Thema id="2" />
+        <Ort id="1" />
+        <Person id="1" />
+        <Person id="1" />
+        <Brief id="1" />
+        <Brief id="1" />
+        <Brief id="1" />
+        <Brief id="1" />
+        <Brief id="1" />
+        <Thema id="2" />
+        <Ort id="1" />
+        <Person id="1" />
+        <Person id="1" />
+        <Brief id="1" />
+        <Brief id="1" />
+        <Brief id="1" />
+        <Brief id="1" />
+        <Brief id="1" />
+        <Thema id="2" />
+        <Ort id="1" />
+        <Person id="1" />
+        <Person id="1" />
+        <Brief id="1" />
+        <Brief id="1" />
+        <Brief id="1" />
+        <Brief id="1" />
+        </div>
       </div>
     </Layout>
   );
@@ -90,9 +132,9 @@ export function Brief({ id }) {
                 {item.empfänger.name}
               </h2>
               {/* themen */}
-              {item.themen.name.map((item, index) => (
+              {/* {item.themen.name.map((item, index) => (
                 <p>{item}</p>
-              ))}
+              ))} */}
             </div>
           </motion.div>
         </a>
@@ -119,9 +161,10 @@ export function Person({ id }) {
             <div className="item_preview">
               <img src={`../pictures/personen/thumbnails/${item.picture}`} />
               <div className="item_description">
-                <h2>{item.name}</h2>
                 <p>{item.lebzeit}</p>
-                <p>{item.beschreibung}</p>
+
+                <h2>{item.name}</h2>
+                {/* <p>{item.beschreibung}</p> */}
               </div>
             </div>
           </a>
@@ -150,11 +193,11 @@ export function Thema({ id }) {
               <img src={`../pictures/themen/thumbnails/${thema.picture}`} />
               <div className="item_description">
                 <h2>{thema.title}</h2>
-                <p>
+                {/* <p>
                   {thema.exerpt.split("\n").map((it, i) => (
                     <div key={"x" + i}>{it}</div>
                   ))}
-                </p>
+                </p> */}
               </div>
             </div>
           </a>
