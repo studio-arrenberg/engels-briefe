@@ -41,7 +41,9 @@ export function Familie({ data }) {
                 <img src={`../pictures/personen/thumbnails/${data.picture}`} />
                 <div className="item_description">
                   <h2>{data.name}</h2>
-                  <p>{data.beschreibung}</p>
+                  <p>{data.lebzeit}</p>
+                  <p>{data.kurzbeschreibung}</p>
+                  <Count id={data.id} />
                 </div>
               </div>
             </a>
