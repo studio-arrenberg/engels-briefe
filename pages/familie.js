@@ -43,7 +43,7 @@ export function Familie({ data }) {
                 <div className="item_description">
                   <h2>{data.name}</h2>
                   <p>{data.lebzeit}</p>
-                  <p>{data.beschreibung}</p>
+                  <p>{data.kurzbeschreibung}</p>
                   <Count id={data.id} />
                 </div>
               </div>
