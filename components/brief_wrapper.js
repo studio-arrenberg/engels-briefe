@@ -275,7 +275,6 @@ export default function Brief_wrapper(props) {
                 width: handle_width,
                 opacity: 1,
                 x,
-                // y : pos_y,
                 backgroundColor: handle_color,
               }}
               dragConstraints={{ left: -handle_constraint, right: 0 }}
@@ -293,7 +292,7 @@ export default function Brief_wrapper(props) {
                 } ${isActive ? null : isThema + "-active"}`}
               >
                 <div className="normalisiert">
-                  {props.children}
+                    {props.children}
                   <h3>Normalisierte Leseansicht</h3>
                 </div>
               </div>
@@ -389,7 +388,7 @@ export default function Brief_wrapper(props) {
 export function BouncingBall() {
   const dura = 0.6;
   const del = 0.1;
-
+  // init dura = 0.6 del = 0.1
   const bounceTransition = {
     x: {
       duration: dura,
