@@ -1,8 +1,6 @@
-import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import constants from "./constants";
-import Image from 'next/image'
 
 
 export default function Brief({ data }) {
