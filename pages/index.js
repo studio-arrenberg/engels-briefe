@@ -14,7 +14,6 @@ export default function Home() {
       <Head>
         <title>Engelsbriefe</title>
       </Head>
-
      <div className="intro-stage">
        <h1>Briefe der Familie Engels</h1>
        <p>Entdecken Sie die Korrospondenz der Familie Engels. <br></br>
@@ -68,70 +67,8 @@ export default function Home() {
         <Brief id="1" />
         <Brief id="1" />
         <Brief id="1" />
-        
-
         </div>
-
-
-
-      {/* <div className="scrollable-index">
-      <Thema id="2" />
-      <Ort id="1" />
-      <Person id="1" />
-
-        <div className="test">2</div>
-        <div className="test">3</div>
-        <div className="test">4</div>
-        <div className="test">5</div>
-        <div className="test">6</div>
-        <div className="test">7</div>
-        <div className="test">8</div>
-        <div className="test">9</div>
-        <div className="test">10</div>
-        <div className="test">11</div>
-        <div className="test">12</div>
-        <div className="test">13</div>
-        <div className="test">14</div>
-        <div className="test">15</div>
-        <div className="test">16</div>
-        <div className="test">17</div>
-        <div className="test">18</div>
-        <div className="test">19</div>
-        <div className="test">20</div>
-        <div className="test">21</div>
-        <div className="test">22</div>
-        <div className="test">23</div>
-        <div className="test">24</div>
-        <div className="test">25</div>
-        <div className="test">26</div>
-        <div className="test">27</div>
-        <div className="test">28</div>
-        <div className="test">29</div>
-        <div className="test">30</div>
-        <div className="test">31</div>
-        <div className="test">32</div>
-        <div className="test">33</div>
-        <div className="test">34</div>
-        <div className="test">35</div>
-        <div className="test">36</div>
-        <div className="test">37</div>
-        <div className="test">38</div>
-        <div className="test">39</div>
-        <div className="test">40</div>
-        <div className="test">41</div>
-        <div className="test">42</div>
-        <div className="test">43</div>
-        <div className="test">44</div>
-        <div className="test">45</div>
-      <Brief id="1" />
-      <Brief id="1" />
-      <Brief id="1" />
-      <Brief id="1" />
-      <Brief id="1" />
-      <Brief id="1" />
-      <Brief id="1" />
-      <Brief id="1" />
-      </div> */}
+      </div>
     </Layout>
   );
 }
@@ -224,7 +161,7 @@ export function Person({ id }) {
             <div className="item_preview">
               <img src={`../pictures/personen/thumbnails/${item.picture}`} />
               <div className="item_description">
-              <p>{item.lebzeit}</p>
+                <p>{item.lebzeit}</p>
 
                 <h2>{item.name}</h2>
                 {/* <p>{item.beschreibung}</p> */}
