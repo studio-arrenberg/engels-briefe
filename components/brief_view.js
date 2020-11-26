@@ -1,11 +1,12 @@
-import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import constants from "./constants";
-import Image from 'next/image'
 
 
 export default function Brief({ data }) {
+
+  const min = -2;
+  const max = 2;
 
   console.log(data);
 
@@ -24,7 +25,11 @@ export default function Brief({ data }) {
 
               {/* bild */}
               {data.digitalisate.page.map((item, index) => (
-                <img src={`../../pictures/digitalisate/${item}`} key={index} />
+                // <motion.div>
+                <>
+                {/* var rand = (-5) + Math.random() * (5 - (-5)) */}
+                <img style={{transform: `rotate(${(min) + Math.random() * (max - min)}deg)`}} src={`../../pictures/digitalisate/${item}`} key={index} />
+                </>
               ))}
 
               <div className="item_description">
