@@ -99,7 +99,7 @@ npm install framer-motion@2.9.3
 | 001         | Louise Engels, geb. Noot     | 1791-01-05    | Hagen      | :white_check_mark: | :white_check_mark: |        | :white_check_mark: |                                               |
 | 004         | Friedrich Christian Hoffmann | 1791-05-12    | Düsseldorf | :white_check_mark: | :white_check_mark: |        | :white_check_mark: |
 | 021         | Johann Caspar Engels         | 1791-09-09    | Barmen     | :white_check_mark: | :white_check_mark: |        | :white_check_mark: |
-| 022         | Louise Engels, geb. Noot     | 1792-09-10    | Ruhrort    | :white_check_mark: | :white_check_mark: |        | :white_check_mark: | 22 ist gleich 26 im digitalisat, fehlerhaftes Datum (1991) |
+| 022         | Louise Engels, geb. Noot     | 1792-09-10    | Ruhrort    | :white_check_mark: | :white_check_mark: |        | :white_check_mark: | 22 ist gleich 26 im digitalisat, fehlerhaftes Datum (1991)  eine seite fehlt! |
 | 029         | Louise Engels, geb. Noot     | 1792-10-25    | Barmen     | :white_check_mark: | :white_check_mark: |        | :white_check_mark: |  |
 | 068         | Johann Caspar Engels         | 1813-07-04    | Barmen     | :white_check_mark: | :white_check_mark: |        | :white_check_mark: |
 | 071         | Johann Caspar Engels         | 1813-11-12    | Barmen     | :white_check_mark: | :white_check_mark: |        | :white_check_mark: |

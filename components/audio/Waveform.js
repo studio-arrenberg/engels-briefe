@@ -41,7 +41,7 @@ export default function Waveform({ url }) {
       // wavesurfer.current.play();
       setPlay(true);
 
-      // Auto start Player;
+      // Auto start Player:
       // handleRestart();
 
       // wavesurfer.current.bind(wavesurfer);
@@ -83,7 +83,7 @@ export default function Waveform({ url }) {
       <div id="waveform" ref={waveformRef}></div>
 
       <div className="controls">
-        <button onClick={handlePlayPause}>{!playing ? "Play" : "Pause"}</button>
+        {/* <button onClick={handlePlayPause}>{!playing ? "Play" : "Pause"}</button> */}
 
         <img width="15px" src="../icons/backward.svg" onClick={handleRestart} />
 
