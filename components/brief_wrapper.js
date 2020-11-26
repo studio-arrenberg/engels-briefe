@@ -74,9 +74,9 @@ export default function Brief_wrapper(props) {
   const { scrollY, scrollYProgress } = useViewportScroll();
 
   // Brief Pages
-  const x_fast = useTransform(x, (latestX) => latestX * 1.0); // 15" 1.2 // prev 1.08
-  const x_slow = useTransform(x, (latestX) => latestX * 0.595); // 15" 0.58 // prev 0.61
-  const x_normal = useTransform(x, [0, -300, -2500], [-350, -600, -2450]); // test
+  const x_fast = useTransform(x, (latestX) => latestX * 1.08); // 15" 1.2 // prev 1.08
+  const x_slow = useTransform(x, (latestX) => latestX * 0.61); // 15" 0.58 // prev 0.61
+  const x_normal = useTransform(x, [0, -300, -2500], [-270, -600, -2420]); // test
 
   // Handlebar
   const handlebar_width = 550;
@@ -114,7 +114,6 @@ export default function Brief_wrapper(props) {
   return data.map((data, id) => {
     return (
       <>
-      <IdleTimer/>
         {/* swipe animation */}
         <div className="sticky-container">
           <motion.div
@@ -297,7 +296,10 @@ export default function Brief_wrapper(props) {
                 </div>
               </div>
 
-              <motion.div
+              
+            </motion.div>
+            
+            <motion.div
                 className="themen"
                 style={{
                   x: x,
@@ -314,7 +316,6 @@ export default function Brief_wrapper(props) {
                   </a>
                 ))}
               </motion.div>
-            </motion.div>
           </motion.div>
 
           <div className="player">
@@ -378,7 +379,10 @@ export default function Brief_wrapper(props) {
                 </span>
               </h2>
             </div>
+
           </div>
+          <IdleTimer/>
+
         </motion.div>
       </>
     );
@@ -417,8 +421,8 @@ export function BouncingBall() {
         transition={bounceTransition}
         animate={{
           x: ["80px", "-80px"],
-          backgroundColor: ["#000000", "#FFFFFF"],
-          opacity: [0, 0.4],
+          backgroundColor: ["#000", "#fff"],
+          opacity: [0, 0.2],
         }}
       />
     </div>
