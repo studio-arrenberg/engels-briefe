@@ -10,78 +10,63 @@ import constants from "../components/constants";
 
 export default function Home() {
   return (
-    <Layout home>
+    <Layout>
       <Head>
         <title>Engelsbriefe</title>
       </Head>
-
-      <Link href="/briefe">
-        <a className="intro-stage-link"></a>
-      </Link>
-      <div className="intro-stage">
-        <h1>Briefe der Familie Engels</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-          ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-          sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-          et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-          takimata sanctus est Lorem ipsum dolor sit amet.
-        </p>
-        <a className="button">Korrespondenz entdecken</a>
-      </div>
-      <div className="intro-stage-background"></div>
-
-      <div className="no-scroll">
-        <div className="scrollable-index">
-          <Brief id="1" />
-          <Thema id="1" />
-          <Ort id="3" />
-          <Person id="1" />
-          <Person id="1" />
-          <Brief id="4" />
-          <Brief id="1" />
-          <Brief id="1" />
-          <Brief id="1" />
-          <Brief id="1" />
-          <Thema id="2" />
-          <Ort id="1" />
-          <Person id="1" />
-          <Person id="1" />
-          <Brief id="1" />
-          <Brief id="1" />
-          <Brief id="1" />
-          <Brief id="1" />
-          <Brief id="1" />
-          <Thema id="2" />
-          <Ort id="1" />
-          <Person id="1" />
-          <Person id="1" />
-          <Brief id="1" />
-          <Brief id="1" />
-          <Brief id="1" />
-          <Brief id="1" />
-          <Brief id="1" />
-          <Thema id="2" />
-          <Ort id="1" />
-          <Person id="1" />
-          <Person id="1" />
-          <Brief id="1" />
-          <Brief id="1" />
-          <Brief id="1" />
-          <Brief id="1" />
-          <Brief id="1" />
-          <Thema id="2" />
-          <Ort id="1" />
-          <Person id="1" />
-          <Person id="1" />
-          <Brief id="1" />
-          <Brief id="1" />
-          <Brief id="1" />
-          <Brief id="1" />
+     <div className="intro-stage">
+       <h1>Briefe der Familie Engels</h1>
+       <p>Entdecken Sie die Korrospondenz der Familie Engels. <br></br>
+       In diesem Exponat erhalten Sie den Einblick in 18 ausgewählte Briefe, welche die historische Entwicklung über die Jahrzehnte darstellen.</p>
+        <a className="button">Korrespondenz entdecken</a> 
+    </div>
+    <div className="intro-stage-background"></div>
+      <div className="scrollable-index">
+        <Brief id="1" />
+        <Thema id="1" />
+        <Ort id="3" />
+        <Person id="1" />
+        <Person id="1" />
+        <Brief id="4" />
+        <Brief id="1" />
+        <Brief id="1" />
+        <Brief id="1" />
+        <Brief id="1" />
+        <Thema id="2" />
+        <Ort id="1" />
+        <Person id="1" />
+        <Person id="1" />
+        <Brief id="1" />
+        <Brief id="1" />
+        <Brief id="1" />
+        <Brief id="1" />
+        <Brief id="1" />
+        <Thema id="2" />
+        <Ort id="1" />
+        <Person id="1" />
+        <Person id="1" />
+        <Brief id="1" />
+        <Brief id="1" />
+        <Brief id="1" />
+        <Brief id="1" />
+        <Brief id="1" />
+        <Thema id="2" />
+        <Ort id="1" />
+        <Person id="1" />
+        <Person id="1" />
+        <Brief id="1" />
+        <Brief id="1" />
+        <Brief id="1" />
+        <Brief id="1" />
+        <Brief id="1" />
+        <Thema id="2" />
+        <Ort id="1" />
+        <Person id="1" />
+        <Person id="1" />
+        <Brief id="1" />
+        <Brief id="1" />
+        <Brief id="1" />
+        <Brief id="1" />
         </div>
       </div>
     </Layout>
