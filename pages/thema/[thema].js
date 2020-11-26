@@ -27,7 +27,7 @@ export default function thema() {
       </Head>
 
       <motion.div
-        className="scrollable"
+        className="scrollable first-large"
         initial="initial"
         animate="enter"
         exit="exit"
@@ -55,7 +55,7 @@ export function Thema({ data }) {
             <img src={`../pictures/themen/thumbnails/${data.picture}`} />
             <div className="item_description">
               <h2>{data.title}</h2>
-              <p>{data.beschreibung}</p>
+              <p>{data.beschreibung.split('\n').map( (it, i) => <div key={'x'+i}>{it}</div> )}</p>
             </div>
           </div>
           {/* </Link> */}

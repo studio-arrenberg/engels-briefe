@@ -27,7 +27,7 @@ export default function person() {
       </Head>
 
       <motion.div
-        className="scrollable"
+        className="scrollable first-large"
         initial="initial"
         animate="enter"
         exit="exit"

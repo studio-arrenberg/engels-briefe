@@ -35,7 +35,7 @@ export default function page() {
               <section
                 className="kuvert"
                 id="index.xml-body.1_div.1"
-                style={{ paddingTop: "100px", paddingBottom: "160px" }}
+                style={{ paddingTop: "220px", paddingBottom: "225px" }}
               >
                 {" "}
                 <h2>
@@ -92,7 +92,7 @@ export default function page() {
                 className="page"
                 style={{
                   paddingTop: "55px",
-                  paddingLeft: "80px",
+                  paddingLeft: "30px",
                   paddingBottom: "100px",
                 }}
               >
