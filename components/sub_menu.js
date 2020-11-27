@@ -2,14 +2,26 @@ import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 import Router from "next/router";
 import { FiArrowLeft } from "react-icons/fi";
-
+import { motion } from "framer-motion";
+import constants from "./constants";
 
 export default function Menu() {
   return (
-    <nav>
+    <motion.nav
+      // layout
+      // variants={constants.animation.menu}
+      // key="mainmenu"
+      // layoutId="mainmenu"
+      // className="menu_right"
+      // initial="initial"
+      // animate="enter"
+      // exit="exit"
+    >
+      {/* <Link> */}
       <a className="menu_left" onClick={() => Router.back()}>
-      <img src="../icons/back.svg"></img>
+        <img src="../icons/back.svg"></img>
       </a>
+      {/* </Link> */}
 
       <div className="menu_right">
         {/* <Link href="/"><a >Home</a></Link> */}
@@ -23,6 +35,6 @@ export default function Menu() {
           <a>Familie</a>
         </Link>
       </div>
-    </nav>
+    </motion.nav>
   );
 }

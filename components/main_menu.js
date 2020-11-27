@@ -7,13 +7,14 @@ import constants from "./constants";
 export default function Menu() {
   return (
     <motion.nav
-    variants={constants.animation.menu}
-    key="mainmenu"
-    layoutId="mainmenu"
-    className="menu_right"
-    initial="initial"
-    animate="enter"
-    exit="exit"
+      // layout
+      // variants={constants.animation.menu}
+      // key="mainmenu"
+      // layoutId="mainmenu"
+      // className="menu_right"
+      // initial="initial"
+      // animate="enter"
+      // exit="exit"
     >
       <Link href="/">
         <a className="menu_left">
@@ -33,7 +34,6 @@ export default function Menu() {
           <a>Familie</a>
         </Link>
       </div>
-
     </motion.nav>
   );
 }
