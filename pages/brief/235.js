@@ -41,7 +41,7 @@ export default function page() {
                 <section
                   className="kuvert"
                   id="index.xml-body.1_div.1"
-                  style={{ paddingTop: "220px", paddingBottom: "260px" }}
+                  style={{ paddingTop: "220px", paddingBottom: "275px" }}
                 >
                   {/* Insert Kuvert */}
                   <div className="kuvert" id="index.xml-body.1_div.1">
@@ -86,9 +86,9 @@ export default function page() {
                 <div
                   className="page"
                   style={{
-                    paddingTop: "55px",
+                    paddingTop: "0px",
                     paddingLeft: "80px",
-                    paddingBottom: "100px",
+                    paddingBottom: "38px",
                   }}
                 >
                   {/* Insert Page 1 */}
@@ -96,7 +96,7 @@ export default function page() {
                     <span style={{ display: "inline-block" }} width="6words">
                       &nbsp;
                     </span>
-                    <div className="dateline">
+                    <div className="dateline text-right">
                       <span className="g.rend.script.latin">Barmen</span>,
                       <span className="date">
                         1.
@@ -110,15 +110,16 @@ export default function page() {
                       </span>
                     </div>
                   </div>
-                  <div className="opener">
-                    <div className="salute">
+                  <p>
+                  <span className="opener">
+                    <span className="salute">
                       <a id="teaser.part.001.s">{/*anchor*/}</a>Freue Dich mit
                       mir, innig<span className="orig">ﬅ</span>
                       <span className="corr">st</span> geliebter{" "}
-                      <span className="persName">Karl</span>!
-                    </div>
-                  </div>
-                  <p>
+                      <span className="persName">Karl</span>!{" "}
+                    </span>
+                  </span>
+                
                     der
                     <br className="lb" />
                     liebe Gott hat un<span className="orig">ſ</span>
@@ -295,9 +296,10 @@ export default function page() {
                 <div
                   className="page"
                   style={{
+                    marginTop: "-9px",
                     paddingTop: "35px",
                     paddingLeft: "80px",
-                    paddingBottom: "5px",
+                    paddingBottom: "14px",
                   }}
                 >
                   {/* Insert Page 2 */}
@@ -471,9 +473,10 @@ export default function page() {
                 <div
                   className="page"
                   style={{
-                    paddingTop: "40px",
+                    marginTop: "-8px",
+                    paddingTop: "50px",
                     paddingLeft: "70px",
-                    paddingBottom: "55px",
+                    paddingBottom: "120px",
                   }}
                 >
                   {/* Insert Page 3 */}

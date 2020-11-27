@@ -651,6 +651,19 @@ img {
 
 .kuvert .small, .kuvert small {
   font-size: 1.4rem;
+  line-height: 1.5rem;
+}
+
+.kuvert .xsmall{
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+}
+
+.vertical-links{
+  transform: rotate(90deg);
+  position: relative;
+  left: -395px;
+  top: -400px;
 }
 
 .vergleichs-ansicht,
@@ -765,6 +778,19 @@ img {
   font-size: 0.9rem;
   line-height: 1.25rem;
 }
+
+
+.vergleichs-ansicht .page-large {
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+}
+
+table {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  margin-left: 100px;
+}
+
 
 .expan::after {
   content: ".";
