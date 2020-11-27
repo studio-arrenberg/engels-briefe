@@ -1278,17 +1278,17 @@ export default function page() {
             </div>
           </div>
         </div>
-        <div className="stellenerläuterungen">
-          <div
-            className="stellenerläuterung"
-            style={{
-              top: "350px",
-            }}
-          >
-            <hr />
-            <label>expediren</label>
-            <p>Briefe u.a. absenden, befördern (lassen).</p>
-          </div>
+      <div className={`stellenerläuterungen ${isStellen ? "activ" : null}`} >
+        <div
+          className="stellenerläuterung"
+          style={{
+            top: "350px",
+          }}
+        >
+          <hr />
+          <label>expediren</label>
+          <p>Briefe u.a. absenden, befördern (lassen).</p>
+        </div>
 
           <div
             className="stellenerläuterung"

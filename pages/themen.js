@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Layout from "../components/layout";
-import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 import data from "../public/data.json";
 import { motion } from "framer-motion";
@@ -32,6 +31,7 @@ export function Thema() {
     return (
       <div className="item" key={`${data.id}`}>
         <motion.div
+          whileTap={{ scale: constants.animation.interaction.whiletap }}
           key={`themen${data.id}`}
           variants={constants.animation.post}
           layoutId={`${data.id}`}

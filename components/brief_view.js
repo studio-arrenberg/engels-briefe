@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import constants from "./constants";
-
+import { FiArrowRight } from "react-icons/fi";
 
 export default function Brief({ data }) {
 
@@ -13,10 +13,10 @@ export default function Brief({ data }) {
   return data.map((data, id) => {
     return (
       <div className="item" key={`briefe-${data.id}`}>
-        <Link href={`/brief/${data.id}`} as={`/brief/${data.id}`}>
+        <Link href={`/brief/${data.id}`} as={`/brief/${data.id}`} scroll={false} >
           <a>
             <motion.div
-              div
+              whileTap={{ scale: constants.animation.interaction.whiletap }}
               key={`brief-motion-${data.id}`}
               className="item_preview"
               variants={constants.animation.post}
@@ -34,8 +34,8 @@ export default function Brief({ data }) {
                 
                 <h4>{data.datum}</h4>
                 <h2>
-                  <span className="sender_name">{data.sender.name}</span> an{" "}
-                  <br></br> <span className="empfänger_name"></span>
+                  <span className="sender_name">{data.sender.name}</span> 
+                  <br></br><FiArrowRight/>{" "} <span className="empfänger_name"></span>
                   {data.empfänger.name}
                 </h2>
                 {/* themen */}

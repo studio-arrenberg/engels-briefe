@@ -1,11 +1,9 @@
 import Head from "next/head";
 import Layout from "../components/layout";
-import ChangeLog from "../components/change-log";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { themen, familie, orte, briefe } from "../public/data.json";
-// import Thema from "../components/preview/thema";
 import constants from "../components/constants";
 
 export default function Home() {

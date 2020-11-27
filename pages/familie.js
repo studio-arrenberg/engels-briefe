@@ -33,6 +33,7 @@ export function Familie({ data }) {
     return (
       <div className="item" key={`${data.id}`}>
         <motion.div
+          whileTap={{ scale: constants.animation.interaction.whiletap }}
           key={`familie${data.id}`}
           variants={constants.animation.post}
           layoutId={`${data.id}`}

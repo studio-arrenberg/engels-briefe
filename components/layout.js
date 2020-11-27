@@ -3,6 +3,7 @@ import Main_Menu from "../components/main_menu";
 import Sub_Menu from "../components/sub_menu";
 import Start_Menu from "../components/start_menu";
 import { useRouter } from "next/router";
+import { AnimateSharedLayout } from "framer-motion"
 
 export default function Layout({ children, home }) {
   return (
@@ -16,8 +17,13 @@ export default function Layout({ children, home }) {
           content="width=device-width, initial-scale=1, user-scalable=no"
         />
       </Head>
+    
+      {/* <Sub_Menu /> */}
 
+      {/* <AnimateSharedLayout> */}
       <MenuTest />
+      {/* <Main_Menu /> */}
+      {/* </AnimateSharedLayout> */}
       <main>
         <div className="gardient left"></div>
         {children}
@@ -33,8 +39,10 @@ export function MenuTest() {
   console.log(router.pathname);
   if (router.pathname.includes("[")) {
     return <Sub_Menu />;
+    // return <Main_Menu />;
   } else if (router.pathname.includes("/brief/")) {
     return <Sub_Menu />;
+    // return <Main_Menu />;
   } else if (router.pathname == '/') {
     // return <Start_Menu />;
     return (<></>)
