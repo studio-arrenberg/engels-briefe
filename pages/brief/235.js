@@ -121,17 +121,17 @@ export default function page() {
                 <div className="opener">
                   <div className="salute">
                     <a id="teaser.part.001.s">{/*anchor*/}</a>Freue Dich mit
-                    mir, innigﬅ geliebter <span className="persName">Karl</span>
+                    mir, innig<span className="orig">ﬅ</span><span className="corr">st</span> geliebter <span className="persName">Karl</span>
                     !
                   </div>
                 </div>
                 <p>
                   der
                   <br className="lb" />
-                  liebe Gott hat unſer <span className="orig">Gebät</span>
+                  liebe Gott hat un<span className="orig">ſ</span><span className="corr">s</span>er <span className="orig">Gebät</span>
                   <span className="corr">Gebet</span> erhört, und uns am
                   <br className="lb" />
-                  verfloßnen Dienﬅagabend, den
+                  verfloßnen Dien<span className="orig">ﬅ</span><span className="corr">st</span>agabend, den
                   <span className="date">
                     29.
                     <span className="g.rend.script.latin">
@@ -143,14 +143,14 @@ export default function page() {
                   </span>
                   Abends um
                   <br className="lb" />
-                  9 Uhr ein Kindlein, und zwar einen geſunden
+                  9 Uhr ein Kindlein, und zwar einen ge<span className="orig">ſ</span><span className="corr">s</span>unden
                   <br className="lb" />
-                  wohlgeﬅalteten Knaben geſchenkt.
+                  wohlge<span className="orig">ﬅ</span><span className="corr">st</span>alteten Knaben ge<span className="orig">ſ</span><span className="corr">s</span>chenkt.
                   <a id="teaser.part.001.e">{/*anchor*/}</a>
-                  Ihm <span className="orig">ſeÿ</span>
-                  <span className="corr">ſey</span> Lob und
+                  Ihm <span className="orig"><span className="orig">ſ</span><span className="corr">s</span>eÿ</span>
+                  <span className="corr"><span className="orig">ſ</span><span className="corr">s</span>ey</span> Lob und
                   <br className="lb" />
-                  Preis aus unſern vollen Herzen gebracht für dieſes
+                  Preis aus un<span className="orig">ſ</span><span className="corr">s</span>ern vollen Herzen gebracht für die<span className="orig">ſ</span><span className="corr">s</span>es
                   <br className="lb" />
                   Kind und für die gnädige Hülfe und Bewahrung, welche
                   <br className="lb" />
@@ -160,14 +160,14 @@ export default function page() {
                   <span className="orig">glüklich</span>
                   <span className="corr">glücklich</span>, doch war
                   <br className="lb" />
-                  es eine ſchwere Geburt. Ach Gott, was fühlte ich, als
+                  es eine <span className="orig">ſ</span><span className="corr">s</span>chwere Geburt. Ach Gott, was fühlte ich, als
                   <br className="lb" />
-                  ich mein armes Weib ſo leiden ſah; es iﬅ nicht zu be
+                  ich mein armes Weib <span className="orig">ſ</span><span className="corr">s</span>o leiden <span className="orig">ſ</span><span className="corr">s</span>ah; es i<span className="orig">ﬅ</span><span className="corr">st</span> nicht zu be
                   <br className="g.enc.tagsdecl.hyphenation.divis" />
-                  ſchreiben. Oft war es mir, als wenn ich es nicht mehr
+                  <span className="orig">ſ</span><span className="corr">s</span>chreiben. Oft war es mir, als wenn ich es nicht mehr
                   <br className="lb" />
-                  anſehen könnte, und doch <span className="orig">lies</span>
-                  <span className="corr">ließ</span> mich dieſelbe Liebe
+                  an<span className="orig">ſ</span><span className="corr">s</span>ehen könnte, und doch <span className="orig">lies</span>
+                  <span className="corr">ließ</span> mich die<span className="orig">ſ</span><span className="corr">s</span>elbe Liebe
                   <br className="lb" />
                   keinen <span className="orig">Augenblik</span>
                   <span className="corr">Augenblick</span> von ihrem
@@ -175,45 +175,45 @@ export default function page() {
                   <br className="lb" />
                   weichen, um ihr wo möglich einige Erleichterung
                   <br className="lb" />
-                  verſchaﬀen zu helfen. Der Herr ſeÿ gelobt,
+                  ver<span className="orig">ſ</span><span className="corr">s</span>chaﬀen zu helfen. Der Herr <span className="orig">ſ</span><span className="corr">s</span>eÿ gelobt,
                   <br className="lb" />
-                  daß dieſe Zeit der Angﬅ vorüber iﬅ! und nicht
+                  daß die<span className="orig">ſ</span><span className="corr">s</span>e Zeit der Ang<span className="orig">ﬅ</span><span className="corr">st</span> vorüber i<span className="orig">ﬅ</span><span className="corr">st</span>! und nicht
                   <br className="lb" />
-                  nur vorüber iﬅ, ſondern durch Freude verdrängt
+                  nur vorüber i<span className="orig">ﬅ</span><span className="corr">st</span>, <span className="orig">ſ</span><span className="corr">s</span>ondern durch Freude verdrängt
                   <br className="lb" />
-                  wurde, als wir nun das Jüngelchen ſo geſund hatten.
+                  wurde, als wir nun das Jüngelchen <span className="orig">ſ</span><span className="corr">s</span>o ge<span className="orig">ſ</span><span className="corr">s</span>und hatten.
                 </p>
                 <p className="enc.tagsdecl.indent-medium">
-                  Meine gute <span className="persName">Eliſe</span> iﬅ nun
-                  ſeitdem den
+                  Meine gute <span className="persName">Eli<span className="orig">ſ</span><span className="corr">s</span>e</span> i<span className="orig">ﬅ</span><span className="corr">st</span> nun
+                  <span className="orig">ſ</span><span className="corr">s</span>eitdem den
                   <span className="g.enc.tagsdecl.suspension.type1">
                     {" "}
-                    (Umﬅänd)
+                    (Um<span className="orig">ﬅ</span><span className="corr">st</span>änd)
                   </span>
                   <span className="expan">
-                    Umﬅänd<span className="ex">en</span>
+                    Um<span className="orig">ﬅ</span><span className="corr">st</span>änd<span className="ex">en</span>
                   </span>
                   <br className="lb" />
-                  nach ganz wohl geweſen, <span className="orig">blos</span>
-                  <span className="corr">bloß</span> dieſe Nacht bekam
+                  nach ganz wohl gewe<span className="orig">ſ</span><span className="corr">s</span>en, <span className="orig">blos</span>
+                  <span className="corr">bloß</span> die<span className="orig">ſ</span><span className="corr">s</span>e Nacht bekam
                   <br className="lb" />
-                  ſie ſehr heftige Leibſchmerzen, welche jedoch von
+                  <span className="orig">ſ</span><span className="corr">s</span>ie <span className="orig">ſ</span><span className="corr">s</span>ehr heftige Leib<span className="orig">ſ</span><span className="corr">s</span>chmerzen, welche jedoch von
                   <br className="lb" />
                   Blähungen herrührten, und auf einige Verordnung
                   <br className="lb" />
-                  des Arztes bald wieder verſchwanden. Das
+                  des Arztes bald wieder ver<span className="orig">ſ</span><span className="corr">s</span>chwanden. Das
                   <br className="lb" />
-                  kleine Knäbchen ſchläft faﬅ immer recht ruhig, und
+                  kleine Knäbchen <span className="orig">ſ</span><span className="corr">s</span>chläft fa<span className="orig">ﬅ</span><span className="corr">st</span> immer recht ruhig, und
                   <br className="lb" />
-                  das iﬅ recht gut, denn Gott ﬅärkt ja die Kleinen
+                  das i<span className="orig">ﬅ</span><span className="corr">st</span> recht gut, denn Gott <span className="orig">ﬅ</span><span className="corr">st</span>ärkt ja die Kleinen
                   <br className="lb" />
-                  im Schlafe. Sein kleines Haus ﬅeht neben mir,
+                  im Schlafe. Sein kleines Haus <span className="orig">ﬅ</span><span className="corr">st</span>eht neben mir,
                   <br className="lb" />
-                  mit ſeinem ſanft ſchlummernden Bewohner, und
+                  mit <span className="orig">ſ</span><span className="corr">s</span>einem <span className="orig">ſ</span><span className="corr">s</span>anft <span className="orig">ſ</span><span className="corr">s</span>chlummernden Bewohner, und
                   <br className="lb" />
-                  macht mir eine ganz neue große Freude, ſo oft ich
+                  macht mir eine ganz neue große Freude, <span className="orig">ſ</span><span className="corr">s</span>o oft ich
                   <br className="lb" />
-                  es ſehe. Der gute Gott nehme nun ferner beide
+                  es <span className="orig">ſ</span><span className="corr">s</span>ehe. Der gute Gott nehme nun ferner beide
                 </p>
               </div>
               <div
@@ -226,51 +226,51 @@ export default function page() {
               >
                 {/* Insert Page 2 */}
                 <p>
-                  Lieben in Seinen Heiligen Schutz. Er ſeÿe auch dem
+                  Lieben in Seinen Heiligen Schutz. Er <span className="orig">ſ</span><span className="corr">s</span>eÿe auch dem
                   <br className="lb" />
-                  Kindlein ein ſo gütiger Gott{" "}
+                  Kindlein ein <span className="orig">ſ</span><span className="corr">s</span>o gütiger Gott{" "}
                   <span className="abbr"> (u.)</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}
                   Vater, wie er mir
                   <br className="lb" />
-                  bisher war, und gebe, daß wir einﬅ vor Seinem Throne
+                  bisher war, und gebe, daß wir ein<span className="orig">ﬅ</span><span className="corr">st</span> vor Seinem Throne
                   <br className="lb" />
-                  noch Freude von dieſer Geburt haben. Er gebe uns
+                  noch Freude von die<span className="orig">ſ</span><span className="corr">s</span>er Geburt haben. Er gebe uns
                   <br className="lb" />
                   aber auch Weisheit, es gut und in Seiner Furcht zu
                   <br className="lb" />
-                  erziehen, und ihm durch unſer Beiſpiel die beßte Lehre
+                  erziehen, und ihm durch un<span className="orig">ſ</span><span className="corr">s</span>er Bei<span className="orig">ſ</span><span className="corr">s</span>piel die beßte Lehre
                   <br className="lb" />
-                  zu geben! Dieß iﬅ nun mein tägliches{" "}
+                  zu geben! Dieß i<span className="orig">ﬅ</span><span className="corr">st</span> nun mein tägliches{" "}
                   <span className="orig">Gebät</span>
                   <span className="corr">Gebet</span>.<br className="lb" />
-                  Ich hatte vor, Dir ſchon am Mittwoch unmittelbar
+                  Ich hatte vor, Dir <span className="orig">ſ</span><span className="corr">s</span>chon am Mittwoch unmittelbar
                   <br className="lb" />
                   nach der Entbindung meiner <span className="abbr"> (l.)</span>
                   <span className="expan">
                     l<span className="ex">ieben</span>
                   </span>{" "}
-                  Frau zu ſchreiben,
+                  Frau zu <span className="orig">ſ</span><span className="corr">s</span>chreiben,
                   <br className="lb" />
-                  aber es ging ſo unruhig hier her, und meine
+                  aber es ging <span className="orig">ſ</span><span className="corr">s</span>o unruhig hier her, und meine
                   <br className="lb" />
-                  Thätigkeit wurde den erﬅen Morgen von ſo vielen
+                  Thätigkeit wurde den er<span className="orig">ﬅ</span><span className="corr">st</span>en Morgen von <span className="orig">ſ</span><span className="corr">s</span>o vielen
                   <br className="lb" />
-                  Seiten in Anſpruch genommen, daß es mir
+                  Seiten in An<span className="orig">ſ</span><span className="corr">s</span>pruch genommen, daß es mir
                   <br className="lb" />
                   unmöglich war.
                 </p>
                 <p className="enc.tagsdecl.indent-small">
-                  Deinen lieben Eltern und Geſchwiﬅern theilﬅ
+                  Deinen lieben Eltern und Ge<span className="orig">ſ</span><span className="corr">s</span>chwi<span className="orig">ﬅ</span><span className="corr">st</span>ern theil<span className="orig">ﬅ</span><span className="corr">st</span>
                   <br className="lb" />
                   Du die heutige frohe Nachricht wohl mit, und
                   <br className="lb" />
-                  ſey ſo gut, meine <span className="persName">Eliſe</span> und
+                  <span className="orig">ſ</span><span className="corr">s</span>ey <span className="orig">ſ</span><span className="corr">s</span>o gut, meine <span className="persName">Eli<span className="orig">ſ</span><span className="corr">s</span>e</span> und
                   mich ihnen allen
                   <br className="lb" />
-                  aufs herzlichﬅe zu empfehlen.
+                  aufs herzlich<span className="orig">ﬅ</span><span className="corr">st</span>e zu empfehlen.
                 </p>
                 <p className="enc.tagsdecl.indent-small">
                   Deinen lieben Brief vom
@@ -287,17 +287,17 @@ export default function page() {
                   <br className="lb" />
                   richtig erhalten; er hat mir große Freude gemacht,
                   <br className="lb" />
-                  obgleich Deine Schreibe-Großmut mich etwas beſchämte.
+                  obgleich Deine Schreibe-Großmut mich etwas be<span className="orig">ſ</span><span className="corr">s</span>chämte.
                   <br className="lb" />
                   Ich will mich{" "}
                   <sup className="sup" id="txt.add001">
                     aber
                   </sup>
                   <span className="orig">beßern</span>
-                  <span className="corr">bessern</span> in dieſem Stücke, und
+                  <span className="corr">bessern</span> in die<span className="orig">ſ</span><span className="corr">s</span>em Stücke, und
                   mehr
                   <br className="lb" />
-                  ſchreiben wenn auch noch mehr wirkliche
+                  <span className="orig">ſ</span><span className="corr">s</span>chreiben wenn auch noch mehr wirkliche
                   <span className="g.enc.tagsdecl.suspension.type1">
                     {" "}
                     (Abhaltung)
@@ -306,30 +306,30 @@ export default function page() {
                     Abhaltung<span className="ex">en</span>
                   </span>
                   <br className="lb" />
-                  eintreten ſollten, als ſeit meinem letzten
+                  eintreten <span className="orig">ſ</span><span className="corr">s</span>ollten, als <span className="orig">ſ</span><span className="corr">s</span>eit meinem letzten
                   <br className="lb" />
-                  ordentlichen Briefe wirklich exiﬅirten.
+                  ordentlichen Briefe wirklich exi<span className="orig">ﬅ</span><span className="corr">st</span>irten.
                 </p>
                 <p className="enc.tagsdecl.indent-small">
                   <a id="mark.001.s">{/*anchor*/}</a>
                   <span className="reisen">
                     <span className="g.rend.script.latin">August</span> und
                     <span className="g.rend.script.latin">Louise</span> (die
-                    Frau) haben eine ſehr
+                    Frau) haben eine <span className="orig">ſ</span><span className="corr">s</span>ehr
                     <br className="lb" />
-                    ſchöne Reiſe, faﬅ die ſelbe wie Du gemacht,
+                    <span className="orig">ſ</span><span className="corr">s</span>chöne Rei<span className="orig">ſ</span><span className="corr">s</span>e, fa<span className="orig">ﬅ</span><span className="corr">st</span> die <span className="orig">ſ</span><span className="corr">s</span>elbe wie Du gemacht,
                     <br className="lb" />
                     und erzählen zuweilen von ihren Abentheuern,
                     <br className="lb" />
-                    und von den guten Leuten, die ſie haben kennen
+                    und von den guten Leuten, die <span className="orig">ſ</span><span className="corr">s</span>ie haben kennen
                     <br className="lb" />
-                    gelernt. Was ſoll ich Dir auf Deine
+                    gelernt. Was <span className="orig">ſ</span><span className="corr">s</span>oll ich Dir auf Deine
                     <br className="lb" />
                     Frage warum{" "}
-                    <span className="g.rend.script.latin">Louise</span> |unſere|
-                    nicht Luﬅ hatte
+                    <span className="g.rend.script.latin">Louise</span> |un<span className="orig">ſ</span><span className="corr">s</span>ere|
+                    nicht Lu<span className="orig">ﬅ</span><span className="corr">st</span> hatte
                     <br className="lb" />
-                    die ſchöne Reiſe mitzumachen, antworten?
+                    die <span className="orig">ſ</span><span className="corr">s</span>chöne Rei<span className="orig">ſ</span><span className="corr">s</span>e mitzumachen, antworten?
                   </span>
                 </p>
               </div>
@@ -345,25 +345,25 @@ export default function page() {
                 {/* Insert Page 3 */}
                 <p>
                   <span className="reisen">
-                    Ich habe mich ſelbﬅ
+                    Ich habe mich <span className="orig">ſ</span><span className="corr">s</span>elb<span className="orig">ﬅ</span><span className="corr">st</span>
                     <span className="damage">
                       <span className="supplied">&lt;über&gt;</span>
                     </span>
-                    ihr ruhiges Entſagen
+                    ihr ruhiges Ent<span className="orig">ſ</span><span className="corr">s</span>agen
                     <br className="lb" />
-                    dieſer Reiſe gewundert. Doch mir fällt ein, daß
+                    die<span className="orig">ſ</span><span className="corr">s</span>er Rei<span className="orig">ſ</span><span className="corr">s</span>e gewundert. Doch mir fällt ein, daß
                     <br className="lb" />
                     es beim Antritt der{" "}
                     <span className="placeName">Schweizer</span>
                     <span className="orig">⹀</span>
-                    <span className="corr">-</span>Reiſe noch nicht aus
+                    <span className="corr">-</span>Rei<span className="orig">ſ</span><span className="corr">s</span>e noch nicht aus
                     <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
                     gemacht war, ob Papa nicht noch nach
                     <span className="placeName">Berlin</span> mußte,
                     <br className="lb" />
-                    es war damals ſogar wahrſcheinlich, und da qualifizirt
+                    es war damals <span className="orig">ſ</span><span className="corr">s</span>ogar wahr<span className="orig">ſ</span><span className="corr">s</span>cheinlich, und da qualifizirt
                     <br className="lb" />
-                    ſich nach unſer aller häuslichen{" "}
+                    <span className="orig">ſ</span><span className="corr">s</span>ich nach un<span className="orig">ſ</span><span className="corr">s</span>er aller häuslichen{" "}
                     <span className="orig">Verhältnißen</span>
                     <span className="corr">Verhältnissen</span> niemand
                     <br className="lb" />
@@ -373,15 +373,15 @@ export default function page() {
                     <span className="expan">
                       l<span className="ex">ieben</span>
                     </span>{" "}
-                    Papas als ſie; zudem
+                    Papas als <span className="orig">ſ</span><span className="corr">s</span>ie; zudem
                     <br className="lb" />
-                    hatte ſie von <span className="persName">Eliſe</span> ſchon
-                    ſo vieles von Eurer
+                    hatte <span className="orig">ſ</span><span className="corr">s</span>ie von <span className="persName">Eli<span className="orig">ſ</span><span className="corr">s</span>e</span> <span className="orig">ſ</span><span className="corr">s</span>chon
+                    <span className="orig">ſ</span><span className="corr">s</span>o vieles von Eurer
                     <br className="lb" />
-                    merkwürdigen Stadt gehört, daß ſie darüber der
+                    merkwürdigen Stadt gehört, daß <span className="orig">ſ</span><span className="corr">s</span>ie darüber der
                     <br className="lb" />
-                    <span className="placeName">Schweiz</span>, wovon ſie doch
-                    ſchon vieles geſehen hatte,
+                    <span className="placeName">Schweiz</span>, wovon <span className="orig">ſ</span><span className="corr">s</span>ie doch
+                    <span className="orig">ſ</span><span className="corr">s</span>chon vieles ge<span className="orig">ſ</span><span className="corr">s</span>ehen hatte,
                     <br className="lb" />
                     ohne großen Kampf entbehren konnte.
                     <a id="mark.001.e">{/*anchor*/}</a>
@@ -389,12 +389,12 @@ export default function page() {
                 </p>
                 <p className="enc.tagsdecl.indent-medium">
                   <span className="religion">
-                    <a id="mark.002.s">{/*anchor*/}</a>Was haﬅ Du dem guten Papa
+                    <a id="mark.002.s">{/*anchor*/}</a>Was ha<span className="orig">ﬅ</span><span className="corr">st</span> Du dem guten Papa
                     mit Deiner
                     <br className="lb" />
                     Kirchennachricht für Freude gemacht, lieber
                     <span className="persName">Karl</span>!<br className="lb" />
-                    Er war ſeelenvergnügt <span className="abbr"> (u.)</span>
+                    Er war <span className="orig">ſ</span><span className="corr">s</span>eelenvergnügt <span className="abbr"> (u.)</span>
                     <span className="expan">
                       u<span className="ex">nd</span>
                     </span>{" "}
@@ -403,19 +403,19 @@ export default function page() {
                       <span className="unclear">rn[?]</span>
                     </span>
                     <br className="lb" />
-                    Lenker dieſer wichtigen Sache.
+                    Lenker die<span className="orig">ſ</span><span className="corr">s</span>er wichtigen Sache.
                     <a id="mark.002.e">{/*anchor*/}</a>
                   </span>
                 </p>
                 <p className="enc.tagsdecl.indent-medium">
-                  Da hat ſo eben <span className="persName">Eliſe</span> den
+                  Da hat <span className="orig">ſ</span><span className="corr">s</span>o eben <span className="persName">Eli<span className="orig">ſ</span><span className="corr">s</span>e</span> den
                   kleinen Jungen
                   <br className="lb" />
-                  bei ſich, und unterhält ſich mit ihm. Mir laufen
+                  bei <span className="orig">ſ</span><span className="corr">s</span>ich, und unterhält <span className="orig">ſ</span><span className="corr">s</span>ich mit ihm. Mir laufen
                   <br className="lb" />
                   immer die Freudenthränen in die Augen, wenn
                   <br className="lb" />
-                  ich das ſehe <span className="abbr"> (u.)</span>
+                  ich das <span className="orig">ſ</span><span className="corr">s</span>ehe <span className="abbr"> (u.)</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}
@@ -423,7 +423,7 @@ export default function page() {
                   <span className="orig">laße</span>
                   <span className="corr">lasse</span> Dich auch ’mal
                   <br className="lb" />
-                  ſolche Freuden empfinden, Herzens{" "}
+                  <span className="orig">ſ</span><span className="corr">s</span>olche Freuden empfinden, Herzens{" "}
                   <span className="persName">Karl</span>.
                 </p>
                 <div className="closer">
@@ -444,7 +444,7 @@ export default function page() {
                     grüß<span className="ex">en</span>
                   </span>
                   <br className="lb" />
-                  beſonders aber <span className="persName">Eliſe</span> und
+                  be<span className="orig">ſ</span><span className="corr">s</span>onders aber <span className="persName">Eli<span className="orig">ſ</span><span className="corr">s</span>e</span> und
                   meine gute
                   <span className="persName">
                     <span className="g.enc.tagsdecl.suspension.type1">
@@ -456,7 +456,7 @@ export default function page() {
                     </span>
                   </span>
                   .<br className="lb" />
-                  Der Herr ſeÿ ferner mit Dir und
+                  Der Herr <span className="orig">ſ</span><span className="corr">s</span>eÿ ferner mit Dir und
                   <br className="lb" />
                   <span style={{ display: "inline-block" }} width="12cm">
                     &nbsp;

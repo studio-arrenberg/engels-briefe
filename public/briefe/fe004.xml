@@ -138,89 +138,89 @@
                 <opener rend="inline" rendition="#enc.tagsdecl.indent-negative">
                     <anchor xml:id="teaser.part.001.s"/><salute>Mein werther <rs type="person" ref="#pers.partic.engels-johann-caspar-II">Freund</rs>!</salute><anchor xml:id="teaser.part.001.e"/>
                 </opener>
-                <p> Nach meinem Wunſch, und nach meiner Hoffnung<lb/>
-                    ſind Sie, wenn Sie dieſen <rs type="letter">Brief</rs> erhalten, von Ihrer Sÿnodal-Reiſe<lb/>
-                    geſund und <choice><orig>glüklich</orig><corr type="ortho">glücklich</corr></choice> zurückgekom̅en; <anchor xml:id="mark.002.s"/><anchor xml:id="teaser.part.002.s"/>Ihrer Bitte, daß ich Ihnen eine<lb/>
-                    etwaige Beſchreibung des <hi rendition="#g.rend.script.latin">Characters</hi>, der Geſinnungen, und der Familie<lb/>
+                <p> Nach meinem Wun<span className="orig">ſ</span><span className="corr">s</span>ch, und nach meiner Hoffnung<lb/>
+                    <span className="orig">ſ</span><span className="corr">s</span>ind Sie, wenn Sie die<span className="orig">ſ</span><span className="corr">s</span>en <rs type="letter">Brief</rs> erhalten, von Ihrer Sÿnodal-Rei<span className="orig">ſ</span><span className="corr">s</span>e<lb/>
+                    ge<span className="orig">ſ</span><span className="corr">s</span>und und <choice><orig>glüklich</orig><corr type="ortho">glücklich</corr></choice> zurückgekom̅en; <anchor xml:id="mark.002.s"/><anchor xml:id="teaser.part.002.s"/>Ihrer Bitte, daß ich Ihnen eine<lb/>
+                    etwaige Be<span className="orig">ſ</span><span className="corr">s</span>chreibung des <hi rendition="#g.rend.script.latin">Characters</hi>, der Ge<span className="orig">ſ</span><span className="corr">s</span>innungen, und der Familie<lb/>
                     der <choice>
-                        <abbr>Demoiſ<am>.</am>
+                        <abbr>Demoi<span className="orig">ſ</span><span className="corr">s</span><am>.</am>
                         </abbr>
-                        <expan n="no" cert="high">Demoiſ<ex>elle</ex>
+                        <expan n="no" cert="high">Demoi<span className="orig">ſ</span><span className="corr">s</span><ex>elle</ex>
                         </expan>
                     </choice>
                     <persName ref="#pers.partic.engels-luise" rendition="#g.rend.script.latin">Noot</persName>
-                    machen mögte, will ich denn nun, ſo gut ich <choice><orig>kan</orig><corr type="ortho">kann</corr></choice>,<lb/>
-                    entſprechen:<anchor xml:id="teaser.part.002.e"/> Ihr natürlicher <hi rendition="#g.rend.script.latin">Character</hi> iﬅ aufrichtig, gefällig, zuvorkom̅end,<lb/>
+                    machen mögte, will ich denn nun, <span className="orig">ſ</span><span className="corr">s</span>o gut ich <choice><orig>kan</orig><corr type="ortho">kann</corr></choice>,<lb/>
+                    ent<span className="orig">ſ</span><span className="corr">s</span>prechen:<anchor xml:id="teaser.part.002.e"/> Ihr natürlicher <hi rendition="#g.rend.script.latin">Character</hi> i<span className="orig">ﬅ</span><span className="corr">st</span> aufrichtig, gefällig, zuvorkom̅end,<lb/>
                     und gar nichts fordernd, <rs type="person" ref="#pers.partic.hoffmann-clara">meine Frau</rs>, und ich, wir haben in der<lb/>
-                    <choice><orig>gantzen</orig><corr type="ortho">ganzen</corr></choice> Zeit unſers Umgangs mit ihr, gar nichts <choice><orig>falsches</orig><corr type="ortho">Falsches</corr></choice> und <choice><orig>ungerades</orig><corr type="ortho">Ungerades</corr></choice><lb/>
-                    an ihr bemerkt; etwas zu ſagen, das ihr nicht von <choice><orig>Hertzen gienge</orig><corr type="ortho">Herzen ginge</corr></choice>,<lb/>
-                    würde ihr, wie ich vermuthe, überaus ſchwer werden — aber gar nicht<lb/>
-                    ſchwer wird es ihr, ſich nach andern, ſoweit es die Aufrichtigkeit zuläßt,<lb/>
-                    zu <hi rendition="#g.rend.script.latin">accommodi</hi>ren; auf ihren Sinn eigenwillig zu beﬅehen, ſcheint ihr<lb/>
-                    gar nicht eigen, ſondern Nachgiebigkeit, und leichte Lenkſamkeit ein<lb/>
-                    Hauptzug ihrer <hi rendition="#g.rend.script.latin">Characters</hi> zu ſeÿn, dabeÿ iﬅ ſie aber von aller Schmeicheleÿ<lb/>
-                    und Heucheleÿ, ſo wie von allem <choice><orig>Stoltz</orig><corr type="ortho">Stolz</corr></choice> weit entfernt; ſie hat eine<lb/>
-                    ſchlechte <choice><orig>Meÿnung</orig><corr type="ortho">Meinung</corr></choice> von ſich ſelbﬅ, und irrt ſich <choice><orig>darinn</orig><corr type="ortho">darin</corr></choice> oft zu ihrem<lb/>
-                    Nachtheil, indem ſie ſich viel weniger Gutes zuschreibt, und zutraut, als<lb/>
-                    ſie würklich hat; dieſer niedrige Sinn macht dann auch, daß ſie wenig<lb/>
-                    von andern fordert, und weit mehr daran denkt, wie ſie ſich andern<lb/>
-                    gefällig machen, und ihnen zur Freude ſeÿn möge; — <anchor xml:id="mark.001.s"/><span class="regligion">Was ihre Geſinnungen<lb/>
-                    <choice><orig>betrift</orig><corr type="ortho">betrifft</corr></choice>, ſo glaube ich, es ſagen zu dürfen, daß ihr Chriﬅenthum aufrichtig,<lb/>
-                    und nicht nur oberflächig, ſondern feﬅ und tief gegründet iﬅ; Es iﬅ ihr<lb/>
-                    ernﬅlich um ihre Selbﬅbeſſerung zu thun, und ſie hat würklich <choice><orig>darinn</orig><corr type="ortho">darin</corr></choice> ſchon <space dim="horizontal" quantity="10" unit="cm"/><fw type="catch">Fort=<lb/><space dim="horizontal" quantity="10" unit="cm"/>_</fw>
+                    <choice><orig>gantzen</orig><corr type="ortho">ganzen</corr></choice> Zeit un<span className="orig">ſ</span><span className="corr">s</span>ers Umgangs mit ihr, gar nichts <choice><orig>falsches</orig><corr type="ortho">Falsches</corr></choice> und <choice><orig>ungerades</orig><corr type="ortho">Ungerades</corr></choice><lb/>
+                    an ihr bemerkt; etwas zu <span className="orig">ſ</span><span className="corr">s</span>agen, das ihr nicht von <choice><orig>Hertzen gienge</orig><corr type="ortho">Herzen ginge</corr></choice>,<lb/>
+                    würde ihr, wie ich vermuthe, überaus <span className="orig">ſ</span><span className="corr">s</span>chwer werden — aber gar nicht<lb/>
+                    <span className="orig">ſ</span><span className="corr">s</span>chwer wird es ihr, <span className="orig">ſ</span><span className="corr">s</span>ich nach andern, <span className="orig">ſ</span><span className="corr">s</span>oweit es die Aufrichtigkeit zuläßt,<lb/>
+                    zu <hi rendition="#g.rend.script.latin">accommodi</hi>ren; auf ihren Sinn eigenwillig zu be<span className="orig">ﬅ</span><span className="corr">st</span>ehen, <span className="orig">ſ</span><span className="corr">s</span>cheint ihr<lb/>
+                    gar nicht eigen, <span className="orig">ſ</span><span className="corr">s</span>ondern Nachgiebigkeit, und leichte Lenk<span className="orig">ſ</span><span className="corr">s</span>amkeit ein<lb/>
+                    Hauptzug ihrer <hi rendition="#g.rend.script.latin">Characters</hi> zu <span className="orig">ſ</span><span className="corr">s</span>eÿn, dabeÿ i<span className="orig">ﬅ</span><span className="corr">st</span> <span className="orig">ſ</span><span className="corr">s</span>ie aber von aller Schmeicheleÿ<lb/>
+                    und Heucheleÿ, <span className="orig">ſ</span><span className="corr">s</span>o wie von allem <choice><orig>Stoltz</orig><corr type="ortho">Stolz</corr></choice> weit entfernt; <span className="orig">ſ</span><span className="corr">s</span>ie hat eine<lb/>
+                    <span className="orig">ſ</span><span className="corr">s</span>chlechte <choice><orig>Meÿnung</orig><corr type="ortho">Meinung</corr></choice> von <span className="orig">ſ</span><span className="corr">s</span>ich <span className="orig">ſ</span><span className="corr">s</span>elb<span className="orig">ﬅ</span><span className="corr">st</span>, und irrt <span className="orig">ſ</span><span className="corr">s</span>ich <choice><orig>darinn</orig><corr type="ortho">darin</corr></choice> oft zu ihrem<lb/>
+                    Nachtheil, indem <span className="orig">ſ</span><span className="corr">s</span>ie <span className="orig">ſ</span><span className="corr">s</span>ich viel weniger Gutes zuschreibt, und zutraut, als<lb/>
+                    <span className="orig">ſ</span><span className="corr">s</span>ie würklich hat; die<span className="orig">ſ</span><span className="corr">s</span>er niedrige Sinn macht dann auch, daß <span className="orig">ſ</span><span className="corr">s</span>ie wenig<lb/>
+                    von andern fordert, und weit mehr daran denkt, wie <span className="orig">ſ</span><span className="corr">s</span>ie <span className="orig">ſ</span><span className="corr">s</span>ich andern<lb/>
+                    gefällig machen, und ihnen zur Freude <span className="orig">ſ</span><span className="corr">s</span>eÿn möge; — <anchor xml:id="mark.001.s"/><span class="regligion">Was ihre Ge<span className="orig">ſ</span><span className="corr">s</span>innungen<lb/>
+                    <choice><orig>betrift</orig><corr type="ortho">betrifft</corr></choice>, <span className="orig">ſ</span><span className="corr">s</span>o glaube ich, es <span className="orig">ſ</span><span className="corr">s</span>agen zu dürfen, daß ihr Chri<span className="orig">ﬅ</span><span className="corr">st</span>enthum aufrichtig,<lb/>
+                    und nicht nur oberflächig, <span className="orig">ſ</span><span className="corr">s</span>ondern fe<span className="orig">ﬅ</span><span className="corr">st</span> und tief gegründet i<span className="orig">ﬅ</span><span className="corr">st</span>; Es i<span className="orig">ﬅ</span><span className="corr">st</span> ihr<lb/>
+                    ern<span className="orig">ﬅ</span><span className="corr">st</span>lich um ihre Selb<span className="orig">ﬅ</span><span className="corr">st</span>be<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>erung zu thun, und <span className="orig">ſ</span><span className="corr">s</span>ie hat würklich <choice><orig>darinn</orig><corr type="ortho">darin</corr></choice> <span className="orig">ſ</span><span className="corr">s</span>chon <space dim="horizontal" quantity="10" unit="cm"/><fw type="catch">Fort=<lb/><space dim="horizontal" quantity="10" unit="cm"/>_</fw>
                     <lb/>
                     
 <pb n="2" facs="#facs.p2"/>
-                    Fortſchritte gemacht; daß ihr das Wohlgefallen Gottes, und ihre innre<lb/>
-                    Ruhe mehr werth iﬅ, als alle Luﬅ dieſer Welt, und alle <choice>
-                        <abbr rendition="#g.enc.tagsdecl.suspension.type1" type="suspension">Luﬅbarkeit</abbr>
-                        <expan>Luﬅbarkeit<ex>en</ex>
+                    Fort<span className="orig">ſ</span><span className="corr">s</span>chritte gemacht; daß ihr das Wohlgefallen Gottes, und ihre innre<lb/>
+                    Ruhe mehr werth i<span className="orig">ﬅ</span><span className="corr">st</span>, als alle Lu<span className="orig">ﬅ</span><span className="corr">st</span> die<span className="orig">ſ</span><span className="corr">s</span>er Welt, und alle <choice>
+                        <abbr rendition="#g.enc.tagsdecl.suspension.type1" type="suspension">Lu<span className="orig">ﬅ</span><span className="corr">st</span>barkeit</abbr>
+                        <expan>Lu<span className="orig">ﬅ</span><span className="corr">st</span>barkeit<ex>en</ex>
                         </expan>
                     </choice>,<lb/>
-                    davon hat ſie verſchiedene ſehr entſcheidende Proben abgelegt; <choice><orig>Schon</orig><corr type="ortho">schon</corr></choice><lb/>
-                    ſeit einigen Jahren nahm ſie an denen Vergnügungen, die in <placeName ref="#place.ruhrort" rendition="#g.rend.script.latin">Ruhrorth</placeName>,<lb/>
+                    davon hat <span className="orig">ſ</span><span className="corr">s</span>ie ver<span className="orig">ſ</span><span className="corr">s</span>chiedene <span className="orig">ſ</span><span className="corr">s</span>ehr ent<span className="orig">ſ</span><span className="corr">s</span>cheidende Proben abgelegt; <choice><orig>Schon</orig><corr type="ortho">schon</corr></choice><lb/>
+                    <span className="orig">ſ</span><span className="corr">s</span>eit einigen Jahren nahm <span className="orig">ſ</span><span className="corr">s</span>ie an denen Vergnügungen, die in <placeName ref="#place.ruhrort" rendition="#g.rend.script.latin">Ruhrorth</placeName>,<lb/>
                     und in <placeName ref="#place.hagen" rendition="#g.rend.script.latin">Hagen</placeName>
-                    üblich ſind, nicht mehr Theil, weil ſie dieſelbe einem<lb/>
-                    Chriﬅen unanﬅändig hielt — ;<anchor xml:id="mark.001.e"/></span> Was zuletzt ihre <hi rendition="#g.rend.script.latin">Familie</hi> betrift, ſo<lb/>
-                    iﬅ in derſelben keine <choice><orig>Perſohn</orig><corr type="ortho">Person</corr></choice>, deren ſie Urſache hätte, ſich zu ſchämen.<lb/>
-                    ſie hat, ſoviel ich weiß, 3 Brüder und 2 <rs ref="#pers.partic.maercker-maria #pers.partic.haniel-aletta">Schweﬅern</rs>; der <rs type="person" ref="#pers.partic.noot-diederich-walter">ältere Bruder</rs>
+                    üblich <span className="orig">ſ</span><span className="corr">s</span>ind, nicht mehr Theil, weil <span className="orig">ſ</span><span className="corr">s</span>ie die<span className="orig">ſ</span><span className="corr">s</span>elbe einem<lb/>
+                    Chri<span className="orig">ﬅ</span><span className="corr">st</span>en unan<span className="orig">ﬅ</span><span className="corr">st</span>ändig hielt — ;<anchor xml:id="mark.001.e"/></span> Was zuletzt ihre <hi rendition="#g.rend.script.latin">Familie</hi> betrift, <span className="orig">ſ</span><span className="corr">s</span>o<lb/>
+                    i<span className="orig">ﬅ</span><span className="corr">st</span> in der<span className="orig">ſ</span><span className="corr">s</span>elben keine <choice><orig>Per<span className="orig">ſ</span><span className="corr">s</span>ohn</orig><corr type="ortho">Person</corr></choice>, deren <span className="orig">ſ</span><span className="corr">s</span>ie Ur<span className="orig">ſ</span><span className="corr">s</span>ache hätte, <span className="orig">ſ</span><span className="corr">s</span>ich zu <span className="orig">ſ</span><span className="corr">s</span>chämen.<lb/>
+                    <span className="orig">ſ</span><span className="corr">s</span>ie hat, <span className="orig">ſ</span><span className="corr">s</span>oviel ich weiß, 3 Brüder und 2 <rs ref="#pers.partic.maercker-maria #pers.partic.haniel-aletta">Schwe<span className="orig">ﬅ</span><span className="corr">st</span>ern</rs>; der <rs type="person" ref="#pers.partic.noot-diederich-walter">ältere Bruder</rs>
                     <lb/>
-                    iﬅ OberSaltz <choice><orig>=</orig><corr type="norm">-</corr></choice> <hi rendition="#g.rend.script.latin">Inspector</hi>, und ZollEinnehmer in <placeName ref="#place.ruhrort" rendition="#g.rend.script.latin">Ruhrorth</placeName>; 
-                    Zweÿ ſehr ein<lb break="no" rendition="#g.enc.tagsdecl.hyphenation.eq"/>
-                        trägliche und ehrenvolle Bedienungen; ſeine <rs type="person" ref="#pers.partic.noot-anna-catharina">Frau</rs> iﬅ eine <hi rendition="#g.rend.script.latin">
-                    Mauritz</hi> von <placeName ref="#place.wesel">Weſel</placeName>,<lb/>
-                    Der <choice><orig>Zwe<choice><orig/><corr type="emendation">y</corr></choice>te</orig><corr type="ortho">zwe<choice><orig/><corr type="emendation">y</corr></choice>te</corr></choice> <rs type="person" ref="#pers.partic.noot-gerhard-peter">Bruder</rs> iﬅ <choice><orig>Creiß=Einnehmer</orig><corr type="ortho">Kreis-Einnehmer</corr></choice> gleichfalls in <placeName ref="#place.ruhrort" rendition="#g.rend.script.latin">Ruhrorth</placeName>, und mit<lb/>
+                    i<span className="orig">ﬅ</span><span className="corr">st</span> OberSaltz <choice><orig>=</orig><corr type="norm">-</corr></choice> <hi rendition="#g.rend.script.latin">Inspector</hi>, und ZollEinnehmer in <placeName ref="#place.ruhrort" rendition="#g.rend.script.latin">Ruhrorth</placeName>; 
+                    Zweÿ <span className="orig">ſ</span><span className="corr">s</span>ehr ein<lb break="no" rendition="#g.enc.tagsdecl.hyphenation.eq"/>
+                        trägliche und ehrenvolle Bedienungen; <span className="orig">ſ</span><span className="corr">s</span>eine <rs type="person" ref="#pers.partic.noot-anna-catharina">Frau</rs> i<span className="orig">ﬅ</span><span className="corr">st</span> eine <hi rendition="#g.rend.script.latin">
+                    Mauritz</hi> von <placeName ref="#place.wesel">We<span className="orig">ſ</span><span className="corr">s</span>el</placeName>,<lb/>
+                    Der <choice><orig>Zwe<choice><orig/><corr type="emendation">y</corr></choice>te</orig><corr type="ortho">zwe<choice><orig/><corr type="emendation">y</corr></choice>te</corr></choice> <rs type="person" ref="#pers.partic.noot-gerhard-peter">Bruder</rs> i<span className="orig">ﬅ</span><span className="corr">st</span> <choice><orig>Creiß=Einnehmer</orig><corr type="ortho">Kreis-Einnehmer</corr></choice> gleichfalls in <placeName ref="#place.ruhrort" rendition="#g.rend.script.latin">Ruhrorth</placeName>, und mit<lb/>
                         einer <rs type="person" ref="#pers.partic.noot-anna-clara" rendition="#g.rend.script.latin">Karthaus</rs> von <placeName ref="#place.hagen" rendition="#g.rend.script.latin">Hagen</placeName> verheirathet; der <rs type="person" ref="#pers.partic.noot-samuel-wilhelm">dritte</rs> noch unverheirathete<lb/>
-                    beſorgt die Geſchäfte der <rs type="person" ref="#pers.partic.haniel-aletta">älteren Schweﬅer</rs>, die <choice><orig/><corr type="emendation">eine</corr></choice> <hi rendition="#g.rend.script.latin">Spedition</hi> hat, und gleichfalls<lb/>
-                    in <placeName ref="#place.ruhrort" rendition="#g.rend.script.latin">Ruhrorth</placeName> wohnt — ; dieſe iﬅ durch die <choice>
+                    be<span className="orig">ſ</span><span className="corr">s</span>orgt die Ge<span className="orig">ſ</span><span className="corr">s</span>chäfte der <rs type="person" ref="#pers.partic.haniel-aletta">älteren Schwe<span className="orig">ﬅ</span><span className="corr">st</span>er</rs>, die <choice><orig/><corr type="emendation">eine</corr></choice> <hi rendition="#g.rend.script.latin">Spedition</hi> hat, und gleichfalls<lb/>
+                    in <placeName ref="#place.ruhrort" rendition="#g.rend.script.latin">Ruhrorth</placeName> wohnt — ; die<span className="orig">ſ</span><span className="corr">s</span>e i<span className="orig">ﬅ</span><span className="corr">st</span> durch die <choice>
                         <abbr>Demo<am>.</am>
                         </abbr>
-                        <expan n="no" cert="high">Demo<ex>iſelle</ex>
+                        <expan n="no" cert="high">Demo<ex>i<span className="orig">ſ</span><span className="corr">s</span>elle</ex>
                         </expan>
                     </choice>
                     <persName ref="#pers.partic.engels-luise" rendition="#g.rend.script.latin">Noot</persName>
-                    aufmerkſahm auf ſich<lb/>
-                    ſelbﬅ, und auf Gottes Wort geworden, und hegt den ernﬅlichen Wunſch ſich<lb/>
-                        zu beſſern; die <rs type="person" ref="#pers.partic.maercker-maria">jüngere Schweﬅer</rs> iﬅ an Herrn <hi rendition="#g.rend.script.latin">Doctor <persName ref="#pers.partic.maercker-johann-christoph">Maercker</persName>
+                    aufmerk<span className="orig">ſ</span><span className="corr">s</span>ahm auf <span className="orig">ſ</span><span className="corr">s</span>ich<lb/>
+                    <span className="orig">ſ</span><span className="corr">s</span>elb<span className="orig">ﬅ</span><span className="corr">st</span>, und auf Gottes Wort geworden, und hegt den ern<span className="orig">ﬅ</span><span className="corr">st</span>lichen Wun<span className="orig">ſ</span><span className="corr">s</span>ch <span className="orig">ſ</span><span className="corr">s</span>ich<lb/>
+                        zu be<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>ern; die <rs type="person" ref="#pers.partic.maercker-maria">jüngere Schwe<span className="orig">ﬅ</span><span className="corr">st</span>er</rs> i<span className="orig">ﬅ</span><span className="corr">st</span> an Herrn <hi rendition="#g.rend.script.latin">Doctor <persName ref="#pers.partic.maercker-johann-christoph">Maercker</persName>
                     </hi> in <placeName ref="#place.hagen" rendition="#g.rend.script.latin">Hagen</placeName>
                     <lb/>
                     verheirathet — ;</p>
-                <p rendition="#enc.tagsdecl.indent-medium">Dieß mein Wertheﬅer! wäre <choice><orig>ohngefehr</orig><corr type="ortho">ungefähr</corr></choice> das, was ich Ihnen in Anſehung
+                <p rendition="#enc.tagsdecl.indent-medium">Dieß mein Werthe<span className="orig">ﬅ</span><span className="corr">st</span>er! wäre <choice><orig>ohngefehr</orig><corr type="ortho">ungefähr</corr></choice> das, was ich Ihnen in An<span className="orig">ſ</span><span className="corr">s</span>ehung
                         
                     <lb/>
                     der <choice>
                         <abbr>Dem<am>.</am></abbr>
-                        <expan n="no" cert="high">Dem<ex>oiſelle</ex> </expan> </choice> <persName ref="#pers.partic.engels-luise"> <hi rendition="#g.rend.script.latin">Noot</hi>
-                    </persName> ſagen könnte — ; Sie werden daraus ſelbﬅ den Schluß machen,<lb/>
-                    daß ſie nicht zu den alltäglichen Frauenzimmern gehört, ſondern zu denen,<lb/>
-                    die man ſelten antrifft —  beſonders in den <choice><orig>itzigen</orig><corr type="ortho">jetzigen</corr></choice> Zeiten, wo Eitelkeit und<lb/>
-                    <choice><orig>LeichtSinn</orig><corr type="ortho">Leichtsinn</corr></choice> ſo ſehr überhand nimmt; <choice><orig>Nach</orig><corr type="ortho">nach</corr></choice> meinem Urtheil <choice><orig>kan</orig><corr type="ortho">kann</corr></choice> ich nicht<lb/>
-                    anders, als den Mann glücklich ſchätzen, der ſie zur Gattin bekömmt.<anchor xml:id="mark.002.e"/>
+                        <expan n="no" cert="high">Dem<ex>oi<span className="orig">ſ</span><span className="corr">s</span>elle</ex> </expan> </choice> <persName ref="#pers.partic.engels-luise"> <hi rendition="#g.rend.script.latin">Noot</hi>
+                    </persName> <span className="orig">ſ</span><span className="corr">s</span>agen könnte — ; Sie werden daraus <span className="orig">ſ</span><span className="corr">s</span>elb<span className="orig">ﬅ</span><span className="corr">st</span> den Schluß machen,<lb/>
+                    daß <span className="orig">ſ</span><span className="corr">s</span>ie nicht zu den alltäglichen Frauenzimmern gehört, <span className="orig">ſ</span><span className="corr">s</span>ondern zu denen,<lb/>
+                    die man <span className="orig">ſ</span><span className="corr">s</span>elten antrifft —  be<span className="orig">ſ</span><span className="corr">s</span>onders in den <choice><orig>itzigen</orig><corr type="ortho">jetzigen</corr></choice> Zeiten, wo Eitelkeit und<lb/>
+                    <choice><orig>LeichtSinn</orig><corr type="ortho">Leichtsinn</corr></choice> <span className="orig">ſ</span><span className="corr">s</span>o <span className="orig">ſ</span><span className="corr">s</span>ehr überhand nimmt; <choice><orig>Nach</orig><corr type="ortho">nach</corr></choice> meinem Urtheil <choice><orig>kan</orig><corr type="ortho">kann</corr></choice> ich nicht<lb/>
+                    anders, als den Mann glücklich <span className="orig">ſ</span><span className="corr">s</span>chätzen, der <span className="orig">ſ</span><span className="corr">s</span>ie zur Gattin bekömmt.<anchor xml:id="mark.002.e"/>
                 </p>
                 <closer rendition="#enc.tagsdecl.indent-medium">
                     <salute>
-                        <rs type="person" ref="#pers.partic.hoffmann-clara"><choice><orig>meine</orig><corr type="ortho">Meine</corr></choice> Frau</rs> und ich, wir grüßen Sie auf das Herzlichﬅe, ich bin mit<lb/>
-                    denen Ihren bekannten Geſinnungen.</salute>
+                        <rs type="person" ref="#pers.partic.hoffmann-clara"><choice><orig>meine</orig><corr type="ortho">Meine</corr></choice> Frau</rs> und ich, wir grüßen Sie auf das Herzlich<span className="orig">ﬅ</span><span className="corr">st</span>e, ich bin mit<lb/>
+                    denen Ihren bekannten Ge<span className="orig">ſ</span><span className="corr">s</span>innungen.</salute>
                     <lb/>
                     <space dim="horizontal" quantity="11" unit="cm"/> <salute>Ihr aufrichtiger Freund</salute>
                     <lb/> 
@@ -229,7 +229,7 @@
                             <choice>
                                 <abbr>D<am>.</am>
                                 </abbr>
-                                <expan n="no" cert="high">D<ex>üſſeldorf</ex>
+                                <expan n="no" cert="high">D<ex>ü<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>eldorf</ex>
                                 </expan>
                             </choice>
                         </placeName> am <date when="1791-05-12">12 Maÿ 1791</date>.  

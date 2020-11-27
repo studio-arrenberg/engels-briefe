@@ -110,17 +110,17 @@ export default function page() {
                   </div>
                   <div className="opener">
                     <div className="salute">
-                      Liebe <span className="persName">Eliſe</span>
+                      Liebe <span className="persName">Eli<span className="orig">ſ</span><span className="corr">s</span>e</span>
                     </div>
                   </div>
                   <p>
-                    Geﬅern Abend ſind wir hier Gott ſeÿ Dank geſund und wohl an
+                    Ge<span className="orig">ﬅ</span><span className="corr">st</span>ern Abend <span className="orig">ſ</span><span className="corr">s</span>ind wir hier Gott <span className="orig">ſ</span><span className="corr">s</span>eÿ Dank ge<span className="orig">ſ</span><span className="corr">s</span>und und wohl an
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
-                    gekommen, und ich eile Dich davon mit der erﬅen Poﬅ zu be
+                    gekommen, und ich eile Dich davon mit der er<span className="orig">ﬅ</span><span className="corr">st</span>en Po<span className="orig">ﬅ</span><span className="corr">st</span> zu be
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
-                    nachrichtigen. Zu unſrer Freude fanden wir hier einen
+                    nachrichtigen. Zu un<span className="orig">ſ</span><span className="corr">s</span>rer Freude fanden wir hier einen
                     <br className="lb" />
-                    Brief von Dir, woraus wir ſehen daß es im Allgemeinen dort
+                    Brief von Dir, woraus wir <span className="orig">ſ</span><span className="corr">s</span>ehen daß es im Allgemeinen dort
                     <br className="lb" />
                     gut geht, was uns auch
                     <span className="g.rend.script.latin">
@@ -132,22 +132,22 @@ export default function page() {
                         Treviranus
                       </span>
                     </span>
-                    geﬅern ſchon ſagte. Ich
+                    ge<span className="orig">ﬅ</span><span className="corr">st</span>ern <span className="orig">ſ</span><span className="corr">s</span>chon <span className="orig">ſ</span><span className="corr">s</span>agte. Ich
                     <br className="lb" />
                     bedaure nun nicht aus
                     <span className="placeName">
                       <span className="g.rend.script.latin">Manchester</span>
                     </span>
-                    noch an Dich geſchrieben zu haben,
+                    noch an Dich ge<span className="orig">ſ</span><span className="corr">s</span>chrieben zu haben,
                     <br className="lb" />
-                    da ich bemerke daß Du in einiger Unruhe biﬅ; allein Du
-                    wußteﬅ
+                    da ich bemerke daß Du in einiger Unruhe bi<span className="orig">ﬅ</span><span className="corr">st</span>; allein Du
+                    wußte<span className="orig">ﬅ</span><span className="corr">st</span>
                     <br className="lb" />
-                    uns dort gut aufgehoben, und ſo hielten wir es bei meiner
+                    uns dort gut aufgehoben, und <span className="orig">ſ</span><span className="corr">s</span>o hielten wir es bei meiner
                     <br className="lb" />
                     vielen Arbeit für <span className="orig">beßer</span>
                     <span className="corr">besser</span>, Dich lieber über den
-                    Tag unſerer
+                    Tag un<span className="orig">ſ</span><span className="corr">s</span>erer
                     <br className="lb" />
                     Seefahrt in Ungewißheit zu{" "}
                     <span className="orig">laßen</span>
@@ -157,7 +157,7 @@ export default function page() {
                     <span style={{ display: "inline-block" }} width="4em">
                       &nbsp;
                     </span>
-                    Die Reiſe von
+                    Die Rei<span className="orig">ſ</span><span className="corr">s</span>e von
                     <span style={{ textDecoration: "line-through" }}>Ha</span>
                     <span className="placeName">
                       <span className="g.rend.script.latin">London</span>
@@ -166,15 +166,15 @@ export default function page() {
                     <span className="placeName">
                       <span className="g.rend.script.latin">Cuxhaven</span>
                     </span>
-                    war ſehr
+                    war <span className="orig">ſ</span><span className="corr">s</span>ehr
                     <br className="lb" />
-                    gut und ziemlich raſch, wir machten nämlich die
+                    gut und ziemlich ra<span className="orig">ſ</span><span className="corr">s</span>ch, wir machten nämlich die
                     <span className="orig">Ueberfahrt</span>
                     <span className="corr">Überfahrt</span>
                     <br className="lb" />
-                    in 43 Stunden, ﬅatt der 8–10 Tage, was im Winter und
+                    in 43 Stunden, <span className="orig">ﬅ</span><span className="corr">st</span>att der 8–10 Tage, was im Winter und
                     <br className="lb" />
-                    bei ganz ﬅürmiſchem Wetter wohl der Fall ſein kann.
+                    bei ganz <span className="orig">ﬅ</span><span className="corr">st</span>ürmi<span className="orig">ſ</span><span className="corr">s</span>chem Wetter wohl der Fall <span className="orig">ſ</span><span className="corr">s</span>ein kann.
                     <br className="lb" />
                     Wir haben ein <span className="orig">bischen</span>
                     <span className="corr">bißchen</span> Seekrankheit
@@ -182,22 +182,22 @@ export default function page() {
                     <br className="lb" />
                     ganz angenehme Reise gehabt, und sind ganz vergnügt,
                     <br className="lb" />
-                    trotz dem entsetzlichen Wetter. (Meine armen Ziegelﬅeine
+                    trotz dem entsetzlichen Wetter. (Meine armen Ziegel<span className="orig">ﬅ</span><span className="corr">st</span>eine
                     <br className="lb" />
-                    und Hafer!!) Die Ruhe am feﬅen Lande thut uns ſehr wohl,
+                    und Hafer!!) Die Ruhe am fe<span className="orig">ﬅ</span><span className="corr">st</span>en Lande thut uns <span className="orig">ſ</span><span className="corr">s</span>ehr wohl,
                     <br className="lb" />
-                    ſo daß wir heute Morgen bis 10 Uhr ſchliefen und der gute
+                    <span className="orig">ſ</span><span className="corr">s</span>o daß wir heute Morgen bis 10 Uhr <span className="orig">ſ</span><span className="corr">s</span>chliefen und der gute
                     <br className="lb" />
                     <span className="persName">
-                      Paﬅor{" "}
+                      Pa<span className="orig">ﬅ</span><span className="corr">st</span>or{" "}
                       <span className="g.rend.script.latin">Treviranus</span>
                     </span>
                     uns noch im Bette traf. Deshalb kann
                     <span style={{ textDecoration: "line-through" }}>
-                      unſer
+                      un<span className="orig">ſ</span><span className="corr">s</span>er
                     </span>
                     <br className="lb" />
-                    mein Brief auch nur kurz ſeÿn da wir die Zeit nun nutzen
+                    mein Brief auch nur kurz <span className="orig">ſ</span><span className="corr">s</span>eÿn da wir die Zeit nun nutzen
                     <br className="lb" />
                     <span className="orig">müßen</span>
                     <span className="corr">müssen</span>.
@@ -218,25 +218,25 @@ export default function page() {
                       </span>
                       Strücker
                     </span>
-                    danke für ſeine Briefe die mich ſehr
+                    danke für <span className="orig">ſ</span><span className="corr">s</span>eine Briefe die mich <span className="orig">ſ</span><span className="corr">s</span>ehr
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (intereſſirt)
+                      (intere<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>irt)
                     </span>
                     <span className="expan">
-                      intereſſirt<span className="ex">en</span>
+                      intere<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>irt<span className="ex">en</span>
                     </span>
                     ,<br className="lb" />
-                    es iﬅ wahr, wenn es regnen ſoll muß der Loh in den Springen
-                    ſeine
+                    es i<span className="orig">ﬅ</span><span className="corr">st</span> wahr, wenn es regnen <span className="orig">ſ</span><span className="corr">s</span>oll muß der Loh in den Springen
+                    <span className="orig">ſ</span><span className="corr">s</span>eine
                     <br className="lb" />
-                    Wieſe mähen, und wenn die Seide aufſchlagen ſoll, muß ich
+                    Wie<span className="orig">ſ</span><span className="corr">s</span>e mähen, und wenn die Seide auf<span className="orig">ſ</span><span className="corr">s</span>chlagen <span className="orig">ſ</span><span className="corr">s</span>oll, muß ich
                     nach
                     <br className="lb" />
                     <span className="placeName">
                       <span className="g.rend.script.latin">England</span>
                     </span>
-                    reiſen! Wer hätte das denken ſollen. In
+                    rei<span className="orig">ſ</span><span className="corr">s</span>en! Wer hätte das denken <span className="orig">ſ</span><span className="corr">s</span>ollen. In
                     <span className="placeName">
                       <span className="g.rend.script.latin">London</span>
                     </span>
@@ -248,10 +248,10 @@ export default function page() {
                     <span style={{ textDecoration: "line-through" }}>
                       Ballen,
                     </span>{" "}
-                    Preiſen, ſage
+                    Prei<span className="orig">ſ</span><span className="corr">s</span>en, <span className="orig">ſ</span><span className="corr">s</span>age
                     <span className="persName">Strücker</span> nichts
                     <span style={{ textDecoration: "line-through" }}>da</span>
-                    von der Zahl damit ſolche
+                    von der Zahl damit <span className="orig">ſ</span><span className="corr">s</span>olche
                     <br className="lb" />
                     nicht bekannt wird. In
                     <span className="placeName">
@@ -259,14 +259,14 @@ export default function page() {
                     </span>
                     bin ich auch mit dem
                     <br className="lb" />
-                    Geſchäft recht zufrieden, es geht alles ſehr regelmäßig,
+                    Ge<span className="orig">ſ</span><span className="corr">s</span>chäft recht zufrieden, es geht alles <span className="orig">ſ</span><span className="corr">s</span>ehr regelmäßig,
                     doch
                     <br className="lb" />
                     darüber bald mündlich. Für{" "}
                     <span className="persName">Eduard</span> habe ich die Stelle
                     aus
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
-                    gemittelt, er muß ſo gleich abreiſen; ich ſchreibe heute
+                    gemittelt, er muß <span className="orig">ſ</span><span className="corr">s</span>o gleich abrei<span className="orig">ſ</span><span className="corr">s</span>en; ich <span className="orig">ſ</span><span className="corr">s</span>chreibe heute
                     nach
                     <br className="lb" />
                     <span className="placeName">
@@ -298,21 +298,21 @@ export default function page() {
                     <span className="expan">
                       u<span className="ex">nd</span>
                     </span>{" "}
-                    Dich noch zu ſehen <span className="abbr"> (u)</span>
+                    Dich noch zu <span className="orig">ſ</span><span className="corr">s</span>ehen <span className="abbr"> (u)</span>
                     <span className="expan">
                       u<span className="ex">nd</span>
                     </span>{" "}
-                    ſeine Inﬅruktionen von mir
+                    <span className="orig">ſ</span><span className="corr">s</span>eine In<span className="orig">ﬅ</span><span className="corr">st</span>ruktionen von mir
                     <br className="lb" />
                     zu empfangen.<a id="mark.001.e">{/*anchor*/}</a> Hier werde
                     ich nicht lange bleiben, und am
                     <br className="lb" />
-                    Montag oder Dienﬅag abreiſen.
+                    Montag oder Dien<span className="orig">ﬅ</span><span className="corr">st</span>ag abrei<span className="orig">ſ</span><span className="corr">s</span>en.
                   </p>
                   <blockquote className="closer">
                     <p className="inline">
                       <span className="persName">Friedrich</span> wird noch
-                      etwas ſchreiben
+                      etwas <span className="orig">ſ</span><span className="corr">s</span>chreiben
                     </p>
                   </blockquote>
                   <div className="closer">
@@ -320,8 +320,8 @@ export default function page() {
                       &nbsp;
                     </span>
                     Nun Adieu, liebe
-                    <span className="persName">Eliſe</span>, ich freue mich Dich
-                    bald wieder zu ſehen
+                    <span className="persName">Eli<span className="orig">ſ</span><span className="corr">s</span>e</span>, ich freue mich Dich
+                    bald wieder zu <span className="orig">ſ</span><span className="corr">s</span>ehen
                     <br className="lb" />
                     Grüße die <span className="persName">Mutter</span>,
                     <span className="persName">Hannchen</span>{" "}
@@ -364,48 +364,48 @@ export default function page() {
                   </div>
                   <p>
                     <a id="teaser.part.001.s">{/*anchor*/}</a>Wie Du aus des
-                    <span className="persName">Vaters</span> Brief wirﬅ erſehen
-                    haben, war unſere Reiſe ziem
+                    <span className="persName">Vaters</span> Brief wir<span className="orig">ﬅ</span><span className="corr">st</span> er<span className="orig">ſ</span><span className="corr">s</span>ehen
+                    haben, war un<span className="orig">ſ</span><span className="corr">s</span>ere Rei<span className="orig">ſ</span><span className="corr">s</span>e ziem
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     lich glücklich, und ich will Dir nur noch einige Worte über
                     das Einzelne hinzu
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     fügen.<a id="teaser.part.001.e">{/*anchor*/}</a> In London
-                    blieben wir drei Tage, und reiﬅen den vierten, es war
+                    blieben wir drei Tage, und rei<span className="orig">ﬅ</span><span className="corr">st</span>en den vierten, es war
                     <br className="lb" />
                     ein Sonntag, morgen werden es vierzehn Tage, ab; am Abend
                     waren
                     <br className="lb" />
                     wir gegen 12 Uhr in
                     <span style={{ textDecoration: "line-through" }}>de</span>
-                    <span className="placeName">Mancheﬅer</span>. Dort blieben
-                    wir bis zum nächﬅen
+                    <span className="placeName">Manche<span className="orig">ﬅ</span><span className="corr">st</span>er</span>. Dort blieben
+                    wir bis zum näch<span className="orig">ﬅ</span><span className="corr">st</span>en
                     <br className="lb" />
                     Sonntag, wo wir wieder nach
-                    <span className="placeName">London</span> reiﬅen. Montag und
-                    Dienﬅag blieben
+                    <span className="placeName">London</span> rei<span className="orig">ﬅ</span><span className="corr">st</span>en. Montag und
+                    Dien<span className="orig">ﬅ</span><span className="corr">st</span>ag blieben
                     <br className="lb" />
-                    wir dort, gingen zu den Maklern, beſahen noch einiges
+                    wir dort, gingen zu den Maklern, be<span className="orig">ſ</span><span className="corr">s</span>ahen noch einiges
                     Merkwürdige
                     <br className="lb" />
-                    und gingen Dienﬅag Abend etwas vor zwölf auf das Schiff. Den
+                    und gingen Dien<span className="orig">ﬅ</span><span className="corr">st</span>ag Abend etwas vor zwölf auf das Schiff. Den
                     andern
                     <br className="lb" />
-                    Morgen waren wir ſchon in der See; der
+                    Morgen waren wir <span className="orig">ſ</span><span className="corr">s</span>chon in der See; der
                     <span className="persName">Vater</span> wurde leider bald
-                    ſee
+                    <span className="orig">ſ</span><span className="corr">s</span>ee
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
-                    krank und legte ſich ſchon vor Mittag zu Bette; ich blieb
+                    krank und legte <span className="orig">ſ</span><span className="corr">s</span>ich <span className="orig">ſ</span><span className="corr">s</span>chon vor Mittag zu Bette; ich blieb
                     ganz wohl,
                     <br className="lb" />
                     aber wenn ich was aß, mußte ich es gleich wieder von mir
                     geben.
                     <br className="lb" />
-                    Endlich gegen Abends ſieben Uhr fühlte auch ich anhaltende
+                    Endlich gegen Abends <span className="orig">ſ</span><span className="corr">s</span>ieben Uhr fühlte auch ich anhaltende
                     <span className="orig">Uebelkeit</span>
                     <span className="corr">Übelkeit</span>
                     <br className="lb" />
-                    und legte mich gleichfalls nieder; den andern Tag ﬅand ich
+                    und legte mich gleichfalls nieder; den andern Tag <span className="orig">ﬅ</span><span className="corr">st</span>and ich
                     gegen 3
                     <br className="lb" />
                     oder 4 Uhr Nachmittags wieder auf, aß etwas, das mir gut
@@ -414,20 +414,20 @@ export default function page() {
                     <span style={{ textDecoration: "line-through" }}>
                       als
                     </span>{" "}
-                    einige Stunden nachher ﬅand der{" "}
+                    einige Stunden nachher <span className="orig">ﬅ</span><span className="corr">st</span>and der{" "}
                     <span className="persName">Vater</span> auch auf. Als es
                     dunkel wur
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
-                    de, ſahen wir die Leuchtthürme an der deutſchen Küﬅe, und
+                    de, <span className="orig">ſ</span><span className="corr">s</span>ahen wir die Leuchtthürme an der deut<span className="orig">ſ</span><span className="corr">s</span>chen Kü<span className="orig">ﬅ</span><span className="corr">st</span>e, und
                     wenn wir noch
                     <br className="lb" />
-                    eine Stunde gefahren hätten, hätten wir ſchon ans Land gehen
+                    eine Stunde gefahren hätten, hätten wir <span className="orig">ſ</span><span className="corr">s</span>chon ans Land gehen
                     können,
                     <br className="lb" />
-                    aber der Lootſe wollte nicht weiter fahren, weil er die
+                    aber der Loot<span className="orig">ſ</span><span className="corr">s</span>e wollte nicht weiter fahren, weil er die
                     Untiefen fürchtete
                     <br className="lb" />
-                    und ſo blieben wir die Nacht über liegen; am andern Morgen
+                    und <span className="orig">ſ</span><span className="corr">s</span>o blieben wir die Nacht über liegen; am andern Morgen
                     aber
                     <br className="lb" />
                     waren wir um 5 Uhr in{" "}
@@ -443,7 +443,7 @@ export default function page() {
                     <span className="placeName">Bremerhafen</span>, und kamen
                     Abends
                     <br className="lb" />
-                    ſieben Uhr{" "}
+                    <span className="orig">ſ</span><span className="corr">s</span>ieben Uhr{" "}
                     <span style={{ textDecoration: "line-through" }}>
                       bei
                     </span>{" "}
@@ -453,16 +453,16 @@ export default function page() {
                     <br className="lb" />
                     wir noch eben zu{" "}
                     <span className="persName">Treviranus</span>, fanden ihn
-                    aber nicht zu Hauſe,
+                    aber nicht zu Hau<span className="orig">ſ</span><span className="corr">s</span>e,
                     <br className="lb" />
-                    er kam aber heute Morgen und fand uns, wie Du geleſen haben
+                    er kam aber heute Morgen und fand uns, wie Du gele<span className="orig">ſ</span><span className="corr">s</span>en haben
                     <br className="lb" />
-                    wirﬅ, im Bette.
+                    wir<span className="orig">ﬅ</span><span className="corr">st</span>, im Bette.
                   </p>
                   <div className="closer">
-                    Jetzt ſind wir im Begriffe, hinzugehen, wir eſſen heute
+                    Jetzt <span className="orig">ſ</span><span className="corr">s</span>ind wir im Begriffe, hinzugehen, wir e<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>en heute
                     <br className="lb" />
-                    Mittag da, darum ſchließe ich. Grüße Alle recht herzlich von
+                    Mittag da, darum <span className="orig">ſ</span><span className="corr">s</span>chließe ich. Grüße Alle recht herzlich von
                     mir,
                     <br className="lb" />
                     auch die Großmutter und die Tante, und lebe recht wohl
