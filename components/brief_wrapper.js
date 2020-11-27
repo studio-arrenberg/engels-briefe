@@ -1,9 +1,6 @@
 import {
   motion,
-  useAnimation,
   useMotionValue,
-  useDragControls,
-  transform,
   useTransform,
   useViewportScroll,
 } from "framer-motion";
@@ -14,12 +11,11 @@ import React, { useState, useEffect, useRef } from "react";
 import IdleTimer from "../components/IdleTimer";
 
 export default function Brief_wrapper(props) {
+  
   // get window width
   const [width, setWidth] = React.useState(0);
-  // const [height, setHeight] = React.useState(0);
   React.useEffect(() => {
     setWidth(window.innerWidth);
-    // setHeight(window.innerHeight);
   });
 
   // prep data
@@ -120,7 +116,6 @@ export default function Brief_wrapper(props) {
   //   document.querySelector('.normalisiert').innerHTML = "";
   //   document.querySelector('.normalisiert').innerHTML = el;
   // }, []);
-
 
   return data.map((data, id) => {
     return (
@@ -280,6 +275,10 @@ export default function Brief_wrapper(props) {
             <motion.div
               drag="x"
               className="handlebar"
+              // dragElastic={0.2}
+              dragMomentum={true}
+              dragTransition={{ bounceStiffness: 100, bounceDamping: 40 }}
+              // dragTransition={{ bounceStiffness: 400, bounceDamping: 40 }}
               style={{
                 width: handle_width,
                 opacity: 1,

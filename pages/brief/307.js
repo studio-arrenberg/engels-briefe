@@ -9,17 +9,22 @@ export default function page() {
     return data.id === "307";
   });
 
-  console.log(item);
-  const ners = item.map((data, index) => data.id);
+  const key = item.map((data, index) => data.id);
   const date = item.map((data, index) => data.date);
-  console.log(ners);
+
+  const [isStellen, setStellen] = useState(false);
+  function stellen(state) {
+    // console.log("Stellen: " + state);
+    setStellen(state);
+  }
   
   return (
     <Layout>
       <Head>
         <title>Brief 306 {date}</title>
       </Head>
-      <Brief_wrapper data={item}>
+      
+      <Brief_wrapper stellen={stellen} key={`wrapper-${key}`} data={item}>
         {/* brief text goes here */}
         {/* Insert Themenmarkierungen */}
         {/* <!-- Themenmarkierung --> */}

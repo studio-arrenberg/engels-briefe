@@ -1118,7 +1118,7 @@ export default function page() {
           </div>
         </div>
       </div>
-      <div className="stellenerläuterungen">
+      <div className={`stellenerläuterungen ${isStellen ? "activ" : null}`} >
         <div
           className="stellenerläuterung"
           style={{
