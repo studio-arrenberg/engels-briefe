@@ -13,7 +13,7 @@ export default function page() {
   const ners = item.map((data, index) => data.id);
   const date = item.map((data, index) => data.date);
   console.log(ners);
-  
+
   return (
     <Layout>
       <Head>
@@ -39,7 +39,7 @@ export default function page() {
                 <section
                   className="kuvert"
                   id="index.xml-body.1_div.1"
-                  style={{ paddingTop: "100px", paddingBottom: "160px" }}
+                  style={{ paddingTop: "200px", paddingBottom: "160px" }}
                 >
                   {/* Insert Kuvert */}
                   <div className="teidiv1" id="index.xml-body.1_div.1_div.1">
@@ -48,7 +48,7 @@ export default function page() {
                     </h3>
                     <p className="g.enc.tagsdecl.wd.vertical-left">
                       <span className="address">
-                        An
+                        An{" "}
                         <span className="persName">
                           Frau{" "}
                           <span className="g.rend.script.latin">
@@ -56,53 +56,52 @@ export default function page() {
                           </span>
                         </span>
                         <br />
-                        <span className="g.enc.tagsdecl.suspension.type3">
-                          {" "}
-                          (Adr)
-                        </span>
-                        <span className="expan">
-                          Adr<span className="ex">esse</span>
-                        </span>{" "}
-                        Herrn
-                        <span className="persName">
-                          <span className="abbr">
-                            (
-                            <span className="g.rend.script.latin">Friedr.</span>
-                            )
+                        <span className="small">
+                          <span className="g.enc.tagsdecl.suspension.type3">
+                            {" "}
+                            (Adr)
                           </span>
                           <span className="expan">
-                            <span className="g.rend.script.latin">
-                              Friedr<span className="ex">ich</span>
+                            Adr<span className="ex">esse</span>
+                          </span>{" "}
+                          Herrn{" "}
+                          <span className="persName">
+                            <span className="abbr">
+                              (
+                              <span className="g.rend.script.latin">
+                                Friedr.
+                              </span>
+                              )
                             </span>
+                            <span className="expan">
+                              <span className="g.rend.script.latin">
+                                Friedr<span className="ex">ich</span>
+                              </span>
+                            </span>{" "}
+                            <span className="g.rend.script.latin">Engels </span>
                           </span>
-                          <span className="g.rend.script.latin">Engels</span>
+                          <span className="hi">&amp; Co.</span> <br />
                         </span>
-                        <span className="hi">&amp; Co.</span>
-                        <br />
-                        <span style={{ display: "inline-block" }} width="6cm">
-                          &nbsp;
-                        </span>
-                        in
-                        <br />
-                        <span style={{ display: "inline-block" }} width="5cm">
-                          &nbsp;
-                        </span>
-                        <span className="placeName">
-                          <span style={{ textDecoration: "underline" }}>
-                            Barmen
+                        <span
+                          className=""
+                          style={{ marginLeft: "100px", display: "block", marginTop: "20px" }}
+                        >
+                          <span className="small">
+                            in
+                            <br />
+                          </span>
+                          <span className="placeName">
+                              Barmen
+                          </span>
+                          .<br />
+                          <span
+                            className="xsmall"
+                            style={{ marginTop: "-5px", display: "block" }}
+                          >
+                            bei <span className="placeName">Elberfeld</span>
+                            &nbsp;
                           </span>
                         </span>
-                        .<br />
-                        <span style={{ display: "inline-block" }} width="5cm">
-                          &nbsp;
-                        </span>
-                        bei
-                        <span className="placeName">
-                          <span style={{ textDecoration: "underline" }}>
-                            Elberfeld
-                          </span>
-                        </span>
-                        <br />
                       </span>
                     </p>
                   </div>
@@ -148,7 +147,10 @@ export default function page() {
                   </span>
                   <span className="reisen">
                     <p id="mark.001">
-                      Soeben Donner<span className="orig">ﬅ</span><span className="corr">st</span>ag Morgen um 7 Uhr <span className="orig">ſ</span><span className="corr">s</span>ind wir hier
+                      Soeben Donner<span className="orig">ﬅ</span>
+                      <span className="corr">st</span>ag Morgen um 7 Uhr{" "}
+                      <span className="orig">ſ</span>
+                      <span className="corr">s</span>ind wir hier
                       <span className="orig">glüklich</span>
                       <span className="corr">glücklich</span> ange
                       <br className="g.enc.tagsdecl.hyphenation.divis" />
@@ -156,21 +158,28 @@ export default function page() {
                       <span className="orig">Ueberfahrt</span>
                       <span className="corr">Überfahrt</span>
                       <br className="lb" />
-                      gehabt haben. Wir fuhren nämlich um ½ 1 Uhr Dien<span className="orig">ﬅ</span><span className="corr">st</span>ag
-                      Mittags
+                      gehabt haben. Wir fuhren nämlich um ½ 1 Uhr Dien
+                      <span className="orig">ﬅ</span>
+                      <span className="corr">st</span>ag Mittags
                       <br className="lb" />
                       von
                       <span className="placeName">
                         <span className="g.rend.script.latin">Rotterdam</span>
                       </span>
-                      aus, und blieben al<span className="orig">ſ</span><span className="corr">s</span>o <span className="abbr"> (ca.)</span>
+                      aus, und blieben al<span className="orig">ſ</span>
+                      <span className="corr">s</span>o{" "}
+                      <span className="abbr"> (ca.)</span>
                       <span className="expan">
                         c<span className="ex">irc</span>a
                       </span>{" "}
                       42 Stunden auf dem <span className="orig">Waßer</span>
                       <span className="corr">Wasser</span>.<br className="lb" />
-                      Die See war etwas <span className="orig">ﬅ</span><span className="corr">st</span>ürmi<span className="orig">ſ</span><span className="corr">s</span>ch, jedoch ohne die minde<span className="orig">ﬅ</span><span className="corr">st</span>e
-                      Gefahr,
+                      Die See war etwas <span className="orig">ﬅ</span>
+                      <span className="corr">st</span>ürmi
+                      <span className="orig">ſ</span>
+                      <span className="corr">s</span>ch, jedoch ohne die minde
+                      <span className="orig">ﬅ</span>
+                      <span className="corr">st</span>e Gefahr,
                       <br className="lb" />
                       der Aufenthalt kam dadurch daß wir wegen niederem
                       <span className="orig">Waßer</span>
@@ -186,25 +195,39 @@ export default function page() {
                       </span>
                       die Anker aus werfen,
                       <br className="lb" />
-                      und lange <span className="orig">ﬅ</span><span className="corr">st</span>ill liegen mußten; es hat uns die<span className="orig">ſ</span><span className="corr">s</span>es einen
+                      und lange <span className="orig">ﬅ</span>
+                      <span className="corr">st</span>ill liegen mußten; es hat
+                      uns die<span className="orig">ſ</span>
+                      <span className="corr">s</span>es einen
                       <br className="lb" />
-                      vollen Tag ge<span className="orig">ſ</span><span className="corr">s</span>chadet. –
+                      vollen Tag ge<span className="orig">ſ</span>
+                      <span className="corr">s</span>chadet. –
                     </p>
                   </span>
                   <p className="enc.tagsdecl.indent-medium">
                     Von der Seekrankheit haben wir beide nicht viel ge
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
-                    <span className="orig">ſ</span><span className="corr">s</span>pürt, wir haben fa<span className="orig">ﬅ</span><span className="corr">st</span> die ganze Zeit im Bette gelegen,
+                    <span className="orig">ſ</span>
+                    <span className="corr">s</span>pürt, wir haben fa
+                    <span className="orig">ﬅ</span>
+                    <span className="corr">st</span> die ganze Zeit im Bette
+                    gelegen,
                     <br className="lb" />
                     wodurch man ihr nach meiner Erfahrung am{" "}
                     <span className="orig">beßten</span>
                     <span className="corr">besten</span> entgeht.
                     <br className="lb" />
-                    <span className="persName">Friedrich</span> i<span className="orig">ﬅ</span><span className="corr">st</span> recht munter,
-                    wir haben <span className="orig">ſ</span><span className="corr">s</span>chon ehe wir un<span className="orig">ſ</span><span className="corr">s</span>re
+                    <span className="persName">Friedrich</span> i
+                    <span className="orig">ﬅ</span>
+                    <span className="corr">st</span> recht munter, wir haben{" "}
+                    <span className="orig">ſ</span>
+                    <span className="corr">s</span>chon ehe wir un
+                    <span className="orig">ſ</span>
+                    <span className="corr">s</span>re
                     <br className="lb" />
                     <span className="g.rend.script.latin">Bagage</span> vom
-                    Zollhau<span className="orig">ſ</span><span className="corr">s</span>e hohlen konnten einen weiten
+                    Zollhau<span className="orig">ſ</span>
+                    <span className="corr">s</span>e hohlen konnten einen weiten
                     <br className="lb" />
                     Spatziergang durch
                     <span className="placeName">
@@ -214,8 +237,13 @@ export default function page() {
                   </p>
                   <p className="enc.tagsdecl.indent-medium" id="mark.004">
                     Hoffentlich{" "}
-                    <span style={{ textDecoration: "line-through" }}><span className="orig">ſ</span><span className="corr">s</span>in</span>{" "}
-                    bi<span className="orig">ﬅ</span><span className="corr">st</span> Du mit den Kindern auch recht wohl;
+                    <span style={{ textDecoration: "line-through" }}>
+                      <span className="orig">ſ</span>
+                      <span className="corr">s</span>in
+                    </span>{" "}
+                    bi<span className="orig">ﬅ</span>
+                    <span className="corr">st</span> Du mit den Kindern auch
+                    recht wohl;
                     <br className="lb" />
                     in
                     <span className="placeName">
@@ -226,12 +254,17 @@ export default function page() {
                     worin auch wohl viele Seiden<span className="orig"> </span>
                     <span className="corr">-</span>Verkäufe angezeigt werden.
                     <br className="lb" />
-                    Dies mal wird wohl kein Auf<span className="orig">ſ</span><span className="corr">s</span>chlag wohl aber eher das
+                    Dies mal wird wohl kein Auf<span className="orig">ſ</span>
+                    <span className="corr">s</span>chlag wohl aber eher das
                     <br className="lb" />
-                    Gegentheil zu befürchten <span className="orig">ſ</span><span className="corr">s</span>eÿn.
+                    Gegentheil zu befürchten <span className="orig">ſ</span>
+                    <span className="corr">s</span>eÿn.
                   </p>
                   <p className="enc.tagsdecl.indent-medium">
-                    Wir <span className="orig">ſ</span><span className="corr">s</span>ind wieder bei un<span className="orig">ſ</span><span className="corr">s</span>erem alten Wirth
+                    Wir <span className="orig">ſ</span>
+                    <span className="corr">s</span>ind wieder bei un
+                    <span className="orig">ſ</span>
+                    <span className="corr">s</span>erem alten Wirth
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
                       (Hr)
@@ -244,9 +277,15 @@ export default function page() {
                       <span className="g.rend.script.latin">Bacon</span>
                     </span>
                     <br className="lb" />
-                    abge<span className="orig">ﬅ</span><span className="corr">st</span>iegen, wo ich einen deut<span className="orig">ſ</span><span className="corr">s</span>chen Kellner angetroffen
+                    abge<span className="orig">ﬅ</span>
+                    <span className="corr">st</span>iegen, wo ich einen deut
+                    <span className="orig">ſ</span>
+                    <span className="corr">s</span>chen Kellner angetroffen
                     <br className="lb" />
-                    habe, was <span className="orig">ſ</span><span className="corr">s</span>ehr angenehm i<span className="orig">ﬅ</span><span className="corr">st</span>.
+                    habe, was <span className="orig">ſ</span>
+                    <span className="corr">s</span>ehr angenehm i
+                    <span className="orig">ﬅ</span>
+                    <span className="corr">st</span>.
                   </p>
                   <span className="reisen">
                     <p className="enc.tagsdecl.indent-medium" id="mark.002">
@@ -254,7 +293,9 @@ export default function page() {
                       <span className="orig">Ueberfahrt</span>
                       <span className="corr">Überfahrt</span>, werden
                       <br className="lb" />
-                      wir uns nur wohl bis den 28. hier aufhalten, und er<span className="orig">ﬅ</span><span className="corr">st</span>
+                      wir uns nur wohl bis den 28. hier aufhalten, und er
+                      <span className="orig">ﬅ</span>
+                      <span className="corr">st</span>
                       <br className="lb" />
                       am 29. Sonntags nach
                       <span className="placeName">
@@ -268,7 +309,8 @@ export default function page() {
                   <blockquote className="closer">
                     <p className="enc.tagsdecl.indent-medium">
                       <span className="persName">Friedrich</span> will noch ein
-                      paar Worte drunter <span className="orig">ſ</span><span className="corr">s</span>chreiben.
+                      paar Worte drunter <span className="orig">ſ</span>
+                      <span className="corr">s</span>chreiben.
                       <br className="lb" />
                       <span className="orig">Küße</span>
                       <span className="corr">Küsse</span> die Kinder, und grüße
@@ -283,11 +325,13 @@ export default function page() {
                       </span>
                       <span className="persName">Hannchen</span>,
                       <br className="lb" />
-                      die bei Dir angekommen <span className="orig">ſ</span><span className="corr">s</span>eÿn werden.
+                      die bei Dir angekommen <span className="orig">ſ</span>
+                      <span className="corr">s</span>eÿn werden.
                     </p>
                   </blockquote>
                   <div className="closer">
-                    Nun lebe recht wohl, Gott <span className="orig">ſ</span><span className="corr">s</span>eÿ mit Dir{" "}
+                    Nun lebe recht wohl, Gott <span className="orig">ſ</span>
+                    <span className="corr">s</span>eÿ mit Dir{" "}
                     <span className="abbr"> (u.)</span>
                     <span className="expan">
                       u<span className="ex">nd</span>
@@ -320,19 +364,29 @@ export default function page() {
                     <span className="reisen">
                       <p className="enc.tagsdecl.indent-medium" id="mark.003">
                         Aus den obigen Zeilen des{" "}
-                        <span className="persName">Vaters</span> wir<span className="orig">ﬅ</span><span className="corr">st</span> Du
-                        erfahren haben, daß es uns
+                        <span className="persName">Vaters</span> wir
+                        <span className="orig">ﬅ</span>
+                        <span className="corr">st</span> Du erfahren haben, daß
+                        es uns
                         <br className="lb" />
                         bis jetzt im Ganzen noch recht gut gegangen hat. Ich bin
-                        aber <span className="orig">ſ</span><span className="corr">s</span>o verwirrt von
+                        aber <span className="orig">ſ</span>
+                        <span className="corr">s</span>o verwirrt von
                         <br className="lb" />
-                        der Seefahrt – es i<span className="orig">ﬅ</span><span className="corr">st</span> mir, als wenn der Boden unter mir
-                        <span className="orig">ſ</span><span className="corr">s</span>chwankte – und dem
+                        der Seefahrt – es i<span className="orig">ﬅ</span>
+                        <span className="corr">st</span> mir, als wenn der Boden
+                        unter mir
+                        <span className="orig">ſ</span>
+                        <span className="corr">s</span>chwankte – und dem
                         <br className="lb" />
-                        Getö<span className="orig">ſ</span><span className="corr">s</span>e um mich herum, daß ich Dir nicht viel <span className="orig">ſ</span><span className="corr">s</span>chreiben
-                        kann. Ich bin in eine
+                        Getö<span className="orig">ſ</span>
+                        <span className="corr">s</span>e um mich herum, daß ich
+                        Dir nicht viel <span className="orig">ſ</span>
+                        <span className="corr">s</span>chreiben kann. Ich bin in
+                        eine
                         <br className="lb" />
-                        ganz neue Welt ver<span className="orig">ſ</span><span className="corr">s</span>etzt.
+                        ganz neue Welt ver<span className="orig">ſ</span>
+                        <span className="corr">s</span>etzt.
                         <a id="teaser.part.001.e">{/*anchor*/}</a>
                       </p>
                     </span>
