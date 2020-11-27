@@ -24,7 +24,7 @@ export default function page() {
         <title>Brief {date}</title>
       </Head>
 
-      <Brief_wrapper stellen={stellen} key={`wrapper-${key}`} data={item}>
+      <Brief_wrapper id="1" stellen={stellen} key={`wrapper-${key}`} data={item}>
         <div>
           {/*TEI front*/}
           <div className="toc toc_body ">
