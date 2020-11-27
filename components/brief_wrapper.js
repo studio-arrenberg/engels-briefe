@@ -121,6 +121,7 @@ export default function Brief_wrapper(props) {
   //   document.querySelector('.normalisiert').innerHTML = el;
   // }, []);
 
+
   return data.map((data, id) => {
     return (
       <>

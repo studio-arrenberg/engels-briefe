@@ -71,12 +71,12 @@ export default function page() {
                     </span>
                     Deine beÿde liebe Briefe
                     <br className="lb" />
-                    habe ich vorgeﬅern Morgen zugleich erhalten, der
+                    habe ich vorge<span className="orig">ﬅ</span><span className="corr">st</span>ern Morgen zugleich erhalten, der
                     <br className="lb" />
-                    aus <span className="placeName">Schwalbach</span> muß alſo
+                    aus <span className="placeName">Schwalbach</span> muß al<span className="orig">ſ</span><span className="corr">s</span>o
                     Unterwegens liegen ge
                     <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
-                    blieben ſeÿn –
+                    blieben <span className="orig">ſ</span><span className="corr">s</span>eÿn –
                     <span className="reisen">
                       <a id="mark.001.s">{/*anchor*/}</a>
                       wie groß war meine
@@ -87,32 +87,32 @@ export default function page() {
                       <br className="lb" />
                       und die erfreuliche Nachricht las, daß Du mein
                       <br className="lb" />
-                      Beﬅer! Dich <span className="orig">Geſund</span>
-                      <span className="corr">geſund</span> und munter befändeﬅ
+                      Be<span className="orig">ﬅ</span><span className="corr">st</span>er! Dich <span className="orig">Ge<span className="orig">ſ</span><span className="corr">s</span>und</span>
+                      <span className="corr">ge<span className="orig">ſ</span><span className="corr">s</span>und</span> und munter befände<span className="orig">ﬅ</span><span className="corr">st</span>
                       <br className="lb" />
                       und bis dahin <span className="orig">Glücklich</span>
                       <span className="corr">glücklich</span>{" "}
                       <span className="orig">gereißet</span>
-                      <span className="corr">gereiſet</span> wäreﬅ.
+                      <span className="corr">gerei<span className="orig">ſ</span><span className="corr">s</span>et</span> wäre<span className="orig">ﬅ</span><span className="corr">st</span>.
                       <a id="teaser.part.002.s">{/*anchor*/}</a>
                       <span className="krieg">
                         <a id="mark.002.s">{/*anchor*/}</a>
                         <span className="orig">ich</span>
                         <span className="corr">Ich</span>
                         <br className="lb" />
-                        verlangte auſſerordentlich nach einen Brief von
+                        verlangte au<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>erordentlich nach einen Brief von
                         <br className="lb" />
                         Dir, weil ich wegen den Unruhen mit den
                         <br className="lb" />
-                        Franzoſen freÿlich etwas beküm̅ert war, indem
+                        Franzo<span className="orig">ſ</span><span className="corr">s</span>en freÿlich etwas beküm̅ert war, indem
                         <br className="lb" />
                         ich’s gehört hatte, daß sie
                         <span className="placeName">Mainz</span> bombardirten
                         <a id="teaser.part.002.e">{/*anchor*/}</a>
                         <br className="lb" />
-                        und ich glaubte, daß Du da drüber reiſen
+                        und ich glaubte, daß Du da drüber rei<span className="orig">ſ</span><span className="corr">s</span>en
                         <br className="lb" />
-                        würdeﬅ
+                        würde<span className="orig">ﬅ</span><span className="corr">st</span>
                         <a id="mark.002.e">{/*anchor*/}</a>
                       </span>
                       <a id="mark.001.e">{/*anchor*/}</a> –
@@ -121,21 +121,21 @@ export default function page() {
                       <a id="mark.003.s">{/*anchor*/}</a>doch suchte ich mir zu
                       hüten nicht
                       <br className="lb" />
-                      in zu ängﬅlicher Sorge zu gerathen, weil
+                      in zu äng<span className="orig">ﬅ</span><span className="corr">st</span>licher Sorge zu gerathen, weil
                       <br className="lb" />
                       dies kein Wohlverhalten gegen Gott gewesen
                       <br className="lb" />
-                      wäre, ſondern mich im Vertrauen zu Jhm
+                      wäre, <span className="orig">ſ</span><span className="corr">s</span>ondern mich im Vertrauen zu Jhm
                       <br className="lb" />
-                      zu <span className="orig">ﬅärcken</span>
-                      <span className="corr">ﬅärken</span>, und es von ſeiner
+                      zu <span className="orig"><span className="orig">ﬅ</span><span className="corr">st</span>ärcken</span>
+                      <span className="corr"><span className="orig">ﬅ</span><span className="corr">st</span>ärken</span>, und es von <span className="orig">ſ</span><span className="corr">s</span>einer
                       großen
                       <br className="lb" />
                       Güte zu hoﬀen daß Er mein{" "}
                       <span className="orig">Gebät</span>
                       <span className="corr">Gebet</span> erhören
                       <br className="lb" />
-                      würde. Er der Liebevolle! ſeÿn dann auch
+                      würde. Er der Liebevolle! <span className="orig">ſ</span><span className="corr">s</span>eÿn dann auch
                       <br className="lb" />
                     </span>
                   </p>
@@ -157,29 +157,29 @@ export default function page() {
                       <span className="corr">gedankt</span>!
                       <br className="lb" />
                       <span className="overwritten">g</span>
-                      <span className="add">⟨daß⟩</span> Er Dich mein Beﬅer!
+                      <span className="add">⟨daß⟩</span> Er Dich mein Be<span className="orig">ﬅ</span><span className="corr">st</span>er!
                       geleitet, und für die
                       <br className="lb" />
-                      Gefahr ſo Dir hätte treﬀen können beſchützet hat.
+                      Gefahr <span className="orig">ſ</span><span className="corr">s</span>o Dir hätte treﬀen können be<span className="orig">ſ</span><span className="corr">s</span>chützet hat.
                       <br className="lb" />
-                      Er ſeÿe Dir dann auch ferner nahe, und{" "}
+                      Er <span className="orig">ſ</span><span className="corr">s</span>eÿe Dir dann auch ferner nahe, und{" "}
                       <span className="orig">laße</span>
                       <span className="corr">lasse</span> uns
                       <br className="lb" />
                       doch die große Freude zu Theil werden, uns
-                      <span className="orig">Geſund</span>
-                      <span className="corr">geſund</span>
+                      <span className="orig">Ge<span className="orig">ſ</span><span className="corr">s</span>und</span>
+                      <span className="corr">ge<span className="orig">ſ</span><span className="corr">s</span>und</span>
                       <br className="lb" />
                       wieder zu umarmen, dann wollen wir Jhm
                       <span className="orig">
                         gemein
                         <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
-                        ſchaﬀtlich
+                        <span className="orig">ſ</span><span className="corr">s</span>chaﬀtlich
                       </span>
                       <span className="corr">
                         gemein
                         <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
-                        ſchaftlich
+                        <span className="orig">ſ</span><span className="corr">s</span>chaftlich
                       </span>
                       danken, und miteinander Seinen Nahmen
                       <br className="lb" />
@@ -192,7 +192,7 @@ export default function page() {
                   <span className="liebe">
                     <a id="mark.004.s">{/*anchor*/}</a>
                     Für Deine Sorgfalt, mir
-                    ſchon ſo bald Nachricht von
+                    <span className="orig">ſ</span><span className="corr">s</span>chon <span className="orig">ſ</span><span className="corr">s</span>o bald Nachricht von
                     <br className="lb" />
                     Dir zu geben <span className="orig">dancke</span>
                     <span className="corr">danke</span> ich Dir mein guter Papa!
@@ -206,30 +206,30 @@ export default function page() {
                     </span>
                     <a id="txt.hi.underline001.int.e">{/*anchor*/}</a>{" "}
                     <br className="lb" />
-                    dafür geben, da dieſes aber nun nicht ſeÿn
+                    dafür geben, da die<span className="orig">ſ</span><span className="corr">s</span>es aber nun nicht <span className="orig">ſ</span><span className="corr">s</span>eÿn
                     <sup className="sup" id="txt.add001">
                       kann
                     </sup>
                     , will
                     <br className="lb" />
                     ich ihn Dir doch in <span className="orig">Gedancken</span>
-                    <span className="corr">Gedanken</span> ſchicken.
+                    <span className="corr">Gedanken</span> <span className="orig">ſ</span><span className="corr">s</span>chicken.
                     <a id="mark.004.e">{/*anchor*/}</a>
                 
                     </span>
 
                     </p>
                   <p>
-                    Jch hätte Dir ſchon gleich{" "}
-                    <span className="orig">Geﬅern</span>
-                    <span className="corr">geﬅern</span> geantwortet,
+                    Jch hätte Dir <span className="orig">ſ</span><span className="corr">s</span>chon gleich{" "}
+                    <span className="orig">Ge<span className="orig">ﬅ</span><span className="corr">st</span>ern</span>
+                    <span className="corr">ge<span className="orig">ﬅ</span><span className="corr">st</span>ern</span> geantwortet,
                     <br className="lb" />
-                    weil wir aber am Kappes ſchneiden waren, und ich
+                    weil wir aber am Kappes <span className="orig">ſ</span><span className="corr">s</span>chneiden waren, und ich
                     <br className="lb" />
                     auch Kramsvogel gepackt habe, um
                     <span className="persName">Bruder Wilhelm</span>{" "}
                     <br className="lb" />
-                    zu ſchicken, kon̅te ich nicht.{" "}
+                    zu <span className="orig">ſ</span><span className="corr">s</span>chicken, kon̅te ich nicht.{" "}
                   </p>
                   <span className="reisen">
                     <p>
@@ -241,9 +241,9 @@ export default function page() {
                       <span className="orig">meinen</span>
                       <span className="corr">Meinen</span> Brief
                       <br className="lb" />
-                      ſo ich unſerer Abſprache gemäß nach<span className="placeName"> Manheim</span> adreſſirt
+                      <span className="orig">ſ</span><span className="corr">s</span>o ich un<span className="orig">ſ</span><span className="corr">s</span>erer Ab<span className="orig">ſ</span><span className="corr">s</span>prache gemäß nach<span className="placeName"> Manheim</span> adre<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>irt
                       <br className="lb" />
-                      hatte, hoﬀe ich wirﬅ Du <span className="orig">jezt</span>
+                      hatte, hoﬀe ich wir<span className="orig">ﬅ</span><span className="corr">st</span> Du <span className="orig">jezt</span>
                       <span className="corr">jetzt</span> erhalten haben –
                       <br className="lb" />
                       wann er nur{" "}
@@ -253,12 +253,12 @@ export default function page() {
                       wegen den Unruhen <span className="orig">verlohren</span>
                       <span className="corr">verloren</span> ge
                       <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
-                      gangen iﬅ!
+                      gangen i<span className="orig">ﬅ</span><span className="corr">st</span>!
                     </p>
                     <p>
-                      Sehr wohl haﬅ Du gethan mein Jnniggeliebter! und
+                      Sehr wohl ha<span className="orig">ﬅ</span><span className="corr">st</span> Du gethan mein Jnniggeliebter! und
                       <br className="lb" />
-                      es freÿlich ganz nach meinen Wunſch gemacht, daß Du wie
+                      es freÿlich ganz nach meinen Wun<span className="orig">ſ</span><span className="corr">s</span>ch gemacht, daß Du wie
                       <br className="lb" />
                     </p>
                   </span>
@@ -277,18 +277,18 @@ export default function page() {
                   <p>
 
                   <span className="reisen">
-                      es etwas unſicher war, nicht über
+                      es etwas un<span className="orig">ſ</span><span className="corr">s</span>icher war, nicht über
                       <span className="placeName"> Manheim</span> ge
                       <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
-                      reiﬅ biﬅ <a id="mark.006.e">{/*anchor*/}</a>– Vielleicht
-                      iﬅ es auch für die Sache
+                      rei<span className="orig">ﬅ</span><span className="corr">st</span> bi<span className="orig">ﬅ</span><span className="corr">st</span> <a id="mark.006.e">{/*anchor*/}</a>– Vielleicht
+                      i<span className="orig">ﬅ</span><span className="corr">st</span> es auch für die Sache
                       <br className="lb" />
                       <span className="orig">beßer</span>
                       <span className="corr">besser</span>.
                       <span style={{ display: "inline-block" }} width="2cm">
                         &nbsp;
                       </span>
-                      Unſerer Vermuthung nach wirﬅ Du{" "}
+                      Un<span className="orig">ſ</span><span className="corr">s</span>erer Vermuthung nach wir<span className="orig">ﬅ</span><span className="corr">st</span> Du{" "}
                       <span className="orig">Heute</span>
                       <span className="corr">heute</span>
                       <br className="lb" />
@@ -302,15 +302,15 @@ export default function page() {
                       <span className="orig">bäte</span>
                       <span className="corr">bete</span> mit Dir, daß
                       <br className="lb" />
-                      unſer liebreicher Herr Jeſu Dir geſchickt machen möge
+                      un<span className="orig">ſ</span><span className="corr">s</span>er liebreicher Herr Je<span className="orig">ſ</span><span className="corr">s</span>u Dir ge<span className="orig">ſ</span><span className="corr">s</span>chickt machen möge
                       <br className="lb" />
-                      ſo zu handlen, wie Er es machen würde, wann
+                      <span className="orig">ſ</span><span className="corr">s</span>o zu handlen, wie Er es machen würde, wann
                       <br className="lb" />
-                      Er an Deiner Stelle wäre. Er, unſer Göttlicher Hohen
+                      Er an Deiner Stelle wäre. Er, un<span className="orig">ſ</span><span className="corr">s</span>er Göttlicher Hohen
                       <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
-                      prieﬅer gebe Euch Beÿde,{" "}
+                      prie<span className="orig">ﬅ</span><span className="corr">st</span>er gebe Euch Beÿde,{" "}
                       <span className="orig">Weißheit</span>
-                      <span className="corr">Weisheit</span>, und Verﬅand,
+                      <span className="corr">Weisheit</span>, und Ver<span className="orig">ﬅ</span><span className="corr">st</span>and,
                       <br className="lb" />
                       Muth, und <span className="orig">Stärcke</span>
                       <span className="corr">Stärke</span>, ja, alles was Jhr
@@ -319,20 +319,20 @@ export default function page() {
                       <br className="lb" />
                       habt. Wann es mit Seinen vollkom̅nen Willen be
                       <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
-                      ﬅehen kann, ſo glaube ich ganz ſicher wird die
+                      <span className="orig">ﬅ</span><span className="corr">st</span>ehen kann, <span className="orig">ſ</span><span className="corr">s</span>o glaube ich ganz <span className="orig">ſ</span><span className="corr">s</span>icher wird die
                       <br className="lb" />
-                      Sache gelingen, und geſchicht dieſes nicht, ſo wollen
+                      Sache gelingen, und ge<span className="orig">ſ</span><span className="corr">s</span>chicht die<span className="orig">ſ</span><span className="corr">s</span>es nicht, <span className="orig">ſ</span><span className="corr">s</span>o wollen
                       <br className="lb" />
-                      wirs Jhm zutrauen, daß es alsdenn, wenigﬅens
+                      wirs Jhm zutrauen, daß es alsdenn, wenig<span className="orig">ﬅ</span><span className="corr">st</span>ens
                       <br className="lb" />
-                      für uns, ſo <span className="orig">beßer</span>
+                      für uns, <span className="orig">ſ</span><span className="corr">s</span>o <span className="orig">beßer</span>
                       <span className="corr">besser</span>
                       <span style={{ textDecoration: "line-through" }}>
-                        iﬅ
+                        i<span className="orig">ﬅ</span><span className="corr">st</span>
                       </span>{" "}
                       und
                       <span className="orig">nüzlicher</span>
-                      <span className="corr">nützlicher</span> iﬅ.
+                      <span className="corr">nützlicher</span> i<span className="orig">ﬅ</span><span className="corr">st</span>.
                     </span>
                     </p>
                     <p>
@@ -344,35 +344,35 @@ export default function page() {
                           <span className="corr">.</span>)
                         </span>
                         <span className="expan">
-                          C<span className="ex">ollenbuſch</span>
+                          C<span className="ex">ollenbu<span className="orig">ſ</span><span className="corr">s</span>ch</span>
                         </span>
                       </span>
                       hat vorigen Montag mit mir
                       <br className="lb" />
-                      gegeſſen, und nachher den Thee getrunken; dieſer
+                      gege<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>en, und nachher den Thee getrunken; die<span className="orig">ſ</span><span className="corr">s</span>er
                       <br className="lb" />
-                      wünſchte noch im̅er daß die Sache nicht durch Geld
+                      wün<span className="orig">ſ</span><span className="corr">s</span>chte noch im̅er daß die Sache nicht durch Geld
                       <br className="lb" />
-                      getrieben würde, weil er befürchtet daß ſonﬅ
+                      getrieben würde, weil er befürchtet daß <span className="orig">ſ</span><span className="corr">s</span>on<span className="orig">ﬅ</span><span className="corr">st</span>
                       <br className="lb" />
                       nachher das Geld, und nicht Gott die Ehre gegeben
                       <br className="lb" />
-                      wird. Wir haben zuſam̅en einige Pſalmen durch
+                      wird. Wir haben zu<span className="orig">ſ</span><span className="corr">s</span>am̅en einige P<span className="orig">ſ</span><span className="corr">s</span>almen durch
                       <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
-                      geleſen und darüber geſprochen, unter andern
+                      gele<span className="orig">ſ</span><span className="corr">s</span>en und darüber ge<span className="orig">ſ</span><span className="corr">s</span>prochen, unter andern
                       <br className="lb" />
                       auch den 36
                       <span className="orig" />
-                      <span className="corr">.</span> Pſalm.
+                      <span className="corr">.</span> P<span className="orig">ſ</span><span className="corr">s</span>alm.
                       <span className="orig">die</span>
-                      <span className="corr">Die</span> 4 erﬅe Verſen ſa
+                      <span className="corr">Die</span> 4 er<span className="orig">ﬅ</span><span className="corr">st</span>e Ver<span className="orig">ſ</span><span className="corr">s</span>en <span className="orig">ſ</span><span className="corr">s</span>a
                       <span className="overwritten">t</span>
                       <span className="add">⟨g⟩</span>te er
                       <br className="lb" />
                       paßten ganz auf den <span className="persName">
                         Knap
                       </span>{" "}
-                      – die Lehre ſo im
+                      – die Lehre <span className="orig">ſ</span><span className="corr">s</span>o im
                     </p>
                 </div>
                 <div
@@ -389,18 +389,18 @@ export default function page() {
                       3<sup style={{ textDecoration: "underline" }}>ten</sup>{" "}
                       Vers vorkämen,
                       <span className="orig">könte</span>
-                      <span className="corr">könnte</span> man ſeine{" "}
+                      <span className="corr">könnte</span> man <span className="orig">ſ</span><span className="corr">s</span>eine{" "}
                       <span className="orig">Schriﬀten</span>
                       <span className="corr">Schriften</span>
                       <br className="lb" />
-                      durch verﬅehen.
+                      durch ver<span className="orig">ﬅ</span><span className="corr">st</span>ehen.
                     </p>
                     <p>
-                      <a id="mark.008.s">{/*anchor*/}</a>Daß die Witterung ſo
-                      günﬅig iﬅ, und Du mein Lieber!
+                      <a id="mark.008.s">{/*anchor*/}</a>Daß die Witterung <span className="orig">ſ</span><span className="corr">s</span>o
+                      gün<span className="orig">ﬅ</span><span className="corr">st</span>ig i<span className="orig">ﬅ</span><span className="corr">st</span>, und Du mein Lieber!
                       <br className="lb" />
-                      in der <span className="orig">Geſellſchaﬀt</span>
-                      <span className="corr">Geſellſchaft</span> des
+                      in der <span className="orig">Ge<span className="orig">ſ</span><span className="corr">s</span>ell<span className="orig">ſ</span><span className="corr">s</span>chaﬀt</span>
+                      <span className="corr">Ge<span className="orig">ſ</span><span className="corr">s</span>ell<span className="orig">ſ</span><span className="corr">s</span>chaft</span> des
                       <span className="g.enc.tagsdecl.cc.abbr-colon">
                         (H<span className="orig">:</span>
                         <span className="corr">.</span>)
@@ -408,25 +408,25 @@ export default function page() {
                       <span className="expan">
                         H<span className="ex">err</span>
                       </span>
-                      <span className="persName">Wortmann</span> ſo vergnügt
-                      <span className="orig">reißeﬅ</span>
-                      <span className="corr">reiseﬅ</span>
+                      <span className="persName">Wortmann</span> <span className="orig">ſ</span><span className="corr">s</span>o vergnügt
+                      <span className="orig">reiße<span className="orig">ﬅ</span><span className="corr">st</span></span>
+                      <span className="corr">reise<span className="orig">ﬅ</span><span className="corr">st</span></span>
                       <br className="lb" />
                       <span className="orig">freüt</span>
-                      <span className="corr">freut</span> mich ſehr – grüße ihm
-                      recht <span className="orig">freundſchaﬀtlich</span>
-                      <span className="corr">freundſchaftlich</span> von
+                      <span className="corr">freut</span> mich <span className="orig">ſ</span><span className="corr">s</span>ehr – grüße ihm
+                      recht <span className="orig">freund<span className="orig">ſ</span><span className="corr">s</span>chaﬀtlich</span>
+                      <span className="corr">freund<span className="orig">ſ</span><span className="corr">s</span>chaftlich</span> von
                       <br className="lb" />
-                      mir. Vielleicht kannﬅ Du ihm{" "}
+                      mir. Vielleicht kann<span className="orig">ﬅ</span><span className="corr">st</span> Du ihm{" "}
                       <span className="orig">nüzlich</span>
                       <span className="corr">nützlich</span> werden, durch Mit
                       <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
-                      theilung der Geiﬅesgaben, ſo Du ſchon aus Gnaden vom
+                      theilung der Gei<span className="orig">ﬅ</span><span className="corr">st</span>esgaben, <span className="orig">ſ</span><span className="corr">s</span>o Du <span className="orig">ſ</span><span className="corr">s</span>chon aus Gnaden vom
                       <br className="lb" />
-                      Herrn empfangen haﬅ<a id="mark.008.e">{/*anchor*/}</a> und
+                      Herrn empfangen ha<span className="orig">ﬅ</span><span className="corr">st</span><a id="mark.008.e">{/*anchor*/}</a> und
                       einige Vorurtheile und Jrr
                       <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
-                      thümer beÿ ihm zerﬅören.
+                      thümer beÿ ihm zer<span className="orig">ﬅ</span><span className="corr">st</span>ören.
                       <a id="mark.007.e">{/*anchor*/}</a>
                     </p>
                   </span>
@@ -435,11 +435,11 @@ export default function page() {
                     <span className="persName">Bruder Benjamin</span> brachte
                     mir Deine liebe Briefe, ich
                     <br className="lb" />
-                    habe ihm alſo einiges daraus vorgeleſen – auch habe
+                    habe ihm al<span className="orig">ſ</span><span className="corr">s</span>o einiges daraus vorgele<span className="orig">ſ</span><span className="corr">s</span>en – auch habe
                     <br className="lb" />
-                    ich einen Auszug, beſonders wegen den kriegeriſchen
+                    ich einen Auszug, be<span className="orig">ſ</span><span className="corr">s</span>onders wegen den kriegeri<span className="orig">ſ</span><span className="corr">s</span>chen
                     <br className="lb" />
-                    Angelegenheiten daraus geſchrieben, und ſelbigen
+                    Angelegenheiten daraus ge<span className="orig">ſ</span><span className="corr">s</span>chrieben, und <span className="orig">ſ</span><span className="corr">s</span>elbigen
                     <span className="abbr">
                       (H<span className="orig">:</span>
                       <span className="corr">.</span>)
@@ -459,7 +459,7 @@ export default function page() {
                     <span className="orig">laßen</span>
                     <span className="corr">lassen</span> Dir herzlich
                     <br className="lb" />
-                    grüßen, beſonders auch{" "}
+                    grüßen, be<span className="orig">ſ</span><span className="corr">s</span>onders auch{" "}
                     <span className="persName">Nichte Haniel</span>.
                   </p>
                   <p>
@@ -469,7 +469,7 @@ export default function page() {
                       <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
                       mann
                     </span>
-                    gegeſſen, wir gingen zum Caﬀee hin, und
+                    gege<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>en, wir gingen zum Caﬀee hin, und
                     <br className="lb" />
                     fanden Pelzers und
                     <span className="persName">
@@ -484,31 +484,31 @@ export default function page() {
                     </span>
                     von <span className="placeName">Elberfeld</span> da,
                     <br className="lb" />
-                    und weil dieſe da <span className="orig">eßen</span>
+                    und weil die<span className="orig">ſ</span><span className="corr">s</span>e da <span className="orig">eßen</span>
                     <span className="corr">essen</span> blieben{" "}
                     <span className="orig">wolten</span>
-                    <span className="corr">wollten</span> ſie uns
+                    <span className="corr">wollten</span> <span className="orig">ſ</span><span className="corr">s</span>ie uns
                     <br className="lb" />
                     auch nicht gehen <span className="orig">laßen</span>
                     <span className="corr">lassen</span>.
                   </p>
                   <p>
-                    Daß ich Gottlob! noch wohl bin, kannﬅ Du mein
+                    Daß ich Gottlob! noch wohl bin, kann<span className="orig">ﬅ</span><span className="corr">st</span> Du mein
                     <br className="lb" />
                     Jnniggeliebter! aus dem ganzen{" "}
                     <span className="orig">Jnnhalt</span>
                     <span className="corr">Jnhalt</span> meines Briefes
                     <br className="lb" />
-                    wohl ſehen, ich brauche es Dir alſo nicht erﬅ zu ver
+                    wohl <span className="orig">ſ</span><span className="corr">s</span>ehen, ich brauche es Dir al<span className="orig">ſ</span><span className="corr">s</span>o nicht er<span className="orig">ﬅ</span><span className="corr">st</span> zu ver
                     <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
-                    ſichern.
+                    <span className="orig">ſ</span><span className="corr">s</span>ichern.
                   </p>
                   <div className="closer">
-                    Das Blatt iﬅ voll, ich Dir mein Beﬅer! alſo
+                    Das Blatt i<span className="orig">ﬅ</span><span className="corr">st</span> voll, ich Dir mein Be<span className="orig">ﬅ</span><span className="corr">st</span>er! al<span className="orig">ſ</span><span className="corr">s</span>o
                     <br className="lb" />
                     <span className="orig">jezt</span>
                     <span className="corr">jetzt</span>
-                    <span className="g.rend.script.latin">adieu</span> ſagen.
+                    <span className="g.rend.script.latin">adieu</span> <span className="orig">ſ</span><span className="corr">s</span>agen.
                     <span className="orig">von</span>
                     <span className="corr">Von</span> ganzem Herzen bin ich
                     Deine treue <br className="lb" />
@@ -516,7 +516,7 @@ export default function page() {
                       &nbsp;
                     </span>
                     <div className="signed">
-                      Luiſe Engels
+                      Lui<span className="orig">ſ</span><span className="corr">s</span>e Engels
                       <span className="g.enc.tagsdecl.cc.abbr-colon">
                         (geb<span className="orig">:</span>
                         <span className="corr">.</span>)

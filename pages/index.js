@@ -31,51 +31,57 @@ export default function Home() {
 
       <div className="no-scroll">
         <div className="scrollable-index">
+          {/* Reihe 1 */}
           <Brief id="1" />
+          <Person id="1" />
+          <Brief id="22" />
+          <Thema id="2" />
+          <Brief id="68" />
+          <Person id="6" />
+          <Ort id="5" />
+          <Person id="4" />
+          <Brief id="255" />
+          <Ort id="9" />
+          <Brief id="295" />
+          <Brief id="308" />
+
+          {/* Reihe 2 */}
           <Thema id="1" />
-          <Ort id="3" />
-          <Person id="1" />
-          <Person id="1" />
           <Brief id="4" />
-          <Brief id="1" />
-          <Brief id="1" />
-          <Brief id="1" />
-          <Brief id="1" />
-          <Thema id="2" />
+          <Ort id="2" />
+          <Brief id="29" />
+          <Person id="7" />
+          <Brief id="75" />
+          <Brief id="169" />
+          <Person id="10" />
+          <Brief id="265" />
+          <Thema id="3" />
+          <Ort id="11" />
+          <Brief id="342" />
+
+          {/* Reihe 3 */}  
+          <Person id="8" />
           <Ort id="1" />
-          <Person id="1" />
-          <Person id="1" />
-          <Brief id="1" />
-          <Brief id="1" />
-          <Brief id="1" />
-          <Brief id="1" />
-          <Brief id="1" />
-          <Thema id="2" />
-          <Ort id="1" />
-          <Person id="1" />
-          <Person id="1" />
-          <Brief id="1" />
-          <Brief id="1" />
-          <Brief id="1" />
-          <Brief id="1" />
-          <Brief id="1" />
-          <Thema id="2" />
-          <Ort id="1" />
-          <Person id="1" />
-          <Person id="1" />
-          <Brief id="1" />
-          <Brief id="1" />
-          <Brief id="1" />
-          <Brief id="1" />
-          <Brief id="1" />
-          <Thema id="2" />
-          <Ort id="1" />
-          <Person id="1" />
-          <Person id="1" />
-          <Brief id="1" />
-          <Brief id="1" />
-          <Brief id="1" />
-          <Brief id="1" />
+          <Person id="3" />
+          <Ort id="4" />
+          <Brief id="71" />
+          <Person id="9" />
+          <Ort id="6" />
+          <Brief id="235" />
+          <Ort id="8" />
+          <Brief id="285" />
+          <Brief id="307" />
+          <Ort id="12" />
+
+          {/* Reihe 4 */}  
+          <Brief id="21" />
+          <Person id="2" />
+          <Ort id="3" />
+          <Person id="5" />
+          <Ort id="7" />
+          <Brief id="130" />
+          <Ort id="10" />
+          <Ort id="13" />
         </div>
       </div>
     </Layout>

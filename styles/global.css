@@ -384,6 +384,10 @@ main {
   left: 0px;
   top: 250px;
 }
+.scrollable-index .item_description h2 {
+  font-size: 1rem;
+
+}
 .scrollable-index h4 {
   font-size: 0.7rem;
   line-height: 1.3rem;
@@ -420,7 +424,6 @@ main {
   position: absolute;
   left: 0px;
   top: 0px;
-  background-color: rgba(255,255,255,0.3);
   -webkit-filter: drop-shadow(0px 0px 45px rgba(0, 0, 0, 0.35));
   filter: drop-shadow(0px 0px 45px rgba(0, 0, 0, 0.35));
 }
@@ -646,7 +649,7 @@ img {
   line-height: 2.4rem;
 }
 
-.kuvert small {
+.kuvert .small, .kuvert small {
   font-size: 1.4rem;
 }
 
@@ -733,20 +736,35 @@ img {
   display: none;
 }
 
-.vergleichs-ansicht blockquote{
- margin: 0px;
+.vergleichs-ansicht blockquote {
+  margin: 0px;
 }
 
-.vergleichs-ansicht p{
+.vergleichs-ansicht p {
   margin-bottom: 10px;
 }
 
-.vergleichs-ansicht .signed{
+.text-right {
   text-align: right;
-  margin-top: 30px;
+  padding-right: 100px;
+}
+.vergleichs-ansicht .signed {
+  text-align: right;
+  margin-top: 10px;
   margin-right: 100px;
 }
+.small-adress {
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  display: block;
+}
 
+.vergleichs-ansicht .page-small {
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+}
 
 .expan::after {
   content: ".";
@@ -766,6 +784,8 @@ img {
   width: 800px;
   position: relative;
   margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: inherit;
 }
 
 .normalisiert .page {

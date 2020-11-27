@@ -82,7 +82,7 @@
              <!--  dokumentspezifische Deklarationen hier einfügen  -->
              <note type="damageinterp" xml:id="enc.damageinterp.siegelausriss">
                  <desc>Textverlust durch Siegelausriss; Seite 3, Rand, oben; Erhaltener Text auf Seite 3, Rand, unten</desc>
-                 <seg type="siegelausriss">entſchuldigen</seg>
+                 <seg type="siegelausriss">ent<span className="orig">ſ</span><span className="corr">s</span>chuldigen</seg>
              </note>
             </p>
             
@@ -159,64 +159,64 @@
         <salute><anchor xml:id="mark.001.s"/>Meine Liebe <choice><orig>theüre</orig><corr type="ortho">theure</corr></choice> 
             <rs type="person" ref="#pers.partic.engels-luise">Gattin</rs>!</salute>
     </opener>
-       <p rendition="#enc.tagsdecl.indent-medium"><choice><orig>noch</orig><corr type="ortho">Noch</corr></choice> ehe ich mich ſchlafen<lb/> <choice><orig>Lege</orig><corr type="ortho">lege</corr></choice>, muß ich dir ſagen: daß ich unter der Güte Gottes<lb/> 
+       <p rendition="#enc.tagsdecl.indent-medium"><choice><orig>noch</orig><corr type="ortho">Noch</corr></choice> ehe ich mich <span className="orig">ſ</span><span className="corr">s</span>chlafen<lb/> <choice><orig>Lege</orig><corr type="ortho">lege</corr></choice>, muß ich dir <span className="orig">ſ</span><span className="corr">s</span>agen: daß ich unter der Güte Gottes<lb/> 
            recht vergnügt <choice><orig>gereißt</orig><corr type="ortho">gereist</corr></choice> und wohlbehalten angekom̅en bin.<lb/> <choice><orig>juﬅ</orig><corr type="ortho">Just</corr></choice> um 9 Uhr, wie ich dir
-           auch geſagt hatte. <anchor xml:id="mark.002.s"/><anchor xml:id="mark.003.s"/>Du,<lb/> meine beﬅe innigﬅ Verbundene, wirﬅ mit mir dafür<lb/> den <choice>
+           auch ge<span className="orig">ſ</span><span className="corr">s</span>agt hatte. <anchor xml:id="mark.002.s"/><anchor xml:id="mark.003.s"/>Du,<lb/> meine beﬅe innigﬅ Verbundene, wirﬅ mit mir dafür<lb/> den <choice>
       <abbr>L<am>.</am>
       </abbr>
       <expan n="no" cert="high">L<ex>ieben</ex>
       </expan>
-           </choice> Him̅liſchen Vater <choice><orig>Preiſen</orig><corr type="ortho">preisen</corr></choice>, der mich nun ſo <choice><orig>oﬀte</orig><corr type="ortho">ofte</corr></choice><lb/> 
-           im̅er <choice><orig>Glüklich</orig><corr type="ortho">glücklich</corr></choice> und unverſehrt hin und her gebracht, und<lb/> 
+           </choice> Him̅li<span className="orig">ſ</span><span className="corr">s</span>chen Vater <choice><orig>Prei<span className="orig">ſ</span><span className="corr">s</span>en</orig><corr type="ortho">preisen</corr></choice>, der mich nun <span className="orig">ſ</span><span className="corr">s</span>o <choice><orig>oﬀte</orig><corr type="ortho">ofte</corr></choice><lb/> 
+           im̅er <choice><orig>Glüklich</orig><corr type="ortho">glücklich</corr></choice> und unver<span className="orig">ſ</span><span className="corr">s</span>ehrt hin und her gebracht, und<lb/> 
            dadurch noch meinen Cörper geﬅärkt hat.<anchor xml:id="mark.001.e"/>
        </p>
        <p>wie wirﬅ du mich im Geiﬅ begleitet und für mich<lb/> <choice><orig>gebäten</orig><corr type="ortho">gebeten</corr></choice> haben! <choice><orig>habe</orig><corr type="ortho">Habe</corr></choice> herzlich <choice><orig>dank</orig><corr type="ortho">Dank</corr></choice>
-           dafür, Liebe <choice><orig>beﬅe</orig><corr type="ortho">Beste</corr></choice>!<lb/> mein innerﬅer Wunſch und mein <choice><orig>Gebät</orig><corr type="ortho">Gebet</corr></choice> zu Gott iﬅ: daß<lb/> du dich
+           dafür, Liebe <choice><orig>beﬅe</orig><corr type="ortho">Beste</corr></choice>!<lb/> mein innerﬅer Wun<span className="orig">ſ</span><span className="corr">s</span>ch und mein <choice><orig>Gebät</orig><corr type="ortho">Gebet</corr></choice> zu Gott iﬅ: daß<lb/> du dich
      eben so wohl befinde<subst>
       <del rend="overwritten">n</del>
       <add>ﬅ</add>
      </subst>
      <del n="1" rend="strikethrough">mögeﬅ</del>, und deine Ruhe<lb/> 
-           und dein Wohlbefinden ſich vermehren möge. <choice><orig>ja</orig><corr type="ortho">Ja</corr></choice> meine<lb/> 
+           und dein Wohlbefinden <span className="orig">ſ</span><span className="corr">s</span>ich vermehren möge. <choice><orig>ja</orig><corr type="ortho">Ja</corr></choice> meine<lb/> 
            herzlich <choice><orig>geliebte</orig><corr type="ortho">Geliebte</corr></choice>! ich fühle es im̅er mehr in meiner Seele<lb/>
-     wie groß die Liebe, Güte und Aufſicht unſres Gottes<lb/> in den vergangenen Tagen über uns
-     geweſen; daß<lb/> alles ſo ordentlich und erwünſcht hergegangen, und alle<lb/> Freunde ſo
-           befriedigt, ja hoch zufrieden ſind, iﬅ ſeine<lb/> <choice><orig>mitwürkung</orig><corr type="ortho">Mitwirkung</corr></choice>, die wir erkennen, und Ihm
-           verdanken<lb/> wollen. <choice><orig>du</orig><corr type="ortho">Du</corr></choice> meine ganz <choice><orig>geliebte</orig><corr type="ortho">Geliebte</corr></choice>! wirﬅ gerne mit mir<lb/> ſagen: bis hiehin hat
-           uns der Herr geholfen! und<lb/> darum wollen wir unſren Herzen zurufen, <choice><orig>Vergiß</orig><corr type="ortho">vergiß</corr></choice><lb/> nicht was
+     wie groß die Liebe, Güte und Auf<span className="orig">ſ</span><span className="corr">s</span>icht un<span className="orig">ſ</span><span className="corr">s</span>res Gottes<lb/> in den vergangenen Tagen über uns
+     gewe<span className="orig">ſ</span><span className="corr">s</span>en; daß<lb/> alles <span className="orig">ſ</span><span className="corr">s</span>o ordentlich und erwün<span className="orig">ſ</span><span className="corr">s</span>cht hergegangen, und alle<lb/> Freunde <span className="orig">ſ</span><span className="corr">s</span>o
+           befriedigt, ja hoch zufrieden <span className="orig">ſ</span><span className="corr">s</span>ind, iﬅ <span className="orig">ſ</span><span className="corr">s</span>eine<lb/> <choice><orig>mitwürkung</orig><corr type="ortho">Mitwirkung</corr></choice>, die wir erkennen, und Ihm
+           verdanken<lb/> wollen. <choice><orig>du</orig><corr type="ortho">Du</corr></choice> meine ganz <choice><orig>geliebte</orig><corr type="ortho">Geliebte</corr></choice>! wirﬅ gerne mit mir<lb/> <span className="orig">ſ</span><span className="corr">s</span>agen: bis hiehin hat
+           uns der Herr geholfen! und<lb/> darum wollen wir un<span className="orig">ſ</span><span className="corr">s</span>ren Herzen zurufen, <choice><orig>Vergiß</orig><corr type="ortho">vergiß</corr></choice><lb/> nicht was
            er uns <choice><orig>gutes</orig><corr type="ortho">Gutes</corr></choice> gethan; mit voller kindlicher 
            <pb n="2" facs="#facs.p2"/> <choice><orig>Hofnung</orig><corr type="ortho">Hoffnung</corr></choice> wollen wirs Ihm
-           zutrauen, daß er uns ferner<lb/> beiﬅehen, und in unſrem Eheﬅand unſre Hülfe, <choice><orig>Schuz</orig><corr type="ortho">Schutz</corr></choice>
-           Schirm<lb/> und Schild ſein wird. <choice><orig>er</orig><corr type="ortho">Er</corr></choice> wird uns auch um unſres<lb/> Herrn Jeſu willen all unſre
-     Sünden vergeben und von <lb/> unſren Gebrechen heilen, daß wir im̅er tüchtiger und
+           zutrauen, daß er uns ferner<lb/> beiﬅehen, und in un<span className="orig">ſ</span><span className="corr">s</span>rem Eheﬅand un<span className="orig">ſ</span><span className="corr">s</span>re Hülfe, <choice><orig>Schuz</orig><corr type="ortho">Schutz</corr></choice>
+           Schirm<lb/> und Schild <span className="orig">ſ</span><span className="corr">s</span>ein wird. <choice><orig>er</orig><corr type="ortho">Er</corr></choice> wird uns auch um un<span className="orig">ſ</span><span className="corr">s</span>res<lb/> Herrn Je<span className="orig">ſ</span><span className="corr">s</span>u willen all un<span className="orig">ſ</span><span className="corr">s</span>re
+     Sünden vergeben und von <lb/> un<span className="orig">ſ</span><span className="corr">s</span>ren Gebrechen heilen, daß wir im̅er tüchtiger und
            fertiger<lb/> gemacht werden zu thun, was Ihm <choice><orig>wohlgefält</orig><corr type="ortho">wohlgefällt</corr></choice>.<anchor xml:id="mark.003.e"/><anchor xml:id="mark.002.e"/> —</p>
-       <p>ich kam wie geſagt um 9 Uhr
-           mit ungemeiner Munterkeit<lb/> bei unſren <rs type="person" ref="#pers.partic.engels-johann-peter #pers.partic.engels-benjamin">Brüdern</rs> an, 
-           und aß bei denſelben den <hi rendition="#g.rend.script.latin">Salat</hi>.<lb/> Bruder <persName ref="#pers.partic.engels-johann-peter" rendition="#g.rend.script.latin">Peter</persName> , der
-           noch etwas mit ſeiner <hi rendition="#g.rend.script.latin"><choice><orig>Catarre</orig><corr type="ortho">Katarrhe</corr></choice></hi> zu thun<lb/> hat, ſich
-           ſonﬅ aber wohl befindet hat dich ſehr <choice><orig>Lieb</orig><corr type="ortho">lieb</corr></choice> ge<lb break="no" rendition="#g.enc.tagsdecl.hyphenation.eq"/> wonnen, 
+       <p>ich kam wie ge<span className="orig">ſ</span><span className="corr">s</span>agt um 9 Uhr
+           mit ungemeiner Munterkeit<lb/> bei un<span className="orig">ſ</span><span className="corr">s</span>ren <rs type="person" ref="#pers.partic.engels-johann-peter #pers.partic.engels-benjamin">Brüdern</rs> an, 
+           und aß bei den<span className="orig">ſ</span><span className="corr">s</span>elben den <hi rendition="#g.rend.script.latin">Salat</hi>.<lb/> Bruder <persName ref="#pers.partic.engels-johann-peter" rendition="#g.rend.script.latin">Peter</persName> , der
+           noch etwas mit <span className="orig">ſ</span><span className="corr">s</span>einer <hi rendition="#g.rend.script.latin"><choice><orig>Catarre</orig><corr type="ortho">Katarrhe</corr></choice></hi> zu thun<lb/> hat, <span className="orig">ſ</span><span className="corr">s</span>ich
+           <span className="orig">ſ</span><span className="corr">s</span>onﬅ aber wohl befindet hat dich <span className="orig">ſ</span><span className="corr">s</span>ehr <choice><orig>Lieb</orig><corr type="ortho">lieb</corr></choice> ge<lb break="no" rendition="#g.enc.tagsdecl.hyphenation.eq"/> wonnen, 
            und beide <rs type="person" ref="#pers.partic.engels-johann-peter #pers.partic.engels-benjamin">Brüder</rs> erwarten verlangend je
            eher <lb/> je <choice><orig>Lieber</orig><corr type="ortho">lieber</corr></choice> deinen Einzug und <choice><orig>Laßen</orig><corr type="ortho">lassen</corr></choice> Ihren herzlichen <choice><orig>gegen<lb break="no" rendition="#g.enc.tagsdecl.hyphenation.eq"/>Gruß</orig><corr type="ortho">Gegen<lb/>gruß</corr></choice> melden.</p>
    </div>
       <div type="writing-session" n="2"><p rendition="#enc.tagsdecl.indent-medium"><anchor xml:id="teaser.part.001.s"/><choice><orig>nun</orig><corr type="ortho">Nun</corr></choice> meine Liebe Frau <persName ref="#pers.partic.engels-luise">Engels</persName> wink ich dir
            meinen zärtlichen<lb/> Morgen Gruß und <choice><orig>küße</orig><corr type="ortho">küsse</corr></choice> Dich in Gedanken, ich hoffe du wirﬅ<lb/> eine
-          ebenſo <choice><orig>erquikende</orig><corr type="ortho">erquickende</corr></choice> Nacht Ruhe gehabt haben, wie ich<lb/> es dir Gott Lob von mir ſagen <choice><orig>kan</orig><corr type="ortho">kann</corr></choice>. <anchor xml:id="mark.004.s"/>ich
+          eben<span className="orig">ſ</span><span className="corr">s</span>o <choice><orig>erquikende</orig><corr type="ortho">erquickende</corr></choice> Nacht Ruhe gehabt haben, wie ich<lb/> es dir Gott Lob von mir <span className="orig">ſ</span><span className="corr">s</span>agen <choice><orig>kan</orig><corr type="ortho">kann</corr></choice>. <anchor xml:id="mark.004.s"/>ich
      habe mit dir<lb/> um 8 Uhr gebäten, und werde <add place="above">nun</add> mit dir in Gedanken
-          und im<lb/> Herzen, meine Geſchäfte anfangen<anchor xml:id="teaser.part.001.e"/>, und das Nöthige wieder<lb/> aus dem <choice><orig>wege</orig><corr type="ortho">Wege</corr></choice>
+          und im<lb/> Herzen, meine Ge<span className="orig">ſ</span><span className="corr">s</span>chäfte anfangen<anchor xml:id="teaser.part.001.e"/>, und das Nöthige wieder<lb/> aus dem <choice><orig>wege</orig><corr type="ortho">Wege</corr></choice>
            <choice><orig>Räumen</orig><corr type="ortho">räumen</corr></choice>.</p>
     <p>Den <rs type="person" ref="#pers.partic.jaeger-johann">Fuhrmann</rs> will ich gleich kom̅en
-        <choice><orig>Laßen</orig><corr type="ortho">lassen</corr></choice>, und überhaupt<lb/> alles <choice><orig>abgeſprochene</orig><corr type="ortho">Abgesprochene</corr></choice> beſorgen.</p>
-          <p>Den <choice><orig>nachmittag</orig><corr type="ortho">Nachmittag</corr></choice> mache ich meinen Gemarker Gang und<lb/> ſage dir Liebe <choice><orig>nechﬅens</orig><corr type="ortho">nächﬅens</corr></choice> mehr;<anchor xml:id="mark.004.e"/> du
+        <choice><orig>Laßen</orig><corr type="ortho">lassen</corr></choice>, und überhaupt<lb/> alles <choice><orig>abge<span className="orig">ſ</span><span className="corr">s</span>prochene</orig><corr type="ortho">Abgesprochene</corr></choice> be<span className="orig">ſ</span><span className="corr">s</span>orgen.</p>
+          <p>Den <choice><orig>nachmittag</orig><corr type="ortho">Nachmittag</corr></choice> mache ich meinen Gemarker Gang und<lb/> <span className="orig">ſ</span><span className="corr">s</span>age dir Liebe <choice><orig>nechﬅens</orig><corr type="ortho">nächﬅens</corr></choice> mehr;<anchor xml:id="mark.004.e"/> du
         wirﬅ heute <pb n="3" facs="#facs.p3"/>deinen <persName ref="#pers.partic.engels-johann-caspar-II"><hi rendition="#g.rend.script.latin">Caspar</hi></persName>
      <damage corresp="#enc.damageinterp.siegelausriss">
-         <gap reason="siegelausriss"/><supplied>entſchuldigen</supplied>
-     </damage> und mit einem kurzen Brief<lb/> <choice><orig>Vorlieb</orig><corr type="ortho">vorlieb</corr></choice> nehmen. <choice><orig>ich</orig><corr type="ortho">Ich</corr></choice> befehle dich ſo wie alle unſre<lb/> dortigen <choice><orig>Freünde</orig><corr type="ortho">Freunde</corr></choice> und Verwandte, die ich
+         <gap reason="siegelausriss"/><supplied>ent<span className="orig">ſ</span><span className="corr">s</span>chuldigen</supplied>
+     </damage> und mit einem kurzen Brief<lb/> <choice><orig>Vorlieb</orig><corr type="ortho">vorlieb</corr></choice> nehmen. <choice><orig>ich</orig><corr type="ortho">Ich</corr></choice> befehle dich <span className="orig">ſ</span><span className="corr">s</span>o wie alle un<span className="orig">ſ</span><span className="corr">s</span>re<lb/> dortigen <choice><orig>Freünde</orig><corr type="ortho">Freunde</corr></choice> und Verwandte, die ich
      herzlich zu <choice>
       <abbr type="suspension" rendition="#g.enc.tagsdecl.suspension.type1">grüß</abbr>
       <expan cert="high">grüß<ex>en</ex>
       </expan>
      </choice>
-           <lb/> erſuche, dem <choice><orig>Schuz</orig><corr type="ortho">Schutz</corr></choice> und der Bewahrung unſres Gottes<lb/> und bleibe unter innigﬅ
+           <lb/> er<span className="orig">ſ</span><span className="corr">s</span>uche, dem <choice><orig>Schuz</orig><corr type="ortho">Schutz</corr></choice> und der Bewahrung un<span className="orig">ſ</span><span className="corr">s</span>res Gottes<lb/> und bleibe unter innigﬅ
            zärtlichﬅen <choice><orig>Küßen</orig><corr type="ortho">Küssen</corr></choice> von<lb/>
         ganzem Herzen
     </p>
@@ -250,11 +250,11 @@
       </choice> Paﬅor hatte ich <choice>
        <abbr type="suspension" rendition="#g.enc.tagsdecl.suspension.type1">ein</abbr>
        <expan>ein<ex>en</ex></expan>
-      </choice> Besuch verſprochen, bei<lb/> <choice><orig>gelegenheit</orig><corr type="ortho">Gelegenheit</corr></choice> bitte mich zu <choice>
-       <abbr type="suspension" rendition="#g.enc.tagsdecl.suspension.type1">entſchuldig</abbr>
-       <expan>entſchuldig<ex>en</ex></expan>
+      </choice> Besuch ver<span className="orig">ſ</span><span className="corr">s</span>prochen, bei<lb/> <choice><orig>gelegenheit</orig><corr type="ortho">Gelegenheit</corr></choice> bitte mich zu <choice>
+       <abbr type="suspension" rendition="#g.enc.tagsdecl.suspension.type1">ent<span className="orig">ſ</span><span className="corr">s</span>chuldig</abbr>
+       <expan>ent<span className="orig">ſ</span><span className="corr">s</span>chuldig<ex>en</ex></expan>
       </choice>,</p>
-        <p>unſer Knecht <persName ref="#pers.partic.pilgram-johann-arnold" rendition="#g.rend.script.latin">Arnold</persName>, der viel Liebe und Hochachtung für
+        <p>un<span className="orig">ſ</span><span className="corr">s</span>er Knecht <persName ref="#pers.partic.pilgram-johann-arnold" rendition="#g.rend.script.latin">Arnold</persName>, der viel Liebe und Hochachtung für
       dich<lb/> hat, bat mich eben, dich zu grüßen. </p>
     </postscript>
        </div>
