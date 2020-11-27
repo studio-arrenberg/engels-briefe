@@ -11,11 +11,10 @@ import constants from "./constants";
 import Audio from "./audio";
 import { themen, familie, orte } from "../public/data.json";
 import React, { useState, useEffect, useRef } from "react";
-import IdleTimer from '../components/IdleTimer';
-// import idleTimer from "idle-timer";
+import IdleTimer from "../components/IdleTimer";
 
-export default function Brief_wrapper (props) {
-
+export default function Brief_wrapper(props) {
+  // get window width
   const [width, setWidth] = React.useState(0);
   // const [height, setHeight] = React.useState(0);
   React.useEffect(() => {
@@ -62,12 +61,10 @@ export default function Brief_wrapper (props) {
       console.log("same");
       setThema("false");
       setActive(true);
-    }
-    else if (name == 'off') {
+    } else if (name == "off") {
       setThema("false");
       setActive(true);
-    } 
-    else {
+    } else {
       setThema(name);
       setActive(false);
     }
@@ -116,34 +113,24 @@ export default function Brief_wrapper (props) {
     props.stellen(isStellen);
   });
 
-
-
-  React.useEffect(() => {
-    // alert("weew");
-    // console.log('Child did mount.');
-    // document.getElementsByClassName('normalisiert').outerHTML.replace("ſ","s")
-    // document.body.innerHTML.replace("M","8");
-    // document.getElementById('normalisiert').innerHTML.replace("L","8")
-
-    // document.getElementById('testj').innerText.replace("ſ","s").replace("ﬅ","st").replace("ﬅ","st")
-    console.log(document.getElementById('index.xml-body.1_div.2').innerHTML.replace("ſ","s").replace("ﬅ","st").replace("ﬅ","st"))
-
-
-    // document.body.style.display = "none"
-    // setHeight(window.innerHeight);
-  }, []);
-
+  // Replace function
+  // React.useEffect(() => {
+  //   var el = document.querySelector('.normalisiert').innerHTML.replace(/ſ/g,"s").replace(/ﬅ/g,"st")
+  //   console.log(el)
+  //   document.querySelector('.normalisiert').innerHTML = "";
+  //   document.querySelector('.normalisiert').innerHTML = el;
+  // }, []);
 
   return data.map((data, id) => {
     return (
       <>
         {/* swipe animation */}
         <div className="sticky-container">
-          <motion.div 
+          <motion.div
             className="bouncingbal"
-            style={{ opacity: ball_opacity_left, x: '50px', y : '50px' }}
+            style={{ opacity: ball_opacity_left, x: "50px", y: "50px" }}
           >
-            <motion.div style={{ rotate: 180, x : '-80px', y : '-25px' }}>
+            <motion.div style={{ rotate: 180, x: "-80px", y: "-25px" }}>
               <BouncingBall />
             </motion.div>
 
@@ -178,7 +165,6 @@ export default function Brief_wrapper (props) {
             variants={constants.animation.post}
             layoutId={`${data.id}`}
           >
-            
             {/* sender */}
             {sen[0].map((item, index) => (
               <div key={`sender-${index}`} className="sender">
@@ -309,37 +295,37 @@ export default function Brief_wrapper (props) {
               }}
             >
               {/* themenToggle(item[0].slug) */}
-              <div onClick={() => themenToggle('off')}
+              <div
+                onClick={() => themenToggle("off")}
                 className={`detail-ansicht ${
                   isActive ? null : "themenmakierung-active"
                 } ${isActive ? null : isThema + "-active"}`}
               >
                 <div className="normalisiert" id="normalisiert">
-                    {props.children}
+                  {props.children}
+                  {/* <NormalisierterText id={props.id}/> */}
                   <h3>Normalisierte Leseansicht</h3>
                 </div>
               </div>
-
-              
             </motion.div>
-            
+
             <motion.div
-                className="themen"
-                style={{
-                  x: x,
-                }}
-              >
-                {them.map((item, index) => (
-                  <a
-                    className={`${isThema == item[0].slug ? "activ" : null}`}
-                    onClick={() => themenToggle(item[0].slug)}
-                    key={item[0].id}
-                  >
-                    <img src={`../pictures/themen/${item[0].picture}`} />
-                    <label>{item[0].title}</label>
-                  </a>
-                ))}
-              </motion.div>
+              className="themen"
+              style={{
+                x: x,
+              }}
+            >
+              {them.map((item, index) => (
+                <a
+                  className={`${isThema == item[0].slug ? "activ" : null}`}
+                  onClick={() => themenToggle(item[0].slug)}
+                  key={item[0].id}
+                >
+                  <img src={`../pictures/themen/${item[0].picture}`} />
+                  <label>{item[0].title}</label>
+                </a>
+              ))}
+            </motion.div>
           </motion.div>
 
           <div className="player">
@@ -403,10 +389,8 @@ export default function Brief_wrapper (props) {
                 </span>
               </h2>
             </div>
-
           </div>
-          <IdleTimer/>
-
+          {/* <IdleTimer/> */}
         </motion.div>
       </>
     );
