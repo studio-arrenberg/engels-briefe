@@ -1120,3 +1120,26 @@ p > span .latin {
   align-self: flex-end;
   opacity: 0.8;
 }
+
+/* idle message */
+
+.idle-window {
+  position: fixed;
+  z-index: 100000000;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background-color:black;
+}
+
+.idle-card {
+  position: relative;
+  width: 500px;
+  height: 400px;
+  justify-content: center;
+}
+
+.idle-card p, .idle-card h1 {
+  color: white;
+}

@@ -4,10 +4,9 @@ import Router from "next/router";
 import { useRouter, Redirect } from "next/router";
 import Link from "next/link";
 
-
 export default function Idle(props) {
+  const router = useRouter();
   const [idle, SetIdle] = useState(false);
-  // const [isThema, setThema] = useState("false");
 
   function callbackFn() {
     //   if (!idle) {
@@ -15,18 +14,17 @@ export default function Idle(props) {
 
     SetIdle(true);
 
+    // setTimeout(router.push("/"), 5000);
+
     setTimeout(
       function () {
         if (idle == true) {
           console.log("leave!");
-          return <Redirect to="/" />
-
+          router.push("/");
         }
       }.bind(this),
-      3000
+      5000
     );
-
-    //   }
   }
   function activeCallbackFn() {
     console.log("You're awake ;)");
@@ -42,26 +40,28 @@ export default function Idle(props) {
       // function to fire when active
       activeCallback: activeCallbackFn,
       // Amount of time in milliseconds before becoming idle. default 60000
-      idleTime: 5000,
+      idleTime: 30000,
     });
   }
+  
+//   return (
+//     <>
+//       {idle ? (
+//         <div className="idle-window">
+//           <div className="idle-card">
+//             <h1>IDLE !!!</h1>
+//             <p>Going home soon</p>
+//           </div>
+//         </div>
+//       ) : (
+//         <div></div>
+//       )}
+//     </>
+//   )
+
   return (
     <>
-      {idle ? (
-        <div>
-          <h1>IDLE !!!</h1>
-          <p>Going home soon</p>
-        </div>
-      ) : (
-        <div></div>
-      )}
     </>
-  );
-}
+  )
 
-// export function callbackFn() {
-//     console.log("You're idle!");
-//     return (
-//         <h1 className="high">HELLO WORLD</h1>
-//     )
-//  }
+}

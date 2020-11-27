@@ -4,6 +4,7 @@ import Link from "next/link";
 import data from "../public/data.json";
 import { motion } from "framer-motion";
 import constants from "../components/constants";
+import { FiInbox, FiSend } from "react-icons/fi";
 
 export default function Briefe() {
 
@@ -73,8 +74,8 @@ export function Count({ id }) {
     <>
       {/* <p>Person ID: {id}</p> */}
       <br></br>
-      <p>Briefe geschrieben: {number}</p>
-      <p>Briefe erhalten: {numberx}</p>
+      <p><FiSend/> {number} <FiInbox/> {numberx}</p>
+      <p></p>
     </>
   );
 }
