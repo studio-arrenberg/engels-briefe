@@ -649,7 +649,7 @@ img {
   line-height: 2.4rem;
 }
 
-.kuvert small {
+.kuvert .small, .kuvert small {
   font-size: 1.4rem;
 }
 

@@ -121,12 +121,12 @@ export default function Brief_wrapper (props) {
   React.useEffect(() => {
     // alert("weew");
     // console.log('Child did mount.');
-    // document.getElementsByClassName('normalisiert').outerHTML.replace("ſ","s")
+    // document.getElementsByClassName('normalisiert').outerHTML.replace("<span className="orig">ſ</span><span className="corr">s</span>","s")
     // document.body.innerHTML.replace("M","8");
     // document.getElementById('normalisiert').innerHTML.replace("L","8")
 
-    // document.getElementById('testj').innerText.replace("ſ","s").replace("ﬅ","st").replace("ﬅ","st")
-    console.log(document.getElementById('index.xml-body.1_div.2').innerHTML.replace("ſ","s").replace("ﬅ","st").replace("ﬅ","st"))
+    // document.getElementById('testj').innerText.replace("<span className="orig">ſ</span><span className="corr">s</span>","s").replace("ﬅ","st").replace("ﬅ","st")
+    //console.log(document.getElementById('index.xml-body.1_div.2').innerHTML.replace("<span className="orig">ſ</span><span className="corr">s</span>","s").replace("ﬅ","st").replace("ﬅ","st"))
 
 
     // document.body.style.display = "none"
@@ -405,7 +405,7 @@ export default function Brief_wrapper (props) {
             </div>
 
           </div>
-          <IdleTimer/>
+          {/* <IdleTimer/> */}
 
         </motion.div>
       </>

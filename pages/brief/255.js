@@ -87,7 +87,7 @@ export default function page() {
                   <br className="lb" />
                   gewährte mir eine rechte Be
                   <br className="g.enc.tagsdecl.hyphenation.divis" />
-                  ruhigung, denn ich ſahe daraus,
+                  ruhigung, denn ich <span className="orig">ſ</span><span className="corr">s</span>ahe daraus,
                   <br className="lb" />
                   daß es Dir und dem kleinen
                   <span className="orig">
@@ -101,42 +101,42 @@ export default function page() {
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     zenstippel
                   </span>
-                  gut geht. Du glaubﬅ
+                  gut geht. Du glaub<span className="orig">ﬅ</span><span className="corr">st</span>
                   <br className="lb" />
                   gar nicht,
                   <span className="orig">
                     Herzens
                     <span style={{ display: "inline-block" }}>&nbsp;</span>mama
                   </span>
-                  <span className="corr">Herzensmama</span>, wie ſehr Du
+                  <span className="corr">Herzensmama</span>, wie <span className="orig">ſ</span><span className="corr">s</span>ehr Du
                   <br className="lb" />
                   <span className="abbr"> (u.)</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}
-                  er mir ans Herz gewachſen ſeÿd,{" "}
+                  er mir ans Herz gewach<span className="orig">ſ</span><span className="corr">s</span>en <span className="orig">ſ</span><span className="corr">s</span>eÿd,{" "}
                   <span className="abbr"> (u.)</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>
                   <br className="lb" />
-                  Du glaubﬅ auch gar nicht, wie un
+                  Du glaub<span className="orig">ﬅ</span><span className="corr">st</span> auch gar nicht, wie un
                   <br className="g.enc.tagsdecl.hyphenation.divis" />
                   behaglich, wie ekelig mir zu Muthe
                   <br className="lb" />
-                  ohne Euch iﬅ.<a id="teaser.part.001.e">{/*anchor*/}</a> Ich
+                  ohne Euch i<span className="orig">ﬅ</span><span className="corr">st</span>.<a id="teaser.part.001.e">{/*anchor*/}</a> Ich
                   habe hier überall
                   <br className="lb" />
-                  freundliche Geſichter, wo ich hinkom̅e,
+                  freundliche Ge<span className="orig">ſ</span><span className="corr">s</span>ichter, wo ich hinkom̅e,
                   <br className="lb" />
                   aber demohngeachtet fühle ich eine
                   <br className="lb" />
                   Leere. <a id="mark.001.s">{/*anchor*/}</a>
                   <span className="liebe">
                     Aber höre einmal
-                    <span className="persName">Eliſe</span>{" "}
+                    <span className="persName">Eli<span className="orig">ſ</span><span className="corr">s</span>e</span>{" "}
                     <br className="lb" />
-                    meine Briefe darfﬅ Du
+                    meine Briefe darf<span className="orig">ﬅ</span><span className="corr">st</span> Du
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
                       (niemand)
@@ -145,26 +145,26 @@ export default function page() {
                       niemand<span className="ex">en</span>
                     </span>
                     <br className="lb" />
-                    leſen <span className="orig">laßen</span>
+                    le<span className="orig">ſ</span><span className="corr">s</span>en <span className="orig">laßen</span>
                     <span className="corr">lassen</span>, darauf muß ich mich
                     <br className="lb" />
                     <span className="orig">verlaßen</span>
-                    <span className="corr">verlassen</span> dürfen, ſonﬅ
+                    <span className="corr">verlassen</span> dürfen, <span className="orig">ſ</span><span className="corr">s</span>on<span className="orig">ﬅ</span><span className="corr">st</span>
                     <span className="g.rend.script.latin">genire</span> ich
                     <br className="lb" />
                     mich, und glaube immer auch auf
                     <br className="lb" />
-                    andere <span className="orig">Rükſicht</span>
-                    <span className="corr">Rückſicht</span> nehmen zu
+                    andere <span className="orig">Rük<span className="orig">ſ</span><span className="corr">s</span>icht</span>
+                    <span className="corr">Rück<span className="orig">ſ</span><span className="corr">s</span>icht</span> nehmen zu
                     <span className="orig">müßen</span>
                     <span className="corr">müssen</span>
                     <br className="lb" />
                     wenn ich gerne zärtlich mit Dir,
                     <br className="lb" />
-                    Du altes liebes Geſicht wäre. –<br className="lb" />
-                    Hörﬅ Du, Du läßt meine Briefe
+                    Du altes liebes Ge<span className="orig">ſ</span><span className="corr">s</span>icht wäre. –<br className="lb" />
+                    Hör<span className="orig">ﬅ</span><span className="corr">st</span> Du, Du läßt meine Briefe
                     <br className="lb" />
-                    nicht leſen, nicht wahr?<a id="mark.001.e">{/*anchor*/}</a>
+                    nicht le<span className="orig">ſ</span><span className="corr">s</span>en, nicht wahr?<a id="mark.001.e">{/*anchor*/}</a>
                   </span>
                 </p>
                 <p className="enc.tagsdecl.indent-medium">
@@ -174,20 +174,20 @@ export default function page() {
                     &nbsp;
                   </span>
                   <span className="add" id="txt.add002">
-                    ⟨ﬅe⟩
+                    ⟨<span className="orig">ﬅ</span><span className="corr">st</span>e⟩
                   </span>
                   <span className="orig">
                     Herzens
                     <span style={{ display: "inline-block" }}>&nbsp;</span>
                     tuksken
                   </span>
-                  <span className="corr">Herzenstuksken</span>? Du kennﬅ es ja
+                  <span className="corr">Herzenstuksken</span>? Du kenn<span className="orig">ﬅ</span><span className="corr">st</span> es ja
                   <br className="lb" />
                   wohl. Ich weis bald nicht, wo ich vor
                   <br className="lb" />
-                  all’ den Kleinen bleiben ſoll, und
+                  all’ den Kleinen bleiben <span className="orig">ſ</span><span className="corr">s</span>oll, und
                   <br className="lb" />
-                  weiß vor Plaiſir darüber nicht wohin.
+                  weiß vor Plai<span className="orig">ſ</span><span className="corr">s</span>ir darüber nicht wohin.
                   <br className="lb" />
                   <a id="annot.001.s">{/*anchor*/}</a>Nun bald haben wir ja
                   zwei,
@@ -195,12 +195,12 @@ export default function page() {
                     Herzens
                     <span style={{ display: "inline-block" }}>&nbsp;</span>
                     <br className="g.enc.tagsdecl.hyphenation.space" />
-                    lieſeli
+                    lie<span className="orig">ſ</span><span className="corr">s</span>eli
                   </span>
                   <span className="corr">
                     Herzens
                     <br className="g.enc.tagsdecl.hyphenation.space" />
-                    lieſeli
+                    lie<span className="orig">ſ</span><span className="corr">s</span>eli
                   </span>
                   !<a id="annot.001.e">{/*anchor*/}</a>
                 </p>
@@ -218,11 +218,11 @@ export default function page() {
                 <a id="annot.002.s">{/*anchor*/}</a>
                 <p>
                   <span className="g.rend.script.latin">Casper</span> hat
-                  <span className="date">geﬅern</span> geſchrieben, daß
+                  <span className="date">ge<span className="orig">ﬅ</span><span className="corr">st</span>ern</span> ge<span className="orig">ſ</span><span className="corr">s</span>chrieben, daß
                   <br className="lb" />
                   das Bad fort
                   <span style={{ display: "inline-block" }}>&nbsp;</span>während
-                  ſeiner Frau <br className="lb" />
+                  <span className="orig">ſ</span><span className="corr">s</span>einer Frau <br className="lb" />
                   gut bekommt, daß er nicht nach
                   <br className="lb" />
                   <span className="g.rend.script.latin">Schwalbach</span>{" "}
@@ -237,7 +237,7 @@ export default function page() {
                   <span className="expan">
                     C<span className="ex">irc</span>a
                   </span>
-                  <br className="lb" />3 Wochen wieder hier ſeÿn kann.
+                  <br className="lb" />3 Wochen wieder hier <span className="orig">ſ</span><span className="corr">s</span>eÿn kann.
                 </p>
                 <a id="annot.002.e">{/*anchor*/}</a>
                 <p>
@@ -246,18 +246,18 @@ export default function page() {
                     Frau{" "}
                     <span className="g.rend.script.latin">Böddinghaus</span>
                   </span>
-                  iﬅ
+                  i<span className="orig">ﬅ</span><span className="corr">st</span>
                   <br className="lb" />
-                  aber ſehr ſchwach, ſie hat in{" "}
+                  aber <span className="orig">ſ</span><span className="corr">s</span>ehr <span className="orig">ſ</span><span className="corr">s</span>chwach, <span className="orig">ſ</span><span className="corr">s</span>ie hat in{" "}
                   <span className="placeName">Ems</span>
                   <br className="lb" />
                   bei ihrer Ankunft wieder einen
                   <br className="lb" />
-                  Blutﬅurz gehabt, <span className="abbr"> (u.)</span>
+                  Blut<span className="orig">ﬅ</span><span className="corr">st</span>urz gehabt, <span className="abbr"> (u.)</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}
-                  war ſo gefährlich
+                  war <span className="orig">ſ</span><span className="corr">s</span>o gefährlich
                   <br className="lb" />
                   daß <span className="g.rend.script.latin">Casper</span> eine
                   Stafette an
@@ -275,7 +275,7 @@ export default function page() {
                     <br className="lb" />
                     Wittenstein
                   </span>
-                  abſchickte, worauf ihr
+                  ab<span className="orig">ſ</span><span className="corr">s</span>chickte, worauf ihr
                   <br className="lb" />
                   Mann gleich von
                   <span className="g.rend.script.latin">Elberfeld</span>{" "}
@@ -298,7 +298,7 @@ export default function page() {
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     men
                   </span>
-                  . Es wäre doch recht ſchade um
+                  . Es wäre doch recht <span className="orig">ſ</span><span className="corr">s</span>chade um
                   <br className="lb" />
                   die gute junge Frau.
                 </p>
@@ -312,7 +312,7 @@ export default function page() {
                     </span>
                   </span>
                   <br className="lb" />
-                  mit ſeinen <span className="orig">Waßermühlen</span>
+                  mit <span className="orig">ſ</span><span className="corr">s</span>einen <span className="orig">Waßermühlen</span>
                   <span className="corr">Wassermühlen</span> hat mir
                   <br className="lb" />
                   vielen <span className="orig">Spas</span>
@@ -320,12 +320,12 @@ export default function page() {
                   <br className="lb" />
                   ob kein{" "}
                   <span className="g.rend.script.latin">Mechanicus</span> drin
-                  ﬅekt.
+                  <span className="orig">ﬅ</span><span className="corr">st</span>ekt.
                 </p>
                 <a id="annot.003.e">{/*anchor*/}</a>
                 <p className="enc.tagsdecl.indent-medium">
                   Wie ich Euch übrigens von dort <br className="lb" />
-                  wieder abholen kann, iﬅ mir
+                  wieder abholen kann, i<span className="orig">ﬅ</span><span className="corr">st</span> mir
                   <br className="lb" />
                   noch nicht recht klar. Nach meiner
                   <br className="lb" />
@@ -333,9 +333,9 @@ export default function page() {
                   <span className="g.rend.script.latin">Casper</span> gegen Ende
                   <br className="lb" />
                   <span className="g.rend.script.latin">Juli</span> wieder hier
-                  ſeÿn; am
+                  <span className="orig">ſ</span><span className="corr">s</span>eÿn; am
                   <span className="date">
-                    erﬅen
+                    er<span className="orig">ﬅ</span><span className="corr">st</span>en
                     <br className="lb" />
                     <span className="g.rend.script.latin">August</span>
                   </span>
@@ -365,31 +365,31 @@ export default function page() {
                   <span className="orig">laßen</span>
                   <span className="corr">lassen</span>, und
                   <br className="lb" />
-                  doch kann ich meine Einſamkeit
+                  doch kann ich meine Ein<span className="orig">ſ</span><span className="corr">s</span>amkeit
                   <br className="lb" />
                   nicht länger ertragen; was läßt
                   <br className="lb" />
-                  ſich nur für ein vernünftiges Re
+                  <span className="orig">ſ</span><span className="corr">s</span>ich nur für ein vernünftiges Re
                   <br className="g.enc.tagsdecl.hyphenation.divis" />
-                  ſultat hieraus ziehen?
+                  <span className="orig">ſ</span><span className="corr">s</span>ultat hieraus ziehen?
                 </p>
                 <p className="enc.tagsdecl.indent-medium">
                   <a id="mark.002.s">{/*anchor*/}</a>
                   <span className="reisen">
-                    Ich ſehe es kom̅en, daß ich es
+                    Ich <span className="orig">ſ</span><span className="corr">s</span>ehe es kom̅en, daß ich es
                     <br className="lb" />
-                    ſo machen muß; ich werde gegen
+                    <span className="orig">ſ</span><span className="corr">s</span>o machen muß; ich werde gegen
                     <br className="lb" />
                     <span className="date">den 22.</span> von hier abfahren
                     <span className="orig">müßen</span>
                     <span className="corr">müssen</span>,<br className="lb" />
                     mich 1 à 2 Tage dort aufhalten, und
                     <br className="lb" />
-                    dann mit meiner ſüßen Laﬅ wieder
+                    dann mit meiner <span className="orig">ſ</span><span className="corr">s</span>üßen La<span className="orig">ﬅ</span><span className="corr">st</span> wieder
                     <br className="lb" />
-                    heimfahren. Deine Reiſe trifft in
+                    heimfahren. Deine Rei<span className="orig">ſ</span><span className="corr">s</span>e trifft in
                     <br className="lb" />
-                    dieſer Hinſicht diesmal wirklich in
+                    die<span className="orig">ſ</span><span className="corr">s</span>er Hin<span className="orig">ſ</span><span className="corr">s</span>icht diesmal wirklich in
                     <br className="lb" />
                     einen sehr <span className="orig">mislichen</span>
                     <span className="corr">mißlichen</span> Zeitpunkt.
@@ -397,23 +397,23 @@ export default function page() {
                   </span>
                   <br className="lb" />
                   <a id="annot.004.s">{/*anchor*/}</a>
-                  <a id="mark.003.s">{/*anchor*/}</a>Unſer Geſchäft erleidet
+                  <a id="mark.003.s">{/*anchor*/}</a>Un<span className="orig">ſ</span><span className="corr">s</span>er Ge<span className="orig">ſ</span><span className="corr">s</span>chäft erleidet
                   täglich neue
                   <br className="lb" />
-                  Veränderungen, welche unſere Gegen
+                  Veränderungen, welche un<span className="orig">ſ</span><span className="corr">s</span>ere Gegen
                   <br className="g.enc.tagsdecl.hyphenation.divis" />
                   wart <span className="abbr"> (u.)</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}
-                  ſchnelles Handeln erfordern,
+                  <span className="orig">ſ</span><span className="corr">s</span>chnelles Handeln erfordern,
                   <br className="lb" />
-                  dabei iﬅ <span className="g.rend.script.latin">
+                  dabei i<span className="orig">ﬅ</span><span className="corr">st</span> <span className="g.rend.script.latin">
                     Casper
                   </span>{" "}
-                  abweſend, und wahr
+                  abwe<span className="orig">ſ</span><span className="corr">s</span>end, und wahr
                   <br className="g.enc.tagsdecl.hyphenation.divis" />
-                  haftig ich ſage Dir mir hat in voriger
+                  haftig ich <span className="orig">ſ</span><span className="corr">s</span>age Dir mir hat in voriger
                   <br className="lb" />
                   Woche der Kopf vor aller Arbeit
                   <br className="lb" />
@@ -423,13 +423,13 @@ export default function page() {
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}
-                  Handlungsſachen,
+                  Handlungs<span className="orig">ſ</span><span className="corr">s</span>achen,
                   <br className="lb" />
                   meine <span className="abbr"> (u.)</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>
-                  <span className="g.rend.script.latin">Caspers</span> Geſchäfte
+                  <span className="g.rend.script.latin">Caspers</span> Ge<span className="orig">ſ</span><span className="corr">s</span>chäfte
                   zum Theil,
                   <br className="lb" />
                   alles kommt zusam̅en.<a id="annot.004.e">{/*anchor*/}</a>
@@ -438,9 +438,9 @@ export default function page() {
                   </span>
                   Doch mir
                   <br className="lb" />
-                  iﬅs recht, je krauſer, je lieber.
+                  i<span className="orig">ﬅ</span><span className="corr">st</span>s recht, je krau<span className="orig">ſ</span><span className="corr">s</span>er, je lieber.
                   <br className="lb" />
-                  Wir ſind noch jung <span className="abbr"> (u.)</span>
+                  Wir <span className="orig">ſ</span><span className="corr">s</span>ind noch jung <span className="abbr"> (u.)</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}
@@ -449,7 +449,7 @@ export default function page() {
                   Glieder rühren.<a id="mark.003.e">{/*anchor*/}</a>
                   <a id="annot.005.s">{/*anchor*/}</a>Vielleicht kann
                   <br className="lb" />
-                  ich im Herbﬅ wenn ich{" "}
+                  ich im Herb<span className="orig">ﬅ</span><span className="corr">st</span> wenn ich{" "}
                   <span className="persName">Friederike</span> hole
                   <a id="annot.005.e">{/*anchor*/}</a>
                   <br className="lb" />
@@ -477,7 +477,7 @@ export default function page() {
                   <span className="g.rend.script.latin">August</span>{" "}
                   <br className="lb" />
                   nicht lange alleine <span className="orig">laßen</span>
-                  <span className="corr">lassen</span>. Es iﬅ
+                  <span className="corr">lassen</span>. Es i<span className="orig">ﬅ</span><span className="corr">st</span>
                   <br className="lb" />
                   ihm manches von meinen Sachen
                   <br className="lb" />
@@ -489,26 +489,26 @@ export default function page() {
                   Deine{" "}
                   <span className="g.enc.tagsdecl.suspension.type1">
                     {" "}
-                    (Beﬅellung)
+                    (Be<span className="orig">ﬅ</span><span className="corr">st</span>ellung)
                   </span>
                   <span className="expan">
-                    Beﬅellung<span className="ex">en</span>
+                    Be<span className="orig">ﬅ</span><span className="corr">st</span>ellung<span className="ex">en</span>
                   </span>{" "}
                   werde ich
                   <br className="lb" />
                   <span className="orig">beßtens</span>
                   <span className="corr">bestens</span> ausführen. Die Stiefel
-                  ſah
+                  <span className="orig">ſ</span><span className="corr">s</span>ah
                   <br className="lb" />
-                  ich ſchon den Tag nach Eurer Abreiſe.
+                  ich <span className="orig">ſ</span><span className="corr">s</span>chon den Tag nach Eurer Abrei<span className="orig">ſ</span><span className="corr">s</span>e.
                   <br className="lb" />
-                  Nach den andern 3 Punkten ſchaue
+                  Nach den andern 3 Punkten <span className="orig">ſ</span><span className="corr">s</span>chaue
                   <br className="lb" />
                   ich <span className="date">morgen</span> frühe um.
                 </p>
                 <p className="enc.tagsdecl.indent-small">
                   Aber <span className="g.rend.script.latin">à propos</span>!
-                  Wollteﬅ Du nicht
+                  Wollte<span className="orig">ﬅ</span><span className="corr">st</span> Du nicht
                   <br className="lb" />
                   <a id="annot.007.s">{/*anchor*/}</a>
                   <span className="persName">Rike Menkhoff</span>
@@ -521,11 +521,11 @@ export default function page() {
                   bitten, daß
                   <span className="orig">
                     <span className="overwritten">S</span>
-                    <span className="add">⟨ſ⟩</span>ie
+                    <span className="add">⟨<span className="orig">ſ</span><span className="corr">s</span>⟩</span>ie
                   </span>
-                  <span className="corr">sie</span> ihrem Manne ſchrei
+                  <span className="corr">sie</span> ihrem Manne <span className="orig">ſ</span><span className="corr">s</span>chrei
                   <br className="g.enc.tagsdecl.hyphenation.divis" />
-                  ben möchte, daß ich ſchwerlich am
+                  ben möchte, daß ich <span className="orig">ſ</span><span className="corr">s</span>chwerlich am
                   <br className="lb" />
                   <span className="date">
                     3
@@ -539,9 +539,9 @@ export default function page() {
                       </span>
                     </span>
                   </span>
-                  in <span className="placeName">Ham̅</span> ſeÿn könnte damit
+                  in <span className="placeName">Ham̅</span> <span className="orig">ſ</span><span className="corr">s</span>eÿn könnte damit
                   <br className="lb" />
-                  er ſeine
+                  er <span className="orig">ſ</span><span className="corr">s</span>eine
                   <span className="g.enc.tagsdecl.suspension.type1">
                     {" "}
                     (Einrichtung)
@@ -560,21 +560,21 @@ export default function page() {
                       <sup>n</sup>.
                     </span>
                   </span>
-                  begleiten will, ſoll’s
+                  begleiten will, <span className="orig">ſ</span><span className="corr">s</span>oll’s
                   <br className="lb" />
                   mich freuen. –
                 </p>
                 <blockquote className="closer">
                   <p className="enc.tagsdecl.indent-medium">
-                    Nun Adieu, es iﬅ gleich eilf Uhr.
+                    Nun Adieu, es i<span className="orig">ﬅ</span><span className="corr">st</span> gleich eilf Uhr.
                     <br className="lb" />
                     <span className="orig">Küße</span>
                     <span className="corr">Küsse</span> mein liebes Kind.
                     Schreibe mir
                     <br className="lb" />
-                    doch jeden Poﬅtag ein paar Worte
+                    doch jeden Po<span className="orig">ﬅ</span><span className="corr">st</span>tag ein paar Worte
                     <br className="lb" />
-                    willﬅ Du, es thut mir ſo gut. –
+                    will<span className="orig">ﬅ</span><span className="corr">st</span> Du, es thut mir <span className="orig">ſ</span><span className="corr">s</span>o gut. –
                   </p>
                 </blockquote>
                 <blockquote className="closer">
@@ -587,7 +587,7 @@ export default function page() {
                     </span>
                     <span className="corr">Herzenskind</span>{" "}
                     <br className="lb" />
-                    und behalte mich ſo lieb wie ich Dich.
+                    und behalte mich <span className="orig">ſ</span><span className="corr">s</span>o lieb wie ich Dich.
                   </p>
                 </blockquote>
                 <div className="closer">
@@ -595,7 +595,7 @@ export default function page() {
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}
-                  Geſchwister herzlich <br className="lb" />
+                  Ge<span className="orig">ſ</span><span className="corr">s</span>chwister herzlich <br className="lb" />
                   <div className="enc.tagsdecl.indent-small">
                     von Deinem treuen <br className="lb" />
                     <span style={{ display: "inline-block" }} width="4words">

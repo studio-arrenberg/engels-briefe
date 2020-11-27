@@ -101,21 +101,21 @@ export default function page() {
                    <p>
                   <span className="opener">
                     <span className="salute">
-                      <a id="teaser.part.001.s">{/*anchor*/}</a>Liebﬅes beﬅes
+                      <a id="teaser.part.001.s">{/*anchor*/}</a>Lieb<span className="orig">ﬅ</span><span className="corr">st</span>es be<span className="orig">ﬅ</span><span className="corr">st</span>es
                       Männchen! <a id="teaser.part.001.e">{/*anchor*/}</a>
                     </span>
                   </span>
                  
                     <a id="mark.002.s">{/*anchor*/}</a>Wie freue ich mich
                     <br className="lb" />
-                    daß Du glücklich, geſund und munter zu
+                    daß Du glücklich, ge<span className="orig">ſ</span><span className="corr">s</span>und und munter zu
                     <br className="lb" />
                     <span className="orig">Hauße</span>
-                    <span className="corr">Hause</span> gekom̅en biﬅ, und Dich
+                    <span className="corr">Hause</span> gekom̅en bi<span className="orig">ﬅ</span><span className="corr">st</span>, und Dich
                     nachspan der <span className="orig">Reiße</span>
                     <span className="corr">Reise</span>
                     <br className="lb" />
-                    ſo wohl befindeﬅ – der gütige Gott ſeÿe
+                    <span className="orig">ſ</span><span className="corr">s</span>o wohl befinde<span className="orig">ﬅ</span><span className="corr">st</span> – der gütige Gott <span className="orig">ſ</span><span className="corr">s</span>eÿe
                     <br className="lb" />
                     von ganzem Herzen dafür{" "}
                     <span className="orig">gedanckt</span>
@@ -123,12 +123,12 @@ export default function page() {
                     <br className="lb" />
                     Dich begleitet und vor Unglück bewahret
                     <br className="lb" />
-                    hat – Er der liebevolle Menſchenhüter ſeÿe Dir
+                    hat – Er der liebevolle Men<span className="orig">ſ</span><span className="corr">s</span>chenhüter <span className="orig">ſ</span><span className="corr">s</span>eÿe Dir
                     <br className="lb" />
-                    dann auf Deiner nächﬅen <span className="orig">Reiße</span>
+                    dann auf Deiner näch<span className="orig">ﬅ</span><span className="corr">st</span>en <span className="orig">Reiße</span>
                     <span className="corr">Reise</span> hierhin auch
                     <br className="lb" />
-                    wieder recht nahe und führe Dich doch geſund
+                    wieder recht nahe und führe Dich doch ge<span className="orig">ſ</span><span className="corr">s</span>und
                     <br className="lb" />
                     und wohl in meine Armen.<a id="mark.002.e">{/*anchor*/}</a>
                     <span style={{ display: "inline-block" }} width="2cm">
@@ -136,7 +136,7 @@ export default function page() {
                     </span>
                     <a id="mark.003.s">{/*anchor*/}</a>Ja! mein
                     <br className="lb" />
-                    beﬅer innig <span className="orig">geliebter</span>
+                    be<span className="orig">ﬅ</span><span className="corr">st</span>er innig <span className="orig">geliebter</span>
                     <span className="corr">Geliebter</span>!
                     <a id="teaser.part.002.s">{/*anchor*/}</a>ofte w
                     <span className="overwritten">i</span>
@@ -146,24 +146,24 @@ export default function page() {
                     </span>
                     wir uns
                     <br className="lb" />
-                    der überſchwenglich großen Liebe und Güte
+                    der über<span className="orig">ſ</span><span className="corr">s</span>chwenglich großen Liebe und Güte
                     <br className="lb" />
-                    unſers lieben him̅liſchen Vaters
+                    un<span className="orig">ſ</span><span className="corr">s</span>ers lieben him̅li<span className="orig">ſ</span><span className="corr">s</span>chen Vaters
                     <span style={{ textDecoration: "line-through" }}>
                       dir
                     </span>{" "}
                     verge
                     <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
-                    genwärtigen, die Er uns auf ſo mannigfal
+                    genwärtigen, die Er uns auf <span className="orig">ſ</span><span className="corr">s</span>o mannigfal
                     <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
-                    tige Art, und beſonders auch{" "}
+                    tige Art, und be<span className="orig">ſ</span><span className="corr">s</span>onders auch{" "}
                     <span className="orig">jezt</span>
                     <span className="corr">jetzt</span> wieder
                     <br className="lb" />
-                    beÿ unſerm <span className="orig">HochzeitsFeﬅ</span>
-                    <span className="corr">Hochzeitsfeﬅ</span> und die übrigen
+                    beÿ un<span className="orig">ſ</span><span className="corr">s</span>erm <span className="orig">HochzeitsFe<span className="orig">ﬅ</span><span className="corr">st</span></span>
+                    <span className="corr">Hochzeitsfe<span className="orig">ﬅ</span><span className="corr">st</span></span> und die übrigen
                     <br className="lb" />
-                    Tagen erwieſen hat; und uns gegenſeitig
+                    Tagen erwie<span className="orig">ſ</span><span className="corr">s</span>en hat; und uns gegen<span className="orig">ſ</span><span className="corr">s</span>eitig
                     <br className="lb" />
                     zum warmen herzlichen <span className="orig">Danck</span>
                     <span className="corr">Dank</span> dafür er
@@ -173,7 +173,7 @@ export default function page() {
                     <span className="orig">oﬀenbahr</span>
                     <span className="corr">oﬀenbar</span>
                     <br className="lb" />
-                    ganz hell iﬅ es mir daß die Hand unſers
+                    ganz hell i<span className="orig">ﬅ</span><span className="corr">st</span> es mir daß die Hand un<span className="orig">ſ</span><span className="corr">s</span>ers
                     <br className="lb" />
                   </p>
                 </div>
@@ -186,15 +186,15 @@ export default function page() {
                   }}
                 >
                   <p>
-                    guten Gottes mit uns war, und dieſe alles
+                    guten Gottes mit uns war, und die<span className="orig">ſ</span><span className="corr">s</span>e alles
                     <br className="lb" />
-                    ſo in der beﬅen Ordnung gehalten hat.
+                    <span className="orig">ſ</span><span className="corr">s</span>o in der be<span className="orig">ﬅ</span><span className="corr">st</span>en Ordnung gehalten hat.
                     <br className="lb" />
-                    Gelobet ſeÿ dann Gott der unſer{" "}
+                    Gelobet <span className="orig">ſ</span><span className="corr">s</span>eÿ dann Gott der un<span className="orig">ſ</span><span className="corr">s</span>er{" "}
                     <span className="orig">Gebät</span>
                     <span className="corr">Gebet</span>
                     <br className="lb" />
-                    nicht verworfen, noch ſeine Güte von uns
+                    nicht verworfen, noch <span className="orig">ſ</span><span className="corr">s</span>eine Güte von uns
                     <br className="lb" />
                     gewendet hat
                     <span className="abbr">
@@ -255,15 +255,15 @@ export default function page() {
                     <span className="orig">hoﬀen</span>
                     <span className="corr">Hoﬀen</span> und Ver
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
-                    trauen <span className="orig">geﬅärckt</span>
-                    <span className="corr">geﬅärkt</span> werden!
+                    trauen <span className="orig">ge<span className="orig">ﬅ</span><span className="corr">st</span>ärckt</span>
+                    <span className="corr">ge<span className="orig">ﬅ</span><span className="corr">st</span>ärkt</span> werden!
                   </p>
                   <p>
                     Von meiner Gesundheit,{" "}
                     <span className="orig">heiterkeit</span>
                     <span className="corr">Heiterkeit</span> und Ruhe kann
                     <br className="lb" />
-                    ich Dir zärtlich geliebter Mann! die beﬅe Nachricht
+                    ich Dir zärtlich geliebter Mann! die be<span className="orig">ﬅ</span><span className="corr">st</span>e Nachricht
                     <br className="lb" />
                     geben – denn ich genieße Gottlob! Alle diese
                     <br className="lb" />
