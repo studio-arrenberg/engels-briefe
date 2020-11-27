@@ -43,28 +43,25 @@ export default function page() {
               <section
                 className="kuvert"
                 id="index.xml-body.1_div.1"
-                style={{ paddingTop: "100px", paddingBottom: "160px" }}
+                style={{ paddingTop: "30px"}}
               >
                 {/* Insert Kuvert */}
               </section>
             </div>
 
-            <section className="writing-session" id="index.xml-body.1_div.2">
+            <section className="writing-session page-large " id="index.xml-body.1_div.2">
               <div
                 className="page"
                 style={{
                   paddingTop: "55px",
                   paddingLeft: "80px",
-                  paddingBottom: "100px",
+                  paddingBottom: "90px",
                 }}
               >
                 {/* Insert Page 1 */}
                 <div className="opener">
-                  <span style={{ display: "inline-block" }} width="5cm">
-                    &nbsp;
-                  </span>
-                  <div className="dateline">
-                    <span className="g.rend.script.latin">Barmen</span>
+                  <div className="dateline text-right">
+                    <span className="g.rend.script.latin">Barmen</span>{" "}
                     <span className="date">
                       9. <span className="g.rend.script.latin">Juli</span> 1822
                     </span>
@@ -209,9 +206,9 @@ export default function page() {
               <div
                 className="page"
                 style={{
-                  paddingTop: "35px",
+                  paddingTop: "110px",
                   paddingLeft: "80px",
-                  paddingBottom: "5px",
+                  paddingBottom: "125px",
                 }}
               >
                 {/* Insert Page 2 */}
@@ -350,9 +347,9 @@ export default function page() {
               <div
                 className="page"
                 style={{
-                  paddingTop: "40px",
+                  paddingTop: "60px",
                   paddingLeft: "70px",
-                  paddingBottom: "55px",
+                  paddingBottom: "240px",
                 }}
               >
                 {/* Insert Page 3 */}
@@ -458,9 +455,9 @@ export default function page() {
               <div
                 className="page"
                 style={{
-                  paddingTop: "40px",
+                  paddingTop: "60px",
                   paddingLeft: "70px",
-                  paddingBottom: "55px",
+                  paddingBottom: "120px",
                 }}
               >
                 {/* Insert Page 4 */}

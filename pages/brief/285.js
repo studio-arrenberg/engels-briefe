@@ -22,32 +22,23 @@ export default function page() {
         {/*TEI front*/}
         <div className="toc toc_body">
           <div className="toc toc_back">
-            {/*TEI body*/}
-            <div className="tei_body">
-              <section
-                className="kuvert"
-                id="index.xml-body.1_div.1"
-                style={{ paddingTop: "100px", paddingBottom: "160px" }}
-              >
-                {/* Insert Kuvert */}
-              </section>
-            </div>
+           
 
             <section className="writing-session" id="index.xml-body.1_div.2">
               <div
                 className="page"
                 style={{
-                  paddingTop: "55px",
+                  marginTop: "-15px",
+                  marginBottom: "20px",
+
+                  paddingTop: "15px",
                   paddingLeft: "80px",
-                  paddingBottom: "100px",
+                  paddingBottom: "10px",
                 }}
               >
                 {/* Insert Page 1 */}
                 <div className="opener">
-                  <div className="dateline">
-                    <span style={{ display: "inline-block" }} width="40em">
-                      &nbsp;
-                    </span>
+                  <div className="dateline text-right">
                     <span className="placeName">Hamm</span>
                     <span className="date">
                       <span className="abbr"> (d.)</span>
@@ -74,9 +65,7 @@ export default function page() {
                   </div>
                 </div>
                 <div className="opener">
-                  <span style={{ display: "inline-block" }} width="1lines">
-                    &nbsp;
-                  </span>
+                  
                   <div className="salute">
                     <span style={{ display: "inline-block" }} width="3em">
                       &nbsp;
@@ -220,7 +209,8 @@ export default function page() {
                 style={{
                   paddingTop: "35px",
                   paddingLeft: "80px",
-                  paddingBottom: "5px",
+                  paddingBottom: "75px",
+                  marginBottom: "25px",
                 }}
               >
                 {/* Insert Page 2 */}
@@ -353,135 +343,7 @@ export default function page() {
                     &nbsp;
                   </span>
                   <span style={{ textDecoration: "underline" }}>keit</span>
-                  jedem Dinge auf den Grund kommen will, wird ein<span className="orig">ﬅ</span><span className="corr">st</span> ein großer Ge
-                  <br className="g.enc.tagsdecl.hyphenation.eq" />
-                  lehrter werden.<a id="teaser.part.001.e">{/*anchor*/}</a> Im
-                  vorigen Herb<span className="orig">ﬅ</span><span className="corr">st</span> kam er jeden Morgen, <span className="orig">ſ</span><span className="corr">s</span>o bald er
-                  <br className="lb" />
-                  angezogen war zu mir ge<span className="orig">ſ</span><span className="corr">s</span>prungen: – guten Morgen, Großvater,
-                  nun
-                  <br className="lb" />
-                  erzähle mir etwas! –{" "}
-                  <a id="teaser.part.002.s">{/*anchor*/}</a>Ich werde mich bei
-                  <span className="orig">ſ</span><span className="corr">s</span>einer Wißbegierde wohl für
-                  <br className="lb" />
-                  das näch<span className="orig">ﬅ</span><span className="corr">st</span>e Wieder<span className="orig">ſ</span><span className="corr">s</span>ehen auf einige <span className="orig">ſ</span><span className="corr">s</span>einem Alter
-                  <span className="abbr"> (u)</span>
-                  <span className="expan">
-                    u<span className="ex">nd</span>
-                  </span>{" "}
-                  <span className="orig">ſ</span><span className="corr">s</span>einen Fort<span className="orig">ſ</span><span className="corr">s</span>chritten
-                  <br className="lb" />
-                  angeme<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>ene Erzählungen vorbereiten mü<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>en.
-                  <a id="teaser.part.002.e">{/*anchor*/}</a>
-                  Dem <span className="persName">Hermann</span> las
-                  <br className="g.enc.tagsdecl.hyphenation.eq" />
-                  <span className="orig">ſ</span><span className="corr">s</span>en Sie immer noch <span className="orig">ſ</span><span className="corr">s</span>eine Peit<span className="orig">ſ</span><span className="corr">s</span>che{" "}
-                  <span className="abbr"> (u)</span>
-                  <span className="expan">
-                    u<span className="ex">nd</span>
-                  </span>{" "}
-                  <span className="orig">ſ</span><span className="corr">s</span>ein Steckenpferd. Haben doch wir al
-                  <br className="g.enc.tagsdecl.hyphenation.eq" />
-                  ten Leute noch das Un<span className="orig">ſ</span><span className="corr">s</span>rige, <span className="abbr"> (u)</span>
-                  <span className="expan">
-                    u<span className="ex">nd</span>
-                  </span>{" "}
-                  von je her eins gehabt. Der ganze Unter
-                  <br className="g.enc.tagsdecl.hyphenation.eq" />
-                  <span className="orig">ſ</span><span className="corr">s</span>chied i<span className="orig">ﬅ</span><span className="corr">st</span> nur, daß wir es mehrmals vertau<span className="orig">ſ</span><span className="corr">s</span>cht haben. Auch für
-                  den gemüth
-                  <br className="g.enc.tagsdecl.hyphenation.eq" />
-                  lichen <span className="persName">Herman̅</span> wird die Zeit
-                  kommen, wo er das Eigentliche mit dem Un
-                  <br className="g.enc.tagsdecl.hyphenation.eq" />
-                  eigentlichen vertau<span className="orig">ſ</span><span className="corr">s</span>cht. Daß die kleine
-                  <span className="persName">Marie</span>, die Mädchen oder Frau
-                  <br className="g.enc.tagsdecl.hyphenation.eq" />
-                  en im Allgemeinen – (wobei ich jedoch, um mich gegen jeden
-                  <span className="orig">Ueberfall</span>
-                  <span className="corr">Überfall</span>
-                  <br className="lb" />
-                  zu decken, Ausnahmen einräume,{" "}
-                  <span className="abbr"> (u)</span>
-                  <span className="expan">
-                    u<span className="ex">nd</span>
-                  </span>{" "}
-                  es jedem Mädchen
-                  <span className="abbr"> (u)</span>
-                  <span className="expan">
-                    u<span className="ex">nd</span>
-                  </span>{" "}
-                  jeder Frau
-                  <br className="lb" />
-                  gerne ge<span className="orig">ﬅ</span><span className="corr">st</span>atte, <span className="orig">ſ</span><span className="corr">s</span>ich zu die<span className="orig">ſ</span><span className="corr">s</span>en Ausnahmen zu zählen,) – eitel
-                  <span className="orig">ſ</span><span className="corr">s</span>ind, wer
-                  <br className="lb" />
-                  i<span className="orig">ﬅ</span><span className="corr">st</span> Schuld daran? – Wer putzt die kleinen Dingerchen – mit
-                  Bändern, net
-                  <br className="g.enc.tagsdecl.hyphenation.eq" />
-                  ten Kleidern oder Schlü<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>elplaggen, <span className="orig">ﬅ</span><span className="corr">st</span>ellt <span className="orig">ſ</span><span className="corr">s</span>ie vor den Spiegel,
-                  <span className="abbr"> (u)</span>
-                  <span className="expan">
-                    u<span className="ex">nd</span>
-                  </span>{" "}
-                  <span className="orig">ſ</span><span className="corr">s</span>agt „
-                  <span style={{ textDecoration: "underline" }}><span className="orig">ﬅ</span><span className="corr">st</span>aats</span>„
-                  <span className="orig">.</span>
-                  <span className="corr">?</span>
-                  <br className="lb" />
-                  Wer nennt die jungen, heranreifenden Mädchen: „mein <span className="orig">ſ</span><span className="corr">s</span>chönes
-                  Kind„; mag
-                  <br className="lb" />
-                  es nun Kätchen oder Klärchen heißen
-                  <span className="orig">.</span>
-                  <span className="corr">?</span> Welcher Bräutigam hält nicht
-                  <span className="orig">ſ</span><span className="corr">s</span>eine Braut
-                  <span className="orig">,</span>
-                  <span className="corr" />
-                  <br className="lb" />
-                  für <span className="orig">ſ</span><span className="corr">s</span>chön, <span className="abbr"> (u)</span>
-                  <span className="expan">
-                    u<span className="ex">nd</span>
-                  </span>{" "}
-                  <span className="orig">ſ</span><span className="corr">s</span>agt ihr auch, daß <span className="orig">ſ</span><span className="corr">s</span>ie es i<span className="orig">ﬅ</span><span className="corr">st</span>. Und wenn der Mann aufhört,
-                  <br className="lb" />
-                  <span className="orig">ſ</span><span className="corr">s</span>einer Frau die Schönheit zum Vorwurf zu machen: <span className="orig">ſ</span><span className="corr">s</span>o <span className="orig">ſ</span><span className="corr">s</span>ieht er
-                  es doch gerne,
-                  <br className="lb" />
-                  nicht daß <span className="orig">ſ</span><span className="corr">s</span>ie <span className="orig">ſ</span><span className="corr">s</span>ich in ihrem Hau<span className="orig">ſ</span><span className="corr">s</span>e täglich reinlich kleide –
-                  das
-                  <span style={{ textDecoration: "underline" }}>muß</span> jede
-                  <br className="lb" />
-                  erdenkliche Frau – , <span className="orig">ſ</span><span className="corr">s</span>ondern, daß <span className="orig">ſ</span><span className="corr">s</span>ie <span className="orig">ſ</span><span className="corr">s</span>ich bei
-                  Feierlichkeiten,
-                  <span className="abbr"> (z. B.)</span>
-                  <span className="expan">
-                    z<span className="ex">um</span>{" "}
-                    <span className="ex"> </span>B
-                    <span className="ex">ei<span className="orig">ſ</span><span className="corr">s</span>piel</span>
-                  </span>
-                  Kindtau
-                  <br className="g.enc.tagsdecl.hyphenation.eq" />
-                  fen, Hochzeiten, Concerten{" "}
-                  <span className="abbr"> (p.p.)</span>
-                  <span className="expan">
-                    p<span className="ex">erge</span> <span className="ex" />p
-                    <span className="ex">erge</span>
-                  </span>
-                  wirklich etwas putze. Hiemit will ich
-                  <br className="lb" />
-                  nun behauptet haben, daß wir Männer nicht alleine aber <span className="orig">ſ</span><span className="corr">s</span>o
-                  eitel <span className="orig">ſ</span><span className="corr">s</span>ind
-                  <br className="lb" />
-                  als das weibliche Ge<span className="orig">ſ</span><span className="corr">s</span>chlecht, <span className="orig">ſ</span><span className="corr">s</span>ondern daß wir in die<span className="orig">ſ</span><span className="corr">s</span>em <span className="orig">ſ</span><span className="corr">s</span>o gar
-                  die Eitel
-                  <br className="g.enc.tagsdecl.hyphenation.eq" />
-                  <span style={{ display: "inline-block" }} width="65em">
-                    &nbsp;
-                  </span>
-                  <span style={{ textDecoration: "underline" }}>keit</span>
-                </p>
+                  </p>
               </div>
 
               <div
@@ -489,7 +351,7 @@ export default function page() {
                 style={{
                   paddingTop: "40px",
                   paddingLeft: "70px",
-                  paddingBottom: "55px",
+                  paddingBottom: "43px",
                 }}
               >
                 {/* Insert Page 3 */}
@@ -685,16 +547,7 @@ export default function page() {
                   </div>
                 </div>
               </div>
-              <div
-                className="page"
-                style={{
-                  paddingTop: "40px",
-                  paddingLeft: "70px",
-                  paddingBottom: "55px",
-                }}
-              >
-                {/* Insert Page 4 */}
-              </div>
+              
             </section>
           </div>
         </div>
