@@ -140,8 +140,8 @@ export function Brief({ id }) {
             <div className="item_description">
               <h4>{item.datum}</h4>
               <h2>
-                <span className="sender_name">{item.sender.name}</span> an{" "}
-                <br></br> <span className="empfänger_name"></span>
+                <span className="sender_name">{item.sender.name}</span>
+                <br></br><FiArrowRight/>{" "} <span className="empfänger_name"></span>
                 {item.empfänger.name}
               </h2>
               {/* themen */}

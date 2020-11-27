@@ -1,7 +1,7 @@
 const constants = {
   animation: {
     interaction: {
-      whiletap: 1.2
+      whiletap: 1.12
     },
     // for posts
     post: {
