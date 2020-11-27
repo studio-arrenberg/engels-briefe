@@ -36,7 +36,7 @@ export default function page() {
               <section
                 className="kuvert"
                 id="index.xml-body.1_div.1"
-                style={{ paddingTop: "100px", paddingBottom: "160px" }}
+                style={{ paddingTop: "227px", paddingBottom: "170px" }}
               >
                 {/* Insert Kuvert */}
                 <h2>
@@ -56,6 +56,7 @@ export default function page() {
                       <br className="lb" />
                       <span className="persName">Friedrich Engels</span>.
                       <br className="lb" />
+                    <span className="small-adress" style={{ fontSize: "1.1rem", lineHeight: "1.8rem", marginBottom: "0px", marginTop:"10px", display: "block"}}>
                       <span className="abbr">
                         (Add
                         <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
@@ -108,6 +109,9 @@ export default function page() {
                         &nbsp;
                       </span>
                       in
+
+                      </span>
+
                       <br className="lb" />
                       <span style={{ display: "inline-block" }} width="4em">
                         &nbsp;
@@ -150,9 +154,9 @@ export default function page() {
               <div
                 className="page"
                 style={{
-                  paddingTop: "55px",
+                  paddingTop: "0px",
                   paddingLeft: "80px",
-                  paddingBottom: "100px",
+                  paddingBottom: "50px",
                 }}
               >
                 {/* Insert Page 1 */}
@@ -173,7 +177,6 @@ export default function page() {
                   </div>
                   <a id="teaser.part.001.e">{/*anchor*/}</a>
                 </div>
-                <br className="lb" />
                 <p>
                   <a id="mark.001.s">{/*anchor*/}</a>Zufolge deinen Lieben
                   Briefen vom 12
@@ -744,7 +747,7 @@ export default function page() {
                 style={{
                   paddingTop: "40px",
                   paddingLeft: "70px",
-                  paddingBottom: "55px",
+                  paddingBottom: "150px",
                 }}
               >
                 {/* Insert Page 3 */}
@@ -801,11 +804,12 @@ export default function page() {
                   <span style={{ display: "inline-block" }} width="8words">
                     &nbsp;
                   </span>
+                  <span className="text-right">
                   Dein <span className="orig">treüer</span>
                   <span className="corr">treuer</span> Vater{" "}
-                  <br className="lb" />
                   <span style={{ display: "inline-block" }} width="9words">
                     &nbsp;
+                  </span>
                   </span>
                   <div className="signed">
                     <span className="g.rend.script.latin">

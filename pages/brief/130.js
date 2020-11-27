@@ -34,25 +34,20 @@ export default function page() {
               <section
                 className="kuvert"
                 id="index.xml-body.1_div.1"
-                style={{ paddingTop: "100px", paddingBottom: "160px" }}
+                style={{ paddingTop: "200px", paddingBottom: "350px" }}
               >
                   {/* Insert Kuvert */}
                   <div className="kuvert" id="index.xml-body.1_div.1">
-          <h2><span className="headingNumber">1. </span></h2>
-          <div className="pagebreak" id="index.xml-pb-d29e97">
-            <a href>[Page 4]</a>
-          </div>
-          <div className="teidiv1" id="index.xml-body.1_div.1_div.1">
-            <h3><span className="headingNumber">1.1. </span></h3>
-            <p className="g.enc.tagsdecl.wd.vertical-left">
-              <span className="address"><span style={{display: 'inline-block'}} width="1char">&nbsp;</span>An<br />
-                <span className="persName">Fräulein Eliſe
-                  <span className="g.rend.script.latin">van Haar</span></span><br />
-                <span style={{display: 'inline-block'}} width="3words">&nbsp;</span>in<br />
-                <span style={{display: 'inline-block'}} width="2words">&nbsp;</span><span style={{textDecoration: 'underline'}}>Hamm. </span><br /></span>
-            </p>
-          </div>
-        </div>
+                    <div className="teidiv1" id="index.xml-body.1_div.1_div.1">
+                      <h3><span className="headingNumber">1.1. </span></h3>
+                      <p className="g.enc.tagsdecl.wd.vertical-left">An</p>
+                      <span className="persName">Fräulein Eliſe
+                        <span className="g.rend.script.latin"> van Haar</span>
+                      </span>
+                      in<br />
+                      <span style={{textDecoration: 'underline'}}>Hamm. </span>
+                    </div>
+                </div>
               </section>
             </div>
 
@@ -66,32 +61,33 @@ export default function page() {
               <div
                 className="page"
                 style={{
-                  paddingTop: "55px",
+                  paddingTop: "15px",
                   paddingLeft: "80px",
-                  paddingBottom: "100px",
+                  paddingBottom: "75px",
+                  fontSize:"0.9rem",
+                  lineHeight: "1.25rem"
+
                 }}
               >
                 {/* Insert Page 1 */}
                 <div className="opener">
-            <span style={{display: 'inline-block'}} width="11cm">&nbsp;</span>
-            <div className="dateline">
+            <div className="dateline text-right">
               Barmen
               <span className="date"><span className="g.enc.tagsdecl.suspension.type1"> (d)</span><span className="expan">d<span className="ex">en</span></span> 21.
                 <span className="g.rend.script.latin"><span className="abbr"> (Septemb.)</span><span className="expan">Septemb<span className="ex">er</span></span></span>
                 1816. <br className="lb" />
-                <span style={{display: 'inline-block'}} width="13cm">&nbsp;</span>Samﬅag</span>
-              Abend.
+                <span style={{display: 'inline-block'}} width="13cm">&nbsp;</span>Samﬅag</span> Abend.
             </div>
           </div>
-          <div className="opener">
-            <span style={{display: 'inline-block'}} width="2em">&nbsp;</span>
-            <div className="salute" id="teaser.part.001">
+          <p>
+          <span className="opener">
+            <span className="salute" id="teaser.part.001">
               Liebe <span className="persName">Eliſe</span>.
-            </div>
-          </div>
+            </span>
+          </span>
 
           
-          <p>
+          
           <span className="liebe">
             <a id="mark.001.s">{/*anchor*/}</a>An dieſem ruhigen Abende, wo alle
             Arbeiten<br className="lb" />
@@ -155,9 +151,11 @@ export default function page() {
               <div
                 className="page"
                 style={{
-                  paddingTop: "35px",
+                  paddingTop: "80px",
                   paddingLeft: "80px",
-                  paddingBottom: "5px",
+                  paddingBottom: "55px",
+                  fontSize:"0.9rem",
+                  lineHeight: "1.25rem"
                 }}
               >
                 {/* Insert Page 2 */}
@@ -232,11 +230,13 @@ export default function page() {
               </div>
 
               <div
-                className="page"
+                className="page page-small"
                 style={{
-                  paddingTop: "40px",
-                  paddingLeft: "70px",
+                  paddingTop: "60px",
+                  paddingLeft: "80px",
                   paddingBottom: "55px",
+                  fontSize:"0.9rem",
+                  lineHeight: "1.25rem"
                 }}
               >
                 <span className="liebe">

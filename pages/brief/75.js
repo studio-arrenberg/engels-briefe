@@ -35,7 +35,7 @@ export default function page() {
               <section
                 className="kuvert"
                 id="index.xml-body.1_div.1"
-                style={{ paddingTop: "100px", paddingBottom: "160px" }}
+                style={{ minHeight: "680px", paddingTop: "140px" }}
               >
                 {/* Insert Kuvert */}
                 <div className="kuvert" id="index.xml-body.1_div.1">
@@ -43,7 +43,7 @@ export default function page() {
                     <span className="headingNumber">1. </span>
                   </h2>
                   <div className="pagebreak" id="index.xml-pb-d29e158"></div>
-                  <div className="teidiv1" id="index.xml-body.1_div.1_div.1">
+                  <div className="teidiv1" style={{display: "none"}} id="index.xml-body.1_div.1_div.1">
                     <h3>
                       <span className="headingNumber">1.1. </span>
                     </h3>
@@ -121,7 +121,7 @@ export default function page() {
                       <span className="g.rend.script.latin">März</span>.
                     </p>
                   </div>
-                  <div className="teidiv1" id="index.xml-body.1_div.1_div.2">
+                  <div className="teidiv1"  id="index.xml-body.1_div.1_div.2">
                     <h3>
                       <span className="headingNumber">1.2. </span>
                     </h3>
@@ -131,9 +131,7 @@ export default function page() {
                       <span className="headingNumber">1.3. </span>
                     </h3>
                     <p className="g.enc.tagsdecl.wd.vertical-left">
-                      <span style={{ display: "inline-block" }} width="3em">
-                        &nbsp;
-                      </span>
+                      
                       Herrn
                       <br className="lb" />
                       <span className="persName">
@@ -142,6 +140,7 @@ export default function page() {
                         </span>
                       </span>
                       .<br className="lb" />
+                      <span className="small-adress">
                       <span className="abbr">
                         (Add
                         <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
@@ -172,6 +171,7 @@ export default function page() {
                         s<span className="ex">enio</span>r
                       </span>
                       <br className="lb" />
+                      <br className="lb" />
                       <span style={{ display: "inline-block" }} width="1char">
                         &nbsp;
                       </span>
@@ -182,15 +182,15 @@ export default function page() {
                         Ganzfrei
                       </span>
                       <span style={{ display: "inline-block" }}>&nbsp;</span>in
-                      <br className="lb" />
-                      <span style={{ display: "inline-block" }} width="9em">
-                        &nbsp;
+                     < br className="lb" />
+                      
                       </span>
+
                       <span className="g.rend.script.latin">
                         <span className="placeName">
                           Franckfurth <sup>a</sup>/m.
                         </span>
-                      </span>
+                    </span>
                     </p>
                   </div>
                   <div className="teidiv1" id="index.xml-body.1_div.1_div.4">
@@ -213,16 +213,14 @@ export default function page() {
               <div
                 className="page"
                 style={{
-                  paddingTop: "55px",
+                  paddingTop: "15px",
                   paddingLeft: "80px",
-                  paddingBottom: "100px",
+                  paddingBottom: "60px",
                 }}
               >
                 {/* Insert Page 1 */}
                 <div className="opener">
-                  <span style={{ display: "inline-block" }} width="7cm">
-                    &nbsp;
-                  </span>
+                
                   <div className="dateline">
                     <span className="orig">„</span>
                     <span className="corr" />
@@ -240,10 +238,7 @@ export default function page() {
                     </span>
                   </div>
                 </div>
-                <br className="lb" />
-                <span style={{ display: "inline-block" }} width="3.5cm">
-                  &nbsp;
-                </span>
+               
                 <div className="opener">
                   <div className="salute">
                     <a id="teaser.part.001.s">{/*anchor*/}</a>Lieber
@@ -443,7 +438,7 @@ export default function page() {
                 style={{
                   paddingTop: "35px",
                   paddingLeft: "80px",
-                  paddingBottom: "5px",
+                  paddingBottom: "175px",
                 }}
               >
                 {/* Insert Page 2 */}
@@ -629,13 +624,7 @@ export default function page() {
                     Deine <span className="orig">Treüe</span>
                     <span className="corr">Treue</span> Eltern
                   </div>
-                  <br className="lb" />
-                  <span style={{ display: "inline-block" }} width="1lines">
-                    &nbsp;
-                  </span>
-                  <span style={{ display: "inline-block" }} width="9words">
-                    &nbsp;
-                  </span>
+                 
                   <div className="signed">
                     <span className="g.rend.script.latin">
                       <span className="abbr"> (C.)</span>
