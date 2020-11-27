@@ -405,7 +405,7 @@ export default function Brief_wrapper (props) {
             </div>
 
           </div>
-          <IdleTimer/>
+          {/* <IdleTimer/> */}
 
         </motion.div>
       </>
