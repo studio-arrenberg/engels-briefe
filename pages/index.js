@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { themen, familie, orte, briefe } from "../public/data.json";
 import constants from "../components/constants";
+import {FiArrowRight} from "react-icons/fi"
 
 export default function Home() {
   return (
