@@ -9,6 +9,7 @@ import Audio from "./audio";
 import { themen, familie, orte } from "../public/data.json";
 import React, { useState, useEffect, useRef } from "react";
 import IdleTimer from "../components/IdleTimer";
+import {FiArrowLeft} from "react-icons/fi";
 
 export default function Brief_wrapper(props) {
   
@@ -398,7 +399,7 @@ export default function Brief_wrapper(props) {
 }
 
 export function BouncingBall() {
-  const dura = 0.6;
+  const dura = 1;
   const del = 0.1;
   // init dura = 0.6 del = 0.1
   const bounceTransition = {
@@ -429,10 +430,12 @@ export function BouncingBall() {
         transition={bounceTransition}
         animate={{
           x: ["80px", "-80px"],
-          backgroundColor: ["#000", "#fff"],
-          opacity: [0, 0.2],
+          // backgroundColor: ["#000", "#fff"],
+          // opacity: [0, 0.2],
+          backgroundColor: ["#000", "#838383"],
+          opacity: [0, 0.8],
         }}
-      />
+      ><FiArrowLeft size={40} className="icon-swipe" /></motion.span>
     </div>
   );
 }
