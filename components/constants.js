@@ -17,6 +17,7 @@ const constants = {
         scale: 1,
       },
     },
+    // for the brief content
     brief: {
       initial: { scale: 1, y: 500, opacity: 0 },
       enter: {
@@ -49,9 +50,6 @@ const constants = {
         scale: 1,
       },
     },
-    other: {
-      // none (example)
-    },
     section_exit: {
       exit: { transition: { staggerChildren: 0.01 }, opacity: 0 },
       enter: { transition: { staggerChildren: 0.1 } },
@@ -74,7 +72,7 @@ const constants = {
     },
   },
   timer: {
-    idle: 30000,
+    idle: 45000,
   },
 };
 
