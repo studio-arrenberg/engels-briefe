@@ -1,12 +1,11 @@
 import Layout from "../../components/layout";
 import Head from "next/head";
-import utilStyles from "../../styles/utils.module.css";
 import { useRouter } from "next/router";
-// import Link from 'next/link'
 import data from "../../public/data.json";
 import { motion } from "framer-motion";
 import constants from "../../components/constants";
 import Brief_view from "../../components/brief_view";
+import IdleTimer from "../components/IdleTimer";
 
 export default function thema() {
   const router = useRouter();
@@ -27,6 +26,8 @@ export default function thema() {
       </Head>
 
       <motion.div
+        key="thema"
+        layoutId="thema"
         className="scrollable first-large"
         initial="initial"
         animate="enter"
@@ -36,6 +37,7 @@ export default function thema() {
         <Thema data={item} />
         <Brief_view data={briefe_list} />
       </motion.div>
+      <IdleTimer/>
     </Layout>
   );
 }
@@ -49,8 +51,6 @@ export function Thema({ data }) {
           variants={constants.animation.post}
           layoutId={`${data.id}`}
         >
-          {/* <Link href="/thema/[thema]" as={`/thema/${data.id}`}> */}
-
           <div key={data.id} className="item_preview">
             <img src={`../pictures/themen/thumbnails/${data.picture}`} />
             <div className="item_description">
@@ -58,7 +58,6 @@ export function Thema({ data }) {
               <p>{data.beschreibung.split('\n').map( (it, i) => <div key={'x'+i}>{it}</div> )}</p>
             </div>
           </div>
-          {/* </Link> */}
         </motion.div>
       </div>
     );

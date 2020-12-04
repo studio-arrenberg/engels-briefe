@@ -17,24 +17,19 @@ export default function Layout({ children, home }) {
           content="width=device-width, initial-scale=1, user-scalable=no"
         />
       </Head>
-    
-      {/* <Sub_Menu /> */}
 
-      {/* <AnimateSharedLayout> */}
-      <MenuTest />
-      {/* <Main_Menu /> */}
-      {/* </AnimateSharedLayout> */}
+      <Menu/>
+
       <main>
         <div className="gardient left"></div>
         {children}
-
         <div className="gardient right"></div>
       </main>
     </div>
   );
 }
 
-export function MenuTest() {
+export function Menu() {
   const router = useRouter();
   console.log(router.pathname);
   if (router.pathname.includes("[")) {

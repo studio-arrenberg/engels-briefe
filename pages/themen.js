@@ -4,6 +4,7 @@ import Link from "next/link";
 import data from "../public/data.json";
 import { motion } from "framer-motion";
 import constants from "../components/constants";
+import IdleTimer from "../components/IdleTimer";
 
 export default function Briefe() {
   return (
@@ -21,6 +22,7 @@ export default function Briefe() {
       >
         <Thema />
       </motion.div>
+      <IdleTimer/>
     </Layout>
   );
 }
@@ -36,7 +38,7 @@ export function Thema() {
           variants={constants.animation.post}
           layoutId={`${data.id}`}
         >
-          <Link href="/thema/[thema]" as={`/thema/${data.id}`}>
+          <Link href="/thema/[thema]" as={`/thema/${data.id}`} scroll={false} >
             <a>
               <div key={data.id} className="item_preview">
                 <img src={`../pictures/themen/thumbnails/${data.picture}`} />
