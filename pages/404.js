@@ -2,7 +2,6 @@
 import Link from 'next/link'
 import Router from 'next/router'
 import Layout from "../components/layout"
-import utilStyles from '../styles/utils.module.css'
 import { useRouter, Redirect } from "next/router";
 import { useState, useEffect, useRef } from "react";
 
