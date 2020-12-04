@@ -2,30 +2,12 @@ import Head from "next/head";
 import Layout from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
 import data from "../public/data.json";
-import {
-  useViewportScroll,
-  motion,
-  useTransform,
-  useMotionValue,
-  useSpring,
-  useAnimation,
-} from "framer-motion";
+import { useViewportScroll, motion, useTransform } from "framer-motion";
 import constants from "../components/constants";
 import Brief_view from "../components/brief_view";
 import React, { useState, useEffect, useRef, Component } from "react";
 
-
 export default function Page() {
-
-
-  //   const controls = useAnimation()
-  // controls.start({ y: -500 })
-
-  // function onScroll(info) {
-  //   console.log(info.offset, info.velocity);
-  // }
-
-  // const isIdle = useIdle({ timeToIdle: 1000 })
   return (
     <Layout home>
       <Head>
@@ -39,8 +21,6 @@ export default function Page() {
         exit="exit"
         variants={constants.animation.section_exit}
       >
-        {/* <div>{isIdle ? "Are you there?" : "Hello there!"}</div> */}
-
         <Brief_view data={data.briefe} />
       </motion.div>
       <Timeline />
@@ -49,17 +29,12 @@ export default function Page() {
 }
 
 export function Timeline() {
-  // const { scrollX } = data
   const { scrollX } = useViewportScroll();
-  const { scrollXProgress } = useViewportScroll();
 
-  // const x = useMotionValue(0)
   const x = scrollX;
   const pagex = 14140; //9140
   const letters = 18;
   const leaverange = 1.3;
-
-  // console.log(x)
 
   function Line({ numb, text }) {
     // note: study function and improve
@@ -119,4 +94,3 @@ export function Timeline() {
     </>
   );
 }
-
