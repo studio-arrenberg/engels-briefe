@@ -21,7 +21,7 @@ export default function Layout({ children, home }) {
       {/* <Sub_Menu /> */}
 
       {/* <AnimateSharedLayout> */}
-      <MenuTest />
+      <Menu/>
       {/* <Main_Menu /> */}
       {/* </AnimateSharedLayout> */}
       <main>
@@ -34,7 +34,7 @@ export default function Layout({ children, home }) {
   );
 }
 
-export function MenuTest() {
+export function Menu() {
   const router = useRouter();
   console.log(router.pathname);
   if (router.pathname.includes("[")) {

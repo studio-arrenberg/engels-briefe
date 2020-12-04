@@ -18,8 +18,8 @@ export default function Menu() {
     >
       <Link href="/">
         <a className="menu_left">
-          <img src="../icons/back.svg"></img>
-          {/* <FiHome/> */}
+          {/* <img src="../icons/back.svg"></img> */}
+          <FiHome/>
         </a>
       </Link>
 

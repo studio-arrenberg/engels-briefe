@@ -35,7 +35,7 @@ const constants = {
       // none (example)
     },
     section_exit: {
-      exit: { transition: { staggerChildren: 0.01 } },
+      exit: { transition: { staggerChildren: 0.01 }, opacity: 0 },
       enter: { transition: { staggerChildren: 0.1 } },
     },
     landing_children: {
