@@ -9,10 +9,9 @@ import Audio from "./audio";
 import { themen, familie, orte } from "../public/data.json";
 import React, { useState, useEffect, useRef } from "react";
 import IdleTimer from "../components/IdleTimer";
-import {FiArrowLeft} from "react-icons/fi";
+import { FiArrowLeft } from "react-icons/fi";
 
 export default function Brief_wrapper(props) {
-  
   // get window width
   const [width, setWidth] = React.useState(0);
   React.useEffect(() => {
@@ -218,7 +217,11 @@ export default function Brief_wrapper(props) {
 
             {/* brief inhalt */}
           </motion.div>
-
+        <motion.div key="briefe-vergleichs-ansicht"
+              initial="initial"
+              animate="enter"
+              exit="exit"
+              variants={constants.animation.brief} >
           <motion.div
             className="swipewrapper"
             key="swipewrapper"
@@ -227,7 +230,7 @@ export default function Brief_wrapper(props) {
             exit="exit"
             variants={constants.animation.section_exit}
           >
-            <motion.div className="vergleichs-ansicht vergleich">
+            <motion.div className="vergleichs-ansicht vergleich" >
               <motion.div
                 key="digitalisat1"
                 className="vergleich-l digitalisate"
@@ -276,10 +279,8 @@ export default function Brief_wrapper(props) {
             <motion.div
               drag="x"
               className="handlebar"
-              // dragElastic={0.2}
               dragMomentum={true}
               dragTransition={{ bounceStiffness: 100, bounceDamping: 40 }}
-              // dragTransition={{ bounceStiffness: 400, bounceDamping: 40 }}
               style={{
                 width: handle_width,
                 opacity: 1,
@@ -295,7 +296,6 @@ export default function Brief_wrapper(props) {
                 x: x_normal,
               }}
             >
-              {/* themenToggle(item[0].slug) */}
               <div
                 onClick={() => themenToggle("off")}
                 className={`detail-ansicht ${
@@ -304,18 +304,13 @@ export default function Brief_wrapper(props) {
               >
                 <div className="normalisiert" id="normalisiert">
                   {props.children}
-                  {/* <NormalisierterText id={props.id}/> */}
                   <h3>Normalisierte Leseansicht</h3>
                 </div>
               </div>
             </motion.div>
+          </motion.div>
 
-            <motion.div
-              className="themen"
-              style={{
-                x: x,
-              }}
-            >
+            <motion.div className="themen" style={{ x: x }}>
               {them.map((item, index) => (
                 <a
                   className={`${isThema == item[0].slug ? "activ" : null}`}
@@ -391,7 +386,7 @@ export default function Brief_wrapper(props) {
               </h2>
             </div>
           </div>
-          <IdleTimer/>
+          <IdleTimer />
         </motion.div>
       </>
     );
@@ -435,7 +430,9 @@ export function BouncingBall() {
           backgroundColor: ["#000", "#838383"],
           opacity: [0, 0.8],
         }}
-      ><FiArrowLeft size={40} className="icon-swipe" /></motion.span>
+      >
+        <FiArrowLeft size={40} className="icon-swipe" />
+      </motion.span>
     </div>
   );
 }
