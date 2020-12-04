@@ -13,13 +13,13 @@ export default function Menu() {
 
       <div className="menu_right">
         {/* <Link href="/"><a >Home</a></Link> */}
-        <Link href="/briefe">
+        <Link href="/briefe" scroll={false} >
           <a>Briefe</a>
         </Link>
-        <Link href="/themen">
+        <Link href="/themen" scroll={false} >
           <a>Themen</a>
         </Link>
-        <Link href="/familie">
+        <Link href="/familie" scroll={false} >
           <a>Familie</a>
         </Link>
       </div>

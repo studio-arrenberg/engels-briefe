@@ -50,7 +50,6 @@ export function Familie({ data }) {
           variants={constants.animation.post}
           layoutId={`${data.id}`}
         >
-          {/* <Link href="/person/[person]" as={`/person/${data.id}`}> */}
           <div className="item_preview">
             <img src={`../pictures/personen/thumbnails/${data.picture}`} />
             <div className="item_description">
@@ -58,7 +57,6 @@ export function Familie({ data }) {
               <p>{data.beschreibung}</p>
             </div>
           </div>
-          {/* </Link> */}
         </motion.div>
       </div>
     );

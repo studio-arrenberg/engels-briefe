@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { themen, familie, orte, briefe } from "../public/data.json";
 import constants from "../components/constants";
-import {FiArrowRight} from "react-icons/fi"
+import { FiArrowRight } from "react-icons/fi";
 
 export default function Home() {
   return (
@@ -13,84 +13,83 @@ export default function Home() {
       <Head>
         <title>Engelsbriefe</title>
       </Head>
-      <Link href="/briefe">
+      <Link href="/briefe" scroll={false} >
         <a className="intro-stage-link"></a>
       </Link>
 
       <motion.div
-      key="landing"
-      initial="initial"
-      animate="enter"
-      exit="exit"
-      variants={constants.animation.landing_children}
+        key="landing"
+        initial="initial"
+        animate="enter"
+        exit="exit"
+        variants={constants.animation.landing_children}
       >
-
-      <div className="intro-stage">
-        <h1>Briefe der Familie Engels</h1>
-        <p>
-          Entdecken Sie die Korrospondenz der Familie Engels. In diesem Exponat
-          erhalten Sie den Einblick in 18 ausgewählte Briefe, welche die
-          historische Entwicklung über die Jahrzehnte darstellen.
-        </p>
-        <a className="button">Korrespondenz entdecken</a>
-      </div>
-      <div className="intro-stage-background"></div>
-
-      <div className="no-scroll">
-        <div className="scrollable-index">
-          {/* Reihe 1 */}
-          <Brief id="1" />
-          <Person id="1" />
-          <Brief id="22" />
-          <Thema id="2" />
-          <Brief id="68" />
-          <Person id="6" />
-          <Ort id="5" />
-          <Person id="4" />
-          <Brief id="255" />
-          <Ort id="9" />
-          <Brief id="295" />
-          <Brief id="308" />
-
-          {/* Reihe 2 */}
-          <Thema id="1" />
-          <Brief id="4" />
-          <Ort id="2" />
-          <Brief id="29" />
-          <Person id="7" />
-          <Brief id="75" />
-          <Brief id="169" />
-          <Person id="10" />
-          <Brief id="265" />
-          <Thema id="3" />
-          <Ort id="11" />
-          <Brief id="342" />
-
-          {/* Reihe 3 */}  
-          <Person id="8" />
-          <Ort id="1" />
-          <Person id="3" />
-          <Ort id="4" />
-          <Brief id="71" />
-          <Person id="9" />
-          <Ort id="6" />
-          <Brief id="235" />
-          <Ort id="8" />
-          <Brief id="285" />
-          <Brief id="307" />
-          <Ort id="12" />
-
-          {/* Reihe 4 */}  
-          <Brief id="21" />
-          <Person id="2" />
-          <Ort id="3" />
-          <Person id="5" />
-          <Ort id="7" />
-          <Brief id="130" />
-          <Ort id="10" />
-          <Ort id="13" />
+        <div className="intro-stage">
+          <h1>Briefe der Familie Engels</h1>
+          <p>
+            Entdecken Sie die Korrospondenz der Familie Engels. In diesem
+            Exponat erhalten Sie den Einblick in 18 ausgewählte Briefe, welche
+            die historische Entwicklung über die Jahrzehnte darstellen.
+          </p>
+          <a className="button">Korrespondenz entdecken</a>
         </div>
-      </div>
+        <div className="intro-stage-background"></div>
+
+        <div className="no-scroll">
+          <div className="scrollable-index">
+            {/* Reihe 1 */}
+            <Brief id="1" />
+            <Person id="1" />
+            <Brief id="22" />
+            <Thema id="2" />
+            <Brief id="68" />
+            <Person id="6" />
+            <Ort id="5" />
+            <Person id="4" />
+            <Brief id="255" />
+            <Ort id="9" />
+            <Brief id="295" />
+            <Brief id="308" />
+
+            {/* Reihe 2 */}
+            <Thema id="1" />
+            <Brief id="4" />
+            <Ort id="2" />
+            <Brief id="29" />
+            <Person id="7" />
+            <Brief id="75" />
+            <Brief id="169" />
+            <Person id="10" />
+            <Brief id="265" />
+            <Thema id="3" />
+            <Ort id="11" />
+            <Brief id="342" />
+
+            {/* Reihe 3 */}
+            <Person id="8" />
+            <Ort id="1" />
+            <Person id="3" />
+            <Ort id="4" />
+            <Brief id="71" />
+            <Person id="9" />
+            <Ort id="6" />
+            <Brief id="235" />
+            <Ort id="8" />
+            <Brief id="285" />
+            <Brief id="307" />
+            <Ort id="12" />
+
+            {/* Reihe 4 */}
+            <Brief id="21" />
+            <Person id="2" />
+            <Ort id="3" />
+            <Person id="5" />
+            <Ort id="7" />
+            <Brief id="130" />
+            <Ort id="10" />
+            <Ort id="13" />
+          </div>
+        </div>
       </motion.div>
     </Layout>
   );
@@ -150,7 +149,8 @@ export function Brief({ id }) {
               <h4>{item.datum}</h4>
               <h2>
                 <span className="sender_name">{item.sender.name}</span>
-                <br></br><FiArrowRight/>{" "} <span className="empfänger_name"></span>
+                <br></br>
+                <FiArrowRight /> <span className="empfänger_name"></span>
                 {item.empfänger.name}
               </h2>
               {/* themen */}

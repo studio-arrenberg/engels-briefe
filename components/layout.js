@@ -17,17 +17,12 @@ export default function Layout({ children, home }) {
           content="width=device-width, initial-scale=1, user-scalable=no"
         />
       </Head>
-    
-      {/* <Sub_Menu /> */}
 
-      {/* <AnimateSharedLayout> */}
       <Menu/>
-      {/* <Main_Menu /> */}
-      {/* </AnimateSharedLayout> */}
+
       <main>
         <div className="gardient left"></div>
         {children}
-
         <div className="gardient right"></div>
       </main>
     </div>

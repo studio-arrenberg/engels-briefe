@@ -7,7 +7,6 @@ import constants from "../components/constants";
 import { FiInbox, FiSend } from "react-icons/fi";
 import IdleTimer from "../components/IdleTimer";
 
-
 export default function Briefe() {
 
   return (
@@ -41,7 +40,7 @@ export function Familie({ data }) {
           variants={constants.animation.post}
           layoutId={`${data.id}`}
         >
-          <Link href="/person/[person]" as={`/person/${data.id}`}>
+          <Link href="/person/[person]" as={`/person/${data.id}`} scroll={false} >
             <a>
               <div className="item_preview">
                 <img src={`../pictures/personen/thumbnails/${data.picture}`} />
@@ -76,7 +75,6 @@ export function Count({ id }) {
 
   return (
     <>
-      {/* <p>Person ID: {id}</p> */}
       <br></br>
       <p><FiSend/> {number} <FiInbox/> {numberx}</p>
       <p></p>

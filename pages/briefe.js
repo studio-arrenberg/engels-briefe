@@ -4,7 +4,7 @@ import data from "../public/data.json";
 import { useViewportScroll, motion, useTransform } from "framer-motion";
 import constants from "../components/constants";
 import Brief_view from "../components/brief_view";
-import React, { useState, useEffect, useRef, Component } from "react";
+import React from "react";
 import IdleTimer from "../components/IdleTimer";
 
 
