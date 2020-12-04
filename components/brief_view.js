@@ -5,10 +5,9 @@ import { FiArrowRight } from "react-icons/fi";
 
 export default function Brief({ data }) {
 
+  // digitalisate rotate random
   const min = -2;
   const max = 2;
-
-  console.log(data);
 
   return data.map((data, id) => {
     return (

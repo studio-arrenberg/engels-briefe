@@ -1040,12 +1040,18 @@ p > span .latin {
   display: block;
   width: 100px;
   background-color: #fff;
-  border: 10px solid #fff;
+  /* border: 10px solid #fff; */
   width: 60px;
   height: 60px;
-
   border-radius: 5rem;
-  box-shadow: 0px 0px 55px 15px #838383;
+  box-shadow: 0px 0px 55px 15px #3b3b3b;
+}
+
+.icon-swipe {
+  color: black;
+  position: relative;
+  top: 11px;
+  left: 9px;
 }
 
 .swipewrapper {
@@ -1166,3 +1172,4 @@ p > span .latin {
 .idle-card p, .idle-card h1 {
   color: white;
 }
+

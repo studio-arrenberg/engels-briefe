@@ -3,6 +3,7 @@ import { useState } from "react";
 import Router from "next/router";
 import { useRouter, Redirect } from "next/router";
 import Link from "next/link";
+import constants from "./constants";
 
 export default function Idle(props) {
   const router = useRouter();
@@ -40,28 +41,10 @@ export default function Idle(props) {
       // function to fire when active
       activeCallback: activeCallbackFn,
       // Amount of time in milliseconds before becoming idle. default 60000
-      idleTime: 30000,
+      idleTime: constants.timer.idle,
     });
   }
-  
-//   return (
-//     <>
-//       {idle ? (
-//         <div className="idle-window">
-//           <div className="idle-card">
-//             <h1>IDLE !!!</h1>
-//             <p>Going home soon</p>
-//           </div>
-//         </div>
-//       ) : (
-//         <div></div>
-//       )}
-//     </>
-//   )
 
-  return (
-    <>
-    </>
-  )
+  return (<></>)
 
 }
