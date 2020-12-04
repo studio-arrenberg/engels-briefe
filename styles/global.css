@@ -1043,7 +1043,6 @@ p > span .latin {
   /* border: 10px solid #fff; */
   width: 60px;
   height: 60px;
-
   border-radius: 5rem;
   box-shadow: 0px 0px 55px 15px #838383;
 }
@@ -1051,8 +1050,8 @@ p > span .latin {
 .icon-swipe {
   color: black;
   position: relative;
-  top: 10px;
-  left: 10px;
+  top: 11px;
+  left: 9px;
 }
 
 .swipewrapper {

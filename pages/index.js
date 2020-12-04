@@ -17,6 +17,14 @@ export default function Home() {
         <a className="intro-stage-link"></a>
       </Link>
 
+      <motion.div
+      key="landing"
+      initial="initial"
+      animate="enter"
+      exit="exit"
+      variants={constants.animation.landing_children}
+      >
+
       <div className="intro-stage">
         <h1>Briefe der Familie Engels</h1>
         <p>
@@ -83,6 +91,7 @@ export default function Home() {
           <Ort id="13" />
         </div>
       </div>
+      </motion.div>
     </Layout>
   );
 }
@@ -127,7 +136,6 @@ export function Brief({ id }) {
       <Link href={`/brief/${item.id}`} as={`/brief/${item.id}`}>
         <a>
           <motion.div
-            div
             key={`brief-motion-${item.id}`}
             className="item_preview"
             variants={constants.animation.post}

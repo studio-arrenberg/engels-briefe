@@ -38,6 +38,11 @@ const constants = {
       exit: { transition: { staggerChildren: 0.01 } },
       enter: { transition: { staggerChildren: 0.1 } },
     },
+    landing_children: {
+      initial: {opacity: 0},
+      exit: { opacity: 0},
+      enter: { opacity: 1 },
+    },
     // timeline
     timeline: {
       initial: { opacity: 0 },
