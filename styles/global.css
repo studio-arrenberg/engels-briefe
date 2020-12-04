@@ -343,7 +343,7 @@ main {
   align-items: center;
   transform: translateX(0);
   padding-left: 500px;
-  animation-duration: calc(4 * 60s);
+  animation-duration: calc(10 * 60s);
   animation-delay: 2s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
@@ -660,6 +660,7 @@ img {
 }
 
 .vertical-links{
+  display: block;
   transform: rotate(90deg);
   position: relative;
   left: -395px;
@@ -760,6 +761,13 @@ img {
 .text-right {
   text-align: right;
   padding-right: 100px;
+  display: block;
+
+}
+
+.text-center{
+  display: block;
+  text-align: center;
 }
 .vergleichs-ansicht .signed {
   text-align: right;
@@ -770,7 +778,7 @@ img {
   font-size: 1.1rem;
   line-height: 1.8rem;
   margin-bottom: 0px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   display: block;
 }
 
@@ -846,6 +854,7 @@ table {
 
 .stellenerläuterungen.null {
   opacity: 0;
+  animation-delay: 1s;
 }
 
 .stellenerläuterungen.activ {
@@ -858,6 +867,8 @@ table {
   left: -450px;
   width: 400px;
   text-align: right;
+  transition: 1s ease;
+
 }
 
 .stellenerläuterung {
@@ -927,7 +938,7 @@ table {
 
 .themenmakierung-active .page {
   /* background-color: #aaa; */
-  color: #aaa;
+  color: rgb(212, 212, 212);
   transition: all ease-in-out 0.5s;
 }
 
@@ -946,7 +957,6 @@ table {
 .liebe-active .liebe,
 .reisen-active .reisen {
   color: #000;
-  font-family: "Gibson-Regular";
 }
 .themenmakierung-active .stellenerläuterungen {
   opacity: 0.1;

@@ -12,19 +12,18 @@ export default function page() {
   const key = item.map((data, index) => data.id);
   const date = item.map((data, index) => data.date);
 
-
   const [isStellen, setStellen] = useState(false);
   function stellen(state) {
     // console.log("Stellen: " + state);
     setStellen(state);
   }
-  
+
   return (
     <Layout>
       <Head>
         <title>Brief 306 {date}</title>
       </Head>
-      
+
       <Brief_wrapper stellen={stellen} key={`wrapper-${key}`} data={item}>
         {/* brief text goes here */}
         {/* Insert Themenmarkierungen */}
@@ -45,7 +44,7 @@ export default function page() {
                 <section
                   className="kuvert"
                   id="index.xml-body.1_div.1"
-                  style={{ paddingTop: "200px", paddingBottom: "160px" }}
+                  style={{ paddingTop: "270px", paddingBottom: "245px" }}
                 >
                   {/* Insert Kuvert */}
                   <div className="teidiv1" id="index.xml-body.1_div.1_div.1">
@@ -89,20 +88,22 @@ export default function page() {
                           <span className="hi">&amp; Co.</span> <br />
                         </span>
                         <span
-                          className=""
-                          style={{ marginLeft: "100px", display: "block", marginTop: "20px" }}
+                          className="text-center"
+                          style={{
+                            marginLeft: "100px",
+                            display: "block",
+                            width: "260px",
+                          }}
                         >
-                          <span className="small">
+                          <span className="xsmall">
                             in
                             <br />
                           </span>
-                          <span className="placeName">
-                              Barmen
-                          </span>
+                          <span className="placeName">Barmen</span>
                           .<br />
                           <span
                             className="xsmall"
-                            style={{ marginTop: "-5px", display: "block" }}
+                            style={{ marginTop: "0px", display: "block" }}
                           >
                             bei <span className="placeName">Elberfeld</span>
                             &nbsp;
@@ -114,43 +115,36 @@ export default function page() {
                 </section>
               </div>
 
-              <section className="writing-session" id="index.xml-body.1_div.2">
+              <section
+                className="writing-session page-small"
+                id="index.xml-body.1_div.2"
+              >
                 <div
                   className="page"
                   style={{
-                    paddingTop: "55px",
+                    paddingTop: "35px",
                     paddingLeft: "80px",
                     paddingBottom: "100px",
                   }}
                 >
                   {/* Insert Page 1 */}
-                  <div className="opener">
-                    <span style={{ display: "inline-block" }} width="12cm">
-                      &nbsp;
+
+                  <span className="date text-right">
+                    <span className="g.rend.script.latin">
+                      London 26. Juli 1838.
                     </span>
-                    <div className="dateline">
-                      <span className="placeName">
-                        <span className="g.rend.script.latin">London</span>
-                      </span>
-                      <span className="date">
-                        <span className="g.rend.script.latin">
-                          26. Juli 1838.
-                        </span>
-                      </span>
-                    </div>
-                  </div>
+                  </span>
                   <div className="opener">
                     <div className="salute">
-                      Liebe
+                      Liebe{" "}
                       <span className="persName">
-                        <span className="g.rend.script.latin">Elise</span>
+                        {" "}
+                        <span className="g.rend.script.latin"> Elise </span>
                       </span>
                       .
                     </div>
                   </div>
-                  <span style={{ display: "inline-block" }} width="1line">
-                    &nbsp;
-                  </span>
+
                   <span className="reisen">
                     <p id="mark.001">
                       Soeben Donner<span className="orig">ﬅ</span>
@@ -350,9 +344,11 @@ export default function page() {
                       <span className="persName">Friedrich</span>.
                     </div>
                   </div>
+                </div>
 
                   <div
-                    className="g.rend.hand.friedrich-engels"
+                    className="page g.rend.hand.friedrich-engels"
+                    style={{paddingLeft:"80px", paddingTop:"30px", paddingBottom:"30px"}}
                     id="index.xml-body.1_div.3"
                   >
                     <h2 className="g.rend.hand.friedrich-engels">
@@ -410,7 +406,6 @@ export default function page() {
                       </div>
                     </div>
                   </div>
-                </div>
               </section>
             </div>
           </div>

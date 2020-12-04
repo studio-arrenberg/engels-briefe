@@ -43,7 +43,7 @@ export default function page() {
                 <section
                   className="kuvert"
                   id="index.xml-body.1_div.1"
-                  style={{ paddingTop: "100px", paddingBottom: "160px" }}
+                  style={{ paddingTop: "260px", paddingBottom: "300px" }}
                 >
                   {/* Insert Kuvert */}
                   <div className="teidiv1" id="index.xml-body.1_div.1_div.1">
@@ -51,26 +51,26 @@ export default function page() {
                       <span className="headingNumber">1.1. </span>
                     </h3>
                     <p className="g.enc.tagsdecl.wd.vertical-left">
-                      <span className="address">
-                        An <span className="persName">Frau Elise Engels</span>
+                      <span className="address"><span className="small">
+                        An Frau </span>Elise Engels
+                        <span className="small">
                         <br />p <span className="abbr"> (Adr.)</span>
                         <span className="expan">
                           Adr<span className="ex">esse</span>
                         </span>{" "}
-                        dHerren
+                        dHerren{" "}
+                        </span>
                         <span className="abbr"> (Friedr.)</span>
                         <span className="expan">
                           Friedr<span className="ex">ich</span>
                         </span>{" "}
-                        Engels &amp; Co.
+                        Engels <span className="small"> &amp; Co.</span>
                         <br />
                         <span
-                          style={{ display: "inline-block" }}
-                          width="3words"
+                          className="text-center"
+                          style={{width:"400px"}}
                         >
-                          &nbsp;
-                        </span>
-                        in
+                        <span className="small">in</span>
                         <br />
                         <span
                           style={{ display: "inline-block" }}
@@ -83,29 +83,29 @@ export default function page() {
                         </span>
                         .-
                         <br />
+
+                        </span>
                       </span>
                     </p>
                   </div>
                 </section>
               </div>
 
-              <section className="writing-session" id="index.xml-body.1_div.2">
+              <section className="page-small writing-session" id="index.xml-body.1_div.2">
                 <div
                   className="page"
                   style={{
-                    paddingTop: "55px",
+                    paddingTop: "15px",
                     paddingLeft: "80px",
-                    paddingBottom: "100px",
+                    paddingBottom: "10px",
                   }}
                 >
                   {/* Insert Page 1 */}
                   <div className="opener">
-                    <span style={{ display: "inline-block" }} width="7words">
-                      &nbsp;
-                    </span>
-                    <div className="dateline">
+                    
+                    <div className="dateline text-right">
                       <span className="placeName">
-                        <span className="g.rend.script.latin">Bremen</span>
+                        <span className="g.rend.script.latin">Bremen </span>
                       </span>
                       <span className="date">
                         11. <span className="g.rend.script.latin">August</span>{" "}
@@ -354,7 +354,7 @@ export default function page() {
                   style={{
                     paddingTop: "35px",
                     paddingLeft: "80px",
-                    paddingBottom: "5px",
+                    paddingBottom: "17px",
                   }}
                 >
                   {/* Insert Page 2 */}
@@ -486,16 +486,7 @@ export default function page() {
                   </div>
                 </div>
 
-                <div
-                  className="page"
-                  style={{
-                    paddingTop: "40px",
-                    paddingLeft: "70px",
-                    paddingBottom: "55px",
-                  }}
-                >
-                  {/* Insert Page 3 */}
-                </div>
+               
               </section>
             </div>
           </div>

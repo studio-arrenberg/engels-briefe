@@ -47,7 +47,10 @@ export default function page() {
                 </section>
               </div>
 
-              <section className="writing-session page-large" id="index.xml-body.1_div.2">
+              <section
+                className="writing-session page-large"
+                id="index.xml-body.1_div.2"
+              >
                 <div
                   className="page"
                   style={{
@@ -1273,22 +1276,21 @@ export default function page() {
                     </div>
                   </div>
                 </div>
-                
               </section>
             </div>
           </div>
         </div>
-      <div className={`stellenerläuterungen ${isStellen ? "activ" : null}`} >
-        <div
-          className="stellenerläuterung"
-          style={{
-            top: "350px",
-          }}
-        >
-          <hr />
-          <label>expediren</label>
-          <p>Briefe u.a. absenden, befördern (lassen).</p>
-        </div>
+        <div className={`stellenerläuterungen ${isStellen ? "activ" : null}`}>
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>expediren</label>
+            <p>Briefe u.a. absenden, befördern (lassen).</p>
+          </div>
 
           <div
             className="stellenerläuterung"
