@@ -1,4 +1,3 @@
-import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 import Router from "next/router";
 import { FiArrowLeft } from "react-icons/fi";
