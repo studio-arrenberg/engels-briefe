@@ -1,11 +1,12 @@
 import Head from "next/head";
 import Layout from "../components/layout";
-import utilStyles from "../styles/utils.module.css";
 import data from "../public/data.json";
 import { useViewportScroll, motion, useTransform } from "framer-motion";
 import constants from "../components/constants";
 import Brief_view from "../components/brief_view";
 import React, { useState, useEffect, useRef, Component } from "react";
+import IdleTimer from "../components/IdleTimer";
+
 
 export default function Page() {
   return (
@@ -24,6 +25,7 @@ export default function Page() {
         <Brief_view data={data.briefe} />
       </motion.div>
       <Timeline />
+      <IdleTimer/>
     </Layout>
   );
 }

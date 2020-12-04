@@ -1,12 +1,12 @@
 import Layout from "../../components/layout";
 import Head from "next/head";
-import utilStyles from "../../styles/utils.module.css";
 import { useRouter } from "next/router";
-// import Link from 'next/link'
 import data from "../../public/data.json";
 import { motion } from "framer-motion";
 import constants from "../../components/constants";
 import Brief_view from "../../components/brief_view";
+import IdleTimer from "../components/IdleTimer";
+
 
 export default function person() {
   const router = useRouter();
@@ -36,6 +36,7 @@ export default function person() {
         <Familie data={item} />
         <Brief_view data={briefe_list} />
       </motion.div>
+      <IdleTimer/>
     </Layout>
   );
 }

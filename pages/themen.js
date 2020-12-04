@@ -4,6 +4,8 @@ import Link from "next/link";
 import data from "../public/data.json";
 import { motion } from "framer-motion";
 import constants from "../components/constants";
+import IdleTimer from "../components/IdleTimer";
+
 
 export default function Briefe() {
   return (
@@ -21,6 +23,7 @@ export default function Briefe() {
       >
         <Thema />
       </motion.div>
+      <IdleTimer/>
     </Layout>
   );
 }

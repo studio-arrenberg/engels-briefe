@@ -55,6 +55,9 @@ const constants = {
       },
     },
   },
+  timer : {
+    idle : 3000
+  }
 };
 
 export default constants;
