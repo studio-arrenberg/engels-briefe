@@ -242,6 +242,10 @@ main {
   height: calc(100vh - 150px * 2);
 }
 
+.first-large .item:nth-of-type(2n) {
+  padding-top: 570px;
+}
+
 .first-large .item:first-of-type {
   width: 3000px;
   margin-right: 500px;
@@ -380,13 +384,17 @@ main {
   height: 240px;
   width: auto;
 }
+
+.scrollable-index .small-icon {
+  margin-top: 3px;
+  width: 20px !important;
+}
 .scrollable-index .item_description {
   left: 0px;
   top: 250px;
 }
 .scrollable-index .item_description h2 {
   font-size: 1rem;
-
 }
 .scrollable-index h4 {
   font-size: 0.7rem;
@@ -627,6 +635,28 @@ img {
   transform: rotate(180deg);
 }
 
+.small-icon {
+  position: relative !important;
+  height: inherit !important;
+  left: 0 !important;
+  top: 0 !important;
+  display: block !important;
+  float: left;
+
+  width: 24px !important;
+  /* transform: rotate(180deg); */
+  margin: 8px 8px 8px 0px;
+}
+.icon-swipe {
+  width: 24px;
+}
+.postfach {
+  display: flex;
+  align-items: center;
+}
+.postfach .small-icon {
+  margin-left: 10px;
+}
 .digitalisate {
   width: 800px;
 }
@@ -649,17 +679,18 @@ img {
   line-height: 2.4rem;
 }
 
-.kuvert .small, .kuvert small {
+.kuvert .small,
+.kuvert small {
   font-size: 1.4rem;
   line-height: 1.5rem;
 }
 
-.kuvert .xsmall{
+.kuvert .xsmall {
   font-size: 1.1rem;
   line-height: 1.3rem;
 }
 
-.vertical-links{
+.vergleichs-ansicht .vertical-links {
   display: block;
   transform: rotate(90deg);
   position: relative;
@@ -762,10 +793,9 @@ img {
   text-align: right;
   padding-right: 100px;
   display: block;
-
 }
 
-.text-center{
+.text-center {
   display: block;
   text-align: center;
 }
@@ -787,7 +817,6 @@ img {
   line-height: 1.25rem;
 }
 
-
 .vergleichs-ansicht .page-large {
   font-size: 1.3rem;
   line-height: 1.9rem;
@@ -799,8 +828,7 @@ table {
   margin-left: 100px;
 }
 
-
-.expan::after {
+.vergleichs-ansicht .expan::after {
   content: ".";
   display: inline;
 }
@@ -822,33 +850,54 @@ table {
   line-height: inherit;
 }
 
-.normalisiert .page {
-  padding-top: 100px !important;
-  padding-left: 80px !important;
-  padding-right: 50px !important;
-  padding-bottom: 100px !important;
+
+.normalisiert .page span, .normalisiert .page div{
+  margin: 0 !important;
 }
+
+.normalisiert .page p{
+  margin-bottom: 7px;
+}
+
+.normalisiert .abbr{
+  display: none;
+}
+
 .normalisiert .orig,
 .normalisiert .page br {
   display: none;
 }
-
+/* 
 .normalisiert .kuvert {
   padding-bottom: 100px !important;
+} */
+
+.normalisiert .page {
+  padding: 140px 90px 140px 90px !important;
 }
 
 .normalisiert .corr {
   display: inline;
 }
 
+.normalisiert sup {
+  font-size: inherit;
+  vertical-align: unset;
+}
+
 .normalisiert span {
   text-decoration: none !important;
 }
 
+.normalisiert .page div.dateline{
+  margin-bottom: 20px !important;
+  text-align: right;
+}
+
 .normalisiert .makierung {
-  background: rgb(219, 219, 219);
-  padding: 2px 7px;
-  margin: -2px 2px;
+  /* background: rgb(219, 219, 219); */
+  text-shadow: 0px 2px 20px rgb(50, 50, 50), 0px 2px 30px rgb(50, 50, 50), 0px 2px 40px #000, 0px 2px 50px #000;
+  
   display: inline-block;
 }
 
@@ -868,7 +917,6 @@ table {
   width: 400px;
   text-align: right;
   transition: 1s ease;
-
 }
 
 .stellenerläuterung {
@@ -1047,7 +1095,9 @@ p > span .latin {
 }
 
 .ballStyle {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100px;
   background-color: #fff;
   /* border: 10px solid #fff; */
@@ -1058,10 +1108,8 @@ p > span .latin {
 }
 
 .icon-swipe {
-  color: black;
-  position: relative;
-  top: 11px;
-  left: 9px;
+  /* margin-top: 2px; */
+  display: block;
 }
 
 .swipewrapper {
@@ -1169,7 +1217,7 @@ p > span .latin {
   left: 0px;
   height: 100%;
   width: 100%;
-  background-color:black;
+  background-color: black;
 }
 
 .idle-card {
@@ -1179,7 +1227,7 @@ p > span .latin {
   justify-content: center;
 }
 
-.idle-card p, .idle-card h1 {
+.idle-card p,
+.idle-card h1 {
   color: white;
 }
-

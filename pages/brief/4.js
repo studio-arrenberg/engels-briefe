@@ -53,7 +53,7 @@ export default function page() {
                   style={{
                     paddingTop: "115px",
                     paddingLeft: "80px",
-                    paddingBottom: "80px",
+                    paddingBottom: "35px",
                   }}
                 >
                   <p>
@@ -143,12 +143,12 @@ export default function page() {
                       <span style={{ display: "inline-block" }} width="10cm">
                         &nbsp;
                       </span>
-                      Fort=
+                      <br />
+                      <span className="text-right">Fort=</span>
                       <br className="lb" />
                       <span style={{ display: "inline-block" }} width="10cm">
                         &nbsp;
                       </span>
-                      _ <br className="lb" />
                     </span>
                   </p>{" "}
                 </div>
@@ -159,7 +159,7 @@ export default function page() {
                     marginTop: "20px",
                     paddingTop: "120px",
                     paddingLeft: "70px",
-                    paddingBottom: "120px",
+                    paddingBottom: "150px",
                   }}
                 >
                   <p>

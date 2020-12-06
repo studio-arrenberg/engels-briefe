@@ -5,7 +5,7 @@ import data from "../../public/data.json";
 import { motion } from "framer-motion";
 import constants from "../../components/constants";
 import Brief_view from "../../components/brief_view";
-import IdleTimer from "../components/IdleTimer";
+import IdleTimer from "../../components/IdleTimer";
 
 export default function thema() {
   const router = useRouter();

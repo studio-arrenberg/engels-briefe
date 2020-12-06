@@ -24,7 +24,7 @@ export default function Idle(props) {
           router.push("/");
         }
       }.bind(this),
-      5000
+      500000
     );
   }
   function activeCallbackFn() {

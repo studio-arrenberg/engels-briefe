@@ -10,7 +10,7 @@ export default function Menu() {
       <Link href="/" scroll={false}>
         <a className="menu_left">
           {/* <img src="../icons/back.svg"></img> */}
-          <FiHome />
+          <img style={{width: "62px"}} src="../icons/home.svg" ></img>
         </a>
       </Link>
 

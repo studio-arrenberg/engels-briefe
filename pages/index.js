@@ -13,7 +13,7 @@ export default function Home() {
       <Head>
         <title>Engelsbriefe</title>
       </Head>
-      <Link href="/briefe" scroll={false} >
+      <Link href="/briefe" scroll={false}>
         <a className="intro-stage-link"></a>
       </Link>
 
@@ -150,8 +150,10 @@ export function Brief({ id }) {
               <h2>
                 <span className="sender_name">{item.sender.name}</span>
                 <br></br>
-                <FiArrowRight /> <span className="empfänger_name"></span>
-                {item.empfänger.name}
+                 <span className="empfänger_name">
+                  <img className="small-icon" src="../icons/forward.svg" />
+                  {item.empfänger.name}
+                  </span>
               </h2>
               {/* themen */}
               {/* {item.themen.name.map((item, index) => (

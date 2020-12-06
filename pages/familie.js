@@ -8,7 +8,6 @@ import { FiInbox, FiSend } from "react-icons/fi";
 import IdleTimer from "../components/IdleTimer";
 
 export default function Briefe() {
-
   return (
     <Layout home>
       <Head>
@@ -25,7 +24,7 @@ export default function Briefe() {
       >
         <Familie data={data} />
       </motion.div>
-      <IdleTimer/>
+      <IdleTimer />
     </Layout>
   );
 }
@@ -40,7 +39,11 @@ export function Familie({ data }) {
           variants={constants.animation.post}
           layoutId={`${data.id}`}
         >
-          <Link href="/person/[person]" as={`/person/${data.id}`} scroll={false} >
+          <Link
+            href="/person/[person]"
+            as={`/person/${data.id}`}
+            scroll={false}
+          >
             <a>
               <div className="item_preview">
                 <img src={`../pictures/personen/thumbnails/${data.picture}`} />
@@ -72,11 +75,15 @@ export function Count({ id }) {
     })
   ).length;
 
-
   return (
     <>
       <br></br>
-      <p><FiSend/> {number} <FiInbox/> {numberx}</p>
+      <p className="postfach">
+        <img className="small-icon" src="../icons/send.svg" />
+        {number}
+        <img className="small-icon" src="../icons/recive.svg" />
+        {numberx}
+      </p>
       <p></p>
     </>
   );

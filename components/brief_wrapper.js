@@ -431,7 +431,7 @@ export function BouncingBall() {
           opacity: [0, 0.8],
         }}
       >
-        <FiArrowLeft size={40} className="icon-swipe" />
+       <img className="icon-swipe" src="../icons/swipe-back.svg" />
       </motion.span>
     </div>
   );
