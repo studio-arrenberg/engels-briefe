@@ -3,6 +3,7 @@ import Router from "next/router";
 import { FiArrowLeft } from "react-icons/fi";
 import { motion } from "framer-motion";
 import constants from "./constants";
+import { useRouter } from "next/router";
 
 export default function Menu() {
   return (

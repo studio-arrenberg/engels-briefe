@@ -31,7 +31,7 @@ export default function Layout({ children, home }) {
 
 export function Menu() {
   const router = useRouter();
-  console.log(router.pathname);
+  // console.log(router.pathname);
   if (router.pathname.includes("[")) {
     return <Sub_Menu />;
     // return <Main_Menu />;
