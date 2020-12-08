@@ -1,35 +1,43 @@
 import idleTimer from "idle-timer";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Router from "next/router";
 import { useRouter, Redirect } from "next/router";
 import Link from "next/link";
 import constants from "./constants";
 
 export default function Idle(props) {
-  const router = useRouter();
+  // const router = useRouter();
   const [idle, SetIdle] = useState(false);
 
   function callbackFn() {
-    //   if (!idle) {
     console.log("You're idle!");
-
     SetIdle(true);
 
-    // setTimeout(router.push("/"), 5000);
-
-    setTimeout(
-      function () {
-        if (idle == true) {
-          console.log("leave!");
-          router.push("/");
-        }
-      }.bind(this),
-      500000
-    );
+    // setTimeout(
+    //   function () {
+    //     if (idle == true) {
+    //       console.log("leave!");
+    //       router.push("/");
+    //     }
+    //   }.bind(this),
+    //   500000
+    // );
   }
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      // setCount(1);
+      if (idle == true) {
+        window.location = "http://localhost:3000";
+      }
+    }, 3000);
+    return () => clearTimeout(timeout);
+  });
+
   function activeCallbackFn() {
     console.log("You're awake ;)");
     SetIdle(false);
+    return () => clearTimeout(timeout);
   }
 
   if (typeof window !== "undefined") {
@@ -45,6 +53,5 @@ export default function Idle(props) {
     });
   }
 
-  return (<></>)
-
+  return <></>;
 }

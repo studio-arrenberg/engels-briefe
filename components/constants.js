@@ -72,7 +72,7 @@ const constants = {
     },
   },
   timer: {
-    idle: 45000,
+    idle: 50000,
   },
 };
 
