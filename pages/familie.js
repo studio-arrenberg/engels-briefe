@@ -79,10 +79,16 @@ export function Count({ id }) {
     <>
       <br></br>
       <p className="postfach">
-        <img className="small-icon" src="../icons/send.svg" />
-        {number}
-        <img className="small-icon" src="../icons/recive.svg" />
-        {numberx}
+        {number > 0 && (
+          <>
+            <img className="small-icon" src="../icons/send.svg" /> {number}
+          </>
+        )}
+        {numberx > 0 && (
+          <>
+            <img className="small-icon" src="../icons/recive.svg" /> {numberx}
+          </>
+        )}
       </p>
       <p></p>
     </>
