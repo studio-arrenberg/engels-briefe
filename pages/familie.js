@@ -4,7 +4,6 @@ import Link from "next/link";
 import data from "../public/data.json";
 import { motion } from "framer-motion";
 import constants from "../components/constants";
-import { FiInbox, FiSend } from "react-icons/fi";
 import IdleTimer from "../components/IdleTimer";
 
 export default function Briefe() {
