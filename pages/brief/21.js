@@ -59,7 +59,7 @@ export default function page() {
                             )
                           </span>
                           <span className="expan">
-                            Mad<span className="ex">ame</span>
+                            Mad<sup class="double-underline">e</sup><span className="ex">ame</span>
                           </span>{" "}
                         </span>
                         <span className="persName">Louise Engels <span className="small"> né Nooth</span></span>
@@ -137,7 +137,7 @@ export default function page() {
                         <span className="corr">st</span>
                         {" "}mit mir dafür{" "}
                         <br className="lb" />
-                        den <span className="abbr"> (L.)</span>
+                        den <span className="abbr"> L.</span>
                         <span className="expan">
                           L<span className="ex">ieben</span>
                         </span>
@@ -196,7 +196,7 @@ export default function page() {
                         ⟨<span className="orig">ﬅ</span>
                         <span className="corr">st</span>⟩
                       </span>{" "}
-                      <span style={{ textDecoration: "line-through" }}>
+                      <span className="strike-through" style={{ textDecoration: "line-through" }}>
                         möge<span className="orig">ﬅ</span>
                         <span className="corr">st</span>
                       </span>

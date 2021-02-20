@@ -71,11 +71,11 @@ export default function page() {
                             )
                           </span>
                           <span className="expan">
-                            Add<span className="ex">resse</span>
+                            Add<sup class="double-underline">r</sup><span className="ex">resse</span>
                           </span>{" "}
                           Herrn
                           <span className="persName">
-                            <span className="abbr"> (Joh.)</span>
+                            <span className="abbr"> Joh.</span>
                             <span className="expan">
                               Joh<span className="ex">ann</span>
                             </span>
@@ -84,12 +84,11 @@ export default function page() {
                               <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
                                 :<sup>h</sup>
                               </span>
-                              )
-                            </span>
+                               </span>
                             <span className="expan">
-                              Frid<span className="ex">ric</span>h
+                              Frid<sup class="double-underline">h</sup><span className="ex">ric</span>h
                             </span>
-                            Eckhardt <span className="abbr"> (Sr.)</span>
+                            Eckhardt <span className="abbr"> Sr.</span>
                             <span className="expan">
                               S<span className="ex">enio</span>r
                             </span>
@@ -104,8 +103,7 @@ export default function page() {
                               <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
                                 <sup>co</sup>:
                               </span>
-                              )
-                            </span>
+                               </span>
                             <span className="expan">
                               f<span className="ex">ran</span>co
                             </span>
@@ -186,8 +184,7 @@ export default function page() {
                     <a id="mark.001.s">{/*anchor*/}</a>Zufolge deinen Lieben
                     Briefen vom 12
                     <span className="abbr">
-                      {" "}
-                      (pa<span className="orig">ſ</span>
+                      {" "}pa<span className="orig">ſ</span>
                       <span className="corr">s</span>
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>.)
@@ -211,7 +208,7 @@ export default function page() {
                     durch <a id="annot.002.s">{/*anchor*/}</a>
                     <span className="g.rend.script.latin">
                       <span className="persName">
-                        <span className="abbr"> (Eng.)</span>
+                        <span className="abbr"> Eng.</span>
                         <span className="expan">
                           Eng<span className="ex">elbert</span>
                         </span>{" "}
@@ -223,7 +220,7 @@ export default function page() {
                     <span className="corr">st</span> nach <br className="lb" />
                     <span className="g.rend.script.latin">
                       <span className="placeName">
-                        <span className="abbr"> (FFurth)</span>
+                        <span className="abbr"> FFurth</span>
                         <span className="expan">
                           F<span className="ex">rank</span>furth
                         </span>
@@ -340,7 +337,7 @@ export default function page() {
                       <br className="lb" />
                       <span className="orig">wolte</span>
                       <span className="corr">wollte</span>, davon{" "}
-                      <span style={{ textDecoration: "line-through" }}>k</span>
+                      <span className="strike-through" style={{ textDecoration: "line-through" }}>k</span>
                       eine Minute wiedergeben <span className="orig">kan</span>
                       <span className="corr">kann</span>,{" "}
                       <a id="annot.005.s">{/*anchor*/}</a>jener Dichter
@@ -370,7 +367,7 @@ export default function page() {
                     <a id="annot.006.s">{/*anchor*/}</a>
                     <span className="orig">mit</span>
                     <span className="corr">Mit</span> der{" "}
-                    <span className="abbr"> (L.)</span>
+                    <span className="abbr"> L.</span>
                     <span className="expan">
                       L<span className="ex">ieben</span>
                     </span>{" "}
@@ -458,7 +455,7 @@ export default function page() {
                       <a id="mark.003.s">{/*anchor*/}</a>
                       <span className="orig">fahre</span>
                       <span className="corr">Fahre</span> du fort{" "}
-                      <span className="abbr"> (L.)</span>
+                      <span className="abbr"> L.</span>
                       <span className="expan">
                         L<span className="ex">ieber</span>
                       </span>{" "}
@@ -479,7 +476,7 @@ export default function page() {
                       <span className="corr">Segen</span> anzuflehen; du thu
                       <span className="orig">ﬅ</span>
                       <span className="corr">st</span> dadurch der{" "}
-                      <span className="abbr"> (L.)</span>
+                      <span className="abbr"> L.</span>
                       <span className="expan">
                         L<span className="ex">ieben</span>
                       </span>{" "}
@@ -548,12 +545,12 @@ export default function page() {
                       <a id="annot.008.s">{/*anchor*/}</a>
                       {" "}
                       <span className="g.rend.script.latin">
-                        <span className="abbr"> (Joh:)</span>
+                        <span className="abbr"> Joh:</span>
                         <span className="expan">
                           Joh<span className="ex">annes</span>
                         </span>
                       </span>{" "}
-                      16 <span className="abbr"> (V)</span>
+                      16 <span className="abbr"> V</span>
                       <span className="expan">
                         V<span className="ex">ers</span>
                       </span>{" "}
@@ -566,7 +563,7 @@ export default function page() {
                     <a id="mark.005.s">{/*anchor*/}</a>Du ha
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span> ganz recht
-                    <span className="abbr"> (l.)</span>
+                    <span className="abbr"> l.</span>
                     <span className="expan">
                       l<span className="ex">ieber</span>
                     </span>
@@ -635,15 +632,13 @@ export default function page() {
                     <a id="annot.011.e">{/*anchor*/}</a> <br className="lb" />
                     150{" "}
                     <span className="abbr">
-                      {" "}
-                      (D:<sup>z</sup>)
+                      {" "}D:<sup>z</sup>)
                     </span>
                     <span className="expan">
                       D<span className="ex">utzend</span>
                     </span>
                     <span className="g.rend.script.latin">
                       <span className="g.enc.tagsdecl.suspension.type2">
-                        {" "}
                         (Lang.){" "}
                       </span>
                       <span className="expan">
@@ -667,7 +662,7 @@ export default function page() {
                     <span className="orig">Kriegs unruhen</span>
                     <span className="corr">Kriegsunruhen</span> wegen den
                     <span className="placeName">
-                      <span className="abbr"> (Leipz.)</span>
+                      <span className="abbr"> Leipz.</span>
                       <span className="expan">{" "}
                         Leipz<span className="ex">iger</span>{" "}
                       </span>
@@ -749,8 +744,7 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ich{" "}
                     <span className="abbr">
-                      {" "}
-                      (die<span className="orig">ſ</span>
+                      {" "}die<span className="orig">ſ</span>
                       <span className="corr">s</span>elb.)
                     </span>
                     <span className="expan">
@@ -859,7 +853,7 @@ export default function page() {
                     </span>
                     <a id="annot.018.e">{/*anchor*/}</a> gekom̅en war, und bis
                     <span className="g.rend.script.latin">
-                      <span className="abbr"> (N.)</span>{" "}
+                      <span className="abbr"> N.</span>{" "}
                       <span className="expan">
                         N<span className="ex">ummer</span>{" "}
                       </span>
@@ -910,7 +904,7 @@ export default function page() {
                     <br className="lb" />
                     wie wir glauben brav i<span className="orig">ﬅ</span>
                     <span className="corr">st</span>, und 1000{" "}
-                    <span className="abbr"> (r)</span>
+                    <span className="abbr"> r</span>
                     <span className="expan">
                       <span className="orig">r</span>
                       <span className="corr">R</span>
@@ -1002,7 +996,7 @@ export default function page() {
                     <span className="corr">s</span>chadet.
                   </p>
                   <div className="closer">
-                    Die <span className="abbr"> (L.)</span>
+                    Die <span className="abbr"> L.</span>
                     <span className="expan">
                       L<span className="ex">iebe</span>
                     </span>
@@ -1025,7 +1019,7 @@ export default function page() {
                     <div className="signed text-right">
                       <span className="g.rend.script.latin">
                         <span className="persName">
-                          <span className="abbr"> (C.)</span>
+                          <span className="abbr"> C.</span>
                           <span className="expan">
                             C<span className="ex">aspar</span>
                           </span>

@@ -65,7 +65,7 @@ export default function page() {
                             </span>
                             Herrn{" "}
                             <span className="g.rend.script.latin">
-                              <span className="abbr"> (J.)</span>
+                              <span className="abbr"> J.</span>
                               <span className="expan">
                                 J<span className="ex">ohann</span>
                               </span>{" "}
@@ -202,9 +202,7 @@ export default function page() {
                           12
                           <sup>
                             <span className="g.enc.tagsdecl.suspension.type1">
-                              {" "}
-                              (t)
-                            </span>
+                              {" "}t </span>
                             <span className="expan">
                               t<span className="ex">en</span>
                             </span>{" "}
@@ -365,7 +363,7 @@ export default function page() {
                       <span className="orig">auch</span>
                       <span className="corr">Auch </span>
                       <span className="g.rend.script.latin">
-                        <span className="abbr"> (DDorf)</span>
+                        <span className="abbr"> DDorf</span>
                         <span className="expan">
                           D
                           <span className="ex">
@@ -433,7 +431,7 @@ export default function page() {
                       ziemlich gut betragen.<a id="mark.001.e">
                         {/*anchor*/}
                       </a>{" "}
-                      Der <span className="abbr"> (L.)</span>
+                      Der <span className="abbr"> L.</span>
                       <span className="expan">
                         L<span className="ex">iebe</span>
                       </span>{" "}
@@ -452,7 +450,7 @@ export default function page() {
                       <span className="corr">wohl</span>{" "}
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>ind, <br className="lb" />
-                      auch die <span className="abbr"> (L.)</span>{" "}
+                      auch die <span className="abbr"> L.</span>{" "}
                       <span className="expan">
                         L<span className="ex">iebe</span>
                       </span>{" "}

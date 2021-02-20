@@ -89,7 +89,7 @@ export default function page() {
                         </span>{" "}
                         21.
                         <span className="g.rend.script.latin">
-                          <span className="abbr"> (Septemb.)</span>
+                          <span className="abbr"> Septemb.</span>
                           <span className="expan">
                             Septemb<span className="ex">er</span>
                           </span>
@@ -457,7 +457,7 @@ export default function page() {
                     – Nun von was anderm:
                     <br className="lb" />
                     <span className="persName">
-                      <span className="abbr"> (M.)</span>
+                      <span className="abbr"> M.</span>
                       <span className="expan">
                         M<span className="ex">inchen</span>
                       </span>
@@ -585,7 +585,7 @@ export default function page() {
                       <br className="lb" />
                       Wenn ich doch nur jemand wüßte woran Du oder
                       <span className="persName">
-                        <span className="abbr"> (M.)</span>
+                        <span className="abbr"> M.</span>
                         <span className="expan">
                           M<span className="ex">inchen</span>
                         </span>
@@ -648,7 +648,7 @@ export default function page() {
                         &nbsp;
                       </span>
                       <span className="persName">
-                        <span className="abbr"> (M.)</span>
+                        <span className="abbr"> M.</span>
                         <span className="expan">
                           M<span className="ex">inchen</span>
                         </span>

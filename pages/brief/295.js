@@ -54,9 +54,7 @@ export default function page() {
                           <br className="lb" />
                           <span className="small-adress">
                             <span className="g.enc.tagsdecl.suspension.type3">
-                              {" "}
-                              (Adrs.)
-                            </span>
+                              {" "}Adrs. </span>
                             <span className="expan">
                               Adr<span className="ex">e</span>s
                               <span className="ex">se</span>
@@ -85,7 +83,7 @@ export default function page() {
                               <br className="lb" />
                               <span style={{ textDecoration: "underline" }}>
                                 en <span className="placeName">Westphalie</span>
-                                . ‒
+                                . -
                               </span>
                             </span>
                           </span>{" "}
@@ -228,7 +226,7 @@ export default function page() {
                     <span className="g.rend.script.latin">Hôtel</span> empfangen
                     wurden
                     <br className="lb" />
-                    durch die Bequemlichkeit welche wir über
+                    durch die Bequemlichkeit welche wir über<span className="unclear">^</span>
                     <span style={{ display: "inline-block" }}>&nbsp;</span>all
                     fanden
                     <br className="lb" />
@@ -283,16 +281,16 @@ export default function page() {
                     <br className="lb" />
                     einem die Schillinge (26 <span className="orig">ﬅ</span>
                     <span className="corr">st</span>über) um die
-                    <span style={{ textDecoration: "line-through" }}>
+                    <span className="strike-through" style={{ textDecoration: "line-through" }}>
                       Köpfe
                     </span>
                     , Ohren
                     <br className="lb" />
-                    und was hat man am Ende, ‒ ein Glas Bier,
+                    und was hat man am Ende, - ein Glas Bier,
                     <br className="lb" />
                     ein <span className="orig">Stük</span>
                     <span className="corr">Stück</span>
-                    <span className="g.rend.script.latin">Beaf-Steak</span> ‒ 4
+                    <span className="g.rend.script.latin">Beaf-Steak</span> - 4
                     Kartoffeln, eine
                     <span className="orig">Aepfeltorte</span>
                     <span className="corr">Äpfeltorte</span>
@@ -429,11 +427,11 @@ export default function page() {
                     <span className="corr">s</span>igen
                     <br className="lb" />
                     Aufenthalt be<span className="orig">ſ</span>
-                    <span className="corr">s</span>timmen. ‒ Ich möchte{" "}
+                    <span className="corr">s</span>timmen. - Ich möchte{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ehr gerne
                     <br className="lb" />
-                    mit <span className="abbr"> (Hr)</span>
+                    mit <span className="abbr"> Hr</span>
                     <span className="expan">
                       H<span className="ex">e</span>r
                       <span className="ex">rn</span>
@@ -539,7 +537,7 @@ export default function page() {
                         <br className="lb" />
                         Am
                         <span className="date">
-                          <span style={{ textDecoration: "line-through" }}>
+                          <span className="strike-through" style={{ textDecoration: "line-through" }}>
                             24.
                           </span>
                           <span className="add">⟨25.⟩</span>
@@ -626,7 +624,7 @@ export default function page() {
                     </span>
                     i<span className="orig">ﬅ</span>
                     <span className="corr">st</span> nur{" "}
-                    <span style={{ textDecoration: "line-through" }}>
+                    <span className="strike-through" style={{ textDecoration: "line-through" }}>
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>
                     </span>{" "}
@@ -671,7 +669,7 @@ export default function page() {
                     <span className="corr">s</span>er Logis angebelangt{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>o
-                    <span style={{ textDecoration: "line-through" }}>
+                    <span className="strike-through" style={{ textDecoration: "line-through" }}>
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>ind wir
                     </span>{" "}
@@ -689,7 +687,7 @@ export default function page() {
                       <br className="lb" />
                       Royal
                     </span>
-                    , und im Mittelpunkt der Stadt ‒ einen Theil
+                    , und im Mittelpunkt der Stadt - einen Theil
                     <br className="lb" />
                     der <span className="orig">ſ</span>
                     <span className="corr">s</span>ogenannten{" "}
@@ -698,16 +696,16 @@ export default function page() {
                     <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
                       <sup>t</sup> .
                     </span>
-                    Etage ‒ be<span className="orig">ﬅ</span>
+                    Etage - be<span className="orig">ﬅ</span>
                     <span className="corr">st</span>ehend
                     <br className="lb" />
                     aus 4 Stuben und ganz für eine voll
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>ändige
                     <br className="lb" />
-                    Familie eingerichtet, und alles für ‒ 10
+                    Familie eingerichtet, und alles für - 10
                     <span className="g.rend.script.latin">francs</span>
-                    <span className="abbr"> (p)</span>
+                    <span className="abbr"> p</span>
                     <span className="expan">
                       p<span className="ex">ro</span>
                     </span>{" "}
@@ -769,7 +767,7 @@ export default function page() {
                     <br className="lb" />
                     daß es mir hier behagt und das macht dir Freude.
                     <br className="lb" />
-                    Um deine Briefe mache kein Couvert mehr
+                    Um deine Briefe mache kein Couvert mehr,
                     <a id="index.xml-anchor-d29e818" />
                     die Hand
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
@@ -842,13 +840,13 @@ export default function page() {
                       wir <span className="orig">ohngefähr</span>
                       <span className="corr">ungefähr</span> gegen den
                       <span className="date">
-                        5 <span className="abbr"> (Septbr)</span>
+                        5 <span className="abbr"> Septbr</span>
                         <span className="expan">
                           Sept<span className="ex">em</span>b
                           <span className="ex">e</span>r
                         </span>
                       </span>
-                      <span style={{ textDecoration: "line-through" }}>
+                      <span className="strike-through" style={{ textDecoration: "line-through" }}>
                         dort
                       </span>{" "}
                       in
@@ -937,7 +935,7 @@ export default function page() {
                       </span>
                       <span className="persName">Charles Bredt</span>{" "}
                       <br className="lb" />
-                      <span className="abbr"> (Adr.)</span>
+                      <span className="abbr"> Adr.</span>
                       <span className="expan">
                         Adr<span className="ex">esse</span>
                       </span>
@@ -967,7 +965,7 @@ export default function page() {
                       <span style={{ display: "inline-block" }} width="1words">
                         &nbsp;
                       </span>
-                      Rue S<span className="abbr">(t.)</span>
+                      Rue S<span className="abbr">(t.</span>
                       <span className="expan">
                         <span className="ex">ain</span>t
                       </span>{" "}

@@ -75,7 +75,7 @@ export default function page() {
                       <span className="g.rend.script.latin">Characters</span>,
                       der Ge<span className="orig">ſ</span><span className="corr">s</span>innungen, und der Familie
                       <br className="lb" /> der{" "}
-                      <span className="abbr"> (Demoi<span className="orig">ſ</span><span className="corr">s</span>.)</span>
+                      <span className="abbr"> Demoi<span className="orig">ſ</span><span className="corr">s</span>.</span>
                       <span className="expan">
                         Demoi<span className="orig">ſ</span><span className="corr">s</span><span className="ex">elle</span>
                       </span>{" "}
@@ -235,7 +235,7 @@ export default function page() {
                           <br className="lb" /> in{" "}
                           <span className="g.rend.script.latin">Ruhrorth</span>{" "}
                           wohnt — ; die<span className="orig">ſ</span><span className="corr">s</span>e i<span className="orig">ﬅ</span><span className="corr">st</span> durch die{" "}
-                          <span className="abbr"> (Demo.)</span>
+                          <span className="abbr"> Demo.</span>
                           <span className="expan">
                             Demo<span className="ex">i<span className="orig">ſ</span><span className="corr">s</span>elle</span>
                           </span>{" "}
@@ -259,7 +259,7 @@ export default function page() {
                     <span className="orig">ohngefehr</span>
                     <span className="corr">ungefähr</span> das, was ich Ihnen in
                     An<span className="orig">ſ</span><span className="corr">s</span>ehung <br className="lb" /> der{" "}
-                    <span className="abbr"> (Dem.)</span>
+                    <span className="abbr"> Dem.</span>
                     <span className="expan">
                       Dem<span className="ex">oi<span className="orig">ſ</span><span className="corr">s</span>elle</span>
                     </span>{" "}
@@ -296,7 +296,7 @@ export default function page() {
                     Ihr aufrichtiger Freund <br className="lb" />
                     <div className="dateline">
                       <span className="placeName">
-                        <span className="abbr"> (D.)</span>
+                        <span className="abbr"> D.</span>
                         <span className="expan">
                           D<span className="ex">ü<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>eldorf</span>
                         </span>
@@ -308,7 +308,7 @@ export default function page() {
                     </span>
                     <div className="signed">
                       <span className="persName">
-                        <span className="abbr"> (Fr.)</span>
+                        <span className="abbr"> Fr.</span>
                         <span className="expan">
                           Fr<span className="ex">iedrich</span>
                         </span>{" "}

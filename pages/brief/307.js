@@ -76,8 +76,7 @@ export default function page() {
                               <span className="g.rend.script.latin">
                                 Friedr.
                               </span>
-                              )
-                            </span>
+                               </span>
                             <span className="expan">
                               <span className="g.rend.script.latin">
                                 Friedr<span className="ex">ich</span>
@@ -168,7 +167,7 @@ export default function page() {
                       </span>
                       aus, und blieben al<span className="orig">ſ</span>
                       <span className="corr">s</span>o{" "}
-                      <span className="abbr"> (ca.)</span>
+                      <span className="abbr"> ca.</span>
                       <span className="expan">
                         c<span className="ex">irc</span>a
                       </span>{" "}
@@ -237,7 +236,7 @@ export default function page() {
                   </p>
                   <p className="enc.tagsdecl.indent-medium" id="mark.004">
                     Hoffentlich{" "}
-                    <span style={{ textDecoration: "line-through" }}>
+                    <span className="strike-through" style={{ textDecoration: "line-through" }}>
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>in
                     </span>{" "}
@@ -314,12 +313,12 @@ export default function page() {
                       <br className="lb" />
                       <span className="orig">Küße</span>
                       <span className="corr">Küsse</span> die Kinder, und grüße
-                      <span style={{ textDecoration: "line-through" }}>
+                      <span className="strike-through" style={{ textDecoration: "line-through" }}>
                         H
                       </span>{" "}
                       die
                       <span className="persName">Mutter</span>{" "}
-                      <span className="abbr"> (u.)</span>
+                      <span className="abbr"> u.</span>
                       <span className="expan">
                         u<span className="ex">nd</span>
                       </span>
@@ -332,7 +331,7 @@ export default function page() {
                   <div className="closer">
                     Nun lebe recht wohl, Gott <span className="orig">ſ</span>
                     <span className="corr">s</span>eÿ mit Dir{" "}
-                    <span className="abbr"> (u.)</span>
+                    <span className="abbr"> u.</span>
                     <span className="expan">
                       u<span className="ex">nd</span>
                     </span>{" "}

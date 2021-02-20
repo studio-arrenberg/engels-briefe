@@ -145,7 +145,7 @@ export default function page() {
                     ich zwar immer einen guten Ti<span className="orig">ſ</span>
                     <span className="corr">s</span>ch
                     <br className="lb" />
-                    <span className="abbr"> (u.)</span>
+                    <span className="abbr"> u.</span>
                     <span className="expan">
                       u<span className="ex">nd</span>
                     </span>{" "}
@@ -419,8 +419,7 @@ export default function page() {
                     <br className="lb" />
                     zumuthete. Doch darüber{" "}
                     <span className="abbr">
-                      {" "}
-                      (<span className="orig">ſ</span>
+                      {" "}<span className="orig">ſ</span>
                       <span className="corr">s</span>. Z.)
                     </span>
                     <span className="expan">
@@ -435,7 +434,7 @@ export default function page() {
                     <a id="annot.007.s">{/*anchor*/}</a>
                     <span className="makierung">
                       <span className="g.rend.script.latin">
-                        <span className="abbr"> (C.)</span>
+                        <span className="abbr"> C.</span>
                         <span className="expan">
                           C<span className="ex">arl</span>
                         </span>
@@ -517,7 +516,7 @@ export default function page() {
                           <td>
                             <a id="annot.010.s">{/*anchor*/}</a>
                             <span className="makierung">
-                              <span className="abbr"> (Sr)</span>
+                              <span className="abbr"> Sr</span>
                               <span className="expan">Stüber</span>
                             </span>
                             <a id="annot.010.e">{/*anchor*/}</a>
@@ -533,8 +532,7 @@ export default function page() {
                               <span className="expan">
                                 Rt<span className="ex">hl</span>
                               </span>
-                              )
-                            </span>
+                               </span>
                             <span className="expan">Reichsthaler</span>
                           </td>
                           <td>16.40</td>
@@ -562,9 +560,7 @@ export default function page() {
                           <td>=</td>
                           <td>
                             <span className="g.enc.tagsdecl.suspension.type1">
-                              {" "}
-                              (Rt)
-                            </span>
+                              {" "}Rt </span>
                             <span className="expan">
                               Rt<span className="ex">hl</span>
                             </span>
@@ -634,9 +630,7 @@ export default function page() {
                         <tr>
                           <td>
                             1
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">
-                              (d<sup>o</sup>.)
-                            </span>
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">d<sup>o</sup>. </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -650,9 +644,7 @@ export default function page() {
                         <tr>
                           <td>
                             1
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">
-                              (d<sup>o</sup>.)
-                            </span>
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">d<sup>o</sup>. </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -666,9 +658,7 @@ export default function page() {
                         <tr>
                           <td>
                             1
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">
-                              (d<sup>o</sup>.)
-                            </span>
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">d<sup>o</sup>. </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -682,9 +672,7 @@ export default function page() {
                         <tr>
                           <td>
                             1
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">
-                              (d<sup>o</sup>.)
-                            </span>
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">d<sup>o</sup>. </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -698,9 +686,7 @@ export default function page() {
                         <tr>
                           <td>
                             1
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">
-                              (d<sup>o</sup>.)
-                            </span>
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">d<sup>o</sup>. </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -714,9 +700,7 @@ export default function page() {
                         <tr>
                           <td>
                             1
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">
-                              (d<sup>o</sup>.)
-                            </span>
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">d<sup>o</sup>. </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -730,9 +714,7 @@ export default function page() {
                         <tr>
                           <td>
                             1
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">
-                              (d<sup>o</sup>.)
-                            </span>
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">d<sup>o</sup>. </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -746,9 +728,7 @@ export default function page() {
                         <tr>
                           <td>
                             1
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">
-                              (d<sup>o</sup>.)
-                            </span>
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">d<sup>o</sup>. </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -762,9 +742,7 @@ export default function page() {
                         <tr>
                           <td>
                             1
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">
-                              (d<sup>o</sup>.)
-                            </span>
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">d<sup>o</sup>. </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -778,9 +756,7 @@ export default function page() {
                         <tr>
                           <td>
                             1
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">
-                              (d<sup>o</sup>.)
-                            </span>
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">d<sup>o</sup>. </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -794,9 +770,7 @@ export default function page() {
                         <tr>
                           <td>
                             1
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">
-                              (d<sup>o</sup>.)
-                            </span>
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">d<sup>o</sup>. </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -810,9 +784,7 @@ export default function page() {
                         <tr>
                           <td>
                             1
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">
-                              (d<sup>o</sup>.)
-                            </span>
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">d<sup>o</sup>. </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -869,16 +841,16 @@ export default function page() {
                           <td>von</td>
                           <td>8½</td>
                           <td>℔</td>
-                          <td rowSpan={2}>{"}"}</td>
+                          <td   style={{ fontSize: "80px" }}rowSpan={2}>{"}"}</td>
                           <td rowSpan={2}>
                             beide durch Blei
                             <br className="g.enc.tagsdecl.hyphenation.eq" />
                             stift mit
                             <span className="g.rend.script.latin">
-                              <span className="g.enc.tagsdecl.cc.abbr-sup-am">
+                              {/* <span className="g.enc.tagsdecl.cc.abbr-sup-am">
                                 (F<sup>ch</sup>⹀)
-                              </span>
-                              <span className="expan">
+                              </span> */}
+                              {" "}<span className="expan">
                                 F<span className="ex">riedri</span>ch
                               </span>
                             </span>
@@ -892,9 +864,7 @@ export default function page() {
                         <tr>
                           <td>
                             1
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">
-                              (d<sup>o</sup>.)
-                            </span>
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">d<sup>o</sup>. </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -909,9 +879,7 @@ export default function page() {
                         <tr>
                           <td>
                             1
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">
-                              (d<sup>o</sup>.)
-                            </span>
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">d<sup>o</sup>. </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -926,9 +894,7 @@ export default function page() {
                         <tr>
                           <td>
                             1
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">
-                              (d<sup>o</sup>.)
-                            </span>
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">d<sup>o</sup>. </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -943,9 +909,7 @@ export default function page() {
                         <tr>
                           <td>
                             1
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">
-                              (d<sup>o</sup>.)
-                            </span>
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">d<sup>o</sup>. </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -978,9 +942,7 @@ export default function page() {
                             angestrichnen
                             <br className="lb" />
                             <span className="g.enc.tagsdecl.suspension.type1">
-                              {" "}
-                              (vorräthig)
-                            </span>
+                              {" "}vorräthig </span>
                             <span className="expan">
                               vorräthig<span className="ex">en</span>
                             </span>
@@ -1200,11 +1162,11 @@ export default function page() {
                       <span className="liebe">
                         Warlich wenn
                         <br className="lb" />
-                        ich an dich <span className="abbr"> (u.)</span>
+                        ich an dich <span className="abbr"> u.</span>
                         <span className="expan">
                           u<span className="ex">nd</span>
                         </span>
-                        <span style={{ textDecoration: "line-through" }}>
+                        <span className="strike-through" style={{ textDecoration: "line-through" }}>
                           <span className="unclear">und[?]</span>
                         </span>
                         an die beiden

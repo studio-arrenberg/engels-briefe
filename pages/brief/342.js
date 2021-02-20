@@ -69,7 +69,7 @@ export default function page() {
                         <span className="persName">Elise Engels</span>
                         <br />
                         <span className="small">
-                          <span className="abbr"> (Adr.)</span>
+                          <span className="abbr"> Adr.</span>
                           <span className="expan">
                             Adr<span className="ex">e</span>s
                             <span className="ex">se</span>
@@ -129,7 +129,7 @@ export default function page() {
                       <span className="g.rend.script.latin">
                         <span className="placeName">Manchester {" "}</span>
                         <span className="date">
-                          10. <span className="abbr"> (Sept.)</span>
+                          10. <span className="abbr"> Sept.</span>
                           <span className="expan">
                             Sept<span className="ex">ember</span>
                           </span>
@@ -153,7 +153,7 @@ export default function page() {
                   <p>
                     Ge<span className="orig">ﬅ</span>
                     <span className="corr">st</span>ern Morgen erhielt ich
-                    Deinen <span className="abbr"> (l.)</span>
+                    Deinen <span className="abbr"> l.</span>
                     <span className="expan">
                       l<span className="ex">ieben</span>
                     </span>
@@ -297,7 +297,7 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chon hinreichend Geld hier
                     vorräthig um 20 à 30,000
-                    <span className="abbr"> (Thlr)</span>
+                    <span className="abbr"> Thlr</span>
                     <span className="expan">
                       Th<span className="ex">a</span>l
                       <span className="ex">e</span>r
@@ -317,7 +317,7 @@ export default function page() {
                     <span className="corr">Augenblick</span> hier ₤ 18,000 – in
                     Wech<span className="orig">ſ</span>
                     <span className="corr">s</span>el
-                    <span className="abbr"> (u.)</span>
+                    <span className="abbr"> u.</span>
                     <span className="expan">
                       u<span className="ex">nd</span>
                     </span>{" "}
@@ -328,7 +328,7 @@ export default function page() {
                     <span className="corr">st</span>ehen.
                     <span className="persName">
                       <span className="g.rend.script.latin">
-                        Peter <span className="abbr"> (E.)</span>
+                        Peter <span className="abbr"> E.</span>
                         <span className="expan">
                           E<span className="ex">rmen</span>
                         </span>
@@ -338,7 +338,7 @@ export default function page() {
                     <br className="lb" />
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>ark ₤ 12,000 – oder{" "}
-                    <span className="abbr"> (rh)</span>
+                    <span className="abbr"> rh</span>
                     <span className="expan">Reichstaler</span>
                     <span style={{ textDecoration: "underline" }}>
                       84,000
@@ -367,11 +367,11 @@ export default function page() {
                     7 Monate vorräthig. Mit
                     <span className="persName">
                       <span className="g.rend.script.latin">
-                        <span className="abbr"> (Gottfr)</span>
+                        <span className="abbr"> Gottfr</span>
                         <span className="expan">
                           Gottfr<span className="ex">ied</span>
                         </span>
-                        <span className="abbr"> (E.)</span>
+                        <span className="abbr"> E.</span>
                         <span className="expan">
                           E<span className="ex">rmen</span>
                         </span>
@@ -477,7 +477,7 @@ export default function page() {
                     hat. Wegen
                     <span className="persName">
                       <span className="g.rend.script.latin">
-                        Anton <span className="abbr"> (E.)</span>
+                        Anton <span className="abbr"> E.</span>
                         <span className="expan">
                           E<span className="ex">rmen</span>
                         </span>
@@ -501,7 +501,7 @@ export default function page() {
                     <span className="corr">st</span>weilen nur wird er von
                     <span className="persName">
                       <span className="g.rend.script.latin">
-                        <span className="abbr"> (Gottfrd)</span>
+                        <span className="abbr"> Gottfrd</span>
                         <span className="expan">
                           Gottf<span className="ex">rie</span>d
                         </span>
@@ -536,7 +536,7 @@ export default function page() {
                     <br className="lb" />
                     <span className="persName">
                       <span className="g.rend.script.latin">
-                        <span className="abbr"> (Gottfrd)</span>
+                        <span className="abbr"> Gottfrd</span>
                         <span className="expan">
                           Gottf<span className="ex">rie</span>d
                         </span>
@@ -592,14 +592,14 @@ export default function page() {
                       <span className="corr">st</span>em
                     </span>
                     <a id="index.xml-anchor-d29e629" />
-                    <span style={{ textDecoration: "line-through" }}>
+                    <span className="strike-through" style={{ textDecoration: "line-through" }}>
                       <span style={{ textDecoration: "underline" }}>
                         Dien<span className="orig">ﬅ</span>
                         <span className="corr">st</span>ag
                       </span>
                     </span>
                     <sup className="sup" id="txt.add003">
-                      <span style={{ textDecoration: "line-through" }}>
+                      <span className="strike-through" style={{ textDecoration: "line-through" }}>
                         Mittwoc
                       </span>
                       <span className="strikethrough">h</span>
@@ -655,7 +655,7 @@ export default function page() {
                     </span>
                     ; grüße die 3 Töchter <span className="orig">ſ</span>
                     <span className="corr">s</span>owie{" "}
-                    <span style={{ textDecoration: "line-through" }}>her</span>
+                    <span className="strike-through" style={{ textDecoration: "line-through" }}>her</span>
                     <br className="lb" />
                     die übrigen herzlich von mir.
                     <br className="lb" />

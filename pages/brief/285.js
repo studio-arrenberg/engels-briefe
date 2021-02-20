@@ -57,7 +57,7 @@ export default function page() {
                   <div className="dateline text-right">
                     <span className="placeName">Hamm</span>
                     <span className="date">
-                      <span className="abbr"> (d.)</span>
+                      <span className="abbr"> d.</span>
                       <span className="expan">
                         d<span className="ex">en</span>
                       </span>{" "}
@@ -96,7 +96,7 @@ export default function page() {
                     Herr
                   </sup>{" "}
                   hat
-                  <span style={{ textDecoration: "line-through" }}>h</span> uns
+                  <span className="strike-through" style={{ textDecoration: "line-through" }}>h</span> uns
                   im verflo<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>enen Winter, <span className="orig">ſ</span><span className="corr">s</span>o wie un<span className="orig">ſ</span><span className="corr">s</span>er
                   <br className="lb" />
                   ganzes Leben hindurch unaus<span className="orig">ſ</span><span className="corr">s</span>prechlich viel Gutes erwie<span className="orig">ſ</span><span className="corr">s</span>en. Wir
@@ -108,23 +108,23 @@ export default function page() {
                     Senectus ipsa morbus
                   </span>
                   <a id="annot.001.e">{/*anchor*/}</a> <br className="lb" />
-                  <span style={{ textDecoration: "line-through" }}>
+                  <span className="strike-through" style={{ textDecoration: "line-through" }}>
                     lat
                   </span>{" "}
                   laut welches wir al<span className="orig">ſ</span><span className="corr">s</span>o immer krank <span className="orig">ſ</span><span className="corr">s</span>eÿn müßten; und dennoch ha
                   <br className="g.enc.tagsdecl.hyphenation.eq" />
                   ben wir für das ganze <span className="date">Jahr 1825</span>.
                   dem Arzt
-                  <span className="abbr"> (u)</span>
+                  <span className="abbr"> u</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}
                   Apotheker nur etwa zwei
                   <br className="lb" />
-                  <span className="abbr"> (Rttr.)</span>
+                  <span className="abbr"> Rttr.</span>
                   <span className="expan">Reichsthaler</span>
                   <span className="g.rend.script.latin">
-                    <span className="abbr"> (b. c.)</span>
+                    <span className="abbr"> b. c.</span>
                     <span className="expan">Bergisch Courant</span>
                   </span>
                   bezahlt. Wir? – Nein, – ich i<span className="orig">ﬅ</span><span className="corr">st</span> das rechte Wort; ich bekam eine
@@ -142,7 +142,7 @@ export default function page() {
                     Fabriken
                     <span className="orig">⹀</span>
                     <span className="corr">-</span>{" "}
-                    <span className="abbr"> (u)</span>
+                    <span className="abbr"> u</span>
                     <span className="expan">
                       u<span className="ex">nd</span>
                     </span>{" "}
@@ -158,7 +158,7 @@ export default function page() {
                     aber doch der größte
                     <br className="lb" />
                     Theil der<span className="orig">ſ</span><span className="corr">s</span>elben <span className="orig">ſ</span><span className="corr">s</span>olchen Ein<span className="orig">ﬅ</span><span className="corr">st</span>urz ver<span className="orig">ſ</span><span className="corr">s</span>chuldet hatten,
-                    <span className="abbr"> (u)</span>
+                    <span className="abbr"> u</span>
                     <span className="expan">
                       u<span className="ex">nd</span>
                     </span>{" "}
@@ -244,7 +244,7 @@ export default function page() {
                   <span className="orig">ſ</span><span className="corr">s</span>einer Wißbegierde wohl für
                   <br className="lb" />
                   das näch<span className="orig">ﬅ</span><span className="corr">st</span>e Wieder<span className="orig">ſ</span><span className="corr">s</span>ehen auf einige <span className="orig">ſ</span><span className="corr">s</span>einem Alter
-                  <span className="abbr"> (u)</span>
+                  <span className="abbr"> u</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}
@@ -255,13 +255,13 @@ export default function page() {
                   Dem <span className="persName">Hermann</span> las
                   <br className="g.enc.tagsdecl.hyphenation.eq" />
                   <span className="orig">ſ</span><span className="corr">s</span>en Sie immer noch <span className="orig">ſ</span><span className="corr">s</span>eine Peit<span className="orig">ſ</span><span className="corr">s</span>che{" "}
-                  <span className="abbr"> (u)</span>
+                  <span className="abbr"> u</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}
                   <span className="orig">ſ</span><span className="corr">s</span>ein Steckenpferd. Haben doch wir al
                   <br className="g.enc.tagsdecl.hyphenation.eq" />
-                  ten Leute noch das Un<span className="orig">ſ</span><span className="corr">s</span>rige, <span className="abbr"> (u)</span>
+                  ten Leute noch das Un<span className="orig">ſ</span><span className="corr">s</span>rige, <span className="abbr"> u</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}
@@ -281,12 +281,12 @@ export default function page() {
                   <span className="corr">Überfall</span>
                   <br className="lb" />
                   zu decken, Ausnahmen einräume,{" "}
-                  <span className="abbr"> (u)</span>
+                  <span className="abbr"> u</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}
                   es jedem Mädchen
-                  <span className="abbr"> (u)</span>
+                  <span className="abbr"> u</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}
@@ -299,7 +299,7 @@ export default function page() {
                   Bändern, net
                   <br className="g.enc.tagsdecl.hyphenation.eq" />
                   ten Kleidern oder Schlü<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>elplaggen, <span className="orig">ﬅ</span><span className="corr">st</span>ellt <span className="orig">ſ</span><span className="corr">s</span>ie vor den Spiegel,
-                  <span className="abbr"> (u)</span>
+                  <span className="abbr"> u</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}
@@ -318,7 +318,7 @@ export default function page() {
                   <span className="orig">,</span>
                   <span className="corr" />
                   <br className="lb" />
-                  für <span className="orig">ſ</span><span className="corr">s</span>chön, <span className="abbr"> (u)</span>
+                  für <span className="orig">ſ</span><span className="corr">s</span>chön, <span className="abbr"> u</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}
@@ -333,7 +333,7 @@ export default function page() {
                   <br className="lb" />
                   erdenkliche Frau – , <span className="orig">ſ</span><span className="corr">s</span>ondern, daß <span className="orig">ſ</span><span className="corr">s</span>ie <span className="orig">ſ</span><span className="corr">s</span>ich bei
                   Feierlichkeiten,
-                  <span className="abbr"> (z. B.)</span>
+                  <span className="abbr"> z. B.</span>
                   <span className="expan">
                     z<span className="ex">um</span>{" "}
                     <span className="ex"> </span>B
@@ -342,7 +342,7 @@ export default function page() {
                   Kindtau
                   <br className="g.enc.tagsdecl.hyphenation.eq" />
                   fen, Hochzeiten, Concerten{" "}
-                  <span className="abbr"> (p.p.)</span>
+                  <span className="abbr"> p.p.</span>
                   <span className="expan">
                     p<span className="ex">erge</span> <span className="ex" />p
                     <span className="ex">erge</span>
@@ -372,18 +372,18 @@ export default function page() {
               >
                 {/* Insert Page 3 */}
                 <p>
-                  keit anfachen <span className="abbr"> (u)</span>
+                  keit anfachen <span className="abbr"> u</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}
                   nähren. Das mag ein Paradoxon <span className="orig">ſ</span><span className="corr">s</span>cheinen; aber wenn
                   <br className="lb" />
                   man darüber die Stimmen <span className="orig">ſ</span><span className="corr">s</span>ammeln,{" "}
-                  <span className="abbr"> (u)</span>
+                  <span className="abbr"> u</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}
-                  die Sache hiedurch <span className="abbr"> (u)</span>
+                  die Sache hiedurch <span className="abbr"> u</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}
@@ -401,7 +401,7 @@ export default function page() {
                   Männer beifallen. Meine Parthei könnte die<span className="orig">ſ</span><span className="corr">s</span>e Wahrheit
                   volltönend vier
                   <br className="g.enc.tagsdecl.hyphenation.eq" />
-                  <span className="orig">ﬅ</span><span className="corr">st</span>immig <span className="orig">ſ</span><span className="corr">s</span>ingen, <span className="abbr"> (u)</span>
+                  <span className="orig">ﬅ</span><span className="corr">st</span>immig <span className="orig">ſ</span><span className="corr">s</span>ingen, <span className="abbr"> u</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}
@@ -417,37 +417,36 @@ export default function page() {
                   <a id="annot.004.e">{/*anchor*/}</a> enthält ohne Ihr
                   Ver<span className="orig">ſ</span><span className="corr">s</span>chulden ein Ver<span className="orig">ſ</span><span className="corr">s</span>ehen. Sie konn
                   <br className="g.enc.tagsdecl.hyphenation.eq" />
-                  ten nicht wi<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>en, daß ich <span className="abbr"> (d)</span>
+                  ten nicht wi<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>en, daß ich <span className="abbr"> d</span>
                   <span className="expan">
                     d<span className="ex">em </span>
                   </span>
-                  <span className="g.enc.tagsdecl.suspension.type2"> (H.)</span>
+                  <span className="g.enc.tagsdecl.suspension.type2"> (H.</span>
                   <span className="expan">
                     H<span className="ex">errn</span>
                   </span>
                   <span className="persName">
                     <span className="abbr">
-                      {" "}
-                      (<span className="hi">vdKuhlen</span>)
+                      {" "}<span className="hi">vdKuhlen</span>)
                     </span>
                     <span className="expan">
                       v<span className="ex">on </span>d
                       <span className="ex">er </span>Kuhlen
                     </span>
                   </span>
-                  <span className="abbr"> (d.)</span>
+                  <span className="abbr"> d.</span>
                   <span className="expan">
                     d<span className="ex">en</span>
                   </span>{" "}
                   14. Januar die<span className="orig">ſ</span><span className="corr">s</span>es Jahrs zum
                   <br className="lb" />
                   zweiten Mal die vollen 75.{" "}
-                  <span className="abbr"> (rttr.)</span>
+                  <span className="abbr"> rttr.</span>
                   <span className="expan">Reichsthaler</span> gegen Quittung
                   namens
                   <span className="orgName">
                     <span className="g.rend.script.latin">
-                      <span className="abbr"> (Casp.)</span>
+                      <span className="abbr"> Casp.</span>
                       <span className="expan">
                         Casp<span className="ex">ar</span>
                       </span>
@@ -456,7 +455,7 @@ export default function page() {
                     <br className="lb" />
                     Söhne
                   </span>
-                  bezahlt habe, <span className="abbr"> (u)</span>
+                  bezahlt habe, <span className="abbr"> u</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}
@@ -468,7 +467,7 @@ export default function page() {
                   Quittung <span className="orig">ﬅ</span><span className="corr">st</span>eht auf dem Blatt der er<span className="orig">ﬅ</span><span className="corr">st</span>en. Unter die<span className="orig">ſ</span><span className="corr">s</span>elben wird
                   bei
                   <br className="lb" />
-                  Leben <span className="abbr"> (u)</span>
+                  Leben <span className="abbr"> u</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}
@@ -491,7 +490,7 @@ export default function page() {
                   <span className="orig">ſ</span><span className="corr">s</span>einer Rei<span className="orig">ſ</span><span className="corr">s</span>e nach
                   <span className="placeName">Berlin</span> die 6.
                   <span className="g.rend.script.latin">
-                    <span className="abbr"> (Fr. d’or)</span>
+                    <span className="abbr"> Fr. d’or</span>
                     <span className="expan">Friedrichs d’or</span>
                   </span>
                   für
@@ -505,11 +504,11 @@ export default function page() {
                   <span className="abbr">
                     <span className="g.rend.script.latin">Fr. d’or</span>
                   </span>
-                  in <span className="abbr"> (Berg.)</span>
+                  in <span className="abbr"> Berg.</span>
                   <span className="expan">
                     Berg<span className="ex">i<span className="orig">ſ</span><span className="corr">s</span>ch</span>
                   </span>
-                  <span className="abbr"> (Cour.)</span>
+                  <span className="abbr"> Cour.</span>
                   <span className="expan">
                     Cour<span className="ex">ant</span>
                   </span>{" "}
@@ -532,19 +531,19 @@ export default function page() {
                   Leben Sie wohl! <a id="annot.005.s">{/*anchor*/}</a>Gott <span className="orig">ſ</span><span className="corr">s</span>egne
                   Sie
                   <a id="annot.005.e">{/*anchor*/}</a>
-                  <span className="abbr"> (u)</span>
+                  <span className="abbr"> u</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}
                   die
-                  <span className="abbr"> (l.)</span>
+                  <span className="abbr"> l.</span>
                   <span className="expan">
                     l<span className="ex">ieben</span>
                   </span>{" "}
                   Ihrigen! tau<span className="orig">ſ</span><span className="corr">s</span>end Grüße an
                   <br className="lb" />
                   alle dortigen Fremden von allen hie<span className="orig">ſ</span><span className="corr">s</span>igen. Mit Liebe
-                  <span className="abbr"> (u)</span>
+                  <span className="abbr"> u</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}

@@ -75,7 +75,7 @@ export default function page() {
                   <a id="teaser.part.001.s">{/*anchor*/}</a>Dein lieber Brief
                   vom
                   <span className="date">
-                    5. <span className="abbr"> (ds.)</span>
+                    {" "}5. <span className="abbr"> ds.</span>
                     <span className="expan">
                       d<span className="ex">iese</span>s{" "}
                       <span className="ex">Monats</span>
@@ -102,17 +102,17 @@ export default function page() {
                   <br className="lb" />
                   gar nicht,
                   <span className="orig">
-                    Herzens
+                    Herzens<span className="unclear">^</span>
                     <span style={{ display: "inline-block" }}>&nbsp;</span>mama
                   </span>
                   <span className="corr">Herzensmama</span>, wie <span className="orig">ſ</span><span className="corr">s</span>ehr Du
                   <br className="lb" />
-                  <span className="abbr"> (u.)</span>
+                  <span className="abbr"> u.</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}
                   er mir ans Herz gewach<span className="orig">ſ</span><span className="corr">s</span>en <span className="orig">ſ</span><span className="corr">s</span>eÿd,{" "}
-                  <span className="abbr"> (u.)</span>
+                  <span className="abbr"> u.</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>
@@ -174,7 +174,7 @@ export default function page() {
                     ⟨<span className="orig">ﬅ</span><span className="corr">st</span>e⟩
                   </span>
                   <span className="orig">
-                    Herzens
+                    Herzens<span className="unclear">^</span>
                     <span style={{ display: "inline-block" }}>&nbsp;</span>
                     tuksken
                   </span>
@@ -189,7 +189,7 @@ export default function page() {
                   <a id="annot.001.s">{/*anchor*/}</a>Nun bald haben wir ja
                   zwei,
                   <span className="orig">
-                    Herzens
+                    Herzens<span className="unclear">^</span>
                     <span style={{ display: "inline-block" }}>&nbsp;</span>
                     <br className="g.enc.tagsdecl.hyphenation.space" />
                     lie<span className="orig">ſ</span><span className="corr">s</span>eli
@@ -217,7 +217,7 @@ export default function page() {
                   <span className="g.rend.script.latin">Casper</span> hat
                   <span className="date">ge<span className="orig">ﬅ</span><span className="corr">st</span>ern</span> ge<span className="orig">ſ</span><span className="corr">s</span>chrieben, daß
                   <br className="lb" />
-                  das Bad fort
+                  das Bad fort<span className="unclear">^</span>
                   <span style={{ display: "inline-block" }}>&nbsp;</span>während
                   <span className="orig">ſ</span><span className="corr">s</span>einer Frau <br className="lb" />
                   gut bekommt, daß er nicht nach
@@ -250,7 +250,7 @@ export default function page() {
                   <br className="lb" />
                   bei ihrer Ankunft wieder einen
                   <br className="lb" />
-                  Blut<span className="orig">ﬅ</span><span className="corr">st</span>urz gehabt, <span className="abbr"> (u.)</span>
+                  Blut<span className="orig">ﬅ</span><span className="corr">st</span>urz gehabt, <span className="abbr"> u.</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}
@@ -263,9 +263,7 @@ export default function page() {
                       (W
                       <span className="g.enc.tagsdecl.cc.abbr-period-sup">
                         <sup>m</sup>.
-                      </span>
-                      )
-                    </span>
+                      </span></span>
                     <span className="expan">
                       W<span className="ex">ilhel</span>m
                     </span>
@@ -303,7 +301,7 @@ export default function page() {
                 <p className="enc.tagsdecl.indent-medium">
                   Deine Erzählung vom kleinen
                   <span className="g.rend.script.latin">
-                    <span className="abbr"> (Fried.)</span>
+                    <span className="abbr"> Fried.</span>
                     <span className="expan">
                       Fried<span className="ex">rich</span>
                     </span>
@@ -399,7 +397,7 @@ export default function page() {
                   <br className="lb" />
                   Veränderungen, welche un<span className="orig">ſ</span><span className="corr">s</span>ere Gegen
                   <br className="g.enc.tagsdecl.hyphenation.divis" />
-                  wart <span className="abbr"> (u.)</span>
+                  wart <span className="abbr"> u.</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}
@@ -416,13 +414,13 @@ export default function page() {
                   <br className="lb" />
                   gebrummt, denn äußere Ange
                   <br className="g.enc.tagsdecl.hyphenation.divis" />
-                  legenheiten <span className="abbr"> (u.)</span>
+                  legenheiten <span className="abbr"> u.</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}
                   Handlungs<span className="orig">ſ</span><span className="corr">s</span>achen,
                   <br className="lb" />
-                  meine <span className="abbr"> (u.)</span>
+                  meine <span className="abbr"> u.</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>
@@ -437,7 +435,7 @@ export default function page() {
                   <br className="lb" />
                   i<span className="orig">ﬅ</span><span className="corr">st</span>s recht, je krau<span className="orig">ſ</span><span className="corr">s</span>er, je lieber.
                   <br className="lb" />
-                  Wir <span className="orig">ſ</span><span className="corr">s</span>ind noch jung <span className="abbr"> (u.)</span>
+                  Wir <span className="orig">ſ</span><span className="corr">s</span>ind noch jung <span className="abbr"> u.</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}
@@ -509,7 +507,7 @@ export default function page() {
                   <br className="lb" />
                   <a id="annot.007.s">{/*anchor*/}</a>
                   <span className="persName">Rike Menkhoff</span>
-                  <span style={{ textDecoration: "line-through" }}>
+                  <span className="strike-through" style={{ textDecoration: "line-through" }}>
                     bitten
                   </span>{" "}
                   nicht
@@ -530,7 +528,7 @@ export default function page() {
                       <sup>n</sup>.
                     </span>
                     <span className="g.rend.script.latin">
-                      <span className="abbr"> (Aug.)</span>
+                      <span className="abbr"> Aug.</span>
                       <span className="expan">
                         Aug<span className="ex">ust</span>
                       </span>
@@ -578,7 +576,7 @@ export default function page() {
                   <p className="enc.tagsdecl.indent-small">
                     Lebe recht wohl, Du
                     <span className="orig">
-                      Herzens
+                      Herzens<span className="unclear">^</span>
                       <span style={{ display: "inline-block" }}>&nbsp;</span>
                       kind
                     </span>
@@ -588,7 +586,7 @@ export default function page() {
                   </p>
                 </blockquote>
                 <div className="closer">
-                  Grüße Eltern <span className="abbr"> (u.)</span>
+                  Grüße Eltern <span className="abbr"> u.</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}

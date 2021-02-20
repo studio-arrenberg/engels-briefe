@@ -125,7 +125,7 @@ export default function page() {
                       <br className="lb" />
                       <span className="orig">ſ</span><span className="corr">s</span>prach den Nachmittag recht freundlich mit mir über dich.
                       <br className="lb" />
-                      Meine <span className="abbr"> (l.)</span>
+                      Meine <span className="abbr"> l.</span>
                       <span className="expan">
                         l<span className="ex">ieben</span>
                       </span>{" "}
@@ -134,7 +134,7 @@ export default function page() {
                       mit meinem Oncle davon zu <span className="orig">ſ</span><span className="corr">s</span>prechen, und ich <span className="orig">ﬅ</span><span className="corr">st</span>immte
                       <br className="lb" />
                       ihnen ganz bei. Du wir<span className="orig">ﬅ</span><span className="corr">st</span> die<span className="orig">ſ</span><span className="corr">s</span>en indeß <span className="orig">ſ</span><span className="corr">s</span>o auch
-                      <span className="strikethrough">haben</span>
+                      {" "}<span className="strikethrough">haben</span>
                       <br className="lb" />
                       kennen gelernt haben, daß es bei die<span className="orig">ſ</span><span className="corr">s</span>em herzensguten
                       <br className="lb" />
@@ -184,7 +184,7 @@ export default function page() {
                       Rechte wie gewöhnliche Verwandten hat. Sobald er al<span className="orig">ſ</span><span className="corr">s</span>o
                       <br className="lb" />
                       eingeweiht i<span className="orig">ﬅ</span><span className="corr">st</span>,
-                      <span style={{ textDecoration: "line-through" }}>
+                      <span className="strike-through" style={{ textDecoration: "line-through" }}>
                         leite
                       </span>{" "}
                       <span className="orig">ſ</span><span className="corr">s</span>chreibe ich an deine lieben Eltern.
@@ -198,7 +198,7 @@ export default function page() {
                       <br className="lb" />
                       höch<span className="orig">ﬅ</span><span className="corr">st</span>wahr<span className="orig">ſ</span><span className="corr">s</span>cheinlich werde ich dann meine Rei<span className="orig">ſ</span><span className="corr">s</span>e antreten
                       <br className="lb" />
-                      <span className="abbr"> (u.)</span>
+                      <span className="abbr"> u.</span>
                       <span className="expan">
                         u<span className="ex">nd</span>
                       </span>{" "}
@@ -258,10 +258,10 @@ export default function page() {
                         <span className="corr">vergessen</span>,
                         <br className="lb" />
                         un<span className="orig">ſ</span><span className="corr">s</span>erm lieben himmli<span className="orig">ſ</span><span className="corr">s</span>chen Vater
-                        <span style={{ textDecoration: "line-through" }}>
+                        <span className="strike-through" style={{ textDecoration: "line-through" }}>
                           für
                         </span>
-                        <span style={{ textDecoration: "line-through" }}>
+                        <span className="strike-through" style={{ textDecoration: "line-through" }}>
                           die<span className="orig">ſ</span><span className="corr">s</span>en
                         </span>{" "}
                         herzlich
@@ -285,7 +285,7 @@ export default function page() {
                       Nun gutes Mädchen mußt du mir aber auch
                       <br className="lb" />
                       einen einzigen Gefallen thun, und recht froh
-                      <span className="abbr"> (u.)</span>
+                      <span className="abbr"> u.</span>
                       <span className="expan">
                         u<span className="ex">nd</span>
                       </span>
@@ -346,25 +346,25 @@ export default function page() {
                       <br className="lb" />
                       auf ihrem Schick, wie man hier zu <span className="orig">ſ</span><span className="corr">s</span>agen pflegt. Die
                       <br className="lb" />
-                      <span className="abbr"> (l.)</span>
+                      <span className="abbr"> l.</span>
                       <span className="expan">
                         l<span className="ex">iebe</span>
                       </span>{" "}
                       Mutter <span className="orig">ſ</span><span className="corr">s</span>pricht mit mir <span className="orig">ſ</span><span className="corr">s</span>chon über Wohnung Einrichtung
                       <br className="lb" />
-                      <span className="abbr"> (u.)</span>
+                      <span className="abbr"> u.</span>
                       <span className="expan">
                         u<span className="ex">nd</span>
                       </span>
-                      <span className="abbr"> (<span className="orig">ſ</span><span className="corr">s</span>.)</span>
+                      <span className="abbr"> <span className="orig">ſ</span><span className="corr">s</span>.</span>
                       <span className="expan">
                         <span className="orig">ſ</span><span className="corr">s</span><span className="ex">o</span>
                       </span>
-                      <span className="abbr"> (w.)</span>
+                      <span className="abbr"> w.</span>
                       <span className="expan">
                         w<span className="ex">eiter</span>
                       </span>
-                      <span className="abbr"> (u.)</span>
+                      <span className="abbr"> u.</span>
                       <span className="expan">
                         u<span className="ex">nd</span>
                       </span>{" "}
@@ -373,7 +373,7 @@ export default function page() {
                       Braut gewöhnlich gerne das Einrichten <span className="orig">ſ</span><span className="corr">s</span>elb<span className="orig">ﬅ</span><span className="corr">st</span> leitete,
                       <br className="lb" />
                       daß du dann doch herkommen{" "}
-                      <span className="abbr"> (u.)</span>
+                      <span className="abbr"> u.</span>
                       <span className="expan">
                         u<span className="ex">nd</span>
                       </span>{" "}
@@ -395,7 +395,7 @@ export default function page() {
                       i<span className="orig">ﬅ</span><span className="corr">st</span> ihr aufgefallen, daß Papa ihr die Sache mit einer
                       <br className="lb" />
                       <span className="orig">ſ</span><span className="corr">s</span>o außergewöhnlichen Fröhlichkeit{" "}
-                      <span className="abbr"> (u.)</span>
+                      <span className="abbr"> u.</span>
                       <span className="expan">
                         u<span className="ex">nd</span>
                       </span>{" "}
@@ -403,7 +403,7 @@ export default function page() {
                       <br className="lb" />
                       da er doch <span className="orig">ſ</span><span className="corr">s</span>on<span className="orig">ﬅ</span><span className="corr">st</span> nie habe vom Heirathen hören wollen,
                       <br className="lb" />
-                      <span className="abbr"> (u.)</span>
+                      <span className="abbr"> u.</span>
                       <span className="expan">
                         u<span className="ex">nd</span>
                       </span>{" "}
@@ -421,7 +421,7 @@ export default function page() {
                     <span className="persName">
                       <span className="g.rend.script.latin">August</span>
                     </span>
-                    <span className="orig">ſ</span><span className="corr">s</span>ehr, <span className="abbr"> (u.)</span>
+                    <span className="orig">ſ</span><span className="corr">s</span>ehr, <span className="abbr"> u.</span>
                     <span className="expan">
                       u<span className="ex">nd</span>
                     </span>{" "}
@@ -431,7 +431,7 @@ export default function page() {
                     <br className="lb" />
                     habe. Kurz, täglich habe ich neue Ur<span className="orig">ſ</span><span className="corr">s</span>ache, mich zu
                     <br className="lb" />
-                    freuen, <span className="abbr"> (u.)</span>
+                    freuen, <span className="abbr"> u.</span>
                     <span className="expan">
                       u<span className="ex">nd</span>
                     </span>{" "}
@@ -444,7 +444,7 @@ export default function page() {
                       <span className="g.rend.script.latin">Casper</span>
                     </span>
                     <br className="lb" />
-                    <span style={{ textDecoration: "line-through" }}>
+                    <span className="strike-through" style={{ textDecoration: "line-through" }}>
                       es
                     </span>{" "}
                     der guten
@@ -454,7 +454,7 @@ export default function page() {
                     <span className="orig">ſ</span><span className="corr">s</span>agte, daß <span className="orig">ſ</span><span className="corr">s</span>ie dich zur Schwe<span className="orig">ﬅ</span><span className="corr">st</span>er
                     <br className="lb" />
                     bekommen würde, weinte die<span className="orig">ſ</span><span className="corr">s</span>e Freudenthränen,
-                    <span className="abbr"> (u.)</span>
+                    <span className="abbr"> u.</span>
                     <span className="expan">
                       u<span className="ex">nd</span>
                     </span>
@@ -497,7 +497,7 @@ export default function page() {
                     kannt <span className="orig">ſ</span><span className="corr">s</span>ehe, denn du glaub<span className="orig">ﬅ</span><span className="corr">st</span> gar nicht, wie unangenehm
                     <br className="lb" />
                     es mir oft gewe<span className="orig">ſ</span><span className="corr">s</span>en i<span className="orig">ﬅ</span><span className="corr">st</span>, eine <span className="orig">ſ</span><span className="corr">s</span>o ehrliche{" "}
-                    <span className="abbr"> (u.)</span>
+                    <span className="abbr"> u.</span>
                     <span className="expan">
                       u<span className="ex">nd</span>
                     </span>{" "}
@@ -533,14 +533,14 @@ export default function page() {
                   <p className="enc.tagsdecl.indent-medium">
                     Bis nach meiner Rei<span className="orig">ſ</span><span className="corr">s</span>e – doch darüber Morgen mehr,
                     <br className="lb" />
-                    denn es i<span className="orig">ﬅ</span><span className="corr">st</span> ½ 1 <span className="abbr"> (u.)</span>
+                    denn es i<span className="orig">ﬅ</span><span className="corr">st</span> ½ 1 <span className="abbr"> u.</span>
                     <span className="expan">
                       u<span className="ex">nd</span>
                     </span>{" "}
                     die Natur fordert auch das ihre; nämlich
                     <br className="lb" />
                     den Schlaf. Du <span className="orig">ſ</span><span className="corr">s</span>chläf<span className="orig">ﬅ</span><span className="corr">st</span> jetzt wohl <span className="orig">ſ</span><span className="corr">s</span>üß,{" "}
-                    <span className="abbr"> (u.)</span>
+                    <span className="abbr"> u.</span>
                     <span className="expan">
                       u<span className="ex">nd</span>
                     </span>{" "}
@@ -582,7 +582,7 @@ export default function page() {
                         aber ich wollte dir gerne den er<span className="orig">ﬅ</span><span className="corr">st</span>en Brief auf die
                         <br className="lb" />
                         neben erzählte Art <span className="orig">ſ</span><span className="corr">s</span>chicken{" "}
-                        <span className="abbr"> (u.)</span>
+                        <span className="abbr"> u.</span>
                         <span className="expan">
                           u<span className="ex">nd</span>
                         </span>{" "}
@@ -617,7 +617,7 @@ export default function page() {
                         <span className="corr">müssen</span>, <span className="orig">ſ</span><span className="corr">s</span>o <span className="orig">ſ</span><span className="corr">s</span>ehr <span className="orig">ſ</span><span className="corr">s</span>cheue
                         <br className="lb" />
                         ich nun noch jeden Umweg,{" "}
-                        <span className="abbr"> (u.)</span>
+                        <span className="abbr"> u.</span>
                         <span className="expan">
                           u<span className="ex">nd</span>
                         </span>{" "}
@@ -645,7 +645,7 @@ export default function page() {
                     <p className="enc.tagsdecl.indent-medium">
                       Wir wollen uns nun ganz geduldig verhalten
                       <br className="lb" />
-                      <span className="abbr"> (u.)</span>
+                      <span className="abbr"> u.</span>
                       <span className="expan">
                         u<span className="ex">nd</span>
                       </span>{" "}
@@ -671,7 +671,7 @@ export default function page() {
                     <span className="corr">Übrigens</span> werde ich hier
                     <br className="lb" />
                     <span className="orig">ſ</span><span className="corr">s</span>chon von allen Seiten mit dir geneckt,{" "}
-                    <span className="abbr"> (u.)</span>
+                    <span className="abbr"> u.</span>
                     <span className="expan">
                       u<span className="ex">nd</span>
                     </span>{" "}
@@ -737,7 +737,7 @@ export default function page() {
                         <span className="g.rend.script.latin">Salzburg</span>
                       </span>
                       vielleicht
-                      <span style={{ textDecoration: "line-through" }}>
+                      <span className="strike-through" style={{ textDecoration: "line-through" }}>
                         <span className="placeName">
                           <span className="g.rend.script.latin">
                             <sup>Linz an der</sup>/Donau
@@ -750,7 +750,7 @@ export default function page() {
                         <span className="g.rend.script.latin">Inspruk</span>
                       </span>
                       <br className="lb" />
-                      <span className="abbr"> (u.)</span>
+                      <span className="abbr"> u.</span>
                       <span className="expan">
                         u<span className="ex">nd</span>
                       </span>{" "}
@@ -762,12 +762,12 @@ export default function page() {
                       <br className="lb" />
                       Tro<span className="orig">ﬅ</span><span className="corr">st</span> auf der Rei<span className="orig">ſ</span><span className="corr">s</span>e wird <span className="orig">ſ</span><span className="corr">s</span>eyn, daß ich an dich <span className="orig">ſ</span><span className="corr">s</span>chreiben
                       <br className="lb" />
-                      <span className="abbr"> (u.)</span>
+                      <span className="abbr"> u.</span>
                       <span className="expan">
                         u<span className="ex">nd</span>
                       </span>{" "}
                       denken kann,
-                      <span className="abbr"> (u.)</span>
+                      <span className="abbr"> u.</span>
                       <span className="expan">
                         u<span className="ex">nd</span>
                       </span>{" "}
@@ -791,7 +791,7 @@ export default function page() {
                       <span className="persName">
                         <span className="g.rend.script.latin">Casper</span>
                       </span>
-                      <span className="orig">ſ</span><span className="corr">s</span>chick<span className="orig">ﬅ</span><span className="corr">st</span>, <span className="abbr"> (u.)</span>
+                      <span className="orig">ſ</span><span className="corr">s</span>chick<span className="orig">ﬅ</span><span className="corr">st</span>, <span className="abbr"> u.</span>
                       <span className="expan">
                         u<span className="ex">nd</span>
                       </span>{" "}
@@ -830,7 +830,7 @@ export default function page() {
                     nach <span className="placeName">Siegburg</span>{" "}
                     abmar<span className="orig">ſ</span><span className="corr">s</span>chieren, um dort Batterien zu
                     <br className="lb" />
-                    bauen, <span className="abbr"> (u.)</span>
+                    bauen, <span className="abbr"> u.</span>
                     <span className="expan">
                       u<span className="ex">nd</span>
                     </span>{" "}
@@ -851,7 +851,7 @@ export default function page() {
                     <br className="lb" />
                     Tabaksbeutel zu danken, thue es aber hiermit herzlich,
                     <br className="lb" />
-                    <span className="abbr"> (u.)</span>
+                    <span className="abbr"> u.</span>
                     <span className="expan">
                       u<span className="ex">nd</span>
                     </span>{" "}
@@ -861,7 +861,7 @@ export default function page() {
                     <br className="lb" />
                     grade vor mir <span className="orig">ﬅ</span><span className="corr">st</span>eht, vor mir <span className="orig">ﬅ</span><span className="corr">st</span>ände<span className="orig">ﬅ</span><span className="corr">st</span>. Doch ganz gelaßen??
                     <br className="lb" />
-                    wi<span className="orig">ſ</span><span className="corr">s</span>che ich mir den Mund, <span className="abbr"> (u.)</span>
+                    wi<span className="orig">ſ</span><span className="corr">s</span>che ich mir den Mund, <span className="abbr"> u.</span>
                     <span className="expan">
                       u<span className="ex">nd</span>
                     </span>{" "}
@@ -935,7 +935,7 @@ export default function page() {
                     <br className="lb" />
                     an
                     <span className="persName">
-                      <span className="abbr"> (M.)</span>
+                      <span className="abbr"> M.</span>
                       <span className="expan">
                         M<span className="ex">inchen</span>
                       </span>
@@ -944,7 +944,7 @@ export default function page() {
                     ein.
                   </p>
                   <p className="enc.tagsdecl.indent-medium" id="mark.012">
-                    Morgen gehe ich zum <span className="abbr"> (heil.)</span>
+                    Morgen gehe ich zum <span className="abbr"> heil.</span>
                     <span className="expan">
                       heil<span className="ex">igen</span>
                     </span>{" "}
@@ -957,17 +957,17 @@ export default function page() {
                   <blockquote className="closer">
                     <p className="enc.tagsdecl.indent-medium">
                       Meine Ge<span className="orig">ſ</span><span className="corr">s</span>chwi<span className="orig">ﬅ</span><span className="corr">st</span>er, meine{" "}
-                      <span className="abbr"> (l.)</span>
+                      <span className="abbr"> l.</span>
                       <span className="expan">
                         l<span className="ex">ieben</span>
                       </span>{" "}
                       Eltern
-                      <span className="abbr"> (u.)</span>
+                      <span className="abbr"> u.</span>
                       <span className="expan">
                         u<span className="ex">nd</span>
                       </span>
                       <span className="persName">
-                        <span className="abbr"> (M.)</span>
+                        <span className="abbr"> M.</span>
                         <span className="expan">
                           M<span className="ex">inchen</span>
                         </span>
@@ -979,13 +979,13 @@ export default function page() {
                       Schreibe mir ja bald, und
                       <br className="lb" />
                       grüße <span className="persName">Hannchen</span>
-                      <span className="abbr"> (u.)</span>
+                      <span className="abbr"> u.</span>
                       <span className="expan">
                         u<span className="ex">nd</span>
                       </span>{" "}
                       deine Freundinn
                       <span className="persName">
-                        <span className="abbr"> (F.)</span>
+                        <span className="abbr"> F.</span>
                         <span className="expan">
                           F<span className="ex">riederike</span>
                         </span>
@@ -994,7 +994,7 @@ export default function page() {
                       unbe
                       <br className="g.enc.tagsdecl.hyphenation.divis" />
                       kannter Wei<span className="orig">ſ</span><span className="corr">s</span>e herzlich von mir,{" "}
-                      <span className="abbr"> (u.)</span>
+                      <span className="abbr"> u.</span>
                       <span className="expan">
                         u<span className="ex">nd</span>
                       </span>{" "}

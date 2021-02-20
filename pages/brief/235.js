@@ -101,7 +101,7 @@ export default function page() {
                       <span className="date">
                         1.
                         <span className="g.rend.script.latin">
-                          <span className="abbr"> (Decr.)</span>
+                          <span className="abbr"> Decr.</span>
                           <span className="expan">
                             Dec<span className="ex">embe</span>r
                           </span>
@@ -132,7 +132,7 @@ export default function page() {
                     <span className="date">
                       29.
                       <span className="g.rend.script.latin">
-                        <span className="abbr"> (Nov.)</span>
+                        <span className="abbr"> Nov.</span>
                         <span className="expan">
                           Nov<span className="ex">ember</span>
                         </span>
@@ -310,7 +310,7 @@ export default function page() {
                     <br className="lb" />
                     Kindlein ein <span className="orig">ſ</span>
                     <span className="corr">s</span>o gütiger Gott{" "}
-                    <span className="abbr"> (u.)</span>
+                    <span className="abbr"> u.</span>
                     <span className="expan">
                       u<span className="ex">nd</span>
                     </span>{" "}
@@ -338,7 +338,7 @@ export default function page() {
                     <span className="corr">s</span>chon am Mittwoch unmittelbar
                     <br className="lb" />
                     nach der Entbindung meiner{" "}
-                    <span className="abbr"> (l.)</span>
+                    <span className="abbr"> l.</span>
                     <span className="expan">
                       l<span className="ex">ieben</span>
                     </span>{" "}
@@ -386,7 +386,7 @@ export default function page() {
                     <span className="date">
                       16.
                       <span className="g.rend.script.latin">
-                        <span className="abbr"> (Nov.)</span>
+                        <span className="abbr"> Nov.</span>
                         <span className="expan">
                           Nov<span className="ex">ember</span>
                         </span>
@@ -503,8 +503,7 @@ export default function page() {
                       <span className="orig">⹀</span>
                       <span className="corr">-</span>Rei
                       <span className="orig">ſ</span>
-                      <span className="corr">s</span>e noch nicht aus
-                      <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
+                      <span className="corr">s</span>e noch nicht aus<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
                       gemacht war, ob Papa nicht noch nach
                       <span className="placeName">Berlin</span> mußte,
                       <br className="lb" />
@@ -523,7 +522,7 @@ export default function page() {
                       <br className="lb" />
                       <span className="orig">beßer</span>
                       <span className="corr">besser</span> zur Begleiterin des{" "}
-                      <span className="abbr"> (l.)</span>
+                      <span className="abbr"> l.</span>
                       <span className="expan">
                         l<span className="ex">ieben</span>
                       </span>{" "}
@@ -569,7 +568,7 @@ export default function page() {
                       <br className="lb" />
                       Er war <span className="orig">ſ</span>
                       <span className="corr">s</span>eelenvergnügt{" "}
-                      <span className="abbr"> (u.)</span>
+                      <span className="abbr"> u.</span>
                       <span className="expan">
                         u<span className="ex">nd</span>
                       </span>{" "}
@@ -601,7 +600,7 @@ export default function page() {
                     <br className="lb" />
                     ich das <span className="orig">ſ</span>
                     <span className="corr">s</span>ehe{" "}
-                    <span className="abbr"> (u.)</span>
+                    <span className="abbr"> u.</span>
                     <span className="expan">
                       u<span className="ex">nd</span>
                     </span>{" "}
@@ -616,7 +615,7 @@ export default function page() {
                   <div className="closer">
                     Nun lebe recht wohl. Dein Andenken lebt
                     <br className="lb" />
-                    bei uns allen, <span className="abbr"> (u.)</span>
+                    bei uns allen, <span className="abbr"> u.</span>
                     <span className="expan">
                       u<span className="ex">nd</span>
                     </span>{" "}

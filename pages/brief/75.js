@@ -67,7 +67,7 @@ export default function page() {
                         </span>{" "}
                         3{" "}
                         <span className="g.rend.script.latin">
-                          <span className="abbr"> (Febr)</span>
+                          <span className="abbr"> Febr</span>
                           <span className="expan">
                             Febr<span className="ex">uar</span>
                           </span>
@@ -83,7 +83,7 @@ export default function page() {
                             >
                               &nbsp;
                             </span>
-                            Engels <span className="abbr"> (senr.)</span>
+                            Engels <span className="abbr"> senr.</span>
                             <span className="expan">
                               sen<span className="ex">io</span>r
                             </span>
@@ -106,7 +106,7 @@ export default function page() {
                         </span>{" "}
                         5{" "}
                         <span className="g.rend.script.latin">
-                          <span className="abbr"> (Febr.)</span>
+                          <span className="abbr"> Febr.</span>
                           <span className="expan">
                             Febr<span className="ex">uar</span>
                           </span>
@@ -158,11 +158,11 @@ export default function page() {
                           <span className="persName">
                             {" "}
                             <span className="g.rend.script.latin">
-                              <span className="abbr"> (Joh.)</span>
+                              <span className="abbr"> Joh.</span>
                               <span className="expan">
                                 Joh<span className="ex">ann</span>
                               </span>
-                              <span className="abbr"> (Frid.)</span>
+                              <span className="abbr"> Frid.</span>
                               <span className="expan">
                                 Fri<span className="ex">e</span>d
                                 <span className="ex">rich</span>
@@ -170,7 +170,7 @@ export default function page() {
                               Eckhard
                             </span>
                           </span>
-                          <span className="abbr"> (sr.)</span>
+                          <span className="abbr"> sr.</span>
                           <span className="expan">
                             s<span className="ex">enio</span>r
                           </span>{" "}
@@ -299,8 +299,7 @@ export default function page() {
                     ihn gebeten, <span className="orig">ſ</span>
                     <span className="corr">s</span>ich dahin zu verwenden, daß
                     du von der Li<span className="orig">ﬅ</span>
-                    <span className="corr">st</span>e ausge
-                    <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
+                    <span className="corr">st</span>e ausge<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
                     lö<span className="orig">ſ</span>
                     <span className="corr">s</span>cht werde
                     <span className="orig">ﬅ</span>
@@ -310,7 +309,7 @@ export default function page() {
                     <span className="placeName">
                       {" "}
                       <span className="g.rend.script.latin">
-                        <span className="abbr"> (FFurth )</span>
+                        <span className="abbr"> FFurth </span>
                         <span className="expan">
                           F<span className="ex">rank</span>furth
                         </span>
@@ -355,13 +354,11 @@ export default function page() {
                     dir dis gern erlaubte, unter dem{" "}
                     <span className="abbr">Beding:</span> daß du deine{" "}
                     <span className="orig">
-                      Schuld
-                      <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
+                      Schuld<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
                       digkeit
                     </span>
                     <span className="corr">
-                      Schul
-                      <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
+                      Schul<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
                       digkeit
                     </span>
                     {" "}in <span className="orig">ſ</span>
@@ -387,7 +384,7 @@ export default function page() {
                     <span className="corr">Dis</span> wir
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span> du{" "}
-                    <span className="abbr"> (L.)</span>
+                    <span className="abbr"> L.</span>
                     <span className="expan">
                       L<span className="ex">ieber</span>
                     </span>{" "}
@@ -501,8 +498,7 @@ export default function page() {
                     <span className="corr">s</span>o viel drauf lernen, daß du
                     mit deinen Brüdern uns <br className="lb" />
                     <span className="abbr">
-                      {" "}
-                      (<span className="orig">ſ</span>
+                      {" "}<span className="orig">ſ</span>
                       <span className="corr">s</span>.)
                     </span>
                     <span className="expan">
@@ -609,7 +605,7 @@ export default function page() {
                     die Briefe erhalten, und wie es den
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>elben ergangen{" "}
-                    <span style={{ textDecoration: "line-through" }}>
+                    <span className="strike-through" style={{ textDecoration: "line-through" }}>
                       i<span className="orig">ﬅ</span>
                       <span className="corr">st</span>
                     </span>
@@ -673,7 +669,7 @@ export default function page() {
                         <span className="ex">rn</span>
                       </span>{" "}
                       <span className="g.rend.script.latin">
-                        <span className="abbr"> (Ek.)</span>
+                        <span className="abbr"> Ek.</span>
                         <span className="expan">
                           Ek<span className="ex">hard</span>
                         </span>
@@ -701,7 +697,7 @@ export default function page() {
                     <a id="mark.004.s">{/*anchor*/}</a>
                     <span className="religion">
                       <a id="mark.005.s">{/*anchor*/}</a>Die{" "}
-                      <span className="abbr"> (L.)</span>
+                      <span className="abbr"> L.</span>
                       <span className="expan">
                         L<span className="ex">iebe</span>
                       </span>{" "}
@@ -774,7 +770,7 @@ export default function page() {
                     <div className="signed">
                       {" "}
                       <span className="g.rend.script.latin">
-                        <span className="abbr"> (C.)</span>
+                        <span className="abbr"> C.</span>
                         <span className="expan">
                           C<span className="ex">aspar</span>{" "}
                         </span>

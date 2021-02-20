@@ -683,6 +683,7 @@ img {
 .kuvert small {
   font-size: 1.4rem;
   line-height: 1.5rem;
+  line-height: 1.5rem;
 }
 
 .kuvert .xsmall {
@@ -765,7 +766,7 @@ img {
  */
 
 .vergleichs-ansicht {
-  font-family: "Charter";
+  font-family: 'baskerville';
   line-height: 1.6rem;
   letter-spacing: 0px;
   font-size: 1rem;
@@ -776,10 +777,13 @@ img {
   display: none;
 }
 
-.vergleichs-ansicht .abbr,
 .vergleichs-ansicht .ex {
+  display: none;}
+
+/* 
+.vergleichs-ansicht .abbr {
   display: none;
-}
+} */
 
 .vergleichs-ansicht blockquote {
   margin: 0px;
@@ -828,14 +832,6 @@ table {
   margin-left: 100px;
 }
 
-.vergleichs-ansicht .expan::after {
-  content: ".";
-  display: inline;
-}
-
-.g\.enc\.tagsdecl\.suspension\.type3 {
-  display: none;
-}
 
 .detail-ansicht {
   width: 100%;
@@ -861,6 +857,11 @@ table {
 
 .normalisiert .abbr{
   display: none;
+}
+
+.normalisiert .unclear{
+  display: none;
+  color: pink;
 }
 
 .normalisiert .orig,
@@ -1024,9 +1025,88 @@ p > span .latin {
   display: none;
 }
 
+
+/* .vergleichs-ansicht .expan::after {
+  content: ".";
+  display: inline;
+} */
+
+
 .g\.enc\.tagsdecl\.suspension\.type1 {
-  color: red;
   display: none;
+}
+
+.g\.enc\.tagsdecl\.suspension\.type1 + .expan:after {
+  color: red;
+  content: "ƺ";
+  display: inline;
+}
+
+
+
+.g\.enc\.tagsdecl\.suspension\.type2 {
+  display: none;
+}
+
+.g\.enc\.tagsdecl\.suspension\.type2 + .expan:after {
+  color: green;
+  content: "ℓ.";
+  display: inline;
+}
+
+.g\.enc\.tagsdecl\.suspension\.type3 {
+  display: none;
+}
+
+.g\.enc\.tagsdecl\.suspension\.type3 + .expan:after {
+  color: blue;
+  content: ".∮";
+  display: inline;
+}
+
+
+.insertion{
+  text-decoration: underline;
+}
+
+.add{
+  /**/
+}
+
+br ::before{
+  content: "⹀";
+  display: inline;
+}
+
+.normalisiert .hide-doublehypen{
+  display: none;
+}
+
+.strikethrough{
+  text-decoration:line-through;
+}
+
+.border-bottom{
+  margin-top: 10px;
+  border-bottom: 2px solid black;
+}
+
+
+#txt\.add001::after{
+  content: ")";
+  transform: rotate(180deg);
+  display: inline;
+  color: aqua;
+}
+
+/* .g\.enc\.tagsdecl\.cc.abbr-sup-am */
+/* .g\.enc\.tagsdecl\.cc\.abbr-colon-sup{}
+  text-decoration: double;
+} */
+
+.double-underline{
+  text-decoration: underline;
+  border-bottom: 1px double black;
 }
 
 .navigation {

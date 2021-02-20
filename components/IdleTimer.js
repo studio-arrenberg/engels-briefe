@@ -24,15 +24,15 @@ export default function Idle(props) {
     // );
   }
 
-  useEffect(() => {
-    const timeout = setTimeout(() => {
-      // setCount(1);
-      if (idle == true) {
-        window.location = "http://localhost:3000";
-      }
-    }, 3000);
-    return () => clearTimeout(timeout);
-  });
+  // useEffect(() => {
+  //   const timeout = setTimeout(() => {
+  //     // setCount(1);
+  //     if (idle == true) {
+  //       window.location = "http://localhost:3000";
+  //     }
+  //   }, 3000);
+  //   return () => clearTimeout(timeout);
+  // });
 
   function activeCallbackFn() {
     console.log("You're awake ;)");

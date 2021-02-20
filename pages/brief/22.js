@@ -154,14 +154,12 @@ export default function page() {
                     <span className="corr">s</span>ers lieben him̅li
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chen Vaters{" "}
-                    <span style={{ textDecoration: "line-through" }}>
+                    <span className="strike-through" style={{ textDecoration: "line-through" }}>
                       dir
                     </span>{" "}
-                    verge
-                    <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
+                    verge<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
                     genwärtigen, die Er uns auf <span className="orig">ſ</span>
-                    <span className="corr">s</span>o mannigfal
-                    <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
+                    <span className="corr">s</span>o mannigfal<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
                     tige Art, und be<span className="orig">ſ</span>
                     <span className="corr">s</span>onders auch{" "}
                     <span className="orig">jezt</span>
@@ -185,8 +183,7 @@ export default function page() {
                     <span className="corr">s</span>eitig{" "}
                     <br className="lb" />
                     zum warmen herzlichen <span className="orig">Danck</span>
-                    <span className="corr">Dank</span> dafür er
-                    <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
+                    <span className="corr">Dank</span> dafür er<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
                     muntern.<a id="teaser.part.002.e">{/*anchor*/}</a> O! mein
                     lieber! ganz{" "}
                     <span className="orig">oﬀenbahr</span>
@@ -236,7 +233,7 @@ export default function page() {
                       Ps<span className="ex">alm</span>
                     </span>{" "}
                     66,{" "}
-                    <span className="abbr"> (vs)</span>
+                    <span className="abbr"> vs</span>
                     <span className="expan">
                       v<span className="ex">er</span>s
                     </span>{" "}
@@ -250,10 +247,8 @@ export default function page() {
                     <br className="lb" />
                     lange Winter Abenden noch manche{" "}
                     <span className="orig">erquikende</span>
-                    <span className="corr">erquickende</span> Seel{" "}
-                    <span className="orig">
-                      <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
-                    </span>
+                    <span className="corr">erquickende</span> Seel<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />{" "}
+                    <span className="orig"></span>
                     <span className="corr">
                       <br className="lb" />
                     </span>

@@ -54,13 +54,13 @@ export default function page() {
                       <span className="address"><span className="small">
                         An Frau </span>Elise Engels
                         <span className="small">
-                        <br />p <span className="abbr"> (Adr.)</span>
+                        <br />p <span className="abbr"> Adr.</span>
                         <span className="expan">
                           Adr<span className="ex">esse</span>
                         </span>{" "}
                         dHerren{" "}
                         </span>
-                        <span className="abbr"> (Friedr.)</span>
+                        <span className="abbr"> Friedr.</span>
                         <span className="expan">
                           Friedr<span className="ex">ich</span>
                         </span>{" "}
@@ -130,7 +130,7 @@ export default function page() {
                     gut geht, was uns auch
                     <span className="g.rend.script.latin">
                       <span className="persName">
-                        <span className="abbr"> (M.)</span>
+                        <span className="abbr"> M.</span>
                         <span className="expan">
                           M<span className="ex">athilde</span>
                         </span>
@@ -163,7 +163,7 @@ export default function page() {
                       &nbsp;
                     </span>
                     Die Rei<span className="orig">ſ</span><span className="corr">s</span>e von
-                    <span style={{ textDecoration: "line-through" }}>Ha</span>
+                    <span className="strike-through" style={{ textDecoration: "line-through" }}>Ha</span>
                     <span className="placeName">
                       <span className="g.rend.script.latin">London</span>
                     </span>
@@ -198,7 +198,7 @@ export default function page() {
                       <span className="g.rend.script.latin">Treviranus</span>
                     </span>
                     uns noch im Bette traf. Deshalb kann
-                    <span style={{ textDecoration: "line-through" }}>
+                    <span className="strike-through" style={{ textDecoration: "line-through" }}>
                       un<span className="orig">ſ</span><span className="corr">s</span>er
                     </span>
                     <br className="lb" />
@@ -250,12 +250,12 @@ export default function page() {
                     <span className="g.rend.script.latin">Grège</span> gekauft,
                     etwa 30 Ballen zu ziemlich billigen
                     <br className="lb" />
-                    <span style={{ textDecoration: "line-through" }}>
+                    <span className="strike-through" style={{ textDecoration: "line-through" }}>
                       Ballen,
                     </span>{" "}
                     Prei<span className="orig">ſ</span><span className="corr">s</span>en, <span className="orig">ſ</span><span className="corr">s</span>age
                     <span className="persName">Strücker</span> nichts
-                    <span style={{ textDecoration: "line-through" }}>da</span>
+                    <span className="strike-through" style={{ textDecoration: "line-through" }}>da</span>
                     von der Zahl damit <span className="orig">ſ</span><span className="corr">s</span>olche
                     <br className="lb" />
                     nicht bekannt wird. In
@@ -277,7 +277,7 @@ export default function page() {
                     <span className="placeName">
                       <span className="g.rend.script.latin">Hamm</span>
                     </span>
-                    daß er gegen 18. <span className="abbr"> (Aug)</span>
+                    daß er gegen 18. <span className="abbr"> Aug</span>
                     <span className="expan">
                       Aug<span className="ex">ust</span>
                     </span>{" "}
@@ -299,11 +299,11 @@ export default function page() {
                         </span>
                       </span>
                     </sup>
-                    <span className="abbr"> (u)</span>
+                    <span className="abbr"> u</span>
                     <span className="expan">
                       u<span className="ex">nd</span>
                     </span>{" "}
-                    Dich noch zu <span className="orig">ſ</span><span className="corr">s</span>ehen <span className="abbr"> (u)</span>
+                    Dich noch zu <span className="orig">ſ</span><span className="corr">s</span>ehen <span className="abbr"> u</span>
                     <span className="expan">
                       u<span className="ex">nd</span>
                     </span>{" "}
@@ -330,7 +330,7 @@ export default function page() {
                     <br className="lb" />
                     Grüße die <span className="persName">Mutter</span>,
                     <span className="persName">Hannchen</span>{" "}
-                    <span className="abbr"> (u.)</span>
+                    <span className="abbr"> u.</span>
                     <span className="expan">
                       u<span className="ex">nd</span>
                     </span>
@@ -382,7 +382,7 @@ export default function page() {
                     waren
                     <br className="lb" />
                     wir gegen 12 Uhr in
-                    <span style={{ textDecoration: "line-through" }}>de</span>
+                    <span className="strike-through" style={{ textDecoration: "line-through" }}>de</span>
                     <span className="placeName">Manche<span className="orig">ﬅ</span><span className="corr">st</span>er</span>. Dort blieben
                     wir bis zum näch<span className="orig">ﬅ</span><span className="corr">st</span>en
                     <br className="lb" />
@@ -416,7 +416,7 @@ export default function page() {
                     oder 4 Uhr Nachmittags wieder auf, aß etwas, das mir gut
                     bekam, und
                     <br className="lb" />
-                    <span style={{ textDecoration: "line-through" }}>
+                    <span className="strike-through" style={{ textDecoration: "line-through" }}>
                       als
                     </span>{" "}
                     einige Stunden nachher <span className="orig">ﬅ</span><span className="corr">st</span>and der{" "}
@@ -438,7 +438,7 @@ export default function page() {
                     waren wir um 5 Uhr in{" "}
                     <span className="placeName">Cuxhaven</span>, fuhren gleich
                     durch
-                    <span style={{ textDecoration: "line-through" }}>
+                    <span className="strike-through" style={{ textDecoration: "line-through" }}>
                       die Lu
                     </span>{" "}
                     einen
@@ -449,7 +449,7 @@ export default function page() {
                     Abends
                     <br className="lb" />
                     <span className="orig">ſ</span><span className="corr">s</span>ieben Uhr{" "}
-                    <span style={{ textDecoration: "line-through" }}>
+                    <span className="strike-through" style={{ textDecoration: "line-through" }}>
                       bei
                     </span>{" "}
                     in

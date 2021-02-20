@@ -74,8 +74,7 @@ export default function page() {
                     habe ich vorge<span className="orig">ﬅ</span><span className="corr">st</span>ern Morgen zugleich erhalten, der
                     {" "}<br className="lb" />
                     aus <span className="placeName">Schwalbach</span> muß al<span className="orig">ſ</span><span className="corr">s</span>o
-                    Unterwegens liegen ge
-                    <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
+                    Unterwegens liegen ge<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
                     blieben <span className="orig">ſ</span><span className="corr">s</span>eÿn –
                     <span className="reisen">
                       <a id="mark.001.s">{/*anchor*/}</a>
@@ -172,13 +171,11 @@ export default function page() {
                       {" "}<br className="lb" />
                       wieder zu umarmen, dann wollen wir Ihm{" "}
                       <span className="orig">
-                        gemein
-                        <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
+                        gemein<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
                         <span className="orig">ſ</span><span className="corr">s</span>chaﬀtlich
                       </span>
                       <span className="corr">
-                        gemein
-                        <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
+                        gemein<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
                         <span className="orig">ſ</span><span className="corr">s</span>chaftlich
                       </span>{" "}
                       danken, und miteinander Seinen Nahmen
@@ -251,8 +248,7 @@ export default function page() {
                         nicht
                       </sup>{" "}
                       wegen den Unruhen <span className="orig">verlohren</span>
-                      <span className="corr">verloren</span> ge
-                      <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
+                      <span className="corr">verloren</span> ge<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
                       gangen i<span className="orig">ﬅ</span><span className="corr">st</span>!
                     </p>
                     <p>
@@ -279,8 +275,7 @@ export default function page() {
                   <span className="reisen">
                       es etwas un<span className="orig">ſ</span><span className="corr">s</span>icher war, nicht über
                       <span className="placeName"> Manheim</span> ge
-                      <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
-                      rei<span className="orig">ﬅ</span><span className="corr">st</span> bi<span className="orig">ﬅ</span><span className="corr">st</span> <a id="mark.006.e">{/*anchor*/}</a>– Vielleicht
+                      <span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />rei<span className="orig">ﬅ</span><span className="corr">st</span> bi<span className="orig">ﬅ</span><span className="corr">st</span> <a id="mark.006.e">{/*anchor*/}</a>– Vielleicht
                       i<span className="orig">ﬅ</span><span className="corr">st</span> es auch für die Sache
                       {" "}<br className="lb" />
                       <span className="orig">beßer</span>
@@ -306,9 +301,7 @@ export default function page() {
                       {" "}<br className="lb" />
                       <span className="orig">ſ</span><span className="corr">s</span>o zu handlen, wie Er es machen würde, wann
                       {" "}<br className="lb" />
-                      Er an Deiner Stelle wäre. Er, un<span className="orig">ſ</span><span className="corr">s</span>er Göttlicher Hohen
-                      <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
-                      prie<span className="orig">ﬅ</span><span className="corr">st</span>er gebe Euch Beÿde,{" "}
+                      Er an Deiner Stelle wäre. Er, un<span className="orig">ſ</span><span className="corr">s</span>er Göttlicher Hohen<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />prie<span className="orig">ﬅ</span><span className="corr">st</span>er gebe Euch Beÿde,{" "}
                       <span className="orig">Weißheit</span>
                       <span className="corr">Weisheit</span>, und Ver<span className="orig">ﬅ</span><span className="corr">st</span>and,
                       {" "}<br className="lb" />
@@ -317,9 +310,7 @@ export default function page() {
                       <span className="orig">jezt</span>
                       <span className="corr">jetzt</span> nöthig
                       {" "}<br className="lb" />
-                      habt. Wann es mit Seinen vollkom̅nen Willen be
-                      <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
-                      <span className="orig">ﬅ</span><span className="corr">st</span>ehen kann, <span className="orig">ſ</span><span className="corr">s</span>o glaube ich ganz <span className="orig">ſ</span><span className="corr">s</span>icher wird die
+                      habt. Wann es mit Seinen vollkom̅nen Willen be<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" /><span className="orig">ﬅ</span><span className="corr">st</span>ehen kann, <span className="orig">ſ</span><span className="corr">s</span>o glaube ich ganz <span className="orig">ſ</span><span className="corr">s</span>icher wird die
                       {" "}<br className="lb" />
                       Sache gelingen, und ge<span className="orig">ſ</span><span className="corr">s</span>chicht die<span className="orig">ſ</span><span className="corr">s</span>es nicht, <span className="orig">ſ</span><span className="corr">s</span>o wollen
                       {" "}<br className="lb" />
@@ -327,7 +318,7 @@ export default function page() {
                       {" "}<br className="lb" />
                       für uns, <span className="orig">ſ</span><span className="corr">s</span>o <span className="orig">beßer</span>
                       <span className="corr">besser</span>{" "}
-                      <span style={{ textDecoration: "line-through" }}>
+                      <span className="strike-through" style={{ textDecoration: "line-through" }}>
                         i<span className="orig">ﬅ</span><span className="corr">st</span>
                       </span>{" "}
                       und{" "}
@@ -357,8 +348,7 @@ export default function page() {
                       {" "}<br className="lb" />
                       nachher das Geld, und nicht Gott die Ehre gegeben
                       {" "}<br className="lb" />
-                      wird. Wir haben zu<span className="orig">ſ</span><span className="corr">s</span>am̅en einige P<span className="orig">ſ</span><span className="corr">s</span>almen durch
-                      <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
+                      wird. Wir haben zu<span className="orig">ſ</span><span className="corr">s</span>am̅en einige P<span className="orig">ſ</span><span className="corr">s</span>almen durch<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
                       gele<span className="orig">ſ</span><span className="corr">s</span>en und darüber ge<span className="orig">ſ</span><span className="corr">s</span>prochen, unter andern
                       {" "}<br className="lb" />
                       auch den 36
@@ -420,12 +410,10 @@ export default function page() {
                       mir. Vielleicht kann<span className="orig">ﬅ</span><span className="corr">st</span> Du ihm{" "}
                       <span className="orig">nüzlich</span>
                       <span className="corr">nützlich</span> werden, durch Mit
-                      <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
-                      theilung der Gei<span className="orig">ﬅ</span><span className="corr">st</span>esgaben, <span className="orig">ſ</span><span className="corr">s</span>o Du <span className="orig">ſ</span><span className="corr">s</span>chon aus Gnaden vom
+                      <span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />theilung der Gei<span className="orig">ﬅ</span><span className="corr">st</span>esgaben, <span className="orig">ſ</span><span className="corr">s</span>o Du <span className="orig">ſ</span><span className="corr">s</span>chon aus Gnaden vom
                       {" "}<br className="lb" />
                       Herrn empfangen ha<span className="orig">ﬅ</span><span className="corr">st</span><a id="mark.008.e">{/*anchor*/}</a> und
-                      einige Vorurtheile und Jrr
-                      <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
+                      einige Vorurtheile und Jrr<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
                       thümer beÿ ihm zer<span className="orig">ﬅ</span><span className="corr">st</span>ören.
                       <a id="mark.007.e">{/*anchor*/}</a>
                     </p>
@@ -465,8 +453,7 @@ export default function page() {
                   <p>
                     Vorigen Sonntag Abend haben wir beÿ{" "}
                     <span className="persName">
-                      Bruder Brögel
-                      <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
+                      Bruder Brögel<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
                       mann
                     </span>{" "}
                     gege<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>en, wir gingen zum Caﬀee hin, und
@@ -499,8 +486,7 @@ export default function page() {
                     <span className="orig">Jnnhalt</span>
                     <span className="corr">Jnhalt</span> meines Briefes
                     {" "}<br className="lb" />
-                    wohl <span className="orig">ſ</span><span className="corr">s</span>ehen, ich brauche es Dir al<span className="orig">ſ</span><span className="corr">s</span>o nicht er<span className="orig">ﬅ</span><span className="corr">st</span> zu ver
-                    <br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
+                    wohl <span className="orig">ſ</span><span className="corr">s</span>ehen, ich brauche es Dir al<span className="orig">ſ</span><span className="corr">s</span>o nicht er<span className="orig">ﬅ</span><span className="corr">st</span> zu ver<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
                     <span className="orig">ſ</span><span className="corr">s</span>ichern.
                   </p>
                   <div className="closer">
