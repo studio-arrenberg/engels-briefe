@@ -161,8 +161,7 @@ export default function page() {
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
                       (engli<span className="orig">ſ</span>
-                      <span className="corr">s</span>ch)
-                    </span>
+                      <span className="corr">s</span>ch</span>
                     <span className="expan">
                       engli<span className="orig">ſ</span>
                       <span className="corr">s</span>ch
@@ -219,7 +218,7 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>che Arti
                     <span className="overwritten">k</span>
-                    <span className="add">⟨g⟩</span>keit und Zuvorkom̅enheit,
+                    <span className="add">g</span>keit und Zuvorkom̅enheit,
                     <br className="lb" />
                     womit wir in un<span className="orig">ſ</span>
                     <span className="corr">s</span>erm
@@ -251,9 +250,7 @@ export default function page() {
                       <span className="corr">s</span>chen
                     </span>
                     <span className="corr">Wasserflaschen</span>
-                    <sup className="sup" id="txt.add001">
-                      (es war ein warmer Tag)
-                    </sup>{" "}
+                    <sup className="sup" id="txt.add001"> es war ein warmer Tag</sup>{" "}
                     in Eis ge<span className="orig">ﬅ</span>
                     <span className="corr">st</span>anden hatten, und{" "}
                     <span className="orig">ſ</span>
@@ -409,18 +406,17 @@ export default function page() {
                       &nbsp;
                     </span>
                     <span className="add">
-                      ⟨
+                      
                       <span className="g.enc.tagsdecl.suspension.type1">
-                        {" "}
-                        (näch<span className="orig">ﬅ</span>
-                        <span className="corr">st</span>)
+                        näch<span className="orig">ﬅ</span>
+                        <span className="corr">st</span>
                       </span>
                       <span className="expan">
                         näch<span className="orig">ﬅ</span>
                         <span className="corr">st</span>
                         <span className="ex">en</span>
                       </span>
-                      ⟩
+                      
                     </span>
                     Briefe enthalten, werden auch meinen hie
                     <span className="orig">ſ</span>
@@ -540,7 +536,7 @@ export default function page() {
                           <span className="strike-through" style={{ textDecoration: "line-through" }}>
                             24.
                           </span>
-                          <span className="add">⟨25.⟩</span>
+                          <span className="add">25.</span>
                           <span className="g.rend.script.latin">August</span>
                         </span>
                         liebe{" "}
@@ -720,8 +716,7 @@ export default function page() {
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
                       (un<span className="orig">ſ</span>
-                      <span className="corr">s</span>er)
-                    </span>
+                      <span className="corr">s</span>er</span>
                     <span className="expan">
                       un<span className="orig">ſ</span>
                       <span className="corr">s</span>er
@@ -731,8 +726,7 @@ export default function page() {
                     brillant meublirten Stuben beigelegt. In
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (beid)
-                    </span>
+                      (beid</span>
                     <span className="expan">
                       beid<span className="ex">en</span>
                     </span>
@@ -751,8 +745,7 @@ export default function page() {
                     erzählen kann. Doch ich muß
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (aufhör)
-                    </span>
+                      (aufhör</span>
                     <span className="expan">
                       aufhör<span className="ex">en</span>
                     </span>{" "}
@@ -776,8 +769,7 @@ export default function page() {
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
                       (Po<span className="orig">ﬅ</span>
-                      <span className="corr">st</span>zeich)
-                    </span>
+                      <span className="corr">st</span>zeich</span>
                     <span className="expan">
                       Po<span className="orig">ﬅ</span>
                       <span className="corr">st</span>zeich
@@ -813,7 +805,7 @@ export default function page() {
                     <span className="orig">
                       a
                       <span className="damage">
-                        <span className="supplied">&lt;us Bóu&gt;</span>
+                        <span className="supplied"><span className="hide-normalisiert">⟨</span>us Bóu<span className="hide-normalisiert">⟩</span></span>
                       </span>
                       logne
                     </span>
@@ -822,8 +814,8 @@ export default function page() {
                     <br className="lb" />
                     Heimweh hatte.
                     <span className="damage">
-                      <span className="gap"> [...]</span>
-                      <span className="supplied">&lt;wir n&gt;</span>
+                      <span className="gap"> [...] </span>
+                      <span className="supplied"><span className="hide-normalisiert">⟨</span>wir n<span className="hide-normalisiert">⟩</span></span>
                     </span>
                     <span className="orig" />
                     <span className="corr">oc</span>h 14 Tage hier bleiben{" "}
@@ -882,9 +874,7 @@ export default function page() {
                       auch nicht unangenehm <span className="orig">ſ</span>
                       <span className="corr">s</span>eÿn. Nun lebe recht wohl
                       <span className="g.enc.tagsdecl.suspension.type1">
-                        {" "}
-                        (Herzensweibch)
-                      </span>
+                        Herzensweibch </span>
                       <span className="expan">
                         Herzensweibch<span className="ex">en</span>
                       </span>
@@ -924,11 +914,9 @@ export default function page() {
                     <br className="lb" />
                     <span className="g.rend.script.latin">
                       An
-                      <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
-                        (M<span className="orig">ſ</span>
+                      <span className="g.enc.tagsdecl.cc.abbr-colon-sup">M<span className="orig">ſ</span>
                         <span className="corr">s</span>
-                        <sup>r</sup>.)
-                      </span>
+                        <sup>r</sup>. </span>
                       <span className="expan">
                         M<span className="ex">on</span>s
                         <span className="ex">ieu</span>r
@@ -939,13 +927,11 @@ export default function page() {
                       <span className="expan">
                         Adr<span className="ex">esse</span>
                       </span>
-                      <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
-                        (Me<span className="orig">ſ</span>
+                      <span className="g.enc.tagsdecl.cc.abbr-colon-sup">Me<span className="orig">ſ</span>
                         <span className="corr">s</span>
                         <span className="orig">ſ</span>
                         <span className="corr">s</span>
-                        <sup>r</sup>.)
-                      </span>
+                        <sup>r</sup>. </span>
                       <span className="expan">
                         Mes<span className="ex">sieu</span>r
                         <span className="ex">s</span>
@@ -965,7 +951,7 @@ export default function page() {
                       <span style={{ display: "inline-block" }} width="1words">
                         &nbsp;
                       </span>
-                      Rue S<span className="abbr">(t.</span>
+                      Rue S<span className="abbr">t.</span>
                       <span className="expan">
                         <span className="ex">ain</span>t
                       </span>{" "}
@@ -981,8 +967,7 @@ export default function page() {
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (lor)
-                    </span>
+                      (lor</span>
                     <span className="expan">
                       verlor<span className="ex">en</span>
                     </span>{" "}
@@ -995,9 +980,7 @@ export default function page() {
                   <p>
                     <span className="persName">
                       <span className="g.enc.tagsdecl.suspension.type1">
-                        {" "}
-                        (Minch)
-                      </span>
+                        Minch </span>
                       <span className="expan">
                         Minch<span className="ex">en</span>
                       </span>
@@ -1008,8 +991,7 @@ export default function page() {
                     auch wohl an{" "}
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (Hr)
-                    </span>
+                      (Hr</span>
                     <span className="expan">
                       H<span className="ex">e</span>r
                       <span className="ex">rn</span>

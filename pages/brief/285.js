@@ -63,12 +63,10 @@ export default function page() {
                       </span>{" "}
                       20
                       <span className="g.enc.tagsdecl.suspension.type1">
-                        (
                         <sup>
                           <sup style={{ textDecoration: "underline" }}><span className="orig">ﬅ</span><span className="corr">st</span></sup>
                         </sup>
-                        )
-                      </span>
+                         </span>
                       <span className="expan">
                         <sup>
                           <sup style={{ textDecoration: "underline" }}>
@@ -427,7 +425,7 @@ export default function page() {
                   </span>
                   <span className="persName">
                     <span className="abbr">
-                      {" "}<span className="hi">vdKuhlen</span>)
+                      {" "}<span className="hi">vdKuhlen</span>
                     </span>
                     <span className="expan">
                       v<span className="ex">on </span>d
@@ -477,7 +475,7 @@ export default function page() {
                     &nbsp;
                   </span>
                   <span className="add" id="txt.add002">
-                    ⟨Sie ⟩
+                    Sie 
                   </span>
                   anders mich mit der Zahlung ferner beauftragen.
                 </p>

@@ -113,7 +113,7 @@ export default function page() {
                     dein und der <a id="annot.002.s">{/*anchor*/}</a>
                     <span className="makierung">Kinder</span>
                     <a id="annot.002.e">{/*anchor*/}</a>
-                    Wohl ge
+                    {" "}Wohl ge
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     freut. Gott <span className="orig">ſ</span>
                     <span className="corr">s</span>eÿ dafür gedankt, Er
@@ -138,9 +138,9 @@ export default function page() {
                     an allen <span className="orig">Eken</span>
                     <span className="corr">Ecken</span>. Bei{" "}
                     <a id="annot.003.s">{/*anchor*/}</a>
-                    <span className="makierung">Augusts</span>
+                    <span className="makierung g.rend.script.latin">Augusts</span>
                     <a id="annot.003.e">{/*anchor*/}</a>
-                    finde
+                    {" "}finde
                     <br className="lb" />
                     ich zwar immer einen guten Ti<span className="orig">ſ</span>
                     <span className="corr">s</span>ch
@@ -191,8 +191,7 @@ export default function page() {
                     Uebrigens bin ich mit den
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (Arbeit)
-                    </span>
+                      (Arbeit</span>
                     <span className="expan">
                       Arbeit<span className="ex">en</span>
                     </span>
@@ -211,8 +210,7 @@ export default function page() {
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
                       (<span className="orig">ſ</span>
-                      <span className="corr">s</span>ämtlich)
-                    </span>
+                      <span className="corr">s</span>ämtlich</span>
                     <span className="expan">
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>ämtlich
@@ -269,8 +267,7 @@ export default function page() {
                     <span className="corr">s</span>erer
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (künftig)
-                    </span>
+                      (künftig</span>
                     <span className="expan">
                       künftig<span className="ex">en</span>
                     </span>
@@ -292,8 +289,7 @@ export default function page() {
                     <span className="corr">s</span>o warmes Wetter
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (behalt)
-                    </span>
+                      (behalt</span>
                     <span className="expan">
                       behalt<span className="ex">en</span>
                     </span>
@@ -412,16 +408,13 @@ export default function page() {
                     <span className="corr">s</span>chien nämlich zu fürchten,
                     <br className="lb" />
                     als wenn ich ihm
-                    <sup className="sup" id="txt.add001">
-                      (dem Pferde)
-                    </sup>{" "}
+                    <sup className="sup" id="txt.add001"> dem Pferde</sup>{" "}
                     dadurch zu viel
                     <br className="lb" />
                     zumuthete. Doch darüber{" "}
                     <span className="abbr">
                       {" "}<span className="orig">ſ</span>
-                      <span className="corr">s</span>. Z.)
-                    </span>
+                      <span className="corr">s</span>. Z.</span>
                     <span className="expan">
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>
@@ -449,8 +442,7 @@ export default function page() {
                     <span className="corr">s</span>ie Sonntag
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (d.)
-                    </span>
+                      (d.</span>
                     <span className="expan">
                       d<span className="ex">en</span>
                     </span>{" "}
@@ -847,8 +839,7 @@ export default function page() {
                             <br className="g.enc.tagsdecl.hyphenation.eq" />
                             stift mit
                             <span className="g.rend.script.latin">
-                              {/* <span className="g.enc.tagsdecl.cc.abbr-sup-am">
-                                (F<sup>ch</sup>⹀)
+                              {/* <span className="g.enc.tagsdecl.cc.abbr-sup-am">F<sup>ch</sup>⹀)
                               </span> */}
                               {" "}<span className="expan">
                                 F<span className="ex">riedri</span>ch
@@ -938,7 +929,7 @@ export default function page() {
                             >
                               &nbsp;
                             </span>
-                            <span className="add">⟨hiezu⟩</span> die 7
+                            <span className="add">hiezu</span> die 7
                             angestrichnen
                             <br className="lb" />
                             <span className="g.enc.tagsdecl.suspension.type1">
@@ -1140,8 +1131,7 @@ export default function page() {
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
                       (<span className="orig">ſ</span>
-                      <span className="corr">s</span>chreib)
-                    </span>
+                      <span className="corr">s</span>chreib</span>
                     <span className="expan">
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>chreib
@@ -1162,14 +1152,14 @@ export default function page() {
                       <span className="liebe">
                         Warlich wenn
                         <br className="lb" />
-                        ich an dich <span className="abbr"> u.</span>
+                        ich an dich <span className="abbr"> u.</span> {/* */}
                         <span className="expan">
                           u<span className="ex">nd</span>
                         </span>
                         <span className="strike-through" style={{ textDecoration: "line-through" }}>
-                          <span className="unclear">und[?]</span>
+                          <span className="unclear">und</span>
                         </span>
-                        an die beiden
+                        {" "}an die beiden
                         <br className="lb" />
                         holden <a id="annot.021.s">{/*anchor*/}</a>
                         <span className="makierung">Jungens</span>

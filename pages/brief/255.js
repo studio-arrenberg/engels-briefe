@@ -136,8 +136,7 @@ export default function page() {
                     meine Briefe darf<span className="orig">ﬅ</span><span className="corr">st</span> Du
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (niemand)
-                    </span>
+                      (niemand</span>
                     <span className="expan">
                       niemand<span className="ex">en</span>
                     </span>
@@ -170,8 +169,8 @@ export default function page() {
                   <span style={{ display: "inline-block" }} width="-4em">
                     &nbsp;
                   </span>
-                  <span className="add" id="txt.add002">
-                    ⟨<span className="orig">ﬅ</span><span className="corr">st</span>e⟩
+                  <span className="add einzug-links" id="txt.add002">
+                    <span className="orig">ﬅ</span><span className="corr">st</span>e
                   </span>
                   <span className="orig">
                     Herzens<span className="unclear">^</span>
@@ -259,8 +258,7 @@ export default function page() {
                   daß <span className="g.rend.script.latin">Casper</span> eine
                   Stafette an
                   <span className="g.rend.script.latin">
-                    <span className="abbr">
-                      (W
+                    <span className="abbr"> W
                       <span className="g.enc.tagsdecl.cc.abbr-period-sup">
                         <sup>m</sup>.
                       </span></span>
@@ -516,7 +514,7 @@ export default function page() {
                   bitten, daß
                   <span className="orig">
                     <span className="overwritten">S</span>
-                    <span className="add">⟨<span className="orig">ſ</span><span className="corr">s</span>⟩</span>ie
+                    <span className="add"><span className="orig">ſ</span><span className="corr">s</span></span>ie
                   </span>
                   <span className="corr">sie</span> ihrem Manne <span className="orig">ſ</span><span className="corr">s</span>chrei
                   <br className="g.enc.tagsdecl.hyphenation.divis" />

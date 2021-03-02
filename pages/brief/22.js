@@ -140,9 +140,9 @@ export default function page() {
                     <span className="corr">Geliebter</span>!{" "}
                     <a id="teaser.part.002.s">{/*anchor*/}</a>ofte w
                     <span className="overwritten">i</span>
-                    <span className="add">⟨o⟩</span>ll
+                    <span className="add">o</span>ll
                     <span className="add" id="txt.add001">
-                      ⟨en⟩
+                      en
                     </span>{" "}
                     wir uns{" "}
                     <br className="lb" />
@@ -225,9 +225,8 @@ export default function page() {
                     <span className="corr">s</span>eine Güte von uns
                     <br className="lb" />
                     gewendet hat{" "}
-                    <span className="abbr">
-                      (Ps<span className="orig">:</span>
-                      <span className="corr">.</span>)
+                    <span className="abbr"> Ps<span className="orig">:</span>
+                      <span className="corr">.</span>
                     </span>
                     <span className="expan">
                       Ps<span className="ex">alm</span>

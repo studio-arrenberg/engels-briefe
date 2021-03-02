@@ -214,9 +214,7 @@ export default function page() {
                     <a id="mark.001.s">{/*anchor*/}</a>Dem
                     <span className="persName">
                       <span className="g.enc.tagsdecl.suspension.type1">
-                        {" "}
-                        (Hr.)
-                      </span>
+                        Hr. </span>
                       <span className="expan">
                         H<span className="ex">e</span>r
                         <span className="ex">rn</span>
@@ -226,8 +224,7 @@ export default function page() {
                     danke für <span className="orig">ſ</span><span className="corr">s</span>eine Briefe die mich <span className="orig">ſ</span><span className="corr">s</span>ehr
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (intere<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>irt)
-                    </span>
+                      (intere<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>irt</span>
                     <span className="expan">
                       intere<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>irt<span className="ex">en</span>
                     </span>
@@ -292,8 +289,7 @@ export default function page() {
                       <span className="persName">
                         <span className="g.enc.tagsdecl.suspension.type1">
                           {" "}
-                          (Hannch)
-                        </span>
+                          (Hannch</span>
                         <span className="expan">
                           Hannch<span className="ex">en</span>
                         </span>

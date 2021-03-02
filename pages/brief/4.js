@@ -169,9 +169,7 @@ export default function page() {
                       <br className="lb" /> Ruhe mehr werth i<span className="orig">ﬅ</span><span className="corr">st</span>, als alle Lu<span className="orig">ﬅ</span><span className="corr">st</span>
                       die<span className="orig">ſ</span><span className="corr">s</span>er Welt, und alle{" "}
                       <span className="g.enc.tagsdecl.suspension.type1">
-                        {" "}
-                        (Lu<span className="orig">ﬅ</span><span className="corr">st</span>barkeit)
-                      </span>
+                        Lu<span className="orig">ﬅ</span><span className="corr">st</span>barkeit </span>
                       <span className="expan">
                         Lu<span className="orig">ﬅ</span><span className="corr">st</span>barkeit<span className="ex">en</span>
                       </span>

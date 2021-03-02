@@ -63,8 +63,7 @@ export default function page() {
                         <br />
                         <span className="small">
                           <span className="g.enc.tagsdecl.suspension.type3">
-                            {" "}
-                            (Adr)
+                            {" "}Adr)
                           </span>
                           <span className="expan">
                             Adr<span className="ex">esse</span>
@@ -266,8 +265,7 @@ export default function page() {
                     <span className="corr">s</span>erem alten Wirth
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (Hr)
-                    </span>
+                      (Hr</span>
                     <span className="expan">
                       H<span className="ex">e</span>r
                       <span className="ex">rn</span>

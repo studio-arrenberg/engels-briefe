@@ -236,8 +236,7 @@ export default function page() {
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
                       (Um<span className="orig">ﬅ</span>
-                      <span className="corr">st</span>änd)
-                    </span>
+                      <span className="corr">st</span>änd</span>
                     <span className="expan">
                       Um<span className="orig">ﬅ</span>
                       <span className="corr">st</span>änd
@@ -414,8 +413,7 @@ export default function page() {
                     wirkliche
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (Abhaltung)
-                    </span>
+                      (Abhaltung</span>
                     <span className="expan">
                       Abhaltung<span className="ex">en</span>
                     </span>
@@ -487,7 +485,7 @@ export default function page() {
                       <span className="orig">ﬅ</span>
                       <span className="corr">st</span>
                       <span className="damage">
-                        <span className="supplied">&lt;über&gt;</span>
+                        <span className="supplied"><span className="hide-normalisiert">⟨</span>über<span className="hide-normalisiert">⟩</span></span>
                       </span>
                       ihr ruhiges Ent<span className="orig">ſ</span>
                       <span className="corr">s</span>agen
@@ -574,7 +572,7 @@ export default function page() {
                       </span>{" "}
                       dankbar gegen den höhe
                       <span className="damage">
-                        <span className="unclear">rn[?]</span>
+                        <span className="unclear">rn</span>
                       </span>
                       <br className="lb" />
                       Lenker die<span className="orig">ſ</span>
@@ -624,8 +622,7 @@ export default function page() {
                     <span className="corr">lassen</span> dich herzlich{" "}
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (grüß)
-                    </span>
+                      (grüß</span>
                     <span className="expan">
                       grüß<span className="ex">en</span>
                     </span>
@@ -639,9 +636,7 @@ export default function page() {
                     und meine gute
                     <span className="persName">
                       <span className="g.enc.tagsdecl.suspension.type1">
-                        {" "}
-                        (Schwiegermutt)
-                      </span>
+                        Schwiegermutt </span>
                       <span className="expan">
                         Schwiegermutt<span className="ex">er</span>
                       </span>

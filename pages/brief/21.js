@@ -50,13 +50,11 @@ export default function page() {
                           <span className="g.rend.script.latin">Madame</span>
                           <br />{" "}
                           <span className="abbr">
-                            {" "}
-                            (Mad
+                            {" "}Mad
                             <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
                               <sup>e</sup>
                               ..
                             </span>
-                            )
                           </span>
                           <span className="expan">
                             Mad<sup class="double-underline">e</sup><span className="ex">ame</span>
@@ -193,8 +191,8 @@ export default function page() {
                       du dich eben so wohl befinde
                       <span className="overwritten">n</span>
                       <span className="add">
-                        ⟨<span className="orig">ﬅ</span>
-                        <span className="corr">st</span>⟩
+                        <span className="orig">ﬅ</span>
+                        <span className="corr">st</span>
                       </span>{" "}
                       <span className="strike-through" style={{ textDecoration: "line-through" }}>
                         möge<span className="orig">ﬅ</span>
@@ -431,8 +429,8 @@ export default function page() {
                     <span className="damage">
                       <span className="gap"> [...]</span>{" "}
                       <span className="supplied">
-                        [ent<span className="orig">ſ</span>
-                        <span className="corr">s</span>chuldigen]
+                        <span className="hide-normalisiert">⟨</span>ent<span className="orig">ſ</span>
+                        <span className="corr">s</span>chuldigen<span className="hide-normalisiert">⟩</span>
                       </span>
                     </span>{" "}
                     und mit einem kurzen Brief
@@ -450,8 +448,7 @@ export default function page() {
                     und Verwandte, die ich herzlich zu{" "}
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (grüß)
-                    </span>
+                      (grüß</span>
                     <span className="expan">
                       grüß<span className="ex">en</span>
                     </span>{" "}
@@ -499,8 +496,7 @@ export default function page() {
                     <div className="dateline">
                       <span className="g.rend.script.latin">
                         <span className="g.enc.tagsdecl.suspension.type1">
-                          (d.)
-                        </span>
+                          (d.</span>
                         <span className="expan">
                           d<span className="ex">en</span>
                         </span>
@@ -509,8 +505,7 @@ export default function page() {
                       <span className="g.rend.script.latin">
                         <span className="abbr">
                           {" "}
-                          (7<sup>ber</sup>)
-                        </span>
+                          (7<sup>ber</sup></span>
                         <span className="expan" />
                       </span>{" "}
                       1791
@@ -520,8 +515,7 @@ export default function page() {
                     Dem guten{" "}
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (Hr.)
-                    </span>
+                      (Hr.</span>
                     <span className="expan">
                       H<span className="ex">er</span>r
                       <span className="ex">n</span>
@@ -530,8 +524,7 @@ export default function page() {
                     <span className="corr">st</span>or hatte ich{" "}
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (ein)
-                    </span>
+                      (ein</span>
                     <span className="expan">
                       ein<span className="ex">en</span>
                     </span>{" "}
@@ -543,8 +536,7 @@ export default function page() {
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
                       (ent<span className="orig">ſ</span>
-                      <span className="corr">s</span>chuldig)
-                    </span>
+                      <span className="corr">s</span>chuldig</span>
                     <span className="expan">
                       ent<span className="orig">ſ</span>
                       <span className="corr">s</span>chuldig

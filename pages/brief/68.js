@@ -63,12 +63,10 @@ export default function page() {
                             display: "block",
                           }}
                         >
-                          <span className="abbr">
-                            (Add
+                          <span className="abbr">Add
                             <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
                               <sup>r</sup>:
                             </span>
-                            )
                           </span>
                           <span className="expan">
                             Add<sup class="double-underline">r</sup><span className="ex">resse</span>
@@ -124,8 +122,7 @@ export default function page() {
                         <span className="placeName">
                           Frankfurth{" "}
                           <span className="abbr">
-                            {" "}
-                            (<sup>a</sup>/m)
+                            {" "}<sup>a</sup>/m)
                           </span>
                           <span className="expan">
                             a<span className="ex">m </span>M
@@ -187,8 +184,7 @@ export default function page() {
                       {" "}pa<span className="orig">ſ</span>
                       <span className="corr">s</span>
                       <span className="orig">ſ</span>
-                      <span className="corr">s</span>.)
-                    </span>
+                      <span className="corr">s</span>.</span>
                     <span className="expan">
                       pa<span className="orig">ſ</span>
                       <span className="corr">s</span>
@@ -429,8 +425,7 @@ export default function page() {
                     <a id="annot.007.s">{/*anchor*/}</a>
                     <span className="persName">
                       <span className="g.enc.tagsdecl.suspension.type1">
-                        {" "}
-                        (Hr.){" "}
+                        Hr.){" "}
                       </span>
                       <span className="expan">
                         H<span className="ex">e</span>r
@@ -441,8 +436,7 @@ export default function page() {
                         <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
                           (D<span className="orig">:</span>
                           <span className="corr">.</span>
-                          <sup>r</sup>)
-                        </span>{" "}
+                          <sup>r</sup></span>{" "}
                         <span className="expan">Doctor</span> Osberghaus
                       </span>
                     </span>
@@ -606,8 +600,7 @@ export default function page() {
                     <a id="annot.009.s">{/*anchor*/}</a>
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (Hr.)
-                    </span>
+                      (Hr.</span>
                     <span className="expan">
                       H<span className="ex">e</span>r
                       <span className="ex">ren</span>
@@ -632,14 +625,12 @@ export default function page() {
                     <a id="annot.011.e">{/*anchor*/}</a> <br className="lb" />
                     150{" "}
                     <span className="abbr">
-                      {" "}D:<sup>z</sup>)
-                    </span>
+                      {" "}D:<sup>z</sup></span>
                     <span className="expan">
                       D<span className="ex">utzend</span>
                     </span>
                     <span className="g.rend.script.latin">
-                      <span className="g.enc.tagsdecl.suspension.type2">
-                        (Lang.){" "}
+                      <span className="g.enc.tagsdecl.suspension.type2">Lang.){" "}
                       </span>
                       <span className="expan">
                         Lang<span className="ex">etten</span>{" "}
@@ -669,9 +660,8 @@ export default function page() {
                     </span>
                     und{" "}
                     <span className="placeName">
-                      <span className="abbr">
-                        (FF. <sup>a</sup>/<span className="orig">o</span>
-                        <span className="corr">O</span>)
+                      <span className="abbr"> FF. <sup>a</sup>/<span className="orig">o</span>
+                        <span className="corr">O</span>
                       </span>
                       <span className="expan">
                         F<span className="ex">rank</span>f
@@ -699,8 +689,7 @@ export default function page() {
                     haben, und daher mit{" "}
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (Hr.)
-                    </span>
+                      (Hr.</span>
                     <span className="expan">
                       H<span className="ex">e</span>r
                       <span className="ex">rn</span>
@@ -713,8 +702,7 @@ export default function page() {
                     einig wurden, <a id="annot.014.s">{/*anchor*/}</a>
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (dHr.)
-                    </span>
+                      (dHr.</span>
                     <span className="expan">
                       d<span className="ex">en</span> Hr
                     </span>
@@ -745,8 +733,7 @@ export default function page() {
                     <span className="corr">s</span>ich{" "}
                     <span className="abbr">
                       {" "}die<span className="orig">ſ</span>
-                      <span className="corr">s</span>elb.)
-                    </span>
+                      <span className="corr">s</span>elb.</span>
                     <span className="expan">
                       die<span className="orig">ſ</span>
                       <span className="corr">s</span>elb
@@ -822,8 +809,7 @@ export default function page() {
                     <span className="corr">s</span>o auch, daß{" "}
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (Hr.)
-                    </span>{" "}
+                      (Hr.</span>{" "}
                     <span className="expan">
                       H<span className="ex">err</span>
                     </span>
@@ -839,8 +825,7 @@ export default function page() {
                     es an die vertau<span className="orig">ſ</span>
                     <span className="corr">s</span>chten <br className="lb" />
                     <span className="g.rend.script.latin">
-                      <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
-                        (N.<sup>r</sup>){" "}
+                      <span className="g.enc.tagsdecl.cc.abbr-colon-sup">N.<sup>r</sup>){" "}
                       </span>
                       <span className="expan">
                         N<span className="ex">ummern</span>{" "}
@@ -890,8 +875,7 @@ export default function page() {
                     <a id="annot.019.s">{/*anchor*/}</a>
                     <span className="g.enc.tagsdecl.suspension.type3">
                       {" "}
-                      (Rempl)
-                    </span>
+                      (Rempl</span>
                     <span className="expan">
                       Rempl<span className="ex">açent</span>
                     </span>
@@ -915,8 +899,7 @@ export default function page() {
                     <a id="annot.020.s">{/*anchor*/}</a>
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (Hr.)
-                    </span>
+                      (Hr.</span>
                     {" "}
                     <span className="expan">
                       H<span className="ex">err</span>
@@ -970,8 +953,7 @@ export default function page() {
                     <a id="annot.022.s">{/*anchor*/}</a>
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (Hr)
-                    </span>
+                      (Hr</span>
                     <span className="expan">
                       H<span className="ex">errn</span>
                     </span>
@@ -1052,9 +1034,7 @@ export default function page() {
                       <span className="corr">st</span>e Predigt von{" "}
                       <a id="annot.025.s">{/*anchor*/}</a>
                       <span className="g.enc.tagsdecl.suspension.type1">
-                        {" "}
-                        (Hr)
-                      </span>
+                        Hr </span>
                       <span className="expan">
                         H<span className="ex">errn</span>
                       </span>
@@ -1069,9 +1049,7 @@ export default function page() {
                       <span className="corr">s</span>ei, ob du auch einmal{" "}
                       <a id="annot.026.s">{/*anchor*/}</a>
                       <span className="g.enc.tagsdecl.suspension.type1">
-                        {" "}
-                        (dHr)
-                      </span>
+                        dHr </span>
                       {" "}
                       <span className="expan">
                         d<span className="ex">en</span> Hr
@@ -1098,9 +1076,7 @@ export default function page() {
                       <span className="corr">st</span>, was der gute{" "}
                       <a id="annot.027.s">{/*anchor*/}</a>
                       <span className="g.enc.tagsdecl.suspension.type1">
-                        {" "}
-                        (Hr)
-                      </span>
+                        Hr </span>
                       <span className="expan">
                         H<span className="ex">err</span>
                       </span>
@@ -1123,9 +1099,7 @@ export default function page() {
                       <span className="corr">wann</span> du
                       <a id="annot.028.s">{/*anchor*/}</a>
                       <span className="g.enc.tagsdecl.suspension.type1">
-                        {" "}
-                        (dHr.)
-                      </span>
+                        dHr. </span>
                       {" "}
                       <span className="expan">
                         d<span className="ex">en</span> Hr
@@ -1166,19 +1140,15 @@ export default function page() {
                       <span className="corr">s</span>ind die Briefe an{" "}
                       <a id="annot.029.s">{/*anchor*/}</a>
                       <span className="g.enc.tagsdecl.suspension.type1">
-                        {" "}
-                        (Hr)
-                      </span>
+                        Hr </span>
                       <span className="expan">
                         H<span className="ex">err</span>
                       </span>
 
                       {" "}
-                      <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
-                        (P<span className="orig">:</span>
+                      <span className="g.enc.tagsdecl.cc.abbr-colon-sup">P<span className="orig">:</span>
                         <span className="corr">.</span>
-                        <sup>r</sup>)
-                      </span>
+                        <sup>r</sup> </span>
                       {" "}
                       <span className="expan">
                         P<span className="ex">asto</span>r
@@ -1190,10 +1160,8 @@ export default function page() {
                       <a id="annot.029.e">{/*anchor*/}</a> <br className="lb" />
                       <a id="annot.030.s">{/*anchor*/}</a>
                       <span className="abbr">
-                        {" "}
-                        (M<span className="orig">ﬅ</span>
-                        <span className="corr">st</span>r)
-                      </span>
+                        M<span className="orig">ﬅ</span>
+                        <span className="corr">st</span>r </span>
                       <span className="expan">
                         M<span className="ex">ei</span>st
                         <span className="ex">e</span>r

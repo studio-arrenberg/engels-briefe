@@ -52,12 +52,10 @@ export default function page() {
                         <span className="small">
                           <p>
                             <span className="g.rend.script.latin">
-                              <span className="abbr">
-                                (Add
+                              <span className="abbr">Add
                                 <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
                                   <sup>sse</sup>⹀
                                 </span>
-                                )
                               </span>
                               <span className="expan">
                                 Add<span className="ex">resse</span>
@@ -69,23 +67,19 @@ export default function page() {
                               <span className="expan">
                                 J<span className="ex">ohann</span>
                               </span>{" "}
-                              <span className="abbr">
-                                (Frid
+                              <span className="abbr">Frid
                                 <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
                                   <sup>h</sup>⹀
                                 </span>
-                                )
                               </span>
                               <span className="expan">
                                 Frid<span className="ex">rich</span>
                               </span>{" "}
                               Echkardt{" "}
-                              <span className="abbr">
-                                (s
+                              <span className="abbr">s
                                 <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
                                   <sup>r</sup>⹀
                                 </span>
-                                )
                               </span>
                               <span className="expan">
                                 s<span className="ex">enio</span>r
@@ -93,12 +87,10 @@ export default function page() {
                             </span>{" "}
                             <br className="lb" />
                             <span className="g.rend.script.latin">
-                              <span className="abbr">
-                                (f
+                              <span className="abbr">f
                                 <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
                                   <sup>co</sup>⹀
                                 </span>
-                                )
                               </span>
                               <span className="expan">
                                 f<span className="ex">ran</span>co
@@ -133,8 +125,7 @@ export default function page() {
                       <p className="g.enc.tagsdecl.wd.vertical-right">
                         <span className="g.enc.tagsdecl.suspension.type1">
                           {" "}
-                          (Hr)
-                        </span>
+                          (Hr</span>
                         <span className="expan">
                           H<span className="ex">er</span>r
                         </span>{" "}
@@ -145,12 +136,11 @@ export default function page() {
                         114 <span className="orig">ﬅ</span>
                         <span className="corr">st</span>ük{" "}
                         <span className="abbr">
-                          (Kth
+                          Kth
                           <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
                             <sup>r</sup>⹀
                           </span>
-                          )
-                        </span>
+                          </span>
                         <span className="expan">
                           K<span className="ex">ron</span>th
                           <span className="ex">aler</span>
@@ -158,8 +148,7 @@ export default function page() {
                         auf{" "}
                         <span className="g.enc.tagsdecl.suspension.type1">
                           {" "}
-                          (Hr)
-                        </span>
+                          (Hr</span>
                         <span className="expan">
                           H<span className="ex">er</span>r
                           <span className="ex">n</span>
@@ -169,8 +158,7 @@ export default function page() {
                         nun eingehen
                         <span className="g.enc.tagsdecl.suspension.type1">
                           {" "}
-                          (würd)
-                        </span>
+                          (würd</span>
                         <span className="expan">
                           würd<span className="ex">en</span>
                         </span>
@@ -208,8 +196,7 @@ export default function page() {
                             </span>{" "}
                           </sup>
                           <span className="g.enc.tagsdecl.suspension.type3">
-                            {" "}
-                            (Nov.)
+                            {" "}Nov.)
                           </span>
                           <span className="expan">
                             Nov<span className="ex">ember</span>
@@ -249,7 +236,7 @@ export default function page() {
                       <span className="corr">s</span>chreibung,{" "}
                       <br className="lb" />
                       wiewohl <span className="overwritten">d</span>
-                      <span className="add">⟨w⟩</span>ir die
+                      <span className="add">w</span>ir die
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>elbe{" "}
                       <span className="orig">ſ</span>
@@ -271,8 +258,7 @@ export default function page() {
                       <span className="corr">st</span>{" "}
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>ämtlich{" "}
-                      <span className="abbr">
-                        (<span className="g.rend.script.latin">FFurther</span>)
+                      <span className="abbr"> <span className="g.rend.script.latin">FFurther</span>
                       </span>
                       <span className="expan">
                         F<span className="ex">rank</span>further
@@ -341,8 +327,7 @@ export default function page() {
                         <span className="corr">st</span> oﬀenbar ein Werk der{" "}
                         <span className="g.enc.tagsdecl.suspension.type1">
                           {" "}
-                          (Königlich)
-                        </span>
+                          (Königlich</span>
                         <span className="expan">
                           Königlich<span className="ex">en</span>
                         </span>{" "}
@@ -378,9 +363,8 @@ export default function page() {
                       i<span className="orig">ﬅ</span>
                       <span className="corr">st</span> von{" "}
                       <span className="g.rend.script.latin">Kosaken</span> und{" "}
-                      <span className="g.enc.tagsdecl.suspension.type1">
-                        (<span className="orig">Preüß</span>
-                        <span className="corr">Preuß</span>)
+                      <span className="g.enc.tagsdecl.suspension.type1"><span className="orig">Preüß</span>
+                        <span className="corr">Preuß</span>
                       </span>
                       <span className="expan">
                         <span className="orig">Preüß</span>
@@ -403,8 +387,8 @@ export default function page() {
                       .<a id="teaser.part.003.e">{/*anchor*/}</a> Das{" "}
                       <span className="g.rend.script.latin">
                         <span className="abbr">
-                          (<span className="orig">Franz.</span>
-                          <span className="corr">franz.</span>)
+                          <span className="orig">Franz.</span>
+                          <span className="corr">franz.</span>
                         </span>
                         <span className="expan">
                           <span className="orig">
@@ -508,8 +492,8 @@ export default function page() {
                         <span className="corr">danken</span>, und bitten, daß er{" "}
                         <br className="lb" />
                         ferner alles herrlich hinausführen{" "}
-                        <span className="unclear">wolle[?]</span>{" "}
-                        <span className="unclear">wolte[?]</span>.
+                        <span className="unclear">wolle</span>
+                        <span className="unclear">wolte</span>.
                         <a id="mark.003.e">{/*anchor*/}</a>
                       </span>
 

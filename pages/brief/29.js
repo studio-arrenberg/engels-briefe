@@ -156,7 +156,7 @@ export default function page() {
                       <span className="corr">gedankt</span>!
                       {" "}<br className="lb" />
                       <span className="overwritten">g</span>
-                      <span className="add">⟨daß⟩</span> Er Dich mein Be<span className="orig">ﬅ</span><span className="corr">st</span>er!
+                      <span className="add">daß</span> Er Dich mein Be<span className="orig">ﬅ</span><span className="corr">st</span>er!
                       geleitet, und für die
                       {" "}<br className="lb" />
                       Gefahr <span className="orig">ſ</span><span className="corr">s</span>o Dir hätte treﬀen können be<span className="orig">ſ</span><span className="corr">s</span>chützet hat.
@@ -331,8 +331,8 @@ export default function page() {
                       <span className="persName">
                         Doctor{" "}
                         <span className="abbr">
-                          (C<span className="orig">:</span>
-                          <span className="corr">.</span>)
+                          C<span className="orig">:</span>
+                          <span className="corr">.</span>
                         </span>
                         <span className="expan">
                           C<span className="ex">ollenbu<span className="orig">ſ</span><span className="corr">s</span>ch</span>
@@ -357,7 +357,7 @@ export default function page() {
                       <span className="orig">die</span>
                       <span className="corr">Die</span> 4 er<span className="orig">ﬅ</span><span className="corr">st</span>e Ver<span className="orig">ſ</span><span className="corr">s</span>en <span className="orig">ſ</span><span className="corr">s</span>a
                       <span className="overwritten">t</span>
-                      <span className="add">⟨g⟩</span>te er
+                      <span className="add">g</span>te er
                       {" "}<br className="lb" />
                       paßten ganz auf den <span className="persName">
                         Knap
@@ -391,9 +391,8 @@ export default function page() {
                       {" "}<br className="lb" />
                       in der <span className="orig">Ge<span className="orig">ſ</span><span className="corr">s</span>ell<span className="orig">ſ</span><span className="corr">s</span>chaﬀt</span>
                       <span className="corr">Ge<span className="orig">ſ</span><span className="corr">s</span>ell<span className="orig">ſ</span><span className="corr">s</span>chaft</span> des{" "}
-                      <span className="g.enc.tagsdecl.cc.abbr-colon">
-                        (H<span className="orig">:</span>
-                        <span className="corr">.</span>)
+                      <span className="g.enc.tagsdecl.cc.abbr-colon">H<span className="orig">:</span>
+                        <span className="corr">.</span>
                       </span>{" "}
                       <span className="expan">
                         H<span className="ex">err</span>
@@ -428,9 +427,8 @@ export default function page() {
                     ich einen Auszug, be<span className="orig">ſ</span><span className="corr">s</span>onders wegen den kriegeri<span className="orig">ſ</span><span className="corr">s</span>chen
                     {" "}<br className="lb" />
                     Angelegenheiten daraus ge<span className="orig">ſ</span><span className="corr">s</span>chrieben, und <span className="orig">ſ</span><span className="corr">s</span>elbigen{" "}
-                    <span className="abbr">
-                      (H<span className="orig">:</span>
-                      <span className="corr">.</span>)
+                    <span className="abbr"> H<span className="orig">:</span>
+                      <span className="corr">.</span>
                     </span>
                     <span className="expan">
                       H<span className="ex">err</span>
@@ -460,9 +458,8 @@ export default function page() {
                     {" "}<br className="lb" />
                     fanden Pelzers und{" "}
                     <span className="persName">
-                      <span className="g.enc.tagsdecl.cc.abbr-colon">
-                        (H<span className="orig">:</span>
-                        <span className="corr">.</span>){" "}
+                      <span className="g.enc.tagsdecl.cc.abbr-colon">H<span className="orig">:</span>
+                        <span className="corr">.</span>{" "}
                       </span>
                       <span className="expan">
                         H<span className="ex">errn</span>
@@ -503,9 +500,8 @@ export default function page() {
                     </span>
                     <div className="signed">
                       Lui<span className="orig">ſ</span><span className="corr">s</span>e Engels{" "}
-                      <span className="g.enc.tagsdecl.cc.abbr-colon">
-                        (geb<span className="orig">:</span>
-                        <span className="corr">.</span>){" "}
+                      <span className="g.enc.tagsdecl.cc.abbr-colon">geb<span className="orig">:</span>
+                        <span className="corr">.</span>{" "}
                       </span>
                       <span className="expan">
                         geb<span className="ex">orene</span>

@@ -780,18 +780,59 @@ img {
 .vergleichs-ansicht .ex {
   display: none;}
 
-/* 
-.vergleichs-ansicht .abbr {
+
+.vergleichs-ansicht .abbr + .expan{
   display: none;
-} */
+}
+
+
+.vergleichs-ansicht .g\.enc\.tagsdecl\.cc\.abbr-sup-am + .expan{
+  display: none;
+}
+
 
 .vergleichs-ansicht blockquote {
   margin: 0px;
 }
 
-.vergleichs-ansicht p {
-  margin-bottom: 10px;
+
+.vergleichs-ansicht .gap-x {
+  font-size: 70%;
 }
+
+.vergleichs-ansicht .unclear + .unclear {
+  display: none;
+}
+
+
+.vergleichs-ansicht .enc\.tagsdecl\.indent-verysmall  {
+  text-indent: 10px;
+}
+
+.vergleichs-ansicht .enc\.tagsdecl\.indent-small  {
+  text-indent: 20px;
+}
+
+
+.vergleichs-ansicht .enc\.tagsdecl\.indent-medium  {
+  text-indent: 30px;
+}
+
+
+
+.vergleichs-ansicht .enc\.tagsdecl\.indent-large  {
+  text-indent: 60px;
+}
+
+
+.vergleichs-ansicht .einzug-links {
+  margin-left: -40px;
+}
+
+.unclear{
+  color: #666;
+}
+
 
 .text-right {
   text-align: right;
@@ -1014,11 +1055,15 @@ table {
 
 p > span .latin {
   font-family: "Gibson-Regular";
-  color: red;
+  /* color: red; */
+  font-size: 90%;
 }
 
-.writing-session .g\.rend\.script\.latin {
-  font-family: "Gibson-Regular";
+
+.g\.rend\.script\.latin {
+  font-family: "Gibson-Light";
+  /* opacity: 0.8;*/
+  font-size: 95%; 
 }
 
 .headingNumber {
@@ -1032,53 +1077,85 @@ p > span .latin {
 } */
 
 
-.g\.enc\.tagsdecl\.suspension\.type1 {
+ .g\.enc\.tagsdecl\.suspension\.type1 {
   display: none;
 }
 
-.g\.enc\.tagsdecl\.suspension\.type1 + .expan:after {
-  color: red;
+.vergleichs-ansicht .g\.enc\.tagsdecl\.suspension\.type1 + .expan:after {
+  /* color: red; */
   content: "ƺ";
   display: inline;
 }
-
-
 
 .g\.enc\.tagsdecl\.suspension\.type2 {
   display: none;
 }
 
-.g\.enc\.tagsdecl\.suspension\.type2 + .expan:after {
-  color: green;
+.vergleichs-ansicht .g\.enc\.tagsdecl\.suspension\.type2 + .expan:after {
+  /* color: green; */
   content: "ℓ.";
   display: inline;
 }
 
-.g\.enc\.tagsdecl\.suspension\.type3 {
+ .g\.enc\.tagsdecl\.suspension\.type3 {
   display: none;
 }
 
-.g\.enc\.tagsdecl\.suspension\.type3 + .expan:after {
-  color: blue;
+.vergleichs-ansicht .g\.enc\.tagsdecl\.suspension\.type3 + .expan:after {
+  /* color: blue; */
   content: ".∮";
   display: inline;
 }
 
 
-.insertion{
+.vergleichs-ansicht .insertion{
   text-decoration: underline;
 }
 
-.add{
-  /**/
-}
 
-br ::before{
+.vergleichs-ansicht br ::before{
   content: "⹀";
   display: inline;
 }
 
+
+.vergleichs-ansicht .add{
+  font-weight: 600;
+  /* color: red; */
+}
+
+
+
 .normalisiert .hide-doublehypen{
+  display: none;
+}
+
+.normalisiert .g\.enc\.tagsdecl\.cc\.abbr-colon{
+  display: none;
+}
+
+
+.normalisiert .g\.enc\.tagsdecl\.cc\.abbr-sup-am{
+  display: none;
+}
+
+
+.normalisiert .g\.enc\.tagsdecl\.cc\.abbr-sup-am + .expan::before {
+  content: " ";
+  display: inline;
+}
+
+
+.normalisiert .glyph{
+  display: none;
+}
+
+
+.normalisiert .insertion{
+  display: none;
+}
+
+.normalisiert .hide-normalisiert{
   display: none;
 }
 
@@ -1092,11 +1169,11 @@ br ::before{
 }
 
 
-#txt\.add001::after{
-  content: ")";
-  transform: rotate(180deg);
-  display: inline;
-  color: aqua;
+.vergleichs-ansicht .sup#txt\.add001::after{
+  content: "|";
+  transform: rotate(45deg) translateY(1px) translateX(4px) scale(1.4); 
+  display: inline-block;
+  color: black;
 }
 
 /* .g\.enc\.tagsdecl\.cc.abbr-sup-am */

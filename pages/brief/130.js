@@ -82,8 +82,7 @@ export default function page() {
                       <span className="date">
                         <span className="g.enc.tagsdecl.suspension.type1">
                           {" "}
-                          (d)
-                        </span>
+                          (d</span>
                         <span className="expan">
                           d<span className="ex">en</span>
                         </span>{" "}
@@ -351,7 +350,7 @@ export default function page() {
                       <br className="lb" />
                       Papa keine größere Freude machen kann
                       <span className="overwritten">.</span>
-                      <span className="add">⟨,⟩</span> ich will alles
+                      <span className="add">,</span> ich will alles
                       <br className="lb" />
                       thun was ich ihm an den Augen ab
                       <span className="orig">ſ</span>
@@ -664,11 +663,11 @@ export default function page() {
                       <span className="corr">Überbringerin</span> die
                       <span className="overwritten">s</span>
                       <span className="add">
-                        ⟨<span className="orig">ſ</span>
-                        <span className="corr">s</span>⟩
+                        <span className="orig">ſ</span>
+                        <span className="corr">s</span>
                       </span>
                       e<span className="overwritten">d</span>
-                      <span className="add">⟨s⟩</span> Briefs mitzu
+                      <span className="add">s</span> Briefs mitzu
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>chicken. Nimm
                       <br className="lb" />
@@ -693,7 +692,7 @@ export default function page() {
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>icht die da
                       <span className="damage">
-                        mi<span className="unclear">t[?]</span>
+                        mi<span className="unclear">t</span>
                       </span>
                       verbunden
                       <br className="lb" />
@@ -710,7 +709,7 @@ export default function page() {
                       <span className="date">heute</span> <br className="lb" />
                       wollte es nicht recht gehen, und ich zwinge mich
                       <span className="overwritten">g</span>
-                      <span className="add">⟨n⟩</span>icht gerne.
+                      <span className="add">n</span>icht gerne.
                     </p>
                   </blockquote>
                   <blockquote className="closer">

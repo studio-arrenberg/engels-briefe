@@ -412,7 +412,7 @@ export default function page() {
                       von Ungefähr an, und hat auch recht
                       <a id="txt.subst001.norm.s"></a>da
                       <span className="overwritten">zu</span>
-                      <span className="add">⟨bei⟩</span>
+                      <span className="add">bei</span>
                       <a id="txt.subst001.norm.e"></a>.<a id="mark.004.e"></a>
                     </span>
                     Sie lobte
@@ -712,8 +712,7 @@ export default function page() {
                       <span className="placeName">
                         <span className="g.rend.script.latin">
                           <span className="abbr">
-                            {" "}
-                            (Frankfurt <sup>a</sup>/M)
+                            {" "}Frankfurt <sup>a</sup>/M)
                           </span>
                           <span className="expan">
                             Frankfurt a<span className="ex">m</span> M
@@ -721,26 +720,27 @@ export default function page() {
                           </span>
                         </span>
                       </span>
-                      ,
+                      ,{" "}
                       <span className="placeName">
                         <span className="g.rend.script.latin">Stuttgardt</span>
                       </span>
-                      ,<br className="lb" />
+                      ,{" "}<br className="lb" />
                       <span className="placeName">
                         <span className="g.rend.script.latin">München</span>
                       </span>
-                      ,
+                      ,{" "}
                       <span className="placeName">
-                        <span className="g.rend.script.latin">Augsburg</span>,
+                        <span className="g.rend.script.latin">Augsburg</span>,{" "}
                       </span>
                       <span className="placeName">
-                        <span className="g.rend.script.latin">Salzburg</span>
-                      </span>
-                      vielleicht
+                        <span className="g.rend.script.latin">Salzburg</span>{" "}
+                      </span> 
+                      vielleicht{" "}
                       <span className="strike-through" style={{ textDecoration: "line-through" }}>
                         <span className="placeName">
-                          <span className="g.rend.script.latin">
-                            <sup>Linz an der</sup>/Donau
+                          <span className="g.rend.script.latin">Linz{" "}{" "}
+                            <sup>an der</sup>
+                            <sub className="strike-through" style={{textDecoration: "line-through", transform: "translateX(-35px)", display: "inline-block", marginRight: "-30px"}}>Donau</sub>
                           </span>
                         </span>
                       </span>
@@ -779,11 +779,11 @@ export default function page() {
                       <br className="lb" />
                       weil du meine Route nicht <span className="orig">ſ</span><span className="corr">s</span>o verfolgen kann<span className="orig">ﬅ</span><span className="corr">st</span>
                       <span className="overwritten">,</span>
-                      <span className="add">⟨.⟩</span>
+                      <span className="add">.</span>
                       <span className="overwritten">
-                        <span className="gap"> [...]</span>
+                        <span className="gap ">[...]<span class="gap-x"> xxx</span></span>
                       </span>
-                      <span className="add">⟨Es⟩</span>
+                      <span className="add">Es</span>
                       <br className="lb" />
                       wird daher am be<span className="orig">ﬅ</span><span className="corr">st</span>en <span className="orig">ſ</span><span className="corr">s</span>eÿn, daß du deine Briefe an
                       <br className="lb" />
@@ -841,7 +841,7 @@ export default function page() {
                     <span className="corr">müssen</span>. – Er läßt dich
                     <br className="lb" />
                     aufs herzlich<span className="orig">ﬅ</span><span className="corr">st</span>e <span className="overwritten">G</span>
-                    <span className="add">⟨g⟩</span>rüßen. –{" "}
+                    <span className="add">g</span>rüßen. –{" "}
                     <span className="orig">Ueber</span>
                     <span className="corr">Über</span> den wichtigern Sachen
                     <br className="lb" />
@@ -896,7 +896,7 @@ export default function page() {
                       im Ganzen i<span className="orig">ﬅ</span><span className="corr">st</span> es doch ein erbärmliches Behelfsmittel
                       <br className="lb" />
                       <span className="striketrough">
-                        <span className="orig">ﬅ</span><span className="corr">st</span><span className="gap"> [...]</span>
+                        <span className="orig">ﬅ</span><span className="corr">st</span><span className="gap">[...] <span class="gap-x"> xxxxx</span></span>
                       </span>
                       <sup className="sup" id="txt.add001">
                         im Vergleich mit
