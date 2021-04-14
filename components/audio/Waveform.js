@@ -91,8 +91,8 @@ export default function Waveform({ url }) {
 
         {/* play pause button */}
         <div onClick={handlePlayPause} >
-          <img className={!playing ? "active" : null} width="15px" src="../icons/play.svg" />
-          <img className={!playing ? null : "active"} width="15px" src="../icons/pause.svg" />
+          <img className={playing ? "active" : null} width="15px" src="../icons/play.svg" />
+          <img className={playing ? null : "active"} width="15px" src="../icons/pause.svg" />
         </div>
 
       </div>
