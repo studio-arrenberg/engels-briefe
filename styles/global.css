@@ -1428,6 +1428,11 @@ p > span .latin {
   transition: transform ease-in-out 0.5s;
 }
 
+.themen {
+  animation-delay: 0.3s;
+  transition: transform ease-in-out 0.5s;
+}
+
 .vergleich-l,
 .vergleich-r {
   width: 800px;
