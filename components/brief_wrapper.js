@@ -421,7 +421,7 @@ export default function Brief_wrapper(props) {
             <a className={`${isView == false ? "active" : null}`} onClick={() => setView(false)}>
             <img src={`../icons/normalisierte-ansicht.svg`} />
               <div>
-                <label>Vergleichsansicht Ansicht</label>
+                <label>Normalisierte Ansicht</label>
                 <p>Betrachten Sie hier den originalen Brief  und vergleichen sie ihn mit der transkribierten Version.</p>
               </div>
             </a>
