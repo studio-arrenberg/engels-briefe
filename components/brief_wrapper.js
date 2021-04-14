@@ -126,22 +126,7 @@ export default function Brief_wrapper(props) {
             className="bouncingbal"
             style={{ opacity: ball_opacity_left, x: "50px", y: "50px" }}
           >
-            <motion.div style={{ rotate: 180, x: "-80px", y: "-25px" }}>
-              <BouncingBall />
-            </motion.div>
-
-            <p>Vergleichsansicht</p>
-          </motion.div>
-
-          <motion.div
-            className="bouncingball"
-            style={{ opacity: ball_opacity_right }}
-          >
-            <motion.div>
-              <BouncingBall />
-            </motion.div>
-
-            <p>Detailansicht</p>
+           
           </motion.div>
         </div>
 
@@ -328,6 +313,25 @@ export default function Brief_wrapper(props) {
             <Audio file={data.audio}></Audio>
           </div>
 
+          <div className="tapbar ">
+            <a className="active">
+              <div>
+                <label>Vergleichsansicht Ansicht</label>
+                <p>Betrachten Sie hier den originalen Brief  und vergleichen sie ihn mit der transkribierten Version.</p>
+              </div>
+              <img src={`../icons/vergleichsansicht.svg`} />
+            </a>
+            <a className="">
+            <img src={`../icons/normalisierte-ansicht.svg`} />
+
+              <div>
+                <label>Vergleichsansicht Ansicht</label>
+                <p>Betrachten Sie hier den originalen Brief  und vergleichen sie ihn mit der transkribierten Version.</p>
+              </div>
+            </a>
+          </div>
+
+
           {/* orte */}
 
           <div className="orte">
@@ -425,8 +429,6 @@ export function BouncingBall() {
         transition={bounceTransition}
         animate={{
           x: ["80px", "-80px"],
-          // backgroundColor: ["#000", "#fff"],
-          // opacity: [0, 0.2],
           backgroundColor: ["#000", "#838383"],
           opacity: [0, 0.8],
         }}

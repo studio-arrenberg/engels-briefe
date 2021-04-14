@@ -709,20 +709,65 @@ img {
   margin-bottom: 30px;
 }
 
-@keyframes slide-in {
-  from {
-    bottom: -100px;
-  }
-  to {
-    bottom: 0px;
-  }
-}
 
-.app {
+.tapbar {
   position: fixed;
   width: 100%;
+  background: #000;
+  height: 150px;
   display: flex;
   z-index: 450;
+  justify-content: center;
+  align-items: center;
+  animation-name: slide-in;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+  animation-timing-function: cubic-bezier(0, 1);
+  /* background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 120%); */
+}
+
+.tapbar a{
+  display: flex;
+  width: 550px;
+  height: 100%;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  opacity: 0.6;
+  transition: all ease-in-out 0.2s;
+}
+
+.tapbar a:hover, .tapbar a.active {
+ background: #141414;
+ opacity: 1;
+ text-decoration: none;
+ 
+}
+.tapbar label{
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.tapbar p{
+  font-size: 0.9rem;
+}
+
+.tapbar img{
+  height: 40px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.tapbar a:first-of-type{
+  text-align: right;
+}
+
+.player {
+  position: fixed;
+  width: 400px;
+  right: 100px;
+  z-index: 451;
   justify-content: center;
   animation-name: slide-in;
   animation-duration: 1s;
@@ -732,15 +777,26 @@ img {
   /* background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 120%); */
 }
 
+@keyframes slide-in {
+  from {
+    bottom: -100px;
+  }
+  to {
+    bottom: 0px;
+  }
+}
+
+
+
 .player-container {
-  width: 675px;
+  width: 300px;
   display: flex;
   justify-content: space-between;
 }
 
 .player #waveform {
   bottom: 0px;
-  width: 600px;
+  width: 300px;
   padding: 11px 30px 0px 30px;
   background-color: rgba(0, 0, 0, 0.75);
   backdrop-filter: blur(10px);
@@ -755,6 +811,11 @@ img {
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.75);
   backdrop-filter: blur(10px);
+}
+
+.player .controls img{
+  height: 30px;
+ 
 }
 /* 
 #waveform{

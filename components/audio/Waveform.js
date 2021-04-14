@@ -82,19 +82,9 @@ export default function Waveform({ url }) {
     <div className="player-container">
       <div id="waveform" ref={waveformRef}></div>
 
-      <div className="controls">
-
-        {/* <button onClick={handlePlayPause} >{!playing ? "Play" : "Pause"}</button> */}
-
-        {/* play pause button */}
-        <div onClick={handlePlayPause} >
-          <img className={!playing ? "active" : null} width="15px" src="../icons/play.svg" />
-          <img className={!playing ? null : "active"} width="15px" src="../icons/pause.svg" />
-        </div>
-
-        {/* restart button */}
-        {/* <img width="15px" src="../icons/backward.svg" onClick={handleRestart} /> */}
-
+      <div className="controls" onClick={handlePlayPause}>
+          <img className={!playing ? "active" : null}  src="../icons/play.svg" />
+          <img className={!playing ? null : "active"}  src="../icons/pause.svg" />
       </div>
     </div>
   );
