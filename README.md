@@ -85,10 +85,15 @@ const YourComponent = () => {
 npm install framer-motion@2.9.3
 ```
 
+#### Run on another Port locally
+```bash
+npm run dev -- -p 3001
+```
+
 #### Surface Studio
 
 ##### Pixel Ration
-`width` 4500 (  for testing)
+`width` 4500 (2250  for testing)
 `height` 3000 (1500 for testing)
 
 

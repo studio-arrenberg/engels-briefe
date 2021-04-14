@@ -81,12 +81,12 @@ export default function page() {
                       <span className="ex">Monats</span>
                     </span>
                   </span>
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   gewährte mir eine rechte Be
                   <br className="g.enc.tagsdecl.hyphenation.divis" />
                   ruhigung, denn ich <span className="orig">ſ</span><span className="corr">s</span>ahe daraus,
-                  <br className="lb" />
-                  daß es Dir und dem kleinen
+                  <br className="lb" />{" "}
+                  daß es Dir und dem kleinen{" "}
                   <span className="orig">
                     Her
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
@@ -98,15 +98,15 @@ export default function page() {
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     zenstippel
                   </span>
-                  gut geht. Du glaub<span className="orig">ﬅ</span><span className="corr">st</span>
-                  <br className="lb" />
-                  gar nicht,
+                  {" "}gut geht. Du glaub<span className="orig">ﬅ</span><span className="corr">st</span>
+                  <br className="lb" />{" "}
+                  gar nicht,{" "}
                   <span className="orig">
                     Herzens<span className="unclear">^</span>
                     <span style={{ display: "inline-block" }}>&nbsp;</span>mama
                   </span>
                   <span className="corr">Herzensmama</span>, wie <span className="orig">ſ</span><span className="corr">s</span>ehr Du
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   <span className="abbr"> u.</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
@@ -116,50 +116,49 @@ export default function page() {
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   Du glaub<span className="orig">ﬅ</span><span className="corr">st</span> auch gar nicht, wie un
                   <br className="g.enc.tagsdecl.hyphenation.divis" />
                   behaglich, wie ekelig mir zu Muthe
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   ohne Euch i<span className="orig">ﬅ</span><span className="corr">st</span>.<a id="teaser.part.001.e">{/*anchor*/}</a> Ich
                   habe hier überall
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   freundliche Ge<span className="orig">ſ</span><span className="corr">s</span>ichter, wo ich hinkom̅e,
-                  <br className="lb" />
-                  aber demohngeachtet fühle ich eine
-                  <br className="lb" />
+                  <br className="lb" />{" "}
+                  aber dem ohngeachtet fühle ich eine
+                  <br className="lb" />{" "}
                   Leere. <a id="mark.001.s">{/*anchor*/}</a>
                   <span className="liebe">
-                    Aber höre einmal
+                    Aber höre einmal{" "}
                     <span className="persName">Eli<span className="orig">ſ</span><span className="corr">s</span>e</span>{" "}
-                    <br className="lb" />
-                    meine Briefe darf<span className="orig">ﬅ</span><span className="corr">st</span> Du
+                    <br className="lb" />{" "}
+                    meine Briefe darf<span className="orig">ﬅ</span><span className="corr">st</span> Du{" "}
                     <span className="g.enc.tagsdecl.suspension.type1">
-                      {" "}
                       (niemand</span>
                     <span className="expan">
                       niemand<span className="ex">en</span>
                     </span>
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     le<span className="orig">ſ</span><span className="corr">s</span>en <span className="orig">laßen</span>
                     <span className="corr">lassen</span>, darauf muß ich mich
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     <span className="orig">verlaßen</span>
-                    <span className="corr">verlassen</span> dürfen, <span className="orig">ſ</span><span className="corr">s</span>on<span className="orig">ﬅ</span><span className="corr">st</span>
+                    <span className="corr">verlassen</span> dürfen, <span className="orig">ſ</span><span className="corr">s</span>on<span className="orig">ﬅ</span><span className="corr">st</span>{" "}
                     <span className="g.rend.script.latin">genire</span> ich
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     mich, und glaube immer auch auf
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     andere <span className="orig">Rük<span className="orig">ſ</span><span className="corr">s</span>icht</span>
-                    <span className="corr">Rück<span className="orig">ſ</span><span className="corr">s</span>icht</span> nehmen zu
+                    <span className="corr">Rück<span className="orig">ſ</span><span className="corr">s</span>icht</span> nehmen zu{" "}
                     <span className="orig">müßen</span>
                     <span className="corr">müssen</span>
-                    <br className="lb" />
-                    wenn ich gerne zärtlich mit Dir,
-                    <br className="lb" />
-                    Du altes liebes Ge<span className="orig">ſ</span><span className="corr">s</span>icht wäre. –<br className="lb" />
+                    <br className="lb" />{" "}
+                    wenn ich gerne zärtlich mit Dir,{" "}
+                    <br className="lb" />{" "}
+                    Du altes liebes Ge<span className="orig">ſ</span><span className="corr">s</span>icht wäre. –<br className="lb" />{" "}
                     Hör<span className="orig">ﬅ</span><span className="corr">st</span> Du, Du läßt meine Briefe
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     nicht le<span className="orig">ſ</span><span className="corr">s</span>en, nicht wahr?<a id="mark.001.e">{/*anchor*/}</a>
                   </span>
                 </p>
@@ -178,15 +177,15 @@ export default function page() {
                     tuksken
                   </span>
                   <span className="corr">Herzenstuksken</span>? Du kenn<span className="orig">ﬅ</span><span className="corr">st</span> es ja
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   wohl. Ich weis bald nicht, wo ich vor
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   all’ den Kleinen bleiben <span className="orig">ſ</span><span className="corr">s</span>oll, und
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   weiß vor Plai<span className="orig">ſ</span><span className="corr">s</span>ir darüber nicht wohin.
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   <a id="annot.001.s">{/*anchor*/}</a>Nun bald haben wir ja
-                  zwei,
+                  zwei,{" "}
                   <span className="orig">
                     Herzens<span className="unclear">^</span>
                     <span style={{ display: "inline-block" }}>&nbsp;</span>
@@ -213,16 +212,16 @@ export default function page() {
                 {/* Insert Page 2 */}
                 <a id="annot.002.s">{/*anchor*/}</a>
                 <p>
-                  <span className="g.rend.script.latin">Casper</span> hat
+                  <span className="g.rend.script.latin">Casper</span> hat{" "}
                   <span className="date">ge<span className="orig">ﬅ</span><span className="corr">st</span>ern</span> ge<span className="orig">ſ</span><span className="corr">s</span>chrieben, daß
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   das Bad fort<span className="unclear">^</span>
-                  <span style={{ display: "inline-block" }}>&nbsp;</span>während
-                  <span className="orig">ſ</span><span className="corr">s</span>einer Frau <br className="lb" />
+                  <span style={{ display: "inline-block" }}>&nbsp;</span>während{" "}
+                  <span className="orig">ſ</span><span className="corr">s</span>einer Frau <br className="lb" />{" "}
                   gut bekommt, daß er nicht nach
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   <span className="g.rend.script.latin">Schwalbach</span>{" "}
-                  braucht und er in
+                  braucht und er in{" "}
                   <span className="abbr">
                     (C
                     <span className="g.enc.tagsdecl.cc.abbr-period-sup">
@@ -233,30 +232,29 @@ export default function page() {
                   <span className="expan">
                     C<span className="ex">irc</span>a
                   </span>
-                  <br className="lb" />3 Wochen wieder hier <span className="orig">ſ</span><span className="corr">s</span>eÿn kann.
+                  <br className="lb" />{" "}3 Wochen wieder hier <span className="orig">ſ</span><span className="corr">s</span>eÿn kann.
                 </p>
                 <a id="annot.002.e">{/*anchor*/}</a>
                 <p>
-                  Die junge
+                  Die junge{" "}
                   <span className="persName">
                     Frau{" "}
                     <span className="g.rend.script.latin">Böddinghaus</span>
                   </span>
-                  i<span className="orig">ﬅ</span><span className="corr">st</span>
-                  <br className="lb" />
+                  {" "}i<span className="orig">ﬅ</span><span className="corr">st</span>
+                  <br className="lb" />{" "}
                   aber <span className="orig">ſ</span><span className="corr">s</span>ehr <span className="orig">ſ</span><span className="corr">s</span>chwach, <span className="orig">ſ</span><span className="corr">s</span>ie hat in{" "}
                   <span className="placeName">Ems</span>
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   bei ihrer Ankunft wieder einen
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   Blut<span className="orig">ﬅ</span><span className="corr">st</span>urz gehabt, <span className="abbr"> u.</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}
                   war <span className="orig">ſ</span><span className="corr">s</span>o gefährlich
-                  <br className="lb" />
-                  daß <span className="g.rend.script.latin">Casper</span> eine
-                  Stafette an
+                  <br className="lb" />{" "}
+                  daß <span className="g.rend.script.latin">Casper</span> eine Stafette an{" "}
                   <span className="g.rend.script.latin">
                     <span className="abbr"> W
                       <span className="g.enc.tagsdecl.cc.abbr-period-sup">
@@ -265,22 +263,22 @@ export default function page() {
                     <span className="expan">
                       W<span className="ex">ilhel</span>m
                     </span>
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     Wittenstein
                   </span>
-                  ab<span className="orig">ſ</span><span className="corr">s</span>chickte, worauf ihr
-                  <br className="lb" />
-                  Mann gleich von
+                  {" "}ab<span className="orig">ſ</span><span className="corr">s</span>chickte, worauf ihr
+                  <br className="lb" />{" "}
+                  Mann gleich von{" "}
                   <span className="g.rend.script.latin">Elberfeld</span>{" "}
                   abreiste.
-                  <br className="lb" />
-                  Nach dem letzten Briefe von
+                  <br className="lb" />{" "}
+                  Nach dem letzten Briefe von{" "}
                   <span className="g.rend.script.latin">Casper</span>{" "}
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   geht’s ihr ein wenig <span className="orig">beßer</span>
                   <span className="corr">besser</span>, doch
-                  <br className="lb" />
-                  zweifelt man an ihrem
+                  <br className="lb" />{" "}
+                  zweifelt man an ihrem {" "}
                   <span className="orig">
                     Aufkom̅
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
@@ -292,51 +290,50 @@ export default function page() {
                     men
                   </span>
                   . Es wäre doch recht <span className="orig">ſ</span><span className="corr">s</span>chade um
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   die gute junge Frau.
                 </p>
                 <a id="annot.003.s">{/*anchor*/}</a>
                 <p className="enc.tagsdecl.indent-medium">
-                  Deine Erzählung vom kleinen
+                  Deine Erzählung vom kleinen{" "}
                   <span className="g.rend.script.latin">
                     <span className="abbr"> Fried.</span>
                     <span className="expan">
                       Fried<span className="ex">rich</span>
                     </span>
                   </span>
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   mit <span className="orig">ſ</span><span className="corr">s</span>einen <span className="orig">Waßermühlen</span>
                   <span className="corr">Wassermühlen</span> hat mir
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   vielen <span className="orig">Spas</span>
                   <span className="corr">Spaß</span> gemacht, gieb Acht
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   ob kein{" "}
-                  <span className="g.rend.script.latin">Mechanicus</span> drin
+                  <span className="g.rend.script.latin">Mechanicus</span> drin{" "}
                   <span className="orig">ﬅ</span><span className="corr">st</span>ekt.
                 </p>
                 <a id="annot.003.e">{/*anchor*/}</a>
                 <p className="enc.tagsdecl.indent-medium">
-                  Wie ich Euch übrigens von dort <br className="lb" />
+                  Wie ich Euch übrigens von dort <br className="lb" />{" "}
                   wieder abholen kann, i<span className="orig">ﬅ</span><span className="corr">st</span> mir
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   noch nicht recht klar. Nach meiner
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   Meinung wird{" "}
                   <span className="g.rend.script.latin">Casper</span> gegen Ende
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   <span className="g.rend.script.latin">Juli</span> wieder hier
-                  <span className="orig">ſ</span><span className="corr">s</span>eÿn; am
+                  <span className="orig">ſ</span><span className="corr">s</span>eÿn; am{" "}
                   <span className="date">
                     er<span className="orig">ﬅ</span><span className="corr">st</span>en
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     <span className="g.rend.script.latin">August</span>
                   </span>
-                  haben wir <span className="g.rend.script.latin">Bilanz</span>,
-                  und dann
-                  <br className="lb" />
+                  {" "}haben wir <span className="g.rend.script.latin">Bilanz</span>, und dann
+                  <br className="lb" />{" "}
                   darf ich nicht fehlen; früher kann
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                 </p>
               </div>
 
@@ -350,18 +347,18 @@ export default function page() {
               >
                 {/* Insert Page 3 */}
                 <p>
-                  ich <span className="g.rend.script.latin">August</span> nicht
+                  ich <span className="g.rend.script.latin">August</span> nicht{" "}
                   <sup className="sup" id="txt.add001">
                     lange
                   </sup>{" "}
                   allein
                   <span className="orig">laßen</span>
                   <span className="corr">lassen</span>, und
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   doch kann ich meine Ein<span className="orig">ſ</span><span className="corr">s</span>amkeit
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   nicht länger ertragen; was läßt
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   <span className="orig">ſ</span><span className="corr">s</span>ich nur für ein vernünftiges Re
                   <br className="g.enc.tagsdecl.hyphenation.divis" />
                   <span className="orig">ſ</span><span className="corr">s</span>ultat hieraus ziehen?
@@ -370,29 +367,29 @@ export default function page() {
                   <a id="mark.002.s">{/*anchor*/}</a>
                   <span className="reisen">
                     Ich <span className="orig">ſ</span><span className="corr">s</span>ehe es kom̅en, daß ich es
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     <span className="orig">ſ</span><span className="corr">s</span>o machen muß; ich werde gegen
-                    <br className="lb" />
-                    <span className="date">den 22.</span> von hier abfahren
+                    <br className="lb" />{" "}
+                    <span className="date">den 22.</span> von hier abfahren{" "}
                     <span className="orig">müßen</span>
-                    <span className="corr">müssen</span>,<br className="lb" />
+                    <span className="corr">müssen</span>,<br className="lb" />{" "}
                     mich 1 à 2 Tage dort aufhalten, und
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     dann mit meiner <span className="orig">ſ</span><span className="corr">s</span>üßen La<span className="orig">ﬅ</span><span className="corr">st</span> wieder
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     heimfahren. Deine Rei<span className="orig">ſ</span><span className="corr">s</span>e trifft in
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     die<span className="orig">ſ</span><span className="corr">s</span>er Hin<span className="orig">ſ</span><span className="corr">s</span>icht diesmal wirklich in
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     einen sehr <span className="orig">mislichen</span>
                     <span className="corr">mißlichen</span> Zeitpunkt.
                     <a id="mark.002.e">{/*anchor*/}</a>
                   </span>
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   <a id="annot.004.s">{/*anchor*/}</a>
                   <a id="mark.003.s">{/*anchor*/}</a>Un<span className="orig">ſ</span><span className="corr">s</span>er Ge<span className="orig">ſ</span><span className="corr">s</span>chäft erleidet
                   täglich neue
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   Veränderungen, welche un<span className="orig">ſ</span><span className="corr">s</span>ere Gegen
                   <br className="g.enc.tagsdecl.hyphenation.divis" />
                   wart <span className="abbr"> u.</span>
@@ -400,16 +397,16 @@ export default function page() {
                     u<span className="ex">nd</span>
                   </span>{" "}
                   <span className="orig">ſ</span><span className="corr">s</span>chnelles Handeln erfordern,
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   dabei i<span className="orig">ﬅ</span><span className="corr">st</span> <span className="g.rend.script.latin">
                     Casper
                   </span>{" "}
                   abwe<span className="orig">ſ</span><span className="corr">s</span>end, und wahr
                   <br className="g.enc.tagsdecl.hyphenation.divis" />
                   haftig ich <span className="orig">ſ</span><span className="corr">s</span>age Dir mir hat in voriger
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   Woche der Kopf vor aller Arbeit
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   gebrummt, denn äußere Ange
                   <br className="g.enc.tagsdecl.hyphenation.divis" />
                   legenheiten <span className="abbr"> u.</span>
@@ -417,35 +414,35 @@ export default function page() {
                     u<span className="ex">nd</span>
                   </span>{" "}
                   Handlungs<span className="orig">ſ</span><span className="corr">s</span>achen,
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   meine <span className="abbr"> u.</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
-                  </span>
+                  </span>{" "}
                   <span className="g.rend.script.latin">Caspers</span> Ge<span className="orig">ſ</span><span className="corr">s</span>chäfte
                   zum Theil,
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   alles kommt zusam̅en.<a id="annot.004.e">{/*anchor*/}</a>
                   <span style={{ display: "inline-block" }} width="2char">
                     &nbsp;
                   </span>
                   Doch mir
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   i<span className="orig">ﬅ</span><span className="corr">st</span>s recht, je krau<span className="orig">ſ</span><span className="corr">s</span>er, je lieber.
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   Wir <span className="orig">ſ</span><span className="corr">s</span>ind noch jung <span className="abbr"> u.</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}
                   wollen die
-                  <br className="lb" />
-                  Glieder rühren.<a id="mark.003.e">{/*anchor*/}</a>
+                  <br className="lb" />{" "}
+                  Glieder rühren.<a id="mark.003.e">{/*anchor*/}</a>{" "}
                   <a id="annot.005.s">{/*anchor*/}</a>Vielleicht kann
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   ich im Herb<span className="orig">ﬅ</span><span className="corr">st</span> wenn ich{" "}
                   <span className="persName">Friederike</span> hole
                   <a id="annot.005.e">{/*anchor*/}</a>
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                 </p>
               </div>
               <div
@@ -458,24 +455,23 @@ export default function page() {
               >
                 {/* Insert Page 4 */}
                 <p>
-                  ein paar Tage länger bei den Eltern <br className="lb" />
+                  ein paar Tage länger bei den Eltern <br className="lb" />{" "}
                   bleiben.
                   <span style={{ display: "inline-block" }} width="3char">
                     &nbsp;
                   </span>
                   Wirklich, ich thäte es auch
-                  <br className="lb" />
-                  diesmal gerne. <a id="annot.006.s">{/*anchor*/}</a>Aber ich
-                  darf
+                  <br className="lb" />{" "}
+                  diesmal gerne. <a id="annot.006.s">{/*anchor*/}</a>Aber ich darf{" "}
                   <span className="g.rend.script.latin">August</span>{" "}
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   nicht lange alleine <span className="orig">laßen</span>
                   <span className="corr">lassen</span>. Es i<span className="orig">ﬅ</span><span className="corr">st</span>
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   ihm manches von meinen Sachen
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   fremd.
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   <a id="annot.006.e">{/*anchor*/}</a>
                 </p>
                 <p className="enc.tagsdecl.indent-medium">
@@ -488,30 +484,30 @@ export default function page() {
                     Be<span className="orig">ﬅ</span><span className="corr">st</span>ellung<span className="ex">en</span>
                   </span>{" "}
                   werde ich
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   <span className="orig">beßtens</span>
-                  <span className="corr">bestens</span> ausführen. Die Stiefel
+                  <span className="corr">bestens</span> ausführen. Die Stiefel{" "}
                   <span className="orig">ſ</span><span className="corr">s</span>ah
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   ich <span className="orig">ſ</span><span className="corr">s</span>chon den Tag nach Eurer Abrei<span className="orig">ſ</span><span className="corr">s</span>e.
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   Nach den andern 3 Punkten <span className="orig">ſ</span><span className="corr">s</span>chaue
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   ich <span className="date">morgen</span> frühe um.
                 </p>
                 <p className="enc.tagsdecl.indent-small">
                   Aber <span className="g.rend.script.latin">à propos</span>!
                   Wollte<span className="orig">ﬅ</span><span className="corr">st</span> Du nicht
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   <a id="annot.007.s">{/*anchor*/}</a>
-                  <span className="persName">Rike Menkhoff</span>
+                  <span className="persName">Rike Menkhoff</span>{" "}
                   <span className="strike-through" style={{ textDecoration: "line-through" }}>
                     bitten
                   </span>{" "}
-                  nicht
+                  nicht{" "}
                   <span className="persName">Schmits</span>
-                  <a id="annot.007.e">{/*anchor*/}</a> <br className="lb" />
-                  bitten, daß
+                  <a id="annot.007.e">{/*anchor*/}</a> <br className="lb" />{" "}
+                  bitten, daß{" "}
                   <span className="orig">
                     <span className="overwritten">S</span>
                     <span className="add"><span className="orig">ſ</span><span className="corr">s</span></span>ie
@@ -519,67 +515,66 @@ export default function page() {
                   <span className="corr">sie</span> ihrem Manne <span className="orig">ſ</span><span className="corr">s</span>chrei
                   <br className="g.enc.tagsdecl.hyphenation.divis" />
                   ben möchte, daß ich <span className="orig">ſ</span><span className="corr">s</span>chwerlich am
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   <span className="date">
                     3
                     <span className="g.enc.tagsdecl.cc.abbr-period-sup">
-                      <sup>n</sup>.
+                      <sup>n</sup>.{" "}
                     </span>
                     <span className="g.rend.script.latin">
-                      <span className="abbr"> Aug.</span>
+                      <span className="abbr">Aug.</span>
                       <span className="expan">
                         Aug<span className="ex">ust</span>
                       </span>
                     </span>
                   </span>
                   in <span className="placeName">Ham̅</span> <span className="orig">ſ</span><span className="corr">s</span>eÿn könnte damit
-                  <br className="lb" />
-                  er <span className="orig">ſ</span><span className="corr">s</span>eine
+                  <br className="lb" />{" "}
+                  er <span className="orig">ſ</span><span className="corr">s</span>eine{" "}
                   <span className="g.enc.tagsdecl.suspension.type1">
-                    {" "}
                     (Einrichtung)
                   </span>
                   <span className="expan">
                     Einrichtung<span className="ex">en</span>
                   </span>
-                  darnach trifft.
-                  <br className="lb" />
+                  {" "}darnach trifft.
+                  <br className="lb" />{" "}
                   Wenn er mich aber gegen <span className="date">den 22</span>
-                  <br className="lb" />
-                  bis
+                  <br className="lb" />{" "}
+                  bis{" "}
                   <span className="date">
                     23
                     <span className="g.enc.tagsdecl.cc.abbr-period-sup">
                       <sup>n</sup>.
                     </span>
-                  </span>
+                  </span>{" "}
                   begleiten will, <span className="orig">ſ</span><span className="corr">s</span>oll’s
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   mich freuen. –
                 </p>
                 <blockquote className="closer">
                   <p className="enc.tagsdecl.indent-medium">
                     Nun Adieu, es i<span className="orig">ﬅ</span><span className="corr">st</span> gleich eilf Uhr.
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     <span className="orig">Küße</span>
                     <span className="corr">Küsse</span> mein liebes Kind.
                     Schreibe mir
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     doch jeden Po<span className="orig">ﬅ</span><span className="corr">st</span>tag ein paar Worte
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     will<span className="orig">ﬅ</span><span className="corr">st</span> Du, es thut mir <span className="orig">ſ</span><span className="corr">s</span>o gut. –
                   </p>
                 </blockquote>
                 <blockquote className="closer">
                   <p className="enc.tagsdecl.indent-small">
-                    Lebe recht wohl, Du
+                    Lebe recht wohl, Du{" "}
                     <span className="orig">
                       Herzens<span className="unclear">^</span>
                       <span style={{ display: "inline-block" }}>&nbsp;</span>
                       kind
                     </span>
                     <span className="corr">Herzenskind</span>{" "}
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     und behalte mich <span className="orig">ſ</span><span className="corr">s</span>o lieb wie ich Dich.
                   </p>
                 </blockquote>
@@ -588,9 +583,9 @@ export default function page() {
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}
-                  Ge<span className="orig">ſ</span><span className="corr">s</span>chwister herzlich <br className="lb" />
+                  Ge<span className="orig">ſ</span><span className="corr">s</span>chwister herzlich <br className="lb" />{" "}
                   <div className="enc.tagsdecl.indent-small">
-                    von Deinem treuen <br className="lb" />
+                    von Deinem treuen <br className="lb" />{" "}
                     <span style={{ display: "inline-block" }} width="4words">
                       &nbsp;
                     </span>

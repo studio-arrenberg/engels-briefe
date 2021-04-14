@@ -161,12 +161,12 @@ export default function page() {
                       l<span className="ex">etzen</span>
                     </span>{" "}
                     Brief und gleichzeitig
-                    <br className="lb" />
-                    einen aus
+                    <br className="lb" />{" "}
+                    einen aus{" "}
                     <span className="placeName">
-                      <span className="g.rend.script.latin">Barmen</span>
+                      <span className="g.rend.script.latin">Barmen</span>{" "}
                     </span>
-                    von <span className="persName">Hermann</span> und
+                    von <span className="persName">Hermann</span>{" "} und{" "}
                     <span className="persName">Emil</span>. Mit Ver
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     gnügen <span className="orig">ſ</span>
@@ -175,142 +175,142 @@ export default function page() {
                     <span className="corr">s</span>
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>er ging, und
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     Du bald wieder ganz herge<span className="orig">ﬅ</span>
                     <span className="corr">st</span>ellt bi
                     <span className="orig">ﬅ</span>
-                    <span className="corr">st</span>.
+                    <span className="corr">st</span>.{" "}
                     <a id="teaser.part.002.s">{/*anchor*/}</a>
                     <a id="mark.001.s">{/*anchor*/}</a>
                     <span className="reisen">
-                      Aus
+                      Aus{" "}
                       <span className="persName">Friedrichs</span> Brief
-                      <br className="lb" />
+                      <br className="lb" />{" "}
                       ha<span className="orig">ﬅ</span>
                       <span className="corr">st</span> Du meine{" "}
                       <span className="orig">glükliche</span>
                       <span className="corr">glückliche</span> Ankunft ge
                       <span className="orig">ſ</span>
-                      <span className="corr">s</span>ehen.
+                      <span className="corr">s</span>ehen.{" "}
                       <a id="teaser.part.002.e">{/*anchor*/}</a>
                       Ich war richtig
-                      <br className="lb" />
+                      <br className="lb" />{" "}
                       um 12 Uhr Mittags hier.<a id="mark.001.e">{/*anchor*/}</a>
-                    </span>
+                    </span>{" "}
                     <a id="teaser.part.003.s">{/*anchor*/}</a>Ich wohne wieder
-                    bei
+                    bei{" "}
                     <span className="persName">Friedrich</span>,
-                    <br className="lb" />
-                    es war grade ein hübches Schlafzimmer frei.
+                    <br className="lb" />{" "}
+                    es war grade ein hübches Schlafzimmer frei.{" "}
                     <span className="persName">Friedrich</span>
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ieht wieder recht wohl und
                     eben <span className="orig">ſ</span>
                     <span className="corr">s</span>o{" "}
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>ark wie früher
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     aus.<a id="teaser.part.003.e">{/*anchor*/}</a>
                     <span style={{ display: "inline-block" }} width="1cm">
                       &nbsp;
                     </span>
                     <a id="mark.003.s">{/*anchor*/}</a>Diesmal fand ich hier die
                     Bilanzarbeiten
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     wirklich <span className="orig">ſ</span>
                     <span className="corr">s</span>chon fertig, und das Re
                     <span className="orig">ſ</span>
-                    <span className="corr">s</span>ultat
+                    <span className="corr">s</span>ultat{" "}
                     <span style={{ textDecoration: "underline" }}>
                       über
                     </span>{" "}
                     mein
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     Erwarten gün<span className="orig">ﬅ</span>
                     <span className="corr">st</span>ig, nämlich eben{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>o{" "}
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>ark, wie das
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     <span className="orig">verfloßene</span>
                     <span className="corr">verflossene</span> Jahr, und meinen
                     Antheil <span className="orig">ſ</span>
                     <span className="corr">s</span>ogar
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     noch um ₤ 12,– größer, da das Bündelge
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chäft etwas
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     mehr gegen voriges Jahr geliefert hatte. Die
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>e Re
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ultate
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ind wirklich er
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>aunlich, und um{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>o erfreulicher, als
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     das Ge<span className="orig">ſ</span>
                     <span className="corr">s</span>chäft eine{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>olidere Richtung genommen
                     hat,
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     indem <span className="g.rend.script.latin">
                       Spools
                     </span>{" "}
                     und Bündel <span className="orig">ſ</span>
                     <span className="corr">s</span>ich mehr ausdehnen, und
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     wir demnach weniger von dem Ab
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>atz an die weniger
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>oliden Fabrikanten abhängig{" "}
                     <span className="orig">ſ</span>
-                    <span className="corr">s</span>ind. –
+                    <span className="corr">s</span>ind. –{" "}
                     <span style={{ textDecoration: "underline" }}>
                       Einen Sorgen<span className="orig">ﬅ</span>
                       <span className="corr">st</span>ein
                     </span>
                     ,
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     liebe Mutter, kann ich Dir nun voll
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>ändig abnehmen,
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     den nämlich wegen der
-                    <span className="g.rend.script.latin">
+                    <span className="g.rend.script.latin">{" "}
                       Deposita &amp; Capitalien
                     </span>
                     . Es i<span className="orig">ﬅ</span>
                     <span className="corr">st</span>{" "}
                     <span style={{ textDecoration: "underline" }}>jetzt</span>
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chon hinreichend Geld hier
-                    vorräthig um 20 à 30,000
-                    <span className="abbr"> Thlr</span>
+                    vorräthig um 20 à 30,000{" "}
+                    <span className="abbr">Thlr</span>
                     <span className="expan">
                       Th<span className="ex">a</span>l
                       <span className="ex">e</span>r
                     </span>
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     heraus ziehen zu können, wenn es durch irgend
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     eine Kündigung nothwendig würde.
                     <span style={{ display: "inline-block" }} width="1cm">
                       &nbsp;
                     </span>
                     Wir haben in
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     die<span className="orig">ſ</span>
                     <span className="corr">s</span>em{" "}
                     <span className="orig">Augenblik</span>
@@ -321,26 +321,26 @@ export default function page() {
                     <span className="expan">
                       u<span className="ex">nd</span>
                     </span>{" "}
-                    beim
+                    beim{" "}
                     <span className="g.rend.script.latin">Banquier</span>
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>ehen.
                     <span className="persName">
-                      <span className="g.rend.script.latin">
-                        Peter <span className="abbr"> E.</span>
+                      <span className="g.rend.script.latin">{" "}
+                        Peter <span className="abbr"> E.</span>{" "}
                         <span className="expan">
                           E<span className="ex">rmen</span>
                         </span>
                       </span>
                     </span>
                     bekommt davon ₤ 5600 – mithin bleiben
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>ark ₤ 12,000 – oder{" "}
                     <span className="abbr"> rh</span>
                     <span className="expan">Reichstaler</span>
-                    <span style={{ textDecoration: "underline" }}>
+                    <span style={{ textDecoration: "underline" }}>{" "}
                       84,000
                     </span>{" "}
                     –
@@ -349,7 +349,7 @@ export default function page() {
                     </span>{" "}
                     übrig, dabei <span className="orig">ſ</span>
                     <span className="corr">s</span>ind
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     wir hier nichts <span className="orig">ſ</span>
                     <span className="corr">s</span>chuldig und haben noch
                     <sup className="sup" id="txt.add001">
@@ -359,12 +359,12 @@ export default function page() {
                       </span>
                     </sup>
                     Baumwolle
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     für
                     <span className="g.enc.tagsdecl.cc.abbr-period-sup">
                       c<sup>a</sup>.
                     </span>{" "}
-                    7 Monate vorräthig. Mit
+                    7 Monate vorräthig. Mit{" "}
                     <span className="persName">
                       <span className="g.rend.script.latin">
                         <span className="abbr"> Gottfr</span>
@@ -373,12 +373,12 @@ export default function page() {
                         </span>
                         <span className="abbr"> E.</span>
                         <span className="expan">
-                          E<span className="ex">rmen</span>
+                        {" "}E<span className="ex">rmen</span>
                         </span>
                       </span>
                     </span>
-                    habe ich in Bezug
-                    <br className="lb" />
+                    {" "}habe ich in Bezug
+                    <br className="lb" />{" "}
                     auf den <span className="g.rend.script.latin">
                       Fond
                     </span>{" "}
@@ -386,43 +386,41 @@ export default function page() {
                     <span className="corr">s</span>prache getroffen, er i
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span> ganz
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     damit einver<span className="orig">ﬅ</span>
                     <span className="corr">st</span>anden, und{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>omit wäre die
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>e Sache in Ordnung.
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     Er <span className="orig">ſ</span>
-                    <span className="corr">s</span>ieht auch wohl ein, daß
+                    <span className="corr">s</span>ieht auch wohl ein, daß{" "}
                     <span style={{ textDecoration: "underline" }}>
                       <span className="orig">überflüßiger</span>
                       <span className="corr">überflüssiger</span>
-                    </span>
+                    </span>{" "}
                     <span className="g.rend.script.latin">Fond</span> eben
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>o wohl
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     nachtheilig für ein Ge<span className="orig">ſ</span>
                     <span className="corr">s</span>chäft i
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>, als zu geringer, und
                     deshalb
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     ent<span className="orig">ﬅ</span>
                     <span className="corr">st</span>eht bei einem Ge
                     <span className="orig">ſ</span>
-                    <span className="corr">s</span>chäfte, worin
+                    <span className="corr">s</span>chäfte, worin{" "}
                     <span style={{ textDecoration: "underline" }}>
                       monatlich
                     </span>{" "}
-                    der
+                    der{" "}
                     <span className="g.rend.script.latin">Fond</span> außer
-                    <br className="lb" />
-                    <span style={{ display: "inline-block" }} width="16cm">
-                      &nbsp;
-                    </span>
+                    <br className="lb" />{" "}
+                    
                     den
                   </p>
                 </div>
@@ -441,45 +439,45 @@ export default function page() {
                     <span className="corr">s</span>en um ₤ 1000 – wäch
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>, bald die Frage,
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     wohin mit dem <span className="orig">überflüßigen</span>
                     <span className="corr">überflüssigen</span> Gelde? wobei es
                     dann am
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     einfach<span className="orig">ﬅ</span>
                     <span className="corr">st</span>en i
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span> daß ich einen Theil davon
                     zu mir
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     nehme, und die lä<span className="orig">ﬅ</span>
-                    <span className="corr">st</span>igen
+                    <span className="corr">st</span>igen{" "}
                     <span className="g.rend.script.latin">Capitalien</span>{" "}
                     abtrage.
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     <span style={{ textDecoration: "underline" }}>Jetzt</span>,
                     liebe Mutter wir<span className="orig">ﬅ</span>
                     <span className="corr">st</span> du mir doch wohl recht
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     geben, wenn ich behauptete daß es hier bald
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     über<span className="orig">ſ</span>
                     <span className="corr">s</span>chäumen würde! Wir wollen
                     übrigens Gott
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     danken, der alles <span className="orig">ſ</span>
                     <span className="corr">s</span>o zu un
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>erm{" "}
                     <span className="orig">Glük</span>
                     <span className="corr">Glück</span> und Segen gelenkt
-                    <br className="lb" />
-                    hat. Wegen
+                    <br className="lb" />{" "}
+                    hat. Wegen{" "}
                     <span className="persName">
                       <span className="g.rend.script.latin">
                         Anton <span className="abbr"> E.</span>
                         <span className="expan">
-                          E<span className="ex">rmen</span>
+                          E<span className="ex">rmen</span>{" "}
                         </span>
                       </span>
                     </span>
@@ -487,7 +485,7 @@ export default function page() {
                     <span className="corr">st</span> hier noch nichts ge
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chehen
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     und{" "}
                     <span className="orig">
                       be<span className="orig">ſ</span>
@@ -498,7 +496,7 @@ export default function page() {
                       <span className="corr">s</span>chlossen
                     </span>
                     , ein<span className="orig">ﬅ</span>
-                    <span className="corr">st</span>weilen nur wird er von
+                    <span className="corr">st</span>weilen nur wird er von{" "}
                     <span className="persName">
                       <span className="g.rend.script.latin">
                         <span className="abbr"> Gottfrd</span>
@@ -507,33 +505,32 @@ export default function page() {
                         </span>
                       </span>
                     </span>
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     und wahr<span className="orig">ſ</span>
-                    <span className="corr">s</span>cheinlich auch von
+                    <span className="corr">s</span>cheinlich auch von{" "}
                     <span className="persName">
                       <span className="g.rend.script.latin">Peter</span>
-                    </span>
+                    </span>{" "}
                     unter<span className="orig">ﬅ</span>
                     <span className="corr">st</span>ützt. Hätte
-                    <br className="lb" />
-                    der dumme
+                    <br className="lb" />{" "}
+                    der dumme{" "}
                     <span className="persName">
                       <span className="g.rend.script.latin">Anton</span>
-                    </span>
+                    </span>{" "}
                     nicht durch <span className="orig">ſ</span>
                     <span className="corr">s</span>einen albernen Contract
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     alles verdorben, <span className="orig">ſ</span>
-                    <span className="corr">s</span>o daß er noch ein
+                    <span className="corr">s</span>o daß er noch ein{" "}
                     <span style={{ textDecoration: "underline" }}>
                       paar Jahre
                     </span>{" "}
                     warten
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     könnte <span className="orig">ſ</span>
-                    <span className="corr">s</span>o hätte man vielleicht in
-                    Verbindung mit
-                    <br className="lb" />
+                    <span className="corr">s</span>o hätte man vielleicht in Verbindung mit
+                    <br className="lb" />{" "}
                     <span className="persName">
                       <span className="g.rend.script.latin">
                         <span className="abbr"> Gottfrd</span>
@@ -542,15 +539,15 @@ export default function page() {
                         </span>
                       </span>
                     </span>
-                    etwas Vernünftiges an der
+                    {" "}etwas Vernünftiges an der{" "}
                     <span className="g.rend.script.latin">Sieg</span> beginnen
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     können. Ich habe noch Niemand ge
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ehen, der{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ich
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>o in{" "}
                     <span className="orig">ſ</span>
@@ -563,11 +560,11 @@ export default function page() {
                       <a id="mark.002.s">{/*anchor*/}</a>Wegen meiner Abrei
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>e kann ich noch nichts
-                      <br className="lb" />
+                      <br className="lb" />{" "}
                       näheres <span className="orig">ſ</span>
                       <span className="corr">s</span>agen; wenn eure Briefe
                       nicht gekom̅en
-                      <br className="lb" />
+                      <br className="lb" />{" "}
                       wären <span className="orig">ſ</span>
                       <span className="corr">s</span>o würde ich{" "}
                       <span className="orig">ſ</span>
@@ -576,28 +573,28 @@ export default function page() {
                       <span className="corr">st</span>{" "}
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>ein,
-                      <br className="lb" />
+                      <br className="lb" />{" "}
                       da ich hier fertig war. Jetzt werde ich aber noch ein paar
-                      <br className="lb" />
+                      <br className="lb" />{" "}
                       Tage hier bleiben, und vielleicht noch vorher nach
-                      <br className="lb" />
+                      <br className="lb" />{" "}
                       <span className="placeName">
                         <span className="g.rend.script.latin">Oldham</span>
-                      </span>
+                      </span>{" "}
                       gehen.<a id="mark.002.e">{/*anchor*/}</a>
-                    </span>
-                    Von
+                    </span>{" "}
+                    Von{" "}
                     <span style={{ textDecoration: "underline" }}>
                       näch<span className="orig">ﬅ</span>
                       <span className="corr">st</span>em
                     </span>
-                    <a id="index.xml-anchor-d29e629" />
+                    {" "}<a id="index.xml-anchor-d29e629" />
                     <span className="strike-through" style={{ textDecoration: "line-through" }}>
                       <span style={{ textDecoration: "underline" }}>
                         Dien<span className="orig">ﬅ</span>
                         <span className="corr">st</span>ag
                       </span>
-                    </span>
+                    </span>{" "}
                     <sup className="sup" id="txt.add003">
                       <span className="strike-through" style={{ textDecoration: "line-through" }}>
                         Mittwoc
@@ -609,41 +606,41 @@ export default function page() {
                         Dien<span className="orig">ﬅ</span>
                         <span className="corr">st</span>ag
                       </span>
-                    </sup>
-                    <span style={{ textDecoration: "underline" }}>an</span>
+                    </sup>{" "}
+                    <span style={{ textDecoration: "underline" }}>an</span>{" "}
                     <span className="orig">laße</span>
                     <span className="corr">lasse</span> übrigens
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     die Hausthüre <span className="orig">blos</span>
                     <span className="corr">bloß</span> ab
                     <span className="orig">ſ</span>
-                    <span className="corr">s</span>chließen, und den
+                    <span className="corr">s</span>chließen, und den{" "}
                     <span style={{ textDecoration: "underline" }}>
                       untern
                     </span>{" "}
                     extra
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     Wirbel{" "}
                     <span style={{ textDecoration: "underline" }}>
                       nicht
                     </span>{" "}
                     herum drehen, <span className="orig">ſ</span>
                     <span className="corr">s</span>o daß ich von außen mit
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     meinem <span className="orig">Schlüßel</span>
-                    <span className="corr">Schlüssel</span> öffnen kann. Auch
+                    <span className="corr">Schlüssel</span> öffnen kann. Auch{" "}
                     <span className="orig">laße</span>
                     <span className="corr">lasse</span> ein Nachtlicht
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     neb<span className="orig">ﬅ</span>
                     <span className="corr">st</span> Leuchter im Vorhaus hin
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>etzen, wenn das Gas noch
-                    <br className="lb" />
-                    nicht brennt. Im
+                    <br className="lb" />{" "}
+                    nicht brennt. Im{" "}
                     <a id="txt.hi.underline001.int.s">{/*anchor*/}</a>le
                     <span style={{ textDecoration: "underline" }}>tztern</span>
-                    <a id="txt.hi.underline001.int.e">{/*anchor*/}</a> Falle
+                    <a id="txt.hi.underline001.int.e">{/*anchor*/}</a> Falle{" "}
                     <span className="orig">blos</span>
                     <span className="corr">bloß</span> den Leuchter.
                   </p>
@@ -656,9 +653,9 @@ export default function page() {
                     ; grüße die 3 Töchter <span className="orig">ſ</span>
                     <span className="corr">s</span>owie{" "}
                     <span className="strike-through" style={{ textDecoration: "line-through" }}>her</span>
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     die übrigen herzlich von mir.
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     <span style={{ display: "inline-block" }} width="1cm">
                       &nbsp;
                     </span>
@@ -690,7 +687,7 @@ export default function page() {
                       Dein Friedrich
                     </div>
                   </div>
-                  <br className="lb" />
+                  <br className="lb" />{" "}
                   <p>
                     Einlage an <span className="persName">Hermann</span> laß mit
                     bei<span className="orig">ſ</span>

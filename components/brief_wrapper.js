@@ -3,6 +3,7 @@ import {
   useMotionValue,
   useTransform,
   useViewportScroll,
+  useAnimation
 } from "framer-motion";
 import constants from "./constants";
 import Audio from "./audio";
@@ -68,6 +69,7 @@ export default function Brief_wrapper(props) {
     console.log("current: " + name + " useState: " + isThema);
   }
 
+
   // Vertical Slider
   const x = useMotionValue(0);
   const { scrollY, scrollYProgress } = useViewportScroll();
@@ -89,7 +91,7 @@ export default function Brief_wrapper(props) {
     width * 0.8,
     handlebar_width,
   ];
-  const handle_color = ""; // for testing
+  var handle_color = ""; // for testing
   const handle_width = useTransform(x, input, output_width);
   const ball_opacity_right = useTransform(x, input, [0, 0, 0, 1]);
   const ball_opacity_left = useTransform(x, input, [1, 1, 0, 0]);
@@ -97,18 +99,18 @@ export default function Brief_wrapper(props) {
   // Toggle Stellenerläuterungen
   const [isStellen, setStellen] = useState(false);
 
-  x.onChange((x_pos) => {
-    if (Math.abs(x_pos) < Math.abs(-1500)) {
-      // console.log("false")
-      setStellen(false);
-    } else {
-      // console.log("pro: " + Math.abs(x_pos))
-      // console.log("true")
-      setStellen(true);
-    }
-    // console.log(isStellen)
-    props.stellen(isStellen);
-  });
+  // x.onChange((x_pos) => {
+  //   if (Math.abs(x_pos) < Math.abs(-1500)) {
+  //     // console.log("false")
+  //     setStellen(false);
+  //   } else {
+  //     // console.log("pro: " + Math.abs(x_pos))
+  //     // console.log("true")
+  //     setStellen(true);
+  //   }
+  //   // console.log(isStellen)
+  //   props.stellen(isStellen);
+  // });
 
 
   // Audio Player Activation
@@ -132,6 +134,84 @@ export default function Brief_wrapper(props) {
   //   document.querySelector('.normalisiert').innerHTML = el;
   // }, []);
 
+  // if (x.onChange()) {
+  //   // console.log();
+  //   handle_color = "red"; // for testing
+  // }
+  // else {
+  //   handle_color = "green";
+  // }
+
+  function usePrevious(value) {
+    const previousValueRef = useRef();
+  
+    useEffect(() => {
+      previousValueRef.current = value;
+    }, [value]);
+  
+    return previousValueRef.current;
+  }
+  
+
+  // Brief ansichten
+  const [isView, setView] = useState(true);
+  const controls = useAnimation();
+  const prevIsOpen = usePrevious(isView);
+
+  if (isView && !prevIsOpen) {
+    // alert("a");
+    x.set(0);
+    if (isStellen) setStellen(false)
+    props.stellen(isStellen)
+    // setStellen(true);
+  }
+  else if (!isView && prevIsOpen) {
+    // alert('b');
+    x.set(-handle_constraint);
+
+    if (!isStellen) setStellen(true)
+    props.stellen(isStellen)
+    // setStellen(true);
+  }
+
+
+  // function ViewToggle(state) {
+
+  //   setView(state);
+
+  //   // detail ansicht aktivieren
+  //   if (isView == true) {
+
+  //     // controls.start("normal");
+
+  //     x.set(-handle_constraint);
+  //     setView(false);
+
+  //     setStellen(false);
+  //     alert(isStellen);
+  //   }
+  //   // normalisierte ansicht aktivieren
+  //   else if (isView == false) {
+  //     // controls.start("detail");
+
+  //     x.set(0);
+  //     setView(true);  
+  //     // alert('hihi');
+  //     // setStellen(true);
+  //     setStellen(!isStellen);
+
+  //     // if (isStellen == false) {
+  //     //   setStellen(!isStellen);
+  //     // }
+  //     alert(isStellen);
+  //   }
+
+  //   props.stellen(isStellen);
+
+    
+    
+  // }
+
   return data.map((data, id) => {
     return (
       <>
@@ -141,22 +221,7 @@ export default function Brief_wrapper(props) {
             className="bouncingbal"
             style={{ opacity: ball_opacity_left, x: "50px", y: "50px" }}
           >
-            <motion.div style={{ rotate: 180, x: "-80px", y: "-25px" }}>
-              <BouncingBall />
-            </motion.div>
-
-            <p>Vergleichsansicht</p>
-          </motion.div>
-
-          <motion.div
-            className="bouncingball"
-            style={{ opacity: ball_opacity_right }}
-          >
-            <motion.div>
-              <BouncingBall />
-            </motion.div>
-
-            <p>Detailansicht</p>
+           
           </motion.div>
         </div>
 
@@ -294,17 +359,34 @@ export default function Brief_wrapper(props) {
 
             {/* swipe handlebar */}
             <motion.div
-              drag="x"
+              onClick={()=> ViewToggle() }
+              // drag="x"
               className="handlebar"
               dragMomentum={true}
               dragTransition={{ bounceStiffness: 100, bounceDamping: 40 }}
+
+              variants={{
+                normal: { left: 0 },
+                detail: { left: handle_constraint }
+              }}
+              animate={controls}
+
+              transition={{
+                type: "spring",
+                damping: 40,
+                stiffness: 400
+              }}
+
+              dragConstraints={{ left: -handle_constraint, right: 0 }}
+
               style={{
                 width: handle_width,
                 opacity: 1,
                 x,
                 backgroundColor: handle_color,
               }}
-              dragConstraints={{ left: -handle_constraint, right: 0 }}
+              
+              
             ></motion.div>
 
             <motion.div
@@ -344,6 +426,25 @@ export default function Brief_wrapper(props) {
           <div className={`player  ${ isPlayer == true ? "active" : null }  `}>
             <Audio file={data.audio}></Audio>
           </div>
+
+          <div className="tapbar ">
+            <a className={`${isView == true ? "active" : null}`} onClick={() => setView(true)}>
+              <div >
+                <label>Vergleichsansicht Ansicht</label>
+                <p>Betrachten Sie hier den originalen Brief  und vergleichen sie ihn mit der transkribierten Version.</p>
+              </div>
+              <img src={`../icons/vergleichsansicht.svg`} />
+            </a>
+
+            <a className={`${isView == false ? "active" : null}`} onClick={() => setView(false)}>
+            <img src={`../icons/normalisierte-ansicht.svg`} />
+              <div>
+                <label>Normalisierte Ansicht</label>
+                <p>Betrachten Sie hier den originalen Brief  und vergleichen sie ihn mit der transkribierten Version.</p>
+              </div>
+            </a>
+          </div>
+
 
           {/* orte */}
 
@@ -442,8 +543,6 @@ export function BouncingBall() {
         transition={bounceTransition}
         animate={{
           x: ["80px", "-80px"],
-          // backgroundColor: ["#000", "#fff"],
-          // opacity: [0, 0.2],
           backgroundColor: ["#000", "#838383"],
           opacity: [0, 0.8],
         }}
