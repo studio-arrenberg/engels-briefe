@@ -358,8 +358,8 @@ export default function Brief_wrapper(props) {
             </motion.div>
 
             {/* swipe handlebar */}
-            <motion.div
-              onClick={()=> ViewToggle() }
+            {/* <motion.div
+              // onClick={()=> ViewToggle() }
               // drag="x"
               className="handlebar"
               dragMomentum={true}
@@ -387,7 +387,7 @@ export default function Brief_wrapper(props) {
               }}
               
               
-            ></motion.div>
+            ></motion.div> */}
 
             <motion.div
               className="detail"
