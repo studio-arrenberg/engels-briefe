@@ -747,7 +747,7 @@ export default function page() {
                     </span>
                     , <span className="orig">Daß</span>
                     <span className="corr">daß</span> ich mich für der
-                    Versuchung fürchtete,
+                    <span className="makierung">Versuchung{" "} </span> fürchtete,
                     <br className="lb" /> weil ich n
                     <span className="overwritten">i</span>
                     <span className="add">o</span>ch nicht einmal, seitdem ich{" "}
@@ -1025,14 +1025,17 @@ export default function page() {
                     </p>
                   </blockquote>
                   <blockquote className="closer">
-                    <span className="makierung">
+                    
                       <p>
+                      <span className="makierung">
                         <a id="annot.001.s">{/*anchor*/}</a>Meine{" "}
                         <span className="persName">
+
                           <span className="abbr"> S.</span>
                           <span className="expan">
                             S<span className="ex">chwester</span>
                           </span>
+                        </span>
                         </span>
                         <a id="annot.001.e">{/*anchor*/}</a> und Nichte{" "}
                         <span className="g.rend.script.latin">Märken</span>{" "}
@@ -1046,7 +1049,7 @@ export default function page() {
                         <span className="orig" />
                         <span className="corr">.</span>
                       </p>
-                    </span>
+                    
                   </blockquote>
                   <div className="closer">
                     Lebe recht wohl ewig geliebte{" "}
@@ -1077,30 +1080,39 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "210px",
+              top: "350px",
             }}
           >
             <hr />
             <label>Heiligung</label>
             <p>
-              Die Heiligung bezeichnet in der protestantischen Kirche die
-              Sinnesänderung und Lebensgestaltung eines Christen nach den Regeln
-              Christi, innerlich durch das Wirken des Heiligen Geistes und
-              äußerlich durch fromme Taten. Sie gilt als ein allmählich zur
-              Vollendung fortschreitendes Werk.
+            Die Heiligung bezeichnet in der protestantischen Kirche die Sinnesänderung und Lebensgestaltung eines Christen nach den Regeln Christi, innerlich durch das Wirken des Heiligen Geistes und äußerlich durch fromme Taten. Sie gilt als ein allmählich zur Vollendung fortschreitendes Werk. (Vgl. Pierer 1859, Bd. 8, S. 175–176.)
             </p>
           </div>
 
           <div
             className="stellenerläuterung"
             style={{
-              top: "1360px",
+              top: "2000px",
             }}
           >
             <hr />
             <label>Maria Elisabeth Märker</label>
-            <p>geb. Noot (1753–1831)</p>
+            <p>Maria Elisabeth Märker, geb. Noot (1753–1831).</p>
           </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "1430px",
+            }}
+          >
+            <hr />
+            <label>Versuchung</label>
+            <p>Tanzen besaß im 19. Jh. (und darüber hinaus) eine potentiell erotische Bedeutung und galt in streng pietistischen Kreisen somit als Gefahr und Versuchung zur Sünde.</p>
+          </div>
+
+
         </div>
       </Brief_wrapper>
     </Layout>

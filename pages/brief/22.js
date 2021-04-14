@@ -89,7 +89,7 @@ export default function page() {
                         <a id="teaser.part.001.e">{/*anchor*/}</a>
                       </span>
                     </span>
-                    <a id="mark.002.s">{/*anchor*/}</a>Wie freue ich mich
+                    <a id="mark.002.s">{/*anchor*/}</a>Wie freue ich mich{" "}
                     <br className="lb" />
                     daß Du glücklich, ge<span className="orig">ſ</span>
                     <span className="corr">s</span>und und munter zu
@@ -196,6 +196,7 @@ export default function page() {
                     <br className="lb" />
                   </p>
                 </div>
+
                 <div
                   className="page"
                   style={{
@@ -225,6 +226,7 @@ export default function page() {
                     <span className="corr">s</span>eine Güte von uns
                     <br className="lb" />
                     gewendet hat{" "}
+                    <span className="makierung">
                     <span className="abbr"> Ps<span className="orig">:</span>
                       <span className="corr">.</span>
                     </span>
@@ -236,7 +238,7 @@ export default function page() {
                     <span className="expan">
                       v<span className="ex">er</span>s
                     </span>{" "}
-                    20.<a id="annot.001.e">{/*anchor*/}</a>
+                    20.</span><a id="annot.001.e">{/*anchor*/}</a>
                     <a id="mark.001.e">{/*anchor*/}</a> Wann’s unsren{" "}
                     <br className="lb" />
                     lieben him̅lischen Vater <span className="orig">gefält</span>
@@ -308,9 +310,145 @@ export default function page() {
                     <br className="lb" />
                   </p>
                 </div>
+
+                <div
+                  className="page"
+                  style={{
+                    paddingTop: "100px",
+                    paddingLeft: "70px",
+                    paddingBottom: "225px",
+                  }}
+                >  
+                  <p>
+                <p>
+          macht mir Muth und <span className="orig">ﬅärckt</span><span className="corr">ﬅärkt</span> mein Vertrauen so daß<br className="lb" />
+          ich <span style={{textDecoration: 'underline'}}>ruhig</span> und
+          <span style={{textDecoration: 'underline'}}>getroﬅ</span> in
+          <a id="annot.002.s">{/*anchor*/}</a>die<a id="annot.002.e">{/*anchor*/}</a>
+          Zukunft blicke und<br className="lb" />
+          keine einzige Sorge in meinem Herzen einkehren
+          <span className="orig">laßen</span><span className="corr">lassen</span><br className="lb" />
+          <span className="overwritten">e</span><span className="add">⟨E⟩</span>s wäre
+          auch <span className="orig">würcklich</span><span className="corr">würklich</span> gar kein Wohlverhalten von<br className="lb" />
+          mir, und ich würde mir versündigen wann ich
+          <span className="orig">jezt</span><span className="corr">jetzt</span><br className="lb" />
+          noch sorgen <span className="orig">wolte</span><span className="corr">wollte</span>: beÿ den vielen und großen Vor<br className="g.enc.tagsdecl.hyphenation.divis" />
+          theilen so mir durch Gottes Güte zu Theil werden –<br className="lb" />
+          weg also mit allen <span className="orig">Bedencklichkeiten</span><span className="corr">Bedenklichkeiten</span>! weg mit allen<br className="lb" />
+          Sorgen! <span style={{textDecoration: 'underline'}}>Froh</span>,
+          <span style={{textDecoration: 'underline'}}>ruhig</span> und
+          <span style={{textDecoration: 'underline'}}>getroﬅ</span> iﬅ
+          <span className="orig">jezt</span><span className="corr">jetzt</span> mein
+          <span style={{textDecoration: 'underline'}}>Wahlspruch</span><span className="orig" /><span className="corr">.</span>
+          <a id="mark.003.e">{/*anchor*/}</a><br className="lb" />
+          Äußerlich iﬅ es aber nun ungemein unruhig hier
+          <span className="damage"><span className="gap"> [...]</span><span className="supplied" id="supplied.text001">{'{'}mein{'}'}</span></span>
+          <br className="lb" />
+          Beﬅer! <span className="makierung">ich bin mitten im packen</span> und werde
+          <span className="damage"><span className="gap"> [...]</span></span>
+          <br className="lb" />
+          schwerlich <span className="orig">heüte</span><span className="corr">heute</span> damit fertig werden; doch will ich
+          <span className="damage" /> mein<br className="lb" />
+          <span className="orig">beﬅes</span><span className="corr">Beﬅes</span> thun und
+          nun wieder mit frischen Muth anfangen<span className="orig" /><span className="corr">.</span><br className="lb" />
+          <span className="makierung"><span className="persName">Schweﬅer Märcker</span> </span>und
+          <span className="makierung"><span className="orig">CreißEinnehmers</span><span className="corr">Kreiseinnehmers</span></span> sind unten am<br className="lb" />
+          Caﬀee trinken und haben mir schon <span className="orig">ruﬀen</span><span className="corr">rufen</span> <span className="orig">laßen</span><span className="corr">lassen</span>.
+        </p>
+        <p>
+          Du mein herzlichgeliebter Gatte! muß<span className="orig" /><span className="corr">t</span>
+          <span style={{textDecoration: 'line-through'}}>h</span> mit diesen<br className="lb" />
+          in der Eil geschriebenen Brief vorlieb nehmen und
+          <span className="orig">heüte</span><span className="corr">heute</span><br className="lb" />
+          Deine <span className="orig">geschäﬀtige</span><span className="corr">geschäftige</span> Frau entschuldigen. Alle unsere
+          hiesige<br className="lb" />
+          liebe Verwandten grüßen Dir mit vieler Liebe – unsere<br className="lb" />
+          dortigen Lieben bitte ich meine <span className="orig">liebe</span><span className="corr">Liebe</span> zu versichern.
+        </p>
+        <div className="closer">
+          <span className="g.rend.script.latin">Adieu!</span> liebes gutes Männchen!
+          der liebe Gott seÿe<br className="lb" />
+          Dir recht nahe, <span className="orig">beschüze</span><span className="corr">beschütze</span> und erhalte Dich! <br className="lb" />
+          Nun nim̅ noch diese<span className="damage"><span className="gap"> [...]</span><span className="supplied" id="supplied.text002">[n zär]</span></span>tlichen Kuß von Deine<br className="lb" />
+          <div className="dateline">
+            <span className="placeName">Ruhrorth</span> am
+            <span className="date">10 <sup><sup style={{textDecoration: 'underline'}}>ten</sup></sup>
+              <span className="abbr"> (Sept:)</span><span className="expan">Sept<span className="ex">ember</span></span></span>
+          </div>
+          <span className="damage"><span className="gap"> [...]</span></span>
+          <div className="signed">
+            <span className="orig">treüe</span><span className="corr">treue</span> Dich
+            herzlich<span style={{display: 'inline-block'}}>&nbsp;</span>liebende
+          </div>
+          <br className="lb" />
+          <span style={{display: 'inline-block'}} width="12cm">&nbsp;</span>
+          <div className="signed">
+            <span className="persName">Luise Engels
+              <span className="g.enc.tagsdecl.suspension.type2"> (geb.)</span><span className="expan">geb<span className="ex">orene</span></span>
+              Noot</span>.
+          </div>
+        </div>
+      
+                  </p>
+                </div>
               </section>
             </div>
           </div>
+        </div>
+        <div className={`stellenerläuterungen ${isStellen ? "activ" : null}`}>
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Ps: 66, vs 20</label>
+            <p>
+            Psalm 66, 20: „Gelobt sei Gott, der mein Gebet nicht verwirft noch seine Güte von mir wendet.“ (LUT)
+
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Ich bin mitten im Packen</label>
+            <p>
+            Louise Noot bereitet ihren Umzug nach Barmen vor.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Schwester Märker</label>
+            <p>
+            Maria Elisabeth Märker, geb. Noot (1753–1831).
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Kreiseinnehmers</label>
+            <p>
+            Die Eheleute Gerhard Peter Noot (1751–1836), Bruder von Louise Noot, und Anna Clara Maria Noot, geb. Karthaus (1750–1860). (Siehe Brief 4.) 
+            </p>
+          </div>
+
         </div>
       </Brief_wrapper>
     </Layout>

@@ -106,7 +106,7 @@ export default function page() {
                         Franzo<span className="orig">ſ</span><span className="corr">s</span>en freÿlich etwas beküm̅ert war, indem
                         {" "}<br className="lb" />
                         ich’s gehört hatte, daß sie{" "}
-                        <span className="placeName">Mainz</span> bombardirten
+                        <span className="makierung"><span className="placeName">Mainz</span> bombardirten</span>
                         <a id="teaser.part.002.e">{/*anchor*/}</a>
                         {" "}<br className="lb" />
                         und ich glaubte, daß Du da drüber rei<span className="orig">ſ</span><span className="corr">s</span>en
@@ -192,7 +192,7 @@ export default function page() {
                     <span className="orig">ſ</span><span className="corr">s</span>chon <span className="orig">ſ</span><span className="corr">s</span>o bald Nachricht von
                     {" "}<br className="lb" />
                     Dir zu geben <span className="orig">dancke</span>
-                    <span className="corr">danke</span> ich Dir mein guter Papa!
+                    <span className="corr">danke</span> ich Dir mein guter <span className="makierung">Papa!</span>
                     {" "}<br className="lb" />
                     herzlich, ich erkenne daraus Deine zärtliche Liebe,
                     {" "}<br className="lb" />
@@ -221,10 +221,10 @@ export default function page() {
                     <span className="orig">Ge<span className="orig">ﬅ</span><span className="corr">st</span>ern</span>
                     <span className="corr">ge<span className="orig">ﬅ</span><span className="corr">st</span>ern</span> geantwortet,
                     {" "}<br className="lb" />
-                    weil wir aber am Kappes <span className="orig">ſ</span><span className="corr">s</span>chneiden waren, und ich
+                    weil wir aber am <span className="makierung">Kappes</span> <span className="orig">ſ</span><span className="corr">s</span>chneiden waren, und ich
                     {" "}<br className="lb" />
-                    auch Kramsvogel gepackt habe, um{" "}
-                    <span className="persName">Bruder Wilhelm</span>{" "}
+                    auch <span className="makierung">Kramsvogel</span> gepackt habe, um{" "}
+                    <span className="makierung"><span className="persName">Bruder Wilhelm</span></span>{" "}
                     {" "}<br className="lb" />
                     zu <span className="orig">ſ</span><span className="corr">s</span>chicken, kon̅te ich nicht.{" "}
                   </p>
@@ -273,8 +273,8 @@ export default function page() {
                   <p>
 
                   <span className="reisen">
-                      es etwas un<span className="orig">ſ</span><span className="corr">s</span>icher war, nicht über
-                      <span className="placeName"> Manheim</span> ge
+                      es etwas un<span className="orig">ſ</span><span className="corr">s</span>icher war, <span className="makierung">nicht über
+                      <span className="placeName"> Manheim</span></span> ge
                       <span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />rei<span className="orig">ﬅ</span><span className="corr">st</span> bi<span className="orig">ﬅ</span><span className="corr">st</span> <a id="mark.006.e">{/*anchor*/}</a>– Vielleicht
                       i<span className="orig">ﬅ</span><span className="corr">st</span> es auch für die Sache
                       {" "}<br className="lb" />
@@ -328,7 +328,7 @@ export default function page() {
                     </p>
                     <p>
                       Herr{" "}
-                      <span className="persName">
+                      <span className="makierung"><span className="persName">
                         Doctor{" "}
                         <span className="abbr">
                           C<span className="orig">:</span>
@@ -337,30 +337,30 @@ export default function page() {
                         <span className="expan">
                           C<span className="ex">ollenbu<span className="orig">ſ</span><span className="corr">s</span>ch</span>
                         </span>
-                      </span>{" "}
+                      </span></span>{" "}
                       hat vorigen Montag mit mir
                       {" "}<br className="lb" />
                       gege<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>en, und nachher den Thee getrunken; die<span className="orig">ſ</span><span className="corr">s</span>er
                       {" "}<br className="lb" />
-                      wün<span className="orig">ſ</span><span className="corr">s</span>chte noch im̅er daß die Sache nicht durch Geld
+                      wün<span className="orig">ſ</span><span className="corr">s</span>chte noch im̅er daß <span className="makierung">die Sache nicht durch Geld
                       {" "}<br className="lb" />
-                      getrieben würde, weil er befürchtet daß <span className="orig">ſ</span><span className="corr">s</span>on<span className="orig">ﬅ</span><span className="corr">st</span>
+                      getrieben </span>würde, weil er befürchtet daß <span className="orig">ſ</span><span className="corr">s</span>on<span className="orig">ﬅ</span><span className="corr">st</span>
                       {" "}<br className="lb" />
                       nachher das Geld, und nicht Gott die Ehre gegeben
                       {" "}<br className="lb" />
                       wird. Wir haben zu<span className="orig">ſ</span><span className="corr">s</span>am̅en einige P<span className="orig">ſ</span><span className="corr">s</span>almen durch<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
                       gele<span className="orig">ſ</span><span className="corr">s</span>en und darüber ge<span className="orig">ſ</span><span className="corr">s</span>prochen, unter andern
                       {" "}<br className="lb" />
-                      auch den 36
+                      auch den <span className="makierung">36
                       <span className="orig" />
-                      <span className="corr">.</span> P<span className="orig">ſ</span><span className="corr">s</span>alm.{" "}
+                      <span className="corr">.</span> P<span className="orig">ſ</span><span className="corr">s</span>alm.</span>{" "}
                       <span className="orig">die</span>
                       <span className="corr">Die</span> 4 er<span className="orig">ﬅ</span><span className="corr">st</span>e Ver<span className="orig">ſ</span><span className="corr">s</span>en <span className="orig">ſ</span><span className="corr">s</span>a
                       <span className="overwritten">t</span>
                       <span className="add">g</span>te er
                       {" "}<br className="lb" />
                       paßten ganz auf den <span className="persName">
-                        Knap
+                        <span className="makierung">Knap</span>
                       </span>{" "}
                       – die Lehre <span className="orig">ſ</span><span className="corr">s</span>o im
                     </p>
@@ -379,9 +379,11 @@ export default function page() {
                       3<sup style={{ textDecoration: "underline" }}>ten</sup>{" "}
                       Vers vorkämen,{" "}
                       <span className="orig">könte</span>
-                      <span className="corr">könnte</span> man <span className="orig">ſ</span><span className="corr">s</span>eine{" "}
+                      <span className="corr">könnte</span> man <span className="orig">ſ</span>
+                      <span className="makierung">
+                      <span className="corr">s</span>eine{" "}
                       <span className="orig">Schriﬀten</span>
-                      <span className="corr">Schriften</span>
+                      <span className="corr">Schriften</span></span>
                       {" "}<br className="lb" />
                       durch ver<span className="orig">ﬅ</span><span className="corr">st</span>ehen.
                     </p>
@@ -397,7 +399,7 @@ export default function page() {
                       <span className="expan">
                         H<span className="ex">err</span>
                       </span>{" "}
-                      <span className="persName">Wortmann</span> <span className="orig">ſ</span><span className="corr">s</span>o vergnügt{" "}
+                      <span className="persName"><span className="makierung">Wortmann</span></span> <span className="orig">ſ</span><span className="corr">s</span>o vergnügt{" "}
                       <span className="orig">reiße<span className="orig">ﬅ</span><span className="corr">st</span></span>
                       <span className="corr">reise<span className="orig">ﬅ</span><span className="corr">st</span></span>
                       {" "}<br className="lb" />
@@ -419,14 +421,14 @@ export default function page() {
                   </span>
                   <p>
                     <a id="mark.009.s">{/*anchor*/}</a>
-                    <span className="persName">Bruder Benjamin</span> brachte
+                    <span className="persName"><span className="makierung">Bruder Benjamin</span></span> brachte
                     mir Deine liebe Briefe, ich
                     {" "}<br className="lb" />
                     habe ihm al<span className="orig">ſ</span><span className="corr">s</span>o einiges daraus vorgele<span className="orig">ſ</span><span className="corr">s</span>en – auch habe
                     {" "}<br className="lb" />
-                    ich einen Auszug, be<span className="orig">ſ</span><span className="corr">s</span>onders wegen den kriegeri<span className="orig">ſ</span><span className="corr">s</span>chen
+                    ich <span className="makierung">einen Auszug, be<span className="orig">ſ</span><span className="corr">s</span>onders wegen den kriegeri<span className="orig">ſ</span><span className="corr">s</span>chen
                     {" "}<br className="lb" />
-                    Angelegenheiten daraus ge<span className="orig">ſ</span><span className="corr">s</span>chrieben, und <span className="orig">ſ</span><span className="corr">s</span>elbigen{" "}
+                    Angelegenheiten daraus ge<span className="orig">ſ</span><span className="corr">s</span>chrieben</span>, und <span className="orig">ſ</span><span className="corr">s</span>elbigen{" "}
                     <span className="abbr"> H<span className="orig">:</span>
                       <span className="corr">.</span>
                     </span>
@@ -434,7 +436,7 @@ export default function page() {
                       H<span className="ex">err</span>
                     </span>
                     {" "}<br className="lb" />
-                    Vater, und Brögelmanns mitgetheilt.
+                    <span className="makierung">Vater</span>, und <span className="makierung">Brögelmanns</span> mitgetheilt.
                     <a id="mark.009.e">{/*anchor*/}</a>
                     <span style={{ display: "inline-block" }} width="12mm">
                       &nbsp;
@@ -446,7 +448,7 @@ export default function page() {
                     <span className="corr">lassen</span> Dir herzlich
                     {" "}<br className="lb" />
                     grüßen, be<span className="orig">ſ</span><span className="corr">s</span>onders auch{" "}
-                    <span className="persName">Nichte Haniel</span>.
+                    <span className="persName"><span className="makierung">Nichte Haniel</span></span>.
                   </p>
                   <p>
                     Vorigen Sonntag Abend haben wir beÿ{" "}
@@ -456,7 +458,7 @@ export default function page() {
                     </span>{" "}
                     gege<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>en, wir gingen zum Caﬀee hin, und
                     {" "}<br className="lb" />
-                    fanden Pelzers und{" "}
+                    fanden <span className="makierung">Pelzers</span> und{" "}
                     <span className="persName">
                       <span className="g.enc.tagsdecl.cc.abbr-colon">H<span className="orig">:</span>
                         <span className="corr">.</span>{" "}
@@ -513,6 +515,245 @@ export default function page() {
               </section>
             </div>
           </div>
+        </div>
+        <div className={`stellenerläuterungen ${isStellen ? "activ" : null}`}>
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Papa</label>
+            <p>
+            Gemäß einem im Bürgertum des 19. Jhs. weitverbreiteten Code übernahmen Ehegatten die Perspektive der Kinder und redeten einander mit „Papa“ bzw. „Mama“ an – die eheliche Beziehung wurde damit sprachlich entsexualisiert. Louise Engels tut dies hier bereits als Schwangere, vor ihrer Niederkunft (mit dem erstgeborenen Johann Caspar III Ende 1792).
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Mainz bombardirten</label>
+            <p>
+            Zwischen März und Juli 1793 bestand die so bezeichnete Mainzer Republik, die in Folge der Französischen Revolution unter dem Schutz französischer Revolutionstruppen errichtet worden war. Ab September 1792 kam es zu Kampfhandlungen rund um die Stadt, und am 21. Oktober 1792 kapitulierte die Mainzer Militärführung schließlich.
+
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Kappes</label>
+            <p>
+            Weißkohl.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Krammetsvogel</label>
+            <p>
+            Wacholderdrossel. Die Vögel wurden bis zum Beginn des 20. Jhs. in großer Zahl gefangen und gegessen.
+
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Bruder Wilhelm</label>
+            <p>
+            Samuel Wilhelm Noot (1756–1828), Kaufmann in Ruhrort.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>nicht über Manheim</label>
+            <p>
+            Im Zuge des ersten Koalitionskriegs 1792–1797 (Koalition von Preußen, Österreich und Russland gegen das revolutionäre Frankreich) geriet auch die Kurpfalz am 23. Oktober 1792 unter französische Kontrolle.
+
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Doctor Collenbusch</label>
+            <p>
+            Samuel Collenbusch (1724–1803), Arzt und bekannter Pietist.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>die Sache […] getrieben</label>
+            <p>
+            Knieriem (S. 106, Anm. 1 zu Brief 28) verweist auf eine Auseinandersetzung der Barmer Garnnahrungsgenossen mit dem Elberfelder Kaufmann Johann Peter Schlickum (1758–1841). Gegen Schlickum wurde bei den kurfürstlichen Behörden der Vorwurf des Verstoßes gegen den Eid der Garnnahrungsgenossen erhoben. Er hatte einen Bandwebstuhl herstellen lassen und ins Elsass bringen lassen wollen, wo er Anteile an einer Firma der Bandfabrikation hielt, und zudem versucht, Facharbeiter abzuwerben. Letztlich ohne Erfolg trugen die Barmer ihre Klage gegen die unliebsame Konkurrenz für das französische Absatzgebiet nicht nur in Düsseldorf bei den zuständigen Stellen vor, sondern auch am kurfürstlichen Hof in München. (Vgl. Anne Sophie Overkamp: Fleiß, Glaube, Bildung. Kaufleute als gebildete Stände im Wuppertal 1760–1840. Göttingen 2020, S. 153–155.) Johann Caspar Engels II war einer der Deputierten. Im Zusammenhang mit dem unten angesprochenen Psalm 36 ist anzunehmen, dass Samuel Collenbusch wünschte, die Sühne des Frevels gegen den Eid der Garnnahrungsgenossen würde im Vordergrund stehen gegenüber entgangenen Gewinnen durch entstehende Konkurrenz.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>36. Psalm</label>
+            <p>
+            Verse 1–4 lauten: „Von David, dem Knecht des Herrn, vorzusingen. Es sinnt der Sünder auf Frevel im Grund seines Herzens, er kennt kein Erschrecken vor Gott. Er schmeichelt Gott vor dessen Augen und findet doch seine Strafe für seinen Hass. Seine Worte sind falsch und erlogen, verständig und gut handelt er nicht mehr.“ (LUT)
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Knap</label>
+            <p>
+            Statt Georg Christian Knapp (1753–1825), eines Repräsentanten des Halleschen Pietismus, könnte auch Georg Joseph von Knapp (1726–1802), Jurist  und jülich-bergischer Vizekanzler der Regierung von Kurpfalz-Bayern, gemeint sein, der in die Bearbeitung der Klage gegen Johann Peter Schlickum involviert war.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>seine Schriften</label>
+            <p>
+            Nicht ermittelt.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Wortmann</label>
+            <p>
+            Peter Carl Ludwig Wortmann (1757–1823), Kaufmann in Barmen.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Bruder Benjamin</label>
+            <p>
+            Benjamin Engels (1751–1820), genannt „Patohm“ (Patenonkel), Teilhaber der Firma Caspar Engels Söhne in Barmen. Onkel des Vaters von Friedrich Engels.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>einen Auszug daraus […] geschrieben</label>
+            <p>
+            Briefe wurden damals im engeren Familien- und Freundeskreis ganz oder teilweise vorgelesen bzw. wie hier schriftlich mitgeteilt.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Herrn Vater</label>
+            <p>
+            Johann Caspar Korten (1721–1805), Kaufmann und Besitzer einer Bleicherei in Barmen. Vater von Johanna Konstantia Engels, geb. Korten (1761–1790), nach der Heirat 1789 erste Ehefrau von Johann Caspar Engels II (1753–1821).
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Brögelmanns</label>
+            <p>
+            Die Eheleute (seit 1781) Christian Gerhard Brögelmann (1743–1821), Kaufmann in Barmen, und Sara Brögelmann, geb. Korten (1756–1830).
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Nichte Haniel</label>
+            <p>
+            Johanna Sophia Haniel (1773–1843 ), Tochter von Johanna Sophia Aletta Haniel, geb. Noot (1742–1815) und Jakob Wilhelm Haniel (1734–1782), 1800 Heirat mit Julius Gottlob Jacobi (1770–1823).
+            </p>
+          </div>
+          
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Pelzers</label>
+            <p>
+            Die Eheleute (seit 1780) Anna Hendrina Catharina, geb. Brögelmann (1746–1839), und Mathias Werner Pelzer (1734–1805), Kaufmann in Elberfeld.
+            </p>
+          </div>
+
         </div>
       </Brief_wrapper>
     </Layout>

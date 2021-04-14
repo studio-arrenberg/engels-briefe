@@ -63,7 +63,7 @@ export default function page() {
                   
                     Nach meinem Wun<span className="orig">ſ</span><span className="corr">s</span>ch, und nach meiner Hoffnung
                     <br className="lb" /> <span className="orig">ſ</span><span className="corr">s</span>ind Sie, wenn Sie die<span className="orig">ſ</span><span className="corr">s</span>en Brief
-                    erhalten, von Ihrer Sÿnodal-Rei<span className="orig">ſ</span><span className="corr">s</span>e
+                    erhalten, von Ihrer <span className="makierung">Sÿnodal-Rei<span className="orig">ſ</span><span className="corr">s</span>e</span>
                     <br className="lb" /> ge<span className="orig">ſ</span><span className="corr">s</span>und und{" "}
                     <span className="orig">glüklich</span>
                     <span className="corr">glücklich</span> zurückgekom̅en;{" "}
@@ -76,9 +76,12 @@ export default function page() {
                       der Ge<span className="orig">ſ</span><span className="corr">s</span>innungen, und der Familie
                       <br className="lb" /> der{" "}
                       <span className="abbr"> Demoi<span className="orig">ſ</span><span className="corr">s</span>.</span>
+                      
+                      <span className="makierung">
                       <span className="expan">
                         Demoi<span className="orig">ſ</span><span className="corr">s</span><span className="ex">elle</span>
                       </span>{" "}
+                      </span>
                       <span className="g.rend.script.latin">Noot</span> machen
                       mögte, will ich denn nun, <span className="orig">ſ</span><span className="corr">s</span>o gut ich{" "}
                       <span className="orig">kan</span>
@@ -88,7 +91,7 @@ export default function page() {
                     Ihr natürlicher{" "}
                     <span className="g.rend.script.latin">Character</span> i<span className="orig">ﬅ</span><span className="corr">st</span>
                     aufrichtig, gefällig, zuvorkom̅end,
-                    <br className="lb" /> und gar nichts fordernd, meine Frau,
+                    <br className="lb" /> und gar nichts fordernd, <span className="makierung">meine Frau</span>,
                     und ich, wir haben in der
                     <br className="lb" /> <span className="orig">gantzen</span>
                     <span className="corr">ganzen</span> Zeit un<span className="orig">ſ</span><span className="corr">s</span>ers Umgangs mit
@@ -104,7 +107,7 @@ export default function page() {
                     <br className="lb" /> <span className="orig">ſ</span><span className="corr">s</span>chwer wird es ihr, <span className="orig">ſ</span><span className="corr">s</span>ich nach andern,
                     <span className="orig">ſ</span><span className="corr">s</span>oweit es die Aufrichtigkeit zuläßt,
                     <br className="lb" /> zu{" "}
-                    <span className="g.rend.script.latin">accommodi</span>ren;
+                    <span className="makierung"><span className="g.rend.script.latin">accommodi</span>ren;</span>
                     auf ihren Sinn eigenwillig zu be<span className="orig">ﬅ</span><span className="corr">st</span>ehen, <span className="orig">ſ</span><span className="corr">s</span>cheint ihr
                     <br className="lb" /> gar nicht eigen, <span className="orig">ſ</span><span className="corr">s</span>ondern
                     Nachgiebigkeit, und leichte Lenk<span className="orig">ſ</span><span className="corr">s</span>amkeit ein
@@ -113,11 +116,13 @@ export default function page() {
                     <span className="orig">ſ</span><span className="corr">s</span>eÿn, dabeÿ i<span className="orig">ﬅ</span><span className="corr">st</span> <span className="orig">ſ</span><span className="corr">s</span>ie aber von aller Schmeicheleÿ
                     <br className="lb" /> und Heucheleÿ, <span className="orig">ſ</span><span className="corr">s</span>o wie von allem{" "}
                     <span className="orig">Stoltz</span>
-                    <span className="corr">Stolz</span> weit entfernt; <span className="orig">ſ</span><span className="corr">s</span>ie hat
+                    <span className="corr">Stolz</span> weit entfernt; 
+                    <span className="makierung">
+                    <span className="orig">ſ</span><span className="corr">s</span>ie hat
                     eine
                     <br className="lb" /> <span className="orig">ſ</span><span className="corr">s</span>chlechte{" "}
                     <span className="orig">Meÿnung</span>
-                    <span className="corr">Meinung</span> von <span className="orig">ſ</span><span className="corr">s</span>ich <span className="orig">ſ</span><span className="corr">s</span>elb<span className="orig">ﬅ</span><span className="corr">st</span>, und
+                    <span className="corr">Meinung</span> von <span className="orig">ſ</span><span className="corr">s</span>ich <span className="orig">ſ</span><span className="corr">s</span>elb<span className="orig">ﬅ</span><span className="corr">st</span></span>, und
                     irrt <span className="orig">ſ</span><span className="corr">s</span>ich <span className="orig">darinn</span>
                     <span className="corr">darin</span> oft zu ihrem
                     <br className="lb" /> Nachtheil, indem <span className="orig">ſ</span><span className="corr">s</span>ie <span className="orig">ſ</span><span className="corr">s</span>ich viel weniger
@@ -194,15 +199,18 @@ export default function page() {
                     <span className="corr">Person</span>, deren <span className="orig">ſ</span><span className="corr">s</span>ie Ur<span className="orig">ſ</span><span className="corr">s</span>ache
                     hätte, <span className="orig">ſ</span><span className="corr">s</span>ich zu <span className="orig">ſ</span><span className="corr">s</span>chämen.
                     <br className="lb" /> <span className="orig">ſ</span><span className="corr">s</span>ie hat, <span className="orig">ſ</span><span className="corr">s</span>oviel ich weiß, 3 Brüder und
-                    2 Schwe<span className="orig">ﬅ</span><span className="corr">st</span>ern; der ältere Bruder <br className="lb" /> i<span className="orig">ﬅ</span><span className="corr">st</span>
+                    2 Schwe<span className="orig">ﬅ</span><span className="corr">st</span>ern; der <span className="makierung">ältere Bruder</span> <br className="lb" /> i<span className="orig">ﬅ</span><span className="corr">st</span>
+                    <span className="makierung">
                     OberSaltz <span className="orig">=</span>
                     <span className="corr">-</span>{" "}
-                    <span className="g.rend.script.latin">Inspector</span>, und
+                    <span className="g.rend.script.latin">Inspector</span></span>, und
                     ZollEinnehmer in{" "}
                     <span className="g.rend.script.latin">Ruhrorth</span>; Zweÿ
                     <span className="orig">ſ</span><span className="corr">s</span>ehr ein
                     <br className="g.enc.tagsdecl.hyphenation.eq" /> trägliche
-                    und ehrenvolle Bedienungen; <span className="orig">ſ</span><span className="corr">s</span>eine Frau i<span className="orig">ﬅ</span><span className="corr">st</span> eine{" "}
+                    und ehrenvolle <span className="makierung">Bedienungen</span>; <span className="orig">ſ</span>
+                    <span className="makierung">
+                    <span className="corr">s</span>eine Frau </span>i<span className="orig">ﬅ</span><span className="corr">st</span> eine{" "}
                     <span className="g.rend.script.latin">Mauritz</span> von{" "}
                     <span className="placeName">We<span className="orig">ſ</span><span className="corr">s</span>el</span>,
                     <br className="lb" /> Der{" "}
@@ -217,16 +225,16 @@ export default function page() {
                           <span className="corr">y</span>te
                         </span>{" "}
                         </span>
-                        Bruder i<span className="orig">ﬅ</span><span className="corr">st</span> <span className="orig">Creiß=Einnehmer</span>
-                        <span className="corr">Kreis-Einnehmer</span>{" "}
+                        <span className="makierung">Bruder</span> i<span className="orig">ﬅ</span><span className="corr">st</span> <span className="makierung"><span className="orig">Creiß=Einnehmer</span>
+                        <span className="corr">Kreis-Einnehmer</span></span>{" "}
                         gleichfalls in{" "}
                         <span className="g.rend.script.latin">Ruhrorth</span>,
                         und mit
-                        <br className="lb" /> einer Karthaus von{" "}
+                        <br className="lb" /> einer <span className="makierung">Karthaus</span> von{" "}
                         <span className="g.rend.script.latin">Hagen</span>{" "}
-                        verheirathet; der dritte noch unverheirathete
-                        <br className="lb" /> be<span className="orig">ſ</span><span className="corr">s</span>orgt die Ge<span className="orig">ſ</span><span className="corr">s</span>chäfte der älteren
-                        Schwe<span className="orig">ﬅ</span><span className="corr">st</span>er, die{" "}
+                        verheirathet; <span className="makierung">der dritte</span> noch unverheirathete
+                        <br className="lb" /> be<span className="orig">ſ</span><span className="corr">s</span>orgt die Ge<span className="orig">ſ</span><span className="corr">s</span>chäfte der <span className="makierung">älteren
+                        Schwe<span className="orig">ﬅ</span><span className="corr">st</span>er,</span> die{" "}
                         <span className="orig">
                           <span className="corr">eine</span>{" "}
                           <span className="g.rend.script.latin">Spedition</span>{" "}
@@ -242,10 +250,10 @@ export default function page() {
                           aufmerk<span className="orig">ſ</span><span className="corr">s</span>ahm auf <span className="orig">ſ</span><span className="corr">s</span>ich
                           <br className="lb" /> <span className="orig">ſ</span><span className="corr">s</span>elb<span className="orig">ﬅ</span><span className="corr">st</span>, und auf Gottes Wort
                           geworden, und hegt den ern<span className="orig">ﬅ</span><span className="corr">st</span>lichen Wun<span className="orig">ſ</span><span className="corr">s</span>ch <span className="orig">ſ</span><span className="corr">s</span>ich
-                          <br className="lb" /> zu be<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>ern; die jüngere Schwe<span className="orig">ﬅ</span><span className="corr">st</span>er
+                          <br className="lb" /> zu be<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>ern; die <span className="makierung">jüngere Schwe<span className="orig">ﬅ</span><span className="corr">st</span>er</span>
                           i<span className="orig">ﬅ</span><span className="corr">st</span> an Herrn{" "}
                           <span className="g.rend.script.latin">
-                            Doctor <span className="persName">Maercker</span>
+                            <span className="makierung">Doctor <span className="persName">Maercker</span></span>
                           </span>{" "}
                           in <span className="g.rend.script.latin">Hagen</span>{" "}
                           <br className="lb" /> verheirathet — ;
@@ -275,11 +283,11 @@ export default function page() {
                     <span className="orig">LeichtSinn</span>
                     <span className="corr">Leichtsinn</span> <span className="orig">ſ</span><span className="corr">s</span>o <span className="orig">ſ</span><span className="corr">s</span>ehr überhand
                     nimmt; <span className="orig">Nach</span>
-                    <span className="corr">nach</span> meinem Urtheil{" "}
+                    <span className="makierung"><span className="corr">nach</span> meinem Urtheil{" "}
                     <span className="orig">kan</span>
                     <span className="corr">kann</span> ich nicht
                     <br className="lb" /> anders, als den Mann glücklich
-                    <span className="orig">ſ</span><span className="corr">s</span>chätzen, der <span className="orig">ſ</span><span className="corr">s</span>ie zur Gattin bekömmt.
+                    <span className="orig">ſ</span><span className="corr">s</span>chätzen, der <span className="orig">ſ</span><span className="corr">s</span>ie zur Gattin bekömmt.</span>
                     <a id="mark.002.e">{/*anchor*/}</a>
                   </p>
                   <div className="closer indent-medium">
@@ -318,6 +326,199 @@ export default function page() {
               </section>
             </div>
           </div>
+        </div>
+
+        <div className={`stellenerläuterungen ${isStellen ? "activ" : null}`}>
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Sÿnodal-Reise</label>
+            <p>
+            Synode: auch Kirchenrat oder Konsistorium; bezeichnet die Versammlung der Geistlichen einer Diözese. Zwischen dem 10. und 12. Mai 1791 fand in der Pfarrkirche zu Haan die bergische Provinzialsynode statt. Johann Caspar Engels erhielt am 3. April 1791 das Mandat für die Synode der Elberfelder Classis.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Demoiselle</label>
+            <p>Frz. „Fräulein“.</p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>meine Frau</label>
+            <p>Clara Friederika Hoffmann, geb. Klein (1753–1823).</p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>accomodiren</label>
+            <p>Sich anpassen.</p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>eine schlechte Meynung von sich selbst</label>
+            <p>Mangelndes bzw. schwach ausgeprägtes Selbstbewusstsein gilt hier nicht nur als Ausdruck exemplarischer christlicher Demut, sondern gemäß zeitgenössischen Geschlechtervorstellungen auch insbesondere als eine weibliche Tugend.</p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>ältere Bruder</label>
+            <p>Diederich Walter Noot (1746–1817).</p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>OberSaltz-Inspector</label>
+            <p>Obrigkeitlicher Kontrolleur des Salzhandels.</p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Bedienungen</label>
+            <p>Hier: Obrigkeitliche Stellungen.</p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>seine Frau</label>
+            <p>Anna Catharina Noot, geb. Mauritz (1756–1825).</p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>zweyte Bruder</label>
+            <p>Gerhard Peter Noot (1751–1836).</p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Creiß-Einnehmer</label>
+            <p>Vereidigter Einnehmer der Kreissteuern.</p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Karthaus</label>
+            <p>Anna Clara Maria Noot, geb. Karthaus (1750–1860).</p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>der dritte</label>
+            <p>Samuel Wilhelm Noot (1756–1828), Kaufmann in Ruhrort.</p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>älteren Schwester</label>
+            <p>Johanna Sophia Aletta Haniel, geb. Noot (1742–1815).</p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>jüngere Schwester</label>
+            <p>Maria Elisabeth Märker, geb. Noot (1753–1831).</p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Doctor Maercker</label>
+            <p> Johann Christoph Märker (1753–1830), Dr. jur., Notar und Justizkommissar in Hagen.</p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "2200px",
+            }}
+          >
+            <hr />
+            <label>Nach meinem Urtheil […] zur Gattinn bekömmt.</label>
+            <p> Johann Caspar Engels’ briefliche Erkundigungen über Luise Noot zum Zwecke der Entscheidungsfindung, ob er sie zur Frau nehmen solle oder nicht, ist Ausdruck einer vormodernen Liebes- und Ehekonzeption, der zufolge die Partnerschaft (noch) nicht in einer individualisierenden gegenseitigen ‚Liebe‘ ihren Legitimationsgrund findet, sondern in einem Katalog angebbarer positiver Merkmale der Person (wie Tugend, Frömmigkeit, soziale Reputation etc.) Siehe hierzu auch: Thorsten Dette: „Ach Gott, welch ein seliges Gefühl ist doch die Liebe“: Brautbriefe der Familie Engels im Kontext zeitgenössischer Standesschranken und Hochzeitsbräuche, in: Geschichte im Wuppertal (GIW) 24, 2015, 6–22.
+</p>
+          </div>
+
         </div>
       </Brief_wrapper>
     </Layout>

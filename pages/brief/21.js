@@ -60,7 +60,7 @@ export default function page() {
                             Mad<sup class="double-underline">e</sup><span className="ex">ame</span>
                           </span>{" "}
                         </span>
-                        <span className="persName">Louise Engels <span className="small"> né Nooth</span></span>
+                        <span className="persName">Louise Engels <span className="small"> <span className="makierung">né</span> Nooth</span></span>
                         <br />{" "}
                         <span style={{ display: "inline-block" }} width="6cm">
                           &nbsp;
@@ -113,8 +113,8 @@ export default function page() {
                       <span className="corr">s</span>agen: daß ich unter der
                       Güte Gottes
                       <br className="lb" /> recht vergnügt{" "}
-                      <span className="orig">gereißt</span>
-                      <span className="corr">gereist</span> und wohlbehalten
+                      <span className="makierung"><span className="orig">gereißt</span>
+                      <span className="corr">gereist</span></span> und wohlbehalten
                       angekom̅en bin.
                       <br className="lb" />{" "}
                       <span className="orig">
@@ -271,9 +271,13 @@ export default function page() {
                     <br className="lb" /> bei<span className="orig">ﬅ</span>
                     <span className="corr">st</span>ehen, und in un
                     <span className="orig">ſ</span>
-                    <span className="corr">s</span>rem Ehe
+                    <span className="corr">s</span>rem 
+                    <span className="makierung">Ehe
                     <span className="orig">ﬅ</span>
-                    <span className="corr">st</span>and un
+                    <span className="corr">st</span>and 
+                    </span>
+                    
+                    un
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>re Hülfe,{" "}
                     <span className="orig">Schuz</span>
@@ -301,8 +305,11 @@ export default function page() {
                     ich kam wie ge<span className="orig">ſ</span>
                     <span className="corr">s</span>agt um 9 Uhr mit ungemeiner
                     Munterkeit
-                    <br className="lb" /> bei un<span className="orig">ſ</span>
-                    <span className="corr">s</span>ren Brüdern an, und aß bei
+                    <br className="lb" /> bei 
+                    
+                    <span className="makierung">
+                    un<span className="orig">ſ</span>
+                    <span className="corr">s</span>ren Brüdern</span> an, und aß bei
                     den<span className="orig">ſ</span>
                     <span className="corr">s</span>elben den{" "}
                     <span className="g.rend.script.latin">Salat</span>.
@@ -310,9 +317,11 @@ export default function page() {
                     <span className="g.rend.script.latin">Peter</span> , der
                     noch etwas mit <span className="orig">ſ</span>
                     <span className="corr">s</span>einer{" "}
+                    <span className="makierung">
                     <span className="g.rend.script.latin">
                       <span className="orig">Catarre</span>
                       <span className="corr">Katarrhe</span>
+                    </span>
                     </span>
                     zu thun
                     <br className="lb" /> hat, <span className="orig">ſ</span>
@@ -382,15 +391,17 @@ export default function page() {
                     <span className="corr">räumen</span>.
                   </p>
                   <p>
-                    Den Fuhrmann will ich gleich kom̅en{" "}
+                    Den <span className="makierung">Fuhrmann</span> will ich gleich kom̅en{" "}
                     <span className="orig">Laßen</span>
                     <span className="corr">lassen</span>, und überhaupt
-                    <br className="lb" /> alles{" "}
+                    <br className="lb" /> 
+                    <span className="makierung">
+                    alles{" "}
                     <span className="orig">
                       abge<span className="orig">ſ</span>
                       <span className="corr">s</span>prochene
                     </span>
-                    <span className="corr">Abgesprochene</span> be
+                    <span className="corr">Abgesprochene</span></span> be
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>orgen.
                   </p>
@@ -546,7 +557,7 @@ export default function page() {
                   <p>
                     un<span className="orig">ſ</span>
                     <span className="corr">s</span>er Knecht{" "}
-                    <span className="g.rend.script.latin">Arnold</span>, der
+                    <span className="g.rend.script.latin"><span className="makierung">Arnold</span></span>, der
                     viel Liebe und Hochachtung für dich
                     <br className="lb" /> hat, bat mich eben, dich zu grüßen.
                   </p>
@@ -554,6 +565,121 @@ export default function page() {
               </section>
             </div>
           </div>
+        </div>
+
+        <div className={`stellenerläuterungen ${isStellen ? "activ" : null}`}>
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>gereist</label>
+            <p>
+            Johann Caspar Engels kehrt aus Ruhrort zurück, wo am 1. September 1791 die Hochzeit mit Louise Noot stattfand.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Eheﬅand</label>
+            <p>
+            Johann Caspar Engels und Louise Noot hatten am 1. September 1791 in Ruhrort geheiratet.
+
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>unſren Brüdern</label>
+            <p>Benjamin Engels (1751–1820) und Johann Peter Engels (1754–1794).
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Catarre</label>
+            <p> Katarrh.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Fuhrmann</label>
+            <p> Johann Jäger (1761–1833), Fuhrmann. Nachbar der Familie Engels in Barmen.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>alles Abgesprochene</label>
+            <p>Gemeint sind die Vorbereitung und die Durchführung der Übersiedlung von Louise Engels, geb. Noot, von Ruhrort nach Barmen im September 1791.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Paﬅor</label>
+            <p> Evtl. ist Samuel Collenbusch (1724–1803), Arzt und bekannter Pietist, gemeint.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Arnold</label>
+            <p> Johann Arnold Pilgram (1755–1828), Langettenwirker (Spitzenhersteller) in der Firma Caspar Engels Söhne in Barmen.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>né</label>
+            <p> Frz. (korrekt wäre die feminine Form née) „geborene“.
+            </p>
+          </div>
+
+
         </div>
       </Brief_wrapper>
     </Layout>

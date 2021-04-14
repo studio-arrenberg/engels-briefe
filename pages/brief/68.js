@@ -180,7 +180,7 @@ export default function page() {
                   <p>
                     <a id="mark.001.s">{/*anchor*/}</a>Zufolge deinen Lieben
                     Briefen vom 12
-                    <span className="abbr">
+                    <span className="makierung"><span className="abbr">
                       {" "}pa<span className="orig">ſ</span>
                       <span className="corr">s</span>
                       <span className="orig">ſ</span>
@@ -191,24 +191,26 @@ export default function page() {
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>
                       <span className="ex">ati</span>
-                    </span>{" "}
+                    </span></span>{" "}
                     haben wir das Laken und <a id="annot.001.s">{/*anchor*/}</a>
-                    Ca<span className="orig">ſ</span>
-                    <span className="corr">s</span>imir
+                    <span className="makierung">Ca<span className="orig">ſ</span>
+                    <span className="corr">s</span>imir</span>
                     <a id="annot.001.e">{/*anchor*/}</a> <br className="lb" />
                     für dich gekauft, und in 1{" "}
-                    <span className="g.rend.script.latin">paquet</span>{" "}
+                    <span className="makierung"><span className="g.rend.script.latin">paquet</span>{" "}
                     <span className="g.rend.script.latin">
                       <span className="abbr">F.E.</span>
-                    </span>
+                    </span></span>
                     durch <a id="annot.002.s">{/*anchor*/}</a>
                     <span className="g.rend.script.latin">
+                      <span className="makierung">
                       <span className="persName">
                         <span className="abbr"> Eng.</span>
                         <span className="expan">
                           Eng<span className="ex">elbert</span>
                         </span>{" "}
                         Sieperman
+                      </span>
                       </span>
                     </span>
                     <a id="annot.002.e">{/*anchor*/}</a>, der ju
@@ -225,7 +227,7 @@ export default function page() {
                     in <span className="orig">ſ</span>
                     <span className="corr">s</span>eine{" "}
                     <a id="annot.003.s">{/*anchor*/}</a>
-                    <span className="g.rend.script.latin">Condition</span>
+                    <span className="g.rend.script.latin"><span className="makierung">Condition</span></span>
                     <a id="annot.003.e">{/*anchor*/}</a>{" "}
                     <span className="orig">reißen</span>
                     <span className="corr">reisen</span>{" "}
@@ -293,7 +295,7 @@ export default function page() {
                       <span className="corr">stören</span> an dem, was du mit
                       dem guten <a id="annot.004.s">{/*anchor*/}</a>
                       <span className="g.rend.script.latin">
-                        <span className="persName">Kethman</span>
+                        <span className="persName"><span className="makierung">Kethman</span></span>
                       </span>
                       <a id="annot.004.e">{/*anchor*/}</a> zu{" "}
                       <span className="orig">leßen</span>
@@ -336,7 +338,7 @@ export default function page() {
                       <span className="strike-through" style={{ textDecoration: "line-through" }}>k</span>
                       eine Minute wiedergeben <span className="orig">kan</span>
                       <span className="corr">kann</span>,{" "}
-                      <a id="annot.005.s">{/*anchor*/}</a>jener Dichter
+                      <a id="annot.005.s">{/*anchor*/}</a><span className="makierung">jener Dichter</span>
                       <a id="annot.005.e">{/*anchor*/}</a>
                       hat recht, <span className="orig">wen</span>
                       <span className="corr">wenn</span> <br className="lb" />
@@ -367,7 +369,7 @@ export default function page() {
                     <span className="expan">
                       L<span className="ex">ieben</span>
                     </span>{" "}
-                    <span className="g.rend.script.latin">Mama</span> hat es{" "}
+                    <span className="g.rend.script.latin"><span className="makierung">Mama</span></span> hat es{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>eitdem zwar
                     <span className="orig">
@@ -437,7 +439,7 @@ export default function page() {
                           (D<span className="orig">:</span>
                           <span className="corr">.</span>
                           <sup>r</sup></span>{" "}
-                        <span className="expan">Doctor</span> Osberghaus
+                        <span className="makierung"><span className="expan">Doctor</span> Osberghaus</span>
                       </span>
                     </span>
                     <a id="annot.007.e">{/*anchor*/}</a>, der alles näher be
@@ -538,7 +540,7 @@ export default function page() {
                       <span className="corr">s</span>ei
                       <a id="annot.008.s">{/*anchor*/}</a>
                       {" "}
-                      <span className="g.rend.script.latin">
+                      <span className="makierung"><span className="g.rend.script.latin">
                         <span className="abbr"> Joh:</span>
                         <span className="expan">
                           Joh<span className="ex">annes</span>
@@ -547,6 +549,7 @@ export default function page() {
                       16 <span className="abbr"> V</span>
                       <span className="expan">
                         V<span className="ex">ers</span>
+                      </span>
                       </span>{" "}
                       24<a id="annot.008.e">{/*anchor*/}</a>
                       <a id="mark.003.e">{/*anchor*/}</a>
@@ -606,16 +609,16 @@ export default function page() {
                       <span className="ex">ren</span>
                     </span>
                     <span className="g.rend.script.latin">{" "}
-                      <span className="orgName">Gebauer</span>{" "}
+                      <span className="orgName"><span className="makierung">Gebauer</span></span>{" "}
                     </span>
                     und{" "}
                     <span className="g.rend.script.latin">
-                      <span className="orgName">Querfurth</span>
+                      <span className="orgName"><span className="makierung">Querfurth</span></span>
                     </span>
                     <a id="annot.009.e">{/*anchor*/}</a> 2 gute Aufträge
                     gegeben, die bei{" "}
                     <a id="annot.010.s">{/*anchor*/}</a>
-                    <sup>6</sup>/m<a id="annot.010.e">{/*anchor*/}</a>{" "}
+                    <span className="makierung"><sup>6</sup>/m<a id="annot.010.e">{/*anchor*/}</a></span>{" "}
                     <span className="orig">
                       <span className="orig">ﬅ</span>
                       <span className="corr">st</span>ük
@@ -629,12 +632,13 @@ export default function page() {
                     <span className="expan">
                       D<span className="ex">utzend</span>
                     </span>
-                    <span className="g.rend.script.latin">
+                    <span className="makierung"><span className="g.rend.script.latin">
                       <span className="g.enc.tagsdecl.suspension.type2">Lang.){" "}
                       </span>
                       <span className="expan">
                         Lang<span className="ex">etten</span>{" "}
                       </span>
+                    </span>
                     </span>
                     und 600{" "}
                     <span className="orig">
@@ -643,15 +647,17 @@ export default function page() {
                     </span>
                     <span className="corr">Stück</span> ganz{" "}
                     <a id="annot.012.s">{/*anchor*/}</a>
-                    <span className="g.rend.script.latin">Brochirte</span>
+                    <span className="g.rend.script.latin"><span className="makierung">Brochirte</span></span>
                     <a id="annot.012.e">{/*anchor*/}</a>{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ich betragen, nun
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chaden uns die{" "}
                     <br className="lb" />
-                    <span className="orig">Kriegs unruhen</span>
-                    <span className="corr">Kriegsunruhen</span> wegen den
+                    <span className="makierung"><span className="orig">Kriegs unruhen</span>
+                    <span className="corr">Kriegsunruhen</span></span>
+                    wegen den
+                    <span className="makierung">
                     <span className="placeName">
                       <span className="abbr"> Leipz.</span>
                       <span className="expan">{" "}
@@ -674,7 +680,7 @@ export default function page() {
                       </span>
                     </span>{" "}
                     <span className="orig">Meßen</span>
-                    <span className="corr">Messen</span> und in{" "}
+                    <span className="corr">Messen</span></span> und in{" "}
                     <span className="placeName">Hamburg</span>{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ehr,{" "}
@@ -685,7 +691,7 @@ export default function page() {
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>orte
                     </span>
-                    <span className="corr">Sorte</span> Kanten großes Lager
+                    <span className="corr">Sorte</span> <span className="makierung">Kanten</span> großes Lager
                     haben, und daher mit{" "}
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
@@ -696,7 +702,7 @@ export default function page() {
                     </span>{" "}
                     <a id="annot.013.s">{/*anchor*/}</a>
                     <span className="g.rend.script.latin">
-                      <span className="persName">Krebs</span>
+                      <span className="persName"><span className="makierung">Krebs</span></span>
                     </span>
                     <a id="annot.013.e">{/*anchor*/}</a> <br className="lb" />
                     einig wurden, <a id="annot.014.s">{/*anchor*/}</a>
@@ -711,8 +717,8 @@ export default function page() {
                       <span className="ex">e</span>r
                       <span className="ex">rn</span>
                     </span>{" "}
-                    <span className="g.rend.script.latin">Kremling</span> und{" "}
-                    <span className="g.rend.script.latin">Caspar</span>
+                    <span className="g.rend.script.latin"><span className="makierung">Kremling</span></span> und{" "}
+                    <span className="g.rend.script.latin"><span className="makierung">Caspar</span></span>
                     <a id="annot.014.e">{/*anchor*/}</a> nach{" "}
                     <span className="placeName">Bremen</span>,{" "}
                     <span className="placeName">Hamburg</span>,{" "}
@@ -767,7 +773,7 @@ export default function page() {
                   </p>
                   <p className="enc.tagsdecl.indent-small">
                     Daß von der <a id="annot.015.s">{/*anchor*/}</a>
-                    <span className="g.rend.script.latin">Conscription</span>
+                    <span className="g.rend.script.latin"><span className="makierung">Conscription</span></span>
                     <a id="annot.015.e">{/*anchor*/}</a> 1813 viele Men
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chen gefordert wurden, die
@@ -814,7 +820,7 @@ export default function page() {
                       H<span className="ex">err</span>
                     </span>
                     <a id="annot.016.s">{/*anchor*/}</a>{" "}
-                    <span className="g.rend.script.latin">Trappenberg</span>
+                    <span className="g.rend.script.latin"><span className="makierung">Trappenberg</span></span>
                     <a id="annot.016.e">{/*anchor*/}</a> und{" "}
                     <br className="lb" />
                     <a id="annot.017.s">{/*anchor*/}</a>
@@ -832,9 +838,10 @@ export default function page() {
                       </span>
                     </span>
                     der <a id="annot.018.s">{/*anchor*/}</a>
-                    <span className="g.rend.script.latin">
+                    <span className="makierung"><span className="g.rend.script.latin">
                       <span className="orig">Subsistuten</span>
                       <span className="corr">Substituten</span>
+                    </span>
                     </span>
                     <a id="annot.018.e">{/*anchor*/}</a> gekom̅en war, und bis
                     <span className="g.rend.script.latin">
@@ -873,11 +880,12 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chon vor 14 Tagen 1{" "}
                     <a id="annot.019.s">{/*anchor*/}</a>
-                    <span className="g.enc.tagsdecl.suspension.type3">
+                    <span className="makierung"><span className="g.enc.tagsdecl.suspension.type3">
                       {" "}
                       (Rempl</span>
                     <span className="expan">
                       Rempl<span className="ex">açent</span>
+                    </span>
                     </span>
                     <a id="annot.019.e">{/*anchor*/}</a>{" "}
                     <span className="orig">
@@ -933,9 +941,10 @@ export default function page() {
                     <span className="orig">jezt</span>
                     <span className="corr">jetzt</span>{" "}
                     <a id="annot.021.s">{/*anchor*/}</a>
-                    <span className="g.rend.script.latin">
+                    <span className="makierung"><span className="g.rend.script.latin">
                       Provi<span className="orig">ſ</span>
                       <span className="corr">s</span>or
+                    </span>
                     </span>
                     <a id="annot.021.e">{/*anchor*/}</a> i
                     <span className="orig">ſ</span>
@@ -959,13 +968,14 @@ export default function page() {
                     </span>
                     {" "}
                     <span className="g.rend.script.latin">
-                      <span className="persName">
+                      <span className="makierung"><span className="persName">
                         Witten<span className="orig">ſ</span>
                         <span className="corr">s</span>tein
                       </span>
+                      </span>
                     </span>
                     <a id="annot.022.e">{/*anchor*/}</a> an bis hier am{" "}
-                    <a id="annot.023.s">{/*anchor*/}</a>Brügel
+                    <a id="annot.023.s">{/*anchor*/}</a><span className="makierung">Brügel</span>
                     <a id="annot.023.e">{/*anchor*/}</a>
                     bald fertig i<span className="orig">ﬅ</span>
                     <span className="corr">st</span>, und durch{" "}
@@ -974,7 +984,7 @@ export default function page() {
                     <br className="lb" />
                     Breite und hohe <span className="orig">lage</span>
                     <span className="corr">Lage</span> brav Staub macht, und den
-                    Bleichen <span className="orig">ſ</span>
+                    <span className="makierung">Bleichen</span> <span className="orig">ſ</span>
                     <span className="corr">s</span>chadet.
                   </p>
                   <div className="closer">
@@ -985,8 +995,8 @@ export default function page() {
                     {" "}
                     <span className="g.rend.script.latin">Mama</span>{" "}
                     <a id="annot.024.s">{/*anchor*/}</a>
-                    <span className="persName">Patohm</span>
-                    <a id="annot.024.e">{/*anchor*/}</a> deine Geschwister
+                    <span className="persName"><span className="makierung">Patohm</span></span>
+                    <a id="annot.024.e">{/*anchor*/}</a> deine <span className="makierung">Geschwister</span>
                     grüßen dich mit mir herzlich und <br className="lb" />
                     empfehlen dich dem gnädigen Schutze Gottes;{" "}
                     <br className="lb" />
@@ -1040,7 +1050,7 @@ export default function page() {
                       </span>
                       {" "}
                       <span className="g.rend.script.latin">
-                        <span className="persName">Spies</span>
+                        <span className="persName"><span className="makierung">Spies</span></span>
                       </span>
                       <a id="annot.025.e">{/*anchor*/}</a> <br className="lb" />
                       <span className="orig">aufgenomen</span>
@@ -1261,6 +1271,439 @@ export default function page() {
               </section>
             </div>
           </div>
+        </div>
+        <div className={`stellenerläuterungen ${isStellen ? "activ" : null}`}>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>pass.</label>
+            <p>
+            passato. Ital. Kaufmannssprache: „des vergangenen Monats“.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Caſimir</label>
+            <p>
+            Gemeint ist ‚Kaschmir‘. Gewebe aus der Unterwolle der Kaschmirziege (Himalaya), auch ‚Shawl‘ genannt.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>paquet F. E.</label>
+            <p>
+            Üblicherweise wurden Paket und Paketbegleitschein deutlich mit den Initialen des Empfängers (hier Friedrich Engels sen.) in lateinischen Großbuchstaben beschriftet.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Eng. Sieperman</label>
+            <p>
+            Christian Engelbert Siepermann (1795–?), Kaufmann in Barmen.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Condition</label>
+            <p>
+            Hier: Anstellung.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Kethman</label>
+            <p>
+            Johann Kethmann jun. (1793–1865), Kaufmann. 1813 ebenfalls in Frankfurt am Main in Ausbildung zum Kaufmann, seit dieser Zeit mit Friedrich Engels sen. befreundet.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>jener Dichter</label>
+            <p>
+            Vermutlich Christoph Rheineck (1748–1797), Kaufmann, Gastwirt und Komponist in Memmingen. Johann Caspar Engels zitiert die drei letzten Zeilen des Lieds Lebensgebrauch (3 Strophen). Text und Melodie stammen vermutlich von Rheineck. (Dritte Lieder-Sammlung mit Klavier-Melodien. In die Musik gesezt von Christoph Rheineck. Memmingen 1784, S. 16.) 
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Mama</label>
+            <p>
+            Ida Louise Friederike Engels, geb. Noot (1762–1822), Großmutter von Friedrich Engels.</p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Osberghaus</label>
+            <p>
+            Christian Leopold Osberghaus (1774–1854 ), Arzt, ab 1806 Kreisphysikus in Ründeroth bei Engelskirchen</p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Joh: 16 V 24</label>
+            <p>
+            Johannes 16,24: „Bisher habt ihr um nichts gebeten in meinem Namen. Bittet, so werdet ihr empfangen, auf dass eure Freude vollkommen sei.“ (LUT)
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Gebauer</label>
+            <p>
+            Firma in Schmiedeberg. Kundin der Firma Caspar Engels Söhne.
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Querfurth</label>
+            <p>
+            Kunde der Firma Caspar Engels Söhne.
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>6/m</label>
+            <p>
+            6 mille = 6000.
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>kanten</label>
+            <p>
+            ‚Kanten‘ ist das niederdeutsche Wort für gewirkte Spitzen (z.B. aus Garn).
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Langetten</label>
+            <p>
+            Fachterminus der Spitzenherstellung, benannt nach dem praktizierten Schlingstich in Form einer eingerollten Zunge (frz. languette: Zünglein) (vgl. Anne Wanner‘s Textiles in History: http://www.annatextiles.ch/vo_sti/voca3/voc3.htm).
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Brochirte</label>
+            <p>
+            Mit besonderer Technik eingewebte Muster in Stoffen.
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Kriegsunruhen</label>
+            <p>
+            Angespielt wird hier u.a. auf die schwierige Situation in Sachsen, denn der sächsische König wechselte im April 1813 die Seiten und wurde Bündnispartner Napoleons. Zwischen Juni und August 1813 bestand ein brüchiger Waffenstillstand zwischen Frankreich auf der einen und den Bündnispartnern Österreich, Preußen und Russland auf der anderen Seite. Das von Franzosen besetze Hamburg konnte zwischen März und Mai 1813 kurzzeitig durch russische Truppen von den französischen Besatzern befreit werden. Nach der Wiedereroberung durch französische Truppen fielen mehrere tausend Hamburger den harten Strafmaßnahmen zum Opfer.
+
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Leipz. und Ff. a/o Messen</label>
+            <p>
+            Wegen der Kriegshandlungen und Einquartierungen wird die Situation in Leipzig im Jahr 1813 so beschrieben: „Unter diesen Umständen war die Ostermesse kläglich ausgefallen.“ (Ernst Hasse: Geschichte der Leipziger Messen. Leipzig 1885, S. 165.) In Frankfurt (Oder) fanden Messen an Reminiscere (2. Fastensonntag), am Sonntag nach Margaretha (20. Juli) und an Martini (11. November) statt. Die Reminiscere-Messe 1813 „war abgehalten worden, es hatte auf derselben aber so gut wie kein Verkehr stattgefunden.“ ([Karl von Prittwitz]: Beiträge zur Geschichte des Jahres 1813. Band 1. Potsdam 1843, S. 223.)
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Krebs</label>
+            <p>
+            Friedrich Wilhelm Krebs (1768–1819), Kaufmann in Barmen.
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Kremling</label>
+            <p>
+            August Karl Gottlieb Kremling (1787–?), Teilhaber der Firma Wwe. Johann Wilhelm Clever in Barmen.
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Caspar</label>
+            <p>
+            Johann Caspar Engels (1792–1863), Teilhaber der Firma Caspar Engels Söhne in Barmen. Onkel von Friedrich Engels jun.
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Conscription</label>
+            <p>
+            Erfassung der männlichen Bevölkerung eines Gebiets nach ihrer Tauglichkeit für den Wehrdienst.
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Trappenberg</label>
+            <p>
+            Eduard Trappenberg (1792–1852), Kaufmann in Barmen.
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Subsistuten</label>
+            <p>
+            Fälschlich für ‚Substituten‘: Ersatzmänner für abwesende Militärdienstpflichtige.
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Remplaçant</label>
+            <p>
+            Stellvertreter, Ersatzmann für einen Militärdienstpflichtigen. Frz. remplacer: ‚ersetzen‘. Zur Aufrechterhaltung des wirtschaftlichen Lebens war es im französischen Conscriptionssystem möglich, dass u. a. Kaufleute gegen Bezahlung Remplaçants (auch: Remplassanten oder Nachmänner) für ihre dienstpflichtigen Söhne stellen konnten. Diese Möglichkeit bestand ab 1814 in Preußen nicht mehr. Stattdessen gab es u. a. in Barmen und Elberfeld Fälle von Täuschung, Betrug und Bestechung zwecks Befreiung von der Wehrpflicht. Der Elberfelder Landrat Otto von Diest (1821–1901) deckte 1854 ein System der illegalen Dienstbefreiung auf. Seine Ermittlungen führten zu 150 Verurteilungen zu Festungshaft und Nachdienen. Von Diest wurde anschließend auf Betreiben betroffener Familien versetzt. Ähnliche Vorwürfe gegen die Unternehmerschicht im Niederbergischen gab es seit den 1820er Jahren bis zum Jahr 1870. (Vgl. Friedrich Zunkel: Der rheinisch-Westfälische Unternehmer 1834–1879. Ein Beitrag zur Geschichte des deutschen Bürgertums im 19. Jahrhundert. Köln, Opladen 1962, S. 86f.; Bernhard Schmitt: Armee und staatliche Integration. Preußen und die Habsburgermonarchie 1815-1866. Rekrutierungspolitik in den neuen Provinzen: Staatliches Handeln und Bevölkerung. Paderborn u. a. 2007, S. 210–214.)
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Provisor</label>
+            <p>
+            Verwalter.
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Wittenstein</label>
+            <p>
+            Vermutlich Johannes Friedrich Wittenstein (1772–1847), Besitzer einer Türkischrot-Färberei an der Haspeler Brücke in Barmen. Bruder von Johanna Wilhelmine Overbeck, geb. Wittenstein (1774–1844), verehelicht mit Johann Heinrich Overbeck (1767–1833), Kaufmann in Unterbarmen. 
+
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Brügel</label>
+            <p>
+            Gemeint ist die Ortslage ‚Brögel‘ am südlichen Wupperufer. Der beschriebene Weg ist die neue Verbindungsstraße zwischen Elberfeld und Barmen (heute: Friedrich-Engels-Allee).
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Bleichen</label>
+            <p>
+            Leinen-, Hanf- und Baumwollfasern wurden im naturfarbigen Zustand versponnen und mussten vor dem Verkauf gebleicht werden. Auf einer Wiese in der Nähe eines Flusses, dem Bleichplatz oder auch der Tuchbleiche, wurden die von der Wäsche noch nassen Gewebe flach ausgelegt oder aufgespannt und kontinuierlich feucht gehalten. Manche Bleicher besprengten die Textilien auch mit Laugen. Etwa durch Straßenbau bedingter Staub erschwerte den Prozess.
+
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Patohm</label>
+            <p>
+            Benjamin Engels (1751–1820), genannt ‚Patohm‘ (Patenonkel), Teilhaber der Firma Caspar Engels Söhne in Barmen. Onkel des Vaters von Friedrich Engels.
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Geschwister</label>
+            <p>
+            Die Geschwister des Vaters von Friedrich Engels sind Johann Caspar Engels (1792–1863), August Engels (1797–1874) und Louise Engels (1799–1845).
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Spies</label>
+            <p>
+            Johann Christoph Spies (1771–1829), reformierter Pfarrer und Konsistorialrat in Frankfurt am Main.
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Passavent</label>
+            <p>
+            Jakob Ludwig Passavant (1751–1827), reformierter Pfarrer in Frankfurt am Main.
+          </p>
+          </div>
+
         </div>
       </Brief_wrapper>
     </Layout>
