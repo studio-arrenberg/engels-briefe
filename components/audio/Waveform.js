@@ -9,7 +9,7 @@ const formWaveSurferOptions = (ref) => ({
   progressColor: "#767676",
   cursorColor: "#fff",
   height: 50,
-  maxCanvasWidth: 540,
+  maxCanvasWidth: 300,
   // pixelRatio: 2,
   barGap: 20,  // the optional spacing between bars of the wave, if not provided will be calculated in legacy format,
   barWidth: 1,
@@ -83,8 +83,12 @@ export default function Waveform({ url }) {
       <div id="waveform" ref={waveformRef}></div>
 
       <div className="controls" onClick={handlePlayPause}>
-          <img className={!playing ? "active" : null}  src="../icons/play.svg" />
-          <img className={!playing ? null : "active"}  src="../icons/pause.svg" />
+        <div className={!playing ? "active" : null}>
+          <img  src="../icons/play.svg" />
+        </div>
+        <div className={!playing ? null : "active"}>
+          <img  src="../icons/pause.svg" />
+        </div>
       </div>
     </div>
   );
