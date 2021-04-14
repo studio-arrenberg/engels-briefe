@@ -153,6 +153,7 @@ export default function Brief_wrapper(props) {
   else if (!isView && prevIsOpen) {
     // alert('b');
     x.set(-handle_constraint);
+
     if (!isStellen) setStellen(true)
     props.stellen(isStellen)
     // setStellen(true);
@@ -342,7 +343,7 @@ export default function Brief_wrapper(props) {
             {/* swipe handlebar */}
             <motion.div
               onClick={()=> ViewToggle() }
-              drag="x"
+              // drag="x"
               className="handlebar"
               dragMomentum={true}
               dragTransition={{ bounceStiffness: 100, bounceDamping: 40 }}
