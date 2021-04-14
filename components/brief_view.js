@@ -2,11 +2,16 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import constants from "./constants";
 import { FiArrowRight } from "react-icons/fi";
+import Image from 'next/image';
 
 export default function Brief({ data }) {
   // digitalisate rotate random
   const min = -2;
   const max = 2;
+
+  const myLoader = ({ src, width, quality }) => {
+    return `https://example.com/${src}?w=${width}&q=${quality || 75}`
+  }
 
   return data.map((data, id) => {
     return (
@@ -27,7 +32,7 @@ export default function Brief({ data }) {
               {/* bild */}
               {data.digitalisate.page.map((item, index) => (
                 <>
-                  <img
+                  {/* <img
                     style={{
                       transform: `rotate(${
                         min + Math.random() * (max - min)
@@ -35,7 +40,17 @@ export default function Brief({ data }) {
                     }}
                     src={`../../pictures/digitalisate/${item}`}
                     key={index}
-                  />
+                  /> */}
+                  <Image key={index} alt="Vercel logo" src={`/pictures/digitalisate/${item}`} layout='fill' loading="lazy" />
+                  {/* <Image
+                    alt="Next.js logo"
+                    src="https://assets.vercel.com/image/upload/v1538361091/repositories/next-js/next-js-bg.png"
+                    // width={600}
+                    // height={400}
+                    layout='fill'
+                    loading="lazy"
+                  /> */}
+
                 </>
               ))}
 

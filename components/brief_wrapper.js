@@ -7,7 +7,11 @@ import {
 } from "framer-motion";
 import constants from "./constants";
 import Audio from "./audio";
-import { themen, familie, orte } from "../public/data.json";
+// import { familie, orte } from "../public/data.json";
+import themen from "../public/data.json";
+import familie from "../public/data.json";
+import orte from "../public/data.json";
+import pkg from "../public/data.json";
 import React, { useState, useEffect, useRef } from "react";
 import IdleTimer from "../components/IdleTimer";
 import { FiArrowLeft } from "react-icons/fi";
@@ -32,19 +36,19 @@ export default function Brief_wrapper(props) {
 
   th[0].map((data, id) => {
     // console.log(data);
-    them[id] = themen.filter((item) => {
+    them[id] = pkg.themen.filter((item) => {
       return item.id === data.toString();
     });
   });
 
   se.map((data, id) => {
-    sen[id] = familie.filter((item) => {
+    sen[id] = pkg.familie.filter((item) => {
       return item.id === data.toString();
     });
   });
 
   em.map((data, id) => {
-    emp[id] = familie.filter((item) => {
+    emp[id] = pkg.familie.filter((item) => {
       return item.id === data.toString();
     });
   });
@@ -252,7 +256,7 @@ export default function Brief_wrapper(props) {
                   </h2>
                   {/* get the ort */}
                   <h3>
-                    {orte
+                    {pkg.orte
                       .filter((item) => {
                         return item.id === data.sender.ort;
                       })
@@ -267,7 +271,6 @@ export default function Brief_wrapper(props) {
               </div>
             ))}
 
-            {/* <button {...bind} >PRESS ME</button> */}
             <img {...PlayerBind} className="arrow_send" src={`../icons/back.svg`} />
 
             {/* empfänger */}
@@ -286,7 +289,7 @@ export default function Brief_wrapper(props) {
                   </h2>
                   {/* get the ort */}
                   <h3>
-                    {orte
+                    {pkg.orte
                       .filter((item) => {
                         return item.id === data.empfänger.ort;
                       })
@@ -451,7 +454,7 @@ export default function Brief_wrapper(props) {
           <div className="orte">
             <div className="sender-ort">
               <img
-                src={`../../pictures/orte/${orte
+                src={`../../pictures/orte/${pkg.orte
                   .filter((item) => {
                     return item.id === data.sender.ort;
                   })
@@ -460,7 +463,7 @@ export default function Brief_wrapper(props) {
               />
               {/* get the ort */}
               <h2>
-                {orte
+                {pkg.orte
                   .filter((item) => {
                     return item.id === data.sender.ort;
                   })
@@ -468,7 +471,7 @@ export default function Brief_wrapper(props) {
                   .map((data) => data.title)}
 
                 <span className="bildnachweis">
-                  {orte
+                  {pkg.orte
                     .filter((item) => {
                       return item.id === data.sender.ort;
                     })
@@ -478,7 +481,7 @@ export default function Brief_wrapper(props) {
             </div>
             <div className="empfänger-ort">
               <img
-                src={`../../pictures/orte/${orte
+                src={`../../pictures/orte/${pkg.orte
                   .filter((item) => {
                     return item.id === data.empfänger.ort;
                   })
@@ -487,7 +490,7 @@ export default function Brief_wrapper(props) {
               />
 
               <h2>
-                {orte
+                {pkg.orte
                   .filter((item) => {
                     return item.id === data.empfänger.ort;
                   })
@@ -495,7 +498,7 @@ export default function Brief_wrapper(props) {
                   .map((data) => data.title)}
 
                 <span className="bildnachweis">
-                  {orte
+                  {pkg.orte
                     .filter((item) => {
                       return item.id === data.empfänger.ort;
                     })
@@ -511,44 +514,44 @@ export default function Brief_wrapper(props) {
   });
 }
 
-export function BouncingBall() {
-  const dura = 1;
-  const del = 0.1;
-  // init dura = 0.6 del = 0.1
-  const bounceTransition = {
-    x: {
-      duration: dura,
-      yoyo: Infinity,
-      ease: "easeOut",
-      repeatDelay: del,
-    },
-    backgroundColor: {
-      duration: dura / 2,
-      yoyo: Infinity,
-      ease: "easeOut",
-      repeatDelay: dura / 2 + del,
-    },
-    opacity: {
-      duration: dura / 2,
-      yoyo: Infinity,
-      ease: "easeIn",
-      repeatDelay: dura / 2 + del,
-    },
-  };
+// export function BouncingBall() {
+//   const dura = 1;
+//   const del = 0.1;
+//   // init dura = 0.6 del = 0.1
+//   const bounceTransition = {
+//     x: {
+//       duration: dura,
+//       yoyo: Infinity,
+//       ease: "easeOut",
+//       repeatDelay: del,
+//     },
+//     backgroundColor: {
+//       duration: dura / 2,
+//       yoyo: Infinity,
+//       ease: "easeOut",
+//       repeatDelay: dura / 2 + del,
+//     },
+//     opacity: {
+//       duration: dura / 2,
+//       yoyo: Infinity,
+//       ease: "easeIn",
+//       repeatDelay: dura / 2 + del,
+//     },
+//   };
 
-  return (
-    <div className="ball">
-      <motion.span
-        className="ballStyle"
-        transition={bounceTransition}
-        animate={{
-          x: ["80px", "-80px"],
-          backgroundColor: ["#000", "#838383"],
-          opacity: [0, 0.8],
-        }}
-      >
-       <img className="icon-swipe" src="../icons/swipe-back.svg" />
-      </motion.span>
-    </div>
-  );
-}
+//   return (
+//     <div className="ball">
+//       <motion.span
+//         className="ballStyle"
+//         transition={bounceTransition}
+//         animate={{
+//           x: ["80px", "-80px"],
+//           backgroundColor: ["#000", "#838383"],
+//           opacity: [0, 0.8],
+//         }}
+//       >
+//        <img className="icon-swipe" src="../icons/swipe-back.svg" />
+//       </motion.span>
+//     </div>
+//   );
+// }

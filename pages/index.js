@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { themen, familie, orte, briefe } from "../public/data.json";
+import pkg from "../public/data.json";
 import constants from "../components/constants";
 import { FiArrowRight } from "react-icons/fi";
 
@@ -96,7 +97,7 @@ export default function Home() {
 }
 
 export function Ort({ id }) {
-  let item = orte.filter((item) => {
+  let item = pkg.orte.filter((item) => {
     return item.id === id.toString();
   });
   item = item[0];
@@ -125,7 +126,7 @@ export function Ort({ id }) {
 }
 
 export function Brief({ id }) {
-  let item = briefe.filter((item) => {
+  let item = pkg.briefe.filter((item) => {
     return item.id === id.toString();
   });
   item = item[0];
@@ -168,7 +169,7 @@ export function Brief({ id }) {
 }
 
 export function Person({ id }) {
-  let item = familie.filter((item) => {
+  let item = pkg.familie.filter((item) => {
     return item.id === id.toString();
   });
   item = item[0];
@@ -199,7 +200,7 @@ export function Person({ id }) {
 }
 
 export function Thema({ id }) {
-  let thema = themen.filter((item) => {
+  let thema = pkg.themen.filter((item) => {
     return item.id === id.toString();
   });
   thema = thema[0];

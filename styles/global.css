@@ -1537,3 +1537,7 @@ p > span .latin {
 .idle-card h1 {
   color: white;
 }
+
+img {
+  object-fit: contain;
+}
