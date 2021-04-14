@@ -12,10 +12,11 @@ export default function page() {
   const key = item.map((data, index) => data.id);
   const date = item.map((data, index) => data.date);
 
-  const [isStellen, setStellen] = useState(false);
+  const [isStellen, setStellen] = useState();
   function stellen(state) {
     // console.log("Stellen: " + state);
     setStellen(state);
+    // alert("page: "+ isStellen);
   }
 
   return (
