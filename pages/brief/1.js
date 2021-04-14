@@ -53,8 +53,7 @@ export default function page() {
                       <span className="date">
                         5<span className="corr">.</span>{" "}
                         <span className="g.enc.tagsdecl.suspension.type3">
-                          {" "}
-                          (Jan.</span>
+                          {" "}Jan.</span>
                         <span className="expan">
                           Jan<span className="ex">uar</span>
                         </span>
@@ -737,8 +736,7 @@ export default function page() {
                     <span className="expan">
                       vorig<span className="ex">en</span>
                     </span>{" "}
-                    mir zu gefallen, schon zu Hause ge
-                    <br className="g.enc.tagsdecl.hyphenation.divis" /> blieben.{" "}
+                    mir zu gefallen, schon zu Hause ge<br className="g.enc.tagsdecl.hyphenation.divis" />blieben.{" "}
                     <span className="orig">ich</span>
                     <span className="corr">Ich</span> muß{" "}
                     <span className="g.enc.tagsdecl.suspension.type1">
@@ -1039,8 +1037,7 @@ export default function page() {
                         <a id="annot.001.e">{/*anchor*/}</a> und Nichte{" "}
                         <span className="g.rend.script.latin">Märken</span>{" "}
                         <span className="g.enc.tagsdecl.suspension.type1">
-                          {" "}
-                          (grüß</span>
+                          {" "}grüß</span>
                         <span className="expan">
                           grüß<span className="ex">en</span>
                         </span>{" "}

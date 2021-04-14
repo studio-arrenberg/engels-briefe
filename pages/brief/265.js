@@ -408,7 +408,7 @@ export default function page() {
                     <span className="corr">s</span>chien nämlich zu fürchten,
                     <br className="lb" />
                     als wenn ich ihm
-                    <sup className="sup" id="txt.add001"> dem Pferde</sup>{" "}
+                    <sup className="sup" id="txt.add001"> (dem Pferde)</sup>{" "}
                     dadurch zu viel
                     <br className="lb" />
                     zumuthete. Doch darüber{" "}

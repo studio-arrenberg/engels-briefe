@@ -288,8 +288,7 @@ export default function page() {
                     <sup className="sup" id="txt.add001">
                       <span className="persName">
                         <span className="g.enc.tagsdecl.suspension.type1">
-                          {" "}
-                          (Hannch</span>
+                          {" "}Hannch</span>
                         <span className="expan">
                           Hannch<span className="ex">en</span>
                         </span>

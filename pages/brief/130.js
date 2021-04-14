@@ -81,8 +81,7 @@ export default function page() {
                       Barmen
                       <span className="date">
                         <span className="g.enc.tagsdecl.suspension.type1">
-                          {" "}
-                          (d</span>
+                          {" "}d</span>
                         <span className="expan">
                           d<span className="ex">en</span>
                         </span>{" "}

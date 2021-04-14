@@ -504,8 +504,7 @@ export default function page() {
                       9{" "}
                       <span className="g.rend.script.latin">
                         <span className="abbr">
-                          {" "}
-                          (7<sup>ber</sup></span>
+                          {" "}7<sup>ber</sup></span>
                         <span className="expan" />
                       </span>{" "}
                       1791

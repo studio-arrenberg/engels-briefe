@@ -805,28 +805,28 @@ img {
 }
 
 
-.vergleichs-ansicht .enc\.tagsdecl\.indent-verysmall  {
+.enc\.tagsdecl\.indent-verysmall  {
   text-indent: 10px;
 }
 
-.vergleichs-ansicht .enc\.tagsdecl\.indent-small  {
+.enc\.tagsdecl\.indent-small  {
   text-indent: 20px;
 }
 
 
-.vergleichs-ansicht .enc\.tagsdecl\.indent-medium  {
+.enc\.tagsdecl\.indent-medium, .vergleichs-ansicht .indent-medium, .indent-medium   {
   text-indent: 30px;
 }
 
 
 
-.vergleichs-ansicht .enc\.tagsdecl\.indent-large  {
+.enc\.tagsdecl\.indent-large  {
   text-indent: 60px;
 }
 
 
-.vergleichs-ansicht .einzug-links {
-  margin-left: -40px;
+.indent-negativ {
+  margin-left: -25px;
 }
 
 .unclear{
@@ -884,9 +884,14 @@ table {
   position: relative;
   margin: 0 auto;
   font-size: 1.1rem;
-  line-height: inherit;
+  line-height: 1.6rem;
+  /* line-height: inherit; */
 }
 
+
+.normalisiert .page {
+  height: unset !important;
+}
 
 .normalisiert .page span, .normalisiert .page div{
   margin: 0 !important;
@@ -897,6 +902,13 @@ table {
 }
 
 .normalisiert .abbr{
+  display: none;
+}
+
+.normalisiert .overwritten{
+  display: none;
+}
+.normalisiert .strike-through{
   display: none;
 }
 
@@ -939,9 +951,19 @@ table {
 .normalisiert .makierung {
   /* background: rgb(219, 219, 219); */
   text-shadow: 0px 2px 20px rgb(50, 50, 50), 0px 2px 30px rgb(50, 50, 50), 0px 2px 40px #000, 0px 2px 50px #000;
-  
   display: inline-block;
 }
+
+
+.normalisiert .vertical-links {
+  width: unset !important;
+  height: unset !important;
+  top: unset !important;
+  left: unset !important;
+  display: block;
+  position: relative;
+}
+
 
 .stellenerläuterungen.null {
   opacity: 0;
@@ -1078,10 +1100,28 @@ p > span .latin {
 
 
  .g\.enc\.tagsdecl\.suspension\.type1 {
+}
+
+.vergleichs-ansicht  .g\.enc\.tagsdecl\.suspension\.type1 + .expan{
+  display: none;
+}
+
+.normalisiert  .g\.enc\.tagsdecl\.suspension\.type1{
+  display: none;
+}
+
+
+.vergleichs-ansicht .g\.enc\.tagsdecl\.suspension\.type1 + .expan + .expan{
   display: none;
 }
 
 .vergleichs-ansicht .g\.enc\.tagsdecl\.suspension\.type1 + .expan:after {
+  /* color: red; */
+  content: "ƺ";
+  display: inline;
+}
+
+.vergleichs-ansicht .g\.enc\.tagsdecl\.suspension\.type1:after {
   /* color: red; */
   content: "ƺ";
   display: inline;
@@ -1119,10 +1159,24 @@ p > span .latin {
 }
 
 
-.vergleichs-ansicht .add{
-  font-weight: 600;
-  /* color: red; */
+
+
+.vergleichs-ansicht .overwritten{
+  font-size: 80%;
 }
+
+.vergleichs-ansicht .overwritten + .add{
+  font-weight: 600;
+}
+
+
+
+.vergleichs-ansicht .g\.enc\.tagsdecl\.cc\.abbr-colon + .expan{
+  display: none;
+}
+
+
+
 
 
 
@@ -1159,6 +1213,10 @@ p > span .latin {
   display: none;
 }
 
+.vergleichs-ansicht .hide-vergleichsansicht{
+  display: none;
+}
+
 .strikethrough{
   text-decoration:line-through;
 }
@@ -1169,11 +1227,13 @@ p > span .latin {
 }
 
 
-.vergleichs-ansicht .sup#txt\.add001::after{
-  content: "|";
-  transform: rotate(45deg) translateY(1px) translateX(4px) scale(1.4); 
+.vergleichs-ansicht .sup#txt\.add001::after, .vergleichs-ansicht .sup#txt\.add002::after{
+  content: "⦦";
+  font-weight: 100;
+  margin-right: -4px;
+  transform: rotate(0deg) translateY(2px) translateX(-6px) scale(1.8) scaleX(-1); 
   display: inline-block;
-  color: black;
+  color: #000
 }
 
 /* .g\.enc\.tagsdecl\.cc.abbr-sup-am */
@@ -1181,7 +1241,7 @@ p > span .latin {
   text-decoration: double;
 } */
 
-.double-underline{
+.vergleichs-ansicht .double-underline{
   text-decoration: underline;
   border-bottom: 1px double black;
 }

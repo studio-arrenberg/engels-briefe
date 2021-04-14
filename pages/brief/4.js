@@ -58,7 +58,7 @@ export default function page() {
                 >
                   <p>
                   <span className="opener">
-                    <span className="salute">Mein werther Freund! </span>
+                    <span className="salute indent-negativ">Mein werther Freund! </span>
                   </span>
                   
                     Nach meinem Wun<span className="orig">ſ</span><span className="corr">s</span>ch, und nach meiner Hoffnung
@@ -144,7 +144,7 @@ export default function page() {
                         &nbsp;
                       </span>
                       <br />
-                      <span className="text-right">Fort=</span>
+                      <span className="text-right hide-normalisiert">Fort=</span>
                       <br className="lb" />
                       <span style={{ display: "inline-block" }} width="10cm">
                         &nbsp;
@@ -216,6 +216,7 @@ export default function page() {
                         <span className="orig">
                           <span className="corr">y</span>te
                         </span>{" "}
+                        </span>
                         Bruder i<span className="orig">ﬅ</span><span className="corr">st</span> <span className="orig">Creiß=Einnehmer</span>
                         <span className="corr">Kreis-Einnehmer</span>{" "}
                         gleichfalls in{" "}
@@ -250,7 +251,6 @@ export default function page() {
                           <br className="lb" /> verheirathet — ;
                         </span>
                       </span>
-                    </span>
                   </p>
                   <p className="enc.tagsdecl.indent-medium">
                     Dieß mein Werthe<span className="orig">ﬅ</span><span className="corr">st</span>er! wäre{" "}
@@ -282,7 +282,7 @@ export default function page() {
                     <span className="orig">ſ</span><span className="corr">s</span>chätzen, der <span className="orig">ſ</span><span className="corr">s</span>ie zur Gattin bekömmt.
                     <a id="mark.002.e">{/*anchor*/}</a>
                   </p>
-                  <div className="closer">
+                  <div className="closer indent-medium">
                     <span className="orig">meine</span>
                     <span className="corr">Meine</span> Frau und ich, wir grüßen
                     Sie auf das Herzlich<span className="orig">ﬅ</span><span className="corr">st</span>e, ich bin mit

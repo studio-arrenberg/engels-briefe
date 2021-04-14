@@ -59,8 +59,7 @@ export default function page() {
                           &nbsp;
                         </span>
                         <span className="g.enc.tagsdecl.suspension.type1">
-                          {" "}
-                          (d</span>
+                          {" "}d</span>
                         <span className="expan">
                           d<span className="ex">en</span>
                         </span>{" "}
@@ -97,8 +96,7 @@ export default function page() {
                           <span className="g.rend.script.latin">R</span>
                         </span>
                         <span className="g.enc.tagsdecl.suspension.type1">
-                          {" "}
-                          (d</span>
+                          {" "}d</span>
                         <span className="expan">
                           d<span className="ex">en</span>
                         </span>{" "}
@@ -114,8 +112,7 @@ export default function page() {
                           &nbsp;
                         </span>
                         <span className="g.enc.tagsdecl.suspension.type1">
-                          {" "}
-                          (d</span>
+                          {" "}d</span>
                         <span className="expan">
                           d<span className="ex">en</span>
                         </span>{" "}
@@ -455,7 +452,7 @@ export default function page() {
                     <span className="corr">s</span>o{" "}
                     <span className="persName">
                       <span className="g.enc.tagsdecl.suspension.type1">
-                        dHr. </span>
+                        dHr</span>
                       <span className="expan">
                         d<span className="ex">em</span> Hr
                       </span>
@@ -593,8 +590,7 @@ export default function page() {
                     <span className="strike-through" style={{ textDecoration: "line-through" }}>
                       i<span className="orig">ﬅ</span>
                       <span className="corr">st</span>
-                    </span>
-                    , <br className="lb" />
+                    </span>, <br className="lb" />
                     auch wohin ihre{" "}
                     <span className="orig">
                       Be<span className="orig">ﬅ</span>

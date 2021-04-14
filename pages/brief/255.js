@@ -169,7 +169,7 @@ export default function page() {
                   <span style={{ display: "inline-block" }} width="-4em">
                     &nbsp;
                   </span>
-                  <span className="add einzug-links" id="txt.add002">
+                  <span className="add indent-negativ" id="txt.add002">
                     <span className="orig">ﬅ</span><span className="corr">st</span>e
                   </span>
                   <span className="orig">

@@ -124,8 +124,7 @@ export default function page() {
                     >
                       <p className="g.enc.tagsdecl.wd.vertical-right">
                         <span className="g.enc.tagsdecl.suspension.type1">
-                          {" "}
-                          (Hr</span>
+                          {" "}Hr</span>
                         <span className="expan">
                           H<span className="ex">er</span>r
                         </span>{" "}
@@ -147,8 +146,7 @@ export default function page() {
                         </span>{" "}
                         auf{" "}
                         <span className="g.enc.tagsdecl.suspension.type1">
-                          {" "}
-                          (Hr</span>
+                          {" "}Hr</span>
                         <span className="expan">
                           H<span className="ex">er</span>r
                           <span className="ex">n</span>
@@ -157,8 +155,7 @@ export default function page() {
                         <br className="lb" />
                         nun eingehen
                         <span className="g.enc.tagsdecl.suspension.type1">
-                          {" "}
-                          (würd</span>
+                          {" "}würd</span>
                         <span className="expan">
                           würd<span className="ex">en</span>
                         </span>
@@ -326,8 +323,7 @@ export default function page() {
                         <span className="orig">ﬅ</span>
                         <span className="corr">st</span> oﬀenbar ein Werk der{" "}
                         <span className="g.enc.tagsdecl.suspension.type1">
-                          {" "}
-                          (Königlich</span>
+                          {" "}Königlich</span>
                         <span className="expan">
                           Königlich<span className="ex">en</span>
                         </span>{" "}
