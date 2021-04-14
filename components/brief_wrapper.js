@@ -10,6 +10,7 @@ import { themen, familie, orte } from "../public/data.json";
 import React, { useState, useEffect, useRef } from "react";
 import IdleTimer from "../components/IdleTimer";
 import { FiArrowLeft } from "react-icons/fi";
+import { useLongPress } from 'use-long-press';
 
 export default function Brief_wrapper(props) {
   // get window width
@@ -109,6 +110,20 @@ export default function Brief_wrapper(props) {
     props.stellen(isStellen);
   });
 
+
+  // Audio Player Activation
+  const [isPlayer, setPlayer] = useState(false);
+
+  const PlayerBind = useLongPress(() => {
+    // prolong timeout ..?
+    console.log('Long pressed!');
+    // alert('Long pressed!');
+
+    // change audio player state
+    setPlayer(!isPlayer);
+
+  });
+
   // Replace function
   // React.useEffect(() => {
   //   var el = document.querySelector('.normalisiert').innerHTML.replace(/ſ/g,"s").replace(/ﬅ/g,"st")
@@ -187,7 +202,8 @@ export default function Brief_wrapper(props) {
               </div>
             ))}
 
-            <img className="arrow_send" src={`../icons/back.svg`} />
+            {/* <button {...bind} >PRESS ME</button> */}
+            <img {...PlayerBind} className="arrow_send" src={`../icons/back.svg`} />
 
             {/* empfänger */}
 
@@ -243,6 +259,7 @@ export default function Brief_wrapper(props) {
 
                 {!!data.digitalisate.cover ? (
                   <img
+                    
                     className="kuvert_img"
                     src={`../../pictures/digitalisate/${data.digitalisate.cover}`}
                   />
@@ -324,7 +341,7 @@ export default function Brief_wrapper(props) {
             </motion.div>
           </motion.div>
 
-          <div className="player">
+          <div className={`player  ${ isPlayer == true ? "active" : null }  `}>
             <Audio file={data.audio}></Audio>
           </div>
 

@@ -39,7 +39,7 @@ export default function Waveform({ url }) {
     wavesurfer.current.on("ready", function () {
       // https://wavesurfer-js.org/docs/methods.html
       // wavesurfer.current.play();
-      setPlay(true);
+      setPlay(false);
 
       // Auto start Player:
       // handleRestart();
@@ -84,16 +84,16 @@ export default function Waveform({ url }) {
 
       <div className="controls">
 
+        {/* restart button */}
+        {/* <img width="15px" src="../icons/backward.svg" onClick={handleRestart} /> */}
+
         {/* <button onClick={handlePlayPause} >{!playing ? "Play" : "Pause"}</button> */}
 
         {/* play pause button */}
         <div onClick={handlePlayPause} >
-          <img className={!playing ? "active" : null} width="15px" src="../icons/play.svg" />
-          <img className={!playing ? null : "active"} width="15px" src="../icons/pause.svg" />
+          <img className={playing ? "active" : null} width="15px" src="../icons/play.svg" />
+          <img className={playing ? null : "active"} width="15px" src="../icons/pause.svg" />
         </div>
-
-        {/* restart button */}
-        {/* <img width="15px" src="../icons/backward.svg" onClick={handleRestart} /> */}
 
       </div>
     </div>
