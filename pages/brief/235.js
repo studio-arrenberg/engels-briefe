@@ -128,6 +128,7 @@ export default function page() {
                     <br className="lb" />{" "}
                     verfloßnen Dien<span className="orig">ﬅ</span>
                     <span className="corr">st</span>agabend, den
+                    <span className="makierung">
                     <span className="date">
                     {" "}29.{" "}
                       <span className="g.rend.script.latin">
@@ -136,6 +137,7 @@ export default function page() {
                           Nov<span className="ex">ember</span>
                         </span>
                       </span>
+                    </span>
                     </span>
                     {" "}Abends um
                     <br className="lb" />{" "}9 Uhr ein Kindlein, und zwar einen ge
@@ -258,7 +260,7 @@ export default function page() {
                     <br className="lb" />{" "}
                     Blähungen herrührten, und auf einige Verordnung
                     <br className="lb" />{" "}
-                    des Arztes bald wieder ver<span className="orig">ſ</span>
+                    des <span className="makierung">Arztes</span> bald wieder ver<span className="orig">ſ</span>
                     <span className="corr">s</span>chwanden. Das
                     <br className="lb" />{" "}
                     kleine Knäbchen <span className="orig">ſ</span>
@@ -268,10 +270,11 @@ export default function page() {
                     <br className="lb" />{" "}
                     das i<span className="orig">ﬅ</span>
                     <span className="corr">st</span> recht gut, denn Gott{" "}
+                    <span className="makierung">
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>ärkt ja die Kleinen
                     <br className="lb" />{" "}
-                    im Schlafe. Sein kleines Haus{" "}
+                    im Schlafe.</span> <span className="makierung">Sein kleines Haus</span>{" "}
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>eht neben mir,
                     <br className="lb" />{" "}
@@ -429,9 +432,10 @@ export default function page() {
                   <p className="enc.tagsdecl.indent-small">
                     <a id="mark.001.s">{/*anchor*/}</a>
                     <span className="reisen">
+                      <span className="makierung">
                       <span className="g.rend.script.latin">August</span> und{" "}
                       <span className="g.rend.script.latin">Louise</span> (die
-                      Frau) haben eine <span className="orig">ſ</span>
+                      Frau)</span> haben eine <span className="orig">ſ</span>
                       <span className="corr">s</span>ehr
                       <br className="lb" />{" "}
                       <span className="orig">ſ</span>
@@ -459,10 +463,11 @@ export default function page() {
                       <span className="orig">ﬅ</span>
                       <span className="corr">st</span> hatte
                       <br className="lb" />{" "}
+                      <span className="makierung">
                       die <span className="orig">ſ</span>
                       <span className="corr">s</span>chöne Rei
                       <span className="orig">ſ</span>
-                      <span className="corr">s</span>e mitzumachen, antworten?
+                      <span className="corr">s</span>e</span> mitzumachen, antworten?
                     </span>
                   </p>
                 </div>
@@ -537,7 +542,7 @@ export default function page() {
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>o vieles von Eurer
                       <br className="lb" />{" "}
-                      merkwürdigen Stadt gehört, daß{" "}
+                      <span className="makierung">merkwürdigen Stadt</span> gehört, daß{" "}
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>ie darüber der
                       <br className="lb" />{" "}
@@ -557,10 +562,10 @@ export default function page() {
                     <span className="religion">
                       <a id="mark.002.s">{/*anchor*/}</a>Was ha
                       <span className="orig">ﬅ</span>
-                      <span className="corr">st</span> Du dem guten Papa mit
+                      <span className="corr">st</span> Du dem guten Papa <span className="makierung">mit
                       Deiner
                       <br className="lb" />{" "}
-                      Kirchennachricht für Freude gemacht, lieber{" "}
+                      Kirchennachricht</span> für Freude gemacht, lieber{" "}
                       <span className="persName">Karl</span>!
                       <br className="lb" />{" "}
                       Er war <span className="orig">ſ</span>
@@ -633,12 +638,14 @@ export default function page() {
                       <span className="corr">s</span>e
                     </span>{" "}
                     und meine gute{" "}
+                    <span className="makierung">
                     <span className="persName">
                       <span className="g.enc.tagsdecl.suspension.type1">
                         Schwiegermutt </span>
                       <span className="expan">
                         Schwiegermutt<span className="ex">er</span>
                       </span>
+                    </span>
                     </span>
                     .<br className="lb" />{" "}
                     Der Herr <span className="orig">ſ</span>
@@ -665,6 +672,127 @@ export default function page() {
             </div>
           </div>
         </div>
+        <div className={`stellenerläuterungen ${isStellen ? "activ" : null}`}>
+          
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>29. Nov.</label>
+            <p>
+            Friedrich Engels sen. irrt sich offenkundig im Datum: die offizielle Geburtsurkunde trägt das Datum des 28.11.1820, ein Dienstag (siehe auch weiter unten, Z. 39–44).
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Arztes</label>
+            <p>
+            Caspar Jakob Lucas (1765–1826), Arzt und Geburtshelfer in Elberfeld.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Gott stärkt ja die Kleinen im Schlafe</label>
+            <p>
+            Evtl. Anspielung auf Ps. 127,2.3: „denn seinen Freunden gibt er es im Schlaf. / Siehe, Kinder sind eine Gabe des Herrn und Leibesfrucht ist ein Geschenk.“ (LUT)
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Sein kleines Haus</label>
+            <p>
+            Wiege.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>August u Louise (die Frau)</label>
+            <p>
+            Der Bruder August Engels ( 1794–1874) und die Schwägerin Louise Engels, geb. Krebs (1801–1871).
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>die schöne Reise</label>
+            <p>
+            Vermutlich die Hochzeitsreise von Bruder und Schwägerin in die Schweiz und nach Oberitalien, die sie nach ihrer Hochzeit am 17.8.1820 angetreten hatten. 
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Eurer merkwürdigen Stadt</label>
+            <p>
+            Berlin.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>mit Deiner Kirchennachricht</label>
+            <p>
+            Offenbar eine gute Nachricht in der Angelegenheit des Baus der Unterbarmer Kirche, die dem Vater ein überaus großes, über Jahre hinweg betriebenes Anliegen war. 
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Schwiegermutter</label>
+            <p>
+            Franziska van Haar, geb. Snethlage (1758–1846), zugleich Tante des Adressaten.
+            </p>
+          </div>
+
+        </div>
+      
       </Brief_wrapper>
     </Layout>
   );

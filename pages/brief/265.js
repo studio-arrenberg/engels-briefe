@@ -502,7 +502,7 @@ export default function page() {
                       <tbody>
                         <tr>
                           <td>100</td>
-                          <td>℔</td>
+                          <td><span className="makierung">℔</span></td>
                           <td>Reis</td>
                           <td>à</td>
                           <td>10</td>
@@ -1233,6 +1233,7 @@ export default function page() {
             </div>
           </div>
         </div>
+
         <div className={`stellenerläuterungen ${isStellen ? "activ" : null}`}>
           <div
             className="stellenerläuterung"
@@ -1338,12 +1339,26 @@ export default function page() {
             }}
           >
             <hr />
-            <label>Colonial</label>
+            <label>Colonialwaren</label>
             <p>
               Meist aus den tropischen Kolonien europäischer Länder importierte
               Genussmittel wie Zucker, Kaffee, Tee und Gewürze.
             </p>
           </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "1360px",
+            }}
+          >
+            <hr />
+            <label>℔</label>
+            <p>
+            Pfund (Gewichtsmaß), entspricht ca. 500g.
+            </p>
+          </div>
+
           <div
             className="stellenerläuterung"
             style={{

@@ -128,7 +128,7 @@ export default function page() {
                         <span className="expan">
                           H<span className="ex">er</span>r
                         </span>{" "}
-                        <span className="g.rend.script.latin">Meÿberg</span>{" "}
+                        <span className="g.rend.script.latin"><span className="makierung">Meÿberg</span></span>{" "}
                         <span className="orig">ſ</span>
                         <span className="corr">s</span>chreibt uns, daß die{" "}
                         <br className="lb" />
@@ -151,7 +151,7 @@ export default function page() {
                           H<span className="ex">er</span>r
                           <span className="ex">n</span>
                         </span>
-                        <span className="g.rend.script.latin">Merten</span>{" "}
+                        <span className="g.rend.script.latin"><span className="makierung">Merten</span></span>{" "}
                         <br className="lb" />
                         nun eingehen
                         <span className="g.enc.tagsdecl.suspension.type1">
@@ -219,11 +219,12 @@ export default function page() {
                       Stadt <span className="placeName">Frankfurth</span>{" "}
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>o
+                      <span className="makierung">
                       <span className="orig">glüklich</span>
                       <span className="corr">glücklich</span>{" "}
                       <br className="lb" />
                       <span className="orig">Vorübergegangen</span>
-                      <span className="corr">vorübergegangen</span> i
+                      <span className="corr">vorübergegangen</span></span> i
                       <span className="orig">ﬅ</span>
                       <span className="corr">st</span>;
                       <span style={{ display: "inline-block" }} width="1cm">
@@ -279,16 +280,18 @@ export default function page() {
                         <span className="corr">st</span>ag
                       </span>{" "}
                       <br className="lb" />
+                      <span className="makierung">
                       Rußi<span className="orig">ſ</span>
                       <span className="corr">s</span>che{" "}
                       <span className="orig">Trouppen</span>
-                      <span className="corr">Truppen</span>, wovon der General{" "}
+                      <span className="corr">Truppen</span></span>, wovon <span className="makierung">der General</span>{" "}
                       in <span className="g.rend.script.latin">Elberfeld</span>{" "}
-                      liegt<a id="teaser.part.002.e">{/*anchor*/}</a> und ein{" "}
+                      liegt<a id="teaser.part.002.e">{/*anchor*/}</a> und <span className="makierung">ein{" "}
                       <br className="g.enc.tagsdecl.hyphenation.colon" />
                       liegende{" "}
                       <span className="g.rend.script.latin">
                         Proclamation
+                      </span>
                       </span>{" "}
                       <span className="orig">erlaßen</span>
                       <span className="corr">erlassen</span> hat;{" "}
@@ -307,10 +310,10 @@ export default function page() {
                       <span className="corr">s</span>er Woche{" "}
                       <span className="orig">ﬅ</span>
                       <span className="corr">st</span>arke{" "}
-                      <span className="g.rend.script.latin">Requisitionen</span>{" "}
+                      <span className="g.rend.script.latin"><span className="makierung">Requisitionen</span></span>{" "}
                       und <br className="lb" />
                       <span className="g.rend.script.latin">
-                        Contributionen
+                        <span className="makierung">Contributionen</span>
                       </span>{" "}
                       gemacht haben, wovon wir nun Gottlob durch jene{" "}
                       <br className="lb" />
@@ -358,6 +361,7 @@ export default function page() {
                       </span>{" "}
                       i<span className="orig">ﬅ</span>
                       <span className="corr">st</span> von{" "}
+                      <span className="makierung">
                       <span className="g.rend.script.latin">Kosaken</span> und{" "}
                       <span className="g.enc.tagsdecl.suspension.type1"><span className="orig">Preüß</span>
                         <span className="corr">Preuß</span>
@@ -372,6 +376,7 @@ export default function page() {
                       </span>{" "}
                       Hu<span className="orig">ſ</span>
                       <span className="corr">s</span>aren <br className="lb" />
+                      </span>
                       <span className="orig">
                         be<span className="orig">ſ</span>
                         <span className="corr">s</span>ezt
@@ -398,7 +403,7 @@ export default function page() {
                       </span>
                       von{" "}
                       <span className="g.rend.script.latin">
-                        GeneralRigeaud
+                        <span className="makierung">General Rigeaud</span>
                       </span>{" "}
                       war 2 Tage <span className="orig">Vorher</span>
                       <span className="corr">vorher</span> <br className="lb" />
@@ -517,9 +522,10 @@ export default function page() {
                         <span className="orig">ſ</span>
                         <span className="corr">s</span>o mag
                         <span className="orig">ﬅ</span>
-                        <span className="corr">st</span> du künftig klar{" "}
+                        <span className="corr">st</span> du <span className="makierung">künftig klar{" "}
                         <span className="orig">ſ</span>
                         <span className="corr">s</span>chreiben
+                        </span>
                       </p>
                     </div>
                   </div>
@@ -527,6 +533,152 @@ export default function page() {
               </section>
             </div>
           </div>
+        </div>
+        <div className={`stellenerläuterungen ${isStellen ? "activ" : null}`}>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>glücklich vorübergegangen</label>
+            <p>
+            Der Abzug der frz. Truppen erfolgte mit weniger Opfern und Zerstörungen als zu befürchten war. Nach letzten Gefechten am 31. Oktober 1813, insbesondere an der ‚Alten Brücke‘, zogen sich die frz. Truppen am 1./2. November 1813 endgültig zurück und fünf Tage später besetzten alliierte Truppen die Stadt.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Rußische Trouppen</label>
+            <p>
+            Nach der Völkerschlacht bei Leipzig im Oktober 1813 vertrieben die Truppen der Koalition gegen Napoleon (Preußen, Russland, Österreich und Schweden) die französischen Truppen aus den deutschen Gebieten.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>der General</label>
+            <p>
+            Der russische General Yusefowitsch, unter dessen Führung russische Truppen ab dem 9. November 1813 Elberfeld und Barmen besetzten.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>einliegende Proclamation</label>
+            <p>
+            Siehe die Beilage: „Tagsbefehl“ von der „Avantgarde des kaiserl. russischen Armee-Korps“ vom 11. November 1813. Der Druck der Proklamation enthält das offenbar falsche Datum „11. Okt.“. In der Literatur wird der 11. November 1813 in Elberfeld als Beginn der russischen Kommandantschaft genannt und jener „Tagsbefehl“ auf diesen Tag datiert. (Vgl. Johann Friedrich Knapp: Geschichte, Statistik und Topographie der Städte Elberfeld und Barmen im Wupperthale. Iserlohn und Barmen 1835. S. 77.) Außerdem bezieht sich Johann Caspar Engels im Brief (Z. 4–5) auf den Abzug der Franzosen aus Frankfurt am Main. Der erfolgte bis zum 2. November 1813.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Requisition</label>
+            <p>
+            Bezeichnet im Kriegswesen das Beschaffen von Lebensmitteln oder für militärische Bedürfnisse erforderlichen Gegenständen von den Einwohnern des Feindeslandes durch die Besatzer.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Contributionen</label>
+            <p>
+            Von Besatzern eingetriebene Abgaben, Steuern.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Kosaken und Preußische Husaren besetzt</label>
+            <p>
+            Ebenfalls Truppen der Koalition gegen Napoleon, die die besetzten Gebiete befreiten.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>General Rigeaud</label>
+            <p>
+            Antoine Baron de Rigaux (1758–1820), französischer General der Kavallerie.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>künftig klar schreiben</label>
+            <p>
+            aus Angst vor Militärzensur hatte Johann Caspar Engels seinen Sohn bei „politischen Nachrichten“ aus Frankfurt zur „Vorsicht“ gemahnt (vgl. Brief Nr. 66 vom 5.4.1813).
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Meyberg</label>
+            <p>
+            Nicht ermittelt.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Merten</label>
+            <p>
+            Nicht ermittelt.
+            </p>
+          </div>
+          
         </div>
       </Brief_wrapper>
     </Layout>

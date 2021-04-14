@@ -246,6 +246,7 @@ export default function page() {
                   <p>
                     <a id="mark.001.s">{/*anchor*/}</a>Dein Brief vom{" "}
                     <span className="date">31</span>{" "}
+                    <span className="makierung">
                     <span className="g.rend.script.latin">
                       <span className="abbr">
                         pa<span className="orig">ſ</span>
@@ -259,6 +260,7 @@ export default function page() {
                         <span className="corr">s</span>
                         <span className="ex">ati</span>
                       </span>
+                    </span>
                     </span>{" "}
                     war zwar beruhigend für uns, doch i
                     <span className="orig">ﬅ</span>
@@ -279,7 +281,7 @@ export default function page() {
                         H<span className="ex">e</span>r
                         <span className="ex">rn</span>
                       </span>{" "}
-                      <span className="g.rend.script.latin">Ekhard</span>
+                      <span className="g.rend.script.latin"><span className="makierung">Ekhard</span></span>
                     </span>{" "}
                     ge<span className="orig">ſ</span>
                     <span className="corr">s</span>chrieben und{" "}
@@ -340,7 +342,7 @@ export default function page() {
                     <span className="corr">s</span>agt, daß ich{" "}
                     <br className="lb" />
                     dir dis gern erlaubte, unter dem{" "}
-                    <span className="abbr">Beding:</span> daß du deine{" "}
+                    <span className="abbr"><span className="makierung">Beding:</span></span> daß du deine{" "}
                     <span className="orig">
                       Schuld<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
                       digkeit
@@ -394,15 +396,15 @@ export default function page() {
                     <a id="annot.001.s">{/*anchor*/}</a>
                     <span className="abbr">
                       {" "}
-                      <span className="g.rend.script.latin">F</span>.
+                      <span className="g.rend.script.latin"><span className="makierung">F</span></span>.
                     </span>
                     <span className="orig" />
                     <span className="corr">Gulden</span>
                     <a id="annot.001.e">{/*anchor*/}</a> |:
                     <span className="orig"> </span>
                     <span className="corr" />
-                    was freilig viel i<span className="orig">ﬅ</span>
-                    <span className="corr">st</span>
+                    <spam className="makierung">was freilig viel i<span className="orig">ﬅ</span>
+                    <span className="corr">st</span></spam>
                     <span className="orig"> </span>
                     <span className="corr" />
                     :| <span className="orig">ſ</span>
@@ -461,7 +463,7 @@ export default function page() {
                         <span className="ex">e</span>r
                         <span className="ex">rn</span>
                       </span>{" "}
-                      <span className="g.rend.script.latin">Almenräder</span>{" "}
+                      <span className="g.rend.script.latin"><span className="makierung">Almenräder</span></span>{" "}
                     </span>
                     von dem ich viel <span className="orig">gutes</span>
                     <span className="corr">Gutes</span> <br className="lb" />
@@ -489,7 +491,7 @@ export default function page() {
                       <span className="corr">s</span>
                       <span className="ex">einer</span>
                     </span>{" "}
-                    Zeit an den Böken viele <span className="orig">Freüde</span>
+                    Zeit an den <span className="makierung">Böken</span> viele <span className="orig">Freüde</span>
                     <span className="corr">Freude</span> damit machen werde
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>.
@@ -519,6 +521,7 @@ export default function page() {
                     ich dir 2 Briefe an{" "}
                     <span className="persName">
                       {" "}
+                      <span className="makierung">
                       <span className="g.rend.script.latin">
                         <span className="abbr">
                           Ab
@@ -531,10 +534,12 @@ export default function page() {
                         </span>
                         Lohe{" "}
                       </span>
+                      </span>
                     </span>
                     und{" "}
                     <span className="persName">
                       {" "}
+                      <span className="makierung">
                       <span className="g.rend.script.latin">
                         <span className="abbr">
                           Joh<span className="orig">:</span>
@@ -545,8 +550,10 @@ export default function page() {
                         </span>
                         {" "}Waxelberg
                       </span>
+                      </span>
                     </span>{" "}
                     <br className="lb" />
+                    
                     die am <span className="orig">Sontag</span>
                     <span className="corr">Sonntag</span> nach
                     <span className="placeName">
@@ -570,10 +577,11 @@ export default function page() {
                     <span className="corr">vielleicht</span> Sam
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>ag <br className="lb" />
-                    oder <span className="orig">Sontag</span>
+                    oder 
+                    <span className="makierung"><span className="orig">Sontag</span>
                     <span className="corr">Sonntag</span> dort oder in
                     <span className="orig">eürer</span>
-                    <span className="corr">eurer</span> Gegend ankom̅en werden;{" "}
+                    <span className="corr">eurer</span> Gegend ankom̅en werden;</span>{" "}
                     <br className="lb" />
                     erkundige{" "}
                     <sup className="sup" id="txt.add002">
@@ -690,9 +698,11 @@ export default function page() {
                       <span className="corr">Freude</span>, und{" "}
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>ie{" "}
+                      <span className="makierung">
                       <span className="g.rend.script.latin">
                         <span className="orig">Accordirte</span>
                         <span className="corr">accordirte</span>
+                      </span>
                       </span>
                       {" "}dir auf der Stelle <br className="lb" />
                       das neue{" "}
@@ -759,6 +769,151 @@ export default function page() {
               </section>
             </div>
           </div>
+        </div>
+        <div className={`stellenerläuterungen ${isStellen ? "activ" : null}`}>
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>pass.</label>
+            <p>
+            passato. Ital. Kaufmannssprache: „des vergangenen Monats“.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Ekhardt</label>
+            <p>
+            Johann Friedrich Eckhardt (1762–1841), Kaufmann in Frankfurt am Main und Lehrherr von Friedrich Engels sen.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Beding</label>
+            <p>
+            Der Beding: gemäß Adelung veraltet für ‚Bedingung‘ (Bd. 2, „Beding“: )
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>F</label>
+            <p>
+            Floren: Abk. für Gulden (nach Fiorino d’oro, der zuerst in Florenz geprägten Goldmünze).
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>was freilig viel ist</label>
+            <p>
+            Hausmusik spielte in der Familie Engels eine große und selbstverständliche Rolle. Johann Caspar spielte Orgel, der Sohn lernte Klavier und Fagott.
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Almenräder</label>
+            <p>
+            Karl Almenräder (1786–1843), Instrumentenbauer und Fagottist, wirkte um 1814 in Frankfurt am Main.
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Böken</label>
+            <p>
+            Nach Knieriem (S. 181, Anm. 1 zu Brief 75) handelt es sich um ein Bauerngut der Familie Engels südwestlich des Barmer Bruchs.
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Abm Lohe</label>
+            <p>
+            Abraham Lohe (1764–1818), Besitzer einer Bleicherei in Barmen und 1814 Kriegsfreiwilliger.
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Joh. Waxelberg</label>
+            <p>
+            Johannes Wechselberg (1794–?), Spitzenwirker in der Firma Caspar Engels Söhne, 1813/14 Kriegsfreiwilliger.
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>die am Sonntag […] ankommen werden</label>
+            <p>
+            Die Entfernung zwischen Barmen und Frankfurt beträgt ca. 200 km, die Reisedauer zu Fuß 45 bis 50 Stunden.
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>accodirte</label>
+            <p>
+            Accordi(e)ren. Frz. accorder: ‚gewähren‘, ‚zu etwas seine Zustimmung geben‘.
+          </p>
+          </div>
+
         </div>
       </Brief_wrapper>
     </Layout>
