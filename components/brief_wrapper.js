@@ -448,6 +448,12 @@ export default function Brief_wrapper(props) {
 
 
           {/* orte */}
+          <motion.div
+              // className="detail"
+              style={{
+                x: x_normal,
+              }}
+            >
 
           <div className="orte">
             <div className="sender-ort">
@@ -505,6 +511,7 @@ export default function Brief_wrapper(props) {
               </h2>
             </div>
           </div>
+          </motion.div>
           <IdleTimer />
         </motion.div>
       </>
