@@ -394,10 +394,10 @@ export default function page() {
                     <span className="orig">dan</span>
                     <span className="corr">dann</span> die 150{" "}
                     <a id="annot.001.s">{/*anchor*/}</a>
-                    <span className="abbr">
+                    <span className="makierung"><span className="abbr">
                       {" "}
-                      <span className="g.rend.script.latin"><span className="makierung">F</span></span>.
-                    </span>
+                      <span className="g.rend.script.latin">F</span>.
+                    </span></span>
                     <span className="orig" />
                     <span className="corr">Gulden</span>
                     <a id="annot.001.e">{/*anchor*/}</a> |:
@@ -555,7 +555,7 @@ export default function page() {
                     <br className="lb" />
                     
                     die am <span className="orig">Sontag</span>
-                    <span className="corr">Sonntag</span> nach
+                    <span className="corr">Sonntag</span>{" "}nach
                     <span className="placeName">
                       {" "}
                       <span className="g.rend.script.latin">
@@ -577,7 +577,7 @@ export default function page() {
                     <span className="corr">vielleicht</span> Sam
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>ag <br className="lb" />
-                    oder 
+                    oder {" "}
                     <span className="makierung"><span className="orig">Sontag</span>
                     <span className="corr">Sonntag</span> dort oder in
                     <span className="orig">eürer</span>
@@ -774,7 +774,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "800px",
             }}
           >
             <hr />
@@ -787,7 +787,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "855px",
             }}
           >
             <hr />
@@ -797,7 +797,7 @@ export default function page() {
             </p>
           </div>
 
-          <div
+          {/* <div
             className="stellenerläuterung"
             style={{
               top: "350px",
@@ -808,12 +808,12 @@ export default function page() {
             <p>
             Der Beding: gemäß Adelung veraltet für ‚Bedingung‘ (Bd. 2, „Beding“: )
             </p>
-          </div>
+          </div> */}
 
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "1212px",
             }}
           >
             <hr />
@@ -824,9 +824,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "350px",
+              top: "1212px",
             }}
           >
             <hr />
@@ -839,7 +839,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "1368px",
             }}
           >
             <hr />
@@ -852,7 +852,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "1458px",
             }}
           >
             <hr />
@@ -865,7 +865,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "1828px",
             }}
           >
             <hr />
@@ -876,9 +876,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "350px",
+              top: "1828px",
             }}
           >
             <hr />
@@ -891,7 +891,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "1899px",
             }}
           >
             <hr />
@@ -904,7 +904,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "2219px",
             }}
           >
             <hr />

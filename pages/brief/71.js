@@ -44,11 +44,11 @@ export default function page() {
                       </h3>
                       <p className="g.enc.tagsdecl.wd.vertical-right">
                         <span className="g.rend.script.latin">Herrn</span>{" "}
-                        <br className="lb" />
+                        <br className="lb" />{" "}
                         <span className="g.rend.script.latin">
                           Friedrich Engels
                         </span>
-                        . <br className="lb" />
+                        . <br className="lb" />{" "}
                         <span className="small">
                           <p>
                             <span className="g.rend.script.latin">
@@ -85,7 +85,7 @@ export default function page() {
                                 s<span className="ex">enio</span>r
                               </span>
                             </span>{" "}
-                            <br className="lb" />
+                            <br className="lb" />{" "}
                             <span className="g.rend.script.latin">
                               <span className="abbr">f
                                 <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
@@ -131,7 +131,7 @@ export default function page() {
                         <span className="g.rend.script.latin"><span className="makierung">Meÿberg</span></span>{" "}
                         <span className="orig">ſ</span>
                         <span className="corr">s</span>chreibt uns, daß die{" "}
-                        <br className="lb" />
+                        <br className="lb" />{" "}
                         114 <span className="orig">ﬅ</span>
                         <span className="corr">st</span>ük{" "}
                         <span className="abbr">
@@ -151,11 +151,12 @@ export default function page() {
                           H<span className="ex">er</span>r
                           <span className="ex">n</span>
                         </span>
+                        {" "}
                         <span className="g.rend.script.latin"><span className="makierung">Merten</span></span>{" "}
-                        <br className="lb" />
-                        nun eingehen
+                        <br className="lb" />{" "}
+                        nun eingehen{" "}
                         <span className="g.enc.tagsdecl.suspension.type1">
-                          {" "}würd</span>
+                         würd</span>
                         <span className="expan">
                           würd<span className="ex">en</span>
                         </span>
@@ -213,16 +214,16 @@ export default function page() {
                       <a id="mark.001.s">{/*anchor*/}</a>Deine Briefe haben wir
                       richtig erhalten, und <span className="orig">freüen</span>
                       <span className="corr">freuen</span> uns deines{" "}
-                      <br className="lb" />
+                      <br className="lb" />{" "}
                       Wohl<span className="orig">ſ</span>
                       <span className="corr">s</span>eins, und daß alles für die
                       Stadt <span className="placeName">Frankfurth</span>{" "}
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>o
-                      <span className="makierung">
+                      {" "}<span className="makierung">
                       <span className="orig">glüklich</span>
                       <span className="corr">glücklich</span>{" "}
-                      <br className="lb" />
+                      <br className="lb" />{" "}
                       <span className="orig">Vorübergegangen</span>
                       <span className="corr">vorübergegangen</span></span> i
                       <span className="orig">ﬅ</span>
@@ -232,7 +233,7 @@ export default function page() {
                       </span>
                       angenehm war uns deine Be<span className="orig">ſ</span>
                       <span className="corr">s</span>chreibung,{" "}
-                      <br className="lb" />
+                      <br className="lb" />{" "}
                       wiewohl <span className="overwritten">d</span>
                       <span className="add">w</span>ir die
                       <span className="orig">ſ</span>
@@ -241,7 +242,7 @@ export default function page() {
                       <span className="corr">s</span>päth erhielten, und durch
                       die <span className="orig">Hemung</span>
                       <span className="corr">Hemmung</span> der{" "}
-                      <br className="lb" />
+                      <br className="lb" />{" "}
                       Po<span className="orig">ﬅ</span>
                       <span className="corr">st</span>, dir nicht antworten{" "}
                       <span className="orig">konten</span>
@@ -261,7 +262,7 @@ export default function page() {
                       <span className="expan">
                         F<span className="ex">rank</span>further
                       </span>{" "}
-                      Zeitungen <br className="lb" />
+                      Zeitungen <br className="lb" />{" "}
                       die uns alles erzählen.
                       <span style={{ display: "inline-block" }} width="1.5cm">
                         &nbsp;
@@ -279,7 +280,7 @@ export default function page() {
                         Dien<span className="orig">ﬅ</span>
                         <span className="corr">st</span>ag
                       </span>{" "}
-                      <br className="lb" />
+                      <br className="lb" />{" "}
                       <span className="makierung">
                       Rußi<span className="orig">ſ</span>
                       <span className="corr">s</span>che{" "}
@@ -298,10 +299,10 @@ export default function page() {
                       <span className="orig">dis</span>
                       <span className="corr">dies</span> i
                       <span className="orig">ﬅ</span>
-                      <span className="corr">st</span> ein
+                      <span className="corr">st</span> ein{" "}
                       <span className="orig">Glük</span>
                       <span className="corr">Glück</span> für uns{" "}
-                      <br className="lb" />
+                      <br className="lb" />{" "}
                       da die{" "}
                       <span className="g.rend.script.latin">
                         Franzosen
@@ -311,12 +312,12 @@ export default function page() {
                       <span className="orig">ﬅ</span>
                       <span className="corr">st</span>arke{" "}
                       <span className="g.rend.script.latin"><span className="makierung">Requisitionen</span></span>{" "}
-                      und <br className="lb" />
+                      und <br className="lb" />{" "}
                       <span className="g.rend.script.latin">
                         <span className="makierung">Contributionen</span>
                       </span>{" "}
                       gemacht haben, wovon wir nun Gottlob durch jene{" "}
-                      <br className="lb" />
+                      <br className="lb" />{" "}
                       <span className="orig">Trouppen</span>
                       <span className="corr">Truppen</span> frei{" "}
                       <span className="orig">ſ</span>
@@ -330,14 +331,14 @@ export default function page() {
                         <span className="expan">
                           Königlich<span className="ex">en</span>
                         </span>{" "}
-                        <br className="lb" />
+                        <br className="lb" />{" "}
                         Regierung Je<span className="orig">ſ</span>
                         <span className="corr">s</span>u Chri
                         <span className="orig">ﬅ</span>
                         <span className="corr">st</span>i, der uns auch ferner{" "}
                         <span className="orig">ſ</span>
                         <span className="corr">s</span>chützen und befreÿen{" "}
-                        <br className="lb" />
+                        <br className="lb" />{" "}
                         wird.<a id="mark.002.e">{/*anchor*/}</a>
                       </span>
                       <span style={{ display: "inline-block" }} width="1cm">
@@ -375,7 +376,7 @@ export default function page() {
                         </span>
                       </span>{" "}
                       Hu<span className="orig">ſ</span>
-                      <span className="corr">s</span>aren <br className="lb" />
+                      <span className="corr">s</span>aren <br className="lb" />{" "}
                       </span>
                       <span className="orig">
                         be<span className="orig">ſ</span>
@@ -406,13 +407,13 @@ export default function page() {
                         <span className="makierung">General Rigeaud</span>
                       </span>{" "}
                       war 2 Tage <span className="orig">Vorher</span>
-                      <span className="corr">vorher</span> <br className="lb" />
+                      <span className="corr">vorher</span> <br className="lb" />{" "}
                       über den Rhein gegangen, und hat{" "}
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>ich hier beim{" "}
                       <span className="orig">durchzug</span>
                       <span className="corr">Durchzug</span> noch{" "}
-                      <br className="lb" />
+                      <br className="lb" />{" "}
                       ziemlich gut betragen.<a id="mark.001.e">
                         {/*anchor*/}
                       </a>{" "}
@@ -425,16 +426,16 @@ export default function page() {
                       <span className="corr">s</span>ich{" "}
                       <span className="orig">Vorgenom̅en</span>
                       <span className="corr">vorgenom̅en</span>{" "}
-                      <br className="lb" />
+                      <br className="lb" />{" "}
                       dir alles um<span className="orig">ﬅ</span>
                       <span className="corr">st</span>ändlich zu erzählen, daher{" "}
                       breche ich ab; und <span className="orig">ſ</span>
-                      <span className="corr">s</span>age <br className="lb" />
+                      <span className="corr">s</span>age <br className="lb" />{" "}
                       dir nur noch, daß wir durch die Güte Gottes alle{" "}
                       <span className="orig">Wohl</span>
                       <span className="corr">wohl</span>{" "}
                       <span className="orig">ſ</span>
-                      <span className="corr">s</span>ind, <br className="lb" />
+                      <span className="corr">s</span>ind, <br className="lb" />{" "}
                       auch die <span className="abbr"> L.</span>{" "}
                       <span className="expan">
                         L<span className="ex">iebe</span>
@@ -452,7 +453,7 @@ export default function page() {
                       <span className="orig">heüte</span>
                       <span className="corr">heute</span> i
                       <span className="orig">ﬅ</span>
-                      <span className="corr">st</span> der <br className="lb" />
+                      <span className="corr">st</span> der <br className="lb" />{" "}
                       Krampf etwas{" "}
                       <span className="orig">
                         <span className="orig">ſ</span>
@@ -480,18 +481,18 @@ export default function page() {
                           <span className="corr">s</span>ie
                         </span>
                         <span className="corr">Sie</span> läßt dich mit uns
-                        allen herzlich grüßen, <br className="lb" />
+                        allen herzlich grüßen, <br className="lb" />{" "}
                         und empfiehlt dich dem <span className="orig">ſ</span>
                         <span className="corr">s</span>chutze Gottes, der{" "}
                         <span className="orig">ſ</span>
                         <span className="corr">s</span>o viel{" "}
                         <span className="orig">gutes</span>
                         <span className="corr">Gutes</span> an uns{" "}
-                        <br className="lb" />
+                        <br className="lb" />{" "}
                         uns erzeigt hat. Hilf uns Ihm{" "}
                         <span className="orig">Danken</span>
                         <span className="corr">danken</span>, und bitten, daß er{" "}
-                        <br className="lb" />
+                        <br className="lb" />{" "}
                         ferner alles herrlich hinausführen{" "}
                         <span className="unclear">wolle</span>
                         <span className="unclear">wolte</span>.
@@ -501,7 +502,7 @@ export default function page() {
                       <div className="signed">
                         Dein <span className="orig">Treüer</span>
                         <span className="corr">treuer</span> Vater{" "}
-                        <br className="lb" />
+                        <br className="lb" />{" "}
                         <span className="g.rend.script.latin">
                           <span className="abbr">C.</span>
                           <span className="expan">
@@ -537,9 +538,9 @@ export default function page() {
         <div className={`stellenerläuterungen ${isStellen ? "activ" : null}`}>
 
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "350px",
+              top: "806px",
             }}
           >
             <hr />
@@ -552,7 +553,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "945px",
             }}
           >
             <hr />
@@ -563,9 +564,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "350px",
+              top: "945px",
             }}
           >
             <hr />
@@ -576,9 +577,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "350px",
+              top: "1017px",
             }}
           >
             <hr />
@@ -591,20 +592,21 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "1052px",
             }}
           >
+         
             <hr />
             <label>Requisition</label>
             <p>
             Bezeichnet im Kriegswesen das Beschaffen von Lebensmitteln oder für militärische Bedürfnisse erforderlichen Gegenständen von den Einwohnern des Feindeslandes durch die Besatzer.
             </p>
-          </div>
-
+          </div> 
+{/* 
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "1153px",
             }}
           >
             <hr />
@@ -612,12 +614,12 @@ export default function page() {
             <p>
             Von Besatzern eingetriebene Abgaben, Steuern.
             </p>
-          </div>
+          </div> */}
 
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "1156px",
             }}
           >
             <hr />
@@ -630,7 +632,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "1226px",
             }}
           >
             <hr />
@@ -643,7 +645,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "1529px",
             }}
           >
             <hr />
@@ -653,7 +655,7 @@ export default function page() {
             </p>
           </div>
 
-          <div
+          {/* <div
             className="stellenerläuterung"
             style={{
               top: "350px",
@@ -677,7 +679,7 @@ export default function page() {
             <p>
             Nicht ermittelt.
             </p>
-          </div>
+          </div> */}
           
         </div>
       </Brief_wrapper>

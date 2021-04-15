@@ -179,9 +179,9 @@ export default function page() {
                   </div>
                   <p>
                     <a id="mark.001.s">{/*anchor*/}</a>Zufolge deinen Lieben
-                    Briefen vom 12
+                    Briefen vom 12{" "}
                     <span className="makierung"><span className="abbr">
-                      {" "}pa<span className="orig">ſ</span>
+                      pa<span className="orig">ſ</span>
                       <span className="corr">s</span>
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>.</span>
@@ -338,7 +338,7 @@ export default function page() {
                       <span className="strike-through" style={{ textDecoration: "line-through" }}>k</span>
                       eine Minute wiedergeben <span className="orig">kan</span>
                       <span className="corr">kann</span>,{" "}
-                      <a id="annot.005.s">{/*anchor*/}</a><span className="makierung">jener Dichter</span>
+                      <a id="annot.005.s">{/*anchor*/}</a><span className="makierung">jener Dichter{" "}</span>
                       <a id="annot.005.e">{/*anchor*/}</a>
                       hat recht, <span className="orig">wen</span>
                       <span className="corr">wenn</span> <br className="lb" />
@@ -371,7 +371,7 @@ export default function page() {
                     </span>{" "}
                     <span className="g.rend.script.latin"><span className="makierung">Mama</span></span> hat es{" "}
                     <span className="orig">ſ</span>
-                    <span className="corr">s</span>eitdem zwar
+                    <span className="corr">s</span>eitdem zwar{" "}
                     <span className="orig">
                       Lang<span className="orig">ſ</span>
                       <span className="corr">s</span>am
@@ -559,11 +559,11 @@ export default function page() {
                     <a id="mark.004.s">{/*anchor*/}</a>
                     <a id="mark.005.s">{/*anchor*/}</a>Du ha
                     <span className="orig">ﬅ</span>
-                    <span className="corr">st</span> ganz recht
+                    <span className="corr">st</span> ganz recht{" "}
                     <span className="abbr"> l.</span>
                     <span className="expan">
                       l<span className="ex">ieber</span>
-                    </span>
+                    </span>{" "}
                     <span className="persName">Friedrich</span>, daß wir große
                     Vorzüge, vor andern Ge
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
@@ -631,7 +631,7 @@ export default function page() {
                       {" "}D:<sup>z</sup></span>
                     <span className="expan">
                       D<span className="ex">utzend</span>
-                    </span>
+                    </span>{" "}
                     <span className="makierung"><span className="g.rend.script.latin">
                       <span className="g.enc.tagsdecl.suspension.type2">Lang.){" "}
                       </span>
@@ -656,7 +656,7 @@ export default function page() {
                     <br className="lb" />
                     <span className="makierung"><span className="orig">Kriegs unruhen</span>
                     <span className="corr">Kriegsunruhen</span></span>
-                    wegen den
+                    {" "}wegen den
                     <span className="makierung">
                     <span className="placeName">
                       <span className="abbr"> Leipz.</span>
@@ -709,9 +709,9 @@ export default function page() {
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
                       (dHr.</span>
-                    <span className="expan">
+                    {/* <span className="expan">
                       d<span className="ex">en</span> Hr
-                    </span>
+                    </span> */}
                     <span className="expan">
                       d<span className="ex">en</span> H
                       <span className="ex">e</span>r
@@ -902,6 +902,7 @@ export default function page() {
                       <span className="corr">R</span>
                       <span className="ex">eichstaler</span>
                     </span>
+                    {" "}
                     ko<span className="orig">ﬅ</span>
                     <span className="corr">st</span>et,{" "}
                     <a id="annot.020.s">{/*anchor*/}</a>
@@ -983,7 +984,7 @@ export default function page() {
                     <span className="corr">s</span>eine große{" "}
                     <br className="lb" />
                     Breite und hohe <span className="orig">lage</span>
-                    <span className="corr">Lage</span> brav Staub macht, und den
+                    <span className="corr">Lage</span> brav Staub macht, und den{" "}
                     <span className="makierung">Bleichen</span> <span className="orig">ſ</span>
                     <span className="corr">s</span>chadet.
                   </p>
@@ -997,7 +998,7 @@ export default function page() {
                     <a id="annot.024.s">{/*anchor*/}</a>
                     <span className="persName"><span className="makierung">Patohm</span></span>
                     <a id="annot.024.e">{/*anchor*/}</a> deine <span className="makierung">Geschwister</span>
-                    grüßen dich mit mir herzlich und <br className="lb" />
+                    {" "}grüßen dich mit mir herzlich und <br className="lb" />
                     empfehlen dich dem gnädigen Schutze Gottes;{" "}
                     <br className="lb" />
                     <span style={{ display: "inline-block" }} width="8words">
@@ -1061,9 +1062,9 @@ export default function page() {
                       <span className="g.enc.tagsdecl.suspension.type1">
                         dHr </span>
                       {" "}
-                      <span className="expan">
+                      {/* <span className="expan">
                         d<span className="ex">en</span> Hr
-                      </span>
+                      </span> */}
                       {" "}
                       <span className="expan">
                         d<span className="ex">en</span> H
@@ -1112,9 +1113,9 @@ export default function page() {
                       <span className="g.enc.tagsdecl.suspension.type1">
                         dHr. </span>
                       {" "}
-                      <span className="expan">
+                      {/* <span className="expan">
                         d<span className="ex">en</span> Hr
-                      </span>
+                      </span> */}
                       <span className="expan">
                         d<span className="ex">en</span> H
                         <span className="ex">errn</span>
@@ -1204,7 +1205,7 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ich dein{" "}
                     <span className="orig">flügel</span>
-                    <span className="corr">Flügel</span>,
+                    <span className="corr">Flügel</span>,{" "}
                     <a id="mark.008.s">{/*anchor*/}</a>und wie{" "}
                     <span className="g.rend.script.latin">avancirt</span>{" "}
                     <span className="persName">Fridrich</span>{" "}
@@ -1472,7 +1473,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "2375px;",
+              top: "2372px;",
             }}
           >
             <hr />
@@ -1609,7 +1610,7 @@ export default function page() {
             <hr />
             <label>Wittenstein</label>
             <p>
-            Vermutlich Johannes Friedrich Wittenstein (1772–1847), Besitzer einer Türkischrot-Färberei an der Haspeler Brücke in Barmen. Bruder von Johanna Wilhelmine Overbeck, geb. Wittenstein (1774–1844), verehelicht mit Johann Heinrich Overbeck (1767–1833), Kaufmann in Unterbarmen. 
+            Vermutlich Johannes Friedrich Wittenstein (1772–1847), Besitzer einer Türkischrot-Färberei an der Haspeler Brücke in Barmen. Bruder von Johanna Wilhelmine Overbeck, geb. Wittenstein (1774–1844) {/*, verehelicht mit Johann Heinrich Overbeck (1767–1833), Kaufmann in Unterbarmen.  */}
 
           </p>
           </div>
@@ -1617,7 +1618,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "3344px",
+              top: "3324px",
             }}
           >
             <hr />
@@ -1630,7 +1631,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "3424px",
+              top: "3411px",
             }}
           >
             <hr />
@@ -1644,7 +1645,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "1800px",
+              top: "3432px",
             }}
           >
             <hr />
@@ -1657,7 +1658,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "1800px",
+              top: "3522px",
             }}
           >
             <hr />
@@ -1670,7 +1671,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "1800px",
+              top: "3627px",
             }}
           >
             <hr />
@@ -1683,7 +1684,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "1800px",
+              top: "3695px",
             }}
           >
             <hr />
@@ -1694,9 +1695,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "350px",
+              top: "3662px",
             }}
           >
             <hr />
@@ -1707,9 +1708,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "350px",
+              top: "3762px",
             }}
           >
             <hr />
@@ -1722,7 +1723,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "3792px",
             }}
           >
             <hr />
@@ -1733,9 +1734,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "350px",
+              top: "3806px",
             }}
           >
             <hr />
@@ -1748,7 +1749,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "3916px",
             }}
           >
             <hr />
