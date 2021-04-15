@@ -162,10 +162,10 @@ export default function page() {
                     <span style={{ display: "inline-block" }} width="2em">
                       &nbsp;
                     </span>
-                    Das waren ein paar frohe und wichtige Wochen, die
+                    <span className="makierung">Das waren ein paar frohe und wichtige Wochen, die
                     <br className="lb" />
                     Du bei uns verlebte<span className="orig">ﬅ</span>
-                    <span className="corr">st</span>! Sie haben über un
+                    <span className="corr">st</span></span>! Sie haben über un
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>er beider
                     <span className="orig">ſ</span>
@@ -498,7 +498,7 @@ export default function page() {
                       <a id="mark.003.s">{/*anchor*/}</a>Ich glaube fa
                       <span className="orig">ﬅ</span>
                       <span className="corr">st</span>,
-                      <span className="g.rend.script.latin">Griesheim </span>{" "}
+                      <span className="g.rend.script.latin"><span className="makierung">Griesheim</span> </span>{" "}
                       hat in
                       <span className="placeName">Hagen</span> etwas ge
                       <br className="g.enc.tagsdecl.hyphenation.divis" />
@@ -582,6 +582,7 @@ export default function page() {
                       <span className="corr">s</span>chreiben.
                       <br className="lb" />
                       Wenn ich doch nur jemand wüßte woran Du oder
+                      <span className="makierung">
                       <span className="persName">
                         <span className="abbr"> M.</span>
                         <span className="expan">
@@ -589,6 +590,7 @@ export default function page() {
                         </span>
                         <br className="lb" />
                         Sparenberg
+                      </span>
                       </span>
                       die Briefe{" "}
                       <span className="g.rend.script.latin">
@@ -601,7 +603,7 @@ export default function page() {
                       Freund
                       <br className="lb" />
                       <span className="g.rend.script.latin">
-                        Keetmann{" "}
+                        <span className="makierung">Keetmann</span>{" "}
                       </span>{" "}
                       werden, der doch die Sache <span className="orig">ſ</span>
                       <span className="corr">s</span>chon ziemlich errathen
@@ -724,19 +726,20 @@ export default function page() {
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>er i
                       <span className="orig">ﬅ</span>
-                      <span className="corr">st</span> auf dem Comptoir, die
+                      <span className="corr">st</span> auf dem <span className="makierung">Comptoir</span>, die
                       Dinte <span className="orig">ſ</span>
                       <span className="corr">s</span>o dick wie
                       <br className="lb" />
                       Breÿ, und der Ti<span className="orig">ſ</span>
                       <span className="corr">s</span>ch wohl für
                       <span className="g.rend.script.latin">
-                        Advocaten
+                        <span className="makierung">Advocaten</span>
                       </span>{" "}
                       aber nicht für
                       <br className="lb" />
+                      <span className="makierung">
                       Comptori<span className="orig">ﬅ</span>
-                      <span className="corr">st</span>en, die die Pulte gewohnt{" "}
+                      <span className="corr">st</span>en</span>, die die Pulte gewohnt{" "}
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>ind, eingerichtet.
                     </p>
@@ -770,6 +773,114 @@ export default function page() {
               </section>
             </div>
           </div>
+        </div>
+        <div className={`stellenerläuterungen ${isStellen ? "activ" : null}`}>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Das waren […] verlebtest!</label>
+            <p>
+            Elise van Haar verbrachte den Sommer 1816 in Barmen. In dieser Zeit entstand die Zuneigung zwischen ihr und Friedrich Engels sen.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>„Bethe und arbeite.“</label>
+            <p>
+            Das benediktinische Motto „ora et labora“ (bete und arbeite) könnte über die Katechismen des Theologen Johannes Brenz (1499–1570) Eingang in den Protestantismus gefunden haben. (Vgl. Oliver J. Kaftan: „Ora et labora – (k)ein benediktinisches Motto. Eine Spurensuche“. In: Erbe und Auftrag 90, 2014, 415–421.)
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Minchen Sparenberg</label>
+            <p>
+            Wilhelmine (Minchen) Elisabeth Sparenberg (1788–1841), langjährige Haushälterin bei Johann Caspar Engels (1753–1821), Friedrich Engels sen. (1796–1860) und Louise Snethlage, geb. Engels (1799–1845).
+            </p>
+          </div>
+
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Griesheim</label>
+            <p>
+            Karl von Griesheim (1779–1859), Preußischer Offizier in Hamm. Ehemann von Friederike von Griesheim, geb. van Haar (1789–1880).
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Keetman</label>
+            <p>
+            Johann Keetman (1793–1865), Kommerzienrat, ab 1823 Teilhaber des Bankhauses Johann Wichelhaus P. S. in Elberfeld. Freund von Friedrich Engels sen.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Advocaten</label>
+            <p>
+            Anwälte, Juristen.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Comptoir</label>
+            <p>
+            Kontor, Büro, Geschäftsräume der Kaufleute.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Comptoiristen</label>
+            <p>
+            Kaufleute.
+            </p>
+          </div>
+
         </div>
       </Brief_wrapper>
     </Layout>

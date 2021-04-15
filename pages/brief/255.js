@@ -86,7 +86,7 @@ export default function page() {
                   <br className="g.enc.tagsdecl.hyphenation.divis" />
                   ruhigung, denn ich <span className="orig">ſ</span><span className="corr">s</span>ahe daraus,
                   <br className="lb" />{" "}
-                  daß es Dir und dem kleinen{" "}
+                  daß es Dir und <span className="makierung">dem kleinen{" "}
                   <span className="orig">
                     Her
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
@@ -97,6 +97,7 @@ export default function page() {
                     Her
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     zenstippel
+                  </span>
                   </span>
                   {" "}gut geht. Du glaub<span className="orig">ﬅ</span><span className="corr">st</span>
                   <br className="lb" />{" "}
@@ -163,7 +164,7 @@ export default function page() {
                   </span>
                 </p>
                 <p className="enc.tagsdecl.indent-medium">
-                  Aber was macht denn mein klein
+                  Aber was macht denn <span className="makierung">mein klein
                   <br className="g.enc.tagsdecl.hyphenation.eq" />
                   <span style={{ display: "inline-block" }} width="-4em">
                     &nbsp;
@@ -176,7 +177,7 @@ export default function page() {
                     <span style={{ display: "inline-block" }}>&nbsp;</span>
                     tuksken
                   </span>
-                  <span className="corr">Herzenstuksken</span>? Du kenn<span className="orig">ﬅ</span><span className="corr">st</span> es ja
+                  <span className="corr">Herzenstuksken</span></span>? Du kenn<span className="orig">ﬅ</span><span className="corr">st</span> es ja
                   <br className="lb" />{" "}
                   wohl. Ich weis bald nicht, wo ich vor
                   <br className="lb" />{" "}
@@ -212,7 +213,7 @@ export default function page() {
                 {/* Insert Page 2 */}
                 <a id="annot.002.s">{/*anchor*/}</a>
                 <p>
-                  <span className="g.rend.script.latin">Casper</span> hat{" "}
+                  <span className="g.rend.script.latin"><span className="makierung">Casper</span></span> hat{" "}
                   <span className="date">ge<span className="orig">ﬅ</span><span className="corr">st</span>ern</span> ge<span className="orig">ſ</span><span className="corr">s</span>chrieben, daß
                   <br className="lb" />{" "}
                   das Bad fort<span className="unclear">^</span>
@@ -239,7 +240,7 @@ export default function page() {
                   Die junge{" "}
                   <span className="persName">
                     Frau{" "}
-                    <span className="g.rend.script.latin">Böddinghaus</span>
+                    <span className="g.rend.script.latin"><span className="makierung">Böddinghaus</span></span>
                   </span>
                   {" "}i<span className="orig">ﬅ</span><span className="corr">st</span>
                   <br className="lb" />{" "}
@@ -248,13 +249,14 @@ export default function page() {
                   <br className="lb" />{" "}
                   bei ihrer Ankunft wieder einen
                   <br className="lb" />{" "}
-                  Blut<span className="orig">ﬅ</span><span className="corr">st</span>urz gehabt, <span className="abbr"> u.</span>
+                  <span className="makierung">
+                  Blut<span className="orig">ﬅ</span><span className="corr">st</span>urz </span>gehabt, <span className="abbr"> u.</span>
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}
                   war <span className="orig">ſ</span><span className="corr">s</span>o gefährlich
                   <br className="lb" />{" "}
-                  daß <span className="g.rend.script.latin">Casper</span> eine Stafette an{" "}
+                  daß <span className="g.rend.script.latin">Casper</span> eine <span className="makierung">Stafette</span> an{" "}
                   <span className="g.rend.script.latin">
                     <span className="abbr"> W
                       <span className="g.enc.tagsdecl.cc.abbr-period-sup">
@@ -264,11 +266,11 @@ export default function page() {
                       W<span className="ex">ilhel</span>m
                     </span>
                     <br className="lb" />{" "}
-                    Wittenstein
+                    <span className="makierung">Wittenstein</span>
                   </span>
-                  {" "}ab<span className="orig">ſ</span><span className="corr">s</span>chickte, worauf ihr
+                  {" "}ab<span className="orig">ſ</span><span className="corr">s</span>chickte, worauf <span className="makierung">ihr
                   <br className="lb" />{" "}
-                  Mann gleich von{" "}
+                  Mann</span> gleich von{" "}
                   <span className="g.rend.script.latin">Elberfeld</span>{" "}
                   abreiste.
                   <br className="lb" />{" "}
@@ -328,7 +330,7 @@ export default function page() {
                   <span className="date">
                     er<span className="orig">ﬅ</span><span className="corr">st</span>en
                     <br className="lb" />{" "}
-                    <span className="g.rend.script.latin">August</span>
+                    <span className="g.rend.script.latin"><span className="makierung">August</span></span>
                   </span>
                   {" "}haben wir <span className="g.rend.script.latin">Bilanz</span>, und dann
                   <br className="lb" />{" "}
@@ -466,11 +468,11 @@ export default function page() {
                   <span className="g.rend.script.latin">August</span>{" "}
                   <br className="lb" />{" "}
                   nicht lange alleine <span className="orig">laßen</span>
-                  <span className="corr">lassen</span>. Es i<span className="orig">ﬅ</span><span className="corr">st</span>
+                  <span className="corr">lassen</span>. <span className="makierung">Es i<span className="orig">ﬅ</span><span className="corr">st</span>
                   <br className="lb" />{" "}
                   ihm manches von meinen Sachen
                   <br className="lb" />{" "}
-                  fremd.
+                  fremd.</span>
                   <br className="lb" />{" "}
                   <a id="annot.006.e">{/*anchor*/}</a>
                 </p>
@@ -500,19 +502,19 @@ export default function page() {
                   Wollte<span className="orig">ﬅ</span><span className="corr">st</span> Du nicht
                   <br className="lb" />{" "}
                   <a id="annot.007.s">{/*anchor*/}</a>
-                  <span className="persName">Rike Menkhoff</span>{" "}
+                  <span className="makierung"><span className="persName">Rike Menkhoff</span>{" "}
                   <span className="strike-through" style={{ textDecoration: "line-through" }}>
                     bitten
                   </span>{" "}
                   nicht{" "}
-                  <span className="persName">Schmits</span>
+                  <span className="persName">Schmits</span></span>
                   <a id="annot.007.e">{/*anchor*/}</a> <br className="lb" />{" "}
                   bitten, daß{" "}
                   <span className="orig">
                     <span className="overwritten">S</span>
                     <span className="add"><span className="orig">ſ</span><span className="corr">s</span></span>ie
                   </span>
-                  <span className="corr">sie</span> ihrem Manne <span className="orig">ſ</span><span className="corr">s</span>chrei
+                  <span className="corr">sie</span> <span className="makierung"> ihrem Manne</span> <span className="orig">ſ</span><span className="corr">s</span>chrei
                   <br className="g.enc.tagsdecl.hyphenation.divis" />
                   ben möchte, daß ich <span className="orig">ſ</span><span className="corr">s</span>chwerlich am
                   <br className="lb" />{" "}
@@ -600,6 +602,168 @@ export default function page() {
           </div>
         </div>
       </div>
+
+      <div className={`stellenerläuterungen ${isStellen ? "activ" : null}`}>
+          
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>dem kleinen Herzenstippel</label>
+            <p>
+            Kosenamen für den Sohn Friedrich jun.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>mein kleinstes Herzenstuksken</label>
+            <p>
+            Kosenamen für das noch nicht geb. zweite Kind, mit dem Elise Engels schwanger geht: Hermann, geb. am 9.10.1820.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Caspar</label>
+            <p>
+            Der (erstgeborene) Bruder Caspar Engels III (1792–1863), der seine Frau Julie, geb. Overbeck (1795–1846), auf einen Kuraufenthalt nach Bad Ems begleitete.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Frau Böddinghaus</label>
+            <p>
+            Amalia Böddinghaus, geb. Middendorf (1793–1823), verheiratet mit Johann Peter Böddinghaus, Fabrikant in Elberfeld. Sie starb ein Jahr später.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Blutsturz</label>
+            <p>
+            Starker blutiger Auswurf.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Stafette</label>
+            <p>
+            Die direkte Übermittlung einer schriftlichen Mitteilung mittels sich nach definierten Streckenabschnitten ablösenden reitenden Boten, ähnlich einem Staffellauf.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>W. Wittenstein</label>
+            <p>
+            Wilhelm Wittenstein.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>ihr Mann</label>
+            <p>
+            Johann Peter Böddinghaus (1788–1837), Fabrikant in Elberfeld, Ehemann von Amalia Middendorff.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>August</label>
+            <p>
+            August Engels (1797–1874), jüngerer Bruder von Friedrich Engels sen. und zusammen mit diesem und Johann Caspar III Teilhaber der Firma Caspar Engels Söhne.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Es ist ihm manches von meinen Sachen fremd</label>
+            <p>
+            Friedrich Engels sen., der in der Firma Caspar Engels Söhne als der „unternehmerischste“ (Knieriem, S. 30) der drei Brüder Johann Caspar III, Friedrich sen. und August gilt, deutet hier Unterschiede im Verständnis davon an, wie ein Unternehmen zu führen sei.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Rike Menkhoff nicht Schmits</label>
+            <p>
+            Friederike Maria Menkhoff, geb. Schmits (1800–1882), 1821 Ehefrau Heirat mit Friedrich Wilhelm Menkhoff (1789–?), Freundin von Elise Engels aus Hamm.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>ihrem Manne</label>
+            <p>
+            Friedrich Wilhelm Menkhoff (1789–?), Offizier.
+            </p>
+          </div>
+
+
+
+        </div>
     </Brief_wrapper>
     </Layout>
   );
