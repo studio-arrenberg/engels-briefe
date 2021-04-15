@@ -774,12 +774,15 @@ img {
   padding-bottom: 20px;
   z-index: 451;
   justify-content: center;
-  animation-name: slide-in;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-delay: 3s;
-  animation-timing-function: cubic-bezier(0, 1);
+  bottom: -100px;
+  transition: bottom 0.5s ease-in-out ;
+
   /* background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 120%); */
+}
+
+.player.active{
+  bottom: 0px;
+
 }
 
 @keyframes slide-in {
