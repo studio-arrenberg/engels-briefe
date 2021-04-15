@@ -429,6 +429,7 @@ main {
 
 .item_preview img {
   width: 300px;
+  max-height: 420px;
   position: absolute;
   left: 0px;
   top: 0px;

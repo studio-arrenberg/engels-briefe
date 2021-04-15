@@ -432,7 +432,7 @@ export default function Brief_wrapper(props) {
             <a className={`${isView == true ? "active" : null}`} onClick={() => setView(true)}>
               <div >
                 <label>Vergleichsansicht Ansicht</label>
-                <p>Betrachten Sie hier den originalen Brief  und vergleichen sie ihn mit der transkribierten Version.</p>
+                <p>Betrachten Sie hier den originalen Brief und können ihn mit der transkribierten Version vergleichen.</p>
               </div>
               <img src={`../icons/vergleichsansicht.svg`} />
             </a>
@@ -440,8 +440,8 @@ export default function Brief_wrapper(props) {
             <a className={`${isView == false ? "active" : null}`} onClick={() => setView(false)}>
             <img src={`../icons/normalisierte-ansicht.svg`} />
               <div>
-                <label>Normalisierte Ansicht</label>
-                <p>Betrachten Sie hier den originalen Brief  und vergleichen sie ihn mit der transkribierten Version.</p>
+                <label>Normalisierte Leseansicht</label>
+                <p>Sehen Sie sich hier den Brief in einer zum lesen optimierten Ansicht inklusive Stellenerläuterungen an.</p>
               </div>
             </a>
           </div>
