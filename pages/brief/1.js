@@ -747,7 +747,7 @@ export default function page() {
                       sag<span className="ex">en</span>
                     </span>
                     , <span className="orig">Daß</span>
-                    <span className="corr">daß</span> ich mich für der
+                    <span className="corr">daß</span> ich mich für der{" "}
                     <span className="makierung">Versuchung{" "} </span> fürchtete,
                     <br className="lb" /> weil ich n
                     <span className="overwritten">i</span>
@@ -892,7 +892,7 @@ export default function page() {
                     <span className="corr">die</span> Verwunderung darüber daß
                     ich als ein <span className="orig">Junges</span>
                     <span className="corr">junges</span>
-                    <br className="lb" /> Madchen nicht tanzte war von allen<span className="unclear">^</span>
+                    <br className="lb" /> Madchen nicht tanzte war von allen{" "}<span className="unclear">^</span>
                     <span className="g.enc.tagsdecl.suspension.type1"> <span className="orig">seit</span>
                       <span className="corr">Seit</span>
                     </span>

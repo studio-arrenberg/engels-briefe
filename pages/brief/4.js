@@ -89,7 +89,7 @@ export default function page() {
                       ent<span className="orig">ſ</span><span className="corr">s</span>prechen:<a id="teaser.part.002.e">{/*anchor*/}</a>
                     </span>{" "}
                     Ihr natürlicher{" "}
-                    <span className="g.rend.script.latin">Character</span> i<span className="orig">ﬅ</span><span className="corr">st</span>
+                    <span className="g.rend.script.latin">Character</span> i<span className="orig">ﬅ</span><span className="corr">st</span>{" "}
                     aufrichtig, gefällig, zuvorkom̅end,
                     <br className="lb" /> und gar nichts fordernd, <span className="makierung">meine Frau</span>,
                     und ich, wir haben in der
@@ -107,7 +107,7 @@ export default function page() {
                     <br className="lb" /> <span className="orig">ſ</span><span className="corr">s</span>chwer wird es ihr, <span className="orig">ſ</span><span className="corr">s</span>ich nach andern,
                     <span className="orig">ſ</span><span className="corr">s</span>oweit es die Aufrichtigkeit zuläßt,
                     <br className="lb" /> zu{" "}
-                    <span className="makierung"><span className="g.rend.script.latin">accommodi</span>ren;</span>
+                    <span className="makierung"><span className="g.rend.script.latin">accommodi</span>ren;</span>{" "}
                     auf ihren Sinn eigenwillig zu be<span className="orig">ﬅ</span><span className="corr">st</span>ehen, <span className="orig">ſ</span><span className="corr">s</span>cheint ihr
                     <br className="lb" /> gar nicht eigen, <span className="orig">ſ</span><span className="corr">s</span>ondern
                     Nachgiebigkeit, und leichte Lenk<span className="orig">ſ</span><span className="corr">s</span>amkeit ein
@@ -116,7 +116,7 @@ export default function page() {
                     <span className="orig">ſ</span><span className="corr">s</span>eÿn, dabeÿ i<span className="orig">ﬅ</span><span className="corr">st</span> <span className="orig">ſ</span><span className="corr">s</span>ie aber von aller Schmeicheleÿ
                     <br className="lb" /> und Heucheleÿ, <span className="orig">ſ</span><span className="corr">s</span>o wie von allem{" "}
                     <span className="orig">Stoltz</span>
-                    <span className="corr">Stolz</span> weit entfernt; 
+                    <span className="corr">Stolz</span> weit entfernt;{" "}
                     <span className="makierung">
                     <span className="orig">ſ</span><span className="corr">s</span>ie hat
                     eine
@@ -131,13 +131,13 @@ export default function page() {
                     macht dann auch, daß <span className="orig">ſ</span><span className="corr">s</span>ie wenig
                     <br className="lb" /> von andern fordert, und weit mehr
                     daran denkt, wie <span className="orig">ſ</span><span className="corr">s</span>ie <span className="orig">ſ</span><span className="corr">s</span>ich andern
-                    <br className="lb" /> gefällig machen, und ihnen zur Freude
+                    <br className="lb" /> gefällig machen, und ihnen zur Freude{" "}
                     <span className="orig">ſ</span><span className="corr">s</span>eÿn möge; — <a id="mark.001.s">{/*anchor*/}</a>
                     <span className="religion active">
                       Was ihre Ge<span className="orig">ſ</span><span className="corr">s</span>innungen
                       <br className="lb" />{" "}
                       <span className="orig">betrift</span>
-                      <span className="corr">betrifft</span>, <span className="orig">ſ</span><span className="corr">s</span>o glaube ich, es
+                      <span className="corr">betrifft</span>, <span className="orig">ſ</span><span className="corr">s</span>o glaube ich, es{" "}
                       <span className="orig">ſ</span><span className="corr">s</span>agen zu dürfen, daß ihr Chri<span className="orig">ﬅ</span><span className="corr">st</span>enthum aufrichtig,
                       <br className="lb" /> und nicht nur oberflächig, <span className="orig">ſ</span><span className="corr">s</span>ondern
                       fe<span className="orig">ﬅ</span><span className="corr">st</span> und tief gegründet i<span className="orig">ﬅ</span><span className="corr">st</span>; Es i<span className="orig">ﬅ</span><span className="corr">st</span> ihr
@@ -171,7 +171,7 @@ export default function page() {
                     <span className="religion active">
                       Fort<span className="orig">ſ</span><span className="corr">s</span>chritte gemacht; daß ihr das Wohlgefallen Gottes, und
                       ihre innre
-                      <br className="lb" /> Ruhe mehr werth i<span className="orig">ﬅ</span><span className="corr">st</span>, als alle Lu<span className="orig">ﬅ</span><span className="corr">st</span>
+                      <br className="lb" /> Ruhe mehr werth i<span className="orig">ﬅ</span><span className="corr">st</span>, als alle Lu<span className="orig">ﬅ</span><span className="corr">st</span>{" "}
                       die<span className="orig">ſ</span><span className="corr">s</span>er Welt, und alle{" "}
                       <span className="g.enc.tagsdecl.suspension.type1">
                         Lu<span className="orig">ﬅ</span><span className="corr">st</span>barkeit </span>
@@ -190,7 +190,7 @@ export default function page() {
                       <span className="orig">ſ</span><span className="corr">s</span>ind, nicht mehr Theil, weil <span className="orig">ſ</span><span className="corr">s</span>ie die<span className="orig">ſ</span><span className="corr">s</span>elbe einem
                       <br className="lb" /> Chri<span className="orig">ﬅ</span><span className="corr">st</span>en unan<span className="orig">ﬅ</span><span className="corr">st</span>ändig hielt — ;
                       <a id="mark.001.e">{/*anchor*/}</a>
-                    </span>
+                    </span>{" "}
                     Was zuletzt ihre{" "}
                     <span className="g.rend.script.latin">Familie</span>{" "}
                     betrift, <span className="orig">ſ</span><span className="corr">s</span>o
@@ -199,7 +199,7 @@ export default function page() {
                     <span className="corr">Person</span>, deren <span className="orig">ſ</span><span className="corr">s</span>ie Ur<span className="orig">ſ</span><span className="corr">s</span>ache
                     hätte, <span className="orig">ſ</span><span className="corr">s</span>ich zu <span className="orig">ſ</span><span className="corr">s</span>chämen.
                     <br className="lb" /> <span className="orig">ſ</span><span className="corr">s</span>ie hat, <span className="orig">ſ</span><span className="corr">s</span>oviel ich weiß, 3 Brüder und
-                    2 Schwe<span className="orig">ﬅ</span><span className="corr">st</span>ern; der <span className="makierung">ältere Bruder</span> <br className="lb" /> i<span className="orig">ﬅ</span><span className="corr">st</span>
+                    2 Schwe<span className="orig">ﬅ</span><span className="corr">st</span>ern; der <span className="makierung">ältere Bruder</span> <br className="lb" /> i<span className="orig">ﬅ</span><span className="corr">st</span>{" "}
                     <span className="makierung">
                     OberSaltz <span className="orig">=</span>
                     <span className="corr">-</span>{" "}
@@ -332,7 +332,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "749px",
             }}
           >
             <hr />
@@ -343,9 +343,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "350px",
+              top: "830px",
             }}
           >
             <hr />
@@ -354,9 +354,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "350px",
+              top: "891px;",
             }}
           >
             <hr />
@@ -367,7 +367,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "1035px",
             }}
           >
             <hr />
@@ -378,7 +378,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "1147px",
             }}
           >
             <hr />
@@ -389,7 +389,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "1918px",
             }}
           >
             <hr />
@@ -398,9 +398,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "350px",
+              top: "1932px",
             }}
           >
             <hr />
@@ -411,7 +411,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "1972px",
             }}
           >
             <hr />
@@ -420,9 +420,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "350px",
+              top: "1983px",
             }}
           >
             <hr />
