@@ -161,10 +161,10 @@ export default function page() {
                 <div
                   className="page"
                   style={{
-                    marginTop: "20px",
+                    marginTop: "40px",
                     paddingTop: "120px",
                     paddingLeft: "70px",
-                    paddingBottom: "150px",
+                    paddingBottom: "10px",
                   }}
                 >
                   <p>

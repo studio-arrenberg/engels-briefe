@@ -38,7 +38,7 @@ export default function page() {
                   style={{
                     paddingTop: "100px",
                     paddingLeft: "80px",
-                    paddingBottom: "290px",
+                    paddingBottom: "300px",
                     marginTop: "20px",
                   }}
                 >
@@ -144,7 +144,7 @@ export default function page() {
                   style={{
                     paddingTop: "40px",
                     paddingLeft: "80px",
-                    paddingBottom: "180px",
+                    paddingBottom: "230px",
                   }}
                 >
                   {/* Insert Page 2 */}
@@ -265,7 +265,7 @@ export default function page() {
                   style={{
                     paddingTop: "65px",
                     paddingLeft: "70px",
-                    paddingBottom: "275px",
+                    paddingBottom: "290px",
                     marginTop: "20px",
                   }}
                 >
@@ -370,7 +370,7 @@ export default function page() {
                   style={{
                     paddingTop: "40px",
                     paddingLeft: "70px",
-                    paddingBottom: "55px",
+                    paddingBottom: "130px",
                   }}
                 >
                   {/* Insert Page 4 */}

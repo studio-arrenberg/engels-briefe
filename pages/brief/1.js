@@ -656,7 +656,7 @@ export default function page() {
                   style={{
                     paddingTop: "50px",
                     paddingLeft: "70px",
-                    paddingBottom: "440px",
+                    paddingBottom: "470px",
                   }}
                 >
                   <p>

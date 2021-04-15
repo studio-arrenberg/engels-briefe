@@ -89,7 +89,7 @@ export default function page() {
                   style={{
                     paddingTop: "95px",
                     paddingLeft: "80px",
-                    paddingBottom: "240px",
+                    paddingBottom: "290px",
                   }}
                 >
                   <span type="liebe-ehe" from="#mark.002.s" to="#mark.002.e" />
@@ -262,7 +262,7 @@ export default function page() {
                   style={{
                     paddingTop: "55px",
                     paddingLeft: "80px",
-                    paddingBottom: "220px",
+                    paddingBottom: "270px",
                   }}
                 >
                   <span className="liebe-ehe religion ">
@@ -429,7 +429,7 @@ export default function page() {
                   style={{
                     paddingTop: "40px",
                     paddingLeft: "70px",
-                    paddingBottom: "450px",
+                    paddingBottom: "490px",
                   }}
                 >
                   <p>

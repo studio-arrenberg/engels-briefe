@@ -536,7 +536,7 @@ export default function page() {
                   style={{
                     paddingTop: "20px",
                     paddingLeft: "100px",
-                    paddingBottom: "100px",
+                    paddingBottom: "500px",
                   }}
                 >
                   {/* Insert Page 2 */}

@@ -75,7 +75,7 @@ export default function page() {
                   style={{
                     paddingTop: "150px",
                     paddingLeft: "100px",
-                    paddingBottom: "230px",
+                    paddingBottom: "240px",
                   }}
                 >
                   <p>
@@ -202,7 +202,7 @@ export default function page() {
                   style={{
                     paddingTop: "100px",
                     paddingLeft: "70px",
-                    paddingBottom: "225px",
+                    paddingBottom: "240px",
                   }}
                 >
                   <p>
@@ -316,7 +316,7 @@ export default function page() {
                   style={{
                     paddingTop: "100px",
                     paddingLeft: "70px",
-                    paddingBottom: "225px",
+                    paddingBottom: "35px",
                   }}
                 >  
                   <p>
