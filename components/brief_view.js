@@ -2,11 +2,15 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import constants from "./constants";
 import { FiArrowRight } from "react-icons/fi";
+import { themen, familie, orte } from "../public/data.json";
 
 export default function Brief({ data }) {
   // digitalisate rotate random
   const min = -2;
   const max = 2;
+
+  console.log(data);
+
 
   return data.map((data, id) => {
     return (
@@ -41,14 +45,35 @@ export default function Brief({ data }) {
 
               <div className="item_description">
                 <h4>{data.datum}</h4>
+
                 <h2>
-                  <span className="sender_name">{data.sender.name}</span>
+                    {/* {sen[0].map((item, index) => (
+                      <span className="sender_name">
+                      {item.name}
+                      </span>
+                    ))} */}
+
+                      <span className="sender_name">
+                      {/* {familie[data.sender.id].name} */}
+                        {familie.filter((item) => {
+                            return item.id === data.sender.id;
+                          })
+                          .map((data) => data.name
+                        )}
+                      </span>
+                  
                   <br></br>
-                  <span className="empfänger_name">
-                  <img className="small-icon" src="../icons/forward.svg" />
-                  {data.empfänger.name}
-                  </span>
+
+                      <span className="empfänger_name">
+                      <img className="small-icon" src="../icons/forward.svg" />
+                        {familie.filter((item) => {
+                            return item.id === data.empfänger.id;
+                          })
+                          .map((data) => data.name
+                        )}
+                      </span>
                 </h2>
+
                 {/* themen */}
                 {data.themen.name.map((item, index) => (
                   <p>{item}</p>

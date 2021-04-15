@@ -22,6 +22,7 @@ export default function Brief_wrapper(props) {
 
   // prep data
   const data = props.data;
+  // console.log(data);
   const pics = data.map((data) => data.digitalisate.page);
   const th = data.map((data) => data.themen.id);
   const them = [];
