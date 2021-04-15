@@ -345,7 +345,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "750px",
             }}
           >
             <hr />
@@ -354,9 +354,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "350px",
+              top: "830px",
             }}
           >
             <hr />
