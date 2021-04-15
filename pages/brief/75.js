@@ -214,7 +214,7 @@ export default function page() {
                   style={{
                     paddingTop: "15px",
                     paddingLeft: "80px",
-                    paddingBottom: "60px",
+                    paddingBottom: "120px",
                   }}
                 >
                   {/* Insert Page 1 */}
@@ -503,7 +503,7 @@ export default function page() {
                   style={{
                     paddingTop: "35px",
                     paddingLeft: "80px",
-                    paddingBottom: "175px",
+                    paddingBottom: "210px",
                   }}
                 >
                   {/* Insert Page 2 */}
