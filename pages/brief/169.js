@@ -101,6 +101,7 @@ export default function page() {
                   <p>
                     <span className="liebe">
                       <a id="mark.001.s"></a>
+                      <span className="makierung">
                       Mit welchem frohen, <span className="orig">ſ</span><span className="corr">s</span>eligen Gefühle ich jetzt an
                       <br className="lb" />{" "}
                       dich meine gute innig<span className="orig">ﬅ</span><span className="corr">st</span> geliebte
@@ -108,7 +109,7 @@ export default function page() {
                       <br className="lb" />{" "}
                       ich mit Worten nicht ausdrücken; dein mit mir
                       <br className="lb" />{" "}
-                      <span className="orig">ſ</span><span className="corr">s</span>o ganz <span className="orig">ﬅ</span><span className="corr">st</span>immendes Herz wird es kennen.
+                      <span className="orig">ſ</span><span className="corr">s</span>o ganz <span className="orig">ﬅ</span><span className="corr">st</span>immendes Herz wird es kennen.</span>
                     </span>
 
                     <span className="liebe">{" "}
@@ -131,7 +132,7 @@ export default function page() {
                       </span>{" "}
                       Eltern fanden es für nöthig auch jetzt <span className="orig">ſ</span><span className="corr">s</span>chon
                       <br className="lb" />{" "}
-                      mit meinem Oncle davon zu <span className="orig">ſ</span><span className="corr">s</span>prechen, und ich <span className="orig">ﬅ</span><span className="corr">st</span>immte
+                      mit <span className="makierung">meinem Oncle</span> davon zu <span className="orig">ſ</span><span className="corr">s</span>prechen, und ich <span className="orig">ﬅ</span><span className="corr">st</span>immte
                       <br className="lb" />{" "}
                       ihnen ganz bei. Du wir<span className="orig">ﬅ</span><span className="corr">st</span> die<span className="orig">ſ</span><span className="corr">s</span>en indeß <span className="orig">ſ</span><span className="corr">s</span>o auch
                       {" "}<span className="strikethrough">haben</span>
@@ -149,11 +150,11 @@ export default function page() {
                       daher für gut, einen <span className="orig">ſ</span><span className="corr">s</span>chicklichen Zeitpunkt bei ihm
                       <br className="lb" />{" "}
                       abzuwarten. Durch einen{" "}
-                      <span className="placeName">
+                      <span className="makierung"><span className="placeName">
                         <span className="g.rend.script.latin">Bremer</span>
                       </span>
                       {" "}
-                      Freund, der <span className="orig">ſ</span><span className="corr">s</span>eit
+                      Freund</span>, der <span className="orig">ſ</span><span className="corr">s</span>eit
                       <br className="lb" />{" "}
                       ein paar Tagen bei ihm logirt, i<span className="orig">ﬅ</span><span className="corr">st</span> er nun mehr be
                       <br className="g.enc.tagsdecl.hyphenation.divis" />
@@ -170,9 +171,9 @@ export default function page() {
                       wir<span className="orig">ﬅ</span><span className="corr">st</span>. Ich hatte nämlich vor, liebe{" "}
                       <span className="persName">Eli<span className="orig">ſ</span><span className="corr">s</span>e</span>, meinen
                       <br className="lb" />{" "}
-                      er<span className="orig">ﬅ</span><span className="corr">st</span>en Brief an dich in einen Brief an deine guten
+                      er<span className="orig">ﬅ</span><span className="corr">st</span>en Brief an dich in einen Brief an <span className="makierung">deine guten
                       <br className="lb" />{" "}
-                      Eltern einzu<span className="orig">ſ</span><span className="corr">s</span>chlagen, und die<span className="orig">ſ</span><span className="corr">s</span>e in dem<span className="orig">ſ</span><span className="corr">s</span>elben mit der
+                      Eltern</span> einzu<span className="orig">ſ</span><span className="corr">s</span>chlagen, und die<span className="orig">ſ</span><span className="corr">s</span>e in dem<span className="orig">ſ</span><span className="corr">s</span>elben mit der
                       <br className="lb" />{" "}
                       Bewilligung meiner Eltern um die Erlaubniß
                       <br className="lb" />{" "}
@@ -231,7 +232,7 @@ export default function page() {
                       <br className="lb" />{" "}
                       erführen?<a id="mark.003.e"></a>
                     </span>
-                    {" "}Mache du die<span className="orig">ſ</span><span className="corr">s</span>es wie es dir und Friederike
+                    {" "}Mache du die<span className="orig">ſ</span><span className="corr">s</span>es wie es dir und <span className="makierung">Friederike</span>
                     <br className="lb" />{" "}
                     am beßten <span className="orig">ſ</span><span className="corr">s</span>cheint.
                   </p>
@@ -380,12 +381,16 @@ export default function page() {
                       </span>{" "}
                       bei{" "}
                       <span className="persName">
+                        <span className="makierung">
                         <span className="g.rend.script.latin">Julchen</span>{" "}
+                        </span>
                       </span>
                       oder
                       <br className="lb" />{" "}
                       <span className="persName">
+                        <span className="makierung">
                         <span className="g.rend.script.latin">Overbecks</span>
+                        </span>
                       </span>{" "}
                       logiren mögte<span className="orig">ﬅ</span><span className="corr">st</span>, kurz <span className="orig">ſ</span><span className="corr">s</span>ie <span className="orig">ſ</span><span className="corr">s</span>pricht von
                       <br className="lb" />{" "}
@@ -420,7 +425,9 @@ export default function page() {
                     <br className="lb" />{" "}
                     den{" "}
                     <span className="persName">
+                        <span className="makierung">
                       <span className="g.rend.script.latin">August</span>
+                      </span>
                     </span>{" "}
                     <span className="orig">ſ</span><span className="corr">s</span>ehr, <span className="abbr"> u.</span>
                     <span className="expan">
@@ -442,7 +449,9 @@ export default function page() {
                     <span className="corr">Gebete</span> zu danken. – Als mein
                     Bruder{" "}
                     <span className="persName">
+                      <span className="makierung">
                       <span className="g.rend.script.latin">Casper</span>
+                      </span>
                     </span>
                     <br className="lb" />{" "}
                     <span className="strike-through" style={{ textDecoration: "line-through" }}>
@@ -477,7 +486,9 @@ export default function page() {
                     </span>{" "}
                     und{" "}
                     <span className="persName">
+                        <span className="makierung">
                       <span className="g.rend.script.latin">Wittensteins</span>
+                      </span>
                     </span>
                     , wo das Haus
                     <br className="lb" />{" "}
@@ -589,7 +600,7 @@ export default function page() {
                         </span>{" "}
                         hoffte von Tag zu Tag,
                         <br className="lb" />{" "}
-                        daß <span className="orig">ſ</span><span className="corr">s</span>ich eine gün<span className="orig">ﬅ</span><span className="corr">st</span>ige Gelegenheit, mit Pathohm zu
+                        daß <span className="orig">ſ</span><span className="corr">s</span>ich eine gün<span className="orig">ﬅ</span><span className="corr">st</span>ige Gelegenheit, mit <span className="makierung">Pathohm</span> zu
                         <span className="orig">ſ</span><span className="corr">s</span>prechen,
                         <br className="lb" />{" "}
                         darbieten würde. Zulezt konnte ich’s
@@ -609,7 +620,7 @@ export default function page() {
                         <span className="orig">Ueberwindung</span>
                         <span className="corr">Überwindung</span>,
                         <br className="lb" />{" "}
-                        ihn an <span className="persName">Friederike</span>{" "}
+                        ihn an <span className="persName"><span className="makierung">Friederike</span></span>{" "}
                         <span className="g.rend.script.latin">
                           adressiren
                         </span>{" "}
@@ -798,9 +809,9 @@ export default function page() {
                       <span className="expan">
                         u<span className="ex">nd</span>
                       </span>{" "}
-                      die<span className="orig">ſ</span><span className="corr">s</span>er <span className="orig">ſ</span><span className="corr">s</span>ie an den Handlungs
+                      die<span className="orig">ſ</span><span className="corr">s</span>er <span className="orig">ſ</span><span className="corr">s</span>ie an den <span className="makierung">Handlungs
                       <br className="g.enc.tagsdecl.hyphenation.divis" />
-                      briefen an mich beifügt.<a id="mark.010.e"></a>
+                      briefen</span> an mich beifügt.<a id="mark.010.e"></a>
                     </span>{" "}
                     Nur daß du mir recht fleißig
                     <br className="lb" />{" "}
@@ -810,7 +821,9 @@ export default function page() {
                     <br className="lb" />{" "}
                     Abrei<span className="orig">ſ</span><span className="corr">s</span>e be<span className="orig">ſ</span><span className="corr">s</span>uche ich den guten
                     {" "}<span className="persName">
+                      <span className="makierung">
                       <span className="g.rend.script.latin">Ludwig</span>
+                      </span>
                     </span>{" "}
                     in
                     <span className="placeName">
@@ -938,12 +951,14 @@ export default function page() {
                     mit mir plaudern zu können. Schlage deinen Brief
                     <br className="lb" />{" "}
                     an{" "}
+                    <span className="makierung">
                     <span className="persName">
                       <span className="abbr"> M.</span>
                       <span className="expan">
                         M<span className="ex">inchen</span>
                       </span>{" "}
                       Sparrenberg{" "}
+                    </span>
                     </span>
                     ein.
                   </p>
@@ -960,7 +975,7 @@ export default function page() {
                   </p>
                   <blockquote className="closer">
                     <p className="enc.tagsdecl.indent-medium">
-                      Meine Ge<span className="orig">ſ</span><span className="corr">s</span>chwi<span className="orig">ﬅ</span><span className="corr">st</span>er, meine{" "}
+                      <span className="makierung">Meine Ge<span className="orig">ſ</span><span className="corr">s</span>chwi<span className="orig">ﬅ</span><span className="corr">st</span>er</span>, meine{" "}
                       <span className="abbr"> l.</span>
                       <span className="expan">
                         l<span className="ex">ieben</span>
@@ -984,7 +999,7 @@ export default function page() {
                       <span className="corr">lassen</span> dich herzlich grüßen.
                       Schreibe mir ja bald, und
                       <br className="lb" />{" "}
-                      grüße <span className="persName">Hannchen</span>{" "}
+                      grüße <span className="persName"><span className="makierung">Hannchen</span></span>{" "}
                       <span className="abbr"> u.</span>
                       <span className="expan">
                         u<span className="ex">nd</span>
@@ -1029,6 +1044,229 @@ export default function page() {
               </section>
             </div>
           </div>
+        </div>
+        <div className={`stellenerläuterungen ${isStellen ? "activ" : null}`}>
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Mit welchem frohen, […] wird es kennen.</label>
+            <p>
+            Im Vergleich mit den Brautbriefen seiner Eltern weisen die von Friedrich sen. mit seiner Geliebten und späteren Gattin Elise van Haar unzweideutig einen gefühlsbetonteren und intimeren Charakter auf – Beleg für den historischen Wandel der Liebes- und Ehekonzeption (siehe hierzu auch: Thorsten Dette: „Ach Gott, welch ein seliges Gefühl ist doch die Liebe“: Brautbriefe der Familie Engels im Kontext zeitgenössischer Standesschranken und Hochzeitsbräuche. In: Geschichte im Wuppertal (GIW) 24, 2015, 6–22).
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>meinem Oncle</label>
+            <p>
+            Benjamin Engels (1751–1820), genannt ‚Patohm’ (Patenonkel), Teilhaber der Firma Caspar Engels Söhne in Barmen. Onkel von Friedrich Engels sen.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Bremer Freund</label>
+            <p>
+            Nicht ermittelt.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>deine guten Eltern</label>
+            <p>
+            Gerhard Bernhard van Haar (1760–1837) und Franziska Christina van Haar, geb. Snethlage (1758–1846). Großeltern von Friedrich Engels jun.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Friederike</label>
+            <p>
+            Louise Friederike Wilhelmine von Griesheim, geb. van Haar (1789–1880), Schwester von Elise Engels, geb. van Haar (1797–1873) und Tante von Friedrich Engels jun.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Julchen</label>
+            <p>
+            Wilhelmine Julie (Julchen) Engels, geb. Overbeck (1795–1846), 1815 Heirat mit Johann Caspar Engels III (1792–1863). Tante von Friedrich Engels jun.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Overbecks</label>
+            <p>
+            Johann Heinrich Overbeck (1767–1833), Kaufmann in Unterbarmen, und Johanna Wilhelmine Overbeck, geb. Wittenstein (1774–1844).
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>August</label>
+            <p>
+            August Engels (1797–1874), Fabrikbesitzer in Barmen. Onkel von Friedrich Engels jun.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Caspar</label>
+            <p>
+            Johann Caspar Engels III (1792–1863), Teilhaber der Firma Caspar Engels Söhne in Barmen. (Erstgeborener) Bruder von Friedrich Engels sen.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Wittensteins</label>
+            <p>
+            Vermutlich die Familien von Caspar Wilhelm Wittenstein (1770–1847) und Johannes Friedrich Wittenstein (1772–1847), Besitzer einer Türkischrot-Färberei an der Haspeler Brücke (Barmen). Es handelt sich um die Brüder von Johanna Wilhelmine Overbeck, geb. Wittenstein (1774–1844).
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Patohm</label>
+            <p>
+            Benjamin Engels (1751–1820), genannt ‚Patohm‘ (Patenonkel), Teilhaber der Firma Caspar Engels Söhne in Barmen. Onkel des Vaters von Friedrich Engels.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Handlungsbriefen</label>
+            <p>
+            Geschäftsbriefe.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Ludwig</label>
+            <p>
+            Ludwig Leonhard Moritz van Haar (1790–1873 ), preußischer Oberförster in Moers und Xanten. Bruder von Elise Engels, geb. van Haar (1797–1873), und Onkel von Friedrich Engels.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Minchen Sparenberg</label>
+            <p>
+            Wilhelmine (Minchen) Elisabeth Sparenberg (1788–1841), langjährige Haushälterin bei Johann Caspar Engels (1753–1821), Friedrich Engels sen. (1796–1860) und Louise Snethlage, geb. Engels (1799–1845).
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Meine Geschwister</label>
+            <p>
+            Johann Caspar Engels (1792–1863), August Engels (1797–1874) und Louise Engels (1799–1845).
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Hannchen</label>
+            <p>
+            Susanne Christine Johanne (Hannchen) van Haar (1802–1864), Schwester von Elise Engels, geb. van Haar (1797–1873), und Tante von Friedrich Engels jun.
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Friederike</label>
+            <p>
+            Friederike (Riekchen) Maria Menkhoff, geb. Schmits (1800–1882), Freundin von Elise Engels in Hamm.
+            </p>
+          </div>
+
         </div>
       </Brief_wrapper>
     </Layout>

@@ -1071,13 +1071,14 @@ export default function page() {
                       </span>
                       {" "}
                       <span className="abbr">P.</span>
-                      <span className="g.rend.script.latin">
+                      <span className="makierung"><span className="g.rend.script.latin">
                         <span className="persName">
                           Pa<span className="orig">ſ</span>
                           <span className="corr">s</span>
                           <span className="orig">ſ</span>
                           <span className="corr">s</span>avent
                         </span>
+                      </span>
                       </span>
                       <a id="annot.026.e">{/*anchor*/}</a> be
                       <span className="orig">ſ</span>
@@ -1092,7 +1093,7 @@ export default function page() {
                       </span>
                       {" "}
                       <span className="g.rend.script.latin">
-                        <span className="persName">de Neufville</span>
+                        <span className="persName"><span className="makierung">de Neufville</span></span>
                       </span>
                       <a id="annot.027.e">{/*anchor*/}</a> macht
                       <span className="abbr">p.</span>
@@ -1160,15 +1161,17 @@ export default function page() {
                         <span className="corr">.</span>
                         <sup>r</sup> </span>
                       {" "}
-                      <span className="expan">
+                      <span className="makierung"><span className="expan">
                         P<span className="ex">asto</span>r
                       </span>
                       {" "}
                       <span className="g.rend.script.latin">
                         <span className="persName">Nourneÿ</span>
                       </span>
+                      </span>
                       <a id="annot.029.e">{/*anchor*/}</a> <br className="lb" />
                       <a id="annot.030.s">{/*anchor*/}</a>
+                      <span className="makierung">
                       <span className="abbr">
                         M<span className="orig">ﬅ</span>
                         <span className="corr">st</span>r </span>
@@ -1180,11 +1183,12 @@ export default function page() {
                       <span className="g.rend.script.latin">
                         <span className="persName">Schinnenburg</span>
                       </span>
+                      </span>
                       <a id="annot.030.e">{/*anchor*/}</a> und
                       <span className="g.rend.script.latin">
                         <a id="annot.031.s">{/*anchor*/}</a>
                         {" "}
-                        <span className="persName">Hölsberg</span>
+                        <span className="persName"><span className="makierung">Hölsberg</span></span>
                         {" "}
                         <a id="annot.031.e">{/*anchor*/}</a>
                       </span>
@@ -1259,7 +1263,7 @@ export default function page() {
                     {" "}
                     <a id="annot.032.s">{/*anchor*/}</a>
                     <span className="g.rend.script.latin">
-                      <span className="persName">Ekard</span>
+                      <span className="persName"><span className="makierung">Ekard</span></span>
                     </span>
                     <a id="annot.032.e">{/*anchor*/}</a> meine be
                     <span className="orig">ﬅ</span>
@@ -1686,6 +1690,71 @@ export default function page() {
             <label>Passavent</label>
             <p>
             Jakob Ludwig Passavant (1751–1827), reformierter Pfarrer in Frankfurt am Main.
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>de Neufville</label>
+            <p>
+            Mathias Wilhelm de Neufville (1762–1842), Arzt in Frankfurt am Main.
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Pastor Nourneÿ</label>
+            <p>
+            Anton Hermann Nourney (1762–1834), ab 1802 Pfarrer in Elberfeld.
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Meister Schinnenburg</label>
+            <p>
+            Johann Wilhelm Schinnenburg (1774–1820), Lehrer an der Brucher Schule in Barmen.
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Hölsberg</label>
+            <p>
+            Johann Abraham Hülsberg (1741–1821), Färbermeister in der Firma Wuppermann in (Barmen-)Wichlinghausen.
+          </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "350px",
+            }}
+          >
+            <hr />
+            <label>Ekard</label>
+            <p>
+            Johann Friedrich Eckhardt (1762–1841), Inhaber einer 1809 erstmalig erwähnten Wollhandlung in Frankfurt am Main. Lehrherr von Friedrich Engels sen.
           </p>
           </div>
 
