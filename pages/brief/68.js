@@ -1277,7 +1277,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "834px",
             }}
           >
             <hr />
@@ -1287,10 +1287,10 @@ export default function page() {
             </p>
           </div>
 
-          <div
+          {/* <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "880px",
             }}
           >
             <hr />
@@ -1298,12 +1298,12 @@ export default function page() {
             <p>
             Gemeint ist ‚Kaschmir‘. Gewebe aus der Unterwolle der Kaschmirziege (Himalaya), auch ‚Shawl‘ genannt.
             </p>
-          </div>
+          </div> */}
 
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "350px",
+              top: "860px",
             }}
           >
             <hr />
@@ -1314,9 +1314,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "350px",
+              top: "1000px",
             }}
           >
             <hr />
@@ -1329,7 +1329,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "890px",
             }}
           >
             <hr />
@@ -1342,7 +1342,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "1124px",
             }}
           >
             <hr />
@@ -1353,9 +1353,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung "
             style={{
-              top: "350px",
+              top: "1269px",
             }}
           >
             <hr />
@@ -1366,9 +1366,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "350px",
+              top: "1358px",
             }}
           >
             <hr />
@@ -1380,7 +1380,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "1528px",
             }}
           >
             <hr />
@@ -1392,7 +1392,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "2106px",
             }}
           >
             <hr />
@@ -1405,46 +1405,31 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "2316px",
             }}
           >
             <hr />
-            <label>Gebauer</label>
+            <label>Gebauer und Querfurth</label>
             <p>
-            Firma in Schmiedeberg. Kundin der Firma Caspar Engels Söhne.
+            Kunden der Firma Caspar Engels Söhne
           </p>
           </div>
 
-          <div
+         
+          {/* <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "2370px",
             }}
           >
             <hr />
-            <label>Querfurth</label>
-            <p>
-            Kunde der Firma Caspar Engels Söhne.
-          </p>
-          </div>
+            <label>6 mille = 6000.</label>
+          </div> */}
 
-          <div
+          {/* <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
-            }}
-          >
-            <hr />
-            <label>6/m</label>
-            <p>
-            6 mille = 6000.
-          </p>
-          </div>
-
-          <div
-            className="stellenerläuterung"
-            style={{
-              top: "350px",
+              top: "2430px",
             }}
           >
             <hr />
@@ -1452,25 +1437,25 @@ export default function page() {
             <p>
             ‚Kanten‘ ist das niederdeutsche Wort für gewirkte Spitzen (z.B. aus Garn).
           </p>
-          </div>
+          </div> */}
 
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "350px",
+              top: "2348px",
             }}
           >
             <hr />
             <label>Langetten</label>
             <p>
-            Fachterminus der Spitzenherstellung, benannt nach dem praktizierten Schlingstich in Form einer eingerollten Zunge (frz. languette: Zünglein) (vgl. Anne Wanner‘s Textiles in History: http://www.annatextiles.ch/vo_sti/voca3/voc3.htm).
+            Fachterminus der Spitzenherstellung{/* , benannt nach dem praktizierten Schlingstich in Form einer eingerollten Zunge (frz. languette: Zünglein) (vgl. Anne Wanner‘s Textiles in History: http://www.annatextiles.ch/vo_sti/voca3/voc3.htm). */}
           </p>
           </div>
 
-          <div
+          {/* <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "1800px",
             }}
           >
             <hr />
@@ -1478,12 +1463,12 @@ export default function page() {
             <p>
             Mit besonderer Technik eingewebte Muster in Stoffen.
           </p>
-          </div>
+          </div> */}
 
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "2375px;",
             }}
           >
             <hr />
@@ -1495,9 +1480,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "350px",
+              top: "2408px",
             }}
           >
             <hr />
@@ -1507,10 +1492,10 @@ export default function page() {
           </p>
           </div>
 
-          <div
+          {/* <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "1800px",
             }}
           >
             <hr />
@@ -1523,7 +1508,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "1800px",
             }}
           >
             <hr />
@@ -1536,7 +1521,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "1800px",
             }}
           >
             <hr />
@@ -1544,12 +1529,12 @@ export default function page() {
             <p>
             Johann Caspar Engels (1792–1863), Teilhaber der Firma Caspar Engels Söhne in Barmen. Onkel von Friedrich Engels jun.
           </p>
-          </div>
+          </div> */}
 
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "2609px",
             }}
           >
             <hr />
@@ -1562,7 +1547,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "2722px",
             }}
           >
             <hr />
@@ -1573,9 +1558,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "350px",
+              top: "2752px",
             }}
           >
             <hr />
@@ -1588,7 +1573,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "2846px",
             }}
           >
             <hr />
@@ -1601,7 +1586,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "3274px",
             }}
           >
             <hr />
@@ -1614,7 +1599,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "3344px",
             }}
           >
             <hr />
@@ -1626,9 +1611,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "350px",
+              top: "3344px",
             }}
           >
             <hr />
@@ -1639,9 +1624,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "350px",
+              top: "3424px",
             }}
           >
             <hr />
@@ -1655,7 +1640,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "1800px",
             }}
           >
             <hr />
@@ -1668,7 +1653,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "1800px",
             }}
           >
             <hr />
@@ -1681,7 +1666,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "1800px",
             }}
           >
             <hr />
@@ -1694,7 +1679,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "1800px",
             }}
           >
             <hr />

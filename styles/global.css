@@ -734,7 +734,7 @@ img {
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
-  opacity: 0.6;
+  opacity: 0.4;
   transition: all ease-in-out 0.2s;
 }
 
@@ -1055,8 +1055,8 @@ table {
   color: #fff;
   position: absolute;
   top: 100px;
-  left: -450px;
-  width: 400px;
+  left: -500px;
+  width: 450px;
   text-align: right;
   transition: 1s ease;
 }
@@ -1066,16 +1066,40 @@ table {
   width: 100%;
 }
 
+
 .stellenerläuterungen hr {
   width: 40px;
   position: absolute;
   right: -50px;
   border: 1px solid #fff;
+  margin-top: 10px;
+}
+
+.stellenerläuterungen label {
+  font-size: 1rem;
+  line-height: 1.3rem;
+  margin-top: 0px;
+  display: block;
 }
 
 .stellenerläuterungen p {
-  margin-top: 5px;
+  margin-top: 2px;
   font-size: 0.8rem;
+  line-height: 1rem;
+  display: block;
+  opacity: 0.7;
+
+}
+
+.push-right{
+  left: unset;
+  right: -1350px;
+  text-align: left;
+}
+
+.stellenerläuterungen .push-right hr{
+  left: -50px;
+  right: auto;
 }
 
 .themen {
