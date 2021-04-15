@@ -78,7 +78,7 @@ export default function Brief_wrapper(props) {
   // Brief Pages
   const x_fast = useTransform(x, (latestX) => latestX * 1.08); // 15" 1.2 // prev 1.08
   const x_slow = useTransform(x, (latestX) => latestX * 0.61); // 15" 0.58 // prev 0.61
-  const x_normal = useTransform(x, [0, -300, -2500], [-270, -600, -2420]); // test
+  const x_normal = useTransform(x, [0, -300, -2500], [0, -600, -2420]); // test
 
   // Handlebar
   const handlebar_width = 550;
@@ -448,14 +448,13 @@ export default function Brief_wrapper(props) {
 
 
           {/* orte */}
-          <motion.div
+          <motion.div className="orte"
               // className="detail"
               style={{
                 x: x_normal,
               }}
             >
 
-          <div className="orte">
             <div className="sender-ort">
               <img
                 src={`../../pictures/orte/${orte
@@ -510,7 +509,6 @@ export default function Brief_wrapper(props) {
                 </span>
               </h2>
             </div>
-          </div>
           </motion.div>
           <IdleTimer />
         </motion.div>
