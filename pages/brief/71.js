@@ -530,6 +530,96 @@ export default function page() {
                       </p>
                     </div>
                   </div>
+                  </div>
+                  <div
+                  className="page"
+                  style={{
+                    paddingTop: "20px",
+                    paddingLeft: "100px",
+                    paddingBottom: "100px",
+                  }}
+                >
+                  {/* Insert Page 2 */}
+                  <div className="writing-session" id="index.xml-body.1_div.2">
+                  <div>
+  
+  <div className="g.rend.type.gothic" id="index.xml-body.1_div.2">
+    <h2 className="g.rend.type.gothic"><span className="headingNumber">2. </span></h2>
+    <div className="pagebreak" id="index.xml-pb-d29e302">
+      
+    </div>
+    <p>Vereinigte⸗Armee von Schlesien.</p>
+    <p>Avantgarde des kaiserl. russischen</p>
+    <p className="g.enc.tagsdecl.indent-medium">Armee⸗Korps.</p>
+    <p className="g.enc.tagsdecl.indent-very-large">
+      <span className="spacing">Elberfeld</span> den
+      <a id="annot.001.s">{/*anchor*/}</a>11. Okt.<a id="annot.001.e">{/*anchor*/}</a>
+    </p>
+    <p className="g.enc.tagsdecl.indent-very-large">
+      <span className="spacing">Tagsbefehl</span>.
+    </p>
+    <p className="g.enc.tagsdecl.indent-medium">
+      Seit meinem Einzug in diese Stadt ist nun so⸗ <br className="lb" />wohl der
+      geringe Theil des Großherzogthums Berg, <br className="lb" />welcher noch
+      nicht besetzt war, als auch die Haupt⸗ <br className="lb" />und
+      Residenzstadt Düsseldorf durch die unter meinen
+      <br className="lb" />Befehlen stehenden Truppen okkupirt.
+    </p>
+    <p className="g.enc.tagsdecl.indent-medium">
+      Ueberall fand ich Proben der guten Gesinnungen, <br className="lb" />welche
+      die Bewohner des Großherzogthums beseelen, <br className="lb" />Es wird für
+      mich die angenehmste Pflicht seyn, da⸗ <br className="lb" />von eine
+      günstige Rechenschaft abzustatten.
+    </p>
+    <p className="g.enc.tagsdecl.indent-medium">
+      Indessen finde ich nöthig bis auf weitere Einrich⸗ <br className="lb" />tung
+      nachfolgende Verordnungen zu treffen.
+    </p>
+    <p className="g.enc.tagsdecl.indent-medium">
+      Art. 1. Der Obrist und Ritter von Chomiekoff <br className="lb" />ist als
+      Kommandant von Elberfeld und Barmen er⸗ <br className="lb" />nannt. Keine
+      Forderung welche nicht mit dem Visa <br className="lb" />des Herrn
+      Kommandanten versehen ist, darf angenom⸗ <br className="lb" />men und
+      ausgeführt werden.
+    </p>
+    <p className="g.enc.tagsdecl.indent-medium">
+      2. Der Herr Karl Brügelmann ist provisorisch <br className="lb" />als
+      General⸗Kommissair des Arrondissements Elberfeld
+      <br className="lb" />ernannt.
+    </p>
+    <p className="g.enc.tagsdecl.indent-medium">
+      3. Die konstituirten Landesbehörden fahren bis <br className="lb" />auf
+      weitern Befehl fort, ihre Amtsverrichtungen auf <br className="lb" />die
+      bisherige Weise auszuüben, Sie stehen jedoch ein⸗ <br className="lb" />zig
+      unter dem ernannten General⸗Kommissair, und un⸗ <br className="lb" />ter
+      ihrer eigenen persönlichen Verantwortlichkeit müssen
+      <br className="lb" />sie von diesem Augenblicke an, alle Verbindungen und
+      <br className="lb" />Verhältnisse mit französischen oder andern außer dem
+      <br className="lb" />Arrondissement befindlichen Großherzoglichen Behörden
+      <br className="lb" />aufgeben. Diesemnach dürfen weder Gelder an der⸗
+      <br className="lb" />gleichen Behörden eingesendet, noch auch Befehle oder
+      <br className="lb" />Aufträge von denselben angenommen oder befolgt
+      <br className="lb" />werden.
+    </p>
+    <p className="g.enc.tagsdecl.indent-medium">
+      4. Schließlich werden alle Einwohner der hiesigen
+      <br className="lb" />Stadt, welcher ich für die gute Aufnahme meiner
+      <br className="lb" />Truppen, den herzlichsten Dank sage, samt allen Be⸗
+      <br className="lb" />wohnern des Arrondissements Elberfeld aufgefordert,
+      <br className="lb" />mit demselben guten Geiste, wie bisher, für die Er⸗
+      <br className="lb" />haltung der Ruhe und Ordnung, so wie für die un⸗
+      <br className="lb" />gestörte Fortdauer der bisherigen und von dem Gene⸗
+      <br className="lb" />ral⸗Commissair nicht ausdrücklich aufgehobenen Ein⸗
+      <br className="lb" />richtungen zu wachen.
+    </p>
+    <p className="g.enc.tagsdecl.indent-very-large">
+      Der russisch⸗kaiserliche General⸗Major
+    </p>
+    <p className="g.enc.tagsdecl.indent-very-large">(Unterz.) Yuſefowitſch.</p>
+  </div>
+</div>
+
+                  </div>
                 </div>
               </section>
             </div>
@@ -652,6 +742,22 @@ export default function page() {
             <label>künftig klar schreiben</label>
             <p>
             aus Angst vor Militärzensur hatte Johann Caspar Engels seinen Sohn bei „politischen Nachrichten“ aus Frankfurt zur „Vorsicht“ gemahnt (vgl. Brief Nr. 66 vom 5.4.1813).
+            </p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "2000px",
+            }}
+          >
+            <hr />
+            <label>Die Quelle des Zeitungsartikels ist nicht überliefert.</label>
+            <p>
+            Das Datum des „Tagsbefehls“ lautet richtig 11. November 1813.
+                        Dieser Tag ist in Elberfeld der Beginn der russischen Kommandantschaft.
+                        (Vgl. Johann Friedrich Knapp: Geschichte, Statistik und Topographie
+                        der Städte Elberfeld und Barmen im Wupperthale. Iserlohn und Barmen 1835, S. 77.)
             </p>
           </div>
 

@@ -67,7 +67,7 @@
             "sender": {"name":"Johann Caspar Engels","ort":"1", "id":"3"},
             "empfänger" : {"name": "Friedrich Engels sen.", "ort": "6", "id":"9"},
             "text" : "Deine Briefe haben wir richtig erhalten, und freuen uns deines Wohlseins, und daß alles für die Stadt Frankfurth so glücklich vorübergegangen ist; angenehm war uns deine Beschreibung, wiewohl wir dieselbe späth erhielten, und durch die Hemmung der Post, dir nicht antworten konnten.",
-            "digitalisate": {"cover": "FE_71.2.png", "page": ["FE_71.1.png"]},
+            "digitalisate": {"cover": "FE_71.2.png", "page": ["FE_71.1.png", "FE_71.3.png"]},
             "audio" :"071.mp3"
         },
         {
