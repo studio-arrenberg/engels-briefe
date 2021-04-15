@@ -36,7 +36,7 @@ export default function page() {
                 <section
                   className="kuvert"
                   id="index.xml-body.1_div.1"
-                  style={{ paddingTop: "300px", paddingBottom: "350px" }}
+                  style={{ paddingTop: "300px", paddingBottom: "370px" }}
                 >
                   {/* Insert Kuvert */}
                   <div className="teidiv1" id="index.xml-body.1_div.1_div.1">
@@ -215,7 +215,7 @@ export default function page() {
                     marginTop: "50px",
                     paddingTop: "75px",
                     paddingLeft: "110px",
-                    paddingBottom: "80px",
+                    paddingBottom: "105px",
                   }}
                 >
                   {/* Page 2 */}
@@ -329,7 +329,7 @@ export default function page() {
                   style={{
                     paddingTop: "40px",
                     paddingLeft: "110px",
-                    paddingBottom: "55px",
+                    paddingBottom: "95px",
                   }}
                 >
                   {/* Page 3 */}
@@ -521,7 +521,7 @@ export default function page() {
                   style={{
                     paddingTop: "40px",
                     paddingLeft: "110px",
-                    paddingBottom: "20px",
+                    paddingBottom: "59px",
                   }}
                 >
                   {/* Page 4 */}
@@ -670,9 +670,9 @@ export default function page() {
                 <div
                   className="page"
                   style={{
-                    paddingTop: "40px",
+                    paddingTop: "35px",
                     paddingLeft: "110px",
-                    paddingBottom: "55px",
+                    paddingBottom: "35px",
                   }}
                 >
                   {/* Page 5 */}
@@ -893,7 +893,7 @@ export default function page() {
                   style={{
                     paddingTop: "85px",
                     paddingLeft: "110px",
-                    paddingBottom: "55px",
+                    paddingBottom: "158px",
                   }}
                 >
                   {/* Page 6 */}

@@ -1162,6 +1162,7 @@ table {
 .themenmakierung-active .makierung {
   background: transparent;
   color: inherit;
+  border-color: rgb(212, 212, 212);
 }
 
 .religion,

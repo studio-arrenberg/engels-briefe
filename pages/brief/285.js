@@ -44,12 +44,12 @@ export default function page() {
               <div
                 className="page"
                 style={{
-                  marginTop: "-15px",
+                  marginTop: "0px",
                   marginBottom: "20px",
 
                   paddingTop: "15px",
                   paddingLeft: "80px",
-                  paddingBottom: "10px",
+                  paddingBottom: "40px",
                 }}
               >
                 {/* Insert Page 1 */}
@@ -219,7 +219,7 @@ export default function page() {
                 style={{
                   paddingTop: "35px",
                   paddingLeft: "80px",
-                  paddingBottom: "75px",
+                  paddingBottom: "88px",
                   marginBottom: "25px",
                 }}
               >
@@ -357,7 +357,7 @@ export default function page() {
                 style={{
                   paddingTop: "40px",
                   paddingLeft: "70px",
-                  paddingBottom: "43px",
+                  paddingBottom: "73px",
                 }}
               >
                 {/* Insert Page 3 */}
