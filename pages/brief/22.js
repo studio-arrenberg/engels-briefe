@@ -90,50 +90,50 @@ export default function page() {
                       </span>
                     </span>
                     <a id="mark.002.s">{/*anchor*/}</a>Wie freue ich mich{" "}
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     daß Du glücklich, ge<span className="orig">ſ</span>
                     <span className="corr">s</span>und und munter zu
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     <span className="orig">Hauße</span>
                     <span className="corr">Hause</span> gekom̅en bi
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>, und Dich nach der{" "}
                     <span className="orig">Reiße</span>
                     <span className="corr">Reise</span>{" "}
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>o wohl befinde
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span> – der gütige Gott{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>eÿe{" "}
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     von ganzem Herzen dafür{" "}
                     <span className="orig">gedanckt</span>
                     <span className="corr">gedankt</span> daß Er{" "}
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     Dich begleitet und vor Unglück bewahret{" "}
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     hat – Er der liebevolle Men<span className="orig">ſ</span>
                     <span className="corr">s</span>chenhüter{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>eÿe Dir{" "}
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     dann auf Deiner näch<span className="orig">ﬅ</span>
                     <span className="corr">st</span>en{" "}
                     <span className="orig">Reiße</span>
                     <span className="corr">Reise</span> hierhin auch{" "}
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     wieder recht nahe und führe Dich doch ge
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>und{" "}
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     und wohl in meine Armen.<a id="mark.002.e">{/*anchor*/}</a>
                     <span style={{ display: "inline-block" }} width="2cm">
                       &nbsp;
                     </span>
                     <a id="mark.003.s">{/*anchor*/}</a>Ja! mein{" "}
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     be<span className="orig">ﬅ</span>
                     <span className="corr">st</span>er innig{" "}
                     <span className="orig">geliebter</span>
@@ -145,11 +145,11 @@ export default function page() {
                       en
                     </span>{" "}
                     wir uns{" "}
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     der über<span className="orig">ſ</span>
                     <span className="corr">s</span>chwenglich großen Liebe und
                     Güte{" "}
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     un<span className="orig">ſ</span>
                     <span className="corr">s</span>ers lieben him̅li
                     <span className="orig">ſ</span>
@@ -164,7 +164,7 @@ export default function page() {
                     <span className="corr">s</span>onders auch{" "}
                     <span className="orig">jezt</span>
                     <span className="corr">jetzt</span> wieder{" "}
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     beÿ un<span className="orig">ſ</span>
                     <span className="corr">s</span>erm{" "}
                     <span className="orig">
@@ -176,24 +176,24 @@ export default function page() {
                       <span className="corr">st</span>
                     </span>{" "}
                     und die übrigen{" "}
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     Tagen erwie<span className="orig">ſ</span>
                     <span className="corr">s</span>en hat; und uns gegen
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>eitig{" "}
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     zum warmen herzlichen <span className="orig">Danck</span>
                     <span className="corr">Dank</span> dafür er<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
                     muntern.<a id="teaser.part.002.e">{/*anchor*/}</a> O! mein
                     lieber! ganz{" "}
                     <span className="orig">oﬀenbahr</span>
                     <span className="corr">oﬀenbar</span>
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     ganz hell i<span className="orig">ﬅ</span>
                     <span className="corr">st</span> es mir daß die Hand un
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ers
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                   </p>
                 </div>
 
@@ -209,22 +209,22 @@ export default function page() {
                     guten Gottes mit uns war, und die
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>e alles{" "}
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>o in der be
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>en Ordnung gehalten hat.{" "}
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     Gelobet <span className="orig">ſ</span>
                     <span className="corr">s</span>eÿ dann Gott der un
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>er{" "}
                     <span className="orig">Gebät</span>
                     <span className="corr">Gebet</span>{" "}
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     nicht verworfen, noch <span className="orig">ſ</span>
                     <span className="corr">s</span>eine Güte von uns
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     gewendet hat{" "}
                     <span className="makierung">
                     <span className="abbr"> Ps<span className="orig">:</span>
@@ -240,43 +240,43 @@ export default function page() {
                     </span>{" "}
                     20.</span><a id="annot.001.e">{/*anchor*/}</a>
                     <a id="mark.001.e">{/*anchor*/}</a> Wann’s unsren{" "}
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     lieben him̅lischen Vater <span className="orig">gefält</span>
                     <span className="corr">gefällt</span> uns gesund und wohl{" "}
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     zu erhalten, dann mein Lieber! werden uns die{" "}
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     lange Winter Abenden noch manche{" "}
                     <span className="orig">erquikende</span>
                     <span className="corr">erquickende</span> Seel<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />{" "}
                     <span className="orig"></span>
                     <span className="corr">
-                      <br className="lb" />
+                      <br className="lb" />{" "}
                     </span>
                     erhebende{" "}
                     <span className="orig">Freüden</span>
                     <span className="corr">Freuden</span> gewähren, wann wir
                     dann so
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     mit völliger Ruhe die lange Reihe von Wohlthaten{" "}
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     durchgehen und uns ins{" "}
                     <span className="orig">Gedächtnäß</span>
                     <span className="corr">Gedächtniß</span> zurück
                     <span style={{ display: "inline-block" }}>&nbsp;</span>rufen
                     die{" "}
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     wir durch die Güte unsers großen Gottes erfahren{" "}
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     haben – O! Wie wohl wie innig wohl wird's uns{" "}
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     dann beÿ'm neuen Antrieb zum wiederholten{" "}
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     gemeinschaftlichen <span className="orig">Danck</span>
                     <span className="corr">Dank</span> werden, und wir werden{" "}
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     unsere Seelen durch Erfahrung der Liebe, Güte und{" "}
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     <span className="orig">Hülﬀe</span>
                     <span className="corr">Hülfe</span> Gottes, zum Glauben,{" "}
                     <span className="orig">hoﬀen</span>
@@ -297,17 +297,17 @@ export default function page() {
                     Von meiner Gesundheit,{" "}
                     <span className="orig">heiterkeit</span>
                     <span className="corr">Heiterkeit</span> und Ruhe kann{" "}
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     ich Dir zärtlich geliebter Mann! die be
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>e Nachricht{" "}
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     geben – denn ich genieße Gottlob! Alle diese{" "}
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                     große Vorzügen – die Erfahrung der{" "}
                     <span className="orig">Hülﬀe</span>
                     <span className="corr">Hülfe</span> Gottes
-                    <br className="lb" />
+                    <br className="lb" />{" "}
                   </p>
                 </div>
 
@@ -321,55 +321,54 @@ export default function page() {
                 >  
                   <p>
                 <p>
-          macht mir Muth und <span className="orig">ﬅärckt</span><span className="corr">ﬅärkt</span> mein Vertrauen so daß<br className="lb" />
-          ich <span style={{textDecoration: 'underline'}}>ruhig</span> und
-          <span style={{textDecoration: 'underline'}}>getroﬅ</span> in
+          macht mir Muth und <span className="orig">ﬅärckt</span><span className="corr">ﬅärkt</span> mein Vertrauen so daß<br className="lb" />{" "}
+          ich <span style={{textDecoration: 'underline'}}>ruhig{" "}</span> und{" "}
+          <span style={{textDecoration: 'underline'}}>getroﬅ</span> in{" "}
           <a id="annot.002.s">{/*anchor*/}</a>die<a id="annot.002.e">{/*anchor*/}</a>
-          Zukunft blicke und<br className="lb" />
-          keine einzige Sorge in meinem Herzen einkehren
-          <span className="orig">laßen</span><span className="corr">lassen</span><br className="lb" />
-          <span className="overwritten">e</span><span className="add">⟨E⟩</span>s wäre
-          auch <span className="orig">würcklich</span><span className="corr">würklich</span> gar kein Wohlverhalten von<br className="lb" />
-          mir, und ich würde mir versündigen wann ich
-          <span className="orig">jezt</span><span className="corr">jetzt</span><br className="lb" />
+          Zukunft blicke und<br className="lb" />{" "}keine einzige Sorge in meinem Herzen einkehren{" "}
+          <span className="orig">laßen</span><span className="corr">lassen</span><br className="lb" />{" "}
+          <span className="overwritten">e</span><span className="add">⟨E⟩</span>s wäre{" "}
+          auch <span className="orig">würcklich</span><span className="corr">würklich</span> gar kein Wohlverhalten von<br className="lb" />{" "}
+          mir, und ich würde mir versündigen wann ich{" "}
+          <span className="orig">jezt</span><span className="corr">jetzt</span><br className="lb" />{" "}
           noch sorgen <span className="orig">wolte</span><span className="corr">wollte</span>: beÿ den vielen und großen Vor<br className="g.enc.tagsdecl.hyphenation.divis" />
-          theilen so mir durch Gottes Güte zu Theil werden –<br className="lb" />
-          weg also mit allen <span className="orig">Bedencklichkeiten</span><span className="corr">Bedenklichkeiten</span>! weg mit allen<br className="lb" />
-          Sorgen! <span style={{textDecoration: 'underline'}}>Froh</span>,
-          <span style={{textDecoration: 'underline'}}>ruhig</span> und
-          <span style={{textDecoration: 'underline'}}>getroﬅ</span> iﬅ
-          <span className="orig">jezt</span><span className="corr">jetzt</span> mein
+          theilen so mir durch Gottes Güte zu Theil werden –<br className="lb" />{" "}
+          weg also mit allen <span className="orig">Bedencklichkeiten</span><span className="corr">Bedenklichkeiten</span>! weg mit allen<br className="lb" />{" "}
+          Sorgen! <span style={{textDecoration: 'underline'}}>Froh</span>,{" "}
+          <span style={{textDecoration: 'underline'}}>ruhig</span> und{" "}
+          <span style={{textDecoration: 'underline'}}>getroﬅ</span> iﬅ{" "}
+          <span className="orig">jezt</span><span className="corr">jetzt</span> mein{" "}
           <span style={{textDecoration: 'underline'}}>Wahlspruch</span><span className="orig" /><span className="corr">.</span>
-          <a id="mark.003.e">{/*anchor*/}</a><br className="lb" />
-          Äußerlich iﬅ es aber nun ungemein unruhig hier
+          <a id="mark.003.e">{/*anchor*/}</a><br className="lb" />{" "}
+          Äußerlich iﬅ es aber nun ungemein unruhig hier{" "}
           <span className="damage"><span className="gap"> [...]</span><span className="supplied" id="supplied.text001">{'{'}mein{'}'}</span></span>
-          <br className="lb" />
+          <br className="lb" />{" "}
           Beﬅer! <span className="makierung">ich bin mitten im packen</span> und werde
           <span className="damage"><span className="gap"> [...]</span></span>
-          <br className="lb" />
+          <br className="lb" />{" "}
           schwerlich <span className="orig">heüte</span><span className="corr">heute</span> damit fertig werden; doch will ich
-          <span className="damage" /> mein<br className="lb" />
-          <span className="orig">beﬅes</span><span className="corr">Beﬅes</span> thun und
-          nun wieder mit frischen Muth anfangen<span className="orig" /><span className="corr">.</span><br className="lb" />
-          <span className="makierung"><span className="persName">Schweﬅer Märcker</span> </span>und
-          <span className="makierung"><span className="orig">CreißEinnehmers</span><span className="corr">Kreiseinnehmers</span></span> sind unten am<br className="lb" />
+          <span className="damage" /> mein<br className="lb" />{" "}
+          <span className="orig">beﬅes</span><span className="corr">Beﬅes</span> thun und{" "}
+          nun wieder mit frischen Muth anfangen<span className="orig" /><span className="corr">.</span><br className="lb" />{" "}
+          <span className="makierung"><span className="persName">Schweﬅer Märcker</span></span> und{" "}
+          <span className="makierung"><span className="orig">CreißEinnehmers</span><span className="corr">Kreiseinnehmers</span></span> sind unten am<br className="lb" />{" "}
           Caﬀee trinken und haben mir schon <span className="orig">ruﬀen</span><span className="corr">rufen</span> <span className="orig">laßen</span><span className="corr">lassen</span>.
         </p>
         <p>
           Du mein herzlichgeliebter Gatte! muß<span className="orig" /><span className="corr">t</span>
-          <span style={{textDecoration: 'line-through'}}>h</span> mit diesen<br className="lb" />
-          in der Eil geschriebenen Brief vorlieb nehmen und
-          <span className="orig">heüte</span><span className="corr">heute</span><br className="lb" />
+          <span style={{textDecoration: 'line-through'}}>h</span> mit diesen<br className="lb" />{" "}
+          in der Eil geschriebenen Brief vorlieb nehmen und{" "}
+          <span className="orig">heüte</span><span className="corr">heute</span><br className="lb" />{" "}
           Deine <span className="orig">geschäﬀtige</span><span className="corr">geschäftige</span> Frau entschuldigen. Alle unsere
-          hiesige<br className="lb" />
-          liebe Verwandten grüßen Dir mit vieler Liebe – unsere<br className="lb" />
+          hiesige<br className="lb" />{" "}
+          liebe Verwandten grüßen Dir mit vieler Liebe – unsere<br className="lb" />{" "}
           dortigen Lieben bitte ich meine <span className="orig">liebe</span><span className="corr">Liebe</span> zu versichern.
         </p>
         <div className="closer">
           <span className="g.rend.script.latin">Adieu!</span> liebes gutes Männchen!
-          der liebe Gott seÿe<br className="lb" />
-          Dir recht nahe, <span className="orig">beschüze</span><span className="corr">beschütze</span> und erhalte Dich! <br className="lb" />
-          Nun nim̅ noch diese<span className="damage"><span className="gap"> [...]</span><span className="supplied" id="supplied.text002">[n zär]</span></span>tlichen Kuß von Deine<br className="lb" />
+          der liebe Gott seÿe<br className="lb" />{" "}
+          Dir recht nahe, <span className="orig">beschüze</span><span className="corr">beschütze</span> und erhalte Dich! <br className="lb" />{" "}
+          Nun nim̅ noch diese<span className="damage"><span className="gap"> [...]</span><span className="supplied" id="supplied.text002">[n zär]</span></span>tlichen Kuß von Deine<br className="lb" />{" "}
           <div className="dateline">
             <span className="placeName">Ruhrorth</span> am
             <span className="date">10 <sup><sup style={{textDecoration: 'underline'}}>ten</sup></sup>
@@ -380,7 +379,7 @@ export default function page() {
             <span className="orig">treüe</span><span className="corr">treue</span> Dich
             herzlich<span style={{display: 'inline-block'}}>&nbsp;</span>liebende
           </div>
-          <br className="lb" />
+          <br className="lb" />{" "}
           <span style={{display: 'inline-block'}} width="12cm">&nbsp;</span>
           <div className="signed">
             <span className="persName">Luise Engels
@@ -399,7 +398,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "1480px",
             }}
           >
             <hr />
@@ -413,7 +412,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "2361px",
             }}
           >
             <hr />
@@ -426,7 +425,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "2446px",
             }}
           >
             <hr />
@@ -437,9 +436,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "350px",
+              top: "2446px;",
             }}
           >
             <hr />
