@@ -70,7 +70,7 @@ export default function page() {
                   style={{
                     paddingTop: "15px",
                     paddingLeft: "80px",
-                    paddingBottom: "75px"
+                    paddingBottom: "115px"
                   }}
                 >
                   {/* Insert Page 1 */}
@@ -315,7 +315,7 @@ export default function page() {
                   style={{
                     paddingTop: "80px",
                     paddingLeft: "80px",
-                    paddingBottom: "55px",
+                    paddingBottom: "87px",
                   }}
                 >
                   {/* Insert Page 2 */}
@@ -533,7 +533,7 @@ export default function page() {
                   style={{
                     paddingTop: "60px",
                     paddingLeft: "80px",
-                    paddingBottom: "55px",
+                    paddingBottom: "105px",
                   }}
                 >
                   <span className="liebe">

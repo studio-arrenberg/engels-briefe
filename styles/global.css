@@ -1162,6 +1162,7 @@ table {
 .themenmakierung-active .makierung {
   background: transparent;
   color: inherit;
+  border-color: rgb(212, 212, 212);
 }
 
 .religion,
@@ -1451,11 +1452,11 @@ p > span .latin {
   transition: transform ease-in-out 0.5s;
 }
 
-.vergleich-r {
+.vergleich-r, .orte  {
   transition: transform ease-in-out 0.5s;
 }
 
-.themen {
+.themen{
   animation-delay: 0.3s;
   transition: transform ease-in-out 0.5s;
 }
@@ -1510,8 +1511,8 @@ p > span .latin {
 }
 
 .orte {
-  margin-top: 200px;
-  margin-bottom: 200px;
+  width: 100vw;
+  margin: 200px auto;
   display: flex;
   justify-content: center;
   position: relative;

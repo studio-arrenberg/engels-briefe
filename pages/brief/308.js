@@ -341,9 +341,9 @@ export default function page() {
                 <div
                   className="page"
                   style={{
-                    paddingTop: "35px",
+                    paddingTop: "5px",
                     paddingLeft: "80px",
-                    paddingBottom: "17px",
+                    paddingBottom: "120px",
                   }}
                 >
                   {/* Insert Page 2 */}
