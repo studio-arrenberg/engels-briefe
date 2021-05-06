@@ -146,4 +146,4 @@ npm run dev -- -p 3001
 hallo@arrenberg.studio
 <br>
 <br>
-![studio arrenberg](https://github.com/studio-arrenberg/engels-briefe/raw/master/.github/assets/studioarrenberg.png)
+![studio arrenberg](https://github.com/studio-arrenberg/engels-briefe/raw/master/.github/assets/studio-arrenberg.png)
