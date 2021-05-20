@@ -19,6 +19,8 @@ export default function thema() {
     return data.id === thema;
   });
 
+  console.log(briefe_list);
+
   return (
     <Layout>
       <Head>
@@ -56,6 +58,7 @@ export function Thema({ data }) {
             <div className="item_description">
               <h2>{data.title}</h2>
               <p>{data.beschreibung.split('\n').map( (it, i) => <div key={'x'+i}>{it}</div> )}</p>
+              <span className="bildnachweis">{data.bildnachweis}</span>
             </div>
           </div>
         </motion.div>
