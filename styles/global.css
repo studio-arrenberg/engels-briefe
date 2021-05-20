@@ -782,7 +782,7 @@ img {
   padding-bottom: 20px;
   z-index: 451;
   justify-content: center;
-  bottom: -100px;
+  bottom: -200px;
   transition: bottom 0.5s ease-in-out ;
 
   /* background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 120%); */
