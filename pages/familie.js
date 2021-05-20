@@ -50,6 +50,7 @@ export function Familie({ data }) {
                   <h2>{data.name}</h2>
                   <p>{data.lebzeit}</p>
                   <p>{data.kurzbeschreibung}</p>
+                  <span className="bildnachweis">{data.bildnachweis}</span>
                   <Count id={data.id} />
                 </div>
               </div>

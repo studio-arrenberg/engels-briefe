@@ -12,13 +12,20 @@ export default function person() {
   const router = useRouter();
   const { person } = router.query;
 
+  // const briefe_list = data.briefe.filter(function (item) {
+  //   return item.id.includes(Number(person));
+  // });
+
   const briefe_list = data.briefe.filter(function (item) {
-    return item.id.includes(Number(person));
+    return item.sender.id.includes(Number(person)) | item.empfänger.id.includes(Number(person));
   });
 
   const item = data.familie.filter((data) => {
     return data.id === person;
   });
+
+  console.log("person ID: " + person);
+  console.log(briefe_list);
 
   return (
     <Layout>
@@ -55,6 +62,7 @@ export function Familie({ data }) {
             <div className="item_description">
               <h2>{data.name}</h2>
               <p>{data.beschreibung}</p>
+              <span className="bildnachweis">{data.bildnachweis}</span>
             </div>
           </div>
         </motion.div>
