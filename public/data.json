@@ -42,7 +42,7 @@
         {
             "id" : "29",
             "datum" : "25. Oktober 1791",
-            "themen" : {"name":["Reisen","Religion","Liebe/Ehe"], "id":[1,2,3]},
+            "themen" : {"name":["Reisen","Religion","Liebe/Ehe"], "id":[1,2,3,5]},
             "sender": {"name":"Louise Engels, geb. Noot","ort":"1", "id":"2"},
             "empfänger" : {"name": "Johann Caspar Engels", "ort": "10", "id":"3"},
             "text" : "Deine beyde liebe Briefe habe ich vorgestern Morgen zugleich erhalten, der aus Schwalbach muß also Unterwegens liegen geblieben seyn – wie groß war meine Freude als ich etwas von Deiner lieben Hand erblickte, und die erfreuliche Nachricht las, daß Du mein Bester! ",
@@ -52,7 +52,7 @@
         {
             "id" : "68",
             "datum" : "04. Juli 1813",
-            "themen" : {"name":["Religion"], "id":[1]},
+            "themen" : {"name":["Religion"], "id":[1,5,6]},
             "sender": {"name":"Johann Caspar Engels","ort":"1", "id":"3"},
             "empfänger" : {"name": "Friedrich Engels sen.", "ort": "6", "id":"9"},
             "text" : "Zufolge deinen Lieben Briefen vom 12 passati haben wir das Laken und Casimir für dich gekauft, und in 1 paquet F.E. durch Eng. Sieperman, der just nach FFurth in seine Condition reisen wollte, dir zugesandt, wir hoffen daß du solches schon erhalten hast, und daß dir unsre Wahl gefallen wird.",
@@ -63,9 +63,9 @@
             "id" : "71",
             "title" : "Lieber Friedrich!",
             "datum" : "12. November 1813",
-            "themen" : {"name":["Religion"], "id":[1]},
+            "themen" : {"name":["Religion"], "id":[1,5]},
             "sender": {"name":"Johann Caspar Engels","ort":"1", "id":"3"},
-            "empfänger" : {"name": "Friedrich Engels sen.", "ort": "6", "id":"9"},
+            "empfänger" : {"name": "Ffriedrich Engels sen.", "ort": "6", "id":"9"},
             "text" : "Deine Briefe haben wir richtig erhalten, und freuen uns deines Wohlseins, und daß alles für die Stadt Frankfurth so glücklich vorübergegangen ist; angenehm war uns deine Beschreibung, wiewohl wir dieselbe späth erhielten, und durch die Hemmung der Post, dir nicht antworten konnten.",
             "digitalisate": {"cover": "FE_71.2.png", "page": ["FE_71.1.png", "FE_71.3.png"]},
             "audio" :"071.mp3"
@@ -74,7 +74,7 @@
             "id" : "75",
             "title" : "Lieber Friedrich!",
             "datum" : "03. Februar 1814",
-            "themen" : {"name":["Religion"], "id":[1]},
+            "themen" : {"name":["Religion"], "id":[1,4]},
             "sender": {"name":"Johann Caspar Engels","ort":"1", "id":"3"},
             "empfänger" : {"name": "Friedrich Engels sen.", "ort": "6", "id":"9"},
             "text" : "Dein Brief vom 31 pass[ati] war zwar beruhigend für uns, doch ist mir das noch nicht gnug, daß die Sache wegen der Landwehr seitdem still lag, ich habe deshalb heute in der Einlage an Hrƺ Ekhard geschrieben und ihn gebeten, sich dahin zu verwenden, daß du von der Liste ausgelöscht werdest, und du so lange in FFurth bleiben mögtest, bis dich unsre Obrigkeit aufruft, dann in jedem Land & Canton ist ja die Organisation der Landwehr, und nur unser Ort hat Recht dich einzufordern, was aber wie ich fast hoffe nicht geschehen wird, da man nun die von 1795 einfordert, und die von 1796 frei und ruhig läßt.",
@@ -96,7 +96,7 @@
             "id" : "169",
             "title" : "",
             "datum" : "3. Juli 1818",
-            "themen" : {"name":["Religion", "Liebe/Ehe", "Reisen"], "id":[1,2,3]},
+            "themen" : {"name":["Religion", "Liebe/Ehe", "Reisen"], "id":[1,2,3,6]},
             "sender": {"name":"Friedrich Engels sen.","ort":"1", "id":"9"},
             "empfänger" : {"name": "Elise van Haar", "ort": "8", "id":"5"},
             "text" : "Mit welchem frohen, seligen Gefühle ich jetzt an dich meine gute innigst geliebte Elise schreibe, kann ich mit Worten nicht ausdrücken; dein mit mir so ganz stimmendes Herz wird es kennen. Ich schreibe nämlich mit der völligen Einwilligung meiner lieben Eltern. ",
@@ -118,7 +118,7 @@
             "id" : "255",
             "title" : "",
             "datum" : "9. Juli 1822",
-            "themen" : {"name":["Liebe/Ehe", "Reisen"], "id":[3,2]},
+            "themen" : {"name":["Liebe/Ehe", "Reisen"], "id":[3,2,6]},
             "sender": {"name":"Friedrich Engels sen.","ort":"1", "id":"9"},
             "empfänger" : {"name": "Elise Engels, geb. van Haar", "ort": "8", "id":"5"},
             "text" : "Dein lieber Brief vom 5. ds. gewährte mir eine rechte Beruhigung, denn ich sahe daraus, daß es Dir und dem kleinen Herzenstippel gut geht. Du glaubst gar nicht, Herzensmama, wie sehr Du u. er mir ans Herz gewachsen seyd, u. Du glaubst auch gar nicht, wie unbehaglich, wie ekelig mir zu Muthe ohne Euch ist.",
@@ -129,7 +129,7 @@
             "id" : "265",
             "title" : "",
             "datum" : "31. Mai 1823",
-            "themen" : {"name":["Liebe/Ehe"], "id":[3]},
+            "themen" : {"name":["Liebe/Ehe"], "id":[3,6]},
             "sender": {"name":"Friedrich Engels sen.","ort":"1", "id":"9"},
             "empfänger" : {"name": "Elise Engels, geb. van Haar", "ort": "8", "id":"5"},
             "text" : "Daß dich liebe Elise, das Ausbleiben meines Briefes etwas traurig gemacht hat, freut mich ein klein wenig, denn ich nehme daraus wahr, daß du mich doch nicht gut entbehren kannst. ",
@@ -140,7 +140,7 @@
             "id" : "285",
             "title" : "",
             "datum" : "20. April 1826",
-            "themen" : {"name":["Religion"], "id":[1]},
+            "themen" : {"name":["Religion"], "id":[1,6]},
             "sender": {"name":"Gerhard Bernhard van Haar","ort":"8", "id":"7"},
             "empfänger" : {"name": "Friedrich Engels sen.", "ort": "1", "id":"9"},
             "text" : "Ja, lieber Friedrich, der Herr hat uns im verflossenen Winter, so wie unser ganzes Leben hindurch unaussprechlich viel Gutes erwiesen. Wir sind beide schon in den Jahren, die das Sprichwort machten: Senectus ipsa morbus laut welches wir also immer krank seyn müßten; und dennoch haben wir für das ganze Jahr 1825.",
@@ -151,7 +151,7 @@
             "id" : "295",
             "title" : "",
             "datum" : "16. August 1827",
-            "themen" : {"name":["Liebe/Ehe"], "id":[3]},
+            "themen" : {"name":["Liebe/Ehe"], "id":[3,6]},
             "sender": {"name":"Friedrich Engels sen.","ort":"11", "id":"9"},
             "empfänger" : {"name": "Elise Engels, geb. van Haar", "ort": "8", "id":"5"},
             "text" : "Seit Vorgestern Abend sind wir hier in Paris liebe Elise, wo wir zwar etwas ermüdet nach einer 32stündigen Fahrt auf der Diligence, aber sehr vergnügt ankamen. In Boulogne waren wir in einem Hôtel welches so sehr auf englischen Fuß eingerichtet war daß selbst sämmtliche Domestiken kaum französisch verstanden.",
@@ -162,7 +162,7 @@
             "id" : "307",
             "title" : "Liebe Elise.",
             "datum" : "26. Juli 1838",
-            "themen" : {"name":["Reisen"], "id":[2]},
+            "themen" : {"name":["Reisen"], "id":[2,6]},
             "sender": {"name":"Friedrich Engels sen.","ort":"13", "id":"9"},
             "empfänger" : {"name": "Elise Engels, geb. van Haar", "ort": "1", "id":"5"},
             "text" : "Soeben Donnerstag Morgen um 7 Uhr sind wir hier glücklich angekommen, nachdem wir eine ungewöhnlich lange Überfahrt gehabt haben. ",
@@ -172,7 +172,7 @@
         {
             "id" : "308",
             "datum" : "11. August 1838",
-            "themen" : {"name":[], "id":[]},
+            "themen" : {"name":[], "id":[6]},
             "sender": {"name":"Friedrich Engels sen.","ort":"3", "id":"9"},
             "empfänger" : {"name": "Elise Engels, geb. van Haar", "ort": "1", "id":"5"},
             "text" : "Gestern Abend sind wir hier Gott sey Dank gesund und wohl angekommen, und ich eile Dich davon mit der ersten Post zu benachrichtigen. ",
@@ -182,7 +182,7 @@
         {
             "id" : "342",
             "datum" : "10. September 1858",
-            "themen" : {"name":["Reisen"], "id":[2]},
+            "themen" : {"name":["Reisen"], "id":[2,6]},
             "sender": {"name":"Friedrich Engels sen.","ort":"9", "id":"9"},
             "empfänger" : {"name": "Elise Engels, geb. van Haar", "ort": "5", "id":"5"},
             "text" : "Gestern Morgen erhielt ich Deinen l. Brief und gleichzeitig einen aus Barmen von Hermann und Emil. Mit Vergnügen sah ich daraus, daß es Dir wieder besser ging, und Du bald wieder ganz hergestellt bist. Aus Friedrichs Brief hast Du meine glückliche Ankunft gesehen.",
@@ -198,7 +198,8 @@
             "slug":"religion",
             "beschreibung":"Wie sehr die Familie Engels im regionalen Pietismus verwurzelt war, belegen insbesondere die mit Bibelzitaten und -referenzen gespickten Korrespondenzen der Großeltern Johann Caspar (II) und Louise sowie der beiden Großväter untereinander, Johann Caspar (II) und Bernhard van Haar. \n Deutlich wird hier auch die exemplarische Verbindung des Pietismus mit dem frühen Kapitalismus. Allerdings nahm die gelebte Frömmigkeit in der Familie Engels niemals jene lust- und kulturfeindlichen Ausmaße an, wie sie der junge Engels dann 1839 in seinen Briefen aus dem Wupperthal prominent geißeln wird.\n Die merkliche Abnahme der religiösen Thematik in der Folgegeneration ist Indiz für den im 19. Jahrhundert stattfindenden Prozess der Säkularisierung.",
             "kurzbeschreibung":"Wie sehr die Familie Engels im regionalen Pietismus verwurzelt war, belegen insbesondere die mit Bibelzitaten und -referenzen gespickten Korrespondenzen der Großeltern Johann Caspar (II) und Louise sowie der beiden Großväter untereinander, Johann Caspar (II) und Bernhard van Haar. ",
-            "picture":"religion.jpg"
+            "picture":"religion.jpg",
+            "bildnachweis":"Historisches Zentrum Wuppertal"
         },
         {
             "id":"2",
@@ -206,7 +207,8 @@
             "slug":"reisen",
             "beschreibung":"Die Korrespondenz innerhalb der engeren Familie verdankt sich nicht zuletzt den zahlreichen Reisen zumal der männlichen Mitglieder. Friedrichs Großvater und vermehrt sein Vater unternahmen ausgedehnte Geschäftsreisen, die sie auch ins Ausland, nach Frankreich und England führten. \n Für den angehenden Kaufmann war zudem vor der Heirat eine eigene Reise obligatorisch, die nicht nur beruflichen Zwecken dienen sollte, sondern gemäß bürgerlichen Vorstellungen auch der eigenen Bildung. \n Friedrich sen. unternahm während seiner Verlobungszeit eine solche, von Juli bis November 1818 währende Reise nach Süddeutschland, Österreich und Italien.",
             "kurzbeschreibung":"Die Korrespondenz innerhalb der engeren Familie verdankt sich nicht zuletzt den zahlreichen Reisen zumal der männlichen Mitglieder.",
-            "picture":"reisen.jpg"
+            "picture":"reisen.jpg",
+            "bildnachweis":"Historisches Zentrum Wuppertal"
         },
         {
             "id":"3",
@@ -214,7 +216,35 @@
             "slug":"liebe",
             "beschreibung":"Einen bedeutenden Bestandteil des Briefkonvoluts bilden die beiden Partnerbriefwechsel der Großeltern (väterlicherseits) und der Eltern, jeweils vor und nach der Eheschließung. Auch wenn sie nur unvollständig überliefert sind (primär nur die Briefe des Großvaters und des Vaters), so manifestiert sich in ihnen doch ein signifikanter sozial- und mentalitätsgeschichtlicher Wandel im Hinblick auf die Liebeskonzeption und die damit verbundenen Praktiken der Paarbildung. \n Während der Großvater Johann Caspar noch einem vormodernen Ehekonzept verpflichtet ist, demzufolge die Partnerin nur bedingt individualisiert, potentiell also austauschbar ist und ihre Wahl gemäß angebbaren (in Briefen mit Dritten diskutierten) sozialen, ökonomischen, religiösen und moralischen Kriterien zu erfolgen hat, ist sein Sohn Friedrich bereits ein Kind der Romantik. \n In seinen Briefen an die Geliebte und Braut Elise van Haar herrscht ein neuer Ton, der unverkennbar auf einen gestiegenen Grad an Emotionalisierung, Intimisierung und Individualisierung verweist. ",
             "kurzbeschreibung":"Einen bedeutenden Bestandteil des Briefkonvoluts bilden die beiden Partnerbriefwechsel der Großeltern (väterlicherseits) und der Eltern, jeweils vor und nach der Eheschließung.",
-            "picture":"liebe.jpg"
+            "picture":"liebe.jpg",
+            "bildnachweis":"Historisches Zentrum Wuppertal"
+        },
+        {
+            "id":"4",
+            "title":"Musik",
+            "slug":"musik",
+            "beschreibung":"Die Musik hatte im Familienleben der Engels eine große Bedeutung. Anders als etwa Theater oder auch (Roman)Literatur gehörte sie nicht zu den vom Pietismus verfemten Künsten. Der Großvater, selbst ein leidenschaftlicher Organist, ließ seinen Sohn Friedrich sen. Klavier, Cello und – auf dessen Wunsch – auch Fagott spielen lernen und erkundigte sich in seinen Briefen regelmäßig nach den Fortschritten im Üben. Für die Zeit der zweijährigen Kaufmannslehre, die Friedrich sen. in Frankfurt absolvierte, wurde selbstverständlich ein eigener Flügel angeschafft.",
+            "kurzbeschreibung":"Die Musik hatte im Familienleben der Engels eine große Bedeutung. Anders als etwa Theater oder auch (Roman)Literatur gehörte sie nicht zu den vom Pietismus verfemten Künsten.",
+            "picture":"musik.jpg",
+            "bildnachweis":"Historisches Zentrum Wuppertal"
+        },
+        {
+            "id":"5",
+            "title":"Krieg",
+            "slug":"krieg",
+            "beschreibung":"Die napoleonische Zeit – die Koalitions- und Befreiungskriege (1792–1815) – und ihre Auswirkungen auf die Familie und das Unternehmen sind wiederholt Gegenstand in den vom Großvater geführten Korrespondenzen. So erfahren wir von der Besetzung des Wuppertals im Jahre 1795, von der Einquartierung französischer Soldaten, von Absatzproblemen in Folge der Kontinentalsperre sowie von den Versuchen der beiden Großväter und anderer wohlhabender Bürger, ihre Söhne durch sog. Remplaçants (Stellvertreter) aus ärmeren Familien vom Militär freizukaufen. ",
+            "kurzbeschreibung":"Die napoleonische Zeit – die Koalitions- und Befreiungskriege (1792–1815) – und ihre Auswirkungen auf die Familie und das Unternehmen sind wiederholt Gegenstand in den vom Großvater geführten Korrespondenzen.",
+            "picture":"krieg.jpg",
+            "bildnachweis":"Historisches Zentrum Wuppertal"
+        },
+        {
+            "id":"6",
+            "title":"Geschäftliches",
+            "slug":"geschäftliches",
+            "beschreibung":"Das Briefkonvolut dokumentiert Aufbau und Wandel des 1747 von Benjamin Engels in Unterbarmen gegründeten Textilunternehmens und stellt damit zugleich ein wertvolles Zeugnis aus der Zeit der Frühindustrialisierung im bergischen und rheinischen Raum dar. Der weitere Aufbau der Manufaktur Caspar Engels Söhne und die Ausweitung der Geschäftsbeziehungen durch den Großvater Johann Caspar (II) werden ebenso thematisch wie die Firmenneugründungen des Vaters Friedrich sen. Dieser trat 1837 aus dem Familienunternehmen aus, gründete seine eigene Seidenhandelsfirma Friedr. Engels & Comp. und zugleich mit dem Fabrikanten Peter Albert Ermen die Baumwollspinnerei Ermen & Engels, mit einer Firmenniederlassung in Engelskirchen und Manchester. Im dortigen Kontor wird Friedrich Engels jun. zunächst zwischen 1842 und 1844 und schließlich von 1850 bis 1869 tätig sein.",
+            "kurzbeschreibung":"Das Briefkonvolut dokumentiert Aufbau und Wandel des 1747 von Benjamin Engels in Unterbarmen gegründeten Textilunternehmens und stellt damit zugleich ein wertvolles Zeugnis aus der Zeit der Frühindustrialisierung im bergischen und rheinischen Raum dar.",
+            "picture":"geschaeftliches.jpg",
+            "bildnachweis":"Historisches Zentrum Wuppertal"
         }
     ],
     "familie":[
