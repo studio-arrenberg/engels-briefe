@@ -113,7 +113,7 @@ export function Ort({ id }) {
         <div key={item.id} className="item_preview">
           <img src={`../pictures/orte/thumbnails/${item.picture}`} />
           <div className="item_description">
-            <h2>{item.title}</h2>
+            {/* <h2>{item.title}</h2> */}
             {/* <p>{item.beschreibung.split('\n').map( (it, i) => <div key={'x'+i}>{it}</div> )}</p> */}
           </div>
         </div>
@@ -145,7 +145,7 @@ export function Brief({ id }) {
               <img src={`../../pictures/digitalisate/${item}`} key={index} />
             ))}
 
-            <div className="item_description">
+            {/* <div className="item_description">
               <h4>{item.datum}</h4>
               <h2>
                 <span className="sender_name">{item.sender.name}</span>
@@ -158,8 +158,10 @@ export function Brief({ id }) {
               {/* themen */}
               {/* {item.themen.name.map((item, index) => (
                 <p>{item}</p>
-              ))} */}
+              ))}
             </div>
+             */}
+
           </motion.div>
         </a>
       </Link>
@@ -184,12 +186,12 @@ export function Person({ id }) {
           <a>
             <div className="item_preview">
               <img src={`../pictures/personen/thumbnails/${item.picture}`} />
-              <div className="item_description">
+              {/* <div className="item_description">
                 <p>{item.lebzeit}</p>
 
                 <h2>{item.name}</h2>
-                {/* <p>{item.beschreibung}</p> */}
-              </div>
+                <p>{item.beschreibung}</p>
+              </div> */}
             </div>
           </a>
         </Link>
