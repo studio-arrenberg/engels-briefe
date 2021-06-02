@@ -249,14 +249,24 @@
     ],
     "familie":[
         {
+            "id":"10",
+            "name":"unbekannte Freundin",
+            "beschreibung":"",
+            "kurzbeschreibung":"",
+            "lebzeit":"",
+            "generation": "0",
+            "picture":"Unbekannte_Freundin.png",
+            "bildnachweis":""
+        },
+        {
             "id":"8",
             "name":"Johann Caspar Engels I",
             "beschreibung":"Auf der Basis von Landwirtschaft und Kleingewerbe gründete Benjamin Engels II (1689–1773) im Jahr 1747 die Firma, die später zum Unternehmen ‚Caspar Engels Söhne‘ ausgebaut wurde. Sein Sohn Johann Caspar Engels I entwickelte den gewerblichen Erwerbszweig der Familie zu einer frühindustriellen Unternehmung mit Bleicherei und Spitzenmanufaktur. ",
             "kurzbeschreibung":"Auf der Basis von Landwirtschaft und Kleingewerbe gründete Benjamin Engels II (1689–1773) im Jahr 1747 die Firma, die später zum Unternehmen ‚Caspar Engels Söhne‘ ausgebaut wurde.",
-            "lebzeit":"1715 - 1787",
+            "lebzeit":"",
             "generation": "1",
             "picture":"Johann_Caspar_Engels_I.jpg",
-            "bildnachweis":"Historisches Zentrum Wuppertal"
+            "bildnachweis":""
         },
         {
             "id":"1",
@@ -265,7 +275,8 @@
             "kurzbeschreibung":"Friedrich Hoffmann war der Bruder von Henriette Catharina Siebel (1750– 1814). Wie seine Schwester war er eng verbunden mit dem Pietisten Samuel Collenbusch (1724–1803).",
             "lebzeit":"1759 - 1829",
             "generation": "2",
-            "picture":"Christian_Friedrich_Hoffmann.jpg"
+            "picture":"Unbekannte_Freundin.png",
+            "bildnachweis":""
         },
         {
             "id":"2",
@@ -274,7 +285,8 @@
             "kurzbeschreibung":"Louise Noot war das zehnte Kind einer angesehenen Familie aus Ruhrort.",
             "lebzeit":"1762 - 1822",
             "generation": "2",
-            "picture":"Ida_Louise_Friederike_Noot.jpg"
+            "picture":"Ida_Louise_Friederike_Noot.jpg",
+            "bildnachweis":""
         },
         {
             "id":"3",
@@ -283,7 +295,8 @@
             "kurzbeschreibung":"Johann Caspar Engels II heiratete 1791 in zweiter Ehe Louise Noot.",
             "lebzeit":"1753 - 1821",
             "generation": "2",
-            "picture":"Johann_Caspar_Engels_II.jpg"
+            "picture":"Johann_Caspar_Engels_II.jpg",
+            "bildnachweis":""
         },
         {
             "id":"7",
@@ -292,7 +305,8 @@
             "kurzbeschreibung":"Gerhard Bernhard van Haar, der eigentlich Theologe werden wollte, machte mit 21 Jahren das Lehrerexamen und stieg im Hammer Gymnasium zum Rektor auf.",
             "lebzeit":"1760 - 1837",
             "generation": "2",
-            "picture":"Gerhard_Bernhard_van_Haar.jpg"
+            "picture":"Gerhard_Bernhard_van_Haar.jpg",
+            "bildnachweis":""
         },
         {
             "id":"5",
@@ -301,7 +315,8 @@
             "kurzbeschreibung":"Elise van Haar genoss die Erziehung höherer Töchter und dazu eine pietistische Unterweisung.",
             "lebzeit":"1797 - 1873",
             "generation": "3",
-            "picture":"Elisabeth_Franziska_Mauritia_Engels(van Haar).jpg"
+            "picture":"Elisabeth_Franziska_Mauritia_Engels(van Haar).jpg",
+            "bildnachweis":""
         },
         {
             "id":"6",
@@ -310,7 +325,8 @@
             "kurzbeschreibung":"Karl Snethlage war ein Schwager von Friedrich Engels sen. Er entstammte einer westfälischen reformierten Familie von Predigern, wurde selbst Pfarrer und 1842 Oberhofprediger in Berlin.",
             "lebzeit":"1792 - 1871",
             "generation": "3",
-            "picture":"Karl_Wilhelm_Moritz_Snethlage.jpg"
+            "picture":"Unbekannte_Freundin.png",
+            "bildnachweis":""
         },
         {
             "id":"9",
@@ -319,7 +335,8 @@
             "kurzbeschreibung":"Friedrich Engels durchlief in Frankfurt am Main eine kaufmännische Ausbildung. Dort erlernte er zudem Fremdsprachen und verschiedene Instrumente.",
             "lebzeit":"1769 - 1860",
             "generation": "3",
-            "picture":"Friedrich_Engels_sen.jpg"
+            "picture":"Friedrich_Engels_sen.jpg",
+            "bildnachweis":""
         },
         {
             "id":"4",
@@ -328,17 +345,10 @@
             "kurzbeschreibung":"Friedrich Engels bereiste als 17-Jähriger 1838 mit seinem Vater erstmals England.",
             "lebzeit":"1820 - 1895",
             "generation": "4",
-            "picture":"Friedrich_Engels_jun.jpg"
-        },
-        {
-            "id":"10",
-            "name":"unbekannte Freundin",
-            "beschreibung":"",
-            "kurzbeschreibung":"",
-            "lebzeit":"",
-            "generation": "0",
-            "picture":"Unbekannte_Freundin.jpg"
+            "picture":"Friedrich_Engels_jun.jpg",
+            "bildnachweis":""
         }
+        
     
     ],
     "orte":[
