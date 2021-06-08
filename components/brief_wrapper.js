@@ -217,7 +217,14 @@ export default function Brief_wrapper(props) {
     return (
       <>
         {/* swipe animation */}
-       
+        <div className="sticky-container">
+          <motion.div
+            className="bouncingbal"
+            style={{ opacity: ball_opacity_left, x: "50px", y: "50px" }}
+          >
+           
+          </motion.div>
+        </div>
 
         {/* brief view */}
         <motion.div
@@ -307,8 +314,7 @@ export default function Brief_wrapper(props) {
             exit="exit"
             variants={constants.animation.section_exit}
           >
-            <motion.div className="vergleichs-ansicht " 
-            onClick={() => setView(true)} >
+            <motion.div className="vergleichs-ansicht vergleich" >
 
               <motion.div 
                 key="digitalisat1"
@@ -373,7 +379,7 @@ export default function Brief_wrapper(props) {
                 </div>
               </div>
             </motion.div>
-
+          </motion.div>
 
             <motion.div className="themen" style={{ x: x }}>
               {them.map((item, index) => (
@@ -389,10 +395,7 @@ export default function Brief_wrapper(props) {
             </motion.div>
           </motion.div>
 
-          
-          </motion.div>
-
-          <div className={`player  ${ isPlayer == true ? "active" : "" }  `}>
+          <div className={`player  ${ isPlayer == true ? "active" : null }  `}>
             <Audio file={data.audio}></Audio>
           </div>
 
@@ -400,7 +403,7 @@ export default function Brief_wrapper(props) {
           <div className="tapbar">
             <a className={`${isView == true ? "active" : null}`} onClick={() => setView(true)}>
               <div >
-                <label>Vergleichsansicht Ansicht</label>
+                <label>Vergleichsansicht</label>
                 <p>Betrachten Sie hier den originalen Brief und können ihn mit der transkribierten Version vergleichen.</p>
               </div>
               <img src={`../icons/vergleichsansicht.svg`} />
