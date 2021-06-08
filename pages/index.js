@@ -38,7 +38,7 @@ export default function Home() {
           <a className="button">Korrespondenz entdecken</a>
           
         </div>
-        <Link href="impressum" scroll={false}>
+        <Link href="/impressum" scroll={false}>
         <a className="impressum-link">Impressum</a>
       </Link>
       
