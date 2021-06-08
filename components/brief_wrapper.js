@@ -337,7 +337,7 @@ export default function Brief_wrapper(props) {
                   />
                 ))}
 
-                <h3>Originaldokument </h3>
+                <h3>Dokument </h3>
               </motion.div>
               <motion.div
                 key="digitalisat2"
