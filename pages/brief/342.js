@@ -222,7 +222,7 @@ export default function page() {
                     <span className="corr">s</span>chon fertig, und das Re
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ultat{" "}
-                    <span style={{ textDecoration: "underline" }}>
+                    <span className="underline">
                       über
                     </span>{" "}
                     mein
@@ -276,7 +276,7 @@ export default function page() {
                     <span className="corr">s</span>oliden Fabrikanten abhängig{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ind. –{" "}
-                    <span style={{ textDecoration: "underline" }}>
+                    <span className="underline">
                       Einen Sorgen<span className="orig">ﬅ</span>
                       <span className="corr">st</span>ein
                     </span>
@@ -292,7 +292,7 @@ export default function page() {
                     </span>
                     . Es i<span className="orig">ﬅ</span>
                     <span className="corr">st</span>{" "}
-                    <span style={{ textDecoration: "underline" }}>jetzt</span>
+                    <span className="underline">jetzt</span>
                     <br className="lb" />{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chon hinreichend Geld hier
@@ -340,11 +340,11 @@ export default function page() {
                     <span className="corr">st</span>ark ₤ 12,000 – oder{" "}
                     <span className="abbr"> rh</span>
                     <span className="expan">Reichstaler</span>
-                    <span style={{ textDecoration: "underline" }}>{" "}
+                    <span className="underline">{" "}
                       84,000
                     </span>{" "}
                     –
-                    <span style={{ textDecoration: "underline" }}>
+                    <span className="underline">
                       disponible
                     </span>{" "}
                     übrig, dabei <span className="orig">ſ</span>
@@ -353,7 +353,7 @@ export default function page() {
                     wir hier nichts <span className="orig">ſ</span>
                     <span className="corr">s</span>chuldig und haben noch
                     <sup className="sup" id="txt.add001">
-                      <span style={{ textDecoration: "underline" }}>
+                      <span className="underline">
                         <span className="orig">bezalte</span>
                         <span className="corr">bezahlte</span>
                       </span>
@@ -396,7 +396,7 @@ export default function page() {
                     <br className="lb" />{" "}
                     Er <span className="orig">ſ</span>
                     <span className="corr">s</span>ieht auch wohl ein, daß{" "}
-                    <span style={{ textDecoration: "underline" }}>
+                    <span className="underline">
                       <span className="orig">überflüßiger</span>
                       <span className="corr">überflüssiger</span>
                     </span>{" "}
@@ -414,7 +414,7 @@ export default function page() {
                     <span className="corr">st</span>eht bei einem Ge
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chäfte, worin{" "}
-                    <span style={{ textDecoration: "underline" }}>
+                    <span className="underline">
                       monatlich
                     </span>{" "}
                     der{" "}
@@ -434,7 +434,7 @@ export default function page() {
                 >
                   {/* Insert Page 2 */}
                   <p>
-                    <span style={{ textDecoration: "underline" }}>außer</span>{" "}
+                    <span className="underline">außer</span>{" "}
                     den Zin<span className="orig">ſ</span>
                     <span className="corr">s</span>en um ₤ 1000 – wäch
                     <span className="orig">ﬅ</span>
@@ -455,7 +455,7 @@ export default function page() {
                     <span className="g.rend.script.latin">Capitalien</span>{" "}
                     abtrage.
                     <br className="lb" />{" "}
-                    <span style={{ textDecoration: "underline" }}>Jetzt</span>,
+                    <span className="underline">Jetzt</span>,
                     liebe Mutter wir<span className="orig">ﬅ</span>
                     <span className="corr">st</span> du mir doch wohl recht
                     <br className="lb" />{" "}
@@ -523,7 +523,7 @@ export default function page() {
                     <br className="lb" />{" "}
                     alles verdorben, <span className="orig">ſ</span>
                     <span className="corr">s</span>o daß er noch ein{" "}
-                    <span style={{ textDecoration: "underline" }}>
+                    <span className="underline">
                       paar Jahre
                     </span>{" "}
                     warten
@@ -584,13 +584,13 @@ export default function page() {
                       gehen.<a id="mark.002.e">{/*anchor*/}</a>
                     </span>{" "}
                     Von{" "}
-                    <span style={{ textDecoration: "underline" }}>
+                    <span className="underline">
                       näch<span className="orig">ﬅ</span>
                       <span className="corr">st</span>em
                     </span>
                     {" "}<a id="index.xml-anchor-d29e629" />
                     <span className="strike-through" style={{ textDecoration: "line-through" }}>
-                      <span style={{ textDecoration: "underline" }}>
+                      <span className="underline">
                         Dien<span className="orig">ﬅ</span>
                         <span className="corr">st</span>ag
                       </span>
@@ -607,7 +607,7 @@ export default function page() {
                         <span className="corr">st</span>ag
                       </span>
                     </sup>{" "}
-                    <span style={{ textDecoration: "underline" }}>an</span>{" "}
+                    <span className="underline">an</span>{" "}
                     <span className="orig">laße</span>
                     <span className="corr">lasse</span> übrigens
                     <br className="lb" />{" "}
@@ -615,13 +615,13 @@ export default function page() {
                     <span className="corr">bloß</span> ab
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chließen, und den{" "}
-                    <span style={{ textDecoration: "underline" }}>
+                    <span className="underline">
                       untern
                     </span>{" "}
                     extra
                     <br className="lb" />{" "}
                     Wirbel{" "}
-                    <span style={{ textDecoration: "underline" }}>
+                    <span className="underline">
                       nicht
                     </span>{" "}
                     herum drehen, <span className="orig">ſ</span>
@@ -639,7 +639,7 @@ export default function page() {
                     <br className="lb" />{" "}
                     nicht brennt. Im{" "}
                     <a id="txt.hi.underline001.int.s">{/*anchor*/}</a>le
-                    <span style={{ textDecoration: "underline" }}>tztern</span>
+                    <span className="underline">tztern</span>
                     <a id="txt.hi.underline001.int.e">{/*anchor*/}</a> Falle{" "}
                     <span className="orig">blos</span>
                     <span className="corr">bloß</span> den Leuchter.
@@ -663,7 +663,7 @@ export default function page() {
                       <span className="noteLabel">Note: </span>
                       <p>
                         <a id="txt.hi.underline002.int.s">{/*anchor*/}</a>D
-                        <span style={{ textDecoration: "underline" }}>
+                        <span className="underline">
                           ien<span className="orig">ﬅ</span>
                           <span className="corr">st</span>ag
                         </span>
@@ -671,7 +671,7 @@ export default function page() {
                         <span style={{ display: "inline-block" }} width="6cm">
                           &nbsp;
                         </span>
-                        <span style={{ textDecoration: "underline" }}>
+                        <span className="underline">
                           Abend
                         </span>
                       </p>

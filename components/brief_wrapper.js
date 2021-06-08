@@ -217,14 +217,7 @@ export default function Brief_wrapper(props) {
     return (
       <>
         {/* swipe animation */}
-        <div className="sticky-container">
-          <motion.div
-            className="bouncingbal"
-            style={{ opacity: ball_opacity_left, x: "50px", y: "50px" }}
-          >
-           
-          </motion.div>
-        </div>
+      
 
         {/* brief view */}
         <motion.div

@@ -175,7 +175,7 @@ export default function page() {
                           </span>
                           <span
                             className="wave"
-                            style={{ textDecoration: "underline" }}
+                            className="underline"
                           >
                             Ganzfrei
                           </span>

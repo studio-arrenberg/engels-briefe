@@ -94,7 +94,7 @@ export default function page() {
                           <br className="lb" />
                           <span
                             className="wave"
-                            style={{ textDecoration: "underline" }}
+                            className="underline"
                           >
                             <span className="abbr">
                               (f
@@ -350,7 +350,7 @@ export default function page() {
                       <span className="corr">s</span>oll den andern{" "}
                       <br className="lb" />
                       reitzen,{" "}
-                      <span style={{ textDecoration: "underline" }}>
+                      <span className="underline">
                         der Augenblick
                       </span>{" "}
                       <span className="orig">ſ</span>
@@ -533,7 +533,7 @@ export default function page() {
                       <span className="corr">eure</span>{" "}
                       <span className="orig">Freüde</span>
                       <span className="corr">Freude</span>{" "}
-                      <span style={{ textDecoration: "underline" }}>
+                      <span className="underline">
                         vollkom̅en
                       </span>{" "}
                       <span className="orig">ſ</span>

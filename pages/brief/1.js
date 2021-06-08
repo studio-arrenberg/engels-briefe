@@ -423,7 +423,7 @@ export default function page() {
                     </span>
                     s<a id="txt.hi.underline001.int.e">{/*anchor*/}</a> und von
                     der{" "}
-                    <span style={{ textDecoration: "underline" }}>
+                    <span className="underline">
                       <span className="orig">GebätsErhorung</span>
                       <span className="corr">Gebetserhörung</span>
                     </span>{" "}
@@ -453,7 +453,7 @@ export default function page() {
                     <span className="corr">daß</span> ich{" "}
                     <span className="orig">jezt</span>
                     <span className="corr">jetzt</span> mit{" "}
-                    <span style={{ textDecoration: "underline" }}>
+                    <span className="underline">
                       getro
                       <span className="orig">
                         <span className="orig">ﬅ</span>
@@ -462,7 +462,7 @@ export default function page() {
                       <span className="corr">st</span>em
                     </span>
                     <br className="lb" />{" "}
-                    <span style={{ textDecoration: "underline" }}>Muth</span>{" "}
+                    <span className="underline">Muth</span>{" "}
                     mein ganzes{" "}
                     <span className="orig">
                       Schik<span className="orig">ſ</span>
@@ -494,11 +494,11 @@ export default function page() {
                     <span className="corr">st</span>en Zuver
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>icht, daß er{" "}
-                    <span style={{ textDecoration: "underline" }}>mich</span>{" "}
+                    <span className="underline">mich</span>{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>o
                     <br className="lb" />{" "}
-                    <span style={{ textDecoration: "underline" }}>
+                    <span className="underline">
                       führen wird
                     </span>{" "}
                     wie es für meine Ewige Seligkeit und{" "}
@@ -506,7 +506,7 @@ export default function page() {
                     <span className="corr">Herrlichkeit</span>
                     <br className="lb" /> <span className="orig">Das</span>
                     <span className="corr">das</span>{" "}
-                    <span style={{ textDecoration: "underline" }}>
+                    <span className="underline">
                       be
                       <span className="orig">
                         <span className="orig">ﬅ</span>
@@ -517,7 +517,7 @@ export default function page() {
                     , <span className="orig">Das</span>
                     <span className="corr">das</span>{" "}
                     <span className="orig">
-                      <span style={{ textDecoration: "underline" }}>
+                      <span className="underline">
                         vortheilhafte
                         <span className="orig">
                           <span className="orig">ﬅ</span>
@@ -527,7 +527,7 @@ export default function page() {
                       </span>
                     </span>
                     <span className="corr">
-                      <span style={{ textDecoration: "underline" }}>
+                      <span className="underline">
                         Vortheilhafte
                         <span className="orig">
                           <span className="orig">ﬅ</span>
@@ -550,12 +550,12 @@ export default function page() {
                     </span>
                     <span className="corr">st</span>ändig
                     <br className="lb" /> der{" "}
-                    <span style={{ textDecoration: "underline" }}>
+                    <span className="underline">
                       <span className="orig">HauptInhalt</span>
                       <span className="corr">Hauptinhalt</span>
                     </span>{" "}
                     meines{" "}
-                    <span style={{ textDecoration: "underline" }}>
+                    <span className="underline">
                       <span className="orig">Gebäts</span>
                       <span className="corr">Gebets</span>
                     </span>{" "}
@@ -571,15 +571,15 @@ export default function page() {
                     <span className="orig">weg</span>
                     <span className="corr">Weg</span>
                     <br className="lb" /> des{" "}
-                    <span style={{ textDecoration: "underline" }}>
+                    <span className="underline">
                       Leidens gewählt
                     </span>{" "}
                     werden,{" "}
-                    <span style={{ textDecoration: "underline" }}>nun</span>,{" "}
+                    <span className="underline">nun</span>,{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>o{" "}
                     <a id="txt.hi.underline002.int.s">{/*anchor*/}</a>ge
-                    <span style={{ textDecoration: "underline" }}>
+                    <span className="underline">
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>chehe{" "}
                       <span className="orig">ſ</span>
@@ -603,7 +603,7 @@ export default function page() {
                     <span className="corr">Gebet</span>{" "}
                     <span className="orig">Die</span>
                     <span className="corr">die</span> erforderliche{" "}
-                    <span style={{ textDecoration: "underline" }}>
+                    <span className="underline">
                       Kräfte und Stärke
                     </span>{" "}
                     geben,
@@ -623,7 +623,7 @@ export default function page() {
                     <span className="expan">
                       mein<span className="ex">em</span>
                     </span>{" "}
-                    <span style={{ textDecoration: "underline" }}>
+                    <span className="underline">
                       <span className="orig">
                         be
                         <span className="orig">
@@ -641,10 +641,10 @@ export default function page() {
                         <span className="corr">st</span>en
                       </span>
                     </span>{" "}
-                    <span className="g.enc.tagsdecl.suspension.type1" style={{ textDecoration: "underline" }}>
+                    <span className="g.enc.tagsdecl.suspension.type1" className="underline">
                       {" "}
                       (trag</span>
-                    <span className="expan" style={{ textDecoration: "underline" }}>
+                    <span className="expan" className="underline">
                       trag<span className="ex">en</span>
                     </span>{" "}
                     muß.

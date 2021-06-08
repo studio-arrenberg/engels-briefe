@@ -198,7 +198,7 @@ export default function page() {
                     {" "}<br className="lb" />
                     und möchte Dir gerne einen warmen Kuß{" "}
                     <a id="txt.hi.underline001.int.s">{/*anchor*/}</a>i
-                    <span style={{ textDecoration: "underline" }}>
+                    <span className="underline">
                       n Natura
                     </span>
                     <a id="txt.hi.underline001.int.e">{/*anchor*/}</a>{" "}
@@ -376,7 +376,7 @@ export default function page() {
                   {/* Insert Page 4 */}
                   <span className="religion">
                     <p>
-                      3<sup style={{ textDecoration: "underline" }}>ten</sup>{" "}
+                      3<sup className="underline">ten</sup>{" "}
                       Vers vorkämen,{" "}
                       <span className="orig">könte</span>
                       <span className="corr">könnte</span> man <span className="orig">ſ</span>

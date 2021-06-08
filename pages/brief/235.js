@@ -62,7 +62,7 @@ export default function page() {
                             <span className="small">
 
                             Wohlgeboren{" "}
-                            <span style={{ textDecoration: "underline" }}>
+                            <span className="underline">
                               frei.
                             </span>{" "}
                             in
@@ -70,7 +70,7 @@ export default function page() {
                           </span>
                           <span
                             className="wave"
-                            style={{ textDecoration: "underline" }}
+                            className="underline"
                           >
                             Berlin
                           </span>

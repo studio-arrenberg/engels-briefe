@@ -1202,6 +1202,9 @@ table {
   position: relative;
 }
 
+.normalisiert .strike-through{
+  display: none !important;
+}
 
 .stellenerläuterungen.null {
   opacity: 0;
@@ -1416,7 +1419,7 @@ p > span .latin {
 }
 
 .vergleichs-ansicht .underline{
-  border-bottom: 1px solid black ;
+  border-bottom: 1px solid rgb(49, 49, 49) ;
 }
 
 

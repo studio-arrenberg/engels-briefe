@@ -64,12 +64,12 @@ export default function page() {
                       20
                       <span className="g.enc.tagsdecl.suspension.type1">
                         <sup>
-                          <sup style={{ textDecoration: "underline" }}><span className="orig">ﬅ</span><span className="corr">st</span></sup>
+                          <sup className="underline"><span className="orig">ﬅ</span><span className="corr">st</span></sup>
                         </sup>
                          </span>
                       <span className="expan">
                         <sup>
-                          <sup style={{ textDecoration: "underline" }}>
+                          <sup className="underline">
                             <span className="orig">ﬅ</span><span className="corr">st</span><span className="ex">en</span>
                           </sup>
                         </sup>
@@ -179,7 +179,7 @@ export default function page() {
                 <p>
                   <a id="annot.003.s">{/*anchor*/}</a>Die Frau
                   <span className="persName">{" "}
-                    <span style={{ textDecoration: "underline" }}>
+                    <span className="underline">
                       Gutacker
                     </span>
                   </span>
@@ -211,7 +211,7 @@ export default function page() {
                   <span style={{ display: "inline-block" }} width="63em">
                     &nbsp;
                   </span>
-                  <span style={{ textDecoration: "underline" }}>jedem</span>
+                  <span className="underline">jedem</span>
                 </p>
               </div>
               <div
@@ -297,7 +297,7 @@ export default function page() {
                     u<span className="ex">nd</span>
                   </span>{" "}
                   <span className="orig">ſ</span><span className="corr">s</span>agt „
-                  <span style={{ textDecoration: "underline" }}><span className="orig">ﬅ</span><span className="corr">st</span>aats</span>„
+                  <span className="underline"><span className="orig">ﬅ</span><span className="corr">st</span>aats</span>„
                   <span className="orig">.</span>
                   <span className="corr">?</span>
                   <br className="lb" />{" "}
@@ -322,7 +322,7 @@ export default function page() {
                   <br className="lb" />{" "}
                   nicht daß <span className="orig">ſ</span><span className="corr">s</span>ie <span className="orig">ſ</span><span className="corr">s</span>ich in ihrem Hau<span className="orig">ſ</span><span className="corr">s</span>e täglich reinlich kleide –
                   das{" "}
-                  <span style={{ textDecoration: "underline" }}>muß</span> jede
+                  <span className="underline">muß</span> jede
                   <br className="lb" />{" "}
                   erdenkliche Frau – , <span className="orig">ſ</span><span className="corr">s</span>ondern, daß <span className="orig">ſ</span><span className="corr">s</span>ie <span className="orig">ſ</span><span className="corr">s</span>ich bei
                   Feierlichkeiten,
@@ -348,7 +348,7 @@ export default function page() {
                   als das weibliche Ge<span className="orig">ſ</span><span className="corr">s</span>chlecht, <span className="orig">ſ</span><span className="corr">s</span>ondern daß wir in die<span className="orig">ſ</span><span className="corr">s</span>em <span className="orig">ſ</span><span className="corr">s</span>o gar
                   die Eitel
                   <br className="g.enc.tagsdecl.hyphenation.eq" />
-                  <span style={{ textDecoration: "underline" }}>keit</span>
+                  <span className="underline">keit</span>
                   </p>
               </div>
 
@@ -451,7 +451,7 @@ export default function page() {
                   </span>{" "}
                   es, ohne mir wehe zu thun, zahlen konnte. Die<span className="orig">ſ</span><span className="corr">s</span>e 2
                   <sup>
-                    <sup style={{ textDecoration: "underline" }}>te</sup>
+                    <sup className="underline">te</sup>
                   </sup>
                   <br className="lb" />{" "}
                   Quittung <span className="orig">ﬅ</span><span className="corr">st</span>eht auf dem Blatt der er<span className="orig">ﬅ</span><span className="corr">st</span>en. Unter die<span className="orig">ſ</span><span className="corr">s</span>elben wird

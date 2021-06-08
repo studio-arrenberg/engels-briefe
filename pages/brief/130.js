@@ -50,7 +50,7 @@ export default function page() {
                       </span>
                       in
                       <br />
-                      <span style={{ textDecoration: "underline" }}>
+                      <span className="underline">
                         Hamm.{" "}
                       </span>
                     </div>
@@ -412,8 +412,8 @@ export default function page() {
                       Leben
                       <br className="lb" />{" "}
                       an{" "}
-                      <span style={{ textDecoration: "underline" }}>meine</span>{" "}
-                      <span style={{ textDecoration: "underline" }}>
+                      <span className="underline">meine</span>{" "}
+                      <span className="underline">
                         Geliebte
                       </span>{" "}
                       <span className="orig">ſ</span>

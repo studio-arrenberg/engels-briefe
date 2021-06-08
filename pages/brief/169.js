@@ -921,7 +921,7 @@ export default function page() {
                       der Wonne, im Arme eines <span className="orig">ſ</span><span className="corr">s</span>olchen Mädchens wie
                       <br className="lb" />{" "}
                       <span className="persName">
-                        <span style={{ textDecoration: "underline" }}>
+                        <span className="underline">
                           meine Eli<span className="orig">ſ</span><span className="corr">s</span>e
                         </span>
                       </span>

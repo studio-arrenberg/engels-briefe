@@ -81,7 +81,7 @@ export default function page() {
                               puis
                               <span className="placeName">Münster</span>
                               <br className="lb" />{" "}
-                              <span style={{ textDecoration: "underline" }}>
+                              <span className="underline">
                                 en <span className="placeName">Westphalie</span>
                                 . -
                               </span>
@@ -369,7 +369,7 @@ export default function page() {
                       <br className="lb" />{" "}
                       Tage alt. Antworte mir doch{" "}
                       <a id="txt.hi.underline001.int.s">{/*anchor*/}</a>
-                      <span style={{ textDecoration: "underline" }}>
+                      <span className="underline">
                         umgehen
                       </span>
                       d<a id="txt.hi.underline001.int.e">{/*anchor*/}</a>{" "}
@@ -890,7 +890,7 @@ export default function page() {
 
                   <p>
                     mein
-                    <span style={{ textDecoration: "underline" }}>
+                    <span className="underline">
                       e <span className="g.rend.script.latin">{" "}Adre</span>
                     </span>
                     <span className="g.rend.script.latin">sse</span> i

@@ -55,7 +55,7 @@ export default function page() {
                         <br />
                         <span className="small">
                           zur eigenhändigen Erbrechung <br />
-                          <span style={{ textDecoration: "underline" }}></span>
+                          <span className="underline"></span>
                         </span>
                         <span className="g.rend.script.latin">
                           <span style={{ marginTop: "20px", display: "block", textDecoration: "underline" }}>

@@ -78,7 +78,7 @@ export default function page() {
                         >
                           &nbsp;
                         </span>
-                        <span style={{ textDecoration: "underline" }}>
+                        <span className="underline">
                           Barmen
                         </span>
                         .-
