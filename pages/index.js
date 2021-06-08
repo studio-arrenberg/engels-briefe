@@ -1,13 +1,17 @@
 import Head from "next/head";
 import Layout from "../components/layout";
-import React, { useState } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { themen, familie, orte, briefe } from "../public/data.json";
 import constants from "../components/constants";
 import { FiArrowRight } from "react-icons/fi";
+import {useState} from "../components/store.js";
 
 export default function Home() {
+
+  useState.setState({ ScrollBriefe: 0 })
+
   return (
     <Layout>
       <Head>

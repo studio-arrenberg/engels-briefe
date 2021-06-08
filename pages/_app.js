@@ -2,7 +2,7 @@ import React from "react";
 import App from "next/app";
 import { motion, AnimateSharedLayout, AnimatePresence } from "framer-motion";
 // import { AnimatePresence } from "framer-motion"
-
+// import { Provider } from 'react-globally'
 import "../styles/global.css";
 
 class MyApp extends App {
@@ -11,8 +11,10 @@ class MyApp extends App {
 
     return (
       <AnimatePresence exitBeforeEnter>
+        {/* <Provider globalState={initialState}> */}
         {/* <AnimateSharedLayout></AnimateSharedLayout> */}
         <Component {...pageProps} key={router.route} />
+        {/* </Provider> */}
       </AnimatePresence>
     );
   }
