@@ -6,6 +6,9 @@ import { useRouter } from "next/router";
 import { AnimateSharedLayout } from "framer-motion"
 
 export default function Layout({ children, home }) {
+
+  // var scroll_briefe = 0;
+
   return (
     <div className="container">
       <Head>

@@ -5,7 +5,7 @@ import { FiArrowLeft } from "react-icons/fi";
 export default function Menu() {
   return (
     <nav>
-      <a className="menu_left" onClick={() => Router.back()}>
+      <a className="menu_left" onClick={() => Router.back()} >
         {/* <img src="../icons/back.svg"></img> */}
       </a>
 

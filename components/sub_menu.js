@@ -8,8 +8,8 @@ import { useRouter } from "next/router";
 export default function Menu() {
   return (
     <motion.nav>
-      {/* <Link> */}
-      <a className="menu_left" onClick={() => Router.back()}>
+      {/* <Link scroll={false}> */}
+      <a className="menu_left" onClick={() => Router.back()} >
         <img src="../icons/back.svg"></img>
       </a>
       {/* </Link> */}

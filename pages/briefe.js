@@ -6,14 +6,31 @@ import constants from "../components/constants";
 import Brief_view from "../components/brief_view";
 import React from "react";
 import IdleTimer from "../components/IdleTimer";
+import {useState} from "../components/store.js";
 
 
 export default function Page() {
+
+  const {count, increase, ScrollBriefe} = useState();
+  
+  React.useEffect(() => {
+    if (ScrollBriefe > 0) {
+      window.scrollTo(ScrollBriefe, 0);
+      // alert('apply scroll position: '+ScrollBriefe);
+    }
+  });
+
   return (
     <Layout home>
       <Head>
         <title>Briefe</title>
       </Head>
+      
+      {/* for testing */}
+      {/* <div style={{zIndex:10000000, position:'absolute', top:'500px', left:'500px'}}>
+        <h1>Scroll: {ScrollBriefe}</h1>
+      </div> */}
+      
       <motion.div
         key="briefe-slider"
         className="scrollable"
@@ -23,7 +40,11 @@ export default function Page() {
         variants={constants.animation.section_exit}
       >
         <Brief_view data={data.briefe} />
+
+        
       </motion.div>
+
+      
       <Timeline />
       <IdleTimer/>
     </Layout>
@@ -33,8 +54,15 @@ export default function Page() {
 export function Timeline() {
   const { scrollX } = useViewportScroll();
 
+  var test = test;
+  if (!test) {
+    test = 1;
+  }
+  test = test + 1;
+  console.log(test);
+
   const x = scrollX;
-  const pagex = 14140; //9140
+  const pagex = 14140 - 4500; // original:14140 old:9140
   const letters = 18;
   const leaverange = 1.3;
 
@@ -42,10 +70,10 @@ export function Timeline() {
     // note: study function and improve
     const scaleRange = [0.7, 1, 1, 0.7];
     const opacityRange = [0.2, 1, 1, 0.2];
-    let initial = -10;
+    let initial = 10;
 
     if (numb == 1) {
-      initial = -10;
+      initial = 10;
     }
 
     const ra = [
