@@ -164,8 +164,23 @@ nav {
   justify-content: space-between;
   z-index: 200;
   background: rgb(0, 0, 0);
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 90%);
-  padding-bottom: 150px;
+  background: linear-gradient(
+    hsla(0, 0%, 0%, 0.9) 0%,
+    hsla(0, 0%, 0%, 0.738) 19%,
+    hsla(0, 0%, 0%, 0.541) 34%,
+    hsla(0, 0%, 0%, 0.382) 47%,
+    hsla(0, 0%, 0%, 0.278) 56.5%,
+    hsla(0, 0%, 0%, 0.194) 65%,
+    hsla(0, 0%, 0%, 0.126) 73%,
+    hsla(0, 0%, 0%, 0.075) 80.2%,
+    hsla(0, 0%, 0%, 0.042) 86.1%,
+    hsla(0, 0%, 0%, 0.021) 91%,
+    hsla(0, 0%, 0%, 0.008) 95.2%,
+    hsla(0, 0%, 0%, 0.002) 98.2%,
+    hsla(0, 0%, 0%, 0) 100%
+  );
+  
+  padding-bottom: 100px;
 }
 
 .menu_left img {
@@ -179,13 +194,14 @@ nav {
   float: left;
   margin: 50px;
   font-size: 2.5rem;
-  opacity: 0.75;
+  color: rgb(175, 175, 175);
+  text-shadow: 0px 0px 100px rgba(0,0,0,1);
 }
 
 .menu_right a:hover,
 .menu_right a.activ {
   text-decoration: none;
-  opacity: 1;
+  color: rgb(255, 255, 255);
 }
 
 /* NAVIGATION CLOSE*/
@@ -207,14 +223,42 @@ main {
   width: 300px;
   height: 100vh;
   z-index: 100;
-  background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+ background: linear-gradient( 90deg,
+    hsla(0, 0%, 0%, 0.9) 0%,
+    hsla(0, 0%, 0%, 0.738) 19%,
+    hsla(0, 0%, 0%, 0.541) 34%,
+    hsla(0, 0%, 0%, 0.382) 47%,
+    hsla(0, 0%, 0%, 0.278) 56.5%,
+    hsla(0, 0%, 0%, 0.194) 65%,
+    hsla(0, 0%, 0%, 0.126) 73%,
+    hsla(0, 0%, 0%, 0.075) 80.2%,
+    hsla(0, 0%, 0%, 0.042) 86.1%,
+    hsla(0, 0%, 0%, 0.021) 91%,
+    hsla(0, 0%, 0%, 0.008) 95.2%,
+    hsla(0, 0%, 0%, 0.002) 98.2%,
+    hsla(0, 0%, 0%, 0) 100%
+  );
 }
 
 .right {
   position: fixed;
   left: auto;
   right: 0px;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+  background: linear-gradient( -90deg,
+    hsla(0, 0%, 0%, 0.9) 0%,
+    hsla(0, 0%, 0%, 0.738) 19%,
+    hsla(0, 0%, 0%, 0.541) 34%,
+    hsla(0, 0%, 0%, 0.382) 47%,
+    hsla(0, 0%, 0%, 0.278) 56.5%,
+    hsla(0, 0%, 0%, 0.194) 65%,
+    hsla(0, 0%, 0%, 0.126) 73%,
+    hsla(0, 0%, 0%, 0.075) 80.2%,
+    hsla(0, 0%, 0%, 0.042) 86.1%,
+    hsla(0, 0%, 0%, 0.021) 91%,
+    hsla(0, 0%, 0%, 0.008) 95.2%,
+    hsla(0, 0%, 0%, 0.002) 98.2%,
+    hsla(0, 0%, 0%, 0) 100%
+  );
 }
 
 .scrollable {
@@ -289,7 +333,7 @@ main {
 .intro-stage {
   position: fixed;
   width: 750px;
-  padding-left: 200px;
+  padding-left: 100px;
   top: 0px;
   height: 100%;
   z-index: 250;
@@ -308,7 +352,7 @@ main {
 .intro-stage p {
   margin-top: 20px;
   font-size: 1.4rem;
-  line-height: 1.7rem;
+  line-height: 1.8rem;
 }
 
 .no-scroll {
@@ -347,6 +391,65 @@ main {
   100% {
     transform: translateX(0);
   }
+}
+
+
+
+/* Impressum */
+
+.impressum-link{
+  display: block;
+  position: fixed;
+  bottom: 100px;
+  left: 200px;
+  font-size: 1.4rem;
+  opacity: 0.7;
+  z-index: 2000;
+}
+.impressum-link:focus{
+  text-decoration: none;
+}
+.impressum{
+  position: relative;
+  width: 820px;
+  z-index: 101;
+  padding-top: 100px;
+  margin-left: 100px;
+}
+
+.impressum p{
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+
+.impressum p b{
+  font-family: "Gibson-Regular";
+
+}
+
+.impressum h1{
+  margin-bottom: 70px !important;
+}
+
+.impressum h2{
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  font-family: "Gibson-Regular";
+
+}
+
+.logos-container{
+  position: absolute;
+  right: 200px;
+  top: 70px;
+  z-index: 101;
+  display: flex;
+  justify-content: center;
+}
+
+.logo{
+  height: 100px;
+  margin: 25px;
 }
 
 .scrollable-index {
@@ -421,12 +524,13 @@ main {
 .button {
   display: inline-block;
   letter-spacing: 1px;
-  margin-top: 30px;
+  margin-top: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
   border: 1px solid #fff;
-  width: 300px;
+  width: 350px;
+  font-size: 1.3rem;
 }
 
 /* INDEX END */
@@ -617,7 +721,7 @@ img {
 
 .brief_view {
   width: 100vw;
-  margin: -1600px -100px 0px -100px;
+  margin: 0px -100px 0px -100px;
   height: auto;
   overflow: hidden;
   z-index: 150;
@@ -880,6 +984,11 @@ img {
   line-height: 1.6rem;
   letter-spacing: 0px;
   font-size: 1rem;
+    left: 0px;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .vergleichs-ansicht .corr,
@@ -1474,13 +1583,7 @@ p > span .latin {
   display: flex;
 }
 
-.vergleich {
-  left: 0px;
-  width: 100vw;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-}
+
 .vergleich-l {
   z-index: 2;
   transition: transform ease-in-out 0.5s;

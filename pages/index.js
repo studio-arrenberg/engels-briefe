@@ -32,7 +32,14 @@ export default function Home() {
             die historische Entwicklung über die Jahrzehnte darstellen.
           </p>
           <a className="button">Korrespondenz entdecken</a>
+          
         </div>
+        <Link href="impressum" scroll={false}>
+        <a className="impressum-link">Impressum</a>
+      </Link>
+      
+
+
         <div className="intro-stage-background"></div>
 
         <div className="no-scroll">
