@@ -45,7 +45,7 @@ export function Familie({ data }) {
           >
             <a>
               <div className="item_preview">
-                <img src={`../pictures/personen/thumbnails/${data.picture}`} />
+                <img src={`../pictures/personen/thumbnails-jpg-50-png-40/${data.picture}`} />
 
                 <div className="item_description">
                   <h2>{data.name}</h2>

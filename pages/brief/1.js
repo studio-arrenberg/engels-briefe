@@ -417,7 +417,7 @@ export default function page() {
                       mächtig<span className="ex">en</span>
                     </span>{" "}
                     <a id="txt.hi.underline001.int.s">{/*anchor*/}</a>
-                    <span style={{ textDecoration: "underline" }}>
+                    <span className="underline">
                       <span className="orig">hülf</span>
                       <span className="corr">Hülf</span> Gotte
                     </span>

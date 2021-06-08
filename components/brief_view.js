@@ -1,9 +1,8 @@
 import Link from "next/link";
-import { motion, useViewportScroll } from "framer-motion";
+import { motion } from "framer-motion";
 import constants from "./constants";
 import { FiArrowRight } from "react-icons/fi";
 import { themen, familie, orte } from "../public/data.json";
-import {useState} from "../components/store.js";
 
 export default function Brief({ data }) {
   // digitalisate rotate random
@@ -12,20 +11,16 @@ export default function Brief({ data }) {
 
   console.log(data);
 
-  const { scrollX } = useViewportScroll();
-  // console.log(scrollX);
 
   return data.map((data, id) => {
     return (
       <div className="item" key={`briefe-${data.id}`}>
         <Link
-        
           href={`/brief/${data.id}`}
           as={`/brief/${data.id}`}
           scroll={false}
-          
         >
-          <a onClick={() => useState.setState({ ScrollBriefe: window.scrollX })} >
+          <a>
             <motion.div
               whileTap={{ scale: constants.animation.interaction.whiletap }}
               key={`brief-motion-${data.id}`}
@@ -42,7 +37,7 @@ export default function Brief({ data }) {
                         min + Math.random() * (max - min)
                       }deg)`,
                     }}
-                    src={`../../pictures/digitalisate/${item}`}
+                    src={`../../pictures/digitalisate/comp-600px_60p/${item}`}
                     key={index}
                   />
                 </>

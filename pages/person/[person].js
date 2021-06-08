@@ -58,7 +58,7 @@ export function Familie({ data }) {
           layoutId={`${data.id}`}
         >
           <div className="item_preview">
-            <img src={`../pictures/personen/thumbnails/${data.picture}`} />
+            <img src={`../pictures/personen/thumbnails-jpg-50-png-40/${data.picture}`} />
             <span className="bildnachweis">{data.bildnachweis}</span>
 
             <div className="item_description">

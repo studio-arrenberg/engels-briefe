@@ -122,7 +122,7 @@ export function Ort({ id }) {
         {/* <Link href="/thema/[thema]" as={`/thema/${item.id}`}> */}
         {/* <a> */}
         <div key={item.id} className="item_preview">
-          <img src={`../pictures/orte/thumbnails/${item.picture}`} />
+          <img src={`../pictures/orte/thumbnails-jpg-50-png-40/${item.picture}`} />
           <div className="item_description">
             {/* <h2>{item.title}</h2> */}
             {/* <p>{item.beschreibung.split('\n').map( (it, i) => <div key={'x'+i}>{it}</div> )}</p> */}
@@ -153,7 +153,7 @@ export function Brief({ id }) {
           >
             {/* bild */}
             {item.digitalisate.page.map((item, index) => (
-              <img src={`../../pictures/digitalisate/${item}`} key={index} />
+              <img src={`../../pictures/digitalisate/comp-600px_60p/${item}`} key={index} />
             ))}
 
             {/* <div className="item_description">
@@ -196,7 +196,7 @@ export function Person({ id }) {
         <Link href="/person/[person]" as={`/person/${item.id}`}>
           <a>
             <div className="item_preview">
-              <img src={`../pictures/personen/thumbnails/${item.picture}`} />
+              <img src={`../pictures/personen/thumbnails-jpg-50-png-40/${item.picture}`} />
               {/* <div className="item_description">
                 <p>{item.lebzeit}</p>
 

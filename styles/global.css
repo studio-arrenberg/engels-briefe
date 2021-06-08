@@ -194,7 +194,7 @@ nav {
   float: left;
   margin: 50px;
   font-size: 2.5rem;
-  color: rgb(175, 175, 175);
+  color: rgb(141, 141, 141);
   text-shadow: 0px 0px 100px rgba(0,0,0,1);
 }
 
@@ -400,11 +400,12 @@ main {
 .impressum-link{
   display: block;
   position: fixed;
-  bottom: 100px;
-  left: 200px;
+  bottom: 75px;
+  left: 125px;
   font-size: 1.4rem;
   opacity: 0.7;
   z-index: 2000;
+  padding: 50px;
 }
 .impressum-link:focus{
   text-decoration: none;
@@ -1064,15 +1065,23 @@ img {
   text-align: center;
 }
 .vergleichs-ansicht .signed {
-  text-align: right;
+  text-align: left;
   margin-top: 10px;
   margin-right: 100px;
+  padding-left: 430px;
 }
+
+.vergleichs-ansicht .signed {
+  text-align: left;
+  margin-top: 10px;
+  margin-right: 100px;
+  padding-left: 430px;
+}
+
 .small-adress {
   font-size: 1.1rem;
   line-height: 1.8rem;
   margin-bottom: 0px;
-  /* margin-top: 10px; */
   display: block;
 }
 
@@ -1084,6 +1093,11 @@ img {
 .vergleichs-ansicht .page-large {
   font-size: 1.3rem;
   line-height: 1.9rem;
+}
+
+.vergleichs-ansicht .dateline {
+  text-align: right;
+  padding-right: 50px;
 }
 
 table {
@@ -1399,6 +1413,10 @@ p > span .latin {
 
 .vergleichs-ansicht .insertion{
   text-decoration: underline;
+}
+
+.vergleichs-ansicht .underline{
+  border-bottom: 1px solid black ;
 }
 
 

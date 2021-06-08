@@ -299,7 +299,7 @@ export default function page() {
                     <span style={{ display: "inline-block" }} width="11cm">
                       &nbsp;
                     </span>{" "}
-                    Ihr aufrichtiger Freund <br className="lb" />
+
                     <div className="dateline">
                       <span className="placeName">
                         <span className="abbr"> D.</span>
@@ -309,10 +309,12 @@ export default function page() {
                       </span>{" "}
                       am <span className="date">12 Maÿ 1791</span>.
                     </div>{" "}
-                    <span style={{ display: "inline-block" }} width="8cm">
-                      &nbsp;
-                    </span>
+                    
+                    </div>
+
+                    
                     <div className="signed">
+                    Ihr aufrichtiger Freund <br className="lb" />
                       <span className="persName">
                         <span className="abbr"> Fr.</span>
                         <span className="expan">
@@ -321,7 +323,6 @@ export default function page() {
                         Hoffmann
                       </span>
                     </div>
-                  </div>
                 </div>
               </section>
             </div>

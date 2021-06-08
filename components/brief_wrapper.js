@@ -256,7 +256,7 @@ export default function Brief_wrapper(props) {
 
                 <img
                   className="portrait"
-                  src={`../pictures/personen/thumbnails/${item.picture}`}
+                  src={`../pictures/personen/thumbnails-jpg-50-png-40/${item.picture}`}
                 />
               </div>
             ))}
@@ -270,7 +270,7 @@ export default function Brief_wrapper(props) {
               <div key={`reciever-${index}`} className="empfänger">
                 <img
                   className="portrait"
-                  src={`../pictures/personen/thumbnails/${item.picture}`}
+                  src={`../pictures/personen/thumbnails-jpg-50-png-40/${item.picture}`}
                 />
                 <div className="meta-beschreibung">
                   <h2>
@@ -307,8 +307,9 @@ export default function Brief_wrapper(props) {
             exit="exit"
             variants={constants.animation.section_exit}
           >
-            <motion.div className="vergleichs-ansicht " 
-            onClick={() => setView(true)} >
+            <motion.div className="vergleichs-ansicht" >
+
+
 
               <motion.div 
                 key="digitalisat1"
@@ -324,7 +325,7 @@ export default function Brief_wrapper(props) {
                   <img
                     
                     className="kuvert_img"
-                    src={`../../pictures/digitalisate/${data.digitalisate.cover}`}
+                    src={`../../pictures/digitalisate/comp-1600px_40p/${data.digitalisate.cover}`}
                   />
                 ) : (
                   <></>
@@ -332,7 +333,7 @@ export default function Brief_wrapper(props) {
                 {/* load digitalisate */}
                 {pics[0].map((item, index) => (
                   <img
-                    src={`../../pictures/digitalisate/${item}`}
+                    src={`../../pictures/digitalisate/comp-1600px_40p/${item}`}
                     key={index}
                   />
                 ))}
@@ -425,7 +426,7 @@ export default function Brief_wrapper(props) {
 
             <div className="sender-ort">
               <img
-                src={`../../pictures/orte/${orte
+                src={`../../pictures/orte/compress/${orte
                   .filter((item) => {
                     return item.id === data.sender.ort;
                   })
@@ -452,7 +453,7 @@ export default function Brief_wrapper(props) {
             </div>
             <div className="empfänger-ort">
               <img
-                src={`../../pictures/orte/${orte
+                src={`../../pictures/orte/compress/${orte
                   .filter((item) => {
                     return item.id === data.empfänger.ort;
                   })

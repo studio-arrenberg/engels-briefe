@@ -46,12 +46,15 @@ export default function Briefe() {
         Industriegeschichte privat: Die Familie Engels in Briefen (1791–1858) <br /> 
         Digitale kommentierte Online-Edition.<br /><br /> Hg. von Wolfgang Lukas, Fabian Etling und Ulrich Rummel, in Verbindung mit David Grieshammer, Tim Helfendörfer und Kristian Wolf. <br />Wuppertal 2021ff.
         </p>
+
+        <img className="logo" src="../pictures/logos/onlineedition_qrcode.svg" />
+
       </motion.div>
 
       <div className="logos-container">
         <img className="logo" src="../pictures/logos/BUW_Logo.svg" />
         <img className="logo" src="../pictures/logos/STU-logo.svg" />
-
+        <img className="logo" src="../pictures/logos/Museum_Industriekultur_Logo.svg" />
       </div>
       <IdleTimer/>
     </Layout>
