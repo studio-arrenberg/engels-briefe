@@ -199,7 +199,7 @@
             "beschreibung":"Wie sehr die Familie Engels im regionalen Pietismus verwurzelt war, belegen insbesondere die mit Bibelzitaten und -referenzen gespickten Korrespondenzen der Großeltern Johann Caspar (II) und Louise sowie der beiden Großväter untereinander, Johann Caspar (II) und Bernhard van Haar. \n Deutlich wird hier auch die exemplarische Verbindung des Pietismus mit dem frühen Kapitalismus. Allerdings nahm die gelebte Frömmigkeit in der Familie Engels niemals jene lust- und kulturfeindlichen Ausmaße an, wie sie der junge Engels dann 1839 in seinen Briefen aus dem Wupperthal prominent geißeln wird.\n Die merkliche Abnahme der religiösen Thematik in der Folgegeneration ist Indiz für den im 19. Jahrhundert stattfindenden Prozess der Säkularisierung.",
             "kurzbeschreibung":"Wie sehr die Familie Engels im regionalen Pietismus verwurzelt war, belegen insbesondere die mit Bibelzitaten und -referenzen gespickten Korrespondenzen der Großeltern Johann Caspar (II) und Louise sowie der beiden Großväter untereinander, Johann Caspar (II) und Bernhard van Haar. ",
             "picture":"religion.jpg",
-            "bildnachweis":"Historisches Zentrum Wuppertal"
+            "bildnachweis":"British Library"
         },
         {
             "id":"2",
@@ -226,16 +226,16 @@
             "beschreibung":"Die Musik hatte im Familienleben der Engels eine große Bedeutung. Anders als etwa Theater oder auch (Roman)Literatur gehörte sie nicht zu den vom Pietismus verfemten Künsten. Der Großvater, selbst ein leidenschaftlicher Organist, ließ seinen Sohn Friedrich sen. Klavier, Cello und – auf dessen Wunsch – auch Fagott spielen lernen und erkundigte sich in seinen Briefen regelmäßig nach den Fortschritten im Üben. Für die Zeit der zweijährigen Kaufmannslehre, die Friedrich sen. in Frankfurt absolvierte, wurde selbstverständlich ein eigener Flügel angeschafft.",
             "kurzbeschreibung":"Die Musik hatte im Familienleben der Engels eine große Bedeutung. Anders als etwa Theater oder auch (Roman)Literatur gehörte sie nicht zu den vom Pietismus verfemten Künsten.",
             "picture":"musik.jpg",
-            "bildnachweis":"Historisches Zentrum Wuppertal"
+            "bildnachweis":"Rheinisches Bildarchiv Köln"
         },
         {
             "id":"5",
-            "title":"Krieg",
-            "slug":"krieg",
+            "title":"Politik",
+            "slug":"politik",
             "beschreibung":"Die napoleonische Zeit – die Koalitions- und Befreiungskriege (1792–1815) – und ihre Auswirkungen auf die Familie und das Unternehmen sind wiederholt Gegenstand in den vom Großvater geführten Korrespondenzen. So erfahren wir von der Besetzung des Wuppertals im Jahre 1795, von der Einquartierung französischer Soldaten, von Absatzproblemen in Folge der Kontinentalsperre sowie von den Versuchen der beiden Großväter und anderer wohlhabender Bürger, ihre Söhne durch sog. Remplaçants (Stellvertreter) aus ärmeren Familien vom Militär freizukaufen. ",
             "kurzbeschreibung":"Die napoleonische Zeit – die Koalitions- und Befreiungskriege (1792–1815) – und ihre Auswirkungen auf die Familie und das Unternehmen sind wiederholt Gegenstand in den vom Großvater geführten Korrespondenzen.",
-            "picture":"krieg.jpg",
-            "bildnachweis":"Historisches Zentrum Wuppertal"
+            "picture":"politik.jpg",
+            "bildnachweis":"McGill University Libraries"
         },
         {
             "id":"6",
@@ -244,7 +244,7 @@
             "beschreibung":"Das Briefkonvolut dokumentiert Aufbau und Wandel des 1747 von Benjamin Engels in Unterbarmen gegründeten Textilunternehmens und stellt damit zugleich ein wertvolles Zeugnis aus der Zeit der Frühindustrialisierung im bergischen und rheinischen Raum dar. Der weitere Aufbau der Manufaktur Caspar Engels Söhne und die Ausweitung der Geschäftsbeziehungen durch den Großvater Johann Caspar (II) werden ebenso thematisch wie die Firmenneugründungen des Vaters Friedrich sen. Dieser trat 1837 aus dem Familienunternehmen aus, gründete seine eigene Seidenhandelsfirma Friedr. Engels & Comp. und zugleich mit dem Fabrikanten Peter Albert Ermen die Baumwollspinnerei Ermen & Engels, mit einer Firmenniederlassung in Engelskirchen und Manchester. Im dortigen Kontor wird Friedrich Engels jun. zunächst zwischen 1842 und 1844 und schließlich von 1850 bis 1869 tätig sein.",
             "kurzbeschreibung":"Das Briefkonvolut dokumentiert Aufbau und Wandel des 1747 von Benjamin Engels in Unterbarmen gegründeten Textilunternehmens und stellt damit zugleich ein wertvolles Zeugnis aus der Zeit der Frühindustrialisierung im bergischen und rheinischen Raum dar.",
             "picture":"geschaeftliches.jpg",
-            "bildnachweis":"Historisches Zentrum Wuppertal"
+            "bildnachweis":"LVR-Industriemuseum Engelskirchen"
         }
     ],
     "familie":[
@@ -275,7 +275,7 @@
             "kurzbeschreibung":"Friedrich Hoffmann war der Bruder von Henriette Catharina Siebel (1750– 1814). Wie seine Schwester war er eng verbunden mit dem Pietisten Samuel Collenbusch (1724–1803).",
             "lebzeit":"1759 - 1829",
             "generation": "2",
-            "picture":"Unbekannte_Freundin.png",
+            "picture":"Unbekannt.png",
             "bildnachweis":""
         },
         {
@@ -325,8 +325,8 @@
             "kurzbeschreibung":"Karl Snethlage war ein Schwager von Friedrich Engels sen. Er entstammte einer westfälischen reformierten Familie von Predigern, wurde selbst Pfarrer und 1842 Oberhofprediger in Berlin.",
             "lebzeit":"1792 - 1871",
             "generation": "3",
-            "picture":"Unbekannte_Freundin.png",
-            "bildnachweis":""
+            "picture":"Karl Wilhelm Moritz Snethlage.jpg",
+            "bildnachweis":"Bibliothek des Zentrums für Stadtgeschichte und Industriekultur Wuppertal"
         },
         {
             "id":"9",
