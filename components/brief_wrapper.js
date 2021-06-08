@@ -299,11 +299,13 @@ export default function Brief_wrapper(props) {
 
             {/* brief inhalt */}
           </motion.div>
-        <motion.div key="briefe-vergleichs-ansicht"
-              initial="initial"
-              animate="enter"
-              exit="exit"
-              variants={constants.animation.brief} >
+        <motion.div
+          className={`${isView == true ? "vergleichsansicht-true" : "leseansicht-true"}`}
+          key="briefe-vergleichs-ansicht"
+          initial="initial"
+          animate="enter"
+          exit="exit"
+          variants={constants.animation.brief} >
           <motion.div
             className="swipewrapper"
             key="swipewrapper"
@@ -313,7 +315,8 @@ export default function Brief_wrapper(props) {
             variants={constants.animation.section_exit}
           >
             <motion.div className="vergleichs-ansicht vergleich" >
-              <motion.div
+
+              <motion.div 
                 key="digitalisat1"
                 className="vergleich-l digitalisate"
                 style={{
@@ -348,7 +351,6 @@ export default function Brief_wrapper(props) {
                 style={{
                   margin: 10,
                   x: x_fast,
-                  // opacity: letter_opacity,
                 }}
               >
                 <div className="brieftext">
@@ -358,37 +360,6 @@ export default function Brief_wrapper(props) {
               </motion.div>
             </motion.div>
 
-            {/* swipe handlebar */}
-            {/* <motion.div
-              // onClick={()=> ViewToggle() }
-              // drag="x"
-              className="handlebar"
-              dragMomentum={true}
-              dragTransition={{ bounceStiffness: 100, bounceDamping: 40 }}
-
-              variants={{
-                normal: { left: 0 },
-                detail: { left: handle_constraint }
-              }}
-              animate={controls}
-
-              transition={{
-                type: "spring",
-                damping: 40,
-                stiffness: 400
-              }}
-
-              dragConstraints={{ left: -handle_constraint, right: 0 }}
-
-              style={{
-                width: handle_width,
-                opacity: 1,
-                x,
-                backgroundColor: handle_color,
-              }}
-              
-              
-            ></motion.div> */}
 
             <motion.div
               className="detail"
@@ -428,7 +399,8 @@ export default function Brief_wrapper(props) {
             <Audio file={data.audio}></Audio>
           </div>
 
-          <div className="tapbar ">
+          {/* Tapbar - Navigation */}
+          <div className="tapbar">
             <a className={`${isView == true ? "active" : null}`} onClick={() => setView(true)}>
               <div >
                 <label>Vergleichsansicht Ansicht</label>
@@ -449,7 +421,6 @@ export default function Brief_wrapper(props) {
 
           {/* orte */}
           <motion.div className="orte"
-              // className="detail"
               style={{
                 x: x_normal,
               }}
@@ -515,46 +486,4 @@ export default function Brief_wrapper(props) {
       </>
     );
   });
-}
-
-export function BouncingBall() {
-  const dura = 1;
-  const del = 0.1;
-  // init dura = 0.6 del = 0.1
-  const bounceTransition = {
-    x: {
-      duration: dura,
-      yoyo: Infinity,
-      ease: "easeOut",
-      repeatDelay: del,
-    },
-    backgroundColor: {
-      duration: dura / 2,
-      yoyo: Infinity,
-      ease: "easeOut",
-      repeatDelay: dura / 2 + del,
-    },
-    opacity: {
-      duration: dura / 2,
-      yoyo: Infinity,
-      ease: "easeIn",
-      repeatDelay: dura / 2 + del,
-    },
-  };
-
-  return (
-    <div className="ball">
-      <motion.span
-        className="ballStyle"
-        transition={bounceTransition}
-        animate={{
-          x: ["80px", "-80px"],
-          backgroundColor: ["#000", "#838383"],
-          opacity: [0, 0.8],
-        }}
-      >
-       <img className="icon-swipe" src="../icons/swipe-back.svg" />
-      </motion.span>
-    </div>
-  );
 }

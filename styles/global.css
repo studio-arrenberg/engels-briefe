@@ -116,6 +116,10 @@ body {
   user-select: None;
 }
 
+/* 
+img {
+  display: none !important;
+} */
 .container {
   height: 100vh;
   width: 100%;
@@ -179,7 +183,7 @@ nav {
 }
 
 .menu_right a:hover,
-.active {
+.menu_right a.activ {
   text-decoration: none;
   opacity: 1;
 }
@@ -284,8 +288,8 @@ main {
 
 .intro-stage {
   position: fixed;
-  width: 500px;
-  padding-left: 0px;
+  width: 750px;
+  padding-left: 200px;
   top: 0px;
   height: 100%;
   z-index: 250;
@@ -294,10 +298,17 @@ main {
   justify-content: center;
 }
 
+.intro-stage h1 {
+  margin-top: 20px;
+  font-size: 2.8rem;
+  line-height: 3.2rem;
+}
+
+
 .intro-stage p {
   margin-top: 20px;
-  font-size: 1.2rem;
-  line-height: 1.5rem;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
 }
 
 .no-scroll {
@@ -425,6 +436,12 @@ main {
   margin: 150px 50px;
   width: 750px;
   height: 300px;
+  display: flex;
+}
+
+.item_preview .bildnachweis{
+  margin-bottom: -30px;
+  display: block;
 }
 
 .item_preview img {
@@ -672,10 +689,19 @@ img {
 .digitalisate img {
   margin-bottom: 20px;
   width: 100%;
-
   -webkit-filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.65));
   filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.65));
 }
+
+.vergleichs-ansicht {
+  transition-delay: 0.2;
+  transition: all ease-in-out 0.4s ;
+}
+
+.leseansicht-true .vergleichs-ansicht {
+  opacity: 0.3;
+}
+
 
 .brieftext {
   width: 800px;
@@ -1127,7 +1153,7 @@ table {
 
 .themen img {
   height: 300px;
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 .themen label {

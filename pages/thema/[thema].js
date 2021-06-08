@@ -55,10 +55,11 @@ export function Thema({ data }) {
         >
           <div key={data.id} className="item_preview">
             <img src={`../pictures/themen/thumbnails/${data.picture}`} />
+            <span className="bildnachweis">{data.bildnachweis}</span>
+
             <div className="item_description">
               <h2>{data.title}</h2>
               <p>{data.beschreibung.split('\n').map( (it, i) => <div key={'x'+i}>{it}</div> )}</p>
-              <span className="bildnachweis">{data.bildnachweis}</span>
             </div>
           </div>
         </motion.div>
