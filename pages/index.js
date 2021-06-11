@@ -10,7 +10,7 @@ import {useState} from "../components/store.js";
 
 export default function Home() {
 
-  useState.setState({ ScrollBriefe: 0 })
+  useState.setState({ ScrollBriefe: 0, ScrollThemen: 0, ScrollFamilie: 0, })
 
   return (
     <Layout>

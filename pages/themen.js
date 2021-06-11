@@ -2,11 +2,21 @@ import Head from "next/head";
 import Layout from "../components/layout";
 import Link from "next/link";
 import data from "../public/data.json";
-import { motion } from "framer-motion";
+import { motion, useViewportScroll } from "framer-motion";
 import constants from "../components/constants";
 import IdleTimer from "../components/IdleTimer";
+import {useState} from "../components/store.js";
 
 export default function Briefe() {
+
+  const {ScrollThemen} = useState();
+  
+  React.useEffect(() => {
+    if (ScrollThemen > 0 || ScrollThemen == 0) {
+      window.scrollTo(ScrollThemen, 0);
+    }
+  });
+
   return (
     <Layout home>
       <Head>
@@ -29,6 +39,8 @@ export default function Briefe() {
 
 export function Thema() {
 
+  const { scrollX } = useViewportScroll();
+
   return data.themen.map((data, id) => {
     return (
       <div className="item" key={`${data.id}`}>
@@ -39,7 +51,7 @@ export function Thema() {
           layoutId={`${data.id}`}
         >
           <Link href="/thema/[thema]" as={`/thema/${data.id}`} scroll={false} >
-            <a>
+            <a onClick={() => useState.setState({ ScrollThemen: window.scrollX })}>
               <div key={data.id} className="item_preview">
                 <img src={`../pictures/themen/thumbnails/${data.picture}`} />
                 <span className="bildnachweis">{data.bildnachweis}</span>  

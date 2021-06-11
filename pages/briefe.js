@@ -11,12 +11,11 @@ import {useState} from "../components/store.js";
 
 export default function Page() {
 
-  const {count, increase, ScrollBriefe} = useState();
+  const {ScrollBriefe} = useState();
   
   React.useEffect(() => {
-    if (ScrollBriefe > 0) {
+    if (ScrollBriefe > 0 || ScrollBriefe == 0) {
       window.scrollTo(ScrollBriefe, 0);
-      // alert('apply scroll position: '+ScrollBriefe);
     }
   });
 

@@ -2,11 +2,21 @@ import Head from "next/head";
 import Layout from "../components/layout";
 import Link from "next/link";
 import data from "../public/data.json";
-import { motion } from "framer-motion";
+import { motion, useViewportScroll } from "framer-motion";
 import constants from "../components/constants";
 import IdleTimer from "../components/IdleTimer";
+import {useState} from "../components/store.js";
 
 export default function Briefe() {
+
+  const {ScrollFamilie} = useState();
+  
+  React.useEffect(() => {
+    if (ScrollFamilie > 0 ||ScrollFamilie == 0) {
+      window.scrollTo(ScrollFamilie, 0);
+    }
+  });
+
   return (
     <Layout home>
       <Head>
@@ -29,6 +39,9 @@ export default function Briefe() {
 }
 
 export function Familie({ data }) {
+
+  const { scrollX } = useViewportScroll();
+
   return data.familie.map((data) => {
     return (
       <div className="item" key={`${data.id}`}>
@@ -43,7 +56,7 @@ export function Familie({ data }) {
             as={`/person/${data.id}`}
             scroll={false}
           >
-            <a>
+            <a onClick={() => useState.setState({ ScrollFamilie: window.scrollX })}>
               <div className="item_preview">
                 <img src={`../pictures/personen/thumbnails-jpg-50-png-40/${data.picture}`} />
 
