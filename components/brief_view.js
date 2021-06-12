@@ -76,12 +76,22 @@ export default function Brief({ data }) {
                           .map((data) => data.name
                         )}
                       </span>
+                      
                 </h2>
 
+                {/* Postscriptum */}
+                <p><i><span className="name">{data.postscriptum}</span></i>
+                      <br></br>
+                      <br></br></p>
+
                 {/* themen */}
+                
                 {data.themen.name.map((item, index) => (
-                  <p>{item}</p>
+                  <p>
+                    
+                    {item}</p>
                 ))}
+                
               </div>
             </motion.div>
           </a>

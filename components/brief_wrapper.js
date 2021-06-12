@@ -243,14 +243,19 @@ export default function Brief_wrapper(props) {
                     <span className="name">{item.name}</span>
                     <br></br>
                     <span className="name">{item.lebzeit}</span>
+                    
                   </h2>
                   {/* get the ort */}
                   <h3>
+                  <i><span className="name">{data.postscriptum}</span></i>
+                  <br></br>
+                  <br></br>
                     {orte
                       .filter((item) => {
                         return item.id === data.sender.ort;
                       })
                       .map((data) => data.title)}
+                      
                   </h3>
                 </div>
 
@@ -280,6 +285,8 @@ export default function Brief_wrapper(props) {
                   </h2>
                   {/* get the ort */}
                   <h3>
+                  <br></br>
+                  <br></br>
                     {orte
                       .filter((item) => {
                         return item.id === data.empfänger.ort;
@@ -399,7 +406,7 @@ export default function Brief_wrapper(props) {
             <a className={`${isView == true ? "active" : null}`} onClick={() => setView(true)}>
               <div >
                 <label>Vergleichsansicht</label>
-                <p>Betrachten Sie hier den originalen Brief und können ihn mit der transkribierten Version vergleichen.</p>
+                <p>Betrachten Sie das originale Dokument um es mit der transkribierten Version zu vergleichen.</p>
               </div>
               <img src={`../icons/vergleichsansicht.svg`} />
             </a>
@@ -408,7 +415,7 @@ export default function Brief_wrapper(props) {
             <img src={`../icons/normalisierte-ansicht.svg`} />
               <div>
                 <label>Normalisierte Leseansicht</label>
-                <p>Sehen Sie sich hier den Brief in einer zum lesen optimierten Ansicht inklusive Stellenerläuterungen an.</p>
+                <p>Betrachten Sie den Brief in einer für das Lesen optimierten Ansicht mit zusätzlichen Stellenerläuterungen.</p>
               </div>
             </a>
           </div>

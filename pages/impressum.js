@@ -47,7 +47,7 @@ export default function Briefe() {
         Digitale kommentierte Online-Edition.<br /><br /> Hg. von Wolfgang Lukas, Fabian Etling und Ulrich Rummel, in Verbindung mit David Grieshammer, Tim Helfendörfer und Kristian Wolf. <br />Wuppertal 2021ff.
         </p>
 
-        <img className="logo" src="../pictures/logos/onlineedition_qrcode.svg" />
+        <img className="qrcode" src="../pictures/logos/onlineedition-qr-code.svg" />
 
       </motion.div>
 
