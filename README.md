@@ -8,7 +8,6 @@ Repo für das [Interface der Engels Ausstellung](https://engels.arrenberg.studio
 Nodejs # nodejs needs to be installed seperately
 npm # will be installed in the Git setup process
 ```
-
 ## React Commands
  
 ```bash
@@ -20,6 +19,14 @@ npm run start
 # on Windows
 npm run start_windows
 ```
+
+### Error on `npm start`
+To resolve this error go to `node_modules/next/dist/next-server/server/next-server.js` and change `bubbleNoFallback` to `false`.
+```js
+const bubbleNoFallback=!!query._nextBubbleNoFallback; // previous
+const bubbleNoFallback=false; // changed to resolve the issue
+```
+[Further Read](https://github.com/vercel/next.js/discussions/25436) at NextJs Discussion
 
 ## Briefe
 

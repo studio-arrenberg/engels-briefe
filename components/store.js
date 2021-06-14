@@ -5,6 +5,12 @@ export const [useState] = create(set => ({
     ScrollBriefe: 0,
     ScrollThemen: 0,
     ScrollFamilie: 0,
+    reset: () =>
+        set(state => ({ 
+            ScrollBriefe: 0, 
+            ScrollThemen: 0, 
+            ScrollFamilie: 0
+        })),
     increase: () =>
         set(state => ({
             count: state.count + 1
