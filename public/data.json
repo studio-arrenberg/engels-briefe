@@ -12,7 +12,7 @@
         {
             "id" : "4",
             "datum" : "12. Mai 1791",
-            "themen" : {"name":["Religion", "Liebe/Ehe"], "id":[1,3]},
+            "themen" : {"name":["Religion", "Liebe / Ehe"], "id":[1,3]},
             "sender": {"name":"Friedrich Christian Hoffmann","ort":"4", "id":"1"},
             "empfänger" : {"name": "Johann Caspar Engels", "ort": "1", "id":"3"},
             "text" : "Mein werther Freund! Nach meinem Wunsch, und nach meiner Hoffnung sind Sie, wenn Sie diesen Brief erhalten, von Ihrer Synodal-Reise gesund und glücklich zurückgekommen; Ihrer Bitte, daß ich Ihnen eine etwaige Beschreibung des Characters, der Gesinnungen, und der Familie der Demois.",
@@ -22,7 +22,7 @@
         {
             "id" : "21",
             "datum" : "9. September 1791",
-            "themen" : {"name":["Liebe/Ehe","Religion"], "id":[3,1]},
+            "themen" : {"name":["Liebe / Ehe","Religion"], "id":[3,1]},
             "sender": {"name":"Johann Caspar Engels","ort":"1", "id":"3"},
             "empfänger" : {"name": "Louise Engels, geb. Noot", "ort": "12", "id":"2"},
             "text" : "Noch ehe ich mich schlafen lege, muß ich dir sagen: daß ich unter der Güte Gottes recht vergnügt gereist und wohlbehalten angekommen bin. Just um 9 Uhr, wie ich dir auch gesagt hatte. Du, meine beste innigst Verbundene, wirst mit mir dafür den L. Himmlischen Vater preisen, der mich nun so ofte immer glücklich und unversehrt hin und her gebracht, und dadurch noch meinen Cörper gestärkt hat.",
@@ -32,7 +32,7 @@
         {
             "id" : "22",
             "datum" : "10. September 1791",
-            "themen" : {"name":["Liebe/Ehe","Religion"], "id":[3,1]},
+            "themen" : {"name":["Liebe / Ehe","Religion"], "id":[3,1]},
             "sender": {"name":"Louise Engels, geb. Noot","ort":"12", "id":"2"},
             "empfänger" : {"name": "Johann Caspar Engels", "ort": "1", "id":"3"},
             "text" : "Wie freue ich mich daß Du glücklich, gesund und munter zu Hause gekommen bist, und Dich nach der Reise so wohl befindest – der gütige Gott seye von ganzem Herzen dafür gedankt daß Er Dich begleitet und vor Unglück bewahret hat – Er der liebevolle Menschenhüter seye Dir dann auf Deiner nächsten Reise hierhin auch wieder recht nahe und führe Dich doch gesund und wohl in meine Armen.",
@@ -42,7 +42,7 @@
         {
             "id" : "29",
             "datum" : "25. Oktober 1791",
-            "themen" : {"name":["Reisen","Religion","Liebe/Ehe"], "id":[1,2,3,5]},
+            "themen" : {"name":["Reisen","Religion","Liebe / Ehe"], "id":[1,2,3,5]},
             "sender": {"name":"Louise Engels, geb. Noot","ort":"1", "id":"2"},
             "empfänger" : {"name": "Johann Caspar Engels", "ort": "10", "id":"3"},
             "text" : "Deine beyde liebe Briefe habe ich vorgestern Morgen zugleich erhalten, der aus Schwalbach muß also Unterwegens liegen geblieben seyn – wie groß war meine Freude als ich etwas von Deiner lieben Hand erblickte, und die erfreuliche Nachricht las, daß Du mein Bester! ",
@@ -85,7 +85,7 @@
             "id" : "130",
             "title" : "Liebe Elise.",
             "datum" : "21. September 1816",
-            "themen" : {"name":["Religion", "Liebe/Ehe"], "id":[1,3]},
+            "themen" : {"name":["Religion", "Liebe / Ehe"], "id":[1,3]},
             "sender": {"name":"Friedrich Engels sen.","ort":"1", "id":"9"},
             "empfänger" : {"name": "Elise van Haar", "ort": "8", "id":"5"},
             "text" : "An diesem ruhigen Abende, wo alle Arbeiten für diese Woche ruhen, und alles sich auf den kommenden Tag des Herrn vorbereitet – dachte ich einige Augenblicke Dir, der Geliebten meines Herzens zu widmen. Die ganze Woche hatte ich den heutigen Abend dazu bestimmt, und glücklicherweise kommt mir kein Hinderniß in den Weg.",
@@ -96,7 +96,7 @@
             "id" : "169",
             "title" : "",
             "datum" : "3. Juli 1818",
-            "themen" : {"name":["Religion", "Liebe/Ehe", "Reisen"], "id":[1,2,3,6]},
+            "themen" : {"name":["Religion", "Liebe / Ehe", "Reisen"], "id":[1,2,3,6]},
             "sender": {"name":"Friedrich Engels sen.","ort":"1", "id":"9"},
             "empfänger" : {"name": "Elise van Haar", "ort": "8", "id":"5"},
             "text" : "Mit welchem frohen, seligen Gefühle ich jetzt an dich meine gute innigst geliebte Elise schreibe, kann ich mit Worten nicht ausdrücken; dein mit mir so ganz stimmendes Herz wird es kennen. Ich schreibe nämlich mit der völligen Einwilligung meiner lieben Eltern. ",
@@ -118,7 +118,7 @@
             "id" : "255",
             "title" : "",
             "datum" : "9. Juli 1822",
-            "themen" : {"name":["Liebe/Ehe", "Reisen"], "id":[3,2,6]},
+            "themen" : {"name":["Liebe / Ehe", "Reisen"], "id":[3,2,6]},
             "sender": {"name":"Friedrich Engels sen.","ort":"1", "id":"9"},
             "empfänger" : {"name": "Elise Engels, geb. van Haar", "ort": "8", "id":"5"},
             "text" : "Dein lieber Brief vom 5. ds. gewährte mir eine rechte Beruhigung, denn ich sahe daraus, daß es Dir und dem kleinen Herzenstippel gut geht. Du glaubst gar nicht, Herzensmama, wie sehr Du u. er mir ans Herz gewachsen seyd, u. Du glaubst auch gar nicht, wie unbehaglich, wie ekelig mir zu Muthe ohne Euch ist.",
@@ -129,7 +129,7 @@
             "id" : "265",
             "title" : "",
             "datum" : "31. Mai 1823",
-            "themen" : {"name":["Liebe/Ehe"], "id":[3,6]},
+            "themen" : {"name":["Liebe / Ehe"], "id":[3,6]},
             "sender": {"name":"Friedrich Engels sen.","ort":"1", "id":"9"},
             "empfänger" : {"name": "Elise Engels, geb. van Haar", "ort": "8", "id":"5"},
             "text" : "Daß dich liebe Elise, das Ausbleiben meines Briefes etwas traurig gemacht hat, freut mich ein klein wenig, denn ich nehme daraus wahr, daß du mich doch nicht gut entbehren kannst. ",
@@ -151,7 +151,7 @@
             "id" : "295",
             "title" : "",
             "datum" : "16. August 1827",
-            "themen" : {"name":["Liebe/Ehe"], "id":[3,6]},
+            "themen" : {"name":["Liebe / Ehe"], "id":[3,6]},
             "sender": {"name":"Friedrich Engels sen.","ort":"11", "id":"9"},
             "empfänger" : {"name": "Elise Engels, geb. van Haar", "ort": "8", "id":"5"},
             "text" : "Seit Vorgestern Abend sind wir hier in Paris liebe Elise, wo wir zwar etwas ermüdet nach einer 32stündigen Fahrt auf der Diligence, aber sehr vergnügt ankamen. In Boulogne waren wir in einem Hôtel welches so sehr auf englischen Fuß eingerichtet war daß selbst sämmtliche Domestiken kaum französisch verstanden.",
@@ -167,7 +167,8 @@
             "empfänger" : {"name": "Elise Engels, geb. van Haar", "ort": "1", "id":"5"},
             "text" : "Soeben Donnerstag Morgen um 7 Uhr sind wir hier glücklich angekommen, nachdem wir eine ungewöhnlich lange Überfahrt gehabt haben. ",
             "digitalisate": {"cover": "FE_307.2.png", "page": ["FE_307.1.png"]},
-            "audio" :"306.mp3"
+            "audio" :"306.mp3",
+            "postscriptum" :"Postscriptum Friedrich Engels Junior"
         },
         {
             "id" : "308",
@@ -266,14 +267,14 @@
             "lebzeit":"",
             "generation": "1",
             "picture":"Johann_Caspar_Engels_I.jpg",
-            "bildnachweis":""
+            "bildnachweis":"Museum für Industriekultur, Wuppertal"
         },
         {
             "id":"1",
             "name":"Christian Friedrich Hoffmann",
             "beschreibung":"Friedrich Hoffmann war der Bruder von Henriette Catharina Siebel (1750– 1814). Wie seine Schwester war er eng verbunden mit dem Pietisten Samuel Collenbusch (1724–1803). Johann Caspar Engels II und Luise Noot gehörten bereits vor ihrer Heirat, die von Collenbusch befördert wurde, ebenfalls zu dessen Kreis.",
             "kurzbeschreibung":"Friedrich Hoffmann war der Bruder von Henriette Catharina Siebel (1750– 1814). Wie seine Schwester war er eng verbunden mit dem Pietisten Samuel Collenbusch (1724–1803).",
-            "lebzeit":"1759 - 1829",
+            "lebzeit":"1759 – 1829",
             "generation": "2",
             "picture":"Unbekannt.png",
             "bildnachweis":""
@@ -283,47 +284,47 @@
             "name":"Ida Louise Friederike Noot",
             "beschreibung":"Louise Noot war das zehnte Kind einer angesehenen Familie aus Ruhrort. 1790 hielt sie sich einige Zeit im Haushalt ihrer Freundin Henriette Catharina Siebel (1750–1814) auf, wo sie Johann Caspar Engels II kennengelernt haben könnte. Die Siebels, Louise Noot und Johann Caspar Engels II waren eng mit dem Pietisten Samuel Collenbusch (1724–1803) verbunden.",
             "kurzbeschreibung":"Louise Noot war das zehnte Kind einer angesehenen Familie aus Ruhrort.",
-            "lebzeit":"1762 - 1822",
+            "lebzeit":"1762 – 1822",
             "generation": "2",
             "picture":"Ida_Louise_Friederike_Noot.jpg",
-            "bildnachweis":""
+            "bildnachweis":"Museum und Forum Schloss Homburg, Nümbrecht"
         },
         {
             "id":"3",
             "name":"Johann Caspar Engels II",
             "beschreibung":"Johann Caspar Engels II heiratete 1791 in zweiter Ehe Louise Noot. Beide waren tief im Wuppertaler Pietismus verwurzelt. Als Unternehmer baute er die väterliche Firma durch Intensivierung des Verlagssystems und die Einführung moderner Maschinen aus. Daneben war er Mitbegründer der Vereinigt- Evangelischen Gemeinde Unterbarmen und begeisterter Organist.",
             "kurzbeschreibung":"Johann Caspar Engels II heiratete 1791 in zweiter Ehe Louise Noot.",
-            "lebzeit":"1753 - 1821",
+            "lebzeit":"1753 – 1821",
             "generation": "2",
             "picture":"Johann_Caspar_Engels_II.jpg",
-            "bildnachweis":""
+            "bildnachweis":"Museum für Industriekultur, Wuppertal"
         },
         {
             "id":"7",
             "name":"Gerhard Bernhard van Haar",
             "beschreibung":"Gerhard Bernhard van Haar, der eigentlich Theologe werden wollte, machte mit 21 Jahren das Lehrerexamen und stieg im Hammer Gymnasium zum Rektor auf. Daneben betrieb er engagierte theologische Studien. Die Pfarrerstochter Franziska Christina Snethlage (1758–1846) wurde seine zweite Frau. Mit Johann Caspar Engels II stand er in engem geistig-religiösen Austausch.",
             "kurzbeschreibung":"Gerhard Bernhard van Haar, der eigentlich Theologe werden wollte, machte mit 21 Jahren das Lehrerexamen und stieg im Hammer Gymnasium zum Rektor auf.",
-            "lebzeit":"1760 - 1837",
+            "lebzeit":"1760 – 1837",
             "generation": "2",
             "picture":"Gerhard_Bernhard_van_Haar.jpg",
-            "bildnachweis":""
+            "bildnachweis":"Museum für Industriekultur, Wuppertal"
         },
         {
             "id":"5",
             "name":"Elise Engels (geb. van Haar)",
             "beschreibung":"Elise van Haar genoss die Erziehung höherer Töchter und dazu eine pietistische Unterweisung. Den Sommer 1816 verbrachte sie im Haus der Familie Engels in Barmen, wo die zunächst geheim gehaltene Liebe zu Friedrich Engels sen. begann. Hochzeit wurde erst 1819 nach einer längeren Verlobungszeit gefeiert. In der Firma war Elise Unterschriftenbevollmächtigte ihres Mannes und an den Geschäftsentscheidungen beteiligt.",
             "kurzbeschreibung":"Elise van Haar genoss die Erziehung höherer Töchter und dazu eine pietistische Unterweisung.",
-            "lebzeit":"1797 - 1873",
+            "lebzeit":"1797 – 1873",
             "generation": "3",
             "picture":"Elisabeth_Franziska_Mauritia_Engels(van Haar).jpg",
-            "bildnachweis":""
+            "bildnachweis":"Familie Hermann Engels, Engelskirchen"
         },
         {
             "id":"6",
             "name":"Karl Wilhelm Moritz Snethlage",
             "beschreibung":"Karl Snethlage war ein Schwager von Friedrich Engels sen. Er entstammte einer westfälischen reformierten Familie von Predigern, wurde selbst Pfarrer und 1842 Oberhofprediger in Berlin. Dank seiner Intervention beim Justizminister durfte der steckbrieflich gesuchte Friedrich Engels 1860 zur Beerdigung seines Vaters nach Preußen einreisen.",
             "kurzbeschreibung":"Karl Snethlage war ein Schwager von Friedrich Engels sen. Er entstammte einer westfälischen reformierten Familie von Predigern, wurde selbst Pfarrer und 1842 Oberhofprediger in Berlin.",
-            "lebzeit":"1792 - 1871",
+            "lebzeit":"1792 – 1871",
             "generation": "3",
             "picture":"Karl Wilhelm Moritz Snethlage.jpg",
             "bildnachweis":"Bibliothek des Zentrums für Stadtgeschichte und Industriekultur Wuppertal"
@@ -333,23 +334,22 @@
             "name":"Friedrich Engels sen.",
             "beschreibung":"Friedrich Engels durchlief in Frankfurt am Main eine kaufmännische Ausbildung. Dort erlernte er zudem Fremdsprachen und verschiedene Instrumente. Er entwickelte die väterliche Firma entsprechend seinem ausgeprägten Unternehmergeist zu einem modernen und internationalen Unternehmen. 1819 heiratete er Elise van Haar.",
             "kurzbeschreibung":"Friedrich Engels durchlief in Frankfurt am Main eine kaufmännische Ausbildung. Dort erlernte er zudem Fremdsprachen und verschiedene Instrumente.",
-            "lebzeit":"1769 - 1860",
+            "lebzeit":"1769 – 1860",
             "generation": "3",
             "picture":"Friedrich_Engels_sen.jpg",
-            "bildnachweis":""
+            "bildnachweis":"Gerd Neumann, Stadt Wuppertal, Medienzentrum"
         },
         {
             "id":"4",
             "name":"Friedrich Engels Jun.",
             "beschreibung":"Friedrich Engels bereiste als 17-Jähriger 1838 mit seinem Vater erstmals England. Als sein Vater 1858 auf einer Reise nach Manchester an seine Ehefrau Elise über den ältesten Sohn berichtete, betätigte sich der Geschäftsführer von ‚Ermen & Engels‘ seit einigen Jahren zusammen mit Karl Marx (1818–1883) als Theoretiker des Sozialismus. Bereits 1848 war das ‚Kommunistische Manifest‘ erschienen.",
             "kurzbeschreibung":"Friedrich Engels bereiste als 17-Jähriger 1838 mit seinem Vater erstmals England.",
-            "lebzeit":"1820 - 1895",
+            "lebzeit":"1820 – 1895",
             "generation": "4",
             "picture":"Friedrich_Engels_jun.jpg",
-            "bildnachweis":""
+            "bildnachweis":"Wikimedia Commons"
         }
         
-    
     ],
     "orte":[
         {

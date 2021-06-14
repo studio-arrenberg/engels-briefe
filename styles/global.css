@@ -452,6 +452,10 @@ main {
   height: 100px;
   margin: 25px;
 }
+.qrcode{
+  height: 300px;
+  margin-left: -80px;
+}
 
 .scrollable-index {
   width: calc(800px * 13);
