@@ -1,7 +1,10 @@
 import React, { useRef, useEffect, useState } from "react";
-import WaveSurfer from "wavesurfer.js";
+// import WaveSurfer from "wavesurfer.js";
 import { FiSkipBack } from "react-icons/fi";
 // import ReactTimeout from "react-timeout";
+
+import dynamic from "next/dynamic";
+const wavesurfer = dynamic(() => import("wavesurfer.js"), { ssr: false });
 
 const formWaveSurferOptions = (ref) => ({
   container: ref,
