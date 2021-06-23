@@ -23,7 +23,7 @@
     "react-timeout": "^2.0.0",
     "react-window-size": "^1.2.2",
     "use-long-press": "^1.0.5",
-    "wavesurfer.js": "^2.0.0-beta01",
+    "wavesurfer.js": "^2.2.1",
     "zustand": "^3.5.2"
   },
   "devDependencies": {

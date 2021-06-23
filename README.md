@@ -28,6 +28,10 @@ const bubbleNoFallback=false; // changed to resolve the issue
 ```
 [Further Read](https://github.com/vercel/next.js/discussions/25436) at NextJs Discussion
 
+### WaveSurfer error
+`window` is not defined.
+[Further Read](https://github.com/katspaugh/wavesurfer.js/issues/2177)
+
 ## Briefe
 
 | Nummer _ID_ | Author                       | Datum         | Ort        | Vorhanden          | Exportiert | Fertig | Audio              | Kommentar                                     |

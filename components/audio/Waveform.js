@@ -4,7 +4,10 @@ import { FiSkipBack } from "react-icons/fi";
 // import ReactTimeout from "react-timeout";
 
 import dynamic from "next/dynamic";
-const wavesurfer = dynamic(() => import("wavesurfer.js"), { ssr: false });
+const WaveSurfer = dynamic(() => import("wavesurfer.js"), { ssr: false });
+
+// import dynamic from 'next/dynamic'
+// const WaveSurfer = dynamic(() => import("wavesurfer.js"))
 
 const formWaveSurferOptions = (ref) => ({
   container: ref,
@@ -31,6 +34,10 @@ export default function Waveform({ url }) {
 
   // create new WaveSurfer instance
   // On component mount and when url changes
+  // componentsDidMount() {
+  //   console.log('sdds');
+  //   alert('sd')
+  // }
   useEffect(() => {
     setPlay(false);
 
