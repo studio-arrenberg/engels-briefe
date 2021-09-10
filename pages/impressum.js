@@ -21,8 +21,8 @@ export default function Briefe() {
         variants={constants.animation.section_exit}
       >
 
-     <h1>Die Medieninstallation wurde im Rahmen eines Kooperationsprojekts zwischen der Bergischen Universität Wuppertal und dem Historischen Zentrum sowie Stadtarchiv Wuppertal erarbeitet. Für finanzielle Förderung danken wir dem NRW-Ministerium für Wisenschaft und Kultur sowie der Bergischen Universität.</h1>
-      <h2>Museumsinstalation</h2>
+     <h1>Die Medieninstallation wurde im Rahmen eines Kooperationsprojekts zwischen der Bergischen Universität Wuppertal, dem Museum Industriekultur Wuppertal und dem Stadtarchiv Wuppertal erarbeitet. Für finanzielle Förderung danken wir dem Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen sowie der Bergischen Universität Wuppertal.</h1>
+      <h2>Museumsinstallation</h2>
       <p>
         <b>Philologische Inhalte (Transkriptionen, Textkonstitution, Kommentare)</b> <br />
         Wolfgang Lukas, Ulrich Rummel <br /> <br />
@@ -44,7 +44,7 @@ export default function Briefe() {
         <h2>Online-Edition</h2>
         <p>
         Industriegeschichte privat: Die Familie Engels in Briefen (1791–1858) <br /> 
-        Digitale kommentierte Online-Edition.<br /><br /> Hg. von Wolfgang Lukas, Fabian Etling und Ulrich Rummel, in Verbindung mit David Grieshammer, Tim Helfendörfer und Kristian Wolf. <br />Wuppertal 2021ff.
+        Digitale kommentierte Online-Edition.<br /><br /> Hg. von Wolfgang Lukas, Fabian Etling und Ulrich Rummel, in Verbindung mit David Grieshammer, Tim Helfensdörfer und Kristian Wolf. <br />Wuppertal 2021ff.
         </p>
 
         <img className="qrcode" src="../pictures/logos/onlineedition-qr-code.svg" />

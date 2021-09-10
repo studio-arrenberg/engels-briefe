@@ -31,9 +31,7 @@ export default function Home() {
         <div className="intro-stage">
           <h1>Briefe der Familie Engels</h1>
           <p>
-            Entdecken Sie die Korrospondenz der Familie Engels. In diesem
-            Exponat erhalten Sie den Einblick in 18 ausgewählte Briefe, welche
-            die historische Entwicklung über die Jahrzehnte darstellen.
+          Erhalten Sie anhand von 18 ausgewählten Briefen aus dem Zeitraum von 1791 bis 1858 Einblick in das Familien- und Geschäftsleben der Eltern und Großeltern von Friedrich Engels.
           </p>
           <a className="button">Korrespondenz entdecken</a>
           
@@ -50,7 +48,7 @@ export default function Home() {
           <div className="scrollable-index">
             {/* Reihe 1 */}
             <Brief id="1" />
-            <Person id="1" />
+            <Person id="8" />
             <Brief id="22" />
             <Thema id="2" />
             <Brief id="68" />
@@ -67,7 +65,7 @@ export default function Home() {
             <Brief id="4" />
             <Ort id="2" />
             <Brief id="29" />
-            <Person id="7" />
+            <Person id="5" />
             <Brief id="75" />
             <Brief id="169" />
             <Person id="10" />
@@ -77,7 +75,7 @@ export default function Home() {
             <Brief id="342" />
 
             {/* Reihe 3 */}
-            <Person id="8" />
+            <Person id="5" />
             <Ort id="1" />
             <Person id="3" />
             <Ort id="4" />
