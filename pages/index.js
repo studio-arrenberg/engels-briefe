@@ -6,11 +6,10 @@ import Link from "next/link";
 import { themen, familie, orte, briefe } from "../public/data.json";
 import constants from "../components/constants";
 import { FiArrowRight } from "react-icons/fi";
-import {useState} from "../components/store.js";
+import { useState } from "../components/store.js";
 
 export default function Home() {
-
-  useState.setState({ ScrollBriefe: 0, ScrollThemen: 0, ScrollFamilie: 0, })
+  useState.setState({ ScrollBriefe: 0, ScrollThemen: 0, ScrollFamilie: 0 });
 
   return (
     <Layout>
@@ -31,16 +30,15 @@ export default function Home() {
         <div className="intro-stage">
           <h1>Briefe der Familie Engels</h1>
           <p>
-          Erhalten Sie anhand von 18 ausgewählten Briefen aus dem Zeitraum von 1791 bis 1858 Einblick in das Familien- und Geschäftsleben der Eltern und Großeltern von Friedrich Engels.
+            Erhalten Sie anhand von 18 ausgewählten Briefen aus dem Zeitraum von
+            1791 bis 1858 Einblick in das Familien- und Geschäftsleben der
+            Eltern und Großeltern von Friedrich Engels.
           </p>
           <a className="button">Korrespondenz entdecken</a>
-          
         </div>
         <Link href="/impressum" scroll={false}>
-        <a className="impressum-link">Impressum</a>
-      </Link>
-      
-
+          <a className="impressum-link">Über das Projekt</a>
+        </Link>
 
         <div className="intro-stage-background"></div>
 
@@ -120,7 +118,9 @@ export function Ort({ id }) {
         {/* <Link href="/thema/[thema]" as={`/thema/${item.id}`}> */}
         {/* <a> */}
         <div key={item.id} className="item_preview">
-          <img src={`../pictures/orte/thumbnails-jpg-50-png-40/${item.picture}`} />
+          <img
+            src={`../pictures/orte/thumbnails-jpg-50-png-40/${item.picture}`}
+          />
           <div className="item_description">
             {/* <h2>{item.title}</h2> */}
             {/* <p>{item.beschreibung.split('\n').map( (it, i) => <div key={'x'+i}>{it}</div> )}</p> */}
@@ -151,7 +151,10 @@ export function Brief({ id }) {
           >
             {/* bild */}
             {item.digitalisate.page.map((item, index) => (
-              <img src={`../../pictures/digitalisate/comp-600px_60p/${item}`} key={index} />
+              <img
+                src={`../../pictures/digitalisate/comp-600px_60p/${item}`}
+                key={index}
+              />
             ))}
 
             {/* <div className="item_description">
@@ -165,12 +168,11 @@ export function Brief({ id }) {
                   </span>
               </h2>
               {/* themen */}
-              {/* {item.themen.name.map((item, index) => (
+            {/* {item.themen.name.map((item, index) => (
                 <p>{item}</p>
               ))}
             </div>
              */}
-
           </motion.div>
         </a>
       </Link>
@@ -194,7 +196,9 @@ export function Person({ id }) {
         <Link href="/person/[person]" as={`/person/${item.id}`}>
           <a>
             <div className="item_preview">
-              <img src={`../pictures/personen/thumbnails-jpg-50-png-40/${item.picture}`} />
+              <img
+                src={`../pictures/personen/thumbnails-jpg-50-png-40/${item.picture}`}
+              />
               {/* <div className="item_description">
                 <p>{item.lebzeit}</p>
 

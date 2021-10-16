@@ -56,14 +56,16 @@ export default function page() {
                         An{" "}
                         <span className="persName">
                           Frau{" "}
-                          <span className="g.rend.script.latin">{" "}
+                          <span className="g.rend.script.latin">
+                            {" "}
                             Elise Engels
                           </span>
                         </span>
                         <br />
                         <span className="small">
                           <span className="g.enc.tagsdecl.suspension.type3">
-                            {" "}Adr)
+                            {" "}
+                            Adr)
                           </span>
                           <span className="expan">
                             Adr<span className="ex">esse</span>
@@ -72,16 +74,21 @@ export default function page() {
                           <span className="persName">
                             <span className="abbr">
                               (
-                              <span className="g.rend.script.latin">{" "}
+                              <span className="g.rend.script.latin">
+                                {" "}
                                 Friedr.
                               </span>
-                               </span>
+                            </span>
                             <span className="expan">
-                              <span className="g.rend.script.latin">{" "}
+                              <span className="g.rend.script.latin">
+                                {" "}
                                 Friedr<span className="ex">ich</span>
                               </span>
                             </span>{" "}
-                            <span className="g.rend.script.latin">{" "}Engels </span>
+                            <span className="g.rend.script.latin">
+                              {" "}
+                              Engels{" "}
+                            </span>
                           </span>
                           <span className="hi">&amp; Co.</span> <br />
                         </span>
@@ -128,7 +135,8 @@ export default function page() {
                   {/* Insert Page 1 */}
 
                   <span className="date text-right">
-                    <span className="g.rend.script.latin">{" "}
+                    <span className="g.rend.script.latin">
+                      {" "}
                       London 26. Juli 1838.
                     </span>
                   </span>
@@ -137,7 +145,7 @@ export default function page() {
                       Liebe{" "}
                       <span className="persName">
                         {" "}
-                        <span className="g.rend.script.latin">{" "} Elise </span>
+                        <span className="g.rend.script.latin"> Elise </span>
                       </span>
                       .
                     </div>
@@ -155,14 +163,13 @@ export default function page() {
                       kommen, nachdem wir eine ungewöhnlich lange{" "}
                       <span className="orig">Ueberfahrt</span>
                       <span className="corr">Überfahrt</span>
-                     <br className="lb" />{" "}
-                      gehabt haben. Wir fuhren nämlich um ½ 1 Uhr Dien
+                      <br className="lb" /> gehabt haben. Wir fuhren nämlich um
+                      ½ 1 Uhr Dien
                       <span className="orig">ﬅ</span>
                       <span className="corr">st</span>ag Mittags
-                     <br className="lb" />{" "}
-                      von
+                      <br className="lb" /> von
                       <span className="placeName">
-                        <span className="g.rend.script.latin">{" "}Rotterdam</span>
+                        <span className="g.rend.script.latin"> Rotterdam</span>
                       </span>{" "}
                       aus, und blieben al<span className="orig">ſ</span>
                       <span className="corr">s</span>o{" "}
@@ -178,27 +185,29 @@ export default function page() {
                       <span className="corr">s</span>ch, jedoch ohne die minde
                       <span className="orig">ﬅ</span>
                       <span className="corr">st</span>e Gefahr,
-                     <br className="lb" />{" "}
-                      der Aufenthalt kam dadurch daß wir wegen niederem
+                      <br className="lb" /> der Aufenthalt kam dadurch daß wir
+                      wegen niederem
                       <span className="orig">Waßer</span>
                       <span className="corr">Wasser</span>
-                     <br className="lb" />{" "}
-                      bei
+                      <br className="lb" /> bei
                       <span className="placeName">
-                        <span className="g.rend.script.latin">{" "}Helvetsluis</span>
-                      </span>
-                      {" "}und bei
+                        <span className="g.rend.script.latin">
+                          {" "}
+                          Helvetsluis
+                        </span>
+                      </span>{" "}
+                      und bei
                       <span className="placeName">
-                        <span className="g.rend.script.latin">{" "}Margate</span>{" "}
+                        <span className="g.rend.script.latin"> Margate</span>{" "}
                       </span>
                       die Anker aus werfen,
-                     <br className="lb" />{" "}
-                      und lange <span className="orig">ﬅ</span>
+                      <br className="lb" /> und lange{" "}
+                      <span className="orig">ﬅ</span>
                       <span className="corr">st</span>ill liegen mußten; es hat
                       uns die<span className="orig">ſ</span>
                       <span className="corr">s</span>es einen
-                     <br className="lb" />{" "}
-                      vollen Tag ge<span className="orig">ſ</span>
+                      <br className="lb" /> vollen Tag ge
+                      <span className="orig">ſ</span>
                       <span className="corr">s</span>chadet. –
                     </p>
                   </span>
@@ -210,11 +219,10 @@ export default function page() {
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span> die ganze Zeit im Bette
                     gelegen,
-                   <br className="lb" />{" "}
-                    wodurch man ihr nach meiner Erfahrung am{" "}
-                    <span className="orig">beßten</span>
+                    <br className="lb" /> wodurch man ihr nach meiner Erfahrung
+                    am <span className="orig">beßten</span>
                     <span className="corr">besten</span> entgeht.
-                   <br className="lb" />{" "}
+                    <br className="lb" />{" "}
                     <span className="persName">Friedrich</span> i
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span> recht munter, wir haben{" "}
@@ -222,40 +230,41 @@ export default function page() {
                     <span className="corr">s</span>chon ehe wir un
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>re
-                   <br className="lb" />
-                    <span className="g.rend.script.latin">{" "}Bagage</span> vom
+                    <br className="lb" />
+                    <span className="g.rend.script.latin"> Bagage</span> vom
                     Zollhau<span className="orig">ſ</span>
                     <span className="corr">s</span>e hohlen konnten einen weiten
-                   <br className="lb" />{" "}
-                    Spatziergang durch
+                    <br className="lb" /> Spatziergang durch
                     <span className="placeName">
-                      <span className="g.rend.script.latin">{" "}London</span>{" "}
+                      <span className="g.rend.script.latin"> London</span>{" "}
                     </span>
                     gemacht.
                   </p>
                   <p className="enc.tagsdecl.indent-medium" id="mark.004">
                     Hoffentlich{" "}
-                    <span className="strike-through" style={{ textDecoration: "line-through" }}>
+                    <span
+                      className="strike-through"
+                      style={{ textDecoration: "line-through" }}
+                    >
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>in
                     </span>{" "}
                     bi<span className="orig">ﬅ</span>
                     <span className="corr">st</span> Du mit den Kindern auch
                     recht wohl;
-                   <br className="lb" />{" "}
-                    in
+                    <br className="lb" /> in
                     <span className="placeName">
-                      <span className="g.rend.script.latin">{" "}Manchester</span>
-                    </span>
-                    {" "}werden wir Nachricht von Dir bekommen,
-                   <br className="lb" />{" "}
-                    worin auch wohl viele Seiden<span className="orig"></span>
+                      <span className="g.rend.script.latin"> Manchester</span>
+                    </span>{" "}
+                    werden wir Nachricht von Dir bekommen,
+                    <br className="lb" /> worin auch wohl viele Seiden
+                    <span className="orig"></span>
                     <span className="corr">-</span>Verkäufe angezeigt werden.
-                   <br className="lb" />{" "}
-                    Dies mal wird wohl kein Auf<span className="orig">ſ</span>
+                    <br className="lb" /> Dies mal wird wohl kein Auf
+                    <span className="orig">ſ</span>
                     <span className="corr">s</span>chlag wohl aber eher das
-                   <br className="lb" />{" "}
-                    Gegentheil zu befürchten <span className="orig">ſ</span>
+                    <br className="lb" /> Gegentheil zu befürchten{" "}
+                    <span className="orig">ſ</span>
                     <span className="corr">s</span>eÿn.
                   </p>
                   <p className="enc.tagsdecl.indent-medium">
@@ -265,21 +274,21 @@ export default function page() {
                     <span className="corr">s</span>erem alten Wirth
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (Hr</span>
+                      (Hr
+                    </span>
                     <span className="expan">
                       H<span className="ex">e</span>r
                       <span className="ex">rn</span>
                     </span>
                     <span className="persName">
-                      <span className="g.rend.script.latin">{" "}Bacon</span>
+                      <span className="g.rend.script.latin"> Bacon</span>
                     </span>
-                   <br className="lb" />{" "}
-                    abge<span className="orig">ﬅ</span>
+                    <br className="lb" /> abge<span className="orig">ﬅ</span>
                     <span className="corr">st</span>iegen, wo ich einen deut
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chen Kellner angetroffen
-                   <br className="lb" />{" "}
-                    habe, was <span className="orig">ſ</span>
+                    <br className="lb" /> habe, was{" "}
+                    <span className="orig">ſ</span>
                     <span className="corr">s</span>ehr angenehm i
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>.
@@ -289,18 +298,16 @@ export default function page() {
                       Durch die Verzögerung bei der{" "}
                       <span className="orig">Ueberfahrt</span>
                       <span className="corr">Überfahrt</span>, werden
-                     <br className="lb" />{" "}
-                      wir uns nur wohl bis den 28. hier aufhalten, und er
+                      <br className="lb" /> wir uns nur wohl bis den 28. hier
+                      aufhalten, und er
                       <span className="orig">ﬅ</span>
                       <span className="corr">st</span>
-                     <br className="lb" />{" "}
-                      am 29. Sonntags nach
+                      <br className="lb" /> am 29. Sonntags nach
                       <span className="placeName">
-                        <span className="g.rend.script.latin">{" "}Manchester</span>
+                        <span className="g.rend.script.latin"> Manchester</span>
                       </span>{" "}
                       fahren, doch hängt das
-                     <br className="lb" />{" "}
-                      auch von der Abfahrt der Wagen ab.
+                      <br className="lb" /> auch von der Abfahrt der Wagen ab.
                     </p>
                   </span>
                   <blockquote className="closer">
@@ -308,21 +315,22 @@ export default function page() {
                       <span className="persName">Friedrich</span> will noch ein
                       paar Worte drunter <span className="orig">ſ</span>
                       <span className="corr">s</span>chreiben.
-                     <br className="lb" />{" "}
-                      <span className="orig">Küße</span>
+                      <br className="lb" /> <span className="orig">Küße</span>
                       <span className="corr">Küsse</span> die Kinder, und grüße
-                      <span className="strike-through" style={{ textDecoration: "line-through" }}>
+                      <span
+                        className="strike-through"
+                        style={{ textDecoration: "line-through" }}
+                      >
                         H
                       </span>{" "}
-                      die{" "}
-                      <span className="persName">Mutter</span>{" "}
+                      die <span className="persName">Mutter</span>{" "}
                       <span className="abbr"> u.</span>
                       <span className="expan">
                         u<span className="ex">nd</span>
                       </span>{" "}
                       <span className="persName">Hannchen</span>,
-                     <br className="lb" />{" "}
-                      die bei Dir angekommen <span className="orig">ſ</span>
+                      <br className="lb" /> die bei Dir angekommen{" "}
+                      <span className="orig">ſ</span>
                       <span className="corr">s</span>eÿn werden.
                     </p>
                   </blockquote>
@@ -334,77 +342,129 @@ export default function page() {
                       u<span className="ex">nd</span>
                     </span>{" "}
                     uns allen
-                   <br className="lb" />{" "}
+                    <br className="lb" />{" "}
                     <div className="signed">
                       Dein
-                     <br className="lb" />{" "}
+                      <br className="lb" />{" "}
                       <span className="persName">Friedrich</span>.
                     </div>
                   </div>
                 </div>
 
-                  <div
-                    className="page g.rend.hand.friedrich-engels"
-                    style={{paddingLeft:"80px", paddingTop:"30px", paddingBottom:"30px"}}
-                    id="index.xml-body.1_div.3"
-                  >
-                    <h2 className="g.rend.hand.friedrich-engels">
-                      <span className="headingNumber">3. </span>
-                    </h2>
-                    <div className="opener">
-                      <span style={{ display: "inline-block" }} width="2cm">
-                        &nbsp;
-                      </span>
-                      <a id="teaser.part.001.s">{/*anchor*/}</a>
-                      <div className="salute">
-                        Liebe <span className="persName">Mutter</span>
-                      </div>
-                    </div>
-                    <span className="reisen">
-                      <p className="enc.tagsdecl.indent-medium" id="mark.003">
-                        Aus den obigen Zeilen des{" "}
-                        <span className="persName">Vaters</span> wir
-                        <span className="orig">ﬅ</span>
-                        <span className="corr">st</span> Du erfahren haben, daß
-                        es uns
-                       <br className="lb" />{" "}
-                        bis jetzt im Ganzen noch recht gut gegangen hat. Ich bin
-                        aber <span className="orig">ſ</span>
-                        <span className="corr">s</span>o verwirrt von
-                       <br className="lb" />{" "}
-                        der Seefahrt – es i<span className="orig">ﬅ</span>
-                        <span className="corr">st</span> mir, als wenn der Boden
-                        unter mir{" "}
-                        <span className="orig">ſ</span>
-                        <span className="corr">s</span>chwankte – und dem
-                       <br className="lb" />{" "}
-                        Getö<span className="orig">ſ</span>
-                        <span className="corr">s</span>e um mich herum, daß ich
-                        Dir nicht viel <span className="orig">ſ</span>
-                        <span className="corr">s</span>chreiben kann. Ich bin in
-                        eine
-                       <br className="lb" />{" "}
-                        ganz neue Welt ver<span className="orig">ſ</span>
-                        <span className="corr">s</span>etzt.
-                        <a id="teaser.part.001.e">{/*anchor*/}</a>
-                      </p>
+                <div
+                  className="page g.rend.hand.friedrich-engels"
+                  style={{
+                    paddingLeft: "80px",
+                    paddingTop: "30px",
+                    paddingBottom: "30px",
+                  }}
+                  id="index.xml-body.1_div.3"
+                >
+                  <h2 className="g.rend.hand.friedrich-engels">
+                    <span className="headingNumber">3. </span>
+                  </h2>
+                  <div className="opener">
+                    <span style={{ display: "inline-block" }} width="2cm">
+                      &nbsp;
                     </span>
-                    <blockquote className="closer">
-                      <p className="inline">
-                        Lebe recht wohl und grüße Alle recht herzlich von Deinem
-                      </p>
-                    </blockquote>
-                    <div className="closer">
-                      <span style={{ display: "inline-block" }} width="15cm">
-                        &nbsp;
-                      </span>
-                      <div className="signed">
-                        <span className="persName">Friedrich</span>
-                      </div>
+                    <a id="teaser.part.001.s">{/*anchor*/}</a>
+                    <div className="salute">
+                      Liebe <span className="persName">Mutter</span>
                     </div>
                   </div>
+                  <span className="reisen">
+                    <p className="enc.tagsdecl.indent-medium" id="mark.003">
+                      Aus den obigen Zeilen des{" "}
+                      <span className="persName">Vaters</span> wir
+                      <span className="orig">ﬅ</span>
+                      <span className="corr">st</span> Du erfahren haben, daß es
+                      uns
+                      <br className="lb" /> bis jetzt im Ganzen noch recht gut
+                      gegangen hat. Ich bin aber <span className="orig">ſ</span>
+                      <span className="corr">s</span>o verwirrt von
+                      <br className="lb" /> der Seefahrt – es i
+                      <span className="orig">ﬅ</span>
+                      <span className="corr">st</span> mir, als wenn der Boden
+                      unter mir <span className="orig">ſ</span>
+                      <span className="corr">s</span>chwankte – und dem
+                      <br className="lb" /> Getö<span className="orig">ſ</span>
+                      <span className="corr">s</span>e um mich herum, daß ich
+                      Dir nicht viel <span className="orig">ſ</span>
+                      <span className="corr">s</span>chreiben kann. Ich bin in
+                      eine
+                      <br className="lb" /> ganz neue Welt ver
+                      <span className="orig">ſ</span>
+                      <span className="corr">s</span>etzt.
+                      <a id="teaser.part.001.e">{/*anchor*/}</a>
+                    </p>
+                  </span>
+                  <blockquote className="closer">
+                    <p className="inline">
+                      Lebe recht wohl und grüße Alle recht herzlich von Deinem
+                    </p>
+                  </blockquote>
+                  <div className="closer">
+                    <span style={{ display: "inline-block" }} width="15cm">
+                      &nbsp;
+                    </span>
+                    <div className="signed">
+                      <span className="persName">Friedrich</span>
+                    </div>
+                  </div>
+                </div>
               </section>
             </div>
+          </div>
+        </div>
+        <div className={`stellenerläuterungen ${isStellen ? "activ" : null}`}>
+          <div
+            className="stellenerläuterung push-right"
+            style={{
+              top: "950px",
+            }}
+          >
+            <hr />
+            <label>Helvetsluis</label>
+            <p>Hellevoetsluis: niederländische Hafenstadt.</p>
+          </div>
+
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "980px",
+            }}
+          >
+            <hr />
+            <label>Margate</label>
+            <p>Englische Hafenstadt im Südosten der Grafschaft Kent.</p>
+          </div>
+          <div
+            className="stellenerläuterung push-right"
+            style={{
+              top: "1250px",
+            }}
+          >
+            <hr />
+            <label>kein Aufschlag […] Gegenteil</label>
+            <p>
+              Friedrich Engels sen. erwartet eine Gewinneinbuße beim
+              Seidenverkauf, wobei unter ‚Aufschlag‘ eine behördlich angeordnete
+              Abgabe zu verstehen ist (z.B. Zoll).
+            </p>
+          </div>
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "1320px",
+            }}
+          >
+            <hr />
+            <label>Bacon</label>
+            <p>
+              Über den Gastwirt in London ist nichts Näheres bekannt. Es gab in
+              der Stadt hunderte Hotels, Gasthäuser und privat vermietete
+              Gästezimmer in verschiedenen Kategorien.
+            </p>
           </div>
         </div>
       </Brief_wrapper>
