@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@ampproject/toolbox-core@^2.8.0":
+"@ampproject/toolbox-core@^2.8.0", "@ampproject/toolbox-core@2.8.0":
   "integrity" "sha512-YrMRrE9zfAChPlFLT+B4yoGEH6CR/Yerjm6SCxuFSPARK/LaytUV+ZhZ03tlMv5wUHDH2Lq8e/lGymME0CXBhA=="
   "resolved" "https://registry.npmjs.org/@ampproject/toolbox-core/-/toolbox-core-2.8.0.tgz"
   "version" "2.8.0"
@@ -10,18 +10,18 @@
     "cross-fetch" "3.1.2"
     "lru-cache" "6.0.0"
 
-"@ampproject/toolbox-optimizer@^2.4.0":
-  "integrity" "sha512-HYScvLVco3eJDpOOXxW8/1SBjpE6J3js9a/pStIHgQFAUGYtxWQsocXN+fEngi+gnE1awbdjTwtvBkWEidLqJQ=="
-  "resolved" "https://registry.npmjs.org/@ampproject/toolbox-optimizer/-/toolbox-optimizer-2.8.0.tgz"
-  "version" "2.8.0"
+"@ampproject/toolbox-optimizer@^2.8.1":
+  "integrity" "sha512-mfydgqJRJDoTCdDS+af7W/w+HkdQG4DhXdqYvaYurPBVkdFCuA/ioZVFI1GwYqIo96j8EgBHUyhNYmQ0Pf7jMg=="
+  "resolved" "https://registry.npmjs.org/@ampproject/toolbox-optimizer/-/toolbox-optimizer-2.8.1.tgz"
+  "version" "2.8.1"
   dependencies:
-    "@ampproject/toolbox-core" "^2.8.0"
-    "@ampproject/toolbox-runtime-version" "^2.8.0"
-    "@ampproject/toolbox-script-csp" "^2.8.0"
-    "@ampproject/toolbox-validator-rules" "^2.8.0"
+    "@ampproject/toolbox-core" "2.8.0"
+    "@ampproject/toolbox-runtime-version" "2.8.0"
+    "@ampproject/toolbox-script-csp" "2.8.0"
+    "@ampproject/toolbox-validator-rules" "2.8.0"
     "abort-controller" "3.0.0"
     "cross-fetch" "3.1.2"
-    "cssnano-simple" "1.2.2"
+    "cssnano-simple" "2.0.0"
     "dom-serializer" "1.2.0"
     "domhandler" "4.0.0"
     "domutils" "2.5.0"
@@ -29,23 +29,23 @@
     "https-proxy-agent" "5.0.0"
     "lru-cache" "6.0.0"
     "normalize-html-whitespace" "1.0.0"
-    "postcss" "8.2.8"
+    "postcss" "8.2.13"
     "postcss-safe-parser" "5.0.2"
-    "terser" "5.6.1"
+    "terser" "5.5.1"
 
-"@ampproject/toolbox-runtime-version@^2.8.0":
+"@ampproject/toolbox-runtime-version@2.8.0":
   "integrity" "sha512-vkotDc6S3Q3Xm6LIPzWo2T1+yxvj+bIDrD4SObk6J4SVqilIlPEunLayS602Su+ZXqNC82VjEeD1ARAtc613dQ=="
   "resolved" "https://registry.npmjs.org/@ampproject/toolbox-runtime-version/-/toolbox-runtime-version-2.8.0.tgz"
   "version" "2.8.0"
   dependencies:
     "@ampproject/toolbox-core" "^2.8.0"
 
-"@ampproject/toolbox-script-csp@^2.8.0":
+"@ampproject/toolbox-script-csp@2.8.0":
   "integrity" "sha512-5/ytdTzhmdIyOkcEBskh5ZlLJ8V4bbe+1pY9LZQ8DfWrSOVD1pJ+LtAO/7lmTM+HXxMAKPYDRpvsJc0vvbY0tw=="
   "resolved" "https://registry.npmjs.org/@ampproject/toolbox-script-csp/-/toolbox-script-csp-2.8.0.tgz"
   "version" "2.8.0"
 
-"@ampproject/toolbox-validator-rules@^2.8.0":
+"@ampproject/toolbox-validator-rules@2.8.0":
   "integrity" "sha512-kbInwnzpEPVZkKigpKFkF/DQ2LsuZ5b8vrEFHjJ4P+meKVQg2QF/UWAQpIMMdjGe1AQBT+DWm91n9UyjgqfnWQ=="
   "resolved" "https://registry.npmjs.org/@ampproject/toolbox-validator-rules/-/toolbox-validator-rules-2.8.0.tgz"
   "version" "2.8.0"
@@ -210,9 +210,9 @@
   "version" "1.4.9"
 
 "ansi-regex@^5.0.0":
-  "integrity" "sha512-bY6fj56OUQ0hU1KjFNDQuJFezqKdrAyFdIevADiqrWHwSlbmBNMHp5ak2f40Pm8JTFyM2mqxkG6ngkHO11f/lg=="
-  "resolved" "https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.0.tgz"
-  "version" "5.0.0"
+  "integrity" "sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ=="
+  "resolved" "https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz"
+  "version" "5.0.1"
 
 "ansi-styles@^3.2.1":
   "integrity" "sha512-VT0ZI6kZRdTh8YyJw3SMbYm/u+NqfsAxEpWO0Pf9sq8/e94WxxOpPKx9FR1FlyCtOVDNOQ+8ntlqFxiRc+r5qA=="
@@ -464,12 +464,12 @@
   "resolved" "https://registry.npmjs.org/camelcase/-/camelcase-5.3.1.tgz"
   "version" "5.3.1"
 
-"caniuse-lite@^1.0.30001179", "caniuse-lite@^1.0.30001202", "caniuse-lite@^1.0.30001219", "caniuse-lite@^1.0.30001228":
+"caniuse-lite@^1.0.30001202", "caniuse-lite@^1.0.30001219", "caniuse-lite@^1.0.30001228":
   "integrity" "sha512-zWEwIVqnzPkSAXOUlQnPW2oKoYb2aLQ4Q5ejdjBcnH63rfypaW34CxaeBn1VMya2XaEU3P/R2qHpWyj+l0BT1A=="
   "resolved" "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001235.tgz"
   "version" "1.0.30001235"
 
-"chalk@^2.0.0", "chalk@^2.4.2", "chalk@2.4.2":
+"chalk@^2.0.0", "chalk@2.4.2":
   "integrity" "sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ=="
   "resolved" "https://registry.npmjs.org/chalk/-/chalk-2.4.2.tgz"
   "version" "2.4.2"
@@ -658,22 +658,6 @@
   "version" "2.0.0"
   dependencies:
     "caniuse-lite" "^1.0.30001202"
-
-"cssnano-preset-simple@1.2.2":
-  "integrity" "sha512-gtvrcRSGtP3hA/wS8mFVinFnQdEsEpm3v4I/s/KmNjpdWaThV/4E5EojAzFXxyT5OCSRPLlHR9iQexAqKHlhGQ=="
-  "resolved" "https://registry.npmjs.org/cssnano-preset-simple/-/cssnano-preset-simple-1.2.2.tgz"
-  "version" "1.2.2"
-  dependencies:
-    "caniuse-lite" "^1.0.30001179"
-    "postcss" "^7.0.32"
-
-"cssnano-simple@1.2.2":
-  "integrity" "sha512-4slyYc1w4JhSbhVX5xi9G0aQ42JnRyPg+7l7cqoNyoIDzfWx40Rq3JQZnoAWDu60A4AvKVp9ln/YSUOdhDX68g=="
-  "resolved" "https://registry.npmjs.org/cssnano-simple/-/cssnano-simple-1.2.2.tgz"
-  "version" "1.2.2"
-  dependencies:
-    "cssnano-preset-simple" "1.2.2"
-    "postcss" "^7.0.32"
 
 "cssnano-simple@2.0.0":
   "integrity" "sha512-0G3TXaFxlh/szPEG/o3VcmCwl0N3E60XNb9YZZijew5eIs6fLjJuOPxQd9yEBaX2p/YfJtt49i4vYi38iH6/6w=="
@@ -1456,7 +1440,7 @@
   "resolved" "https://registry.npmjs.org/ms/-/ms-2.1.2.tgz"
   "version" "2.1.2"
 
-"nanoid@^3.1.20", "nanoid@^3.1.22":
+"nanoid@^3.1.22", "nanoid@^3.1.23":
   "integrity" "sha512-FiB0kzdP0FFVGDKlRLEQ1BgDzU87dy5NnzjeW9YZNt+/c3+q82EQDUwniSAUxp/F0gFNI1ZhKU1FqYsMuqZVnw=="
   "resolved" "https://registry.npmjs.org/nanoid/-/nanoid-3.1.23.tgz"
   "version" "3.1.23"
@@ -1751,23 +1735,14 @@
   dependencies:
     "postcss" "^8.1.0"
 
-"postcss@^7.0.32":
-  "integrity" "sha512-3QT8bBJeX/S5zKTTjTCIjRF3If4avAT6kqxcASlTWEtAFCb9NH0OUxNDfgZSWdP5fJnBYCMEWkIFfWeugjzYMg=="
-  "resolved" "https://registry.npmjs.org/postcss/-/postcss-7.0.35.tgz"
-  "version" "7.0.35"
-  dependencies:
-    "chalk" "^2.4.2"
-    "source-map" "^0.6.1"
-    "supports-color" "^6.1.0"
-
-"postcss@^8.1.0", "postcss@8.2.8":
-  "integrity" "sha512-1F0Xb2T21xET7oQV9eKuctbM9S7BC0fetoHCc4H13z0PT6haiRLP4T0ZY4XWh7iLP0usgqykT6p9B2RtOf4FPw=="
-  "resolved" "https://registry.npmjs.org/postcss/-/postcss-8.2.8.tgz"
-  "version" "8.2.8"
+"postcss@^8.1.0", "postcss@^8.3.3":
+  "integrity" "sha512-gnXd9C4bGKevvlNFd80I8WfxHX+g6MR+W2h19PlDNHUuT9248rHTvCIDeZI3Hvs5mB3gzXiNDwVK3S153WJbZA=="
+  "resolved" "https://registry.npmjs.org/postcss/-/postcss-8.3.3.tgz"
+  "version" "8.3.3"
   dependencies:
     "colorette" "^1.2.2"
-    "nanoid" "^3.1.20"
-    "source-map" "^0.6.1"
+    "nanoid" "^3.1.23"
+    "source-map-js" "^0.6.2"
 
 "postcss@8.2.13":
   "integrity" "sha512-FCE5xLH+hjbzRdpbRb1IMCvPv9yZx2QnDarBEYSN0N0HYk+TcXsEhwdFcFb+SRWOKzKGErhIEbBK2ogyLdTtfQ=="
@@ -1793,7 +1768,7 @@
   "resolved" "https://registry.npmjs.org/process/-/process-0.11.10.tgz"
   "version" "0.11.10"
 
-"prop-types@^15.6.0", "prop-types@^15.6.2", "prop-types@15.7.2":
+"prop-types@^15.6.2", "prop-types@15.7.2":
   "integrity" "sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ=="
   "resolved" "https://registry.npmjs.org/prop-types/-/prop-types-15.7.2.tgz"
   "version" "15.7.2"
@@ -1878,13 +1853,6 @@
     "object-assign" "^4.1.1"
     "prop-types" "^15.6.2"
     "scheduler" "^0.19.1"
-
-"react-globally@^1.1.0":
-  "integrity" "sha512-m3etqejT+/MMiKs4JERUrRjyAkry36zgm9xX7dr1JJhgXQGVoPBQqVml/w7ZsRsIZOU3n93VsoECErZOS0c4YA=="
-  "resolved" "https://registry.npmjs.org/react-globally/-/react-globally-1.1.0.tgz"
-  "version" "1.1.0"
-  dependencies:
-    "prop-types" "^15.6.0"
 
 "react-icons@^3.11.0":
   "integrity" "sha512-JRgiI/vdF6uyBgyZhVyYJUZAop95Sy4XDe/jmT3R/bKliFWpO/uZBwvSjWEdxwzec7SYbEPNPck0Kff2tUGM2Q=="
@@ -2048,6 +2016,11 @@
   "integrity" "sha512-mRz/m/JVscCrkMyPqHc/bczi3OQHkLTqXHEFu0zDhK/qfv3UcOA4SVmRCLmos4bhjr9ekVQubj/R7waKapmiQg=="
   "resolved" "https://registry.npmjs.org/shell-quote/-/shell-quote-1.7.2.tgz"
   "version" "1.7.2"
+
+"source-map-js@^0.6.2":
+  "integrity" "sha512-/3GptzWzu0+0MBQFrDKzw/DvvMTUORvgY6k6jd/VS6iCR4RDTKWH6v6WPwQoUO8667uQEf9Oe38DxAYWY5F/Ug=="
+  "resolved" "https://registry.npmjs.org/source-map-js/-/source-map-js-0.6.2.tgz"
+  "version" "0.6.2"
 
 "source-map-support@~0.5.12", "source-map-support@~0.5.19":
   "integrity" "sha512-Wonm7zOCIJzBGQdB+thsPar0kYuCIzYvxZwlBa87yi/Mdjv7Tip2cyVbLj5o0cFPN4EVkuTwb3GDDyUx2DGnGw=="
@@ -2216,13 +2189,6 @@
   dependencies:
     "has-flag" "^3.0.0"
 
-"supports-color@^6.1.0":
-  "integrity" "sha512-qe1jfm1Mg7Nq/NSh6XE24gPXROEVsWHxC1LIx//XNlD9iw7YZQGjZNjYN7xGaEG6iKdA8EtNFW6R0gjnVXp+wQ=="
-  "resolved" "https://registry.npmjs.org/supports-color/-/supports-color-6.1.0.tgz"
-  "version" "6.1.0"
-  dependencies:
-    "has-flag" "^3.0.0"
-
 "supports-color@^7.1.0":
   "integrity" "sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw=="
   "resolved" "https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz"
@@ -2246,10 +2212,10 @@
     "source-map" "~0.6.1"
     "source-map-support" "~0.5.12"
 
-"terser@5.6.1":
-  "integrity" "sha512-yv9YLFQQ+3ZqgWCUk+pvNJwgUTdlIxUk1WTN+RnaFJe2L7ipG2csPT0ra2XRm7Cs8cxN7QXmK1rFzEwYEQkzXw=="
-  "resolved" "https://registry.npmjs.org/terser/-/terser-5.6.1.tgz"
-  "version" "5.6.1"
+"terser@5.5.1":
+  "integrity" "sha512-6VGWZNVP2KTUcltUQJ25TtNjx/XgdDsBDKGt8nN0MpydU36LmbPPcMBd2kmtZNNGVVDLg44k7GKeHHj+4zPIBQ=="
+  "resolved" "https://registry.npmjs.org/terser/-/terser-5.5.1.tgz"
+  "version" "5.5.1"
   dependencies:
     "commander" "^2.20.0"
     "source-map" "~0.7.2"
