@@ -58,7 +58,7 @@ export default function page() {
                             </span>
                           </span>
                           <span className="expan">
-                            Mad<sup className="double-underline">e</sup><span className="ex">ame</span>
+                            Mad<sup className="double-underline"></sup><span className="ex">ame</span>
                           </span>{" "}
                         </span>
                         <span className="persName">Louise Engels <span className="small"> <span className="makierung">né</span> Nooth</span></span>
@@ -116,7 +116,8 @@ export default function page() {
                       <br className="lb" />{" "} recht vergnügt{" "}
                       <span className="makierung"><span className="orig">gereißt</span>
                       <span className="corr">gereist</span></span> und wohlbehalten
-                      angekom̅en bin.
+                      angeko<span className="orig">m̅</span>
+                        <span className="corr">mm</span>en bin.
                       <br className="lb" />{" "}{" "}
                       <span className="orig">
                         ju<span className="orig">ﬅ</span>
@@ -140,7 +141,8 @@ export default function page() {
                         <span className="expan">
                           L<span className="ex">ieben</span>
                         </span>
-                        {" "}Him̅li<span className="orig">ſ</span>
+                        {" "}Hi<span className="orig">m̅</span>
+                        <span className="corr">mm</span>li<span className="orig">ſ</span>
                         <span className="corr">s</span>chen Vater{" "}
                         <span className="orig">
                           Prei<span className="orig">ſ</span>
@@ -151,7 +153,8 @@ export default function page() {
                         <span className="corr">s</span>o{" "}
                         <span className="orig">oﬀte</span>
                         <span className="corr">ofte</span>
-                        <br className="lb" />{" "} im̅er{" "}
+                        <br className="lb" />{" "} i<span className="orig">m̅</span>
+                        <span className="corr">mm</span>er{" "}
                         <span className="orig">Glüklich</span>
                         <span className="corr">glücklich</span> und unver
                         <span className="orig">ſ</span>
@@ -164,7 +167,7 @@ export default function page() {
                       </span>
                     </span>
                     <span className="liebe-ehe religion ">
-                      wie wir<span className="orig">ﬅ</span>
+                      Wie wir<span className="orig">ﬅ</span>
                       <span className="corr">st</span> du mich im Gei
                       <span className="orig">ﬅ</span>
                       <span className="corr">st</span> begleitet und für mich
@@ -198,8 +201,7 @@ export default function page() {
                       <span className="strike-through" style={{ textDecoration: "line-through" }}>
                         möge<span className="orig">ﬅ</span>
                         <span className="corr">st</span>
-                      </span>
-                      , und deine Ruhe
+                      </span>, und deine Ruhe
                       <br className="lb" />{" "} und dein Wohlbefinden{" "}
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>ich vermehren möge.{" "}
@@ -207,7 +209,8 @@ export default function page() {
                       <span className="corr">Ja</span> meine
                       <br className="lb" />{" "} herzlich{" "}
                       <span className="orig">geliebte</span>
-                      <span className="corr">Geliebte</span>! ich fühle es im̅er
+                      <span className="corr">Geliebte</span>! ich fühle es i<span className="orig">m̅</span>
+                        <span className="corr">mm</span>er
                       mehr in meiner Seele
                       <br className="lb" />{" "} wie groß die Liebe, Güte und Auf
                       <span className="orig">ſ</span>
@@ -298,13 +301,14 @@ export default function page() {
                     <span className="corr">s</span>re Sünden vergeben und von{" "}
                     <br className="lb" />{" "} un<span className="orig">ſ</span>
                     <span className="corr">s</span>ren Gebrechen heilen, daß wir
-                    im̅er <span className="orig">T</span><span className="corr">t</span>üchtiger und fertiger
+                    i<span className="orig">m̅</span><span className="corr">mm</span>er <span className="orig">T</span><span className="corr">t</span>üchtiger und fertiger
                     <br className="lb" />{" "} gemacht werden zu <span className="orig">T</span><span className="corr">t</span>hun, was <span className="orig">J</span><span className="corr">I</span>hm{" "}
                     <span className="orig">wohlgefält</span>
                     <span className="corr">wohlgefällt</span>.
                   </span>
                   <p>
-                    ich kam wie ge<span className="orig">ſ</span>
+                  <span className="orig">i</span>
+                    <span className="corr">I</span>ch kam wie ge<span className="orig">ſ</span>
                     <span className="corr">s</span>agt um 9 Uhr mit ungemeiner
                     Munterkeit
                     <br className="lb" />{" "} bei {" "}
@@ -316,15 +320,14 @@ export default function page() {
                     <span className="corr">s</span>elben den{" "}
                     <span className="g.rend.script.latin">Salat</span>.
                     <br className="lb" />{" "} Bruder{" "}
-                    <span className="g.rend.script.latin">Peter</span> , der
+                    <span className="g.rend.script.latin">Peter,</span> der
                     noch etwas mit <span className="orig">ſ</span>
                     <span className="corr">s</span>einer{" "}
-                    <span className="makierung">
                     <span className="g.rend.script.latin">
                       <span className="orig">Catarre</span>
                       <span className="corr">Katarrhe</span>
                     </span>
-                    </span>
+                    
                     {" "}zu thun
                     <br className="lb" />{" "} hat, <span className="orig">ſ</span>
                     <span className="corr">s</span>ich{" "}
@@ -335,8 +338,8 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ehr{" "}
                     <span className="orig">Lieb</span>
-                    <span className="corr">lieb</span> ge =
-                    <br className="g.enc.tagsdecl.hyphenation.eq" /> wonnen, und
+                    <span className="corr">lieb</span> ge
+                    <br className="g.enc.tagsdecl.hyphenation.eq" />wonnen, und
                     beide Brüder erwarten verlangend je eher{" "}
                     <br className="lb" />{" "} je{" "}
                     <span className="orig">Lieber</span>
@@ -345,8 +348,7 @@ export default function page() {
                     <span className="corr">lassen</span> Ihren herzlichen{" "}
                     <span className="orig">
                       gegen =
-                      <br className="g.enc.tagsdecl.hyphenation.eq" />
-                      Gruß
+                      <br className="g.enc.tagsdecl.hyphenation.eq" />Gruß
                     </span>
                     <span className="corr">
                       Gegen
@@ -379,7 +381,8 @@ export default function page() {
                       <span className="orig">kan</span>
                       <span className="corr">kann</span>.{" "}
                       <a id="mark.004.s">{/*anchor*/}</a>ich habe mit dir
-                      <br className="lb" />{" "} um 8 Uhr gebäten, und werde{" "}
+                      <br className="lb" />{" "} um 8 Uhr <span className="orig">gebäten</span>
+                      <span className="corr">gebeten</span>, und werde{" "}
                       <sup className="sup">nun</sup> mit dir in Gedanken und im
                       <br className="lb" />{" "} Herzen, meine Ge
                       <span className="orig">ſ</span>
@@ -393,7 +396,7 @@ export default function page() {
                     <span className="corr">räumen</span>.
                   </p>
                   <p>
-                    Den <span className="makierung">Fuhrmann</span> will ich gleich kom̅en{" "}
+                    Den <span className="makierung">Fuhrmann</span> will ich gleich ko<span className="orig">m̅</span><span className="corr">mm</span>en{" "}
                     <span className="orig">Laßen</span>
                     <span className="corr">lassen</span>, und überhaupt
                     <br className="lb" />{" "} 
@@ -421,7 +424,7 @@ export default function page() {
                       näch<span className="orig">ﬅ</span>
                       <span className="corr">st</span>ens
                     </span>{" "}
-                    mehr;<a id="mark.004.e">{/*anchor*/}</a> du wir
+                    {" "}mehr;<a id="mark.004.e">{/*anchor*/}</a> du wir
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span> he<span className="orig">ü</span><span className="corr">u</span>te{" "}
                   </p>
@@ -512,7 +515,7 @@ export default function page() {
                     Dem guten{" "}<span className="makierung">
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (Hr.</span>
+                      Hr.</span>
                     <span className="expan">
                       H<span className="ex">er</span>r
                       <span className="ex">n</span>
@@ -521,7 +524,7 @@ export default function page() {
                     <span className="corr">st</span>or</span> hatte ich{" "}
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (ein</span>
+                      ein</span>
                     <span className="expan">
                       ein<span className="ex">en</span>
                     </span>{" "}
@@ -532,7 +535,7 @@ export default function page() {
                     <span className="corr">Gelegenheit</span> bitte mich zu{" "}
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (ent<span className="orig">ſ</span>
+                      ent<span className="orig">ſ</span>
                       <span className="corr">s</span>chuldig</span>
                     <span className="expan">
                       ent<span className="orig">ſ</span>
@@ -556,7 +559,9 @@ export default function page() {
                           d<span className="ex">en</span>
                         </span>
                       </span>{" "}
-                      9{" "}
+                      <span className="orig">9</span>
+                      <span className="corr">9. September</span>
+                      {" "}
                       <span className="g.rend.script.latin">
                         <span className="abbr">
                           {" "}7<sup>ber</sup></span>
@@ -591,7 +596,7 @@ export default function page() {
             }}
           >
             <hr />
-            <label>Eheﬅand</label>
+            <label>Ehestand</label>
             <p>
             Johann Caspar Engels und Louise Noot <br />hatten am 1. September 1791 in Ruhrort geheiratet.
 
@@ -605,22 +610,12 @@ export default function page() {
             }}
           >
             <hr />
-            <label>unſren Brüdern</label>
+            <label>unsren Brüdern</label>
             <p>Benjamin Engels (1751–1820) und <br />Johann Peter Engels (1754–1794).
             </p>
           </div>
 
-          <div
-            className="stellenerläuterung"
-            style={{
-              top: "1757px",
-            }}
-          >
-            <hr />
-            <label>Catarre</label>
-            <p> Katarrh.
-            </p>
-          </div>
+          
 
           <div
             className="stellenerläuterung"
@@ -653,7 +648,7 @@ export default function page() {
             }}
           >
             <hr />
-            <label>Paﬅor</label>
+            <label>Pastor</label>
             <p> Evtl. ist Samuel Collenbusch (1724–1803),<br /> Arzt und bekannter Pietist, gemeint.
             </p>
           </div>

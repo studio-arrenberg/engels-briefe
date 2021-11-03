@@ -122,7 +122,7 @@ export default function page() {
                         <span className="placeName">
                           Frankfurth{" "}
                           <span className="abbr">
-                            {" "}<sup>a</sup>/m)
+                            {" "}<sup>a</sup>/m
                           </span>
                           <span className="expan">
                             a<span className="ex">m </span>M
@@ -199,7 +199,7 @@ export default function page() {
                     für dich gekauft, und in 1{" "}
                     <span className="makierung"><span className="g.rend.script.latin">paquet</span>{" "}
                     <span className="g.rend.script.latin">
-                      <span className="abbr">F.E.</span>
+                      <span className="abbr">F.E.</span>{" "}
                     </span></span>
                     durch <a id="annot.002.s">{/*anchor*/}</a>
                     <span className="g.rend.script.latin">
@@ -266,10 +266,10 @@ export default function page() {
                         kan<span className="orig">ﬅ</span>
                         <span className="corr">st</span>
                       </span>
-                      <span className="corr">kanst</span>; gewöhn ihn{" "}
+                      <span className="corr">kanst</span>; gewöhne ihn{" "}
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>chon früh daran, daß ihr,
-                      wenn ihr <br className="lb" />
+                      wan ihr <br className="lb" />
                       aufm Zim̅er bei<span className="orig">ſ</span>
                       <span className="corr">s</span>amen{" "}
                       <span className="orig">ſ</span>
@@ -326,7 +326,7 @@ export default function page() {
                       ein Kaufman und Trachte nach den mei
                       <span className="orig">ﬅ</span>
                       <span className="corr">st</span>en{" "}
-                      <span className="g.rend.script.latin">procenten</span>;
+                      <span className="g.rend.script.latin">proCenten</span>;
                       weil mir kein Men<span className="orig">ſ</span>
                       <span className="corr">s</span>ch <br className="lb" />
                       dem ich zu gefallen eine Stunde in gleichgültigen Dingen
@@ -386,7 +386,7 @@ export default function page() {
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span> freilig noch nicht frei von{" "}
                     Krampf, allein <br className="lb" />
-                    wir können doch urtheilen, daß er vor und nach
+                    wir können doch urtheilen, daß er vor und nach{" "}
                     <span className="orig">abnimt</span>
                     <span className="corr">abnimmt</span>,{" "}
                     <span className="orig">ſ</span>
@@ -427,8 +427,8 @@ export default function page() {
                     <a id="annot.007.s">{/*anchor*/}</a>
                     <span className="persName">
                       <span className="g.enc.tagsdecl.suspension.type1">
-                        Hr.){" "}
-                      </span>
+                        Hr.{" "}
+                      </span>.
                       <span className="expan">
                         H<span className="ex">e</span>r
                         <span className="ex">rn</span>
@@ -436,9 +436,9 @@ export default function page() {
                       {" "}
                       <span className="g.rend.script.latin">
                         <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
-                          (D<span className="orig">:</span>
+                          D<span className="orig"></span>
                           <span className="corr">.</span>
-                          <sup>r</sup></span>{" "}
+                          <sup className="underline">r</sup></span>{" "}
                         <span className="makierung"><span className="expan">Doctor</span> Osberghaus</span>
                       </span>
                     </span>
@@ -565,7 +565,7 @@ export default function page() {
                       l<span className="ex">ieber</span>
                     </span>{" "}
                     <span className="persName">Friedrich</span>, daß wir große
-                    Vorzüge, vor andern Ge
+                    Vorzüge, vor andern Ge<span className="orig">=</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     genden haben, die der Krieg ver
                     <span className="orig">ſ</span>
@@ -581,7 +581,7 @@ export default function page() {
                       <span className="corr">s</span>eüfzen
                     </span>
                     <span className="corr">seufzen</span>, und denen noch große
-                    Gefahren bevor
+                    Gefahren bevor<span className="orig">=</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>ehen, mögte die
@@ -603,7 +603,7 @@ export default function page() {
                     <a id="annot.009.s">{/*anchor*/}</a>
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (Hr.</span>
+                      Hr.</span>.
                     <span className="expan">
                       H<span className="ex">e</span>r
                       <span className="ex">ren</span>
@@ -628,13 +628,14 @@ export default function page() {
                     <a id="annot.011.e">{/*anchor*/}</a> <br className="lb" />
                     150{" "}
                     <span className="abbr">
-                      {" "}D:<sup>z</sup></span>
+                      {" "}D<sup className="underline">z</sup></span>
                     <span className="expan">
                       D<span className="ex">utzend</span>
                     </span>{" "}
                     <span className="makierung"><span className="g.rend.script.latin">
-                      <span className="g.enc.tagsdecl.suspension.type2">Lang.){" "}
+                      <span className="g.enc.tagsdecl.suspension.type2">Lang.)
                       </span>
+                      
                       <span className="expan">
                         Lang<span className="ex">etten</span>{" "}
                       </span>
@@ -708,7 +709,7 @@ export default function page() {
                     einig wurden, <a id="annot.014.s">{/*anchor*/}</a>
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (dHr.</span>
+                      dHr.</span>
                     {/* <span className="expan">
                       d<span className="ex">en</span> Hr
                     </span> */}

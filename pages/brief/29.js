@@ -69,13 +69,14 @@ export default function page() {
                         </span> <span className="makierung"> Papa!</span> <a id="teaser.part.001.e">{/*anchor*/}</a>
                       </span> 
                     </span>
-                    Deine beÿde liebe Briefe
+                    Deine be<span className="orig">ÿ</span>
+<span className="corr">y</span>de liebe Briefe
                     {" "}<br className="lb" />
                     habe ich vorge<span className="orig">ﬅ</span><span className="corr">st</span>ern Morgen zugleich erhalten, der
                     {" "}<br className="lb" />
                     aus <span className="placeName">Schwalbach</span> muß al<span className="orig">ſ</span><span className="corr">s</span>o
                     Unterwegens liegen ge<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
-                    blieben <span className="orig">ſ</span><span className="corr">s</span>eÿn –
+                    blieben <span className="orig">ſ</span><span className="corr">s</span>eÿn –{" "}
                     <span className="reisen">
                       <a id="mark.001.s">{/*anchor*/}</a>
                       wie groß war meine{" "}
@@ -84,7 +85,8 @@ export default function page() {
                       {" "}<br className="lb" />
                       als ich etwas von Deiner lieben Hand erblickte,
                       {" "}<br className="lb" />
-                      und die erfreuliche Nachricht las, daß Du mein
+                      und die erfre<span className="orig">ü</span>
+<span className="corr">u</span>liche Nachricht las, daß Du mein
                       {" "}<br className="lb" />
                       Be<span className="orig">ﬅ</span><span className="corr">st</span>er! Dich <span className="orig">Ge<span className="orig">ſ</span><span className="corr">s</span>und</span>
                       <span className="corr">ge<span className="orig">ſ</span><span className="corr">s</span>und</span> und munter befände<span className="orig">ﬅ</span><span className="corr">st</span>
@@ -103,7 +105,9 @@ export default function page() {
                         {" "}<br className="lb" />
                         Dir, weil ich wegen den Unruhen mit den
                         {" "}<br className="lb" />
-                        Franzo<span className="orig">ſ</span><span className="corr">s</span>en freÿlich etwas beküm̅ert war, indem
+                        Franzo<span className="orig">ſ</span><span className="corr">s</span>en fre<span className="orig">ÿ</span>
+<span className="corr">y</span>lich etwas bekü<span className="orig">m̅</span>
+<span className="corr">mm</span>ert war, indem
                         {" "}<br className="lb" />
                         ich’s gehört hatte, daß sie{" "}
                         <span className="makierung"><span className="placeName">Mainz</span> bombardirten</span>
@@ -114,8 +118,9 @@ export default function page() {
                         würde<span className="orig">ﬅ</span><span className="corr">st</span>
                         <a id="mark.002.e">{/*anchor*/}</a>
                       </span>
-                      <a id="mark.001.e">{/*anchor*/}</a> –
+                      <a id="mark.001.e">{/*anchor*/}</a> –{" "}
                     </span>
+                    {" "}
                     <span className="religion">
                       <a id="mark.003.s">{/*anchor*/}</a>doch suchte ich mir zu
                       hüten nicht
@@ -124,7 +129,8 @@ export default function page() {
                       {" "}<br className="lb" />
                       dies kein Wohlverhalten gegen Gott gewesen
                       {" "}<br className="lb" />
-                      wäre, <span className="orig">ſ</span><span className="corr">s</span>ondern mich im Vertrauen zu Jhm
+                      wäre, <span className="orig">ſ</span><span className="corr">s</span>ondern mich im Vertrauen zu <span className="orig">J</span>
+<span className="corr">I</span>hm
                       {" "}<br className="lb" />
                       zu <span className="orig"><span className="orig">ﬅ</span><span className="corr">st</span>ärcken</span>
                       <span className="corr"><span className="orig">ﬅ</span><span className="corr">st</span>ärken</span>, und es von <span className="orig">ſ</span><span className="corr">s</span>einer
@@ -134,7 +140,8 @@ export default function page() {
                       <span className="orig">Gebät</span>
                       <span className="corr">Gebet</span> erhören
                       {" "}<br className="lb" />
-                      würde. Er der Liebevolle! <span className="orig">ſ</span><span className="corr">s</span>eÿn dann auch
+                      würde. Er der Liebevolle! <span className="orig">ſ</span><span className="corr">s</span>e<span className="orig">ÿ</span>
+<span className="corr">y</span>n dann auch
                       {" "}<br className="lb" />
                     </span>
                   </p>
@@ -156,16 +163,17 @@ export default function page() {
                       <span className="corr">gedankt</span>!
                       {" "}<br className="lb" />
                       <span className="overwritten">g</span>
-                      <span className="add">daß</span> Er Dich mein Be<span className="orig">ﬅ</span><span className="corr">st</span>er!
+                      <span className="add">d</span>aß Er Dich mein Be<span className="orig">ﬅ</span><span className="corr">st</span>er!
                       geleitet, und für die
                       {" "}<br className="lb" />
                       Gefahr <span className="orig">ſ</span><span className="corr">s</span>o Dir hätte treﬀen können be<span className="orig">ſ</span><span className="corr">s</span>chützet hat.
                       {" "}<br className="lb" />
-                      Er <span className="orig">ſ</span><span className="corr">s</span>eÿe Dir dann auch ferner nahe, und{" "}
+                      Er <span className="orig">ſ</span><span className="corr">s</span>e<span className="orig">ÿ</span>
+<span className="corr">y</span>e Dir dann auch ferner nahe, und{" "}
                       <span className="orig">laße</span>
                       <span className="corr">lasse</span> uns
                       {" "}<br className="lb" />
-                      doch die große Freude zu Theil werden, uns
+                      doch die große Freude zu Theil werden, uns{" "}
                       <span className="orig">Ge<span className="orig">ſ</span><span className="corr">s</span>und</span>
                       <span className="corr">ge<span className="orig">ſ</span><span className="corr">s</span>und</span>
                       {" "}<br className="lb" />
@@ -203,7 +211,8 @@ export default function page() {
                     </span>
                     <a id="txt.hi.underline001.int.e">{/*anchor*/}</a>{" "}
                     {" "}<br className="lb" />
-                    dafür geben, da die<span className="orig">ſ</span><span className="corr">s</span>es aber nun nicht <span className="orig">ſ</span><span className="corr">s</span>eÿn{" "}
+                    dafür geben, da die<span className="orig">ſ</span><span className="corr">s</span>es aber nun nicht <span className="orig">ſ</span><span className="corr">s</span>e<span className="orig">ÿ</span>
+<span className="corr">y</span>n{" "}
                     <sup className="sup" id="txt.add001">
                       kann
                     </sup>
@@ -217,7 +226,8 @@ export default function page() {
 
                     </p>
                   <p>
-                    Jch hätte Dir <span className="orig">ſ</span><span className="corr">s</span>chon gleich{" "}
+                  <span className="orig">J</span>
+<span className="corr">I</span>ch hätte Dir <span className="orig">ſ</span><span className="corr">s</span>chon gleich{" "}
                     <span className="orig">Ge<span className="orig">ﬅ</span><span className="corr">st</span>ern</span>
                     <span className="corr">ge<span className="orig">ﬅ</span><span className="corr">st</span>ern</span> geantwortet,
                     {" "}<br className="lb" />
@@ -237,7 +247,6 @@ export default function page() {
                       </span>
                       <span className="orig">meinen</span>
                       <span className="corr">Meinen</span> Brief
-                      {" "}<br className="lb" />
                       <span className="orig">ſ</span><span className="corr">s</span>o ich un<span className="orig">ſ</span><span className="corr">s</span>erer Ab<span className="orig">ſ</span><span className="corr">s</span>prache gemäß nach<span className="placeName"> Manheim</span> adre<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>irt
                       {" "}<br className="lb" />
                       hatte, hoﬀe ich wir<span className="orig">ﬅ</span><span className="corr">st</span> Du <span className="orig">jezt</span>
@@ -252,9 +261,11 @@ export default function page() {
                       gangen i<span className="orig">ﬅ</span><span className="corr">st</span>!
                     </p>
                     <p>
-                      Sehr wohl ha<span className="orig">ﬅ</span><span className="corr">st</span> Du gethan mein Jnniggeliebter! und
+                      Sehr wohl ha<span className="orig">ﬅ</span><span className="corr">st</span> Du gethan mein <span className="orig">J</span>
+<span className="corr">I</span>nniggeliebter! und
                       {" "}<br className="lb" />
-                      es freÿlich ganz nach meinen Wun<span className="orig">ſ</span><span className="corr">s</span>ch gemacht, daß Du wie
+                      es fre<span className="orig">ÿ</span>
+<span className="corr">y</span>lich ganz nach meinen Wun<span className="orig">ſ</span><span className="corr">s</span>ch gemacht, daß Du wie
                       {" "}<br className="lb" />
                     </p>
                   </span>
@@ -284,10 +295,11 @@ export default function page() {
                         &nbsp;
                       </span>
                       Un<span className="orig">ſ</span><span className="corr">s</span>erer Vermuthung nach wir<span className="orig">ﬅ</span><span className="corr">st</span> Du{" "}
-                      <span className="orig">Heute</span>
+                      <span className="orig">Heüte</span>
                       <span className="corr">heute</span>
                       {" "}<br className="lb" />
-                      in <span className="placeName">München</span> ankom̅en.{" "}
+                      in <span className="placeName">München</span> anko<span className="orig">m̅</span>
+<span className="corr">mm</span>en.{" "}
                       <a id="mark.005.e">{/*anchor*/}</a>
                   </span>
                   <span className="religion">
@@ -301,7 +313,8 @@ export default function page() {
                       {" "}<br className="lb" />
                       <span className="orig">ſ</span><span className="corr">s</span>o zu handlen, wie Er es machen würde, wann
                       {" "}<br className="lb" />
-                      Er an Deiner Stelle wäre. Er, un<span className="orig">ſ</span><span className="corr">s</span>er Göttlicher Hohen<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />prie<span className="orig">ﬅ</span><span className="corr">st</span>er gebe Euch Beÿde,{" "}
+                      Er an Deiner Stelle wäre. Er, un<span className="orig">ſ</span><span className="corr">s</span>er Göttlicher Hohen<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />prie<span className="orig">ﬅ</span><span className="corr">st</span>er gebe Euch Be<span className="orig">ÿ</span>
+<span className="corr">y</span>de,{" "}
                       <span className="orig">Weißheit</span>
                       <span className="corr">Weisheit</span>, und Ver<span className="orig">ﬅ</span><span className="corr">st</span>and,
                       {" "}<br className="lb" />
@@ -310,11 +323,13 @@ export default function page() {
                       <span className="orig">jezt</span>
                       <span className="corr">jetzt</span> nöthig
                       {" "}<br className="lb" />
-                      habt. Wann es mit Seinen vollkom̅nen Willen be<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" /><span className="orig">ﬅ</span><span className="corr">st</span>ehen kann, <span className="orig">ſ</span><span className="corr">s</span>o glaube ich ganz <span className="orig">ſ</span><span className="corr">s</span>icher wird die
+                      habt. Wann es mit Seinen vollko<span className="orig">m̅</span>
+<span className="corr">mm</span>nen Willen be<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" /><span className="orig">ﬅ</span><span className="corr">st</span>ehen kann, <span className="orig">ſ</span><span className="corr">s</span>o glaube ich ganz <span className="orig">ſ</span><span className="corr">s</span>icher wird die
                       {" "}<br className="lb" />
                       Sache gelingen, und ge<span className="orig">ſ</span><span className="corr">s</span>chicht die<span className="orig">ſ</span><span className="corr">s</span>es nicht, <span className="orig">ſ</span><span className="corr">s</span>o wollen
                       {" "}<br className="lb" />
-                      wirs Jhm zutrauen, daß es alsdenn, wenig<span className="orig">ﬅ</span><span className="corr">st</span>ens
+                      wirs <span className="orig">J</span>
+<span className="corr">I</span>hm zutrauen, daß es alsdenn, wenig<span className="orig">ﬅ</span><span className="corr">st</span>ens
                       {" "}<br className="lb" />
                       für uns, <span className="orig">ſ</span><span className="corr">s</span>o <span className="orig">beßer</span>
                       <span className="corr">besser</span>{" "}
@@ -342,13 +357,15 @@ export default function page() {
                       {" "}<br className="lb" />
                       gege<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>en, und nachher den Thee getrunken; die<span className="orig">ſ</span><span className="corr">s</span>er
                       {" "}<br className="lb" />
-                      wün<span className="orig">ſ</span><span className="corr">s</span>chte noch im̅er daß <span className="makierung">die Sache nicht durch Geld
+                      wün<span className="orig">ſ</span><span className="corr">s</span>chte noch i<span className="orig">m̅</span>
+<span className="corr">mm</span>er daß <span className="makierung">die Sache nicht durch Geld
                       {" "}<br className="lb" />
                       getrieben </span>würde, weil er befürchtet daß <span className="orig">ſ</span><span className="corr">s</span>on<span className="orig">ﬅ</span><span className="corr">st</span>
                       {" "}<br className="lb" />
                       nachher das Geld, und nicht Gott die Ehre gegeben
                       {" "}<br className="lb" />
-                      wird. Wir haben zu<span className="orig">ſ</span><span className="corr">s</span>am̅en einige P<span className="orig">ſ</span><span className="corr">s</span>almen durch<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
+                      wird. Wir haben zu<span className="orig">ſ</span><span className="corr">s</span>a<span className="orig">m̅</span>
+<span className="corr">mm</span>en einige P<span className="orig">ſ</span><span className="corr">s</span>almen durch<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
                       gele<span className="orig">ſ</span><span className="corr">s</span>en und darüber ge<span className="orig">ſ</span><span className="corr">s</span>prochen, unter andern
                       {" "}<br className="lb" />
                       auch den <span className="makierung">36
@@ -393,7 +410,7 @@ export default function page() {
                       {" "}<br className="lb" />
                       in der <span className="orig">Ge<span className="orig">ſ</span><span className="corr">s</span>ell<span className="orig">ſ</span><span className="corr">s</span>chaﬀt</span>
                       <span className="corr">Ge<span className="orig">ſ</span><span className="corr">s</span>ell<span className="orig">ſ</span><span className="corr">s</span>chaft</span> des{" "}
-                      <span className="g.enc.tagsdecl.cc.abbr-colon">H<span className="orig">:</span>
+                      <span className="g.enc.tagsdecl.cc.abbr-colon">hE<span className="orig">:</span>
                         <span className="corr">.</span>
                       </span>{" "}
                       <span className="expan">
@@ -414,8 +431,10 @@ export default function page() {
                       <span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />theilung der Gei<span className="orig">ﬅ</span><span className="corr">st</span>esgaben, <span className="orig">ſ</span><span className="corr">s</span>o Du <span className="orig">ſ</span><span className="corr">s</span>chon aus Gnaden vom
                       {" "}<br className="lb" />
                       Herrn empfangen ha<span className="orig">ﬅ</span><span className="corr">st</span><a id="mark.008.e">{/*anchor*/}</a> und
-                      einige Vorurtheile und Jrr<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
-                      thümer beÿ ihm zer<span className="orig">ﬅ</span><span className="corr">st</span>ören.
+                      einige Vorurtheile und <span className="orig">J</span>
+<span className="corr">I</span>rr<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
+                      thümer be<span className="orig">ÿ</span>
+<span className="corr">y</span> ihm zer<span className="orig">ﬅ</span><span className="corr">st</span>ören.
                       <a id="mark.007.e">{/*anchor*/}</a>
                     </p>
                   </span>
@@ -429,7 +448,7 @@ export default function page() {
                     ich <span className="makierung">einen Auszug, be<span className="orig">ſ</span><span className="corr">s</span>onders wegen den kriegeri<span className="orig">ſ</span><span className="corr">s</span>chen
                     {" "}<br className="lb" />
                     Angelegenheiten daraus ge<span className="orig">ſ</span><span className="corr">s</span>chrieben</span>, und <span className="orig">ſ</span><span className="corr">s</span>elbigen{" "}
-                    <span className="abbr"> H<span className="orig">:</span>
+                    <span className="abbr"> hE<span className="orig">:</span>
                       <span className="corr">.</span>
                     </span>
                     <span className="expan">
@@ -451,16 +470,18 @@ export default function page() {
                     <span className="persName"><span className="makierung">Nichte Haniel</span></span>.
                   </p>
                   <p>
-                    Vorigen Sonntag Abend haben wir beÿ{" "}
+                    Vorigen Sonntag Abend haben wir be<span className="orig">ÿ</span>
+<span className="corr">y</span>{" "}
                     <span className="persName">
                       Bruder Brögel<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
                       mann
                     </span>{" "}
-                    gege<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>en, wir gingen zum Caﬀee hin, und
+                    gege<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>en, wir <span className="orig">giengen</span>
+<span className="corr">gingen</span> zum Caﬀee hin, und
                     {" "}<br className="lb" />
                     fanden <span className="makierung">Pelzers</span> und{" "}
                     <span className="persName">
-                      <span className="g.enc.tagsdecl.cc.abbr-colon">H<span className="orig">:</span>
+                      <span className="g.enc.tagsdecl.cc.abbr-colon">hE<span className="orig">:</span>
                         <span className="corr">.</span>{" "}
                       </span>
                       <span className="expan">
@@ -481,9 +502,10 @@ export default function page() {
                   <p>
                     Daß ich Gottlob! noch wohl bin, kann<span className="orig">ﬅ</span><span className="corr">st</span> Du mein
                     {" "}<br className="lb" />
-                    Jnniggeliebter! aus dem ganzen{" "}
+                    <span className="orig">J</span>
+<span className="corr">I</span>nniggeliebter! aus dem ganzen{" "}
                     <span className="orig">Jnnhalt</span>
-                    <span className="corr">Jnhalt</span> meines Briefes
+                    <span className="corr">Inhalt</span> meines Briefes
                     {" "}<br className="lb" />
                     wohl <span className="orig">ſ</span><span className="corr">s</span>ehen, ich brauche es Dir al<span className="orig">ſ</span><span className="corr">s</span>o nicht er<span className="orig">ﬅ</span><span className="corr">st</span> zu ver<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
                     <span className="orig">ſ</span><span className="corr">s</span>ichern.
@@ -500,7 +522,7 @@ export default function page() {
                     <span style={{ display: "inline-block" }} width="13cm">
                       &nbsp;
                     </span>
-                    <div className="signed">
+                    <div className="signed-morespace">
                       Lui<span className="orig">ſ</span><span className="corr">s</span>e Engels{" "}
                       <span className="g.enc.tagsdecl.cc.abbr-colon">geb<span className="orig">:</span>
                         <span className="corr">.</span>{" "}
@@ -526,7 +548,7 @@ export default function page() {
             <hr />
             <label>Papa</label>
             <p>
-            Gemäß einem im Bürgertum des 19. Jhs. weitverbreiteten Code übernahmen Ehegatten die Perspektive der Kinder und redeten einander mit „Papa“ bzw. „Mama“ an – die eheliche Beziehung wurde damit sprachlich entsexualisiert. Louise Engels tut dies hier bereits als Schwangere, vor ihrer Niederkunft (mit dem erstgeborenen Johann Caspar III Ende 1792).
+            Gemäß einem im Bürgertum des 19. Jhs. weitverbreiteten Code übernahmen Ehegatten die Perspektive der Kinder und redeten einander mit „Papa“ bzw. „Mama“ an – die eheliche Beziehung wurde damit sprachlich entsexualisiert. Louise Engels tut dies hier bereits als Schwangere, vor ihrer Niederkunft (mit dem Erstgeborenen Johann Caspar III Ende 1792).
             </p>
           </div>
 
@@ -539,7 +561,7 @@ export default function page() {
             <hr />
             <label>Mainz bombardirten</label>
             <p>
-            Zwischen März und Juli 1793 bestand die so bezeichnete Mainzer Republik, die in Folge der Französischen Revolution unter dem Schutz französischer Revolutionstruppen errichtet worden war. Ab September 1792 kam es zu Kampfhandlungen rund um die Stadt, und am 21. Oktober 1792 kapitulierte die Mainzer Militärführung schließlich.
+            Ab Oktober 1792 kam es zu Kampfhandlungen rund um die Stadt, und am 21. Oktober 1792 kapitulierte die Mainzer Militärführung schließlich.
 
             </p>
           </div>
@@ -620,7 +642,7 @@ export default function page() {
             <hr />
             <label>die Sache […] getrieben</label>
             <p>
-            Knieriem (S. 106, Anm. 1 zu Brief 28) verweist auf eine Auseinandersetzung der Barmer Garnnahrungsgenossen mit dem Elberfelder Kaufmann Johann Peter Schlickum (1758–1841). Gegen Schlickum wurde bei den kurfürstlichen Behörden der Vorwurf des Verstoßes gegen den Eid der Garnnahrungsgenossen erhoben. Er hatte einen Bandwebstuhl herstellen lassen und ins Elsass bringen lassen wollen, wo er Anteile an einer Firma der Bandfabrikation hielt, und zudem versucht, Facharbeiter abzuwerben. Letztlich ohne Erfolg trugen die Barmer ihre Klage gegen die unliebsame Konkurrenz für das französische Absatzgebiet nicht nur in Düsseldorf bei den zuständigen Stellen vor, sondern auch am kurfürstlichen Hof in München. (Vgl. Anne Sophie Overkamp: Fleiß, Glaube, Bildung. Kaufleute als gebildete Stände im Wuppertal 1760–1840. Göttingen 2020, S. 153–155.) Johann Caspar Engels II war einer der Deputierten. Im Zusammenhang mit dem unten angesprochenen Psalm 36 ist anzunehmen, dass Samuel Collenbusch wünschte, die Sühne des Frevels gegen den Eid der Garnnahrungsgenossen würde im Vordergrund stehen gegenüber entgangenen Gewinnen durch entstehende Konkurrenz.
+            Knieriem (Die Herkunft des Friedrich Engels. Briefe aus der Verwandschaft 1791-1847. Trier 1991, S.106, Anm.1 zu Dokument 28) verweist auf eine Auseinandersetzung der Barmer Garnnahrungsgenossen mit dem Elberfelder Kaufmann Johann Peter Schlickum (1758–1841). Gegen Schlickum wurde bei den kurfürstlichen Behörden der Vorwurf des Verstoßes gegen den Eid der Garnnahrungsgenossen erhoben. Er hatte einen Bandwebstuhl herstellen lassen und ins Elsass bringen lassen wollen, wo er Anteile an einer Firma der Bandfabrikation hielt, und zudem versucht, Facharbeiter abzuwerben. Letztlich ohne Erfolg trugen die Barmer ihre Klage gegen die unliebsame Konkurrenz für das französische Absatzgebiet nicht nur in Düsseldorf bei den zuständigen Stellen vor, sondern auch am kurfürstlichen Hof in München. (Vgl. Anne Sophie Overkamp: Fleiß, Glaube, Bildung. Kaufleute als gebildete Stände im Wuppertal 1760–1840. Göttingen 2020, S. 153–155.) Johann Caspar Engels II war einer der Deputierten. Im Zusammenhang mit dem unten angesprochenen Psalm 36 ist anzunehmen, dass Samuel Collenbusch wünschte, die Sühne des Frevels gegen den Eid der Garnnahrungsgenossen würde im Vordergrund stehen gegenüber entgangenen Gewinnen durch entstehende Konkurrenz.
             </p>
           </div>
 
@@ -646,7 +668,7 @@ export default function page() {
             <hr />
             <label>Knap</label>
             <p>
-            Statt Georg Christian Knapp (1753–1825), eines Repräsentanten des Halleschen Pietismus, könnte auch Georg Joseph von Knapp (1726–1802), Jurist  und jülich-bergischer Vizekanzler der Regierung von Kurpfalz-Bayern, gemeint sein, der in die Bearbeitung der Klage gegen Johann Peter Schlickum involviert war.
+            Statt Georg Christian Knapp (1753–1825), einem Repräsentanten des Halleschen Pietismus, könnte auch Georg Joseph von Knapp (1726–1802), Jurist  und jülich-bergischer Vizekanzler der Regierung von Kurpfalz-Bayern, gemeint sein, der in die Bearbeitung der Klage gegen Johann Peter Schlickum involviert war.
             </p>
           </div>
 
@@ -711,7 +733,7 @@ export default function page() {
             <hr />
             <label>Herrn Vater</label>
             <p>
-            Johann Caspar Korten (1721–1805), Kaufmann und Besitzer einer Bleicherei in Barmen. Vater von Johanna Konstantia Engels, geb. Korten (1761–1790), nach der Heirat 1789 erste Ehefrau von Johann Caspar Engels II (1753–1821).
+            Johann Caspar Korten (1721–1805), Kaufmann und Besitzer einer Bleicherei in Barmen. Vater von Johanna Konstantia Engels, geb. Korten (1761–1790), heiratete 1789 Johann Caspar Engels II (1753–1821).
             </p>
           </div>
 
@@ -724,7 +746,7 @@ export default function page() {
             <hr />
             <label>Brögelmanns</label>
             <p>
-            Die Eheleute (seit 1781) Christian Gerhard Brögelmann (1743–1821), Kaufmann in Barmen, und Sara Brögelmann, geb. Korten (1756–1830).
+            Die Eheleute (seit 1781) Christian Gerhard Brögelmann (1743–1821), Kaufmann in Barmen, und Sara Brögelmann, geb. Korten <br />(1756–1830).
             </p>
           </div>
 
