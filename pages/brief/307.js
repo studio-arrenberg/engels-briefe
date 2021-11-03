@@ -63,14 +63,13 @@ export default function page() {
                         </span>
                         <br />
                         <span className="small">
-                          <span className="g.enc.tagsdecl.suspension.type3">
-                            {" "}
-                            Adr)
+                          <span className="sans orig">
+                            Adr∮.
                           </span>
-                          <span className="expan">
-                            Adr<span className="ex">esse</span>
+                          <span className="corr">
+                            Adresse:
                           </span>{" "}
-                          Herrn{" "}
+                          Herren{" "}
                           <span className="persName">
                             <span className="abbr">
                               (
@@ -90,7 +89,7 @@ export default function page() {
                               Engels{" "}
                             </span>
                           </span>
-                          <span className="hi">&amp; Co.</span> <br />
+                          <span className="hi">&amp; <span className="sans ">Co.</span></span> <br />
                         </span>
                         <span
                           className="text-center"
@@ -104,13 +103,13 @@ export default function page() {
                             in
                             <br />
                           </span>
-                          <span className="placeName">Barmen</span>
+                          <span className="placeName sans">Barmen</span>
                           .<br />
                           <span
                             className="xsmall"
                             style={{ marginTop: "0px", display: "block" }}
                           >
-                            bei <span className="placeName">Elberfeld</span>
+                            bei <span className="placeName sans">Elberfeld.</span>
                             &nbsp;
                           </span>
                         </span>
@@ -145,7 +144,7 @@ export default function page() {
                       Liebe{" "}
                       <span className="persName">
                         {" "}
-                        <span className="g.rend.script.latin"> Elise </span>
+                        <span className="g.rend.script.latin"> Elise</span>
                       </span>
                       .
                     </div>
@@ -156,9 +155,9 @@ export default function page() {
                       Soeben Donner<span className="orig">ﬅ</span>
                       <span className="corr">st</span>ag Morgen um 7 Uhr{" "}
                       <span className="orig">ſ</span>
-                      <span className="corr">s</span>ind wir hier
+                      <span className="corr">s</span>ind wir hier{" "}
                       <span className="orig">glüklich</span>
-                      <span className="corr">glücklich</span> ange
+                      <span className="corr">glücklich</span> ange<span className="orig">⹀</span>
                       <br className="g.enc.tagsdecl.hyphenation.divis" />
                       kommen, nachdem wir eine ungewöhnlich lange{" "}
                       <span className="orig">Ueberfahrt</span>
@@ -173,12 +172,12 @@ export default function page() {
                       </span>{" "}
                       aus, und blieben al<span className="orig">ſ</span>
                       <span className="corr">s</span>o{" "}
-                      <span className="abbr"> ca.</span>
+                      <span className="abbr"> C<sub>a</sub>.</span>
                       <span className="expan">
                         c<span className="ex">irc</span>a
                       </span>{" "}
                       42 Stunden auf dem <span className="orig">Waßer</span>
-                      <span className="corr">Wasser</span>.<br className="lb" />
+                      <span className="corr">Wasser</span>.{" "}<br className="lb" />
                       Die See war etwas <span className="orig">ﬅ</span>
                       <span className="corr">st</span>ürmi
                       <span className="orig">ſ</span>
@@ -186,7 +185,7 @@ export default function page() {
                       <span className="orig">ﬅ</span>
                       <span className="corr">st</span>e Gefahr,
                       <br className="lb" /> der Aufenthalt kam dadurch daß wir
-                      wegen niederem
+                      wegen niedrem{" "}
                       <span className="orig">Waßer</span>
                       <span className="corr">Wasser</span>
                       <br className="lb" /> bei
@@ -212,7 +211,7 @@ export default function page() {
                     </p>
                   </span>
                   <p className="enc.tagsdecl.indent-medium">
-                    Von der Seekrankheit haben wir beide nicht viel ge
+                    Von der Seekrankheit haben wir beide nicht viel ge<span className="orig">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>pürt, wir haben fa
@@ -258,7 +257,7 @@ export default function page() {
                     </span>{" "}
                     werden wir Nachricht von Dir bekommen,
                     <br className="lb" /> worin auch wohl viele Seiden
-                    <span className="orig"></span>
+                    <span className="orig">{" "}</span>
                     <span className="corr">-</span>Verkäufe angezeigt werden.
                     <br className="lb" /> Dies mal wird wohl kein Auf
                     <span className="orig">ſ</span>
@@ -271,10 +270,10 @@ export default function page() {
                     Wir <span className="orig">ſ</span>
                     <span className="corr">s</span>ind wieder bei un
                     <span className="orig">ſ</span>
-                    <span className="corr">s</span>erem alten Wirth
+                    <span className="corr">s</span>rem alten Wirth{" "}
                     <span className="g.enc.tagsdecl.suspension.type1">
-                      {" "}
-                      (Hr
+                      
+                      Hr
                     </span>
                     <span className="expan">
                       H<span className="ex">e</span>r
@@ -306,7 +305,7 @@ export default function page() {
                       <span className="placeName">
                         <span className="g.rend.script.latin"> Manchester</span>
                       </span>{" "}
-                      fahren, doch hängt das
+                      fahren, doch hängt dis
                       <br className="lb" /> auch von der Abfahrt der Wagen ab.
                     </p>
                   </span>
@@ -316,7 +315,7 @@ export default function page() {
                       paar Worte drunter <span className="orig">ſ</span>
                       <span className="corr">s</span>chreiben.
                       <br className="lb" /> <span className="orig">Küße</span>
-                      <span className="corr">Küsse</span> die Kinder, und grüße
+                      <span className="corr">Küsse</span> die Kinder, und grüße{" "}
                       <span
                         className="strike-through"
                         style={{ textDecoration: "line-through" }}
@@ -343,10 +342,12 @@ export default function page() {
                     </span>{" "}
                     uns allen
                     <br className="lb" />{" "}
-                    <div className="signed">
+                    <div className="signed" style={{
+                    marginLeft: "-120px",
+                  }}>
                       Dein
                       <br className="lb" />{" "}
-                      <span className="persName">Friedrich</span>.
+                      <div className="persName">Friedrich.</div>
                     </div>
                   </div>
                 </div>
@@ -377,10 +378,11 @@ export default function page() {
                       Aus den obigen Zeilen des{" "}
                       <span className="persName">Vaters</span> wir
                       <span className="orig">ﬅ</span>
-                      <span className="corr">st</span> Du erfahren haben, daß es
+                      <span className="corr">st</span> Du <span className="orig">erſehen</span>
+                      <span className="corr">ersehen</span> haben, daß es
                       uns
                       <br className="lb" /> bis jetzt im Ganzen noch recht gut
-                      gegangen hat. Ich bin aber <span className="orig">ſ</span>
+                      gegangen hat. <span className="orig">J</span><span className="corr">I</span>ch bin aber <span className="orig">ſ</span>
                       <span className="corr">s</span>o verwirrt von
                       <br className="lb" /> der Seefahrt – es i
                       <span className="orig">ﬅ</span>
@@ -389,10 +391,9 @@ export default function page() {
                       <span className="corr">s</span>chwankte – und dem
                       <br className="lb" /> Getö<span className="orig">ſ</span>
                       <span className="corr">s</span>e um mich herum, daß ich
-                      Dir nicht viel <span className="orig">ſ</span>
-                      <span className="corr">s</span>chreiben kann. Ich bin in
-                      eine
-                      <br className="lb" /> ganz neue Welt ver
+                      <small className="orig">d</small>Dir nicht viel <span className="orig">ſ</span>
+                      <span className="corr">s</span>chreiben kann. <span className="orig">J</span><span className="corr">I</span>ch bin in
+                      eine ganz neue Welt ver
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>etzt.
                       <a id="teaser.part.001.e">{/*anchor*/}</a>
@@ -404,9 +405,7 @@ export default function page() {
                     </p>
                   </blockquote>
                   <div className="closer">
-                    <span style={{ display: "inline-block" }} width="15cm">
-                      &nbsp;
-                    </span>
+                    
                     <div className="signed">
                       <span className="persName">Friedrich</span>
                     </div>

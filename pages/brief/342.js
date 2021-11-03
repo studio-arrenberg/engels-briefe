@@ -200,7 +200,7 @@ export default function page() {
                       <br className="lb" /> um 12 Uhr Mittags hier.
                       <a id="mark.001.e">{/*anchor*/}</a>
                     </span>{" "}
-                    <a id="teaser.part.003.s">{/*anchor*/}</a>Jch wohne wieder
+                    <a id="teaser.part.003.s">{/*anchor*/}</a><span className="orig">J</span><span className="corr">I</span>ch wohne wieder
                     bei <span className="persName">Friedrich</span>,
                     <br className="lb" /> es war grade ein hüb<span className="orig">ſ</span><span className="corr">s</span>ches Schlafzimmer
                     frei. <span className="persName">Friedrich</span>
@@ -312,13 +312,13 @@ export default function page() {
                     <span className="persName">
                       <span className="g.rend.script.latin">
                         {" "}
-                        Peter <span className="abbr"> E.</span>{" "}
+                        Peter <span className="abbr"> E.</span>
                         <span className="expan">
                           E<span className="ex">rmen</span>
                         </span>
                       </span>
                     </span>
-                    bekommt davon ₤ 5600 – mithin bleiben
+                    {" "}bekommt davon ₤ 5600 – mithin bleiben
                     <br className="lb" /> <span className="orig">ﬅ</span>
                     <span className="corr">st</span>ark ₤ 12,000 – oder{" "}
                     <span className="abbr"> rh</span>
@@ -335,7 +335,7 @@ export default function page() {
                       <span className="corr">bezahlte</span>
                     </sup>{" "}
                     Baumwolle
-                    <br className="lb" /> für
+                    <br className="lb" /> für{" "}
                     <span className="g.enc.tagsdecl.cc.abbr-period-sup">
                       c<sup>a</sup>.
                     </span>{" "}
@@ -387,8 +387,8 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chäfte, worin{" "}
                     <span className="underline">monatli</span>ch der{" "}
-                    <span className="g.rend.script.latin">Fond</span> außer
-                    <br className="lb" /> <span style={{ marginLeft: "430px"}}> den</span>
+                    <span className="g.rend.script.latin">Fond</span> <span className="orig">außer
+                    <br className="lb" /> <span style={{ marginLeft: "430px"}}> den</span></span>
                   </p>
                 </div>
                 <div
@@ -521,7 +521,7 @@ export default function page() {
                       <br className="lb" /> näheres{" "}
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>agen; wenn eure Briefe
-                      nicht gekom̅en
+                      nicht <span className="orig">gekom̅en</span><span className="corr">gekommen</span>
                       <br className="lb" /> wären{" "}
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>o würde ich{" "}
@@ -543,16 +543,13 @@ export default function page() {
                       n<span className="underline">äch<span className="orig">ﬅ</span>
                       <span className="corr">st</span>em
                     </span>{" "}
-                    <a id="metamark index.xml-anchor-d29e629" />*
+                    <a id=" index.xml-anchor-d29e629" />
+                    <span className="orig metamark">*</span>
+                    <span className="corr">Dienstag Abend </span>
                     <span
-                      className="strike-through"
-                      style={{ textDecoration: "line-through" }}
-                    >
-                      <span className="underline">
-                        Dien<span className="orig">ﬅ</span>
-                        <span className="corr">st</span>ag
-                      </span>
-                    </span>{" "}
+                      className="strike-through  underline orig">
+                        Dienﬅag
+                      </span>{" "}
                     <sup className="sup" id="txt.add003">
                       <span
                         className="strike-through"
@@ -562,9 +559,8 @@ export default function page() {
                       </span>
                       <span className="strikethrough">h</span>
                     </sup>
-                    <sup className="sup" id="txt.add004">
-                        Dien<span className="orig">ﬅ</span>
-                        <span className="corr">st</span>ag
+                    <sup className="sup orig" id="txt.add004">
+                        Dienﬅag
                     </sup>{" "}
                     <span className="underline">an</span>{" "}
                     <span className="orig">laße</span>
@@ -611,7 +607,7 @@ export default function page() {
                     </span>
                     <br className="lb" /> die übrigen herzlich von mir.
                     <br className="lb" />{" "}
-                    <div className="note" id="txt.margin001" style={{
+                    <div className="note orig" id="txt.margin001" style={{
                       marginLeft: "60px",
                       marginTop: "20px"
                     }}>
