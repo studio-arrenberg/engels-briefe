@@ -862,7 +862,8 @@ img {
   z-index: 450;
   justify-content: center;
   align-items: center;
-  animation-name: slide-in;
+  /* animation-name: slide-in; */
+  bottom: 0px;
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-delay: 3s;
@@ -1003,13 +1004,13 @@ img {
 
 
 .vergleichs-ansicht .sans{
-  font-family: "Gibson-Regular";
-  font-size: 80%;
+  font-family: "Gibson-Light";
+  /* font-size: 80%; */
 }
 
-.persName{
-  font-family: "Gibson-Regular";
-  font-size: 80%;
+.vergleichs-ansicht .persName{
+  font-family: "Gibson-Light";
+  /* font-size: 80%; */
 
 }
 
