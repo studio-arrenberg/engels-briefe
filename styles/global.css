@@ -996,6 +996,23 @@ img {
     justify-content: center;
 }
 
+
+.vergleichs-ansicht .serif{
+  font-family: 'baskerville';
+}
+
+
+.vergleichs-ansicht .sans{
+  font-family: "Gibson-Regular";
+  font-size: 80%;
+}
+
+.persName{
+  font-family: "Gibson-Regular";
+  font-size: 80%;
+
+}
+
 .vergleichs-ansicht .corr,
 .vergleichs-ansicht .stellenerläuterungen {
   display: none;

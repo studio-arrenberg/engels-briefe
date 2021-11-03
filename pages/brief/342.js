@@ -52,17 +52,20 @@ export default function page() {
                         <span
                           className="xsmall"
                           style={{
-                            textDecoration: "underline",
                             marginBottom: "20px",
                           }}
                         >
-                          via Ostende
+                          v<span
+                          style={{
+                            textDecoration: "underline",
+                          }}
+                        >ia Ostend</span>e
                         </span>
                         <br />
                         <span
-                          className="small"
+                          className="small serif" 
                           style={{ display: "inline-block" }}
-                          width="1line"
+                          width="1line" 
                         >
                           An Frau
                         </span>{" "}
@@ -74,7 +77,11 @@ export default function page() {
                             Adr<span className="ex">e</span>s
                             <span className="ex">se</span>
                           </span>{" "}
-                          Herrn{" "}
+                          <span
+                          className="serif" 
+                          style={{ display: "inline-block" }}
+                          width="1line" 
+                        >dHerrn</span>{" "}
                           <span className="orgName">Ermen &amp; Engels</span>
                         </span>
                         <br />
@@ -82,7 +89,7 @@ export default function page() {
                           className="text-center"
                           style={{ display: "block", width: "500px" }}
                         >
-                          <span className="xsmall">in</span>
+                          <span className="xsmall serif">in</span>
                           <br />
                           <span style={{ display: "inline-block" }}>
                             &nbsp;
@@ -95,9 +102,9 @@ export default function page() {
                           >
                             &nbsp;
                           </span>
-                          <span className="xsmall">
+                          <span className="xsmall serif">
                             <span className="expan">
-                              p<span className="ex">e</span>r
+                              p<span className="ex">e</span><sup>r</sup>.
                             </span>
                             <span className="placeName"> Cöln.</span>
                           </span>
@@ -130,7 +137,7 @@ export default function page() {
                       <span className="g.rend.script.latin">
                         <span className="placeName">Manchester </span>
                         <span className="date">
-                          10. <span className="abbr"> Sept.</span>
+                          10. <span className="abbr"> Sept.{" "}</span>
                           <span className="expan">
                             Sept<span className="ex">ember</span>
                           </span>
@@ -158,9 +165,7 @@ export default function page() {
                     <span className="expan">
                       l<span className="ex">ieben</span>
                     </span>
-                    <span className="expan">
-                      l<span className="ex">etzen</span>
-                    </span>{" "}
+                   {" "}
                     Brief und gleichzeitig
                     <br className="lb" /> einen aus{" "}
                     <span className="placeName">
@@ -189,15 +194,15 @@ export default function page() {
                       <span className="orig">glükliche</span>
                       <span className="corr">glückliche</span> Ankunft ge
                       <span className="orig">ſ</span>
-                      <span className="corr">s</span>ehen.{" "}
+                      <span className="corr">s</span>ehen,{" "}
                       <a id="teaser.part.002.e">{/*anchor*/}</a>
-                      Ich war richtig
+                      ich war richtig
                       <br className="lb" /> um 12 Uhr Mittags hier.
                       <a id="mark.001.e">{/*anchor*/}</a>
                     </span>{" "}
-                    <a id="teaser.part.003.s">{/*anchor*/}</a>Ich wohne wieder
+                    <a id="teaser.part.003.s">{/*anchor*/}</a>Jch wohne wieder
                     bei <span className="persName">Friedrich</span>,
-                    <br className="lb" /> es war grade ein hübches Schlafzimmer
+                    <br className="lb" /> es war grade ein hüb<span className="orig">ſ</span><span className="corr">s</span>ches Schlafzimmer
                     frei. <span className="persName">Friedrich</span>
                     <br className="lb" /> <span className="orig">ſ</span>
                     <span className="corr">s</span>ieht wieder recht wohl und
@@ -205,7 +210,7 @@ export default function page() {
                     <span className="corr">s</span>o{" "}
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>ark wie früher
-                    <br className="lb" /> aus.
+                    <br className="lb" /> aus.{"  "}
                     <a id="teaser.part.003.e">{/*anchor*/}</a>
                     <span style={{ display: "inline-block" }} width="1cm">
                       &nbsp;
@@ -262,7 +267,7 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ind. –{" "}
                     <span className="underline">
-                      Einen Sorgen<span className="orig">ﬅ</span>
+                      LEinen Sorgen<span className="orig">ﬅ</span>
                       <span className="corr">st</span>ein
                     </span>
                     ,
@@ -284,9 +289,9 @@ export default function page() {
                       Th<span className="ex">a</span>l
                       <span className="ex">e</span>r
                     </span>
-                    <br className="lb" /> heraus ziehen zu können, wenn es durch
+                    <br className="lb" /> <span className="orig">heraus^ziehen</span><span className="corr">herausziehen</span> zu können, wenn es durch
                     irgend
-                    <br className="lb" /> eine Kündigung nothwendig würde.
+                    <br className="lb" /> eine Kündigung nothwendig würde.{"  "}
                     <span style={{ display: "inline-block" }} width="1cm">
                       &nbsp;
                     </span>
@@ -317,9 +322,9 @@ export default function page() {
                     <br className="lb" /> <span className="orig">ﬅ</span>
                     <span className="corr">st</span>ark ₤ 12,000 – oder{" "}
                     <span className="abbr"> rh</span>
-                    <span className="expan">Reichstaler</span>
-                    <span className="underline"> 84,000</span> –
-                    <span className="underline">disponible</span> übrig, dabei{" "}
+                    <span className="expan">Reichstaler</span>{" "}
+                    <span className="underline">84,000</span> –
+                    <span className="double-underline sans">disponible</span> übrig, dabei{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ind
                     <br className="lb" /> wir hier nichts{" "}

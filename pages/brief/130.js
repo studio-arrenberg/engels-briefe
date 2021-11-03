@@ -183,7 +183,7 @@ export default function page() {
                       <span className="corr">s</span>chaffen, daß un
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>er Zu
-                      <br className="g.enc.tagsdecl.hyphenation.divis" />
+                      <br className="" />
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>ammentreffen von dem
                       gütigen Gotte geleitet wurde.
