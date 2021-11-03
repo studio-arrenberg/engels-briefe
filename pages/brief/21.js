@@ -46,7 +46,7 @@ export default function page() {
                       <span className="headingNumber">1.1. </span>
                     </h3>
                     <p className="g.enc.tagsdecl.wd.vertical-left">
-                      <span className="address">
+                      <span className="address sans">
                         <span className="small">
                           <span className="g.rend.script.latin">Madame</span>
                           <br />{" "}
@@ -58,7 +58,7 @@ export default function page() {
                             </span>
                           </span>
                           <span className="expan">
-                            Mad<sup class="double-underline">e</sup><span className="ex">ame</span>
+                            Mad<sup className="double-underline">e</sup><span className="ex">ame</span>
                           </span>{" "}
                         </span>
                         <span className="persName">Louise Engels <span className="small"> <span className="makierung">né</span> Nooth</span></span>
@@ -102,7 +102,7 @@ export default function page() {
 
                   <p>
                     <span className="reisen active">
-                      Meine Liebe <span className="orig">theüre</span>
+                      Meine Liebe <span className="orig">Theüre</span>
                       <span className="corr">theure</span>{" "}
                       Gattin! <span className="orig">noch</span>
                       <span className="corr">Noch</span>
@@ -222,7 +222,9 @@ export default function page() {
                       <span className="corr">s</span>o ordentlich und erwün
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>cht hergegangen, und alle
-                      <br className="lb" />{" "} Freunde{" "}
+                      <br className="lb" />{" "} 
+                      <span className="orig">Freünde</span>
+                      <span className="corr">Freunde</span>{" "}
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>o befriedigt, ja hoch
                       zufrieden <span className="orig">ſ</span>
@@ -267,7 +269,7 @@ export default function page() {
                 >
                   <span className="liebe-ehe religion ">
                     <span className="orig">Hofnung</span>
-                    <span className="corr">Hoffnung</span> wollen wirs Ihm
+                    <span className="corr">Hoffnung</span> wollen wirs <span className="orig">J</span><span className="corr">I</span>hm
                     zutrauen, daß er uns ferner
                     <br className="lb" />{" "} bei<span className="orig">ﬅ</span>
                     <span className="corr">st</span>ehen, und in un
@@ -296,8 +298,8 @@ export default function page() {
                     <span className="corr">s</span>re Sünden vergeben und von{" "}
                     <br className="lb" />{" "} un<span className="orig">ſ</span>
                     <span className="corr">s</span>ren Gebrechen heilen, daß wir
-                    im̅er tüchtiger und fertiger
-                    <br className="lb" />{" "} gemacht werden zu thun, was Ihm{" "}
+                    im̅er <span className="orig">T</span><span className="corr">t</span>üchtiger und fertiger
+                    <br className="lb" />{" "} gemacht werden zu <span className="orig">T</span><span className="corr">t</span>hun, was <span className="orig">J</span><span className="corr">I</span>hm{" "}
                     <span className="orig">wohlgefält</span>
                     <span className="corr">wohlgefällt</span>.
                   </span>
@@ -333,7 +335,7 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ehr{" "}
                     <span className="orig">Lieb</span>
-                    <span className="corr">lieb</span> ge
+                    <span className="corr">lieb</span> ge =
                     <br className="g.enc.tagsdecl.hyphenation.eq" /> wonnen, und
                     beide Brüder erwarten verlangend je eher{" "}
                     <br className="lb" />{" "} je{" "}
@@ -342,7 +344,7 @@ export default function page() {
                     <span className="orig">Laßen</span>
                     <span className="corr">lassen</span> Ihren herzlichen{" "}
                     <span className="orig">
-                      gegen
+                      gegen =
                       <br className="g.enc.tagsdecl.hyphenation.eq" />
                       Gruß
                     </span>
@@ -418,10 +420,10 @@ export default function page() {
                     <span className="corr">
                       näch<span className="orig">ﬅ</span>
                       <span className="corr">st</span>ens
-                    </span>
+                    </span>{" "}
                     mehr;<a id="mark.004.e">{/*anchor*/}</a> du wir
                     <span className="orig">ﬅ</span>
-                    <span className="corr">st</span> heute{" "}
+                    <span className="corr">st</span> he<span className="orig">ü</span><span className="corr">u</span>te{" "}
                   </p>
                 </div>
                 <div
@@ -459,7 +461,7 @@ export default function page() {
                     {" "}und Verwandte, die ich herzlich zu{" "}
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (grüß</span>
+                      grüß</span>
                     <span className="expan">
                       grüß<span className="ex">en</span>
                     </span>{" "}
@@ -486,11 +488,11 @@ export default function page() {
                     }}
                   >
                     Dein ewig verbundner und{" "}
-                    <span className="orig">treüer</span>
+                    <span className="orig">Treüer</span>
                     <span className="corr">
                       treuer
                     </span> <br className="lb" />{" "}{" "}
-                    <div className="signed">
+                    <div className="">
                       <span className="persName">
                         <span className="g.rend.script.latin">
                           Casper Engels
@@ -504,22 +506,7 @@ export default function page() {
                     <span style={{ display: "inline-block" }} width="6words">
                       &nbsp;
                     </span>
-                    <div className="dateline">
-                      <span className="g.rend.script.latin">
-                        <span className="g.enc.tagsdecl.suspension.type1">
-                          (d.</span>
-                        <span className="expan">
-                          d<span className="ex">en</span>
-                        </span>
-                      </span>{" "}
-                      9{" "}
-                      <span className="g.rend.script.latin">
-                        <span className="abbr">
-                          {" "}7<sup>ber</sup></span>
-                        <span className="expan" />
-                      </span>{" "}
-                      1791
-                    </div>
+                    
                   </div>
                   <p>
                     Dem guten{" "}<span className="makierung">
@@ -561,6 +548,22 @@ export default function page() {
                     viel Liebe und Hochachtung für dich
                     <br className="lb" />{" "} hat, bat mich eben, dich zu grüßen.
                   </p>
+                  <div className="dateline dateline-bottom">
+                      <span className="g.rend.script.latin">
+                        <span className="g.enc.tagsdecl.suspension.type1">
+                          (d.</span>
+                        <span className="expan">
+                          d<span className="ex">en</span>
+                        </span>
+                      </span>{" "}
+                      9{" "}
+                      <span className="g.rend.script.latin">
+                        <span className="abbr">
+                          {" "}7<sup>ber</sup></span>
+                        <span className="expan" />
+                      </span>{" "}
+                      1791
+                    </div>
                 </div>
               </section>
             </div>

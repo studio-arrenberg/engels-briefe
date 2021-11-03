@@ -42,7 +42,7 @@ export default function page() {
                   <span style={{ display: "inline-block" }} width="45mm">
                     &nbsp;
                   </span>{" "}
-                  <small> Zu eigenen Händen.</small>
+                  <small> Zu eignen Händen.</small>
                   <br />
                 </section>
               </div>
@@ -53,7 +53,7 @@ export default function page() {
                   style={{
                     paddingTop: "115px",
                     paddingLeft: "80px",
-                    paddingBottom: "35px",
+                    paddingBottom: "10px",
                   }}
                 >
                   <p>
@@ -66,7 +66,10 @@ export default function page() {
                     erhalten, von Ihrer <span className="makierung">Sÿnodal-Rei<span className="orig">ſ</span><span className="corr">s</span>e</span>
                     <br className="lb" /> ge<span className="orig">ſ</span><span className="corr">s</span>und und{" "}
                     <span className="orig">glüklich</span>
-                    <span className="corr">glücklich</span> zurückgekom̅en;{" "}
+                    <span className="corr">glücklich</span>
+                    <span className="orig">zurückgekom̅en;</span>
+                    <span className="corr">zurückgekommen;</span>
+                     {" "}
                     <a id="mark.002.s">{/*anchor*/}</a>
                     <a id="teaser.part.002.s">{/*anchor*/}</a>
                     <span className="liebe-ehe active">
@@ -88,9 +91,9 @@ export default function page() {
                       <span className="corr">kann</span>,<br className="lb" />{" "}
                       ent<span className="orig">ſ</span><span className="corr">s</span>prechen:<a id="teaser.part.002.e">{/*anchor*/}</a>
                     </span>{" "}
-                    Ihr natürlicher{" "}
+                    ihr natürlicher{" "}
                     <span className="g.rend.script.latin">Character</span> i<span className="orig">ﬅ</span><span className="corr">st</span>{" "}
-                    aufrichtig, gefällig, zuvorkom̅end,
+                    aufrichtig, gefällig, <span className="orig">zuvorkom̅end,</span><span className="corr">zuvorkommmend,</span>
                     <br className="lb" /> und gar nichts fordernd, <span className="makierung">meine Frau</span>,
                     und ich, wir haben in der
                     <br className="lb" /> <span className="orig">gantzen</span>
@@ -102,19 +105,34 @@ export default function page() {
                     <br className="lb" /> an ihr bemerkt; etwas zu <span className="orig">ſ</span><span className="corr">s</span>agen, das
                     ihr nicht von <span className="orig">Hertzen gienge</span>
                     <span className="corr">Herzen ginge</span>,
-                    <br className="lb" /> würde ihr, wie ich vermuthe, überaus
+                    <br className="lb" /> würde ihr, wie ich vermuthe, überaus{" "}
                     <span className="orig">ſ</span><span className="corr">s</span>chwer werden — aber gar nicht
-                    <br className="lb" /> <span className="orig">ſ</span><span className="corr">s</span>chwer wird es ihr, <span className="orig">ſ</span><span className="corr">s</span>ich nach andern,
+                    <br className="lb" /> <span className="orig">ſ</span><span className="corr">s</span>chwer wird es ihr, <span className="orig">ſ</span><span className="corr">s</span>ich nach andern,{" "}
                     <span className="orig">ſ</span><span className="corr">s</span>oweit es die Aufrichtigkeit zuläßt,
                     <br className="lb" /> zu{" "}
-                    <span className="makierung"><span className="g.rend.script.latin">accommodi</span>ren;</span>{" "}
+                    <span className="makierung"><span className="g.rend.script.latin">accommodi</span>ren</span>;{" "}
                     auf ihren Sinn eigenwillig zu be<span className="orig">ﬅ</span><span className="corr">st</span>ehen, <span className="orig">ſ</span><span className="corr">s</span>cheint ihr
                     <br className="lb" /> gar nicht eigen, <span className="orig">ſ</span><span className="corr">s</span>ondern
                     Nachgiebigkeit, und leichte Lenk<span className="orig">ſ</span><span className="corr">s</span>amkeit ein
                     <br className="lb" /> Hauptzug ihrer{" "}
-                    <span className="g.rend.script.latin">Characters</span> zu
-                    <span className="orig">ſ</span><span className="corr">s</span>eÿn, dabeÿ i<span className="orig">ﬅ</span><span className="corr">st</span> <span className="orig">ſ</span><span className="corr">s</span>ie aber von aller Schmeicheleÿ
-                    <br className="lb" /> und Heucheleÿ, <span className="orig">ſ</span><span className="corr">s</span>o wie von allem{" "}
+                    <span className="g.rend.script.latin">Characters</span> zu{" "}
+                    <span className="orig">ſ</span>
+                    <span className="corr">s</span>
+                    
+                    <span className="orig">eÿn, dabeÿ i</span>
+                    <span className="corr">eyn, dabey i</span> 
+                    
+                    <span className="orig">ﬅ</span>
+                    <span className="corr">st</span> <span className="orig">ſ</span>
+                    
+                    <span className="corr">s</span>ie aber von aller 
+                    <span className="orig">Schmeicheleÿ</span>
+                    <span className="corr">Schmeicheley</span> 
+                    
+                    <br className="lb" /> und 
+                    <span className="orig">Heucheleÿ,</span>
+                    <span className="corr">Heucheley,</span> 
+                     <span className="orig">ſ</span><span className="corr">s</span>o wie von allem{" "}
                     <span className="orig">Stoltz</span>
                     <span className="corr">Stolz</span> weit entfernt;{" "}
                     <span className="makierung">
@@ -132,7 +150,9 @@ export default function page() {
                     <br className="lb" /> von andern fordert, und weit mehr
                     daran denkt, wie <span className="orig">ſ</span><span className="corr">s</span>ie <span className="orig">ſ</span><span className="corr">s</span>ich andern
                     <br className="lb" /> gefällig machen, und ihnen zur Freude{" "}
-                    <span className="orig">ſ</span><span className="corr">s</span>eÿn möge; — <a id="mark.001.s">{/*anchor*/}</a>
+                    <span className="orig">ſ</span><span className="corr">s</span>
+                    <span className="orig">eÿn möge;</span><span className="corr">eyn möge;</span>
+                     {" "}— <a id="mark.001.s">{/*anchor*/}</a>
                     <span className="religion active">
                       Was ihre Ge<span className="orig">ſ</span><span className="corr">s</span>innungen
                       <br className="lb" />{" "}
@@ -149,7 +169,9 @@ export default function page() {
                         &nbsp;
                       </span>
                       <br />
-                      <span className="text-right hide-normalisiert">Fort=</span>
+                      <span className="text-right hide-normalisiert">Fort=<br />
+                      –</span>
+                      
                       <br className="lb" />
                       <span style={{ display: "inline-block" }} width="10cm">
                         &nbsp;
@@ -164,7 +186,7 @@ export default function page() {
                     marginTop: "40px",
                     paddingTop: "120px",
                     paddingLeft: "70px",
-                    paddingBottom: "10px",
+                    paddingBottom: "30px",
                   }}
                 >
                   <p>
@@ -174,7 +196,7 @@ export default function page() {
                       <br className="lb" /> Ruhe mehr werth i<span className="orig">ﬅ</span><span className="corr">st</span>, als alle Lu<span className="orig">ﬅ</span><span className="corr">st</span>{" "}
                       die<span className="orig">ſ</span><span className="corr">s</span>er Welt, und alle{" "}
                       <span className="g.enc.tagsdecl.suspension.type1">
-                        Lu<span className="orig">ﬅ</span><span className="corr">st</span>barkeit </span>
+                        Lu<span className="orig">ﬅ</span><span className="corr">st</span>barkeit</span>
                       <span className="expan">
                         Lu<span className="orig">ﬅ</span><span className="corr">st</span>barkeit<span className="ex">en</span>
                       </span>
@@ -186,35 +208,36 @@ export default function page() {
                       denen Vergnügungen, die in{" "}
                       <span className="g.rend.script.latin">Ruhrorth</span>,
                       <br className="lb" /> und in{" "}
-                      <span className="g.rend.script.latin">Hagen</span> üblich
-                      <span className="orig">ſ</span><span className="corr">s</span>ind, nicht mehr Theil, weil <span className="orig">ſ</span><span className="corr">s</span>ie die<span className="orig">ſ</span><span className="corr">s</span>elbe einem
+                      <span className="g.rend.script.latin">Hagen</span> üblich{" "}
+                      {" "}<span className="orig">ſ</span><span className="corr">s</span>ind, nicht mehr Theil, weil <span className="orig">ſ</span><span className="corr">s</span>ie die<span className="orig">ſ</span><span className="corr">s</span>elbe einem
                       <br className="lb" /> Chri<span className="orig">ﬅ</span><span className="corr">st</span>en unan<span className="orig">ﬅ</span><span className="corr">st</span>ändig hielt — ;
                       <a id="mark.001.e">{/*anchor*/}</a>
                     </span>{" "}
                     Was zuletzt ihre{" "}
                     <span className="g.rend.script.latin">Familie</span>{" "}
-                    betrift, <span className="orig">ſ</span><span className="corr">s</span>o
+                    <span className="orig">betrift,</span><span className="corr">betrifft,</span>
+                     <span className="orig">ſ</span><span className="corr">s</span>o
                     <br className="lb" /> i<span className="orig">ﬅ</span><span className="corr">st</span> in der<span className="orig">ſ</span><span className="corr">s</span>elben keine{" "}
                     <span className="orig">Per<span className="orig">ſ</span><span className="corr">s</span>ohn</span>
                     <span className="corr">Person</span>, deren <span className="orig">ſ</span><span className="corr">s</span>ie Ur<span className="orig">ſ</span><span className="corr">s</span>ache
                     hätte, <span className="orig">ſ</span><span className="corr">s</span>ich zu <span className="orig">ſ</span><span className="corr">s</span>chämen.
                     <br className="lb" /> <span className="orig">ſ</span><span className="corr">s</span>ie hat, <span className="orig">ſ</span><span className="corr">s</span>oviel ich weiß, 3 Brüder und
-                    2 Schwe<span className="orig">ﬅ</span><span className="corr">st</span>ern; der <span className="makierung">ältere Bruder</span> <br className="lb" /> i<span className="orig">ﬅ</span><span className="corr">st</span>{" "}
+                    2 Schwe<span className="orig">ﬅ</span><span className="corr">st</span>ern; der <span className="makierung">ältere Bruder</span> <br className="lb" /> i<span className="orig">ﬅ</span><span className="corr">st</span>
                     <span className="makierung">
-                    OberSaltz <span className="orig">=</span>
-                    <span className="corr">-</span>{" "}
+                    OberSaltz<span className="orig"></span>
+                    <span className="corr">-</span>
                     <span className="g.rend.script.latin">Inspector</span></span>, und
-                    ZollEinnehmer in{" "}
-                    <span className="g.rend.script.latin">Ruhrorth</span>; Zweÿ
-                    <span className="orig">ſ</span><span className="corr">s</span>ehr ein
-                    <br className="g.enc.tagsdecl.hyphenation.eq" /> trägliche
+                    Zoll-Einnehmer in{" "}
+                    <span className="g.rend.script.latin">Ruhrorth</span>; <span className="orig">Zweÿ</span>
+                    <span className="corr">Zwey</span> {" "}
+                    <span className="orig">ſ</span><span className="corr">s</span>ehr ein =
+                    <br className="g.enc.tagsdecl.hyphenation.eq" />trägliche
                     und ehrenvolle <span className="makierung">Bedienungen</span>; <span className="orig">ſ</span>
                     <span className="makierung">
                     <span className="corr">s</span>eine Frau </span>i<span className="orig">ﬅ</span><span className="corr">st</span> eine{" "}
                     <span className="g.rend.script.latin">Mauritz</span> von{" "}
-                    <span className="placeName">We<span className="orig">ſ</span><span className="corr">s</span>el</span>,
+                    <span className="placeName">We<span className="orig">ſ</span><span className="corr">s</span>el</span>;
                     <br className="lb" /> Der{" "}
-                    <span className="orig">
                       Zwe
                       <span className="orig">
                         <span className="corr">y</span>te
@@ -224,8 +247,8 @@ export default function page() {
                         <span className="orig">
                           <span className="corr">y</span>te
                         </span>{" "}
-                        </span>
-                        <span className="makierung">Bruder</span> i<span className="orig">ﬅ</span><span className="corr">st</span> <span className="makierung"><span className="orig">Creiß=Einnehmer</span>
+                        </span>{" "}
+                        <span className="makierung">Bruder</span> i<span className="orig">ﬅ</span><span className="corr">st</span> <span className="makierung"><span className="orig">Creiß Einnehmer</span>
                         <span className="corr">Kreis-Einnehmer</span></span>{" "}
                         gleichfalls in{" "}
                         <span className="g.rend.script.latin">Ruhrorth</span>,
@@ -235,7 +258,6 @@ export default function page() {
                         verheirathet; <span className="makierung">der dritte</span> noch unverheirathete
                         <br className="lb" /> be<span className="orig">ſ</span><span className="corr">s</span>orgt die Ge<span className="orig">ſ</span><span className="corr">s</span>chäfte der <span className="makierung">älteren
                         Schwe<span className="orig">ﬅ</span><span className="corr">st</span>er,</span> die{" "}
-                        <span className="orig">
                           <span className="corr">eine</span>{" "}
                           <span className="g.rend.script.latin">Spedition</span>{" "}
                           hat, und gleichfalls
@@ -251,14 +273,11 @@ export default function page() {
                           <br className="lb" /> <span className="orig">ſ</span><span className="corr">s</span>elb<span className="orig">ﬅ</span><span className="corr">st</span>, und auf Gottes Wort
                           geworden, und hegt den ern<span className="orig">ﬅ</span><span className="corr">st</span>lichen Wun<span className="orig">ſ</span><span className="corr">s</span>ch <span className="orig">ſ</span><span className="corr">s</span>ich
                           <br className="lb" /> zu be<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>ern; die <span className="makierung">jüngere Schwe<span className="orig">ﬅ</span><span className="corr">st</span>er</span>
-                          i<span className="orig">ﬅ</span><span className="corr">st</span> an Herrn{" "}
+                          i<span className="orig">ﬅ</span><span className="corr">st</span>{" "} an Herrn{" "}
                           <span className="g.rend.script.latin">
                             <span className="makierung">Doctor <span className="persName">Maercker</span></span>
                           </span>{" "}
-                          in <span className="g.rend.script.latin">Hagen</span>{" "}
-                          <br className="lb" /> verheirathet — ;
-                        </span>
-                      </span>
+                          in <span className="g.rend.script.latin">Hagen</span>{" "}verheirathet —;
                   </p>
                   <p className="enc.tagsdecl.indent-medium">
                     Dieß mein Werthe<span className="orig">ﬅ</span><span className="corr">st</span>er! wäre{" "}
@@ -275,7 +294,7 @@ export default function page() {
                     <span className="orig">ſ</span><span className="corr">s</span>agen könnte — ; Sie werden daraus <span className="orig">ſ</span><span className="corr">s</span>elb<span className="orig">ﬅ</span><span className="corr">st</span> den Schluß machen,
                     <br className="lb" /> daß <span className="orig">ſ</span><span className="corr">s</span>ie nicht zu den alltäglichen
                     Frauenzimmern gehört, <span className="orig">ſ</span><span className="corr">s</span>ondern zu denen,
-                    <br className="lb" /> die man <span className="orig">ſ</span><span className="corr">s</span>elten antrifft — be<span className="orig">ſ</span><span className="corr">s</span>onders in
+                    <br className="lb" /> die man <span className="orig">ſ</span><span className="corr">s</span>elten antrift — be<span className="orig">ſ</span><span className="corr">s</span>onders in
                     den <span className="orig">itzigen</span>
                     <span className="corr">jetzigen</span> Zeiten, wo Eitelkeit
                     und
@@ -286,8 +305,8 @@ export default function page() {
                     <span className="makierung"><span className="corr">nach</span> meinem Urtheil{" "}
                     <span className="orig">kan</span>
                     <span className="corr">kann</span> ich nicht
-                    <br className="lb" /> anders, als den Mann glücklich
-                    <span className="orig">ſ</span><span className="corr">s</span>chätzen, der <span className="orig">ſ</span><span className="corr">s</span>ie zur Gattin bekömmt.</span>
+                    <br className="lb" /> anders, als den Mann glücklich{" "}
+                    {" "}<span className="orig">ſ</span><span className="corr">s</span>chätzen, der <span className="orig">ſ</span><span className="corr">s</span>ie zur Gattin bekömmt.</span>
                     <a id="mark.002.e">{/*anchor*/}</a>
                   </p>
                   <div className="closer indent-medium">
@@ -300,7 +319,7 @@ export default function page() {
                       &nbsp;
                     </span>{" "}
 
-                    <div className="dateline">
+                    <div className="dateline" className="dateline-left">
                       <span className="placeName">
                         <span className="abbr"> D.</span>
                         <span className="expan">
@@ -313,7 +332,7 @@ export default function page() {
                     </div>
 
                     
-                    <div className="signed">
+                    <div className="signed-right">
                     Ihr aufrichtiger Freund <br className="lb" />
                       <span className="persName">
                         <span className="abbr"> Fr.</span>
@@ -339,7 +358,7 @@ export default function page() {
             <hr />
             <label>Sÿnodal-Reise</label>
             <p>
-            Synode: auch Kirchenrat oder Konsistorium; bezeichnet die Versammlung der Geistlichen einer Diözese. Zwischen dem 10. und 12. Mai 1791 fand in der Pfarrkirche zu Haan die bergische Provinzialsynode statt. Johann Caspar Engels erhielt am 3. April 1791 das Mandat für die Synode der Elberfelder Classis.
+            Synode: auch Kirchenrat oder Konsistorium; bezeichnet die Versammlung der Geistlichen und Laien evangelischer Gemeinden einer Region. Zwischen dem 10. und 12. Mai 1791 fand in der Pfarrkirche zu Haan die bergische Provinzialsynode statt. Johann Caspar Engels erhielt am 3. April 1791 das Mandat für die Synode der Elberfelder Classis.
             </p>
           </div>
 
@@ -434,7 +453,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "1850px",
             }}
           >
             <hr />
@@ -443,9 +462,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "350px",
+              top: "2040px",
             }}
           >
             <hr />
@@ -456,7 +475,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "2085px",
             }}
           >
             <hr />
@@ -467,7 +486,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "2040px",
             }}
           >
             <hr />
@@ -476,9 +495,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "350px",
+              top: "2090px",
             }}
           >
             <hr />
@@ -489,7 +508,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "350px",
+              top: "2130px",
             }}
           >
             <hr />
@@ -498,9 +517,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "350px",
+              top: "2180px",
             }}
           >
             <hr />
