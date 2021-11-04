@@ -128,7 +128,7 @@ export default function page() {
                       <h3>
                         <span className="headingNumber">1.3. </span>
                       </h3>
-                      <p className="g.enc.tagsdecl.wd.vertical-left">
+                      <p className="g.enc.tagsdecl.wd.vertical-left sans">
                         Herrn <br className="lb" />{" "}
                         <span className="persName">
                           {" "}
@@ -144,7 +144,7 @@ export default function page() {
                             </span>
                           </span>
                           <span className="expan">
-                            Add<span className="ex">esse</span>
+                            Ad<span className="orig">d</span><span className="ex">esse</span>
                           </span>{" "}
                           Herrn{" "}
                           <span className="persName">
@@ -153,18 +153,18 @@ export default function page() {
                               <span className="abbr"> Joh.</span>
                               <span className="expan">
                                 Joh<span className="ex">ann</span>
-                              </span>
+                              </span>{" "}
                               <span className="abbr"> Frid.</span>
                               <span className="expan">
                                 Fri<span className="ex">e</span>d
                                 <span className="ex">rich</span>
-                              </span>
-                              Eckhard
+                              </span>{" "}
+                              Eckhard{" "}
                             </span>
                           </span>
-                          <span className="abbr"> sr.</span>
+                          <span className="abbr"> s<sup className="double-underline">r</sup></span>
                           <span className="expan">
-                            s<span className="ex">enio</span>r
+                            s<span className="ex">enio</span><sup className="double-underline">r</sup>
                           </span>{" "}
                           <br className="lb" /> <br className="lb" />
                           <span
@@ -224,14 +224,14 @@ export default function page() {
                       <span className="corr" />
                       <span className="placeName">Barmen</span>{" "}
                       <span className="date">
-                        3
+                        3{" "}
                         <span className="abbr">
                           Feb<span className="orig">:</span>
                           <span className="corr">.</span>
                         </span>
                         <span className="expan">
                           Feb<span className="ex">ruar</span>
-                        </span>
+                        </span>{" "}
                         1814
                       </span>
                     </div>
@@ -239,6 +239,7 @@ export default function page() {
 
                   <div className="opener">
                     <div className="salute">
+                      <span className="orig" style={{marginRight: "70px",}}> </span>
                       <a id="teaser.part.001.s">{/*anchor*/}</a>Lieber{" "}
                       <span className="persName">Friedrich</span>!
                     </div>
@@ -258,7 +259,7 @@ export default function page() {
                         <span className="corr">s</span>
                         <span className="orig">ſ</span>
                         <span className="corr">s</span>
-                        <span className="ex">ati</span>
+                        <span className="ex">ato</span>
                       </span>
                     </span>
                     </span>{" "}
@@ -276,7 +277,7 @@ export default function page() {
                     <span className="corr">heute</span> in der Einlage an{" "}
                     <span className="persName">
                       <span className="g.enc.tagsdecl.suspension.type1">
-                        Hr </span>
+                        Hr</span>
                       <span className="expan">
                         H<span className="ex">e</span>r
                         <span className="ex">rn</span>
@@ -384,7 +385,7 @@ export default function page() {
                     mögte{" "}
                     <span className="persName">
                       <span className="g.enc.tagsdecl.suspension.type1">
-                        Hr </span>
+                        Hr</span>
                       <span className="expan">
                         H<span className="ex">e</span>r
                         <span className="ex">rn</span>
@@ -423,7 +424,7 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>iehe
                     <span className="orig">ﬅ</span>
-                    <span className="corr">st</span> du
+                    <span className="corr">st</span> du{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chon, daß ich deine Wün
                     <span className="orig">ſ</span>
@@ -526,9 +527,9 @@ export default function page() {
                         <span className="abbr">
                           Ab
                           <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
-                            :<sup>m</sup>
+                            <sup className="double-underline">m</sup>
                           </span>
-                          </span>
+                          </span>{" "}
                         <span className="expan">
                           Ab<span className="ex">raham</span>{" "}
                         </span>
@@ -579,7 +580,7 @@ export default function page() {
                     <span className="corr">st</span>ag <br className="lb" />
                     oder {" "}
                     <span className="makierung"><span className="orig">Sontag</span>
-                    <span className="corr">Sonntag</span> dort oder in
+                    <span className="corr">Sonntag</span> dort oder in{" "}
                     <span className="orig">eürer</span>
                     <span className="corr">eurer</span> Gegend ankom̅en werden;</span>{" "}
                     <br className="lb" />
@@ -624,7 +625,7 @@ export default function page() {
                     <span className="corr">Daß</span> du bei{" "}
                     <span className="persName">
                       <span className="g.enc.tagsdecl.suspension.type1">
-                        Hr. </span>
+                        Hr</span><span className="orig">.</span>
                       <span className="expan">
                         H<span className="ex">e</span>r
                         <span className="ex">rn</span>
@@ -648,7 +649,7 @@ export default function page() {
                     Lehrling daraus, daß <br className="lb" />{" "}
                     <span className="persName">
                       <span className="g.enc.tagsdecl.suspension.type1">
-                        Hr. </span>
+                        Hr</span><span className="orig">.</span>
                       <span className="expan">
                         H<span className="ex">e</span>r
                         <span className="ex">rn</span>
@@ -705,7 +706,7 @@ export default function page() {
                       </span>
                       </span>
                       {" "}dir auf der Stelle <br className="lb" />
-                      das neue{" "}
+                      das ne<span className="orig">ü</span><span className="corr">u</span>e{" "}
                       <span className="g.rend.script.latin">Fagot</span>,{" "}
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>ie läßt dich mit mir und
@@ -725,7 +726,7 @@ export default function page() {
                       <span className="corr">Lesen</span> des{" "}
                       <span className="g.enc.tagsdecl.suspension.type1">
                         
-                        (Göttl </span>
+                        Göttl</span>
                       <span className="expan">
                         Göttl<span className="ex">ichen</span>
                       </span>{" "}
@@ -749,11 +750,11 @@ export default function page() {
                     <span style={{ display: "inline-block" }} width="3words">
                       &nbsp;
                     </span>
-                    <div className="signed">
+                    <div className="signed"style={{paddingLeft: "340px",}}>
                       Deine <span className="orig">Treüe</span>
                       <span className="corr">Treue</span> Eltern
                     </div>
-                    <div className="signed">
+                    <div className="signed" style={{paddingLeft: "340px",}}>
                       {" "}
                       <span className="g.rend.script.latin">
                         <span className="abbr"> C.</span>
@@ -778,9 +779,9 @@ export default function page() {
             }}
           >
             <hr />
-            <label>pass.</label>
+            <label>passato</label>
             <p>
-            passato. Ital. Kaufmannssprache: „des vergangenen Monats“.
+             Ital. Kaufmannssprache: „des vergangenen Monats“.
             </p>
           </div>
 

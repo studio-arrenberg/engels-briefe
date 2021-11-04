@@ -34,7 +34,7 @@ export default function page() {
                 <section
                   className="kuvert"
                   id="index.xml-body.1_div.1"
-                  style={{ paddingTop: "227px", paddingBottom: "170px" }}
+                  style={{ paddingTop: "227px", paddingBottom: "150px" }}
                 >
                   {/* Insert Kuvert */}
                   <h2>
@@ -69,23 +69,23 @@ export default function page() {
                             </span>
                           </span>
                           <span className="expan">
-                            Add<sup class="double-underline">r</sup><span className="ex">resse</span>
+                            Add<sup class="double-underline orig">r</sup><span className="ex">resse</span>
                           </span>{" "}
-                          Herrn
+                          Herrn{" "}
                           <span className="persName">
                             <span className="abbr"> Joh.</span>
                             <span className="expan">
-                              Joh<span className="ex">ann</span>
+                              Joh<span className="ex">ann</span>{" "}
                             </span>
                             <span className="abbr">
-                              (Frid
+                              Frid
                               <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
-                                :<sup>h</sup>
+                                :<sup className="orig double-underline">h</sup>
                               </span>
                                </span>
                             <span className="expan">
-                              Frid<sup class="double-underline">h</sup><span className="ex">ric</span>h
-                            </span>
+                              Frid<sup class="double-underline orig">h</sup><span className="ex">ric</span>h
+                            </span>{" "}
                             Eckhardt <span className="abbr"> Sr.</span>
                             <span className="expan">
                               S<span className="ex">enio</span>r
@@ -97,13 +97,13 @@ export default function page() {
                             className="underline"
                           >
                             <span className="abbr">
-                              (f
+                              f
                               <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
-                                <sup>co</sup>:
+                                <sup className="double-underline">co</sup>
                               </span>
                                </span>
                             <span className="expan">
-                              f<span className="ex">ran</span>co
+                              f<span className="ex">ran</span>co{" "}
                             </span>
                             <span className="placeName">Wetzlar</span>
                           </span>
@@ -156,7 +156,7 @@ export default function page() {
                   style={{
                     paddingTop: "0px",
                     paddingLeft: "80px",
-                    paddingBottom: "80px",
+                    paddingBottom: "95px",
                   }}
                 >
                   {/* Insert Page 1 */}
@@ -164,16 +164,18 @@ export default function page() {
                     <span style={{ display: "inline-block" }} width="7cm">
                       &nbsp;
                     </span>
-                    <div className="dateline">
-                      „<span className="placeName">Barmen</span>
+                    <div className="dateline"style={{ marginRight: "200px" }}>
+                      „<span className="placeName">Barmen</span>{" "}
                       <span className="date">
-                        4/7. <span className="orig">Julÿ</span>
+                        4 <span className="orig">Jul<span className="orig">ÿ</span>
+<span className="corr">y</span></span>
                         <span className="corr">Juli</span> 1813
                       </span>
                     </div>
                     <a id="teaser.part.001.s">{/*anchor*/}</a>
                     <div className="enc.tagsdecl.indent-large">
                       Lieber <span className="persName">Friedrich</span>!
+                      
                     </div>
                     <a id="teaser.part.001.e">{/*anchor*/}</a>
                   </div>
@@ -190,7 +192,7 @@ export default function page() {
                       <span className="corr">s</span>
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>
-                      <span className="ex">ati</span>
+                      <span className="ex">ato</span>
                     </span></span>{" "}
                     haben wir das Laken und <a id="annot.001.s">{/*anchor*/}</a>
                     <span className="makierung">Ca<span className="orig">ſ</span>
@@ -270,7 +272,8 @@ export default function page() {
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>chon früh daran, daß ihr,
                       wan ihr <br className="lb" />
-                      aufm Zim̅er bei<span className="orig">ſ</span>
+                      aufm Zi<span className="orig">m̅</span>
+<span className="corr">mm</span>er bei<span className="orig">ſ</span>
                       <span className="corr">s</span>amen{" "}
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>eid, ein und mehr{" "}
@@ -304,7 +307,7 @@ export default function page() {
                       <span className="orig">ﬅ</span>
                       <span className="corr">st</span>. —
                       <span style={{ display: "inline-block" }} width="2em">
-                        &nbsp;
+                        
                       </span>
                       <a id="teaser.part.002.s">{/*anchor*/}</a>
                       <span className="orig">wir</span>
@@ -378,7 +381,8 @@ export default function page() {
                     </span>
                     <span className="corr">langsam</span>, aber doch Gottlob{" "}
                     <br className="lb" />
-                    im̅er <span className="orig">beßer</span>
+                    i<span className="orig">m̅</span>
+<span className="corr">mm</span>er <span className="orig">beßer</span>
                     <span className="corr">besser</span> gegangen
                     <a id="annot.006.e">{/*anchor*/}</a>,{" "}
                     <span className="orig">ſ</span>
@@ -388,7 +392,7 @@ export default function page() {
                     Krampf, allein <br className="lb" />
                     wir können doch urtheilen, daß er vor und nach{" "}
                     <span className="orig">abnimt</span>
-                    <span className="corr">abnimmt</span>,{" "}
+                    <span className="corr">{" "}abnimmt</span>,{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ie hat kürzlich{" "}
                     <br className="lb" />
@@ -439,12 +443,13 @@ export default function page() {
                           D<span className="orig"></span>
                           <span className="corr">.</span>
                           <sup className="underline">r</sup></span>{" "}
-                        <span className="makierung"><span className="expan">Doctor</span> Osberghaus</span>
+                        <span className="expan">Doctor</span><span className="makierung"> Osberghaus</span>
                       </span>
                     </span>
                     <a id="annot.007.e">{/*anchor*/}</a>, der alles näher be
                     <span className="orig">ﬅ</span>
-                    <span className="corr">st</span>im̅en wird.
+                    <span className="corr">st</span>i<span className="orig">m̅</span>
+<span className="corr">mm</span>en wird.
                   </p>
                   <span className="religion">
                     <p className="enc.tagsdecl.indent-small">
@@ -457,7 +462,8 @@ export default function page() {
                       </span>{" "}
                       <span className="persName">Friedrich</span>! mit uns den{" "}
                       <span className="orig">treüen</span>
-                      <span className="corr">treuen</span> Heÿland, der ja in
+                      <span className="corr">treuen</span> He<span className="orig">ÿ</span>
+<span className="corr">y</span>land, der ja in
                       den <br className="lb" />
                       Tagen <span className="orig">ſ</span>
                       <span className="corr">s</span>eines Erdenlebens der be
@@ -534,7 +540,8 @@ export default function page() {
                       <span className="orig">Freüde</span>
                       <span className="corr">Freude</span>{" "}
                       <span className="underline">
-                        vollkom̅en
+                        vollko<span className="orig">m̅</span>
+<span className="corr">mm</span>en
                       </span>{" "}
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>ei
@@ -544,7 +551,7 @@ export default function page() {
                         <span className="abbr"> Joh:</span>
                         <span className="expan">
                           Joh<span className="ex">annes</span>
-                        </span>
+                        
                       </span>{" "}
                       16 <span className="abbr"> V</span>
                       <span className="expan">
@@ -553,6 +560,7 @@ export default function page() {
                       </span>{" "}
                       24<a id="annot.008.e">{/*anchor*/}</a>
                       <a id="mark.003.e">{/*anchor*/}</a>
+                      </span>
                     </p>
                   </span>
                   <p className="enc.tagsdecl.indent-small">
@@ -651,7 +659,7 @@ export default function page() {
                     <span className="g.rend.script.latin"><span className="makierung">Brochirte</span></span>
                     <a id="annot.012.e">{/*anchor*/}</a>{" "}
                     <span className="orig">ſ</span>
-                    <span className="corr">s</span>ich betragen, nun
+                    <span className="corr">s</span>ich betragen, nun{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chaden uns die{" "}
                     <br className="lb" />
@@ -687,7 +695,7 @@ export default function page() {
                     <span className="corr">s</span>ehr,{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>o <br className="lb" />
-                    daß wir von 3<sup>ter</sup>{" "}
+                    daß wir von 3<sup className="double-underline">ter</sup>{" "}
                     <span className="orig">
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>orte
@@ -696,7 +704,7 @@ export default function page() {
                     haben, und daher mit{" "}
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (Hr.</span>
+                      Hr.</span>
                     <span className="expan">
                       H<span className="ex">e</span>r
                       <span className="ex">rn</span>
@@ -756,7 +764,8 @@ export default function page() {
                     <span className="corr">s</span>ind ge
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>ern morgen bereits nach{" "}
-                    <span className="placeName">Ham̅</span> abge
+                    <span className="placeName">Ha<span className="orig">m̅</span>
+<span className="corr">mm</span></span> abge<span className="orig">=</span>
                     <br className="g.enc.tagsdecl.hyphenation.colon" />
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>eegelt; der Herr begleite{" "}
@@ -769,7 +778,8 @@ export default function page() {
                     <span className="corr">Bemühungen</span>{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ein{" "}
-                    <span className="orig">gedeÿen</span>
+                    <span className="orig">gede<span className="orig">ÿ</span>
+<span className="corr">y</span>en</span>
                     <span className="corr">Gedeihen</span>.
                   </p>
                   <p className="enc.tagsdecl.indent-small">
@@ -790,9 +800,9 @@ export default function page() {
                     </span>
                     , nicht alles{" "}
                     <span className="orig">
-                      nach
+                      nach<span className="orig">=</span>
                       <br className="g.enc.tagsdecl.hyphenation.colon" />
-                      gefoderte
+                      gefoderte{" "}
                     </span>
                     <span className="corr">
                       Nach
@@ -806,7 +816,8 @@ export default function page() {
                     <span className="orig">kan</span>
                     <span className="corr">kann</span>, und nun von der Re
                     <span className="orig">ſ</span>
-                    <span className="corr">s</span>erve von 1812 genom̅en{" "}
+                    <span className="corr">s</span>erve von 1812 geno<span className="orig">m̅</span>
+<span className="corr">mm</span>en{" "}
                     <br className="lb" />
                     wird, <span className="orig">weiß</span>
                     <span className="corr">weißt</span> du{" "}
@@ -816,7 +827,7 @@ export default function page() {
                     <span className="corr">s</span>o auch, daß{" "}
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (Hr.</span>{" "}
+                      Hr.</span>.{" "}
                     <span className="expan">
                       H<span className="ex">err</span>
                     </span>
@@ -832,10 +843,10 @@ export default function page() {
                     es an die vertau<span className="orig">ſ</span>
                     <span className="corr">s</span>chten <br className="lb" />
                     <span className="g.rend.script.latin">
-                      <span className="g.enc.tagsdecl.cc.abbr-colon-sup">N.<sup>r</sup>){" "}
+                      <span className="g.enc.tagsdecl.cc.abbr-colon-sup orig">N<sup className="double-underline">r</sup>{" "}
                       </span>
                       <span className="expan">
-                        N<span className="ex">ummern</span>{" "}
+                        <span className="ex">Nummern</span>{" "}
                       </span>
                     </span>
                     der <a id="annot.018.s">{/*anchor*/}</a>
@@ -844,7 +855,8 @@ export default function page() {
                       <span className="corr">Substituten</span>
                     </span>
                     </span>
-                    <a id="annot.018.e">{/*anchor*/}</a> gekom̅en war, und bis
+                    <a id="annot.018.e">{/*anchor*/}</a> geko<span className="orig">m̅</span>
+<span className="corr">mm</span>en war, und bis
                     <span className="g.rend.script.latin">
                       <span className="abbr"> N.</span>{" "}
                       <span className="expan">
@@ -857,7 +869,7 @@ export default function page() {
                     <span className="corr">s</span>ich frei glaubten in die
                     größte Verlegenheit{" "}
                     <span className="orig">
-                      ver
+                      ver<span className="orig">=</span>
                       <br className="g.enc.tagsdecl.hyphenation.colon" />
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>ezt
@@ -881,11 +893,11 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chon vor 14 Tagen 1{" "}
                     <a id="annot.019.s">{/*anchor*/}</a>
-                    <span className="makierung"><span className="g.enc.tagsdecl.suspension.type3">
+                    <span className="makierung"><span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (Rempl</span>
+                      Rempl</span>
                     <span className="expan">
-                      Rempl<span className="ex">açent</span>
+                      Rempl<span className="ex">açant</span>
                     </span>
                     </span>
                     <a id="annot.019.e">{/*anchor*/}</a>{" "}
@@ -909,13 +921,13 @@ export default function page() {
                     <a id="annot.020.s">{/*anchor*/}</a>
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (Hr.</span>
+                      Hr.</span>.
                     {" "}
                     <span className="expan">
                       H<span className="ex">err</span>
                     </span>{" "}
                     <span className="g.rend.script.latin">Trappenberg</span>
-                    <a id="annot.020.e">{/*anchor*/}</a> wird wahr
+                    <a id="annot.020.e">{/*anchor*/}</a> wird wahr<span className="orig">=</span>
                     <br className="g.enc.tagsdecl.hyphenation.colon" />
                     scheinlich, durch ein Mini<span className="orig">ſ</span>
                     <span className="corr">s</span>terielles{" "}
@@ -938,7 +950,8 @@ export default function page() {
                     <span className="pagebreak" id="index.xml-pb-d29e1301">
                       {/* <a href>[Page 3]</a> */}
                     </span>
-                    Termin <span className="orig">geheÿrathet</span>
+                    Termin <span className="orig">gehe<span className="orig">ÿ</span>
+<span className="corr">y</span>rathet</span>
                     <span className="corr">geheirathet</span> war, und{" "}
                     <span className="orig">jezt</span>
                     <span className="corr">jetzt</span>{" "}
@@ -964,7 +977,7 @@ export default function page() {
                     <a id="annot.022.s">{/*anchor*/}</a>
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (Hr</span>
+                      Hr</span>
                     <span className="expan">
                       H<span className="ex">errn</span>
                     </span>
@@ -977,7 +990,7 @@ export default function page() {
                       </span>
                     </span>
                     <a id="annot.022.e">{/*anchor*/}</a> an bis hier am{" "}
-                    <a id="annot.023.s">{/*anchor*/}</a><span className="makierung">Brügel</span>
+                    <a id="annot.023.s">{/*anchor*/}</a><span className="makierung">Brügel</span>{" "}
                     <a id="annot.023.e">{/*anchor*/}</a>
                     bald fertig i<span className="orig">ﬅ</span>
                     <span className="corr">st</span>, und durch{" "}
@@ -1005,7 +1018,7 @@ export default function page() {
                     <span style={{ display: "inline-block" }} width="8words">
                       &nbsp;
                     </span>
-                    <span className="text-right">
+                    <span className="text-right"  style={{ marginRight: "100px" }} >
                       Dein <span className="orig">treüer</span>
                       <span className="corr">treuer</span> Vater{" "}
                      
@@ -1038,7 +1051,8 @@ export default function page() {
                       <span className="orig">ſ</span>
                       <span className="corr">s</span> ein Bisgen von den Pfing
                       <span className="orig">ﬅ</span>
-                      <span className="corr">st</span>feÿertagen, wie du{" "}
+                      <span className="corr">st</span>fe<span className="orig">ÿ</span>
+<span className="corr">y</span>ertagen, wie du{" "}
                       <br className="lb" />
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>olche verlebt, wer da{" "}
@@ -1046,7 +1060,7 @@ export default function page() {
                       <span className="corr">st</span>e Predigt von{" "}
                       <a id="annot.025.s">{/*anchor*/}</a>
                       <span className="g.enc.tagsdecl.suspension.type1">
-                        Hr </span>
+                        Hr</span>
                       <span className="expan">
                         H<span className="ex">errn</span>
                       </span>
@@ -1061,7 +1075,7 @@ export default function page() {
                       <span className="corr">s</span>ei, ob du auch einmal{" "}
                       <a id="annot.026.s">{/*anchor*/}</a>
                       <span className="g.enc.tagsdecl.suspension.type1">
-                        dHr </span>
+                        dHr</span>
                       {" "}
                       {/* <span className="expan">
                         d<span className="ex">en</span> Hr
@@ -1072,7 +1086,7 @@ export default function page() {
                         <span className="ex">errn</span>
                       </span>
                       {" "}
-                      <span className="abbr">P.</span>
+                      <span className="abbr">P.</span>{" "}
                       <span className="makierung"><span className="g.rend.script.latin">
                         <span className="persName">
                           Pa<span className="orig">ſ</span>
@@ -1089,7 +1103,7 @@ export default function page() {
                       <span className="corr">st</span>, was der gute{" "}
                       <a id="annot.027.s">{/*anchor*/}</a>
                       <span className="g.enc.tagsdecl.suspension.type1">
-                        Hr </span>
+                        Hr</span>
                       <span className="expan">
                         H<span className="ex">err</span>
                       </span>
@@ -1108,11 +1122,11 @@ export default function page() {
                         <span className="corr">s</span>chiklich
                       </span>
                       <span className="corr">schicklich</span>,{" "}
-                      <span className="orig">wan</span>
+                      <span className="orig">wan</span>{" "}
                       <span className="corr">wann</span> du
                       <a id="annot.028.s">{/*anchor*/}</a>
                       <span className="g.enc.tagsdecl.suspension.type1">
-                        dHr. </span>
+                        dHr.</span>
                       {" "}
                       {/* <span className="expan">
                         d<span className="ex">en</span> Hr
@@ -1124,9 +1138,9 @@ export default function page() {
                       {" "}
                       <span className="g.rend.script.latin">
                         <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
-                          (P<span className="orig">:</span>
+                          P<span className="orig"></span>
                           <span className="corr">.</span>
-                          <sup>r</sup>){" "}
+                          <sup className="double-underline">r</sup>{" "}
                         </span>
                         <span className="expan">
                           P<span className="ex">asto</span>r
@@ -1153,22 +1167,23 @@ export default function page() {
                       <span className="corr">s</span>ind die Briefe an{" "}
                       <a id="annot.029.s">{/*anchor*/}</a>
                       <span className="g.enc.tagsdecl.suspension.type1">
-                        Hr </span>
+                        Hr</span>
                       <span className="expan">
                         H<span className="ex">err</span>
                       </span>
 
                       {" "}
-                      <span className="g.enc.tagsdecl.cc.abbr-colon-sup">P<span className="orig">:</span>
+                      <span className="g.enc.tagsdecl.cc.abbr-colon-sup">P<span className="orig"></span>
                         <span className="corr">.</span>
-                        <sup>r</sup> </span>
+                        <sup className="double-underline">r</sup> </span>
                       {" "}
                       <span className="makierung"><span className="expan">
                         P<span className="ex">asto</span>r
                       </span>
                       {" "}
                       <span className="g.rend.script.latin">
-                        <span className="persName">Nourneÿ</span>
+                        <span className="persName">Nourne<span className="orig">ÿ</span>
+<span className="corr">y</span></span>
                       </span>
                       </span>
                       <a id="annot.029.e">{/*anchor*/}</a> <br className="lb" />
@@ -1248,9 +1263,9 @@ export default function page() {
                   <p>
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (dHr.)
+                      dHr
                       {" "}
-                    </span>
+                    </span><span className="orig">.</span>
                     <span className="expan">
                       <span className="orig">d</span>
                       <span className="corr">D</span>
@@ -1287,24 +1302,24 @@ export default function page() {
             }}
           >
             <hr />
-            <label>pass.</label>
+            <label>passato</label>
             <p>
             passato. Ital. Kaufmannssprache: „des vergangenen Monats“.
             </p>
           </div>
 
-          {/* <div
+          <div
             className="stellenerläuterung"
             style={{
               top: "880px",
             }}
           >
             <hr />
-            <label>Caſimir</label>
+            <label>Casimir</label>
             <p>
             Gemeint ist ‚Kaschmir‘. Gewebe aus der Unterwolle der Kaschmirziege (Himalaya), auch ‚Shawl‘ genannt.
             </p>
-          </div> */}
+          </div>
 
           <div
             className="stellenerläuterung push-right"
@@ -1335,7 +1350,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "890px",
+              top: "950px",
             }}
           >
             <hr />
@@ -1367,7 +1382,7 @@ export default function page() {
             <hr />
             <label>jener Dichter</label>
             <p>
-            Vermutlich Christoph Rheineck (1748–1797), Kaufmann, Gastwirt und Komponist in Memmingen. Johann Caspar Engels zitiert die drei letzten Zeilen des Lieds Lebensgebrauch (3 Strophen). Text und Melodie stammen vermutlich von Rheineck. (Dritte Lieder-Sammlung mit Klavier-Melodien. In die Musik gesezt von Christoph Rheineck. Memmingen 1784, S. 16.) 
+            Vermutlich Christoph Rheineck (1748–1797), Kaufmann, Gastwirt und Komponist in Memmingen. Johann Caspar Engels zitiert die drei letzten Zeilen des Lieds <i>Lebensgebrauch</i> (3 Strophen). Text und Melodie stammen vermutlich von Rheineck. <i>(Dritte Lieder-Sammlung mit Klavier-Melodien. In die Musik gesezt von Christoph Rheineck. Memmingen 1784, S. 16.) </i>
             </p>
           </div>
 
@@ -1422,20 +1437,20 @@ export default function page() {
           </div>
 
          
-          {/* <div
+          <div
             className="stellenerläuterung"
             style={{
-              top: "2370px",
+              top: "2270px",
             }}
           >
             <hr />
             <label>6 mille = 6000.</label>
-          </div> */}
+          </div>
 
-          {/* <div
+           <div
             className="stellenerläuterung"
             style={{
-              top: "2430px",
+              top: "2200px",
             }}
           >
             <hr />
@@ -1443,22 +1458,22 @@ export default function page() {
             <p>
             ‚Kanten‘ ist das niederdeutsche Wort für gewirkte Spitzen (z.B. aus Garn).
           </p>
-          </div> */}
+          </div>
 
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "2348px",
+              top: "2248px",
             }}
           >
             <hr />
             <label>Langetten</label>
             <p>
-            Fachterminus der Spitzenherstellung{/* , benannt nach dem praktizierten Schlingstich in Form einer eingerollten Zunge (frz. languette: Zünglein) (vgl. Anne Wanner‘s Textiles in History: http://www.annatextiles.ch/vo_sti/voca3/voc3.htm). */}
+            Fachterminus der Spitzenherstellung, benannt nach dem praktizierten Schlingstich in Form einer eingerollten Zunge (frz. languette: Zünglein) (vgl. Anne Wanner‘s Textiles in History: http://www.annatextiles.ch/vo_sti/voca3/voc3.htm).
           </p>
           </div>
 
-          {/* <div
+          <div
             className="stellenerläuterung"
             style={{
               top: "1800px",
@@ -1469,7 +1484,7 @@ export default function page() {
             <p>
             Mit besonderer Technik eingewebte Muster in Stoffen.
           </p>
-          </div> */}
+          </div>
 
           <div
             className="stellenerläuterung"
@@ -1494,14 +1509,14 @@ export default function page() {
             <hr />
             <label>Leipz. und Ff. a/o Messen</label>
             <p>
-            Wegen der Kriegshandlungen und Einquartierungen wird die Situation in Leipzig im Jahr 1813 so beschrieben: „Unter diesen Umständen war die Ostermesse kläglich ausgefallen.“ (Ernst Hasse: Geschichte der Leipziger Messen. Leipzig 1885, S. 165.) In Frankfurt (Oder) fanden Messen an Reminiscere (2. Fastensonntag), am Sonntag nach Margaretha (20. Juli) und an Martini (11. November) statt. Die Reminiscere-Messe 1813 „war abgehalten worden, es hatte auf derselben aber so gut wie kein Verkehr stattgefunden.“ ([Karl von Prittwitz]: Beiträge zur Geschichte des Jahres 1813. Band 1. Potsdam 1843, S. 223.)
+            Wegen der Kriegshandlungen und Einquartierungen wird die Situation in Leipzig im Jahr 1813 so beschrieben: „Unter diesen Umständen war die Ostermesse kläglich ausgefallen.“ (Ernst Hasse: <i>Geschichte der Leipziger Messen.</i> Leipzig 1885, S. 165.) In Frankfurt (Oder) fanden Messen an Reminiscere (2. Fastensonntag), am Sonntag nach Margaretha (20. Juli) und an Martini (11. November) statt. Die Reminiscere-Messe 1813 „war abgehalten worden, es hatte auf derselben aber so gut wie kein Verkehr stattgefunden.“ ([Karl von Prittwitz]: <i>Beiträge zur Geschichte des Jahres 1813.</i> Band 1. Potsdam 1843, S. 223.)
           </p>
           </div>
 
-          {/* <div
-            className="stellenerläuterung"
+          <div
+            className="stellenerläuterung push-right"
             style={{
-              top: "1800px",
+              top: "2950px",
             }}
           >
             <hr />
@@ -1512,9 +1527,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "1800px",
+              top: "2850px",
             }}
           >
             <hr />
@@ -1525,9 +1540,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "1800px",
+              top: "2650px",
             }}
           >
             <hr />
@@ -1535,7 +1550,7 @@ export default function page() {
             <p>
             Johann Caspar Engels (1792–1863), Teilhaber der Firma Caspar Engels Söhne in Barmen. Onkel von Friedrich Engels jun.
           </p>
-          </div> */}
+          </div>
 
           <div
             className="stellenerläuterung"
@@ -1585,7 +1600,7 @@ export default function page() {
             <hr />
             <label>Remplaçant</label>
             <p>
-            Stellvertreter, Ersatzmann für einen Militärdienstpflichtigen. Frz. remplacer: ‚ersetzen‘. Zur Aufrechterhaltung des wirtschaftlichen Lebens war es im französischen Conscriptionssystem möglich, dass u. a. Kaufleute gegen Bezahlung Remplaçants (auch: Remplassanten oder Nachmänner) für ihre dienstpflichtigen Söhne stellen konnten. Diese Möglichkeit bestand ab 1814 in Preußen nicht mehr. Stattdessen gab es u. a. in Barmen und Elberfeld Fälle von Täuschung, Betrug und Bestechung zwecks Befreiung von der Wehrpflicht. Der Elberfelder Landrat Otto von Diest (1821–1901) deckte 1854 ein System der illegalen Dienstbefreiung auf. Seine Ermittlungen führten zu 150 Verurteilungen zu Festungshaft und Nachdienen. Von Diest wurde anschließend auf Betreiben betroffener Familien versetzt. Ähnliche Vorwürfe gegen die Unternehmerschicht im Niederbergischen gab es seit den 1820er Jahren bis zum Jahr 1870. (Vgl. Friedrich Zunkel: Der rheinisch-Westfälische Unternehmer 1834–1879. Ein Beitrag zur Geschichte des deutschen Bürgertums im 19. Jahrhundert. Köln, Opladen 1962, S. 86f.; Bernhard Schmitt: Armee und staatliche Integration. Preußen und die Habsburgermonarchie 1815-1866. Rekrutierungspolitik in den neuen Provinzen: Staatliches Handeln und Bevölkerung. Paderborn u. a. 2007, S. 210–214.)
+            Stellvertreter, Ersatzmann für einen Militärdienstpflichtigen. Frz. remplacer: ‚ersetzen‘. Zur Aufrechterhaltung des wirtschaftlichen Lebens war es im französischen Conscriptionssystem möglich, dass u.a. Kaufleute gegen Bezahlung Remplaçants (auch: Remplassanten oder Nachmänner) für ihre dienstpflichtigen Söhne stellen konnten. Diese Möglichkeit bestand ab 1814 in Preußen nicht mehr. Stattdessen gab es u. a. in Barmen und Elberfeld Fälle von Täuschung, Betrug und Bestechung zwecks Befreiung von der Wehrpflicht. Der Elberfelder Landrat Otto von Diest (1821–1901) deckte 1854 ein System der illegalen Dienstbefreiung auf. Seine Ermittlungen führten zu 150 Verurteilungen zu Festungshaft und Nachdienen. Von Diest wurde anschließend auf Betreiben betroffener Familien versetzt. Ähnliche Vorwürfe gegen die Unternehmerschicht im Niederbergischen gab es seit den 1820er Jahren bis zum Jahr 1870. (Vgl. Friedrich Zunkel: <i>Der rheinisch-Westfälische Unternehmer 1834–1879. Ein Beitrag zur Geschichte des deutschen Bürgertums im 19. Jahrhundert.</i> Köln, Opladen 1962, S. 86f.; Bernhard Schmitt: <i>Armee und staatliche Integration. Preußen und die Habsburgermonarchie 1815-1866. Rekrutierungspolitik in den neuen Provinzen: Staatliches Handeln und Bevölkerung.</i> Paderborn u. a. 2007, S. 210–214.)
           </p>
           </div>
 
@@ -1715,7 +1730,8 @@ export default function page() {
             }}
           >
             <hr />
-            <label>Pastor Nourneÿ</label>
+            <label>Pastor Nourne<span className="orig">ÿ</span>
+<span className="corr">y</span></label>
             <p>
             Anton Hermann Nourney (1762–1834), ab 1802 Pfarrer in Elberfeld.
           </p>

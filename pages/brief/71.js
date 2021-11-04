@@ -54,7 +54,7 @@ export default function page() {
                             <span className="g.rend.script.latin">
                               <span className="abbr">Add
                                 <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
-                                  <sup>sse</sup>⹀
+                                  <sup className="double-underline">sse</sup>⹀
                                 </span>
                               </span>
                               <span className="expan">
@@ -69,7 +69,7 @@ export default function page() {
                               </span>{" "}
                               <span className="abbr">Frid
                                 <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
-                                  <sup>h</sup>⹀
+                                  <sup className="double-underline">h</sup>⹀
                                 </span>
                               </span>
                               <span className="expan">
@@ -78,7 +78,7 @@ export default function page() {
                               Echkardt{" "}
                               <span className="abbr">s
                                 <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
-                                  <sup>r</sup>⹀
+                                  <sup className="double-underline">r</sup>⹀
                                 </span>
                               </span>
                               <span className="expan">
@@ -89,7 +89,7 @@ export default function page() {
                             <span className="g.rend.script.latin">
                               <span className="abbr">f
                                 <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
-                                  <sup>co</sup>⹀
+                                  <sup className="double-underline">co</sup>⹀
                                 </span>
                               </span>
                               <span className="expan">
@@ -128,7 +128,8 @@ export default function page() {
                         <span className="expan">
                           H<span className="ex">er</span>r
                         </span>{" "}
-                        <span className="g.rend.script.latin"><span className="makierung">Meÿberg</span></span>{" "}
+                        <span className="g.rend.script.latin"><span className="makierung">Me<span className="orig">ÿ</span>
+<span className="corr">y</span>berg</span></span>{" "}
                         <span className="orig">ſ</span>
                         <span className="corr">s</span>chreibt uns, daß die{" "}
                         <br className="lb" />{" "}
@@ -186,7 +187,7 @@ export default function page() {
                         <span className="placeName">Barmen</span>{" "}
                         <span className="date">
                           12
-                          <sup>
+                          <sup style={{verticalAlign: "super",}}>
                             <span className="g.enc.tagsdecl.suspension.type1">
                               {" "}t </span>
                             <span className="expan">
@@ -194,7 +195,7 @@ export default function page() {
                             </span>{" "}
                           </sup>
                           <span className="g.enc.tagsdecl.suspension.type3">
-                            {" "}Nov.)
+                            {" "}Nov
                           </span>
                           <span className="expan">
                             Nov<span className="ex">ember</span>
@@ -205,7 +206,7 @@ export default function page() {
                     </div>
                     <div className="opener">
                       <a id="teaser.part.001.s">{/*anchor*/}</a>
-                      <div className="salute">
+                      <div className="salute" style={{ marginLeft: "100px" }}>
                         Lieber <span className="persName">Friedrich</span>!
                       </div>
                       <a id="teaser.part.001.e">{/*anchor*/}</a>
@@ -251,7 +252,7 @@ export default function page() {
                     <p className="enc.tagsdecl.indent-verysmall">
                       <span className="orig">Heüte</span>
                       <span className="corr">Heute</span> erhielten wir dein{" "}
-                      <span className="orig">lezters</span>
+                      <span className="orig">Lezters</span>
                       <span className="corr">Letzters</span> neb
                       <span className="orig">ﬅ</span>
                       <span className="corr">st</span>{" "}
@@ -263,10 +264,8 @@ export default function page() {
                         F<span className="ex">rank</span>further
                       </span>{" "}
                       Zeitungen <br className="lb" />{" "}
-                      die uns alles erzählen.
-                      <span style={{ display: "inline-block" }} width="1.5cm">
-                        &nbsp;
-                      </span>
+                      die uns alles erzählen.{" "}
+                      
                       <a id="teaser.part.002.s">{/*anchor*/}</a>
                       <span className="orig">auch</span>
                       <span className="corr">Auch</span> haben wir hier{" "}
@@ -287,7 +286,7 @@ export default function page() {
                       <span className="orig">Trouppen</span>
                       <span className="corr">Truppen</span></span>, wovon <span className="makierung">der General</span>{" "}
                       in <span className="g.rend.script.latin">Elberfeld</span>{" "}
-                      liegt<a id="teaser.part.002.e">{/*anchor*/}</a> und <span className="makierung">ein{" "}
+                      liegt<a id="teaser.part.002.e">{/*anchor*/}</a> und <span className="makierung">ein-<span className="orig">=</span>{" "}
                       <br className="g.enc.tagsdecl.hyphenation.colon" />
                       liegende{" "}
                       <span className="g.rend.script.latin">
@@ -337,13 +336,12 @@ export default function page() {
                         <span className="orig">ﬅ</span>
                         <span className="corr">st</span>i, der uns auch ferner{" "}
                         <span className="orig">ſ</span>
-                        <span className="corr">s</span>chützen und befreÿen{" "}
+                        <span className="corr">s</span>chützen und befre<span className="orig">ÿ</span>
+<span className="corr">y</span>en{" "}
                         <br className="lb" />{" "}
                         wird.<a id="mark.002.e">{/*anchor*/}</a>
                       </span>
-                      <span style={{ display: "inline-block" }} width="1cm">
-                        &nbsp;
-                      </span>
+                      
                       <a id="teaser.part.003.s">{/*anchor*/}</a>
                       <span className="orig">auch</span>
                       <span className="corr">Auch </span>
@@ -417,6 +415,9 @@ export default function page() {
                       ziemlich gut betragen.<a id="mark.001.e">
                         {/*anchor*/}
                       </a>{" "}
+                      <span style={{ display: "inline-block" }} width="1cm">
+                        &nbsp;
+                      </span>
                       Der <span className="abbr"> L.</span>
                       <span className="expan">
                         L<span className="ex">iebe</span>
@@ -424,8 +425,10 @@ export default function page() {
                       <span className="persName">Pathohm</span> hat{" "}
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>ich{" "}
-                      <span className="orig">Vorgenom̅en</span>
-                      <span className="corr">vorgenom̅en</span>{" "}
+                      <span className="orig">Vorgeno<span className="orig">m̅</span>
+<span className="corr">mm</span>en</span>
+                      <span className="corr">vorgeno<span className="orig">m̅</span>
+<span className="corr">mm</span>en</span>{" "}
                       <br className="lb" />{" "}
                       dir alles um<span className="orig">ﬅ</span>
                       <span className="corr">st</span>ändlich zu erzählen, daher{" "}
@@ -440,7 +443,7 @@ export default function page() {
                       <span className="expan">
                         L<span className="ex">iebe</span>
                       </span>{" "}
-                      Mama noch ziemlich gut durch die Unruhe ge
+                      Mama noch ziemlich gut durch die Unruhe ge<span className="orig">=</span>
                       <br className="g.enc.tagsdecl.hyphenation.colon" />
                       <span className="orig">komen</span>
                       <span className="corr">kommen</span> i
@@ -493,13 +496,14 @@ export default function page() {
                         <span className="orig">Danken</span>
                         <span className="corr">danken</span>, und bitten, daß er{" "}
                         <br className="lb" />{" "}
-                        ferner alles herrlich hinausführen{" "}
+                        ferner alles herrlich hinausführen
                         <span className="unclear">wolle</span>
                         <span className="unclear">wolte</span>.
                         <a id="mark.003.e">{/*anchor*/}</a>
                       </span>
 
-                      <div className="signed">
+                      <div className="signed" style={{paddingLeft: "370px", paddingBottom: "15px",}}>
+                        
                         Dein <span className="orig">Treüer</span>
                         <span className="corr">treuer</span> Vater{" "}
                         <br className="lb" />{" "}
@@ -513,8 +517,10 @@ export default function page() {
                         .
                       </div>
                     </div>
+                    <span className="corr"><br /></span>
                     <a id="index.xml-anchor-d29e733" />
                     <div className="notemarginLeft" id="txt.margin001">
+                    
                       <p className="g.enc.tagsdecl.wd.vertical-right vertical-links">
                         Da alles nun wieder <span className="orig">Teüsch</span>
                         <span className="corr">deutsch</span> i
@@ -548,74 +554,95 @@ export default function page() {
     <div className="pagebreak" id="index.xml-pb-d29e302">
       
     </div>
-    <p>Vereinigte⸗Armee von Schlesien.</p>
+    <p>Vereinigte<span className="orig">⸗ </span>
+<span className="corr"></span><span className="underline">Armee</span> von Schlesien.</p>
     <p>Avantgarde des kaiserl. russischen</p>
-    <p className="g.enc.tagsdecl.indent-medium">Armee⸗Korps.</p>
-    <p className="g.enc.tagsdecl.indent-very-large">
-      <span className="spacing">Elberfeld</span> den
+    <p className="g.enc.tagsdecl.indent-medium" style={{textIndent: "40px",}}>Armee⸗Korps.</p>
+    <p className="g.enc.tagsdecl.indent-very-large"  style={{textIndent: "80px",}}>
+      <span className="spacing">Elberfeld</span> den{" "}
       <a id="annot.001.s">{/*anchor*/}</a>11. Okt.<a id="annot.001.e">{/*anchor*/}</a>
     </p>
-    <p className="g.enc.tagsdecl.indent-very-large">
+    <p className="g.enc.tagsdecl.indent-very-large"  style={{textIndent: "80px",}}>
       <span className="spacing">Tagsbefehl</span>.
     </p>
     <p className="g.enc.tagsdecl.indent-medium">
-      Seit meinem Einzug in diese Stadt ist nun so⸗ <br className="lb" />wohl der
+      Seit meinem Einzug in diese Stadt ist nun so<span className="orig">⸗ </span>
+<span className="corr"></span><br className="lb" />wohl der
       geringe Theil des Großherzogthums Berg, <br className="lb" />welcher noch
-      nicht besetzt war, als auch die Haupt⸗ <br className="lb" />und
+      nicht besetzt war, als auch die Haupt<span className="orig">⸗ </span>
+<span className="corr"></span><br className="lb" />und
       Residenzstadt Düsseldorf durch die unter meinen
       <br className="lb" />Befehlen stehenden Truppen okkupirt.
     </p>
     <p className="g.enc.tagsdecl.indent-medium">
+    <span style={{ marginLeft: "30px" }} ></span>
       Ueberall fand ich Proben der guten Gesinnungen, <br className="lb" />welche
       die Bewohner des Großherzogthums beseelen, <br className="lb" />Es wird für
-      mich die angenehmste Pflicht seyn, da⸗ <br className="lb" />von eine
+      mich die angenehmste Pflicht seyn, da<span className="orig">⸗ </span>
+<span className="corr"></span><br className="lb" />von eine
       günstige Rechenschaft abzustatten.
     </p>
     <p className="g.enc.tagsdecl.indent-medium">
-      Indessen finde ich nöthig bis auf weitere Einrich⸗ <br className="lb" />tung
+    <span style={{ marginLeft: "30px" }} ></span>Indessen finde ich nöthig bis auf weitere Einrich<span className="orig">⸗ </span>
+<span className="corr"></span><br className="lb" />tung
       nachfolgende Verordnungen zu treffen.
     </p>
     <p className="g.enc.tagsdecl.indent-medium">
-      Art. 1. Der Obrist und Ritter von Chomiekoff <br className="lb" />ist als
-      Kommandant von Elberfeld und Barmen er⸗ <br className="lb" />nannt. Keine
+    <span style={{ marginLeft: "30px" }} ></span>Art. 1. Der Obrist und Ritter von Chomiekoff <br className="lb" />ist als
+      Kommandant von Elberfeld und Barmen er<span className="orig">⸗ </span>
+<span className="corr"></span><br className="lb" />nannt. Keine
       Forderung welche nicht mit dem Visa <br className="lb" />des Herrn
-      Kommandanten versehen ist, darf angenom⸗ <br className="lb" />men und
+      Kommandanten versehen ist, darf angenom<span className="orig">⸗ </span>
+<span className="corr"></span><br className="lb" />men und
       ausgeführt werden.
     </p>
     <p className="g.enc.tagsdecl.indent-medium">
-      2. Der Herr Karl Brügelmann ist provisorisch <br className="lb" />als
-      General⸗Kommissair des Arrondissements Elberfeld
+    <span style={{ marginLeft: "30px" }} ></span>2. Der Herr Karl Brügelmann ist provisorisch <br className="lb" />als
+      General<span className="orig">⸗ </span>
+<span className="corr"> </span>Kommissair des Arrondissements Elberfeld{" "}
       <br className="lb" />ernannt.
     </p>
     <p className="g.enc.tagsdecl.indent-medium">
-      3. Die konstituirten Landesbehörden fahren bis <br className="lb" />auf
+    <span style={{ marginLeft: "30px" }} ></span>3. Die konstituirten Landesbehörden fahren bis <br className="lb" />auf
       weitern Befehl fort, ihre Amtsverrichtungen auf <br className="lb" />die
-      bisherige Weise auszuüben, Sie stehen jedoch ein⸗ <br className="lb" />zig
-      unter dem ernannten General⸗Kommissair, und un⸗ <br className="lb" />ter
-      ihrer eigenen persönlichen Verantwortlichkeit müssen
-      <br className="lb" />sie von diesem Augenblicke an, alle Verbindungen und
-      <br className="lb" />Verhältnisse mit französischen oder andern außer dem
-      <br className="lb" />Arrondissement befindlichen Großherzoglichen Behörden
-      <br className="lb" />aufgeben. Diesemnach dürfen weder Gelder an der⸗
-      <br className="lb" />gleichen Behörden eingesendet, noch auch Befehle oder
-      <br className="lb" />Aufträge von denselben angenommen oder befolgt
+      bisherige Weise auszuüben, Sie stehen jedoch ein<span className="orig">⸗ </span>
+<span className="corr"></span><br className="lb" />zig
+      unter dem ernannten General<span className="orig">⸗ </span>
+<span className="corr"> </span>Kommissair, und un<span className="orig">⸗ </span>
+<span className="corr"></span><br className="lb" />ter
+      ihrer eigenen persönlichen Verantwortlichkeit müssen{" "}
+      <br className="lb" />sie von diesem Augenblicke an, alle Verbindungen und{" "}
+      <br className="lb" />Verhältnisse mit französischen oder andern außer dem{" "}
+      <br className="lb" />Arrondissement befindlichen Großherzoglichen Behörden{" "}
+      <br className="lb" />aufgeben. Diesemnach dürfen weder Gelder an der<span className="orig">⸗ </span>
+<span className="corr"></span>
+      <br className="lb" />gleichen Behörden eingesendet, noch auch Befehle oder{" "}
+      <br className="lb" />Aufträge von denselben angenommen oder befolgt{" "}
       <br className="lb" />werden.
     </p>
     <p className="g.enc.tagsdecl.indent-medium">
-      4. Schließlich werden alle Einwohner der hiesigen
-      <br className="lb" />Stadt, welcher ich für die gute Aufnahme meiner
-      <br className="lb" />Truppen, den herzlichsten Dank sage, samt allen Be⸗
-      <br className="lb" />wohnern des Arrondissements Elberfeld aufgefordert,
-      <br className="lb" />mit demselben guten Geiste, wie bisher, für die Er⸗
-      <br className="lb" />haltung der Ruhe und Ordnung, so wie für die un⸗
-      <br className="lb" />gestörte Fortdauer der bisherigen und von dem Gene⸗
-      <br className="lb" />ral⸗Commissair nicht ausdrücklich aufgehobenen Ein⸗
+    <span style={{ marginLeft: "30px" }} ></span>4. Schließlich werden alle Einwohner der hiesigen{" "}
+      <br className="lb" />Stadt, welcher ich für die gute Aufnahme meiner{" "}
+      <br className="lb" />Truppen, den herzlichsten Dank sage, samt allen Be<span className="orig">⸗ </span>
+<span className="corr"></span>
+      <br className="lb" />wohnern des Arrondissements Elberfeld aufgefordert,{" "}
+      <br className="lb" />mit demselben guten Geiste, wie bisher, für die Er<span className="orig">⸗ </span>
+<span className="corr"></span>
+      <br className="lb" />haltung der Ruhe und Ordnung, so wie für die un<span className="orig">⸗ </span>
+<span className="corr"></span>
+      <br className="lb" />gestörte Fortdauer der bisherigen und von dem Gene<span className="orig">⸗ </span>
+<span className="corr"></span>
+      <br className="lb" />ral<span className="orig">⸗ </span>
+<span className="corr"> </span>Commissair nicht ausdrücklich aufgehobenen Ein<span className="orig">⸗ </span>
+<span className="corr"></span>
       <br className="lb" />richtungen zu wachen.
     </p>
-    <p className="g.enc.tagsdecl.indent-very-large">
-      Der russisch⸗kaiserliche General⸗Major
+    <p className="g.enc.tagsdecl.indent-very-large signed-right-middle">
+      Der russisch<span className="orig">⸗ </span>
+<span className="corr"> </span>kaiserliche General<span className="orig">⸗ </span>
+<span className="corr"> </span>Major
     </p>
-    <p className="g.enc.tagsdecl.indent-very-large">(Unterz.) Yuſefowitſch.</p>
+    <p className="g.enc.tagsdecl.indent-very-large signed-right-middle">(Unterz.)<span style={{ marginLeft: "30px" }} ></span> Yuſefowitſch.</p>
   </div>
 </div>
 
@@ -692,11 +719,11 @@ export default function page() {
             Bezeichnet im Kriegswesen das Beschaffen von Lebensmitteln oder für militärische Bedürfnisse erforderlichen Gegenständen von den Einwohnern des Feindeslandes durch die Besatzer.
             </p>
           </div> 
-{/* 
+
           <div
             className="stellenerläuterung"
             style={{
-              top: "1153px",
+              top: "1353px",
             }}
           >
             <hr />
@@ -704,7 +731,7 @@ export default function page() {
             <p>
             Von Besatzern eingetriebene Abgaben, Steuern.
             </p>
-          </div> */}
+          </div>
 
           <div
             className="stellenerläuterung"

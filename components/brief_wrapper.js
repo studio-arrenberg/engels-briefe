@@ -345,7 +345,7 @@ export default function Brief_wrapper(props) {
                   />
                 ))}
 
-                <h3>Dokument </h3>
+                {/* <h3>Dokument </h3> */}
               </motion.div>
               <motion.div
                 key="digitalisat2"
@@ -358,7 +358,7 @@ export default function Brief_wrapper(props) {
                 <div className="brieftext">
                   <div>{props.children}</div>
                 </div>
-                <h3>Transkription</h3>
+                {/* <h3>Transkription</h3> */}
               </motion.div>
             </motion.div>
 
@@ -377,7 +377,7 @@ export default function Brief_wrapper(props) {
               >
                 <div className="normalisiert" id="normalisiert">
                   {props.children}
-                  <h3>Normalisierte Leseansicht</h3>
+                  {/* <h3>Normalisierte Leseansicht</h3> */}
                 </div>
               </div>
             </motion.div>
@@ -405,8 +405,8 @@ export default function Brief_wrapper(props) {
           <div className="tapbar">
             <a className={`${isView == true ? "active" : null}`} onClick={() => setView(true)}>
               <div >
-                <label>Vergleichsansicht</label>
-                <p>Betrachten Sie das originale Dokument um es mit der transkribierten Version zu vergleichen.</p>
+                <label>Diplomatische Transkription</label>
+                {/*<p>Betrachten Sie das originale Dokument um es mit der transkribierten Version zu vergleichen.</p>*/}
               </div>
               <img src={`../icons/vergleichsansicht.svg`} />
             </a>
@@ -415,7 +415,7 @@ export default function Brief_wrapper(props) {
             <img src={`../icons/normalisierte-ansicht.svg`} />
               <div>
                 <label>Normalisierte Leseansicht</label>
-                <p>Betrachten Sie den Brief in einer für das Lesen optimierten Ansicht mit zusätzlichen Stellenerläuterungen.</p>
+                {/*<p>Betrachten Sie den Brief in einer für das Lesen optimierten Ansicht mit zusätzlichen Stellenerläuterungen.</p>*/}
               </div>
             </a>
           </div>

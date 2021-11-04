@@ -115,7 +115,7 @@ export function Timeline() {
         <Line numb={12} />
         <Line numb={13} />
         <Line numb={14} />
-        <Line numb={15} text={"III. Friedrich Engels"} />
+        <Line numb={15} text={"III. Friedrich Engels jun."} />
         <Line numb={16} />
         <Line numb={17} />
         <Line numb={18} />

@@ -1092,13 +1092,6 @@ img {
   padding-left: 430px;
 }
 
-.vergleichs-ansicht .signed {
-  text-align: left;
-  margin-top: 10px;
-  margin-right: 100px;
-  padding-left: 430px;
-}
-
 .small-adress {
   font-size: 1.1rem;
   line-height: 1.8rem;
@@ -1418,19 +1411,19 @@ p > span .latin {
   display: none;
 }
 
-.vergleichs-ansicht .g\.enc\.tagsdecl\.suspension\.type2 + .expan:after {
+.vergleichs-ansicht .g\.enc\.tagsdecl\.suspension\.type2:after {
   /* color: green; */
   content: "ℓ.";
   display: inline;
 }
 
- .g\.enc\.tagsdecl\.suspension\.type3 {
+ .detail-ansicht .g\.enc\.tagsdecl\.suspension\.type3 {
   display: none;
 }
 
-.vergleichs-ansicht .g\.enc\.tagsdecl\.suspension\.type3 + .expan:after {
+.vergleichs-ansicht .g\.enc\.tagsdecl\.suspension\.type3:after {
   /* color: blue; */
-  content: ".∮";
+  content: "∮.";
   display: inline;
 }
 
@@ -1810,6 +1803,10 @@ p > span .latin {
   padding-top: -50px;
   margin-right: 100px;
   padding-left: 430px;
+}
+
+.detail-ansicht .signed-right-middle{
+  text-align: right;
 }
 
 .detail-ansicht .gap{
