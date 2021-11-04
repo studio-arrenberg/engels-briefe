@@ -1721,6 +1721,11 @@ p > span .latin {
   /* align-items: flex-end; */
 }
 
+.underline{
+  text-decoration: underline;
+}
+
+
 .orte img {
   width: 800px;
   margin: 10px;
@@ -1767,3 +1772,79 @@ p > span .latin {
 .idle-card h1 {
   color: white;
 }
+
+/* Vergleichs Ansicht */
+.vergleichs-ansicht .expan{
+  display: none;
+  
+}
+
+.vergleichs-ansicht .dateline-left{
+  text-align: left;
+  margin-left: 0px;
+  text-indent: 0px;
+}
+
+.vergleichs-ansicht .signed-right{
+  text-align: right;
+  margin-top: -30px;
+  margin-right: 100px;
+  padding-left: 430px;
+}
+
+.vergleichs-ansicht .signed-space{
+  text-align: left;
+  margin-right: 100px;
+  padding-left: 390px;
+}
+
+.vergleichs-ansicht .signed-morespace{
+  text-align: left;
+  margin-right: 100px;
+  padding-left: 280px;
+}
+
+
+/* Detail Ansicht */
+
+.detail-ansicht .salute {
+  padding-bottom: 10px;
+  
+}
+
+.detail-ansicht .dateline-center {
+  text-align: right;
+  padding-right: 50px;
+}
+
+.detail-ansicht blockquote{
+  margin-left: 0px;
+}
+
+.detail-ansicht .dateline-left{
+  text-align: left;
+  padding-top: 10px;
+  margin-left: 0px;
+  text-indent: 0px;
+}
+
+.detail-ansicht .signed-right{
+  text-align: right;
+  padding-top: -50px;
+  margin-right: 100px;
+  padding-left: 430px;
+}
+
+.detail-ansicht .gap{
+  display:none;
+}
+
+.detail-ansicht sup{
+  vertical-align:sup !important;
+}
+
+
+
+
+
+
