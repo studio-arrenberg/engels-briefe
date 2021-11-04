@@ -60,15 +60,14 @@ export default function page() {
                   }}
                 >
                   {/* Insert Page 1 */}
-                  <div className="opener">
-                    <div className="dateline text-right">
-                      <span className="g.rend.script.latin">Barmen</span>,{" "}
-                      <span className="date">
-                        31. <span className="g.rend.script.latin">Maÿ</span>{" "}
-                        1823
-                      </span>
-                      .
-                    </div>
+
+                  <div className=" "><span class="orig" style={{ marginLeft: "80px" }}></span>
+                    <span className="g.rend.script.latin">Barmen</span>,{" "}
+                    <span className="date">
+                      31. <span className="g.rend.script.latin">Maÿ</span>{" "}
+                      1823
+                    </span>
+                    .
                   </div>
                   <p>
                     Daß dich liebe{" "}
@@ -88,8 +87,7 @@ export default function page() {
                     <br className="lb" />{" "}
                     kann<span className="orig">ﬅ</span>
                     <span className="corr">st</span>. Eigentlich rührte meine{" "}
-                    <span className="orig">ﬅ</span>
-                    <span className="corr">st</span>ark
+                    etwas
                     <br className="lb" />{" "}
                     verzögerte Antwort daher, daß
                     <br className="lb" />{" "}
@@ -113,7 +111,7 @@ export default function page() {
                     dein und der <a id="annot.002.s">{/*anchor*/}</a>
                     <span className="makierung">Kinder</span>
                     <a id="annot.002.e">{/*anchor*/}</a>
-                    {" "}Wohl ge
+                    {" "}Wohl ge<span className="orig">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     freut. Gott <span className="orig">ſ</span>
                     <span className="corr">s</span>eÿ dafür gedankt, Er
@@ -130,7 +128,7 @@ export default function page() {
                     wird es gewaltig <span className="orig">ſ</span>
                     <span className="corr">s</span>auer werden
                     <br className="lb" />{" "}
-                    die ganze Zeit hier geduldig aus
+                    die ganze Zeit hier geduldig aus<span className="orig">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     zuharren, es fehlt mir jetzt <span className="orig">ſ</span>
                     <span className="corr">s</span>chon
@@ -157,7 +155,7 @@ export default function page() {
                     mir <span className="orig">ﬅ</span>
                     <span className="corr">st</span>äts ein. Doch was kann das
                     <br className="lb" />{" "}
-                    Züngeln helfen? Jch will geduldig
+                    Zimpeln helfen? Jch will geduldig
                     <br className="lb" />{" "}
                     aushalten, und mich mit dem
                     <br className="lb" />{" "}
@@ -166,10 +164,10 @@ export default function page() {
                 <div
                   className="page"
                   style={{
-                    marginTop: "10px",
-                    paddingTop: "110px",
+                    marginTop: "-5px",
+                    paddingTop: "50px",
                     paddingLeft: "80px",
-                    paddingBottom: "200px",
+                    paddingBottom: "260px",
                   }}
                 >
                   {/* Insert Page 2 */}
@@ -190,7 +188,7 @@ export default function page() {
                   <p className="enc.tagsdecl.indent-medium">
                     Uebrigens bin ich mit den{" "}
                     <span className="g.enc.tagsdecl.suspension.type1">
-                      (Arbeit</span>
+                      Arbeit</span>
                     <span className="expan">
                       Arbeit<span className="ex">en</span>
                     </span>
@@ -208,7 +206,7 @@ export default function page() {
                     und die{" "}
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (<span className="orig">ſ</span>
+                     <span className="orig">ſ</span>
                       <span className="corr">s</span>ämtlich</span>
                     <span className="expan">
                       <span className="orig">ſ</span>
@@ -238,8 +236,8 @@ export default function page() {
                     <span className="corr">s</span>chäftigt. Der
                     <br className="lb" />{" "}
                     Unter<span className="orig">ſ</span>
-                    <span className="corr">s</span>chlag auch der ehemaligen
-                    Mägde
+                    <span className="corr">s</span>chlag auf der ehemaligen
+                    Mägde<span className="orig">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>ube i
@@ -267,7 +265,7 @@ export default function page() {
                     <span className="corr">s</span>erer
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (künftig</span>
+                      künftig</span>
                     <span className="expan">
                       künftig<span className="ex">en</span>
                     </span>{" "}
@@ -305,14 +303,14 @@ export default function page() {
                       <span className="corr">trocken</span>
                     </span>
                     ,<br className="lb" />{" "}
-                    daß der 2
-                    <span className="g.enc.tagsdecl.cc.abbr-sup-am">
+                    da<small className="orig">s</small>ß der 2
+                    <span className="g.enc.tagsdecl.cc.abbr-sup-am double-underline">
                       <sup>te</sup>.
                     </span>
                     {" "}Lehm aufge<span className="orig">ſ</span>
                     <span className="corr">s</span>etzt
                     <br className="lb" />{" "}
-                    werden kann. Alle Welt ver
+                    werden kann. Alle Welt ver<span className="orig">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     wundert <span className="orig">ſ</span>
                     <span className="corr">s</span>ich darüber, wie mein
@@ -330,9 +328,9 @@ export default function page() {
                   className="page"
                   style={{
                     marginTop: "20px",
-                    paddingTop: "140px",
+                    paddingTop: "50px",
                     paddingLeft: "70px",
-                    paddingBottom: "184px",
+                    paddingBottom: "275px",
                   }}
                 >
                   {/* Insert Page 3 */}
@@ -343,16 +341,18 @@ export default function page() {
                     <span className="corr">glücklich</span> gegangen,
                     <br className="lb" />{" "}
                     läßt jedermann meiner Jdee Ge
-                    <br className="g.enc.tagsdecl.hyphenation.eq" />
+                    <span className="orig">⹀</span>
+<br className="g.enc.tagsdecl.hyphenation.eq" />
                     rechtigkeit wiederfahren.
                   </p>
                   <p className="enc.tagsdecl.indent-medium">
                     Wenn nun der 2
-                    <span className="g.enc.tagsdecl.cc.abbr-sup-am">
-                      <sup>te</sup>.
+                    <span className="g.enc.tagsdecl.cc.abbr-sup-am double-underline">
+                      <sup>te</sup>
                     </span>
                     {" "}Lehm auf
-                    <br className="g.enc.tagsdecl.hyphenation.eq" />
+                    <span className="orig">⹀</span>
+<br className="g.enc.tagsdecl.hyphenation.eq" />
                     ge<span className="orig">ſ</span>
                     <span className="corr">s</span>etzt i
                     <span className="orig">ﬅ</span>
@@ -389,8 +389,8 @@ export default function page() {
                       <span className="makierung">Langerfeld</span>
                     </span>
                     <a id="annot.005.e">{/*anchor*/}</a> dauert, und dann 2
-                    <span className="g.enc.tagsdecl.cc.abbr-sup-am">
-                      <sup>tens</sup>⹀
+                    <span className="g.enc.tagsdecl.cc.abbr-sup-am ">
+                      <sup className="double-underline">tens</sup>
                     </span>
                     <br className="lb" />{" "}i<span className="orig">ﬅ</span>
                     <span className="corr">st</span> es noch gar nicht
@@ -408,7 +408,8 @@ export default function page() {
                     <span className="corr">s</span>chien nämlich zu fürchten,
                     <br className="lb" />{" "}
                     als wenn ich ihm
-                    <sup className="sup" id="txt.add001"> (dem Pferde)</sup>{" "}
+                    <sup className="sup" id="txt.add001"> (dem Pferde)</sup>
+                    <span class="orig" style={{ marginLeft: "-20px" }}></span>
                     dadurch zu viel
                     <br className="lb" />{" "}
                     zumuthete. Doch darüber{" "}
@@ -421,7 +422,7 @@ export default function page() {
                       <span className="ex">einer</span> Z
                       <span className="ex">eit</span>
                     </span>
-                    näher.
+                    {" "}näher.
                   </p>
                   <p className="enc.tagsdecl.indent-medium">
                     <a id="annot.007.s">{/*anchor*/}</a>
@@ -440,11 +441,11 @@ export default function page() {
                     <br className="lb" />{" "}
                     daß <span className="orig">ſ</span>
                     <span className="corr">s</span>ie Sonntag{" "}
-                    <span className="g.enc.tagsdecl.suspension.type1">
+                    <span className="orig">
                       {" "}
-                      (d.</span>
-                    <span className="expan">
-                      d<span className="ex">en</span>
+                      dƺ.</span>
+                    <span className="corr">
+                      den
                     </span>{" "}
                     25
                     <span className="g.enc.tagsdecl.cc.abbr-sup-am">
@@ -463,7 +464,9 @@ export default function page() {
                     Die We<span className="orig">ﬅ</span>
                     <span className="corr">st</span>en habe ich richtig
                     <br className="lb" />{" "}
-                    gefunden; sie lagen aber in deiner
+                    gefunden; 
+                    <span className="orig">ſ</span>
+                    <span className="corr">s</span>ie lagen aber in deiner
                     <br className="lb" />{" "}
                     <a id="annot.008.s">{/*anchor*/}</a>
                     <span className="g.rend.script.latin">
@@ -488,12 +491,12 @@ export default function page() {
                   {/* Insert Page 4 */}
 
                   <p>
-                    <a id="mark.001.s">{/*anchor*/}</a>Beim Verteilen von{" "}
+                    <a id="mark.001.s">{/*anchor*/}</a>Beim Vertheilen von{" "}
                     <a id="annot.009.s">{/*anchor*/}</a>
                     <span className="g.rend.script.latin">
                       <span className="makierung">Colonial</span>
                     </span>{" "}
-                    <a id="annot.009.e">{/*anchor*/}</a>waren
+                    <a id="annot.009.e">{/*anchor*/}</a>waaren
                     <br className="lb" />{" "}
                     haben wir
                   </p>
@@ -517,10 +520,9 @@ export default function page() {
                           <td>---</td>
                           <td>
                             <span className="abbr">
-                              (
                               <span className="g.enc.tagsdecl.suspension.type1">
                                 {" "}
-                                (Rt)
+                                Rt
                               </span>
                               <span className="expan">
                                 Rt<span className="ex">hl</span>
@@ -535,14 +537,14 @@ export default function page() {
                           <td>"</td>
                           <td>
                             <a id="annot.011.s">{/*anchor*/}</a>
-                            <span className="makierung">Melis</span>
+                            <span className="makierung sans">Melis</span>
                             <a id="annot.011.e">{/*anchor*/}</a>
                           </td>
                           <td>à</td>
                           <td>27 ¾</td>
                           <td />
                           <td className="border-bottom">---</td>
-                          <td className="border-bottom">"</td>
+                          <td className="border-bottom text-center" >"</td>
                           <td className="border-bottom">67.59</td>
                         </tr>
                         <tr>
@@ -553,7 +555,7 @@ export default function page() {
                           <td>=</td>
                           <td>
                             <span className="g.enc.tagsdecl.suspension.type1">
-                              {" "}Rt </span>
+                              {" "}Rt</span>
                             <span className="expan">
                               Rt<span className="ex">hl</span>
                             </span>
@@ -563,7 +565,7 @@ export default function page() {
                       </tbody>
                     </table>
                   </div>
-                  <p className="enc.tagsdecl.indent-medium">
+                  <p className="">
                     bekommen. Jch <span className="orig">ſ</span>
                     <span className="corr">s</span>age es deshalb,
                     <br className="lb" />{" "}
@@ -598,7 +600,8 @@ export default function page() {
                   </p>
                   <p className="enc.tagsdecl.indent-medium">
                     Nach einer Notiz in meiner Brief
-                    <br className="g.enc.tagsdecl.hyphenation.eq" />
+                    <span className="orig">⹀</span>
+<br className="g.enc.tagsdecl.hyphenation.eq" />
                     ta<span className="orig">ſ</span>
                     <span className="corr">s</span>che habe ich nämlich durch{" "}
                     <a id="annot.014.s">{/*anchor*/}</a>
@@ -622,8 +625,8 @@ export default function page() {
                         </tr>
                         <tr>
                           <td>
-                            1
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">d<sup>o</sup>. </span>
+                            1{" "}
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span className="double-underline">d{" "}</span><sup style={{ marginLeft: "-5px" }}>o</sup>. </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -636,8 +639,8 @@ export default function page() {
                         </tr>
                         <tr>
                           <td>
-                            1
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">d<sup>o</sup>. </span>
+                            1{" "}
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span className="double-underline">d{" "}</span><sup style={{ marginLeft: "-5px" }}>o</sup>. </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -650,8 +653,8 @@ export default function page() {
                         </tr>
                         <tr>
                           <td>
-                            1
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">d<sup>o</sup>. </span>
+                            1{" "}
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span className="double-underline">d{" "}</span><sup style={{ marginLeft: "-5px" }}>o</sup>. </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -664,8 +667,8 @@ export default function page() {
                         </tr>
                         <tr>
                           <td>
-                            1
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">d<sup>o</sup>. </span>
+                            1{" "}
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span className="double-underline">d{" "}</span><sup style={{ marginLeft: "-5px" }}>o</sup>. </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -678,8 +681,8 @@ export default function page() {
                         </tr>
                         <tr>
                           <td>
-                            1
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">d<sup>o</sup>. </span>
+                            1{" "}
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span className="double-underline">d{" "}</span><sup style={{ marginLeft: "-5px" }}>o</sup>. </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -692,8 +695,8 @@ export default function page() {
                         </tr>
                         <tr>
                           <td>
-                            1
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">d<sup>o</sup>. </span>
+                            1{" "}
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span className="double-underline">d{" "}</span><sup style={{ marginLeft: "-5px" }}>o</sup>. </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -706,8 +709,8 @@ export default function page() {
                         </tr>
                         <tr>
                           <td>
-                            1
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">d<sup>o</sup>. </span>
+                            1{" "}
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span className="double-underline">d{" "}</span><sup style={{ marginLeft: "-5px" }}>o</sup>. </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -720,8 +723,8 @@ export default function page() {
                         </tr>
                         <tr>
                           <td>
-                            1
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">d<sup>o</sup>. </span>
+                            1{" "}
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span className="double-underline">d{" "}</span><sup style={{ marginLeft: "-5px" }}>o</sup>. </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -734,8 +737,8 @@ export default function page() {
                         </tr>
                         <tr>
                           <td>
-                            1
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">d<sup>o</sup>. </span>
+                            1{" "}
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span className="double-underline">d{" "}</span><sup style={{ marginLeft: "-5px" }}>o</sup>. </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -748,8 +751,8 @@ export default function page() {
                         </tr>
                         <tr>
                           <td>
-                            1
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">d<sup>o</sup>. </span>
+                            1{" "}
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span className="double-underline">d{" "}</span><sup style={{ marginLeft: "-5px" }}>o</sup>. </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -762,8 +765,8 @@ export default function page() {
                         </tr>
                         <tr>
                           <td>
-                            1
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">d<sup>o</sup>. </span>
+                            1{" "}
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span className="double-underline">d{" "}</span><sup style={{ marginLeft: "-5px" }}>o</sup>. </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -776,8 +779,8 @@ export default function page() {
                         </tr>
                         <tr>
                           <td>
-                            1
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">d<sup>o</sup>. </span>
+                            1{" "}
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span className="double-underline">d{" "}</span><sup style={{ marginLeft: "-5px" }}>o</sup>. </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -837,14 +840,14 @@ export default function page() {
                           <td   style={{ fontSize: "80px" }}rowSpan={2}>{"}"}</td>
                           <td rowSpan={2}>
                             beide durch Blei
-                            <br className="g.enc.tagsdecl.hyphenation.eq" />
-                            stift mit
+                            <span className="orig">⹀</span>
+<br className="g.enc.tagsdecl.hyphenation.eq" />
+                            stift mit{" "}
                             <span className="g.rend.script.latin">
-                              {/* <span className="g.enc.tagsdecl.cc.abbr-sup-am">F<sup>ch</sup>⹀)
-                              </span> */}
-                              {" "}<span className="expan">
-                                F<span className="ex">riedri</span>ch
+                              <span className="orig">
+                                <sup class="double-underline">Fch</sup>
                               </span>
+                              <span className="corr">Friedrich</span>
                             </span>
                             <br className="lb" />{" "}
                             <span className="g.rend.script.latin">
@@ -855,9 +858,9 @@ export default function page() {
                         </tr>
                         <tr>
                           <td>
-                            1
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">d<sup>o</sup>. </span>
-                            <span className="expan">
+                          1{" "}
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span className="double-underline">d{" "}</span><sup style={{ marginLeft: "-5px" }}>o</sup>. </span>
+                              <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
                           </td>
@@ -870,9 +873,9 @@ export default function page() {
                         </tr>
                         <tr>
                           <td>
-                            1
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">d<sup>o</sup>. </span>
-                            <span className="expan">
+                          1{" "}
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span className="double-underline">d{" "}</span><sup style={{ marginLeft: "-5px" }}>o</sup>. </span>
+                      <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
                           </td>
@@ -885,9 +888,9 @@ export default function page() {
                         </tr>
                         <tr>
                           <td>
-                            1
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">d<sup>o</sup>. </span>
-                            <span className="expan">
+                          1{" "}
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span className="double-underline">d{" "}</span><sup style={{ marginLeft: "-5px" }}>o</sup>. </span>
+    <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
                           </td>
@@ -916,25 +919,23 @@ export default function page() {
                         <tr>
                           <td />
                           <td />
+                          <td />
                           <td>26⅜</td>
                           <td>℔</td>
-                          <td />
                           <td />
                           <td />
                         </tr>
                         <tr>
                           <td colSpan={3}>
                             <span
-                              style={{ display: "inline-block" }}
+                              style={{ display: "inline-block", marginLeft: "-75px"}}
                               width="-6em"
-                            >
-                              &nbsp;
-                            </span>
+                            ></span>
                             <span className="add">hiezu</span> die 7
                             angestrichnen
                             <br className="lb" />{" "}
                             <span className="g.enc.tagsdecl.suspension.type1">
-                              {" "}vorräthig </span>
+                              {" "}vorräthig</span>
                             <span className="expan">
                               vorräthig<span className="ex">en</span>
                             </span>
@@ -943,7 +944,8 @@ export default function page() {
                           <td className="border-bottom">55¾</td>
                           <td className="border-bottom">"</td>
                           <td />
-                          <td>zusammen</td>
+                          <td>zu<span className="orig">ſ</span>
+<span className="corr">s</span>ammen</td>
                         </tr>
                         <tr>
                           <td />
@@ -1002,7 +1004,7 @@ export default function page() {
                     <a id="annot.015.e">{/*anchor*/}</a> von{" "}
                     <span className="g.rend.script.latin">Brunellen</span>
                     <br className="lb" />{" "}
-                    nicht mehr über zu häufigen Stuhlgang
+                    nicht mehr ü<small className="orig">h</small>ber zu häufigen Stuhlgang
                     <br className="lb" />{" "}
                     zu klagen hatte<span className="orig">ﬅ</span>
                     <span className="corr">st</span>, das wün
@@ -1012,8 +1014,8 @@ export default function page() {
                     ich mit er<span className="orig">ﬅ</span>
                     <span className="corr">st</span>em zu erfahren, um
                     <br className="lb" />{" "}
-                    zu wissen, wie viel{" "}
-                    <sup className="sup" id="txt.add002">
+                    zu wißen, wie viel{" "}
+                    <sup className="sup" id="txt.add002" style={{marginRight: "-40px"}}>
                       <span className="g.rend.script.latin">Brunellen</span>
                     </sup>{" "}
                     du behalten
@@ -1065,7 +1067,7 @@ export default function page() {
                     <span className="corr">s</span>e haben, und
                     <br className="lb" />{" "}
                     wo <span className="orig">ſ</span>
-                    <span className="corr">s</span>olches liegt. Mir däucht im
+                    <span className="corr">s</span>olches liegt? Mir däucht im
                     <br className="lb" />{" "}
                     Leinwand<span className="orig">ſ</span>
                     <span className="corr">s</span>chrank.
@@ -1131,7 +1133,7 @@ export default function page() {
                     bedürfte würde ich vorher
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (<span className="orig">ſ</span>
+                      <span className="orig">ſ</span>
                       <span className="corr">s</span>chreib</span>
                     <span className="expan">
                       <span className="orig">ſ</span>
@@ -1173,7 +1175,8 @@ export default function page() {
                         Erfahre ich daß meine Briefe
                         <br className="lb" />{" "}
                         andern mitgetheilt, oder hin
-                        <br className="g.enc.tagsdecl.hyphenation.eq" />
+                        <span className="orig">⹀</span>
+<br className="g.enc.tagsdecl.hyphenation.eq" />
                       </span>
                     </p>
                   </blockquote>
@@ -1217,10 +1220,7 @@ export default function page() {
                       oft an deinen
                     </p>
                   </blockquote>
-                  <div className="closer">
-                    <span style={{ display: "inline-block" }} width="7cm">
-                      &nbsp;
-                    </span>
+                  <div className="closer" style={{marginLeft: "-90px"}}>
                     <div className="signed">
                       <span className="glyph">
                         <sup>.</sup>//.
