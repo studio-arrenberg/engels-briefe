@@ -46,53 +46,46 @@ export default function page() {
                     marginBottom: "20px",
 
                     paddingTop: "15px",
-                    paddingLeft: "80px",
-                    paddingBottom: "40px",
+                    paddingLeft: "150px",
+                    paddingBottom: "20px",
                   }}
                 >
                   {/* Insert Page 1 */}
                   <div className="opener">
                     <div className="dateline text-right">
-                      <span className="placeName">Hamm</span>
+                      <span className="placeName">Hamm</span>{" "}
                       <span className="date">
                         <span className="abbr"> d.</span>
                         <span className="expan">
                           d<span className="ex">en</span>
                         </span>{" "}
+                        <span className="orig">
                         20
-                        <span className="g.enc.tagsdecl.suspension.type1">
-                          <sup>
-                            <sup className="underline">
-                              <span className="orig">ﬅ</span>
-                              <span className="corr">st</span>
-                            </sup>
+                          <sup className="double-underline">
+                            <span className="orig">ﬅ</span>
+                            <span className="corr">st</span>
                           </sup>
-                        </span>
-                        <span className="expan">
                           <sup>
-                            <sup className="underline">
-                              <span className="orig">ﬅ</span>
-                              <span className="corr">st</span>
-                              <span className="ex">en</span>
+                          ƺ
                             </sup>
-                          </sup>
+                            {" "}
                         </span>
-                        April 1826.
+                        <span className="corr">
+                        20sten{" "}</span>
+                        April <span className="oberzeichen">˙</span>1826.
                       </span>
                     </div>
                   </div>
-                  <div className="opener">
-                    <div className="salute">
+                  <p>
                       <span style={{ display: "inline-block" }} width="3em">
                         &nbsp;
                       </span>
                       Ja, lieber
                       <span className="persName"> Friedrich</span>,
-                    </div>
-                  </div>
-                  <p>
-                    der{" "}
-                    <sup className="sup" id="txt.add001">
+                    
+                  
+                    der{" "}<span className="orig">⦦</span>
+                    <sup className="" id="txt.add001">
                       Herr
                     </sup>{" "}
                     hat
@@ -123,8 +116,9 @@ export default function page() {
                     <a id="annot.001.s">{/*anchor*/}</a>
                     <span className="g.rend.script.latin">
                       {" "}
-                      <span className="makierung">Senectus ipsa morbus</span>
-                    </span>
+                      <span className="makierung">Senectus ip<span className="orig">ſ</span><span className="corr">s</span>
+                      a morbus,</span>
+                    </span>{" "}
                     <a id="annot.001.e">{/*anchor*/}</a> <br className="lb" />{" "}
                     <span
                       className="strike-through"
@@ -134,11 +128,11 @@ export default function page() {
                     </span>{" "}
                     laut welches wir al<span className="orig">ſ</span>
                     <span className="corr">s</span>o immer krank{" "}
-                    <span className="orig">ſ</span>
-                    <span className="corr">s</span>eÿn müßten; und dennoch ha
+                    <span className="orig">ſeÿn</span>
+                    <span className="corr">seyn</span> müßten; und dennoch ha<span className="orig">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     ben wir für das ganze{" "}
-                    <span className="date">Jahr 1825</span>. dem Arzt{" "}
+                    <span className="date">Jahr <span className="oberzeichen">˙</span>1825</span>. dem Arzt{" "}
                     <span className="abbr"> u</span>
                     <span className="expan">
                       u<span className="ex">nd</span>
@@ -223,12 +217,12 @@ export default function page() {
                         u<span className="ex">nd</span>
                       </span>{" "}
                       andere mit <span className="orig">ſ</span>
-                      <span className="corr">s</span>ich ins Ver
+                      <span className="corr">s</span>ich ins Ver<span className="orig">⹀</span>
                       <br className="g.enc.tagsdecl.hyphenation.eq" />
                       derben zogen.<a id="annot.002.e">{/*anchor*/}</a> Es
                       gehört zur Lebensweisheit, aus dem Bö
                       <span className="orig">ſ</span>
-                      <span className="corr">s</span>en oder Unangeneh
+                      <span className="corr">s</span>en oder <small className="orig">u</small>Unangeneh<span className="orig">⹀</span>
                       <br className="g.enc.tagsdecl.hyphenation.eq" />
                       men nicht nur das Kleinere zu wählen;{" "}
                       <span className="orig">ſ</span>
@@ -245,7 +239,7 @@ export default function page() {
                       <span className="orig">ﬅ</span>
                       <span className="corr">st</span>{" "}
                       <span className="orig">ſ</span>
-                      <span className="corr">s</span>chon; daher ich es unnö
+                      <span className="corr">s</span>chon; daher ich es unnö<span className="orig">⹀</span>
                       <br className="g.enc.tagsdecl.hyphenation.eq" />
                       thig finde, darüber noch ein Wort zu{" "}
                       <span className="orig">ſ</span>
@@ -304,17 +298,15 @@ export default function page() {
                     <br className="lb" /> von jeher{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>o neu
-                    <span className="orig" />
-                    <span className="corr">-</span> = wißbegierig i
+                    <span className="orig">=</span>
+                    <span className="corr">–</span>{" "}wißbegierig i
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>, wollte ich{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>agen, – der durch Fragen
                     <br className="lb" />{" "}
-                    <span style={{ display: "inline-block" }} width="63em">
-                      &nbsp;
-                    </span>
-                    <span className="underline">jedem</span>
+                    <span class="orig" style={{ marginLeft: "500px" }}></span>
+                    <span className="underline orig">jedem</span>
                   </p>
                 </div>
                 <div
@@ -322,7 +314,7 @@ export default function page() {
                   style={{
                     paddingTop: "35px",
                     paddingLeft: "80px",
-                    paddingBottom: "88px",
+                    paddingBottom: "34px",
                     marginBottom: "25px",
                   }}
                 >
@@ -330,7 +322,7 @@ export default function page() {
                   <p>
                     jedem Dinge auf den Grund kommen will, wird ein
                     <span className="orig">ﬅ</span>
-                    <span className="corr">st</span> ein großer Ge
+                    <span className="corr">st</span> ein großer Ge<span className="orig">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     lehrter werden.<a id="teaser.part.001.e">{/*anchor*/}</a> Im
                     vorigen Herb<span className="orig">ﬅ</span>
@@ -375,6 +367,7 @@ export default function page() {
                       <span className="makierung">Hermann</span>
                     </span>{" "}
                     las
+                    <span className="orig">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>en Sie immer noch{" "}
@@ -389,6 +382,8 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ein Steckenpferd. Haben doch
                     wir al
+                    <span className="orig">⹀</span>
+                    <span className="orig">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     ten Leute noch das Un<span className="orig">ſ</span>
                     <span className="corr">s</span>rige,{" "}
@@ -397,6 +392,7 @@ export default function page() {
                       u<span className="ex">nd</span>
                     </span>{" "}
                     von je her eins gehabt. Der ganze Unter
+                    <span className="orig">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chied i
@@ -405,14 +401,17 @@ export default function page() {
                     vertau<span className="orig">ſ</span>
                     <span className="corr">s</span>cht haben. Auch für den
                     gemüth
+                    <span className="orig">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     lichen <span className="persName"> Herman̅</span> wird die
                     Zeit kommen, wo er das Eigentliche mit dem Un
+                    <span className="orig">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     eigentlichen vertau<span className="orig">ſ</span>
                     <span className="corr">s</span>cht. Daß die kleine
                     <span className="persName"> Marie</span>, die Mädchen oder
                     Frau
+                    <span className="orig">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     en im Allgemeinen – (wobei ich jedoch, um mich gegen jeden{" "}
                     <span className="orig">Ueberfall</span>
@@ -439,14 +438,15 @@ export default function page() {
                     <br className="lb" /> i<span className="orig">ﬅ</span>
                     <span className="corr">st</span> Schuld daran? – Wer putzt
                     die kleinen Dingerchen – mit Bändern, net
+                    <span className="orig">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     ten Kleidern oder{" "}
                     <span className="makierung">
-                      Schlü<span className="orig">ſ</span>
+                      Schü<span className="orig">ſ</span>
                       <span className="corr">s</span>
                       <span className="orig">ſ</span>
-                      <span className="corr">s</span>elplaggen,{" "}
-                    </span>
+                      <span className="corr">s</span>elplaggen
+                    </span>,{" "}
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>ellt{" "}
                     <span className="orig">ſ</span>
@@ -473,8 +473,6 @@ export default function page() {
                     <span className="corr">?</span> Welcher Bräutigam hält nicht{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>eine Braut
-                    <span className="orig">,</span>
-                    <span className="corr" />
                     <br className="lb" /> für <span className="orig">ſ</span>
                     <span className="corr">s</span>chön,{" "}
                     <span className="abbr"> u</span>
@@ -501,14 +499,14 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>e täglich reinlich kleide –
                     das <span className="underline">muß</span> jede
-                    <br className="lb" /> erdenkliche Frau – ,{" "}
+                    <br className="lb" /> ordentliche Frau –,{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ondern, daß{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ie{" "}
                     <span className="orig">ſ</span>
-                    <span className="corr">s</span>ich bei Feierlichkeiten,
-                    <span className="abbr"> z. B.</span>
+                    <span className="corr">s</span>ich bei Feierlichkeiten,{" "}
+                    <span className="abbr">z. B.</span>
                     <span className="expan">
                       z<span className="ex">um</span>{" "}
                       <span className="ex"> </span>B
@@ -516,8 +514,9 @@ export default function page() {
                         ei<span className="orig">ſ</span>
                         <span className="corr">s</span>piel
                       </span>{" "}
-                    </span>
+                    </span>{" "}
                     Kindtau
+                    <span className="orig">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     fen, Hochzeiten, Concerten{" "}
                     <span className="abbr"> p.p.</span>
@@ -539,9 +538,12 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>em{" "}
                     <span className="orig">ſ</span>
-                    <span className="corr">s</span>o gar die Eitel
+                    <span className="corr">s</span>o gar die <span className="orig">Eitel
+                    <span className="orig">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
+                    <span class="orig" style={{ marginLeft: "560px" }}></span>
                     <span className="underline">keit</span>
+                    </span>
                   </p>
                 </div>
 
@@ -550,12 +552,12 @@ export default function page() {
                   style={{
                     paddingTop: "40px",
                     paddingLeft: "70px",
-                    paddingBottom: "73px",
+                    paddingBottom: "17px",
                   }}
                 >
                   {/* Insert Page 3 */}
                   <p>
-                    keit anfachen <span className="abbr"> u</span>
+                    <span className="corr">Eitel</span>keit anfachen <span className="abbr"> u</span>
                     <span className="expan">
                       u<span className="ex">nd</span>
                     </span>{" "}
@@ -596,11 +598,12 @@ export default function page() {
                     <br className="lb" /> Männer beifallen. Meine Parthei könnte
                     die<span className="orig">ſ</span>
                     <span className="corr">s</span>e Wahrheit volltönend vier
+                    <span className="orig">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>immig{" "}
                     <span className="orig">ſ</span>
-                    <span className="corr">s</span>ingen,{" "}
+                    <span className="corr">s</span>in<small className="orig">d</small>gen,{" "}
                     <span className="abbr"> u</span>
                     <span className="expan">
                       u<span className="ex">nd</span>
@@ -617,13 +620,14 @@ export default function page() {
                     <a id="annot.004.s">{/*anchor*/}</a>
                     <span className="g.rend.script.latin">
                       {" "}
-                      <span className="makierung">Conto–Corrent</span>
+                      <span className="makierung">Conto‐Corrent</span>
                     </span>
                     <a id="annot.004.e">{/*anchor*/}</a> enthält ohne Ihr Ver
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chulden ein Ver
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ehen. Sie konn
+                    <span className="orig">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     ten nicht wi<span className="orig">ſ</span>
                     <span className="corr">s</span>
@@ -649,15 +653,15 @@ export default function page() {
                         </span>
                         <span className="expan">
                           v<span className="ex">on </span>d
-                          <span className="ex">er </span>Kuhlen{" "}
+                          <span className="ex">er </span>Kuhlen
                         </span>
                       </span>
-                    </span>
+                    </span>{" "}
                     <span className="abbr"> d.</span>
                     <span className="expan">
                       d<span className="ex">en</span>
                     </span>{" "}
-                    14. Januar die<span className="orig">ſ</span>
+                    <span className="oberzeichen">˙</span>14. Janu<small className="orig">r</small>ar die<span className="orig">ſ</span>
                     <span className="corr">s</span>es Jahrs zum
                     <br className="lb" /> zweiten Mal die vollen 75.{" "}
                     <span className="abbr"> rttr.</span>
@@ -682,13 +686,13 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>e 2
                     <sup>
-                      <sup className="underline">te</sup>
+                      <sup className="double-underline">te</sup>
                     </sup>
                     <br className="lb" /> Quittung{" "}
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>eht auf dem Blatt der er
                     <span className="orig">ﬅ</span>
-                    <span className="corr">st</span>en. Unter die
+                    <span className="corr">st</span>en. Unter d<small className="orig">er</small>ie
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>elben wird bei
                     <br className="lb" /> Leben <span className="abbr"> u</span>
@@ -699,13 +703,8 @@ export default function page() {
                     <span className="corr">s</span>ein im künftigen Januar auch
                     die dritte kommen, wenn
                     <br className="lb" />{" "}
-                    <span style={{ display: "inline-block" }} width="-4em">
-                      &nbsp;
-                    </span>
-                    <span className="add" id="txt.add002">
-                      Sie
-                    </span>
-                    anders mich mit der Zahlung ferner beauftragen.
+                    <span class="orig" style={{ marginLeft: "-40px" }}/>
+                      S<span class="underline">ie {"   "}an</span>ders mich mit der Zahlung ferner beauftragen.
                   </p>
                   <p>
                     <span style={{ display: "inline-block" }} width="1char">
@@ -718,26 +717,25 @@ export default function page() {
                     </span> bei <span className="orig">ſ</span>
                     <span className="corr">s</span>einer Rei
                     <span className="orig">ſ</span>
-                    <span className="corr">s</span>e nach
-                    <span className="placeName">Berlin</span> die 6.
+                    <span className="corr">s</span>e nach{" "}
+                    <span className="placeName">Berlin</span> die 6. {" "}
                     <span className="g.rend.script.latin">
-                      {" "}
                       <span className="abbr"> Fr. d’or</span>
                       <span className="makierung">
-                        <span className="expan">Friedrichs d’or</span>{" "}
+                        <span className="expan">Friedrichs d’or</span>
                       </span>
                     </span>
-                    für
+                    {" "}für
                     <br className="lb" /> <span className="orig">ſ</span>
                     <span className="corr">s</span>einen Vater in meinem Namen
                     mitgeben wollen: <span className="orig">ſ</span>
                     <span className="corr">s</span>o wird mir
                     <br className="lb" /> das <span className="orig">ſ</span>
                     <span className="corr">s</span>ehr lieb{" "}
+                    <span className="orig">ſeÿn</span>
+                    <span className="corr">seyn</span>. Ich er
                     <span className="orig">ſ</span>
-                    <span className="corr">s</span>eÿn. Ich er
-                    <span className="orig">ſ</span>
-                    <span className="corr">s</span>pare dann das Konto. Haben
+                    <span className="corr">s</span>pare dann das Porto. Haben
                     Sie nur dann die
                     <br className="lb" /> Güte mir den Betrag die
                     <span className="orig">ſ</span>
@@ -745,7 +743,8 @@ export default function page() {
                     <span className="abbr">
                       <span className="g.rend.script.latin"> Fr. d’or</span>
                     </span>
-                    in <span className="abbr"> Berg.</span>
+                    <span className="corr">Friedrichs d’or</span>
+                    {" "}in <span className="abbr"> Berg.</span>
                     <span className="expan">
                       Berg
                       <span className="ex">
@@ -783,14 +782,14 @@ export default function page() {
                     <span className="expan">
                       u<span className="ex">nd</span>
                     </span>{" "}
-                    die
+                    die{" "}
                     <span className="abbr"> l.</span>
                     <span className="expan">
                       l<span className="ex">ieben</span>
                     </span>{" "}
                     Ihrigen! tau<span className="orig">ſ</span>
                     <span className="corr">s</span>end Grüße an
-                    <br className="lb" /> alle dortigen Fremden von allen hie
+                    <br className="lb" /> alle dortigen Freunden von allen hie
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>igen. Mit Liebe{" "}
                     <span className="abbr"> u</span>
@@ -804,11 +803,11 @@ export default function page() {
                         &nbsp;
                       </span>
                       Ihrige
-                      <br className="lb" />{" "}
+                      <br className="lb bn" />{" "}
                       <span style={{ display: "inline-block" }} width="54em">
                         &nbsp;
                       </span>
-                      <span className="g.rend.script.latin"> van Haar</span>.
+                      <span class="orig" style={{ marginLeft: "-30px" }}></span><span className="g.rend.script.latin"> van Haar</span>.
                     </div>
                   </div>
                 </div>

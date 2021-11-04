@@ -1081,7 +1081,13 @@ img {
   display: block;
 }
 
-.text-center {
+
+.normalisiert .text-right {
+  padding-right: 0px;
+  }
+
+
+.vergleichs-ansicht .text-center {
   display: block;
   text-align: center;
 }
@@ -1092,7 +1098,7 @@ img {
   padding-left: 430px;
 }
 
-.vergleichs-ansicht .signed {
+.normalisiert .signed {
   text-align: left;
   margin-top: 10px;
   margin-right: 100px;
@@ -1179,6 +1185,11 @@ table {
 .normalisiert .page br {
   display: none;
 }
+
+
+.normalisiert .page br.bn {
+  display:initial;
+}
 /* 
 .normalisiert .kuvert {
   padding-bottom: 100px !important;
@@ -1219,7 +1230,7 @@ table {
   height: unset !important;
   top: unset !important;
   left: unset !important;
-  display: block;
+  /* display: block; */
   position: relative;
 }
 
@@ -1469,6 +1480,14 @@ p > span .latin {
 
 
 
+.vergleichs-ansicht .oberzeichen{
+  display:  inline-block;
+  margin-right: -8px;
+  transform: translateY(-5px);
+}
+
+
+
 
 
 .normalisiert .hide-doublehypen{
@@ -1500,6 +1519,10 @@ p > span .latin {
   display: none;
 }
 
+
+.normalisiert .oberzeichen{
+  display: none;
+}
 .normalisiert .hide-normalisiert{
   display: none;
 }
