@@ -34,7 +34,7 @@ export default function page() {
                 <section
                   className="kuvert"
                   id="index.xml-body.1_div.1"
-                  style={{ paddingTop: "200px", paddingBottom: "350px" }}
+                  style={{ paddingTop: "200px", paddingBottom: "360px" }}
                 >
                   {/* Insert Kuvert */}
                   <div className="kuvert" id="index.xml-body.1_div.1">
@@ -48,7 +48,7 @@ export default function page() {
                         <span className="corr">s</span>e
                         <span className="g.rend.script.latin"> van Haar</span>
                       </span>
-                      in
+                      in{" "}
                       <br />
                       <span className="underline">
                         Hamm.{" "}
@@ -75,7 +75,7 @@ export default function page() {
                 >
                   {/* Insert Page 1 */}
                   <div className="opener">
-                    <div className="dateline text-right">
+                    <div className="dateline text-right" style={{paddingLeft: "350px",}}>
                       Barmen{" "}
                       <span className="date">
                         <span className="g.enc.tagsdecl.suspension.type1">
@@ -83,7 +83,7 @@ export default function page() {
                         <span className="expan">
                           d<span className="ex">en</span>
                         </span>{" "}
-                        21.
+                        21.{" "}
                         <span className="g.rend.script.latin">
                           <span className="abbr"> Septemb.</span>
                           <span className="expan">
@@ -95,6 +95,7 @@ export default function page() {
                         <span style={{ display: "inline-block" }} width="13cm">
                           &nbsp;
                         </span>
+                        <span className="corr"><br /></span>
                         Sam<span className="orig">ﬅ</span>
                         <span className="corr">st</span>ag
                       </span>{" "}
@@ -109,10 +110,11 @@ export default function page() {
                           Eli<span className="orig">ſ</span>
                           <span className="corr">s</span>e
                         </span>
-                        .
+                        .{" "}
                       </span>
                     </span>
                     <span className="liebe">
+                    <span class="orig" style={{ marginLeft: "20px" }}></span>
                       <a id="mark.001.s">{/*anchor*/}</a>An die
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>em ruhigen Abende, wo alle
@@ -121,11 +123,11 @@ export default function page() {
                       für die<span className="orig">ſ</span>
                       <span className="corr">s</span>e Woche ruhen, und alles{" "}
                       <span className="orig">ſ</span>
-                      <span className="corr">s</span>ich auf
+                      <span className="corr">s</span>ich auf{" "}
                       <span className="date">
                         den kommenden Tag
                         <br className="lb" />{" "}
-                        des Herrn
+                        des Herrn{" "}
                       </span>
                       vorbereitet – dachte ich einige Augenblicke Dir, der
                       <br className="lb" />{" "}
@@ -137,7 +139,7 @@ export default function page() {
                     <br className="lb" />{" "}
                     hatte ich den <span className="date">heutigen</span> Abend
                     dazu be<span className="orig">ﬅ</span>
-                    <span className="corr">st</span>immt, und glücklicher
+                    <span className="corr">st</span>immt, und glücklicher<span className="orig">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     wei<span className="orig">ſ</span>
                     <span className="corr">s</span>e kommt mir kein Hinderniß in
@@ -182,7 +184,7 @@ export default function page() {
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>chaffen, daß un
                       <span className="orig">ſ</span>
-                      <span className="corr">s</span>er Zu
+                      <span className="corr">s</span>er Zu<span className="orig">⹀</span>
                       <br className="" />
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>ammentreffen von dem
@@ -245,7 +247,8 @@ export default function page() {
                         <br className="lb" />{" "}
                         Zeit zu<span className="orig">ſ</span>
                         <span className="corr">s</span>ammen vereinigen möge,
-                        damit wir Ihn alsdann
+                        damit wir <span className="orig">J</span>
+<span className="corr">I</span>hn alsdann
                         <br className="lb" />{" "}
                         durch un<span className="orig">ſ</span>
                         <span className="corr">s</span>er Leben prei
@@ -262,7 +265,8 @@ export default function page() {
                         <br className="lb" />{" "}
                         zum wahren Nutzen dienen, und ein Mittel{" "}
                         <span className="orig">ſ</span>
-                        <span className="corr">s</span>eÿn, im
+                        <span className="corr">s</span>e<span className="orig">ÿ</span>
+<span className="corr">y</span>n, im
                         <br className="lb" />{" "}
                         Chri<span className="orig">ﬅ</span>
                         <span className="corr">st</span>enthum weiter zu kommen;
@@ -289,7 +293,7 @@ export default function page() {
                         denn die<span className="orig">ſ</span>
                         <span className="corr">s</span>e Stimmung, worin
                         <br className="lb" />{" "}
-                        wir auf Gott vertrauen, bewahrt uns vor jenem Leiden
+                        wir auf Gott vertrauen, bewahrt uns vor jenem Leiden<span className="orig">=</span>
                         <br className="g.enc.tagsdecl.hyphenation.divis" />
                         <span className="orig">ſ</span>
                         <span className="corr">s</span>chaftlichen, welches die
@@ -333,7 +337,7 @@ export default function page() {
                         <span className="corr">st</span> das rechte Prä
                         <span className="orig">ſ</span>
                         <span className="corr">s</span>ervatif gegen
-                        Melancholie.<a id="mark.004.e">{/*anchor*/}</a>
+                        Melancholie.<a id="mark.004.e">{/*anchor*/}</a>{" "}
                       </span>
                       – Ich will
                       <br className="lb" />{" "}
@@ -393,7 +397,8 @@ export default function page() {
                       <br className="lb" />{" "}
                       auch zählen; – Dein Bild wird mich begleiten{" "}
                       <span className="orig">ſ</span>
-                      <span className="corr">s</span>eÿ es hier,
+                      <span className="corr">s</span>e<span className="orig">ÿ</span>
+<span className="corr">y</span> es hier,
                       <br className="lb" />{" "}
                       oder auf Rei<span className="orig">ſ</span>
                       <span className="corr">s</span>en.
@@ -421,14 +426,14 @@ export default function page() {
                       <span className="orig">ﬅ</span>
                       <span className="corr">st</span>{" "}
                       ein wenig ern<span className="orig">ﬅ</span>
-                      <span className="corr">st</span>haft aus
+                      <span className="corr">st</span>haft aus<span className="orig">=</span>
                       <br className="g.enc.tagsdecl.hyphenation.divis" />
                       gefallen, nicht wahr liebe{" "}
                       <span className="persName">
                         Eli<span className="orig">ſ</span>
                         <span className="corr">s</span>e
                       </span>
-                      ?<a id="teaser.part.002.e">{/*anchor*/}</a>
+                      ?<a id="teaser.part.002.e">{/*anchor*/}</a>{" "}
                       <span className="orig">indeßen</span>
                       <span className="corr">Indessen</span>{" "}
                       <span className="orig">ſ</span>
@@ -447,9 +452,10 @@ export default function page() {
                       <span className="corr">s</span>ein
                       <br className="lb" />{" "}
                       Herze aus<span className="orig">ſ</span>
-                      <span className="corr">s</span>chütten kann!
+                      <span className="corr">s</span>chütten kann!{" "}
                       <a id="mark.002.e">{/*anchor*/}</a>
                     </span>
+                    {" "}
                     – Nun von was anderm:
                     <br className="lb" />{" "}
                     <span className="persName makierung">
@@ -498,7 +504,7 @@ export default function page() {
                       <span className="corr">st</span>,{" "}
                       <span className="g.rend.script.latin"><span className="makierung">Griesheim</span> </span>{" "}
                       hat in{" "}
-                      <span className="placeName">Hagen</span> etwas ge
+                      <span className="placeName">Hagen</span> etwas ge<span className="orig">=</span>
                       <br className="g.enc.tagsdecl.hyphenation.divis" />
                       merkt, nicht wahr? <span className="orig">das</span>
                       <span className="corr">Das</span> thut{" "}
@@ -515,7 +521,7 @@ export default function page() {
                       <br className="lb" />{" "}
                       Du Dir aber nichts merken, denn es i
                       <span className="orig">ﬅ</span>
-                      <span className="corr">st</span> wirklich
+                      <span className="corr">st</span> wirklich{" "}
                       <span className="orig">beßer</span>
                       <span className="corr">besser</span>,<br className="lb" />{" "}
                       wenn alles für’s er<span className="orig">ﬅ</span>
@@ -581,7 +587,7 @@ export default function page() {
                       <span className="persName">
                         <span className="abbr"> M.</span>
                         <span className="expan">
-                          M<span className="ex">inchen</span>
+                          M<span className="ex">inchen</span>{" "}
                         </span>
                         <br className="lb" />{" "}
                         Sparenberg
@@ -701,7 +707,7 @@ export default function page() {
                       Mein näch<span className="orig">ﬅ</span>
                       <span className="corr">st</span>er Brief wird lu
                       <span className="orig">ﬅ</span>
-                      <span className="corr">st</span>iger werden,
+                      <span className="corr">st</span>iger werden,{" "}
                       <span className="date">heute</span> <br className="lb" />{" "}
                       {" "}wollte es nicht recht gehen, und ich zwinge mich{" "}
                       <span className="overwritten">g</span>
@@ -725,7 +731,8 @@ export default function page() {
                       Dinte <span className="orig">ſ</span>
                       <span className="corr">s</span>o dick wie
                       <br className="lb" />{" "}
-                      Breÿ, und der Ti<span className="orig">ſ</span>
+                      Bre<span className="orig">ÿ</span>
+<span className="corr">y</span>, und der Ti<span className="orig">ſ</span>
                       <span className="corr">s</span>ch wohl für{" "}
                       <span className="g.rend.script.latin">
                         <span className="makierung">Advocaten</span>
@@ -746,7 +753,8 @@ export default function page() {
                       </span>
                       Nochmals lebe recht wohl. Der gute Gott{" "}
                       <span className="orig">ſ</span>
-                      <span className="corr">s</span>eÿ mit
+                      <span className="corr">s</span>e<span className="orig">ÿ</span>
+<span className="corr">y</span> mit
                       <br className="lb" />{" "}
                       Dir und
                     </p>
@@ -755,12 +763,13 @@ export default function page() {
                     <span style={{ display: "inline-block" }} width="6words">
                       &nbsp;
                     </span>
-                    <div className="signed">
+                    <div className="signed-space" style={{paddingLeft: "320px",}}>
                       Deinem treuen
                       <br className="lb" />{" "}
                       <span style={{ display: "inline-block" }} width="7words">
                         &nbsp;
                       </span>
+                      <br className="lb-detail" />
                       <span className="g.rend.script.latin">Friedrich</span>.
                     </div>
                   </div>

@@ -88,8 +88,8 @@ export default function page() {
                 >
                   {/* Page 1 */}
                   <div>
-                    <div className="text-right">
-                      <span classname="g.rend.script.latin">Barmen</span>,
+                    <div className="text-right" style={{paddingBottom: "20px",paddingRight:"300px",}}>
+                      <span classname="g.rend.script.latin">Barmen</span>,{" "}
                       <span classname="date">
                         3. <span classname="g.rend.script.latin">Juli</span>{" "}
                         1818
@@ -156,19 +156,21 @@ export default function page() {
                       {" "}
                       Freund</span>, der <span className="orig">ſ</span><span className="corr">s</span>eit
                       <br className="lb" />{" "}
-                      ein paar Tagen bei ihm logirt, i<span className="orig">ﬅ</span><span className="corr">st</span> er nun mehr be
+                      ein paar Tagen bei ihm logirt, i<span className="orig">ﬅ</span><span className="corr">st</span> er nun mehr be<span className="orig">=</span>
                       <br className="g.enc.tagsdecl.hyphenation.divis" />
                       <span className="orig">ſ</span><span className="corr">s</span>chäftigt, bleibt aber dabei froh, und <span className="orig">ſ</span><span className="corr">s</span>o denke ich wird
                       <br className="lb" />{" "}
                       Papa ihm in Gottes Namen er<span className="orig">ﬅ</span><span className="corr">st</span>er Tage alles mittheilen.
                       <br className="lb" />{" "}
-                      Ich zweifle keinen Augenblick an <span className="orig">ſ</span><span className="corr">s</span>einer völligen Ge
+                      <span className="orig">J</span>
+<span className="corr">I</span>ch zweifle keinen Augenblick an <span className="orig">ſ</span><span className="corr">s</span>einer völligen Ge<span className="orig">=</span>
                       <br className="g.enc.tagsdecl.hyphenation.divis" />
                       nehmigung, indeß hats mich doch bis jetzt an einem
                       <br className="lb" />{" "}
                       Schritte abgehalten, den du gewiß auch für gut finden
                       <br className="lb" />{" "}
-                      wir<span className="orig">ﬅ</span><span className="corr">st</span>. Ich hatte nämlich vor, liebe{" "}
+                      wir<span className="orig">ﬅ</span><span className="corr">st</span>. <span className="orig">J</span>
+<span className="corr">I</span>ch hatte nämlich vor, liebe{" "}
                       <span className="persName">Eli<span className="orig">ſ</span><span className="corr">s</span>e</span>, meinen
                       <br className="lb" />{" "}
                       er<span className="orig">ﬅ</span><span className="corr">st</span>en Brief an dich in einen Brief an <span className="makierung">deine guten
@@ -185,7 +187,7 @@ export default function page() {
                       <br className="lb" />{" "}
                       Rechte wie gewöhnliche Verwandten hat. Sobald er al<span className="orig">ſ</span><span className="corr">s</span>o
                       <br className="lb" />{" "}
-                      eingeweiht i<span className="orig">ﬅ</span><span className="corr">st</span>,
+                      eingeweiht i<span className="orig">ﬅ</span><span className="corr">st</span>,{" "}
                       <span className="strike-through" style={{ textDecoration: "line-through" }}>
                         leite
                       </span>{" "}
@@ -243,9 +245,9 @@ export default function page() {
                       <br className="lb" />{" "}
                       die <span className="orig">ſ</span><span className="corr">s</span>o überaus gün<span className="orig">ﬅ</span><span className="corr">st</span>ige Wendung un<span className="orig">ſ</span><span className="corr">s</span>erer Angelegenheit
                       <br className="lb" />{" "}
-                      bedenke, <span className="orig">ſ</span><span className="corr">s</span>o kommt mir oft das ganze wie ein
+                      bedenke, <span className="orig">ſ</span><span className="corr">s</span>o kommt mir oft das ganze wie ein an<span className="orig">=</span>
                       <br className="lb" />{" "}
-                      angenehmer Traum vor; es kam alles <span className="orig">ſ</span><span className="corr">s</span>o <span className="orig">ſ</span><span className="corr">s</span>chnell,
+                      genehmer Traum vor; es kam alles <span className="orig">ſ</span><span className="corr">s</span>o <span className="orig">ſ</span><span className="corr">s</span>chnell,
                       <br className="lb" />{" "}
                       und <span className="orig">ſ</span><span className="corr">s</span>o unerwartet. Wenn ich mir <span className="orig">ſ</span><span className="corr">s</span>o oft den möglich<span className="orig">ﬅ</span><span className="corr">st</span>
                       <br className="lb" />{" "}
@@ -259,10 +261,10 @@ export default function page() {
                         <span className="orig">vergeßen</span>
                         <span className="corr">vergessen</span>,
                         <br className="lb" />{" "}
-                        un<span className="orig">ſ</span><span className="corr">s</span>erm lieben himmli<span className="orig">ſ</span><span className="corr">s</span>chen Vater
+                        un<span className="orig">ſ</span><span className="corr">s</span>erm lieben himmli<span className="orig">ſ</span><span className="corr">s</span>chen Vater{" "}
                         <span className="strike-through" style={{ textDecoration: "line-through" }}>
                           für
-                        </span>
+                        </span>{" "}
                         <span className="strike-through" style={{ textDecoration: "line-through" }}>
                           die<span className="orig">ſ</span><span className="corr">s</span>en
                         </span>{" "}

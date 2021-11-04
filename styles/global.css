@@ -1806,10 +1806,12 @@ p > span .latin {
 
 
 /* Detail Ansicht */
+.detail-ansicht .lb-detail{
+  display: block !important;  
+}
 
 .detail-ansicht .salute {
   padding-bottom: 10px;
-  
 }
 
 .detail-ansicht .dateline-center {

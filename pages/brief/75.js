@@ -363,7 +363,8 @@ export default function page() {
                     <br className="lb" />
                     die<span className="orig">ſ</span>
                     <span className="corr">s</span>em{" "}
-                    <span className="g.rend.script.latin">Jnstrument</span>{" "}
+                    <span className="g.rend.script.latin"><span className="orig">J</span>
+<span className="corr">I</span>nstrument</span>{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>o wie aufm{" "}
                     <span className="g.rend.script.latin">Clavier</span> fleißig
@@ -399,8 +400,8 @@ export default function page() {
                       {" "}
                       <span className="g.rend.script.latin">F</span>.
                     </span></span>
-                    <span className="orig" />
-                    <span className="corr">Gulden</span>
+                    <span className="orig">Gulden</span>
+                    
                     <a id="annot.001.e">{/*anchor*/}</a> |:
                     <span className="orig"> </span>
                     <span className="corr" />
@@ -456,7 +457,7 @@ export default function page() {
                     <span className="persName">
                       <span className="g.enc.tagsdecl.suspension.type1">
                         dHr</span>
-                      <span className="expan">
+                      <span className="orig">
                         d<span className="ex">em</span> Hr
                       </span>
                       <span className="expan">
@@ -547,7 +548,7 @@ export default function page() {
                           <span className="corr">.</span>
                         </span>
                         <span className="expan">
-                          Joh<span className="ex">ann</span>
+                          Joh.
                         </span>
                         {" "}Waxelberg
                       </span>
@@ -581,8 +582,9 @@ export default function page() {
                     oder {" "}
                     <span className="makierung"><span className="orig">Sontag</span>
                     <span className="corr">Sonntag</span> dort oder in{" "}
-                    <span className="orig">eürer</span>
-                    <span className="corr">eurer</span> Gegend ankom̅en werden;</span>{" "}
+                    <span className="orig">eürer</span>{" "}
+                    <span className="corr">eurer</span> Gegend anko<span className="orig">m̅</span>
+<span className="corr">mm</span>en werden;</span>{" "}
                     <br className="lb" />
                     erkundige{" "}
                     <sup className="sup" id="txt.add002">
@@ -740,7 +742,8 @@ export default function page() {
                   </p>
                   <div className="closer">
                     Ihm un<span className="orig">ſ</span>
-                    <span className="corr">s</span>rem Herrn und Heÿlande Je
+                    <span className="corr">s</span>rem Herrn und He<span className="orig">ÿ</span>
+<span className="corr">y</span>lande Je
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>u Chri
                     <span className="orig">ﬅ</span>
@@ -750,11 +753,11 @@ export default function page() {
                     <span style={{ display: "inline-block" }} width="3words">
                       &nbsp;
                     </span>
-                    <div className="signed"style={{paddingLeft: "340px",}}>
+                    <div className="signed-right-middle"style={{paddingLeft: "340px",}}>
                       Deine <span className="orig">Treüe</span>
                       <span className="corr">Treue</span> Eltern
                     </div>
-                    <div className="signed" style={{paddingLeft: "340px",}}>
+                    <div className="signed-right-middle" style={{paddingLeft: "340px",}}>
                       {" "}
                       <span className="g.rend.script.latin">
                         <span className="abbr"> C.</span>
@@ -870,7 +873,7 @@ export default function page() {
             }}
           >
             <hr />
-            <label>Abm Lohe</label>
+            <label>Abraham Lohe</label>
             <p>
             Abraham Lohe (1764–1818), Besitzer einer Bleicherei in Barmen und 1814 Kriegsfreiwilliger.
           </p>
