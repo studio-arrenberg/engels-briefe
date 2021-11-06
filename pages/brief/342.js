@@ -171,8 +171,8 @@ export default function page() {
                     <span className="placeName">
                       <span className="g.rend.script.latin">Barmen</span>{" "}
                     </span>
-                    von <span className="persName">Hermann</span> und{" "}
-                    <span className="persName">Emil</span>. Mit Ver
+                    von <span className="persName makierung">Hermann</span> und{" "}
+                    <span className="persName makierung">Emil</span>. Mit Ver
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     gnügen <span className="orig">ſ</span>
                     <span className="corr">s</span>ah ich daraus, daß es Dir
@@ -235,9 +235,9 @@ export default function page() {
                     <span className="corr">verflossene</span> Jahr, und meinen
                     Antheil <span className="orig">ſ</span>
                     <span className="corr">s</span>ogar
-                    <br className="lb" /> noch um ₤ 12,– größer, da das Bündelge
+                    <br className="lb" /> noch um ₤ 12,– größer, da das <span className="makierung">Bündelge
                     <span className="orig">ſ</span>
-                    <span className="corr">s</span>chäft etwas
+                    <span className="corr">s</span>chäft</span> etwas
                     <br className="lb" /> mehr gegen voriges Jahr geliefert
                     hatte. Die
                     <span className="orig">ſ</span>
@@ -256,7 +256,7 @@ export default function page() {
                     <span className="corr">s</span>olidere Richtung genommen
                     hat,
                     <br className="lb" /> indem{" "}
-                    <span className="g.rend.script.latin">Spools</span> und
+                    <span className="g.rend.script.latin makierung">Spools</span> und
                     Bündel <span className="orig">ſ</span>
                     <span className="corr">s</span>ich mehr ausdehnen, und
                     <br className="lb" /> wir demnach weniger von dem Ab
@@ -267,16 +267,15 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ind. –{" "}
                     <span className="underline">
-                      LEinen Sorgen<span className="orig">ﬅ</span>
+                    <small className="orig">L</small>Einen Sorgen<span className="orig">ﬅ</span>
                       <span className="corr">st</span>ein
                     </span>
                     ,
                     <br className="lb" /> liebe Mutter, kann ich Dir nun voll
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>ändig abnehmen,
-                    <br className="lb" /> den nämlich wegen der
-                    <span className="g.rend.script.latin">
-                      {" "}
+                    <br className="lb" /> den nämlich wegen der{" "}
+                    <span className="g.rend.script.latin makierung">
                       Deposita &amp; Capitalien
                     </span>
                     . Es i<span className="orig">ﬅ</span>
@@ -299,19 +298,18 @@ export default function page() {
                     <br className="lb" /> die<span className="orig">ſ</span>
                     <span className="corr">s</span>em{" "}
                     <span className="orig">Augenblik</span>
-                    <span className="corr">Augenblick</span> hier ₤ 18,000 – in
-                    Wech<span className="orig">ſ</span>
-                    <span className="corr">s</span>el{" "}
+                    <span className="corr">Augenblick</span> hier ₤ 18,000 – in{" "}
+                    <span className="makierung">Wech<span className="orig">ſ</span>
+                    <span className="corr">s</span>el{" "}</span>
                     <span className="abbr">u.</span>
                     <span className="expan">
                       u<span className="ex">nd</span>
                     </span>{" "}
                     beim <span className="g.rend.script.latin">Banquier</span>
                     <br className="lb" /> <span className="orig">ﬅ</span>
-                    <span className="corr">st</span>ehen.
+                    <span className="corr">st</span>ehen.{" "}
                     <span className="persName">
-                      <span className="g.rend.script.latin">
-                        {" "}
+                      <span className="g.rend.script.latin makierung">
                         Peter <span className="abbr"> E.</span>
                         <span className="expan">
                           E<span className="ex">rmen</span>
@@ -324,7 +322,7 @@ export default function page() {
                     <span className="abbr"> rh</span>
                     <span className="expan">Reichstaler</span>{" "}
                     <span className="underline">84,000</span> –{" "}
-                    <span className="double-underline sans">disponible</span> übrig, dabei{" "}
+                    <span className="double-underline sans makierung">disponible</span> übrig, dabei{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ind
                     <br className="lb" /> wir hier nichts{" "}
@@ -341,7 +339,7 @@ export default function page() {
                     </span>{" "}
                     7 Monate vorräthig. Mit{" "}
                     <span className="persName">
-                      <span className="g.rend.script.latin">
+                      <span className="g.rend.script.latin makierung">
                         <span className="abbr"> Gottfr</span>
                         <span className="expan">
                           Gottfr<span className="ex">ied</span>
@@ -369,16 +367,20 @@ export default function page() {
                     <span className="corr">s</span>e Sache in Ordnung.
                     <br className="lb" /> Er <span className="orig">ſ</span>
                     <span className="corr">s</span>ieht auch wohl ein, daß{" "}
-                    <span className="underline">
-                      <span className="orig">überflüßiger</span>
-                      <span className="corr">überflüssiger</span>
-                    </span>{" "}
-                    <span className="g.rend.script.latin">Fond</span> eben
-                    <span className="orig">ſ</span>
-                    <span className="corr">s</span>o wohl
-                    <br className="lb" /> nachtheilig für ein Ge
-                    <span className="orig">ſ</span>
-                    <span className="corr">s</span>chäft i
+                    
+                    <span className="makierung">
+                      <span className="underline">
+                        <span className="orig">überflüßiger</span>
+                        <span className="corr">überflüssiger</span>
+                      </span>{" "}
+                      <span className="g.rend.script.latin">Fond</span> eben
+                      <span className="orig">ſ</span>
+                      <span className="corr">s</span>o wohl
+                      <br className="lb" /> nachtheilig für ein Ge
+                      <span className="orig">ſ</span>
+                      <span className="corr">s</span>chäft
+                    </span>
+                    {" "}i
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>, als zu geringer, und
                     deshalb
@@ -396,7 +398,7 @@ export default function page() {
                   style={{
                     paddingTop: "35px",
                     paddingLeft: "120px",
-                    paddingBottom: "80px",
+                    paddingBottom: "137px",
                   }}
                 >
                   {/* Insert Page 2 */}
@@ -438,7 +440,7 @@ export default function page() {
                     <span className="corr">Glück</span> und Segen gelenkt
                     <br className="lb" /> hat. Wegen{" "}
                     <span className="persName">
-                      <span className="g.rend.script.latin">
+                      <span className="g.rend.script.latin makierung">
                         Anton <span className="abbr"> E.</span>
                         <span className="expan">
                           E<span className="ex">rmen</span>
@@ -482,7 +484,7 @@ export default function page() {
                       <span className="g.rend.script.latin">Anton</span>
                     </span>{" "}
                     nicht durch <span className="orig">ſ</span>
-                    <span className="corr">s</span>einen albernen Contrakt
+                    <span className="corr">s</span>einen <span className="makierung">albernen Contrakt</span>
                     <br className="lb" /> alles verdorben,{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>o daß er noch ein{" "}
@@ -535,7 +537,7 @@ export default function page() {
                       noch vorher nach
                       <br className="lb" />{" "}
                       <span className="placeName">
-                        <span className="g.rend.script.latin">Oldham</span>
+                        <span className="g.rend.script.latin makierung">Oldham</span>
                       </span>{" "}
                       gehen.<a id="mark.002.e">{/*anchor*/}</a>
                     </span>{" "}
@@ -583,8 +585,8 @@ export default function page() {
                     <br className="lb" /> neb<span className="orig">ﬅ</span>
                     <span className="corr">st</span> Leuchter im Vorhaus hin
                     <span className="orig">ſ</span>
-                    <span className="corr">s</span>etzen, wenn das Gas noch
-                    <br className="lb" /> nicht brennt. <span className="orig">J</span><span className="orig">I</span>m{" "}
+                    <span className="corr">s</span>etzen, wenn das <span className="makierung">Gas</span> noch
+                    <br className="lb" /> nicht brennt. <span className="orig">J</span><span className="corr">I</span>m{" "}
                     <a id="txt.hi.underline001.int.s">{/*anchor*/}</a>le
                     <span className="underline">tztern</span>
                     <a id="txt.hi.underline001.int.e">
@@ -810,7 +812,7 @@ export default function page() {
                     }}
                   >
                     <hr />
-                    <label>albernen Contract</label>
+                    <label>albernen Contrakt</label>
                     <p>
                       Knieriem stellt den Sachverhalt schlüssig dar: „Gottfried
                       Anton Ermen“ hatte 1853 ein Grundstück mit Wassergefälle
@@ -876,7 +878,7 @@ export default function page() {
                   <div
                     className="stellenerläuterung push-right"
                     style={{
-                      top: "2770px",
+                      top: "2670px",
                     }}
                   >
                     <hr />

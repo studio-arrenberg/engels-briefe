@@ -63,7 +63,9 @@ ADDED BY MORITZ
 
 
 // push right on vergleichsansicht
-<span class="orig" style={{ marginLeft: "20px" }}></span>
+<span class="orig" style={{ marginLeft: "80px" }} />
+<span class="corr " style={{ marginLeft: "400px!important" }} />
+
 
 // break normalisiert
 <br className="bn" />
@@ -75,5 +77,8 @@ ADDED BY MORITZ
 
 
 
+
 <span className="orig">ſeÿn</span>
 <span className="corr">seyn</span>
+<span className="orig">ſ</span>
+<span className="corr">s</span>

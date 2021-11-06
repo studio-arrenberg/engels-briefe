@@ -1203,6 +1203,11 @@ table {
   display: inline;
 }
 
+.normalisiert .page span .corr.spacing {
+  display: block;
+  margin: unset !important;
+}
+
 .normalisiert sup {
   font-size: inherit;
   vertical-align: unset;
@@ -1341,14 +1346,19 @@ table {
   text-decoration: none;
 }
 
-.page {
-  transition: all ease-in-out 0.5s;
-}
+
 
 .themenmakierung-active .page {
   /* background-color: #aaa; */
   color: rgb(212, 212, 212);
-  transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.3s;
+}
+
+.themenmakierung-active .page .border-bottom{
+  border-color: rgb(212, 212, 212);
+}
+.normalisiert .page  {
+  transition: all ease-in-out 0.3s;
 }
 
 .themenmakierung-active .makierung {
@@ -1357,21 +1367,21 @@ table {
   border-color: rgb(212, 212, 212);
 }
 
-.religion,
-.liebe-ehe,
-.reisen {
-  transition: all ease-in-out 0.5s;
-}
 
 .religion-active .religion,
 .liebe-active .liebe,
-.reisen-active .reisen {
+.reisen-active .reisen,
+.geschäftliches-active .geschäftliches,
+.musik-active .musik,
+.politik-active .politik {
   color: #000;
 }
-.themenmakierung-active .stellenerläuterungen {
+
+
+/* .themenmakierung-active .stellenerläuterungen {
   opacity: 0.1;
   transition: all ease-in-out 0.5s;
-}
+} */
 
 p > span .latin {
   font-family: "Gibson-Regular";
