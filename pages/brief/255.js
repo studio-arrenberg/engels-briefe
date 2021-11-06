@@ -389,7 +389,9 @@ export default function page() {
                   </span>
                   <br className="lb" />{" "}
                   <a id="annot.004.s">{/*anchor*/}</a>
-                  <a id="mark.003.s">{/*anchor*/}</a>Un<span className="orig">ſ</span><span className="corr">s</span>er Ge<span className="orig">ſ</span><span className="corr">s</span>chäft erleidet
+                  <a id="mark.003.s">{/*anchor*/}</a>
+                  <span className="business">
+                  Un<span className="orig">ſ</span><span className="corr">s</span>er Ge<span className="orig">ſ</span><span className="corr">s</span>chäft erleidet
                   täglich neue
                   <br className="lb" />{" "}
                   Veränderungen, welche un<span className="orig">ſ</span><span className="corr">s</span>ere Gegen
@@ -438,7 +440,7 @@ export default function page() {
                   </span>{" "}
                   wollen die
                   <br className="lb" />{" "}
-                  Glieder rühren.<a id="mark.003.e">{/*anchor*/}</a>{" "}
+                  Glieder rühren.<a id="mark.003.e">{/*anchor*/}</a></span>{" "}
                   <a id="annot.005.s">{/*anchor*/}</a>Vielleicht kann
                   <br className="lb" />{" "}
                   ich im Herb<span className="orig">ﬅ</span><span className="corr">st</span> wenn ich{" "}

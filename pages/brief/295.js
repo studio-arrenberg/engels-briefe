@@ -306,7 +306,7 @@ export default function page() {
                     </span> 
                   </p>
                   <p>
-                  <span className="geschäftliches">
+                  <span className="business">
                     <span style={{ marginLeft: "24px" }} width="3em">
                       &nbsp;
                     </span>
@@ -338,7 +338,7 @@ export default function page() {
                 >
                   {/* Insert Page 2 */}
                   <p>
-                    <span className="geschäftliches">
+                    <span className="business">
                       Gottlob <span className="orig">ſ</span>
                       <span className="corr">s</span>o gute Nachrichten für
                       mich{" "}enthielt.

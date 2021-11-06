@@ -263,7 +263,7 @@ export default function page() {
                     <span style={{ display: "inline-block" }} width="8em">
                       &nbsp;
                     </span>
-                    <span className="geschäftliches">
+                    <span className="business">
                     <a id="mark.001.s">{/*anchor*/}</a>Dem{" "}
                     
                       <span className="g.enc.tagsdecl.suspension.type1">

@@ -47,6 +47,7 @@ export default function page() {
                       className="dateline-center"
                       
                     >
+                      <span style={{ marginLeft: "150px" }}></span>
                       <span className="placeName">Hagen</span>{" "}
                       <span className="date">
                         5<span className="corr">.</span>{" "}

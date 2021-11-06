@@ -238,6 +238,7 @@ export default function page() {
                     </span>
                     gemacht.
                   </p>
+                  <span className="business">
                   <p className="enc.tagsdecl.indent-medium" id="mark.004">
                     Hoffentlich{" "}
                     <span
@@ -265,6 +266,7 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>eÿn.
                   </p>
+                  </span>
                   <p className="enc.tagsdecl.indent-medium">
                     Wir <span className="orig">ſ</span>
                     <span className="corr">s</span>ind wieder bei un

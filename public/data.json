@@ -96,7 +96,7 @@
             "id" : "169",
             "title" : "",
             "datum" : "3. Juli 1818",
-            "themen" : {"name":["Religion", "Liebe / Ehe", "Reisen", "Geschäftliches"], "id":[1,2,3,6]},
+            "themen" : {"name":["Religion", "Liebe / Ehe", "Reisen"], "id":[1,2,3]},
             "sender": {"name":"Friedrich Engels sen.","ort":"1", "id":"9"},
             "empfänger" : {"name": "Elise van Haar", "ort": "8", "id":"5"},
             "text" : "Mit welchem frohen, seligen Gefühle ich jetzt an dich meine gute innigst geliebte Elise schreibe, kann ich mit Worten nicht ausdrücken; dein mit mir so ganz stimmendes Herz wird es kennen. Ich schreibe nämlich mit der völligen Einwilligung meiner lieben Eltern. ",
@@ -240,7 +240,7 @@
             "bildnachweis":"McGill University Libraries"
         },
         {
-            "id":"6",
+            "id":"6", 
             "title":"Geschäftliches",
             "slug":"business",
             "beschreibung":"Das Briefkonvolut dokumentiert Aufbau und Wandel des 1747 von Benjamin Engels in Unterbarmen gegründeten Textilunternehmens und stellt damit zugleich ein wertvolles Zeugnis aus der Zeit der Frühindustrialisierung im bergischen und rheinischen Raum dar. Der weitere Aufbau der Manufaktur Caspar Engels Söhne und die Ausweitung der Geschäftsbeziehungen durch den Großvater Johann Caspar (II) werden ebenso thematisch wie die Firmenneugründungen des Vaters Friedrich sen. Dieser trat 1837 aus dem Familienunternehmen aus, gründete seine eigene Seidenhandelsfirma Friedr. Engels & Comp. und zugleich mit dem Fabrikanten Peter Albert Ermen die Baumwollspinnerei Ermen & Engels, mit einer Firmenniederlassung in Engelskirchen und Manchester. Im dortigen Kontor wird Friedrich Engels jun. zunächst zwischen 1842 und 1844 und schließlich von 1850 bis 1869 tätig sein.",
@@ -268,7 +268,7 @@
             "lebzeit":"",
             "generation": "1",
             "picture":"Johann_Caspar_Engels_I.jpg",
-            "bildnachweis":"Museum für Industriekultur, Wuppertal"
+            "bildnachweis":"Antje-Zeis Loi | Stadt Wuppertal | Medienzentrum"
         },
         {
             "id":"1",
@@ -288,7 +288,7 @@
             "lebzeit":"1762 – 1822",
             "generation": "2",
             "picture":"Ida_Louise_Friederike_Noot.jpg",
-            "bildnachweis":"Museum und Forum Schloss Homburg, Nümbrecht"
+            "bildnachweis":"GRUPPE Köln, Hans G. Scheib"
         },
         {
             "id":"3",
@@ -298,7 +298,7 @@
             "lebzeit":"1753 – 1821",
             "generation": "2",
             "picture":"Johann_Caspar_Engels_II.jpg",
-            "bildnachweis":"Museum für Industriekultur, Wuppertal"
+            "bildnachweis":"Antje-Zeis Loi | Stadt Wuppertal | Medienzentrum"
         },
         {
             "id":"7",
@@ -308,7 +308,7 @@
             "lebzeit":"1760 – 1837",
             "generation": "2",
             "picture":"Gerhard_Bernhard_van_Haar.jpg",
-            "bildnachweis":"Museum für Industriekultur, Wuppertal"
+            "bildnachweis":"Gerd Neumann | Stadt Wuppertal | Medienzentrum"
         },
         {
             "id":"5",
@@ -318,7 +318,7 @@
             "lebzeit":"1797 – 1873",
             "generation": "3",
             "picture":"Elisabeth_Franziska_Mauritia_Engels(van Haar).jpg",
-            "bildnachweis":"Familie Hermann Engels, Engelskirchen"
+            "bildnachweis":"Sabine Hermes - Restaurierung, Köln"
         },
         {
             "id":"6",
@@ -360,7 +360,7 @@
             "picture":"Barmen.jpg",
             "year":"1810",
             "artist":"Johann Heinrich Bleuler",
-            "bildnachweis":"Historisches Zentrum Wuppertal"
+            "bildnachweis":"Museum Industriekultur Wuppertal"
         },
         {
             "id":"2",

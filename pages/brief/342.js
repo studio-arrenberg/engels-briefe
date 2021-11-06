@@ -215,7 +215,7 @@ export default function page() {
                     <span style={{ display: "inline-block" }} width="1cm">
                       &nbsp;
                     </span>
-                    <a id="mark.003.s">{/*anchor*/}</a>Diesmal fand ich hier die
+                    <a id="mark.003.s">{/*anchor*/}</a><span className="business">Diesmal fand ich hier die
                     Bilanzarbeiten
                     <br className="lb" /> wirklich{" "}
                     <span className="orig">ſ</span>
@@ -391,6 +391,7 @@ export default function page() {
                     <span className="underline">monatli</span>ch der{" "}
                     <span className="g.rend.script.latin">Fond</span> <span className="orig">außer
                     <br className="lb" /> <span style={{ marginLeft: "430px"}}> den</span></span>
+                    </span>
                   </p>
                 </div>
                 <div
@@ -403,6 +404,7 @@ export default function page() {
                 >
                   {/* Insert Page 2 */}
                   <p>
+                    <span className="business">
                     a<span className="underline">ußer</span> den Zin
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>en um ₤ 1000 – wäch
@@ -514,6 +516,7 @@ export default function page() {
                     <span className="corr">s</span>einer eignen Schlinge
                     gefangen hätte!
                     <a id="mark.003.e">{/*anchor*/}</a>
+                    </span>
                   </p>
                   <p className="enc.tagsdecl.indent-medium">
                     <span className="reisen">

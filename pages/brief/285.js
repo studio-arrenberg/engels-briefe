@@ -30,8 +30,9 @@ export default function page() {
         {/* <!-- Themenmarkierung --> */}
         <div type="mark">
           {/* <span type="geschaeftliches" from="#mark.001.s" to="#mark.001.e"/> */}
-          <span type="religion" from="#mark.002.s" to="#mark.002.e" />
           {/* <span type="geschaeftliches" from="#mark.003.s" to="#mark.003.e"/> */}
+          <span type="religion" from="#mark.002.s" to="#mark.002.e" />
+          
         </div>
 
         <div>
@@ -163,7 +164,7 @@ export default function page() {
                     <span className="corr">s</span>achte. Mit Gottes Hülfe
                     zertheilte es der Wundarzt.
                     <br className="lb" /> <a id="mark.001.s">{/*anchor*/}</a>
-                    <span className="geschäftliches">
+                    <span className="business">
                     <a id="mark.002.s">{/*anchor*/}</a>
                     <span className="religion">
                       <a id="annot.002.s">{/*anchor*/}</a>Wohl erhob{" "}
@@ -618,7 +619,7 @@ export default function page() {
                     </span>
                     <a id="mark.003.s">{/*anchor*/}</a>Ihr
                     <a id="annot.004.s">{/*anchor*/}</a>
-                    <span className="geschäftliches">
+                    <span className="business">
                     <span className="g.rend.script.latin">
                       {" "}
                       <span className="makierung">Conto‐Corrent</span>
@@ -709,7 +710,7 @@ export default function page() {
                     </span>
                   </p>
                   <p>
-                  <span className="geschäftliches">
+                  <span className="business">
                     <span style={{ display: "inline-block" }} width="1char">
                       &nbsp;
                     </span>

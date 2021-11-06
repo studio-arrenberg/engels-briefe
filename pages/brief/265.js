@@ -496,7 +496,7 @@ export default function page() {
                   }}
                 >
                   {/* Insert Page 4 */}
-<span className="geschäftliches">
+<span className="business">
                   <p>
                     <a id="mark.001.s">{/*anchor*/}</a>Beim Vertheilen von{" "}
                     <a id="annot.009.s">{/*anchor*/}</a>
@@ -820,7 +820,7 @@ export default function page() {
                   }}
                 >
                   {/* Insert Page 5 */}
-
+<span className="business">
                   <p>
                     Von die<span className="orig">ſ</span>
                     <span className="corr">s</span>er letzten Sendung fand
@@ -1040,6 +1040,7 @@ export default function page() {
                     <br className="lb" />{" "}
                     zu bezahlen habe.<a id="mark.001.e">{/*anchor*/}</a>
                   </p>
+                  </span>
                 </div>
                 <div
                   className="page"

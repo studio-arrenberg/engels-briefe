@@ -62,6 +62,27 @@ export default function page() {
 
                   {/* Insert Page 1 */}
                   <p>
+                  <div className="opener">
+                    <div
+                      className="dateline"
+                      className="dateline-center"
+                      
+                    >
+                      <span style={{ marginLeft: "250px" }}></span>
+                      <span className="placeName">Barmen</span>{" "}am{" "}
+                      <span className="date">
+                        25ten<span className="corr">.</span>{" "}<br className="lb-detail"/>
+                        <span style={{ marginLeft: "300px" }}></span><span className="">
+                          {" "}
+                          Octob.
+                        </span>
+                        <span className="expan">
+                          Okto<span className="ex">ber</span>
+                        </span>
+                        1792
+                      </span>
+                    </div>
+                  </div>
                     <span className="opener">
                       <span className="salute">
                         <a id="teaser.part.001.s">{/*anchor*/}</a>
