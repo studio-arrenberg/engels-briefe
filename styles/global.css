@@ -1367,19 +1367,22 @@ table {
   border-color: rgb(212, 212, 212);
 }
 
+.religion,
+.liebe,
+.reisen {
+  transition: all ease-in-out 0.5s;
+}
 
 .religion-active .religion,
 .liebe-active .liebe,
 .reisen-active .reisen,
-.geschäftliches-active .geschäftliches,
+.business-active .business,
 .musik-active .musik,
 .politik-active .politik {
   color: #000;
 }
-
-
-/* .themenmakierung-active .stellenerläuterungen {
-  opacity: 0.1;
+.themenmakierung-active .stellenerläuterungen {
+  /* opacity: 0.1; */
   transition: all ease-in-out 0.5s;
 } */
 
@@ -1406,9 +1409,6 @@ p > span .latin {
   display: inline;
 } */
 
-
- .g\.enc\.tagsdecl\.suspension\.type1 {
-}
 
 .vergleichs-ansicht  .g\.enc\.tagsdecl\.suspension\.type1 + .expan{
   display: none;

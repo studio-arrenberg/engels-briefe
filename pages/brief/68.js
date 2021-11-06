@@ -142,13 +142,17 @@ export default function page() {
 
               <section className="writing-session" id="index.xml-body.1_div.2">
                 <div type="mark">
-                  {/* <span type="geschaeftliches" from="#mark.001.s" to="#mark.001.e"/> */}
+                  <span type="geschaeftliches" from="#mark.001.s" to="#mark.001.e"/>
+                  <span type="geschaeftliches" from="#mark.005.s" to="#mark.005.e"/>
+                  
                   <span type="religion" from="#mark.002.s" to="#mark.002.e" />
                   <span type="religion" from="#mark.003.s" to="#mark.003.e" />
-                  {/* <span type="krieg" from="#mark.004.s" to="#mark.004.e"/> */}
-                  {/* <span type="geschaeftliches" from="#mark.005.s" to="#mark.005.e"/> */}
                   <span type="religion" from="#mark.006.s" to="#mark.006.e" />
-                  {/* <span type="musik" from="#mark.007.s" to="#mark.007.e"/> */}
+                  <span type="krieg" from="#mark.004.s" to="#mark.004.e"/>
+                  
+                  
+                  <span type="musik" from="#mark.007.s" to="#mark.007.e"/>
+
                   {/* <span type="bildung" from="#mark.008.s" to="#mark.008.e"/> */}
                 </div>
                 <div
@@ -179,8 +183,10 @@ export default function page() {
                     </div>
                     <a id="teaser.part.001.e">{/*anchor*/}</a>
                   </div>
+                  <span className="business">
                   <p>
-                    <a id="mark.001.s">{/*anchor*/}</a>Zufolge deinen Lieben
+                    <a id="mark.001.s">{/*anchor*/}</a>
+                    Zufolge deinen Lieben
                     Briefen vom 12{" "}
                     <span className="makierung"><span className="abbr">
                       pa<span className="orig">ſ</span>
@@ -359,9 +365,11 @@ export default function page() {
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>ei mein.
                       <a id="mark.001.e">{/*anchor*/}</a>
+                      
                       <a id="mark.002.e">{/*anchor*/}</a>
                       <a id="teaser.part.002.e">{/*anchor*/}</a>
                     </p>
+                    </span>
                   </span>
 
                   <p className="enc.tagsdecl.indent-small">
@@ -563,9 +571,12 @@ export default function page() {
                       </span>
                     </p>
                   </span>
+                  <span className="politik">
                   <p className="enc.tagsdecl.indent-small">
                     <a id="mark.004.s">{/*anchor*/}</a>
-                    <a id="mark.005.s">{/*anchor*/}</a>Du ha
+                    <a id="mark.005.s">{/*anchor*/}</a>
+                    <span className="business">
+                    Du ha
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span> ganz recht{" "}
                     <span className="abbr"> l.</span>
@@ -601,6 +612,7 @@ export default function page() {
                     guten Gott innig<span className="orig">ﬅ</span>
                     <span className="corr">st</span> verdankt werden!
                     <a id="mark.005.e">{/*anchor*/}</a>
+                    </span>
                   </p>
                   <p className="enc.tagsdecl.indent-small">
                     <span className="orig">die</span>
@@ -935,6 +947,7 @@ export default function page() {
                     werden, weil er vor die<span className="orig">ſ</span>
                     <span className="corr">s</span>em <br className="lb" />
                   </p>
+                  </span>
                 </div>
 
                 <div
@@ -946,7 +959,9 @@ export default function page() {
                   }}
                 >
                   {/* Insert Page 3 */}
+
                   <p>
+                    <span className="politik">
                     <span className="pagebreak" id="index.xml-pb-d29e1301">
                       {/* <a href>[Page 3]</a> */}
                     </span>
@@ -965,7 +980,9 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>t! —
                     <a id="mark.004.e">{/*anchor*/}</a>
+                    </span>
                   </p>
+                  
                   <p className="enc.tagsdecl.indent-small">
                     <span className="orig">übrigens</span>
                     <span className="corr">Übrigens</span> bleibts hier{" "}
@@ -1215,6 +1232,7 @@ export default function page() {
                     </p>
                   </span>
                   <p>
+                    <span className="musik">
                     <a id="mark.007.s">{/*anchor*/}</a>
                     <span className="orig">und</span>
                     <span className="corr">Und</span> endlich, wie hält{" "}
@@ -1231,7 +1249,7 @@ export default function page() {
                       Mu<span className="orig">ſ</span>
                       <span className="corr">s</span>ic
                     </span>
-                    <a id="mark.007.e">{/*anchor*/}</a> und im{" "}
+                    <a id="mark.007.e">{/*anchor*/}</a></span> und im{" "}
                     <span className="g.rend.script.latin">
                       Franzö<span className="orig">ſ</span>
                       <span className="corr">s</span>i

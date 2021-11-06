@@ -32,7 +32,7 @@
         {
             "id" : "22",
             "datum" : "10. September 1791",
-            "themen" : {"name":["Liebe / Ehe","Religion"], "id":[3,1]},
+            "themen" : {"name":["Reisen","Religion"], "id":[2,1]},
             "sender": {"name":"Louise Engels, geb. Noot","ort":"12", "id":"2"},
             "empfänger" : {"name": "Johann Caspar Engels", "ort": "1", "id":"3"},
             "text" : "Wie freue ich mich daß Du glücklich, gesund und munter zu Hause gekommen bist, und Dich nach der Reise so wohl befindest – der gütige Gott seye von ganzem Herzen dafür gedankt daß Er Dich begleitet und vor Unglück bewahret hat – Er der liebevolle Menschenhüter seye Dir dann auf Deiner nächsten Reise hierhin auch wieder recht nahe und führe Dich doch gesund und wohl in meine Armen.",
@@ -52,7 +52,7 @@
         {
             "id" : "68",
             "datum" : "04. Juli 1813",
-            "themen" : {"name":["Religion", "Politik", "Geschäftliches"], "id":[1,5,6]},
+            "themen" : {"name":["Religion", "Politik", "Geschäftliches", "Musik"], "id":[1,5,6,4]},
             "sender": {"name":"Johann Caspar Engels","ort":"1", "id":"3"},
             "empfänger" : {"name": "Friedrich Engels sen.", "ort": "6", "id":"9"},
             "text" : "Zufolge deinen Lieben Briefen vom 12 passati haben wir das Laken und Casimir für dich gekauft, und in 1 paquet F.E. durch Eng. Sieperman, der just nach FFurth in seine Condition reisen wollte, dir zugesandt, wir hoffen daß du solches schon erhalten hast, und daß dir unsre Wahl gefallen wird.",
@@ -74,7 +74,7 @@
             "id" : "75",
             "title" : "Lieber Friedrich!",
             "datum" : "03. Februar 1814",
-            "themen" : {"name":["Religion", "Musik"], "id":[1,4]},
+            "themen" : {"name":["Religion", "Musik", "Politik", "Geschäftliches"], "id":[1,4,5,6]},
             "sender": {"name":"Johann Caspar Engels","ort":"1", "id":"3"},
             "empfänger" : {"name": "Friedrich Engels sen.", "ort": "6", "id":"9"},
             "text" : "Dein Brief vom 31 pass[ati] war zwar beruhigend für uns, doch ist mir das noch nicht gnug, daß die Sache wegen der Landwehr seitdem still lag, ich habe deshalb heute in der Einlage an Hrƺ Ekhard geschrieben und ihn gebeten, sich dahin zu verwenden, daß du von der Liste ausgelöscht werdest, und du so lange in FFurth bleiben mögtest, bis dich unsre Obrigkeit aufruft, dann in jedem Land & Canton ist ja die Organisation der Landwehr, und nur unser Ort hat Recht dich einzufordern, was aber wie ich fast hoffe nicht geschehen wird, da man nun die von 1795 einfordert, und die von 1796 frei und ruhig läßt.",
@@ -242,7 +242,7 @@
         {
             "id":"6",
             "title":"Geschäftliches",
-            "slug":"geschäftliches",
+            "slug":"business",
             "beschreibung":"Das Briefkonvolut dokumentiert Aufbau und Wandel des 1747 von Benjamin Engels in Unterbarmen gegründeten Textilunternehmens und stellt damit zugleich ein wertvolles Zeugnis aus der Zeit der Frühindustrialisierung im bergischen und rheinischen Raum dar. Der weitere Aufbau der Manufaktur Caspar Engels Söhne und die Ausweitung der Geschäftsbeziehungen durch den Großvater Johann Caspar (II) werden ebenso thematisch wie die Firmenneugründungen des Vaters Friedrich sen. Dieser trat 1837 aus dem Familienunternehmen aus, gründete seine eigene Seidenhandelsfirma Friedr. Engels & Comp. und zugleich mit dem Fabrikanten Peter Albert Ermen die Baumwollspinnerei Ermen & Engels, mit einer Firmenniederlassung in Engelskirchen und Manchester. Im dortigen Kontor wird Friedrich Engels jun. zunächst zwischen 1842 und 1844 und schließlich von 1850 bis 1869 tätig sein.",
             "kurzbeschreibung":"Das Briefkonvolut dokumentiert Aufbau und Wandel des 1747 von Benjamin Engels in Unterbarmen gegründeten Textilunternehmens und stellt damit zugleich ein wertvolles Zeugnis aus der Zeit der Frühindustrialisierung im bergischen und rheinischen Raum dar.",
             "picture":"geschaeftliches.jpg",
