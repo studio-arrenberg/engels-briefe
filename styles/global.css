@@ -1820,6 +1820,10 @@ p > span .latin {
   padding-right: 0px !important;
 }
 
+.detail-ansicht .dateline{
+  padding-right: 0px !important;
+}
+
 .detail-ansicht .hochgestellt{
   vertical-align: super;
 }
@@ -1873,6 +1877,11 @@ p > span .latin {
   padding-left: 480px;
 }
 
+.detail-ansicht .signed-morespace{
+  text-align: right;
+  margin-right: 100px;
+  padding-left: 280px;
+}
 
 
 

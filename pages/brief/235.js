@@ -73,7 +73,7 @@ export default function page() {
                             className="wave"
                             className="underline sans"
                           >
-                            Berlin
+                            Berlin.-
                           </span>
                           <br />
                         </span>
@@ -154,7 +154,8 @@ export default function page() {
 <span className="corr">I</span>hm{" "}
                     <span className="orig">
                       <span className="orig">ſ</span>
-                      <span className="corr">s</span>eÿ
+                      <span className="corr">s</span>e<span className="orig">ÿ</span>
+<span className="corr">y</span>
                     </span>
                     <span className="corr">
                       <span className="orig">ſ</span>
@@ -206,7 +207,8 @@ export default function page() {
                     ver<span className="orig">ſ</span>
                     <span className="corr">s</span>chaﬀen zu helfen. Der Herr{" "}
                     <span className="orig">ſ</span>
-                    <span className="corr">s</span>eÿ gelobt,
+                    <span className="corr">s</span>e<span className="orig">ÿ</span>
+<span className="corr">y</span> gelobt,
                     <br className="lb" />{" "}
                     daß die<span className="orig">ſ</span>
                     <span className="corr">s</span>e Zeit der Ang
@@ -309,7 +311,8 @@ export default function page() {
                   <p>
                     Lieben in Seinen Heiligen Schutz. Er{" "}
                     <span className="orig">ſ</span>
-                    <span className="corr">s</span>eÿe auch dem
+                    <span className="corr">s</span>e<span className="orig">ÿ</span>
+<span className="corr">y</span>e auch dem
                     <br className="lb" />{" "}
                     Kindlein ein <span className="orig">ſ</span>
                     <span className="corr">s</span>o gütiger Gott{" "}
@@ -358,7 +361,7 @@ export default function page() {
                     <span className="corr">s</span>o vielen
                     <br className="lb" />{" "}
                     Seiten in An<span className="orig">ſ</span>
-                    <span className="corr">s</span>pruch genommen<span className="corr">,</span> daß es mir
+                    <span className="corr">s</span>pruch genommen<span className="corr"></span> daß es mir
                     <br className="lb" />{" "}
                     unmöglich war.
                   </p>
@@ -385,7 +388,8 @@ export default function page() {
                     aufs herzlich<span className="orig">ﬅ</span>
                     <span className="corr">st</span>e zu empfehlen.
                   </p>
-                  <p className="enc.tagsdecl.indent-small">
+                  <p className="">
+                    <span style={{marginLeft: "30px",}}></span>
                     Deinen lieben Brief vom{" "}
                     <span className="date">
                       16.
@@ -400,25 +404,26 @@ export default function page() {
                     <br className="lb" />{" "}
                     richtig erhalten; er hat mir große Freude gemacht,
                     <br className="lb" />{" "}
-                    obgleich Deine Schreibe-Großmut mich etwas be
+                    obgleich Deine Schreibe=Großmut<span className="orig">h</span> mich etwas be
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chämte.
                     <br className="lb" />{" "}
-                    Ich will mich{" "}
+                    <span className="orig">J</span>
+<span className="corr">I</span>ch will mich{" "}
                     <sup className="sup" id="txt.add001">
                       aber
                     </sup>{" "}
                     <span className="orig">beßern</span>
                     <span className="corr">bessern</span> in die
                     <span className="orig">ſ</span>
-                    <span className="corr">s</span>em Stücke, und mehr
+                    <span className="corr">s</span>em Stü<span className="corr">c</span>ke, und mehr
                     <br className="lb" />{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chreiben wenn auch noch mehr
                     wirkliche{" "}
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (Abhaltung</span>
+                      Abhaltung</span>
                     <span className="expan">
                       Abhaltung<span className="ex">en</span>
                     </span>
@@ -436,7 +441,7 @@ export default function page() {
                     <a id="mark.001.s">{/*anchor*/}</a>
                     <span className="reisen">
                       <span className="makierung">
-                      <span className="g.rend.script.latin">August</span> und{" "}
+                      <span className="g.rend.script.latin">August</span> <span className="orig">u.</span><span className="corr">und</span>{" "}
                       <span className="g.rend.script.latin">Louise</span> (die
                       Frau)</span> haben eine <span className="orig">ſ</span>
                       <span className="corr">s</span>ehr
@@ -454,15 +459,15 @@ export default function page() {
                       <br className="lb" />{" "}
                       und von den guten Leuten, die{" "}
                       <span className="orig">ſ</span>
-                      <span className="corr">s</span>ie haben kennen
+                      <span className="corr">s</span>ie haben 
                       <br className="lb" />{" "}
-                      gelernt. Was <span className="orig">ſ</span>
+                      kennen gelernt. Was <span className="orig">ſ</span>
                       <span className="corr">s</span>oll ich Dir auf Deine
                       <br className="lb" />{" "}
                       Frage warum{" "}
-                      <span className="g.rend.script.latin">Louise</span> |un
+                      <span className="g.rend.script.latin">Louise</span> (un
                       <span className="orig">ſ</span>
-                      <span className="corr">s</span>ere| nicht Lu
+                      <span className="corr">s</span>ere) nicht Lu
                       <span className="orig">ﬅ</span>
                       <span className="corr">st</span> hatte
                       <br className="lb" />{" "}
@@ -487,7 +492,8 @@ export default function page() {
                   {/* Insert Page 3 */}
                   <p>
                     <span className="reisen">
-                      Ich habe mich <span className="orig">ſ</span>
+                    <span className="orig">J</span>
+<span className="corr">I</span>ch habe mich <span className="orig">ſ</span>
                       <span className="corr">s</span>elb
                       <span className="orig">ﬅ</span>
                       <span className="corr">st</span>{" "}
@@ -541,7 +547,7 @@ export default function page() {
                         <span className="corr">s</span>e
                       </span>{" "}
                       <span className="orig">ſ</span>
-                      <span className="corr">s</span>chon
+                      <span className="corr">s</span>chon{" "}
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>o vieles von Eurer
                       <br className="lb" />{" "}
@@ -551,7 +557,7 @@ export default function page() {
                       <br className="lb" />{" "}
                       <span className="placeName">Schweiz</span>, wovon{" "}
                       <span className="orig">ſ</span>
-                      <span className="corr">s</span>ie doch
+                      <span className="corr">s</span>ie doch{" "}
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>chon vieles ge
                       <span className="orig">ſ</span>
@@ -577,7 +583,7 @@ export default function page() {
                       <span className="expan">{" "}
                         u<span className="ex">nd</span>
                       </span>{" "}
-                      dankbar gegen den höhe
+                      dankbar gegen den höhe<span className="corr">rn</span>
                       <span className="damage">
                         <span className="unclear">rn</span>
                       </span>
@@ -609,7 +615,7 @@ export default function page() {
                     <span className="expan">
                       u<span className="ex">nd</span>
                     </span>{" "}
-                    höre. Gott
+                    höre. Gott <span className="orig"><span className="strikethrough">ge</span></span>{" "}
                     <span className="orig">laße</span>
                     <span className="corr">lasse</span> Dich auch ’mal
                     <br className="lb" />{" "}
@@ -629,7 +635,7 @@ export default function page() {
                     <span className="corr">lassen</span> dich herzlich{" "}
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (grüß</span>
+                      grüß</span>
                     <span className="expan">
                       grüß<span className="ex">en</span>
                     </span>
@@ -644,7 +650,7 @@ export default function page() {
                     <span className="makierung">
                     <span className="persName">
                       <span className="g.enc.tagsdecl.suspension.type1">
-                        Schwiegermutt </span>
+                        Schwiegermutt</span>
                       <span className="expan">
                         Schwiegermutt<span className="ex">er</span>
                       </span>
@@ -652,14 +658,15 @@ export default function page() {
                     </span>
                     .<br className="lb" />{" "}
                     Der Herr <span className="orig">ſ</span>
-                    <span className="corr">s</span>eÿ ferner mit Dir und
+                    <span className="corr">s</span>e<span className="orig">ÿ</span>
+<span className="corr">y</span> ferner mit Dir und
                     <br className="lb" />{" "}
                     <span style={{ display: "inline-block" }} width="12cm">
                       &nbsp;
                     </span>
-                    <div className="signed">
+                    <div className="signed-morespace" style={{paddingLeft: "180px",}}>
                       Deinem
-                      <br className="lb" />{" "}
+                      <br className="lb-detail" />{" "}
                       <span style={{ display: "inline-block" }} width="13cm">
                         &nbsp;
                       </span>
@@ -686,7 +693,7 @@ export default function page() {
             <hr />
             <label>29. Nov.</label>
             <p>
-            Friedrich Engels sen. irrt sich offenkundig im Datum: die offizielle Geburtsurkunde trägt das Datum des 28.11.1820, ein Dienstag (siehe auch weiter unten, Z. 39–44).
+            Friedrich Engels sen. irrt sich offenkundig im Datum: die offizielle Geburtsurkunde trägt das Datum des 28.11.1820, ein Dienstag <br />(siehe auch weiter unten, Z. 39–44).
             </p>
           </div>
 
@@ -712,14 +719,14 @@ export default function page() {
             <hr />
             <label>Gott stärkt ja die Kleinen im Schlafe</label>
             <p>
-            Evtl. Anspielung auf Ps. 127,2.3: „denn seinen Freunden gibt er es im Schlaf. / Siehe, Kinder sind eine Gabe des Herrn und Leibesfrucht ist ein Geschenk.“ (LUT)
+            Evtl. Anspielung auf Ps. 127,2.3: „denn seinen Freunden gibt er es im Schlaf. / Siehe, Kinder sind eine Gabe des Herrn und Leibesfrucht ist ein Geschenk.“
             </p>
           </div>
 
           <div
             className="stellenerläuterung"
             style={{
-              top: "1340px",
+              top: "1350px",
             }}
           >
             <hr />
@@ -736,7 +743,7 @@ export default function page() {
             }}
           >
             <hr />
-            <label>August u Louise (die Frau)</label>
+            <label>August und Louise (die Frau)</label>
             <p>
             Der Bruder August Engels ( 1794–1874) und die Schwägerin Louise Engels, geb. Krebs (1801–1871).
             </p>
