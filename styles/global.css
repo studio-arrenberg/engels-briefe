@@ -1806,6 +1806,14 @@ p > span .latin {
 
 
 /* Detail Ansicht */
+.detail-ansicht .nopadding{
+  padding-right: 0px !important;
+}
+
+.detail-ansicht .hochgestellt{
+  vertical-align: super;
+}
+
 .detail-ansicht .lb-detail{
   display: block !important;  
 }
@@ -1847,6 +1855,12 @@ p > span .latin {
 
 .detail-ansicht sup{
   vertical-align:sup !important;
+}
+
+.detail-ansicht .signed-right{
+  text-align: left;
+  margin-right: 100px;
+  padding-left: 480px;
 }
 
 

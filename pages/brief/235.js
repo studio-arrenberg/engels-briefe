@@ -41,7 +41,7 @@ export default function page() {
                 <section
                   className="kuvert"
                   id="index.xml-body.1_div.1"
-                  style={{ paddingTop: "220px", paddingBottom: "285px" }}
+                  style={{ paddingTop: "220px", paddingBottom: "245px" }}
                 >
                   {/* Insert Kuvert */}
                   <div className="kuvert" id="index.xml-body.1_div.1">
@@ -51,7 +51,7 @@ export default function page() {
                       </h3>
                       <p className="g.enc.tagsdecl.wd.vertical-right">
                         <span className="address ">
-                          An den Dom Candidaten
+                          An den DomCandidaten
                           <br className="lb" />{" "}
                           Herrn
                             <span className="g.rend.script.latin">
@@ -62,6 +62,7 @@ export default function page() {
                             <span className="small">
 
                             Wohlgeboren{" "}
+                            <br />
                             <span className="underline">
                               frei.
                             </span>{" "}
@@ -70,7 +71,7 @@ export default function page() {
                           </span>
                           <span
                             className="wave"
-                            className="underline"
+                            className="underline sans"
                           >
                             Berlin
                           </span>
@@ -93,17 +94,17 @@ export default function page() {
                 >
                   {/* Insert Page 1 */}
                   <div className="opener">
-                    <span style={{ display: "inline-block" }} width="6words">
+                    <span style={{ display: "inline-block", }} width="6words">
                       &nbsp;
                     </span>
-                    <div className="dateline text-right">
-                      <span className="g.rend.script.latin">Barmen</span>,
+                    <div className="dateline text-right" style={{paddingRight:"280px",}}>
+                      <span className="g.rend.script.latin">Barmen</span>{" "}
                       <span className="date">
-                        1.
+                        1.{" "}
                         <span className="g.rend.script.latin">
-                          <span className="abbr"> Decr.</span>
+                          <span className="abbr"> Decr.</span>{" "}
                           <span className="expan">
-                            Dec<span className="ex">embe</span>r
+                            Dec<span className="ex">embe</span>r{" "}
                           </span>
                         </span>
                         1820.
