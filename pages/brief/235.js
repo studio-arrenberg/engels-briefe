@@ -117,7 +117,7 @@ export default function page() {
                       <a id="teaser.part.001.s">{/*anchor*/}</a>Freue Dich mit
                       mir, innig<span className="orig">ﬅ</span>
                       <span className="corr">st</span> geliebter{" "}
-                      <span className="persName">Karl</span>!{" "}
+                      <span className="persName">Karl</span>,{" "}
                     </span>
                   </span>
                     der
@@ -128,7 +128,7 @@ export default function page() {
                     <span className="corr">Gebet</span> erhört, und uns am
                     <br className="lb" />{" "}
                     verfloßnen Dien<span className="orig">ﬅ</span>
-                    <span className="corr">st</span>agabend, den
+                    <span className="corr">st</span>ag{" "}Abend, den
                     <span className="makierung">
                     <span className="date">
                     {" "}29.{" "}
@@ -150,7 +150,8 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chenkt.{" "}
                     <a id="teaser.part.001.e">{/*anchor*/}</a>
-                    Ihm{" "}
+                    <span className="orig">J</span>
+<span className="corr">I</span>hm{" "}
                     <span className="orig">
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>eÿ
@@ -162,13 +163,13 @@ export default function page() {
                     Lob und
                     <br className="lb" />{" "}
                     Preis aus un<span className="orig">ſ</span>
-                    <span className="corr">s</span>ern vollen Herzen gebracht
+                    <span className="corr">s</span>ern vollen Herzen gebracht,
                     für die<span className="orig">ſ</span>
                     <span className="corr">s</span>es
                     <br className="lb" />{" "}
-                    Kind und für die gnädige Hülfe und Bewahrung, welche
+                    Kind, und für die gnädige Hülfe und Bewahrung, welche
                     <br className="lb" />{" "}
-                    wir bei der Entbindung für Mutter und Kind er
+                    wir bei der Entbindung für Mutter und Kind er<span className="orig">=</span>
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     fahren haben! Es ging zwar alles{" "}
                     <span className="orig">glüklich</span>
@@ -183,7 +184,7 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ah; es i
                     <span className="orig">ﬅ</span>
-                    <span className="corr">st</span> nicht zu be
+                    <span className="corr">st</span> nicht zu be<span className="orig">=</span>
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chreiben. Oft war es mir, als
@@ -237,7 +238,7 @@ export default function page() {
                     <span className="corr">s</span>eitdem den{" "}
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (Um<span className="orig">ﬅ</span>
+                      Um<span className="orig">ﬅ</span>
                       <span className="corr">st</span>änd</span>
                     <span className="expan">
                       Um<span className="orig">ﬅ</span>
@@ -318,7 +319,7 @@ export default function page() {
                     </span>{" "}
                     Vater, wie er mir
                     <br className="lb" />{" "}
-                    bisher war, und gebe, daß wir ein
+                    bisher war, und gebe daß wir ein
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span> vor Seinem Throne
                     <br className="lb" />{" "}
@@ -336,7 +337,8 @@ export default function page() {
                     <span className="corr">st</span> nun mein tägliches{" "}
                     <span className="orig">Gebät</span>
                     <span className="corr">Gebet</span>.<br className="lb" />{" "}
-                    Ich hatte vor, Dir <span className="orig">ſ</span>
+                    <span className="orig">J</span>
+<span className="corr">I</span>ch hatte vor, Dir <span className="orig">ſ</span>
                     <span className="corr">s</span>chon am Mittwoch unmittelbar
                     <br className="lb" />{" "}
                     nach der Entbindung meiner{" "}
@@ -356,7 +358,7 @@ export default function page() {
                     <span className="corr">s</span>o vielen
                     <br className="lb" />{" "}
                     Seiten in An<span className="orig">ſ</span>
-                    <span className="corr">s</span>pruch genommen, daß es mir
+                    <span className="corr">s</span>pruch genommen<span className="corr">,</span> daß es mir
                     <br className="lb" />{" "}
                     unmöglich war.
                   </p>
