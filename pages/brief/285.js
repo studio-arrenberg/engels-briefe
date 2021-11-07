@@ -30,8 +30,9 @@ export default function page() {
         {/* <!-- Themenmarkierung --> */}
         <div type="mark">
           {/* <span type="geschaeftliches" from="#mark.001.s" to="#mark.001.e"/> */}
-          <span type="religion" from="#mark.002.s" to="#mark.002.e" />
           {/* <span type="geschaeftliches" from="#mark.003.s" to="#mark.003.e"/> */}
+          <span type="religion" from="#mark.002.s" to="#mark.002.e" />
+          
         </div>
 
         <div>
@@ -42,12 +43,10 @@ export default function page() {
                 <div
                   className="page"
                   style={{
-                    marginTop: "0px",
-                    marginBottom: "20px",
-
-                    paddingTop: "15px",
+                    marginBottom: "22px",
+                    paddingTop: "35px",
                     paddingLeft: "150px",
-                    paddingBottom: "20px",
+                    paddingBottom: "50px",
                   }}
                 >
                   {/* Insert Page 1 */}
@@ -165,6 +164,7 @@ export default function page() {
                     <span className="corr">s</span>achte. Mit Gottes Hülfe
                     zertheilte es der Wundarzt.
                     <br className="lb" /> <a id="mark.001.s">{/*anchor*/}</a>
+                    <span className="business">
                     <a id="mark.002.s">{/*anchor*/}</a>
                     <span className="religion">
                       <a id="annot.002.s">{/*anchor*/}</a>Wohl erhob{" "}
@@ -246,13 +246,14 @@ export default function page() {
                       <span className="corr">s</span>chreiben.
                       <a id="mark.002.e">{/*anchor*/}</a>
                     </span>
+                    </span>
                     <a id="mark.001.e">{/*anchor*/}</a>
                   </p>
                   <p>
                     <a id="annot.003.s">{/*anchor*/}</a>Die Frau
                     <span className="persName">
                       {" "}
-                      <span className="underline">Gutacker</span>
+                      <span className="underline makierung">Gutacker</span>
                     </span>
                     ,<a id="annot.003.e">{/*anchor*/}</a> welche wir nicht
                     kennen, muß viel Erfahrung haben,
@@ -312,10 +313,10 @@ export default function page() {
                 <div
                   className="page"
                   style={{
-                    paddingTop: "35px",
-                    paddingLeft: "80px",
-                    paddingBottom: "34px",
-                    marginBottom: "25px",
+                    paddingTop: "63px",
+                    paddingLeft: "105px",
+                    paddingBottom: "58px",
+                    marginBottom: "22px",
                   }}
                 >
                   {/* Insert Page 2 */}
@@ -550,9 +551,9 @@ export default function page() {
                 <div
                   className="page"
                   style={{
-                    paddingTop: "40px",
-                    paddingLeft: "70px",
-                    paddingBottom: "17px",
+                    paddingTop: "66px",
+                    paddingLeft: "135px",
+                    paddingBottom: "40px",
                   }}
                 >
                   {/* Insert Page 3 */}
@@ -618,6 +619,7 @@ export default function page() {
                     </span>
                     <a id="mark.003.s">{/*anchor*/}</a>Ihr
                     <a id="annot.004.s">{/*anchor*/}</a>
+                    <span className="business">
                     <span className="g.rend.script.latin">
                       {" "}
                       <span className="makierung">Conto‐Corrent</span>
@@ -705,8 +707,10 @@ export default function page() {
                     <br className="lb" />{" "}
                     <span class="orig" style={{ marginLeft: "-40px" }}/>
                       S<span class="underline">ie {"   "}an</span>ders mich mit der Zahlung ferner beauftragen.
+                    </span>
                   </p>
                   <p>
+                  <span className="business">
                     <span style={{ display: "inline-block" }} width="1char">
                       &nbsp;
                     </span>
@@ -768,6 +772,7 @@ export default function page() {
                     <br className="lb" /> hie<span className="orig">ſ</span>
                     <span className="corr">s</span>ige zum Kochen geeigneter
                     finden, als die dortige.
+                  </span>
                     <a id="mark.003.e">{/*anchor*/}</a>
                   </p>
                   <div className="closer">
@@ -819,7 +824,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "170px",
+              top: "150px",
             }}
           >
             <hr />
@@ -830,7 +835,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "260px",
+              top: "234px",
             }}
           >
             <hr />
@@ -849,7 +854,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "1360px",
+              top: "1334px",
             }}
           >
             <hr />
@@ -859,7 +864,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "665",
+              top: "631px",
             }}
           >
             <hr />
@@ -871,7 +876,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "1640px",
+              top: "1615px",
             }}
           >
             <hr />
@@ -884,7 +889,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "1640px",
+              top: "1615px",
             }}
           >
             <hr />
@@ -898,7 +903,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "2490px",
+              top: "2463px",
             }}
           >
             <hr />
@@ -912,7 +917,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "2520px",
+              top: "2490px",
             }}
           >
             <hr />
@@ -928,7 +933,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "2720px",
+              top: "2698px",
             }}
           >
             <hr />

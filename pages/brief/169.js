@@ -57,20 +57,27 @@ export default function page() {
               {/* <!-- Themenmarkierung --> */}
               <div type="mark">
                 {/* <span type="liebe-ehe" from="#mark.001.s" to="#mark.001.e" /> */}
-                {/* <span type="reisen" from="#mark.002.s" to="#mark.002.e" /> */}
                 {/* <span type="liebe-ehe" from="#mark.003.s" to="#mark.003.e" /> */}
                 {/* <span type="liebe-ehe" from="#mark.004.s" to="#mark.004.e" /> */}
-                {/* <span type="religion" from="#mark.005.s" to="#mark.005.e" /> */}
-                {/* <span type="reisen" from="#mark.006.s" to="#mark.006.e" /> */}
                 {/* <span type="liebe-ehe" corresp="#mark.007" /> */}
                 {/* <span type="liebe-ehe" from="#mark.008.s" to="#mark.008.e" /> */}
                 {/* <span type="liebe-ehe" from="#mark.009.s" to="#mark.009.e" /> */}
+                {/* <span type="liebe-ehe" from="#mark.011.s" to="#mark.011.e" /> */}
+
+                {/* <span type="reisen" from="#mark.002.s" to="#mark.002.e" /> */}
+                {/* <span type="reisen" from="#mark.010.s" to="#mark.010.e" /> */}
+                {/* <span type="reisen" from="#mark.009.s" to="#mark.009.e" /> */}
+                {/* <span type="reisen" from="#mark.006.s" to="#mark.006.e" /> */}
+
+                {/* <span type="religion" from="#mark.005.s" to="#mark.005.e" /> */}
+                
+                
 
                 {/* 009 Themenmarkierung doppelt vorhanden! */}
-                {/* <span type="reisen" from="#mark.009.s" to="#mark.009.e" /> */}
+                
 
-                {/* <span type="reisen" from="#mark.010.s" to="#mark.010.e" /> */}
-                {/* <span type="liebe-ehe" from="#mark.011.s" to="#mark.011.e" /> */}
+                
+                
                 <span type="religion" corresp="#mark.012" />
               </div>
 
@@ -649,7 +656,7 @@ export default function page() {
                       da angefangen wo ich die vergangene Nacht aufhörte.
                       <br className="lb" />{" "}
                       <a id="mark.009.s"></a>
-                      <span className="liebe">
+                      <span className="liebe reisen">
                         Bis nach meiner Rei<span className="orig">ſ</span><span className="corr">s</span>e, al<span className="orig">ſ</span><span className="corr">s</span>o gegen den Herb<span className="orig">ﬅ</span><span className="corr">st</span>, wird un<span className="orig">ſ</span><span className="corr">s</span>ere
                         <br className="lb" />{" "}
                         Liebe nur un<span className="orig">ſ</span><span className="corr">s</span>ern Familien bekannt <span className="orig">ſ</span><span className="corr">s</span>e<span className="orig">ÿ</span>

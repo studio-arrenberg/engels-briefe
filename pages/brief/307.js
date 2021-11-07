@@ -128,7 +128,7 @@ export default function page() {
                   style={{
                     paddingTop: "35px",
                     paddingLeft: "80px",
-                    paddingBottom: "100px",
+                    paddingBottom: "75px",
                   }}
                 >
                   {/* Insert Page 1 */}
@@ -188,16 +188,15 @@ export default function page() {
                       wegen niedrem{" "}
                       <span className="orig">Waßer</span>
                       <span className="corr">Wasser</span>
-                      <br className="lb" /> bei
+                      <br className="lb" /> bei{" "}
                       <span className="placeName">
-                        <span className="g.rend.script.latin">
-                          {" "}
+                        <span className="g.rend.script.latin makierung">
                           Helvetsluis
                         </span>
                       </span>{" "}
-                      und bei
+                      und bei{" "}
                       <span className="placeName">
-                        <span className="g.rend.script.latin"> Margate</span>{" "}
+                        <span className="g.rend.script.latin makierung">Margate</span>{" "}
                       </span>
                       die Anker aus werfen,
                       <br className="lb" /> und lange{" "}
@@ -239,6 +238,7 @@ export default function page() {
                     </span>
                     gemacht.
                   </p>
+                  <span className="business">
                   <p className="enc.tagsdecl.indent-medium" id="mark.004">
                     Hoffentlich{" "}
                     <span
@@ -259,13 +259,14 @@ export default function page() {
                     <br className="lb" /> worin auch wohl viele Seiden
                     <span className="orig">{" "}</span>
                     <span className="corr">-</span>Verkäufe angezeigt werden.
-                    <br className="lb" /> Dies mal wird wohl kein Auf
+                    <br className="lb" /> Dies mal wird wohl <span className="makierung">kein Auf
                     <span className="orig">ſ</span>
-                    <span className="corr">s</span>chlag wohl aber eher das
+                    <span className="corr">s</span>chlag</span> wohl aber eher das
                     <br className="lb" /> Gegentheil zu befürchten{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>eÿn.
                   </p>
+                  </span>
                   <p className="enc.tagsdecl.indent-medium">
                     Wir <span className="orig">ſ</span>
                     <span className="corr">s</span>ind wieder bei un
@@ -278,9 +279,9 @@ export default function page() {
                     <span className="expan">
                       H<span className="ex">e</span>r
                       <span className="ex">rn</span>
-                    </span>
+                    </span>{" "}
                     <span className="persName">
-                      <span className="g.rend.script.latin"> Bacon</span>
+                      <span className="g.rend.script.latin makierung">Bacon</span>
                     </span>
                     <br className="lb" /> abge<span className="orig">ﬅ</span>
                     <span className="corr">st</span>iegen, wo ich einen deut
@@ -417,9 +418,9 @@ export default function page() {
         </div>
         <div className={`stellenerläuterungen ${isStellen ? "activ" : null}`}>
           <div
-            className="stellenerläuterung push-right"
+            className="stellenerläuterung "
             style={{
-              top: "950px",
+              top: "964px",
             }}
           >
             <hr />
@@ -428,9 +429,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "980px",
+              top: "964px",
             }}
           >
             <hr />
@@ -440,7 +441,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "1250px",
+              top: "1265px",
             }}
           >
             <hr />
@@ -454,7 +455,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "1320px",
+              top: "1325px",
             }}
           >
             <hr />

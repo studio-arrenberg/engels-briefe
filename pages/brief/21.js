@@ -126,7 +126,7 @@ export default function page() {
                       <span className="corr">Just</span> um 9 Uhr, wie ich dir
                       auch ge<span className="orig">ſ</span>
                       <span className="corr">s</span>agt hatte.
-                      <span className="liebe-ehe religion ">{" "}
+                      <span className="liebe religion ">{" "}
                         Du,
                         <br className="lb" />{" "} meine be
                         <span className="orig">ﬅ</span>
@@ -166,7 +166,7 @@ export default function page() {
                         <br className="lb" />{" "}
                       </span>
                     </span>
-                    <span className="liebe-ehe religion ">
+                    <span className="liebe religion ">
                       Wie wir<span className="orig">ﬅ</span>
                       <span className="corr">st</span> du mich im Gei
                       <span className="orig">ﬅ</span>
@@ -270,7 +270,7 @@ export default function page() {
                     paddingBottom: "270px",
                   }}
                 >
-                  <span className="liebe-ehe religion ">
+                  <span className="liebe religion ">
                     <span className="orig">Hofnung</span>
                     <span className="corr">Hoffnung</span> wollen wirs <span className="orig">J</span><span className="corr">I</span>hm
                     zutrauen, daß er uns ferner

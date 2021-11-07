@@ -24,6 +24,11 @@ export default function page() {
         <title>Brief {date}</title>
       </Head>
 
+      <div type="mark">
+                <span type="reisen" from="#mark.002.s" to="#mark.002.e"/>
+                <span type="religion" from="#mark.003.s" to="#mark.003.e"/>
+            </div>
+
       <Brief_wrapper stellen={stellen} key={`wrapper-${key}`} data={item}>
         <div>
           {/*TEI front*/}
@@ -95,7 +100,8 @@ export default function page() {
                         <a id="teaser.part.001.e">{/*anchor*/}</a>
                       </span>
                     </span>
-                    <a id="mark.002.s">{/*anchor*/}</a>Wie fre<span className="orig">ü</span>
+                    <a id="mark.002.s">{/*anchor*/}</a>
+                    <span className="reisen">Wie fre<span className="orig">ü</span>
                         <span className="corr">u</span>e ich mich{" "}
                     <br className="lb" />{" "}
                     daß Du glücklich, ge<span className="orig">ſ</span>
@@ -139,10 +145,12 @@ export default function page() {
                     <span className="corr">s</span>und{" "}
                     <br className="lb" />{" "}
                     und wohl in meine Armen.<a id="mark.002.e">{/*anchor*/}</a>
+                    </span>
                     <span style={{ display: "inline-block" }} width="2cm">
                       &nbsp;
                     </span>
-                    <a id="mark.003.s">{/*anchor*/}</a>Ja! mein{" "}
+                    <a id="mark.003.s">{/*anchor*/}</a>
+                    <span className="religion">Ja! mein{" "}
                     <br className="lb" />{" "}
                     be<span className="orig">ﬅ</span>
                     <span className="corr">st</span>er innig{" "}
@@ -206,6 +214,7 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ers
                     <br className="lb" />{" "}
+                    </span>
                   </p>
                 </div>
 
@@ -216,7 +225,7 @@ export default function page() {
                     paddingLeft: "70px",
                     paddingBottom: "240px",
                   }}
-                >
+                ><span className="religion">
                   <p>
                     guten Gottes mit uns war, und die
                     <span className="orig">ſ</span>
@@ -324,6 +333,7 @@ export default function page() {
                     <span className="corr">Hülfe</span> Gottes
                     <br className="lb" />{" "}
                   </p>
+                  </span>
                 </div>
 
                 <div
@@ -336,6 +346,7 @@ export default function page() {
                 >  
                   <p>
                 <p>
+                  <span className="religion">
           macht mir Muth und <span className="orig">ﬅärckt</span><span className="corr">stärkt</span> mein Vertrauen so daß<br className="lb" />{" "}
           ich <span style={{textDecoration: 'underline'}}>ruhig</span>{" "}und{" "}
           <span style={{textDecoration: 'underline'}}><span className="orig">getroﬅ</span>
@@ -358,7 +369,9 @@ export default function page() {
 <span className="corr">st</span></span> iﬅ{" "}
           <span className="orig">jezt</span><span className="corr">jetzt</span> mein{" "}
           <span style={{textDecoration: 'underline'}}>Wahlspruch</span><span className="orig" /><span className="corr">.</span>
-          <a id="mark.003.e">{/*anchor*/}</a><br className="lb" />{" "}
+          <a id="mark.003.e">{/*anchor*/}</a>
+          </span>
+          <br className="lb" />{" "}
           Äußerlich i<span className="orig">ﬅ</span>
 <span className="corr">st</span> es aber nun ungemein unruhig hier{" "}
           <span className="damage"><span className="gap"> [...]</span><span className="supplied" id="supplied.text001"></span></span>

@@ -44,22 +44,45 @@ export default function page() {
                 >
                   <div type="mark">
                     {/* <span type="reisen" from="#mark.001.s" to="#mark.001.e" /> */}
-                    {/* <span type="krieg" from="#mark.002.s" to="#mark.002.e" /> */}
                     {/* <span type="religion" from="#mark.003.s" to="#mark.003.e" /> */}
                     {/* <span type="liebe-ehe" from="#mark.004.s" to="#mark.004.e" /> */}
                     {/* <span type="reisen" from="#mark.005.s" to="#mark.005.e" /> */}
-                    {/* <span type="krieg" from="#mark.006.s" to="#mark.006.e" /> */}
                     {/* <span type="religion" from="#mark.007.s" to="#mark.007.e" /> */}
+                    
+                    {/* <span type="krieg" from="#mark.006.s" to="#mark.006.e" /> */}
+                    {/* <span type="krieg" from="#mark.002.s" to="#mark.002.e" /> */}
+                    {/* <span type="krieg" from="#mark.009.s" to="#mark.009.e" /> */}
                     <span
                       type="geschaeftliches"
                       from="#mark.008.s"
                       to="#mark.008.e"
                     />
-                    <span type="krieg" from="#mark.009.s" to="#mark.009.e" />
+                    
                   </div>
 
                   {/* Insert Page 1 */}
                   <p>
+                  <div className="opener">
+                    <div
+                      className="dateline"
+                      className="dateline-center"
+                      
+                    >
+                      <span style={{ marginLeft: "250px" }}></span>
+                      <span className="placeName">Barmen</span>{" "}am{" "}
+                      <span className="date">
+                        25ten<span className="corr">.</span>{" "}<br className="lb-detail"/>
+                        <span style={{ marginLeft: "300px" }}></span><span className="">
+                          {" "}
+                          Octob.
+                        </span>
+                        <span className="expan">
+                          Okto<span className="ex">ber</span>
+                        </span>
+                        1792
+                      </span>
+                    </div>
+                  </div>
                     <span className="opener">
                       <span className="salute">
                         <a id="teaser.part.001.s">{/*anchor*/}</a>
@@ -96,7 +119,7 @@ export default function page() {
                       <span className="orig">gereißet</span>
                       <span className="corr">gerei<span className="orig">ſ</span><span className="corr">s</span>et</span> wäre<span className="orig">ﬅ</span><span className="corr">st</span>.{" "}
                       <a id="teaser.part.002.s">{/*anchor*/}</a>
-                      <span className="krieg">
+                      <span className="politik">
                         <a id="mark.002.s">{/*anchor*/}</a>
                         <span className="orig">ich</span>
                         <span className="corr">Ich</span>
@@ -239,9 +262,11 @@ export default function page() {
                     zu <span className="orig">ſ</span><span className="corr">s</span>chicken, kon̅te ich nicht.{" "}
                   </p>
                   <span className="reisen">
+                    <span className="politik">
                     <p>
                       <a id="mark.005.s">{/*anchor*/}</a>
                       <a id="mark.006.s">{/*anchor*/}</a>
+
                       <span style={{ display: "inline-block" }} width="1cm">
                         &nbsp;
                       </span>
@@ -268,6 +293,7 @@ export default function page() {
 <span className="corr">y</span>lich ganz nach meinen Wun<span className="orig">ſ</span><span className="corr">s</span>ch gemacht, daß Du wie
                       {" "}<br className="lb" />
                     </p>
+                    </span>
                   </span>
                 </div>
 
@@ -282,11 +308,13 @@ export default function page() {
                 >
                   {/* Insert Page 3 */}
                   <p>
-
+<span className="politik">
                   <span className="reisen">
                       es etwas un<span className="orig">ſ</span><span className="corr">s</span>icher war, <span className="makierung">nicht über
                       <span className="placeName"> Manheim</span></span> ge
-                      <span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />rei<span className="orig">ﬅ</span><span className="corr">st</span> bi<span className="orig">ﬅ</span><span className="corr">st</span> <a id="mark.006.e">{/*anchor*/}</a>– Vielleicht
+                      <span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />rei<span className="orig">ﬅ</span><span className="corr">st</span> bi<span className="orig">ﬅ</span><span className="corr">st</span> <a id="mark.006.e">{/*anchor*/}</a>
+                      </span>
+                      – Vielleicht
                       i<span className="orig">ﬅ</span><span className="corr">st</span> es auch für die Sache
                       {" "}<br className="lb" />
                       <span className="orig">beßer</span>
@@ -440,6 +468,7 @@ export default function page() {
                   </span>
                   <p>
                     <a id="mark.009.s">{/*anchor*/}</a>
+                    <span className="politik">
                     <span className="persName"><span className="makierung">Bruder Benjamin</span></span> brachte
                     mir Deine liebe Briefe, ich
                     {" "}<br className="lb" />
@@ -457,6 +486,7 @@ export default function page() {
                     {" "}<br className="lb" />
                     <span className="makierung">Vater</span>, und <span className="makierung">Brögelmanns</span> mitgetheilt.
                     <a id="mark.009.e">{/*anchor*/}</a>
+                    </span>
                     <span style={{ display: "inline-block" }} width="12mm">
                       &nbsp;
                     </span>

@@ -167,7 +167,7 @@ export default function page() {
                 </section>
               </div>
               <div type="mark">
-                {/* <span type="krieg" from="#mark.001.s" to="#mark.001.e"/> */}
+                <span type="krieg" from="#mark.001.s" to="#mark.001.e"/>
                 <span type="religion" from="#mark.002.s" to="#mark.002.e" />
                 <span type="religion" from="#mark.003.s" to="#mark.003.e" />
               </div>
@@ -211,7 +211,9 @@ export default function page() {
                       </div>
                       <a id="teaser.part.001.e">{/*anchor*/}</a>
                     </div>
+                    <span className="politik">
                     <p>
+                    
                       <a id="mark.001.s">{/*anchor*/}</a>Deine Briefe haben wir
                       richtig erhalten, und <span className="orig">freüen</span>
                       <span className="corr">freuen</span> uns deines{" "}
@@ -249,7 +251,9 @@ export default function page() {
                       <span className="orig">konten</span>
                       <span className="corr">konnten</span>.
                     </p>
+                    </span>
                     <p className="enc.tagsdecl.indent-verysmall">
+                      <span className="politik">
                       <span className="orig">Heüte</span>
                       <span className="corr">Heute</span> erhielten wir dein{" "}
                       <span className="orig">Lezters</span>
@@ -414,7 +418,7 @@ export default function page() {
                       <br className="lb" />{" "}
                       ziemlich gut betragen.<a id="mark.001.e">
                         {/*anchor*/}
-                      </a>{" "}
+                      </a>{" "}</span>
                       <span style={{ display: "inline-block" }} width="1cm">
                         &nbsp;
                       </span>

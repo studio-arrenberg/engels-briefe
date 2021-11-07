@@ -203,10 +203,10 @@ export default function page() {
 
               <section className="writing-session" id="index.xml-body.1_div.2">
                 <div type="mark">
-                  {/* <span type="krieg" from="#mark.001.s" to="#mark.001.e"/> */}
-                  {/* <span type="musik" from="#mark.002.s" to="#mark.002.e"/> */}
-                  {/* <span type="geschaeftliches" from="#mark.003.s" to="#mark.003.e"/> */}
-                  {/* <span type="musik" from="#mark.004.s" to="#mark.004.e"/> */}
+                  <span type="krieg" from="#mark.001.s" to="#mark.001.e"/>
+                  <span type="geschaeftliches" from="#mark.003.s" to="#mark.003.e"/>
+                  <span type="musik" from="#mark.004.s" to="#mark.004.e"/>
+                  <span type="musik" from="#mark.002.s" to="#mark.002.e"/>
                   <span type="religion" from="#mark.005.s" to="#mark.005.e" />
                 </div>
                 <div
@@ -245,6 +245,7 @@ export default function page() {
                     </div>
                   </div>
                   <p>
+                    <span className="politik">
                     <a id="mark.001.s">{/*anchor*/}</a>Dein Brief vom{" "}
                     <span className="date">31</span>{" "}
                     <span className="makierung">
@@ -333,7 +334,9 @@ export default function page() {
                     von <br className="lb" />
                     1795 einfordert, und die von 1796 frei und ruhig läßt.
                     <a id="mark.001.e">{/*anchor*/}</a>
+                    </span>
                   </p>
+                  <span className="musik">
                   <p className="enc.tagsdecl.indent-small">
                     <a id="mark.002.s">{/*anchor*/}</a>
                     <span className="orig">Dan</span>
@@ -499,6 +502,7 @@ export default function page() {
                     <span className="corr">st</span>.
                     <a id="mark.002.e">{/*anchor*/}</a>
                   </p>
+                  </span>
                 </div>
                 <div
                   className="page"
@@ -621,7 +625,9 @@ export default function page() {
                     <br className="lb" />
                     lange mehr dienen brauchen.
                   </p>
+                  <span className="business">
                   <p className="enc.tagsdecl.indent-small">
+                    
                     <a id="mark.003.s">{/*anchor*/}</a>{" "}
                     <span className="orig">daß</span>
                     <span className="corr">Daß</span> du bei{" "}
@@ -680,8 +686,11 @@ export default function page() {
                     Zeit macht viele <span className="orig">Freüde</span>
                     <span className="corr">Freude</span>.
                     <a id="mark.003.e">{/*anchor*/}</a>
+                    
                   </p>
+                  </span>
                   <p className="enc.tagsdecl.indent-small">
+                    <span className="musik">
                     <a id="mark.004.s">{/*anchor*/}</a>
                     <span className="religion">
                       <a id="mark.005.s">{/*anchor*/}</a>Die{" "}
@@ -739,6 +748,7 @@ export default function page() {
                       <a id="mark.005.e">{/*anchor*/}</a>
                     </span>
                     <a id="mark.004.e">{/*anchor*/}</a>
+                    </span>
                   </p>
                   <div className="closer">
                     Ihm un<span className="orig">ſ</span>

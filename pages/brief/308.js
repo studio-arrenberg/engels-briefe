@@ -43,7 +43,7 @@ export default function page() {
                 <section
                   className="kuvert"
                   id="index.xml-body.1_div.1"
-                  style={{ paddingTop: "260px", paddingBottom: "300px" }}
+                  style={{ paddingTop: "260px", paddingBottom: "280px" }}
                 >
                   {/* Insert Kuvert */}
                   <div className="teidiv1" id="index.xml-body.1_div.1_div.1">
@@ -146,15 +146,15 @@ export default function page() {
                     dort
                     <br className="lb" /> gut geht, was uns auch{" "}
                     <span className="g.rend.script.latin">
-                      <span className="persName">
+                      <span className="persName makierung">
                         <span className="abbr"> M.</span>
                         <span className="expan">
                           M<span className="ex">athilde</span>
                         </span>{" "}
-                        Treviranus{" "}
+                        Treviranus
                       </span>
                     </span>
-                    ge<span className="orig">ﬅ</span>
+                    {" "}ge<span className="orig">ﬅ</span>
                     <span className="corr">st</span>ern{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chon{" "}
@@ -224,12 +224,12 @@ export default function page() {
                     <span className="orig">bischen</span>
                     <span className="corr">bißchen</span> Seekrankheit
                     abgerechnet eine
-                    <br className="lb" /> ganz angenehme Reise gehabt, und sind
+                    <br className="lb" /> ganz angenehme <span className="makierung">Reise</span> gehabt, und sind
                     ganz vergnügt,
-                    <br className="lb" /> trotz dem entsetzlichen Wetter. (Meine
+                    <br className="lb" /> trotz dem entsetzlichen Wetter. <span className="makierung">(Meine
                     armen Ziegel<span className="orig">ﬅ</span>
                     <span className="corr">st</span>eine
-                    <br className="lb" /> und Hafer!!) Die Ruhe am fe
+                    <br className="lb" /> und Hafer!!)</span> Die Ruhe am fe
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>en Lande thut uns{" "}
                     <span className="orig">ſ</span>
@@ -263,6 +263,7 @@ export default function page() {
                     <span style={{ display: "inline-block" }} width="8em">
                       &nbsp;
                     </span>
+                    <span className="business">
                     <a id="mark.001.s">{/*anchor*/}</a>Dem{" "}
                     
                       <span className="g.enc.tagsdecl.suspension.type1">
@@ -295,8 +296,8 @@ export default function page() {
                     ,<br className="lb" /> es i<span className="orig">ﬅ</span>
                     <span className="corr">st</span> wahr, wenn es regnen{" "}
                     <span className="orig">ſ</span>
-                    <span className="corr">s</span>oll muß der <span className="sans">Loh </span> in den
-                    Springen{" "}
+                    <span className="corr">s</span>oll muß <span className="makierung">der <span className="sans">Loh </span> in den
+                    Springen</span>{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>eine{" "}
                     <br className="lb" /> Wie<span className="orig">ſ</span>
@@ -317,7 +318,7 @@ export default function page() {
                       <span className="g.rend.script.latin">London</span>
                     </span>
                     <br className="lb" /> habe ich ziemlich{" "}
-                    <span className="g.rend.script.latin">Grège</span> gekauft,
+                    <span className="g.rend.script.latin makierung">Grège</span> gekauft,
                     etwa 30 Ballen zu ziemlich billigen
                     <br className="lb" />{" "}
                     <span
@@ -330,7 +331,7 @@ export default function page() {
                     <span className="corr">s</span>en,{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>age{" "}
-                    <span className="persName">Strücker</span> nichts{" "}
+                    <span className="persName makierung">Strücker</span> nichts{" "}
                     <span className="strike-through" style={{ textDecoration: "line-through" }}>
                       da
                     </span>
@@ -346,7 +347,7 @@ export default function page() {
                     geht alles <span className="orig">ſ</span>
                     <span className="corr">s</span>ehr regelmäßig, doch
                     <br className="lb" /> darüber bald mündlich. Für{" "}
-                    <span className="persName">Eduard</span> habe ich die Stelle
+                    <span className="persName makierung">Eduard</span> habe ich die Stelle
                     aus
                     <br className="g.enc.tagsdecl.hyphenation.divis" /><span className="orig">⹀</span>
                     gemittelt, er muß <span className="orig">ſ</span>
@@ -397,7 +398,7 @@ export default function page() {
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>ruktionen von mir
                     <br className="lb" /> zu empfangen.
-                    <a id="mark.001.e">{/*anchor*/}</a> Hier werde ich nicht
+                    <a id="mark.001.e">{/*anchor*/}</a></span> Hier werde ich nicht
                     lange bleiben, und am
                     <br className="lb" /> Montag oder Dien
                     <span className="orig">ﬅ</span>
@@ -421,8 +422,8 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ehen
                     <br className="lb" /> Grüße die{" "}
-                    <span className="persName">Mutter</span>,{" "}
-                    <span className="persName">Hannchen</span>{" "}
+                    <span className="persName makierung">Mutter</span>,{" "}
+                    <span className="persName makierung">Hannchen</span>{" "}
                     <span className="abbr"> u.</span>
                     <span className="expan">
                       u<span className="ex">nd</span>
@@ -445,9 +446,10 @@ export default function page() {
                 <div
                   className="page"
                   style={{
+                    marginTop: "-20px",
                     paddingTop: "5px",
                     paddingLeft: "80px",
-                    paddingBottom: "120px",
+                    paddingBottom: "180px",
                   }}
                 >
                   {/* Insert Page 2 */}
@@ -571,7 +573,7 @@ export default function page() {
                     </span>{" "}
                     einen
                     <br className="lb" /> Theil der{" "}
-                    <span className="placeName">lüneburger Heide</span> nach{" "}
+                    <span className="placeName makierung">lüneburger Heide</span> nach{" "}
                     <span className="placeName">Bremerhafen</span>, und kamen
                     Abends
                     <br className="lb" /> <span className="orig">ſ</span>
@@ -585,7 +587,7 @@ export default function page() {
                     in{" "}
                     <span className="placeName">Bremen</span> an. Nach einigem
                     Umkleiden gingen <br className="lb" /> wir noch eben zu{" "}
-                    <span className="persName">Treviranus</span>, fanden ihn
+                    <span className="persName ">Treviranus</span>, fanden ihn
                     aber nicht zu Hau<span className="orig">ſ</span>
                     <span className="corr">s</span>e,
                     <br className="lb" /> er kam aber heute Morgen und fand uns,
@@ -719,20 +721,20 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "2270px",
+              top: "1797px",
             }}
           >
             <hr />
             <label>Mutter</label>
             <p>
-              Die Schwiegermutter Franziska van Haar, geb. Snethlage
+              Die Schwiegermutter Franziska van Haar, geb. Snethlage <br />
               (1758–1846).
             </p>
           </div>
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "1690px",
+              top: "1797px",
             }}
           >
             <hr />
@@ -747,7 +749,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "2850px",
+              top: "2780px",
             }}
           >
             <hr />

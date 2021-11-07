@@ -72,7 +72,7 @@ export default function page() {
                      {" "}
                     <a id="mark.002.s">{/*anchor*/}</a>
                     <a id="teaser.part.002.s">{/*anchor*/}</a>
-                    <span className="liebe-ehe active">
+                    <span className="liebe active">
                       Ihrer Bitte, daß ich Ihnen eine
                       <br className="lb" /> etwaige Be<span className="orig">ſ</span><span className="corr">s</span>chreibung des{" "}
                       <span className="g.rend.script.latin">Characters</span>,
