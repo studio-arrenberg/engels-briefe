@@ -21,7 +21,7 @@ export default function page() {
   return (
     <Layout>
       <Head>
-        <title>Brief 306 {date}</title>
+        <title>Brief 307{date}</title>
       </Head>
 
       <Brief_wrapper stellen={stellen} key={`wrapper-${key}`} data={item}>
@@ -133,7 +133,7 @@ export default function page() {
                 >
                   {/* Insert Page 1 */}
 
-                  <span className="date text-right">
+                  <span className="dateline text-right" style={{paddingRight: "250px",}}>
                     <span className="g.rend.script.latin">
                       {" "}
                       London 26. Juli 1838.

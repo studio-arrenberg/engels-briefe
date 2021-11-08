@@ -21,7 +21,7 @@ export default function page() {
   return (
     <Layout>
       <Head>
-        <title>Brief {date}</title>
+        <title>Brief 29{date}</title>
       </Head>
 
       <Brief_wrapper stellen={stellen} key={`wrapper-${key}`} data={item}>
@@ -38,7 +38,7 @@ export default function page() {
                   style={{
                     paddingTop: "100px",
                     paddingLeft: "80px",
-                    paddingBottom: "300px",
+                    paddingBottom: "250px",
                     marginTop: "20px",
                   }}
                 >
@@ -174,7 +174,7 @@ export default function page() {
                   style={{
                     paddingTop: "40px",
                     paddingLeft: "80px",
-                    paddingBottom: "230px",
+                    paddingBottom: "250px",
                   }}
                 >
                   {/* Insert Page 2 */}

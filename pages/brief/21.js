@@ -22,7 +22,7 @@ export default function page() {
   return (
     <Layout>
       <Head>
-        <title>Brief {date}</title>
+        <title>Brief 21{date}</title>
       </Head>
 
       <Brief_wrapper stellen={stellen} key={`wrapper-${key}`} data={item}>
@@ -89,7 +89,7 @@ export default function page() {
                   style={{
                     paddingTop: "95px",
                     paddingLeft: "80px",
-                    paddingBottom: "290px",
+                    paddingBottom: "250px",
                   }}
                 >
                   <span type="liebe-ehe" from="#mark.002.s" to="#mark.002.e" />

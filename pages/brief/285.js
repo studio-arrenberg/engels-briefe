@@ -21,7 +21,7 @@ export default function page() {
   return (
     <Layout>
       <Head>
-        <title>Brief 306 {date}</title>
+        <title>Brief 285{date}</title>
       </Head>
 
       <Brief_wrapper stellen={stellen} key={`wrapper-${key}`} data={item}>

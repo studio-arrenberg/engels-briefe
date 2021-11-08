@@ -21,7 +21,7 @@ export default function page() {
   return (
     <Layout>
       <Head>
-        <title>Brief 307 {date}</title>
+        <title>Brief 308 {date}</title>
       </Head>
 
       <Brief_wrapper stellen={stellen} key={`wrapper-${key}`} data={item}>
@@ -102,7 +102,7 @@ export default function page() {
                 >
                   {/* Insert Page 1 */}
                   <div className="opener">
-                    <div className="dateline text-right">
+                    <div className="dateline text-right" style={{paddingRight: "250px",}}>
                       <span className="placeName">
                         <span className="g.rend.script.latin">Bremen </span>
                       </span>

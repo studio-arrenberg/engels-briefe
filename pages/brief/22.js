@@ -21,7 +21,7 @@ export default function page() {
   return (
     <Layout>
       <Head>
-        <title>Brief {date}</title>
+        <title>Brief 22{date}</title>
       </Head>
 
       <div type="mark">
@@ -38,7 +38,7 @@ export default function page() {
               <div className="tei_body">
                 <div
                   className="kuvert"
-                  style={{ paddingTop: "220px", paddingBottom: "200px" }}
+                  style={{ paddingTop: "220px", paddingBottom: "240px" }}
                   id="index.xml-body.1_div.1"
                 >
                   <h2>
@@ -84,7 +84,7 @@ export default function page() {
                 <div
                   className="page"
                   style={{
-                    paddingTop: "150px",
+                    paddingTop: "100px",
                     paddingLeft: "100px",
                     paddingBottom: "280px",
                   }}
@@ -341,7 +341,7 @@ export default function page() {
                   style={{
                     paddingTop: "100px",
                     paddingLeft: "70px",
-                    paddingBottom: "120px",
+                    paddingBottom: "80px",
                   }}
                 >  
                   <p>

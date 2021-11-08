@@ -21,7 +21,7 @@ export default function page() {
   return (
     <Layout>
       <Head>
-        <title>Brief {date}</title>
+        <title>Brief 130{date}</title>
       </Head>
 
       <Brief_wrapper stellen={stellen} key={`wrapper-${key}`} data={item}>
@@ -75,7 +75,7 @@ export default function page() {
                 >
                   {/* Insert Page 1 */}
                   <div className="opener">
-                    <div className="dateline text-right" style={{paddingLeft: "350px",}}>
+                    <div className="dateline text-right" style={{paddingRight: "250px",}}>
                       Barmen{" "}
                       <span className="date">
                         <span className="g.enc.tagsdecl.suspension.type1">
