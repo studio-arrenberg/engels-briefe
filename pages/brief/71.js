@@ -290,7 +290,7 @@ export default function page() {
                       <span className="orig">Trouppen</span>
                       <span className="corr">Truppen</span></span>, wovon <span className="makierung">der General</span>{" "}
                       in <span className="g.rend.script.latin">Elberfeld</span>{" "}
-                      liegt<a id="teaser.part.002.e">{/*anchor*/}</a> und <span className="makierung">ein-<span className="orig">=</span>{" "}
+                      liegt<a id="teaser.part.002.e">{/*anchor*/}</a> und <span className="makierung">ein-<span className="orig doublehyphen">⹀</span>{" "}
                       <br className="g.enc.tagsdecl.hyphenation.colon" />
                       liegende{" "}
                       <span className="g.rend.script.latin">
@@ -447,7 +447,7 @@ export default function page() {
                       <span className="expan">
                         L<span className="ex">iebe</span>
                       </span>{" "}
-                      Mama noch ziemlich gut durch die Unruhe ge<span className="orig">=</span>
+                      Mama noch ziemlich gut durch die Unruhe ge<span className="orig doublehyphen">⹀</span>
                       <br className="g.enc.tagsdecl.hyphenation.colon" />
                       <span className="orig">komen</span>
                       <span className="corr">kommen</span> i

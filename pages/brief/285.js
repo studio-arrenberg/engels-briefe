@@ -128,7 +128,7 @@ export default function page() {
                     laut welches wir al<span className="orig">ſ</span>
                     <span className="corr">s</span>o immer krank{" "}
                     <span className="orig">ſeÿn</span>
-                    <span className="corr">seyn</span> müßten; und dennoch ha<span className="orig">⹀</span>
+                    <span className="corr">seyn</span> müßten; und dennoch ha<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     ben wir für das ganze{" "}
                     <span className="date">Jahr <span className="oberzeichen">˙</span>1825</span>. dem Arzt{" "}
@@ -170,7 +170,7 @@ export default function page() {
                       <a id="annot.002.s">{/*anchor*/}</a>Wohl erhob{" "}
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>ich im Fabriken
-                      <span className="orig">⹀</span>
+                      <span className="orig doublehyphen">⹀</span>
                       <span className="corr">-</span>{" "}
                       <span className="abbr"> u</span>
                       <span className="expan">
@@ -217,12 +217,12 @@ export default function page() {
                         u<span className="ex">nd</span>
                       </span>{" "}
                       andere mit <span className="orig">ſ</span>
-                      <span className="corr">s</span>ich ins Ver<span className="orig">⹀</span>
+                      <span className="corr">s</span>ich ins Ver<span className="orig doublehyphen">⹀</span>
                       <br className="g.enc.tagsdecl.hyphenation.eq" />
                       derben zogen.<a id="annot.002.e">{/*anchor*/}</a> Es
                       gehört zur Lebensweisheit, aus dem Bö
                       <span className="orig">ſ</span>
-                      <span className="corr">s</span>en oder <small className="orig">u</small>Unangeneh<span className="orig">⹀</span>
+                      <span className="corr">s</span>en oder <small className="orig">u</small>Unangeneh<span className="orig doublehyphen">⹀</span>
                       <br className="g.enc.tagsdecl.hyphenation.eq" />
                       men nicht nur das Kleinere zu wählen;{" "}
                       <span className="orig">ſ</span>
@@ -239,7 +239,7 @@ export default function page() {
                       <span className="orig">ﬅ</span>
                       <span className="corr">st</span>{" "}
                       <span className="orig">ſ</span>
-                      <span className="corr">s</span>chon; daher ich es unnö<span className="orig">⹀</span>
+                      <span className="corr">s</span>chon; daher ich es unnö<span className="orig doublehyphen">⹀</span>
                       <br className="g.enc.tagsdecl.hyphenation.eq" />
                       thig finde, darüber noch ein Wort zu{" "}
                       <span className="orig">ſ</span>
@@ -299,7 +299,7 @@ export default function page() {
                     <br className="lb" /> von jeher{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>o neu
-                    <span className="orig">=</span>
+                    <span className="orig doublehyphen">⹀</span>
                     <span className="corr">–</span>{" "}wißbegierig i
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>, wollte ich{" "}
@@ -323,7 +323,7 @@ export default function page() {
                   <p>
                     jedem Dinge auf den Grund kommen will, wird ein
                     <span className="orig">ﬅ</span>
-                    <span className="corr">st</span> ein großer Ge<span className="orig">⹀</span>
+                    <span className="corr">st</span> ein großer Ge<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     lehrter werden.<a id="teaser.part.001.e">{/*anchor*/}</a> Im
                     vorigen Herb<span className="orig">ﬅ</span>
@@ -368,7 +368,7 @@ export default function page() {
                       <span className="makierung">Hermann</span>
                     </span>{" "}
                     las
-                    <span className="orig">⹀</span>
+                    <span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>en Sie immer noch{" "}
@@ -383,8 +383,8 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ein Steckenpferd. Haben doch
                     wir al
-                    <span className="orig">⹀</span>
-                    <span className="orig">⹀</span>
+                    <span className="orig doublehyphen">⹀</span>
+                    <span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     ten Leute noch das Un<span className="orig">ſ</span>
                     <span className="corr">s</span>rige,{" "}
@@ -393,7 +393,7 @@ export default function page() {
                       u<span className="ex">nd</span>
                     </span>{" "}
                     von je her eins gehabt. Der ganze Unter
-                    <span className="orig">⹀</span>
+                    <span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chied i
@@ -402,17 +402,17 @@ export default function page() {
                     vertau<span className="orig">ſ</span>
                     <span className="corr">s</span>cht haben. Auch für den
                     gemüth
-                    <span className="orig">⹀</span>
+                    <span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     lichen <span className="persName"> Herman̅</span> wird die
                     Zeit kommen, wo er das Eigentliche mit dem Un
-                    <span className="orig">⹀</span>
+                    <span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     eigentlichen vertau<span className="orig">ſ</span>
                     <span className="corr">s</span>cht. Daß die kleine
                     <span className="persName"> Marie</span>, die Mädchen oder
                     Frau
-                    <span className="orig">⹀</span>
+                    <span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     en im Allgemeinen – (wobei ich jedoch, um mich gegen jeden{" "}
                     <span className="orig">Ueberfall</span>
@@ -439,7 +439,7 @@ export default function page() {
                     <br className="lb" /> i<span className="orig">ﬅ</span>
                     <span className="corr">st</span> Schuld daran? – Wer putzt
                     die kleinen Dingerchen – mit Bändern, net
-                    <span className="orig">⹀</span>
+                    <span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     ten Kleidern oder{" "}
                     <span className="makierung">
@@ -517,7 +517,7 @@ export default function page() {
                       </span>{" "}
                     </span>{" "}
                     Kindtau
-                    <span className="orig">⹀</span>
+                    <span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     fen, Hochzeiten, Concerten{" "}
                     <span className="abbr"> p.p.</span>
@@ -540,7 +540,7 @@ export default function page() {
                     <span className="corr">s</span>em{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>o gar die <span className="orig">Eitel
-                    <span className="orig">⹀</span>
+                    <span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     <span class="orig" style={{ marginLeft: "560px" }}></span>
                     <span className="underline">keit</span>
@@ -599,7 +599,7 @@ export default function page() {
                     <br className="lb" /> Männer beifallen. Meine Parthei könnte
                     die<span className="orig">ſ</span>
                     <span className="corr">s</span>e Wahrheit volltönend vier
-                    <span className="orig">⹀</span>
+                    <span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>immig{" "}
@@ -629,7 +629,7 @@ export default function page() {
                     <span className="corr">s</span>chulden ein Ver
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ehen. Sie konn
-                    <span className="orig">⹀</span>
+                    <span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     ten nicht wi<span className="orig">ſ</span>
                     <span className="corr">s</span>

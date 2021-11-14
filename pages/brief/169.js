@@ -165,14 +165,14 @@ export default function page() {
                       {" "}
                       Freund</span>, der <span className="orig">ſ</span><span className="corr">s</span>eit
                       <br className="lb" />{" "}
-                      ein paar Tagen bei ihm logirt, i<span className="orig">ﬅ</span><span className="corr">st</span> er nun mehr be<span className="orig">=</span>
+                      ein paar Tagen bei ihm logirt, i<span className="orig">ﬅ</span><span className="corr">st</span> er nun mehr be<span className="orig doublehyphen">⹀</span>
                       <br className="g.enc.tagsdecl.hyphenation.divis" />
                       <span className="orig">ſ</span><span className="corr">s</span>chäftigt, bleibt aber dabei froh, und <span className="orig">ſ</span><span className="corr">s</span>o denke ich wird
                       <br className="lb" />{" "}
                       Papa ihm in Gottes Namen er<span className="orig">ﬅ</span><span className="corr">st</span>er Tage alles mittheilen.
                       <br className="lb" />{" "}
                       <span className="orig">J</span>
-<span className="corr">I</span>ch zweifle keinen Augenblick an <span className="orig">ſ</span><span className="corr">s</span>einer völligen Ge<span className="orig">=</span>
+<span className="corr">I</span>ch zweifle keinen Augenblick an <span className="orig">ſ</span><span className="corr">s</span>einer völligen Ge<span className="orig doublehyphen">⹀</span>
                       <br className="g.enc.tagsdecl.hyphenation.divis" />
                       nehmigung, indeß hats mich doch bis jetzt an einem
                       <br className="lb" />{" "}
@@ -254,7 +254,7 @@ export default function page() {
                       <br className="lb" />{" "}
                       die <span className="orig">ſ</span><span className="corr">s</span>o überaus gün<span className="orig">ﬅ</span><span className="corr">st</span>ige Wendung un<span className="orig">ſ</span><span className="corr">s</span>erer Angelegenheit
                       <br className="lb" />{" "}
-                      bedenke, <span className="orig">ſ</span><span className="corr">s</span>o kommt mir oft das ganze wie ein an<span className="orig">=</span>
+                      bedenke, <span className="orig">ſ</span><span className="corr">s</span>o kommt mir oft das ganze wie ein an<span className="orig doublehyphen">⹀</span>
                       <br className="lb" />{" "}
                       genehmer Traum vor; es kam alles <span className="orig">ſ</span><span className="corr">s</span>o <span className="orig">ſ</span><span className="corr">s</span>chnell,
                       <br className="lb" />{" "}
@@ -455,7 +455,7 @@ export default function page() {
                     <span className="expan">
                       u<span className="ex">nd</span>
                     </span>{" "}
-                    Gott für die gnädige Erhörung un<span className="orig">ſ</span><span className="corr">s</span>erer beider<span className="orig">=</span>
+                    Gott für die gnädige Erhörung un<span className="orig">ſ</span><span className="corr">s</span>erer beider<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     <span className="orig">ſ</span><span className="corr">s</span>eitigen <span className="orig">Gebäte</span>
                     <span className="corr">Gebete</span> zu danken. – Als mein
@@ -517,7 +517,7 @@ export default function page() {
                   <span style={{ marginLeft: "30px" }} ></span>
                     Zu Zeiten will mir die Geduld reißen, bis ich
                     <br className="lb" />{" "}
-                    unter un<span className="orig">ſ</span><span className="corr">s</span>eren beiden Familien un<span className="orig">ſ</span><span className="corr">s</span>er Verhältniß <sup className="sup" id="txt.add002">ganz</sup> be<span className="orig">=</span>
+                    unter un<span className="orig">ſ</span><span className="corr">s</span>eren beiden Familien un<span className="orig">ſ</span><span className="corr">s</span>er Verhältniß <sup className="sup" id="txt.add002">ganz</sup> be<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     kannt <span className="orig">ſ</span><span className="corr">s</span>ehe, denn du glaub<span className="orig">ﬅ</span><span className="corr">st</span> gar nicht, wie unangenehm
                     <br className="lb" />{" "}
@@ -722,7 +722,7 @@ export default function page() {
                       <br className="lb" />{" "}
                       <span className="orig">ſ</span><span className="corr">s</span>ähe<span className="orig">ﬅ</span><span className="corr">st</span>, erwiederte <span className="orig">ſ</span><span className="corr">s</span>ie freundlich. – Ob die<span className="orig">ſ</span><span className="corr">s</span>es gehen kann
                       <br className="lb" />{" "}
-                      darüber bin ich zwar noch nicht im Stande dir etwas be<span className="orig">=</span>
+                      darüber bin ich zwar noch nicht im Stande dir etwas be<span className="orig doublehyphen">⹀</span>
                       <br className="g.enc.tagsdecl.hyphenation.divis" />
                       <span className="orig">ﬅ</span><span className="corr">st</span>immtes zu <span className="orig">ſ</span><span className="corr">s</span>agen, wenns mir halb möglich i<span className="orig">ﬅ</span><span className="corr">st</span>, <span className="orig">ſ</span><span className="corr">s</span>o wir<span className="orig">ﬅ</span><span className="corr">st</span>
                       <br className="lb" />{" "}
@@ -827,7 +827,7 @@ export default function page() {
                       <span className="expan">
                         u<span className="ex">nd</span>
                       </span>{" "}
-                      die<span className="orig">ſ</span><span className="corr">s</span>er <span className="orig">ſ</span><span className="corr">s</span>ie an den <span className="makierung">Handlungs<span className="orig">=</span>
+                      die<span className="orig">ſ</span><span className="corr">s</span>er <span className="orig">ſ</span><span className="corr">s</span>ie an den <span className="makierung">Handlungs<span className="orig doublehyphen">⹀</span>
                       <br className="g.enc.tagsdecl.hyphenation.divis" />
                       briefen</span> an mich beifügt.<a id="mark.010.e"></a>
                     </span>{" "}
@@ -1035,7 +1035,7 @@ export default function page() {
                         </span>{" "}
                         Schmitz{" "}
                       </span>
-                      unbe<span className="orig">=</span>
+                      unbe<span className="orig doublehyphen">⹀</span>
                       <br className="g.enc.tagsdecl.hyphenation.divis" />
                       kannter Wei<span className="orig">ſ</span><span className="corr">s</span>e herzlich von mir,{" "}
                       <span className="abbr"> u.</span>

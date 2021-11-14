@@ -304,7 +304,7 @@ export default function page() {
                     <span className="orig">Hülﬀe</span>
                     <span className="corr">Hülfe</span> Gottes, zum Glauben,{" "}
                     <span className="orig">hoﬀen</span>
-                    <span className="corr">Hoﬀen</span> und Ver<span className="orig">=</span>
+                    <span className="corr">Hoﬀen</span> und Ver<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     trauen{" "}
                     <span className="orig">
@@ -360,7 +360,7 @@ export default function page() {
           <span className="orig">jezt</span><span className="corr">jetzt</span><br className="lb" />{" "}
           noch sorgen <span className="orig">wolte</span><span className="corr">wollte</span>: be<span className="orig">ÿ</span>
 <span className="corr">y</span>
- den vielen und großen Vor<span className="orig">=</span><br className="g.enc.tagsdecl.hyphenation.divis" />
+ den vielen und großen Vor<span className="orig doublehyphen">⹀</span><br className="g.enc.tagsdecl.hyphenation.divis" />
           theilen so mir durch Gottes Güte zu Theil werden –<br className="lb" />{" "}
           weg also mit allen <span className="orig">Bedencklichkeiten</span><span className="corr">Bedenklichkeiten</span>! weg mit allen<br className="lb" />{" "}
           Sorgen! <span style={{textDecoration: 'underline'}}>Froh</span>,{" "}

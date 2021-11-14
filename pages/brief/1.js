@@ -91,7 +91,7 @@ export default function page() {
                         F
                         <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
                           <sup className="underline">in</sup>
-                          <span className="orig">⹀</span>
+                          <span className="orig doublehyphen">⹀</span>
                           <span className="corr">.</span>
                         </span>
                       </span>

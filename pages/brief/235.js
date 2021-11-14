@@ -170,7 +170,7 @@ export default function page() {
                     <br className="lb" />{" "}
                     Kind, und für die gnädige Hülfe und Bewahrung, welche
                     <br className="lb" />{" "}
-                    wir bei der Entbindung für Mutter und Kind er<span className="orig">=</span>
+                    wir bei der Entbindung für Mutter und Kind er<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     fahren haben! Es ging zwar alles{" "}
                     <span className="orig">glüklich</span>
@@ -185,7 +185,7 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ah; es i
                     <span className="orig">ﬅ</span>
-                    <span className="corr">st</span> nicht zu be<span className="orig">=</span>
+                    <span className="corr">st</span> nicht zu be<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chreiben. Oft war es mir, als
@@ -511,7 +511,7 @@ export default function page() {
                       <br className="lb" />{" "}
                       es beim Antritt der{" "}
                       <span className="placeName">Schweizer</span>
-                      <span className="orig">⹀</span>
+                      <span className="orig doublehyphen">⹀</span>
                       <span className="corr">-</span>Rei
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>e noch nicht aus<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />

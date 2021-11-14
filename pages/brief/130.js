@@ -139,7 +139,7 @@ export default function page() {
                     <br className="lb" />{" "}
                     hatte ich den <span className="date">heutigen</span> Abend
                     dazu be<span className="orig">ﬅ</span>
-                    <span className="corr">st</span>immt, und glücklicher<span className="orig">⹀</span>
+                    <span className="corr">st</span>immt, und glücklicher<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     wei<span className="orig">ſ</span>
                     <span className="corr">s</span>e kommt mir kein Hinderniß in
@@ -184,7 +184,7 @@ export default function page() {
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>chaffen, daß un
                       <span className="orig">ſ</span>
-                      <span className="corr">s</span>er Zu<span className="orig">⹀</span>
+                      <span className="corr">s</span>er Zu<span className="orig doublehyphen">⹀</span>
                       <br className="" />
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>ammentreffen von dem
@@ -293,7 +293,7 @@ export default function page() {
                         denn die<span className="orig">ſ</span>
                         <span className="corr">s</span>e Stimmung, worin
                         <br className="lb" />{" "}
-                        wir auf Gott vertrauen, bewahrt uns vor jenem Leiden<span className="orig">=</span>
+                        wir auf Gott vertrauen, bewahrt uns vor jenem Leiden<span className="orig doublehyphen">⹀</span>
                         <br className="g.enc.tagsdecl.hyphenation.divis" />
                         <span className="orig">ſ</span>
                         <span className="corr">s</span>chaftlichen, welches die
@@ -426,7 +426,7 @@ export default function page() {
                       <span className="orig">ﬅ</span>
                       <span className="corr">st</span>{" "}
                       ein wenig ern<span className="orig">ﬅ</span>
-                      <span className="corr">st</span>haft aus<span className="orig">=</span>
+                      <span className="corr">st</span>haft aus<span className="orig doublehyphen">⹀</span>
                       <br className="g.enc.tagsdecl.hyphenation.divis" />
                       gefallen, nicht wahr liebe{" "}
                       <span className="persName">
@@ -504,7 +504,7 @@ export default function page() {
                       <span className="corr">st</span>,{" "}
                       <span className="g.rend.script.latin"><span className="makierung">Griesheim</span> </span>{" "}
                       hat in{" "}
-                      <span className="placeName">Hagen</span> etwas ge<span className="orig">=</span>
+                      <span className="placeName">Hagen</span> etwas ge<span className="orig doublehyphen">⹀</span>
                       <br className="g.enc.tagsdecl.hyphenation.divis" />
                       merkt, nicht wahr? <span className="orig">das</span>
                       <span className="corr">Das</span> thut{" "}

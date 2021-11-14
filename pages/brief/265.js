@@ -115,7 +115,7 @@ export default function page() {
                     dein und der <a id="annot.002.s">{/*anchor*/}</a>
                     <span className="makierung">Kinder</span>
                     <a id="annot.002.e">{/*anchor*/}</a>
-                    {" "}Wohl ge<span className="orig">⹀</span>
+                    {" "}Wohl ge<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     freut. Gott <span className="orig">ſeÿn</span>
 <span className="corr">seyn</span> dafür gedankt, Er
@@ -132,7 +132,7 @@ export default function page() {
                     wird es gewaltig <span className="orig">ſ</span>
                     <span className="corr">s</span>auer werden
                     <br className="lb" />{" "}
-                    die ganze Zeit hier geduldig aus<span className="orig">⹀</span>
+                    die ganze Zeit hier geduldig aus<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     zuharren, es fehlt mir jetzt <span className="orig">ſ</span>
                     <span className="corr">s</span>chon
@@ -242,7 +242,7 @@ export default function page() {
                     <br className="lb" />{" "}
                     Unter<span className="orig">ſ</span>
                     <span className="corr">s</span>chlag auf der ehemaligen
-                    Mägde<span className="orig">⹀</span>
+                    Mägde<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>ube i
@@ -316,7 +316,7 @@ export default function page() {
                     {" "}Lehm aufge<span className="orig">ſ</span>
                     <span className="corr">s</span>etzt
                     <br className="lb" />{" "}
-                    werden kann. Alle Welt ver<span className="orig">⹀</span>
+                    werden kann. Alle Welt ver<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     wundert <span className="orig">ſ</span>
                     <span className="corr">s</span>ich darüber, wie mein
@@ -347,7 +347,7 @@ export default function page() {
                     <span className="corr">glücklich</span> gegangen,
                     <br className="lb" />{" "}
                     läßt jedermann meiner <span className="orig">J</span>
-<span className="corr">I</span>dee Ge<span className="orig">⹀</span>
+<span className="corr">I</span>dee Ge<span className="orig doublehyphen">⹀</span>
 <br className="g.enc.tagsdecl.hyphenation.eq" />
                     rechtigkeit wi<span className="corr">e</span>derfahren.
                   </p>
@@ -357,7 +357,7 @@ export default function page() {
                       <sup>te</sup>
                     </span>
                     {" "}Lehm auf
-                    <span className="orig">⹀</span>
+                    <span className="orig doublehyphen">⹀</span>
 <br className="g.enc.tagsdecl.hyphenation.eq" />
                     ge<span className="orig">ſ</span>
                     <span className="corr">s</span>etzt i
@@ -607,7 +607,7 @@ export default function page() {
                   </p>
                   <p className="enc.tagsdecl.indent-medium">
                     Nach einer Notiz in meiner Brief
-                    <span className="orig">⹀</span>
+                    <span className="orig doublehyphen">⹀</span>
 <br className="g.enc.tagsdecl.hyphenation.eq" />
                     ta<span className="orig">ſ</span>
                     <span className="corr">s</span>che habe ich nämlich durch{" "}
@@ -849,7 +849,7 @@ export default function page() {
                           <td   style={{ fontSize: "80px" }}rowSpan={2}>{"}"}</td>
                           <td rowSpan={2}>
                             beide durch Blei
-                            <span className="orig">⹀</span>
+                            <span className="orig doublehyphen">⹀</span>
 <br className="g.enc.tagsdecl.hyphenation.eq" />
                             stift mit{" "}
                             <span className="g.rend.script.latin">

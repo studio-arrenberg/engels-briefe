@@ -18,10 +18,12 @@
 <span className="orig">J</span>
 <span className="corr">I</span>
 
-<span className="orig">=</span>
+<span className="orig doublehyphen">⹀</span>
+
+<span className="orig doublehyphen">⹀</span>
 <span className="corr">I</span>
 
-<span className="orig">=</span>
+<span className="orig doublehyphen">⹀</span>
 
 <span className="orig">.</span>
 
@@ -47,7 +49,7 @@ style={{paddingTop: "20px",}}
 ADDED BY MORITZ
 
 // doublehyphen
-<span className="orig">⹀</span>
+<span className="orig doublehyphen">⹀</span>
 
 
 // halbgeviertstrick

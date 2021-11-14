@@ -169,7 +169,7 @@ export default function page() {
                         &nbsp;
                       </span>
                       <br />
-                      <span className="text-right hide-normalisiert">Fort=<br />
+                      <span className="text-right hide-normalisiert">Fort<span className="orig doublehyphen">⹀</span><br />
                       –</span>
                       
                       <br className="lb" />

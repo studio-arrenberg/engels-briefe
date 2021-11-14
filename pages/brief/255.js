@@ -82,13 +82,13 @@ export default function page() {
                     </span>
                   </span>
                   <br className="lb" />{" "}
-                  gewährte mir eine rechte Be<span className="orig">=</span>
+                  gewährte mir eine rechte Be<span className="orig doublehyphen">⹀</span>
                   <br className="g.enc.tagsdecl.hyphenation.divis" />
                   ruhigung, denn ich <span className="orig">ſ</span><span className="corr">s</span>ahe daraus,
                   <br className="lb" />{" "}
                   daß es Dir und <span className="makierung">dem kleinen{" "}
                   <span className="orig">
-                    Her<span className="orig">=</span>
+                    Her<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     zens<span style={{ display: "inline-block" }}></span>{" "}
                     tippel
@@ -119,7 +119,7 @@ export default function page() {
                     u<span className="ex">nd</span>
                   </span>
                   <br className="lb" />{" "}
-                  Du glaub<span className="orig">ﬅ</span><span className="corr">st</span> auch gar nicht, wie un<span className="orig">=</span>
+                  Du glaub<span className="orig">ﬅ</span><span className="corr">st</span> auch gar nicht, wie un<span className="orig doublehyphen">⹀</span>
                   <br className="g.enc.tagsdecl.hyphenation.divis" />
                   behaglich, wie ekelig mir zu Muthe
                   <br className="lb" />{" "}
@@ -167,7 +167,7 @@ export default function page() {
                   </span>
                 </p>
                 <p className="enc.tagsdecl.indent-medium">
-                  Aber was macht denn <span className="makierung">mein klein<span className="orig">=</span>
+                  Aber was macht denn <span className="makierung">mein klein<span className="orig doublehyphen">⹀</span>
                   <br className="g.enc.tagsdecl.hyphenation.eq" />
                   <span style={{ display: "inline-block" }} width="-4em">
                   </span>
@@ -287,7 +287,7 @@ export default function page() {
                   zweifelt man an ihrem {" "}
                   <span className="orig">
                     Aufko<span className="orig">m̅</span>
-<span className="corr">mm</span><span className="orig">=</span>
+<span className="corr">mm</span><span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     men
                   </span>
@@ -367,7 +367,7 @@ export default function page() {
                   <br className="lb" />{" "}
                   nicht länger ertragen; was läßt
                   <br className="lb" />{" "}
-                  <span className="orig">ſ</span><span className="corr">s</span>ich nur für ein vernünftiges Re<span className="orig">=</span>
+                  <span className="orig">ſ</span><span className="corr">s</span>ich nur für ein vernünftiges Re<span className="orig doublehyphen">⹀</span>
                   <br className="g.enc.tagsdecl.hyphenation.divis" />
                   <span className="orig">ſ</span><span className="corr">s</span>ultat hieraus ziehen?
                 </p>
@@ -402,7 +402,7 @@ export default function page() {
                   Un<span className="orig">ſ</span><span className="corr">s</span>er Ge<span className="orig">ſ</span><span className="corr">s</span>chäft erleidet
                   täglich neue
                   <br className="lb" />{" "}
-                  Veränderungen, welche un<span className="orig">ſ</span><span className="corr">s</span>ere Gegen<span className="orig">=</span>
+                  Veränderungen, welche un<span className="orig">ſ</span><span className="corr">s</span>ere Gegen<span className="orig doublehyphen">⹀</span>
                   <br className="g.enc.tagsdecl.hyphenation.divis" />
                   wart <span className="abbr"> u.</span>
                   <span className="expan">
@@ -413,13 +413,13 @@ export default function page() {
                   dabei i<span className="orig">ﬅ</span><span className="corr">st</span> <span className="g.rend.script.latin">
                     Casper
                   </span>{" "}
-                  abwe<span className="orig">ſ</span><span className="corr">s</span>end, und wahr<span className="orig">=</span>
+                  abwe<span className="orig">ſ</span><span className="corr">s</span>end, und wahr<span className="orig doublehyphen">⹀</span>
                   <br className="g.enc.tagsdecl.hyphenation.divis" />
                   haftig ich <span className="orig">ſ</span><span className="corr">s</span>age Dir mir hat in voriger
                   <br className="lb" />{" "}
                   Woche der Kopf vor aller Arbeit
                   <br className="lb" />{" "}
-                  gebrummt, denn äußere Ange<span className="orig">=</span>
+                  gebrummt, denn äußere Ange<span className="orig doublehyphen">⹀</span>
                   <br className="g.enc.tagsdecl.hyphenation.divis" />
                   legenheiten <span className="abbr"> u.</span>
                   <span className="expan">
@@ -525,7 +525,7 @@ export default function page() {
                     <span className="overwritten">S</span>
                     <span className="add"><span className="orig">ſ</span><span className="corr">s</span></span>ie
                   </span>
-                  <span className="corr">sie</span> <span className="makierung"> ihrem Manne</span> <span className="orig">ſ</span><span className="corr">s</span>chrei<span className="orig">=</span>
+                  <span className="corr">sie</span> <span className="makierung"> ihrem Manne</span> <span className="orig">ſ</span><span className="corr">s</span>chrei<span className="orig doublehyphen">⹀</span>
                   <br className="g.enc.tagsdecl.hyphenation.divis" />
                   ben möchte, daß ich <span className="orig">ſ</span><span className="corr">s</span>chwerlich am
                   <br className="lb" />{" "}

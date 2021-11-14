@@ -157,7 +157,7 @@ export default function page() {
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>ind wir hier{" "}
                       <span className="orig">glüklich</span>
-                      <span className="corr">glücklich</span> ange<span className="orig">⹀</span>
+                      <span className="corr">glücklich</span> ange<span className="orig doublehyphen">⹀</span>
                       <br className="g.enc.tagsdecl.hyphenation.divis" />
                       kommen, nachdem wir eine ungewöhnlich lange{" "}
                       <span className="orig">Ueberfahrt</span>
@@ -210,7 +210,7 @@ export default function page() {
                     </p>
                   </span>
                   <p className="enc.tagsdecl.indent-medium">
-                    Von der Seekrankheit haben wir beide nicht viel ge<span className="orig">⹀</span>
+                    Von der Seekrankheit haben wir beide nicht viel ge<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>pürt, wir haben fa

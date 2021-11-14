@@ -148,7 +148,7 @@ export default function page() {
                     auf der <span className="makierung">Diligence</span>
                     <a id="annot.001.e">{/*anchor*/}</a>, aber{" "}
                     <span className="orig">ſ</span>
-                    <span className="corr">s</span>ehr vergnügt an<span className="orig">⹀</span>
+                    <span className="corr">s</span>ehr vergnügt an<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     kamen. <span className="orig">J</span><span className="corr">I</span>n{" "}
                     <span className="placeName">
@@ -260,7 +260,7 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>es{" "}
                     <span className="orig">müße</span>
-                    <span className="corr">müsse</span> mit Geld auf<span className="orig">⹀</span>
+                    <span className="corr">müsse</span> mit Geld auf<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     gewogen werden, allein im Gegentheil finde ich
                     <br className="lb" /> alles <span className="orig">ſ</span>
@@ -343,7 +343,7 @@ export default function page() {
                       <span className="corr">s</span>o gute Nachrichten für
                       mich{" "}enthielt.
                     </span> <a id="mark.001.e">{/*anchor*/}</a>
-                    Außeror<span className="orig">⹀</span>
+                    Außeror<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     dentlich freute mich die{" "}
                     <span className="orig">Beßerung</span>
@@ -438,7 +438,7 @@ export default function page() {
                     <sup className="sup" id="txt.add002">
                       auch
                     </sup>{" "}
-                    vollauf zu thun habe, um nur das Sehens<span className="orig">⹀</span>
+                    vollauf zu thun habe, um nur das Sehens<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     würdig<span className="orig">ﬅ</span>
                     <span className="corr">st</span>e durchzugehen;{" "}
@@ -642,7 +642,7 @@ export default function page() {
                       {" "}
                       <span className="makierung">Sovereigne d'ors</span>
                     </span>
-                    <a id="annot.004.e">{/*anchor*/}</a> eigent<span className="orig">⹀</span>
+                    <a id="annot.004.e">{/*anchor*/}</a> eigent<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     lich mi<span className="orig">ſ</span>
                     <span className="corr">s</span>erabel{" "}
@@ -772,7 +772,7 @@ export default function page() {
                     dir Freude.
                     <br className="lb" /> Um deine Briefe mache kein Couvert
                     <span className="orig metamark">*</span><span className="corr"> mehr die Adresse behalte aber</span>, <a id="index.xml-anchor-d29e818" />
-                    die Hand<span className="orig">⹀</span>
+                    die Hand<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chrift und das{" "}
@@ -788,7 +788,7 @@ export default function page() {
                     unter<span className="orig">ſ</span>
                     <span className="corr">s</span>cheidet un
                     <span className="orig">ſ</span>
-                    <span className="corr">s</span>re Briefe hin<span className="orig">⹀</span>
+                    <span className="corr">s</span>re Briefe hin<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     länglich auch nimm nicht <span className="orig">ſ</span>
                     <span className="corr">s</span>o{" "}
@@ -1080,7 +1080,7 @@ export default function page() {
                     </span>
                   </p>
                   
-                    <br className="lb" /> Falls Du die frühere ver<span className="orig">⹀</span>
+                    <br className="lb" /> Falls Du die frühere ver<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}

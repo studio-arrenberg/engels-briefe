@@ -584,7 +584,7 @@ export default function page() {
                       l<span className="ex">ieber</span>
                     </span>{" "}
                     <span className="persName">Friedrich</span>, daß wir große
-                    Vorzüge, vor andern Ge<span className="orig">=</span>
+                    Vorzüge, vor andern Ge<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     genden haben, die der Krieg ver
                     <span className="orig">ſ</span>
@@ -600,7 +600,7 @@ export default function page() {
                       <span className="corr">s</span>eüfzen
                     </span>
                     <span className="corr">seufzen</span>, und denen noch große
-                    Gefahren bevor<span className="orig">=</span>
+                    Gefahren bevor<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>ehen, mögte die
@@ -777,7 +777,7 @@ export default function page() {
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>ern morgen bereits nach{" "}
                     <span className="placeName">Ha<span className="orig">m̅</span>
-<span className="corr">mm</span></span> abge<span className="orig">=</span>
+<span className="corr">mm</span></span> abge<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.colon" />
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>eegelt; der Herr begleite{" "}
@@ -812,7 +812,7 @@ export default function page() {
                     </span>
                     , nicht alles{" "}
                     <span className="orig">
-                      nach<span className="orig">=</span>
+                      nach<span className="orig doublehyphen">⹀</span>
                       <br className="g.enc.tagsdecl.hyphenation.colon" />
                       gefoderte{" "}
                     </span>
@@ -881,7 +881,7 @@ export default function page() {
                     <span className="corr">s</span>ich frei glaubten in die
                     größte Verlegenheit{" "}
                     <span className="orig">
-                      ver<span className="orig">=</span>
+                      ver<span className="orig doublehyphen">⹀</span>
                       <br className="g.enc.tagsdecl.hyphenation.colon" />
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>ezt
@@ -939,7 +939,7 @@ export default function page() {
                       H<span className="ex">err</span>
                     </span>{" "}
                     <span className="g.rend.script.latin">Trappenberg</span>
-                    <a id="annot.020.e">{/*anchor*/}</a> wird wahr<span className="orig">=</span>
+                    <a id="annot.020.e">{/*anchor*/}</a> wird wahr<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.colon" />
                     scheinlich, durch ein Mini<span className="orig">ſ</span>
                     <span className="corr">s</span>terielles{" "}

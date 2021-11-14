@@ -129,13 +129,13 @@ export default function page() {
                     <span className="orig">ſeÿ</span>
                     <span className="corr">sey</span> Dank ge
                     <span className="orig">ſ</span>
-                    <span className="corr">s</span>und und wohl an<span className="orig">⹀</span>
+                    <span className="corr">s</span>und und wohl an<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     gekommen, und ich eile Dich davon mit der er
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>en Po
                     <span className="orig">ﬅ</span>
-                    <span className="corr">st</span> zu be<span className="orig">⹀</span>
+                    <span className="corr">st</span> zu be<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     nachrichtigen. Zu un<span className="orig">ſ</span>
                     <span className="corr">s</span>rer Freude fanden wir hier
@@ -159,7 +159,7 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chon{" "}
                     <span className="orig">ſ</span>
-                    <span className="corr">s</span>agte. <span className="orig">J</span><span className="corr">I</span>ch<span className="orig">⹀</span>
+                    <span className="corr">s</span>agte. <span className="orig">J</span><span className="corr">I</span>ch<span className="orig doublehyphen">⹀</span>
                     <br className="lb" /> bedaure nun nicht aus{" "}
                     <span className="placeName">
                       <span className="g.rend.script.latin">Manchester</span>
@@ -349,7 +349,7 @@ export default function page() {
                     <br className="lb" /> darüber bald mündlich. Für{" "}
                     <span className="persName makierung">Eduard</span> habe ich die Stelle
                     aus
-                    <br className="g.enc.tagsdecl.hyphenation.divis" /><span className="orig">⹀</span>
+                    <br className="g.enc.tagsdecl.hyphenation.divis" /><span className="orig doublehyphen">⹀</span>
                     gemittelt, er muß <span className="orig">ſ</span>
                     <span className="corr">s</span>o gleich abrei
                     <span className="orig">ſ</span>
