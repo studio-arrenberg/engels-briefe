@@ -53,7 +53,7 @@ export default function page() {
                       <p>
                         <span className="placeName">
                           {" "}
-                          <span className="g.rend.script.latin">Barmen</span>
+                          <span className="g.rend.script.latin ">Barmen</span>
                         </span>
                         <span style={{ display: "inline-block" }} width="1word">
                           &nbsp;
@@ -63,7 +63,7 @@ export default function page() {
                         <span className="expan">
                           d<span className="ex">en</span>
                         </span>{" "}
-                        3{" "}
+                        3<span className="corr">.</span>{" "}
                         <span className="g.rend.script.latin">
                           <span className="abbr"> Febr</span>
                           <span className="expan">
@@ -140,13 +140,13 @@ export default function page() {
                         <span className="small-adress">
                           <span className="abbr">Add
                             <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
-                              :<sup>r</sup>
+                              <sup className="double-underline">se</sup>
                             </span>
                           </span>
                           <span className="expan">
                             Ad<span className="orig">d</span><span className="ex">esse</span>
                           </span>{" "}
-                          Herrn{" "}
+                          <span className="serif">Herrn</span>{" "}
                           <span className="persName">
                             {" "}
                             <span className="g.rend.script.latin">
@@ -175,9 +175,10 @@ export default function page() {
                           </span>
                           <span
                             className="wave"
-                            className="underline"
+                            className="underline serif"
+
                           >
-                            Ganzfrei
+                            Ganzfrei<span clasName="" style={{paddingRight: "20px"}}></span>
                           </span>
                           <span style={{ display: "inline-block" }}>
                             &nbsp;
@@ -225,7 +226,7 @@ export default function page() {
                       <span className="placeName">Barmen</span>{" "}
                       <span className="date">
                         3{" "}
-                        <span className="abbr">
+                        <span className="abbr sans">
                           Feb<span className="orig">:</span>
                           <span className="corr">.</span>
                         </span>
@@ -403,7 +404,7 @@ export default function page() {
                       {" "}
                       <span className="g.rend.script.latin">F</span>.
                     </span></span>
-                    <span className="orig">Gulden</span>
+                    <span className="corr">F</span>
                     
                     <a id="annot.001.e">{/*anchor*/}</a> |:
                     <span className="orig"> </span>
@@ -513,7 +514,8 @@ export default function page() {
                   }}
                 >
                   {/* Insert Page 2 */}
-                  <p className="enc.tagsdecl.indent-small">
+                  {/* <p className="enc.tagsdecl.indent-small"> */}
+                  <p >
                     <span className="orig">einliegend</span>
                     <span className="corr">Einliegend</span>{" "}
                     <span className="orig">
@@ -769,8 +771,10 @@ export default function page() {
                     </div>
                     <div className="signed-right-middle" style={{paddingLeft: "340px",}}>
                       {" "}
+                      <span clasName="orig" style={{paddingRight: "20px"}}></span>
+
                       <span className="g.rend.script.latin">
-                        <span className="abbr"> C.</span>
+                        <span className="abbr"> C.</span>{" "}
                         <span className="expan">
                           C<span className="ex">aspar</span>{" "}
                         </span>
@@ -833,7 +837,7 @@ export default function page() {
             <hr />
             <label>F</label>
             <p>
-            Floren: Abk. für Gulden (nach Fiorino d’oro, der zuerst in Florenz geprägten Goldmünze).
+            Abk. für Gulden (nach Fiorino d’oro, der zuerst in Florenz geprägten Goldmünze).
           </p>
           </div>
 
@@ -924,7 +928,7 @@ export default function page() {
             <hr />
             <label>accodirte</label>
             <p>
-            Accordi(e)ren. Frz. accorder: ‚gewähren‘, ‚zu etwas seine Zustimmung geben‘.
+            Accordi(e)ren. Frz. accorder: „gewähren", ‚zu etwas seine Zustimmung „geben".
           </p>
           </div>
 

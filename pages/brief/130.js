@@ -47,8 +47,8 @@ export default function page() {
                         Fräulein Eli<span className="orig">ſ</span>
                         <span className="corr">s</span>e
                         <span className="g.rend.script.latin"> van Haar</span>
-                      </span>
-                      in{" "}
+                      </span><br />
+                      <span style={{marginRight:"50px "}}></span>in{" "}
                       <br />
                       <span className="underline">
                         Hamm.{" "}
@@ -91,11 +91,11 @@ export default function page() {
                           </span>
                         </span>
                         {" "}
-                        1816. <br className="lb" />{" "}
+                        1816.<br className="lb" />
                         <span style={{ display: "inline-block" }} width="13cm">
                           &nbsp;
                         </span>
-                        <span className="corr"><br /></span>
+                        <span className="corr"><br className="lb-detail"/></span>
                         Sam<span className="orig">ﬅ</span>
                         <span className="corr">st</span>ag
                       </span>{" "}
@@ -459,7 +459,7 @@ export default function page() {
                     – Nun von was anderm:
                     <br className="lb" />{" "}
                     <span className="persName makierung">
-                      <span className="abbr"> M.</span>
+                      <span className="abbr"> M.</span>{" "}
                       <span className="expan">
                         M<span className="ex">inchen</span>
                       </span>
@@ -647,11 +647,11 @@ export default function page() {
                       <span style={{ display: "inline-block" }} width="2em">
                         &nbsp;
                       </span>
-                      {" "}
+                      
                       <span className="persName">
                         <span className="abbr"> M.</span>
                         <span className="expan">
-                          M<span className="ex">inchen</span>
+                          M<span className="ex">inchen</span>{" "}
                         </span>
                         Sparenberg
                       </span>
@@ -694,7 +694,7 @@ export default function page() {
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>icht die da
                       <span className="damage">
-                        mi<span className="unclear">t</span>
+                        mi<span className="unclear corr">t</span>
                       </span>
                       {" "}verbunden
                       <br className="lb" />{" "}
@@ -765,11 +765,11 @@ export default function page() {
                     </span>
                     <div className="signed-space" style={{paddingLeft: "320px",}}>
                       Deinem treuen
-                      <br className="lb" />{" "}
                       <span style={{ display: "inline-block" }} width="7words">
                         &nbsp;
                       </span>
                       <br className="lb-detail" />
+                      <span className="orig" style={{marginRight:"20px"}}></span>
                       <span className="g.rend.script.latin">Friedrich</span>.
                     </div>
                   </div>
@@ -802,7 +802,7 @@ export default function page() {
             <hr />
             <label>„Bethe und arbeite.“</label>
             <p>
-            Das benediktinische Motto „ora et labora“ (bete und arbeite) könnte über die Katechismen des Theologen Johannes Brenz (1499–1570) Eingang in den Protestantismus gefunden haben. (Vgl. Oliver J. Kaftan: „Ora et labora – (k)ein benediktinisches Motto. Eine Spurensuche“. In: Erbe und Auftrag 90, 2014, 415–421.)
+            Das benediktinische Motto „ora et labora“ (bete und arbeite) könnte über die Katechismen des Theologen Johannes Brenz (1499–1570) Eingang in den Protestantismus gefunden haben. (Vgl. Oliver J. Kaftan: <i>„Ora et labora – (k)ein benediktinisches Motto. Eine Spurensuche“</i>. In: Erbe und Auftrag 90, 2014, 415–421.)
             </p>
           </div>
 
@@ -879,9 +879,9 @@ export default function page() {
             }}
           >
             <hr />
-            <label>Comptoiristen</label>
+            <label>Comptoristen</label>
             <p>
-            Kaufleute.
+            Schreiber, Buchhalter, Kaufleute
             </p>
           </div>
 

@@ -65,7 +65,7 @@ export default function page() {
                         >
                           <span className="abbr">Add
                             <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
-                              <sup>r</sup>:
+                              <sup className="double-underline hochgestellt">se</sup>
                             </span>
                           </span>
                           <span className="expan">
@@ -73,14 +73,14 @@ export default function page() {
                           </span>{" "}
                           Herrn{" "}
                           <span className="persName">
-                            <span className="abbr"> Joh.</span>
+                            <span className="abbr"> Joh.</span>{" "}
                             <span className="expan">
                               Joh<span className="ex">ann</span>{" "}
                             </span>
                             <span className="abbr">
                               Frid
                               <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
-                                :<sup className="orig double-underline">h</sup>
+                                <sup className="orig double-underline">h</sup>
                               </span>
                                </span>
                             <span className="expan">
@@ -99,7 +99,7 @@ export default function page() {
                             <span className="abbr">
                               f
                               <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
-                                <sup className="double-underline">co</sup>
+                                <sup className="double-underline">co</sup>{" "}
                               </span>
                                </span>
                             <span className="expan">
@@ -108,11 +108,12 @@ export default function page() {
                             <span className="placeName">Wetzlar</span>
                           </span>
                           <span
-                            style={{ display: "inline-block" }}
+                            style={{ marginRight: "20px" }}
                             width="1word"
                           >
                             &nbsp;
                           </span>
+                          
                           in
                         </span>{" "}
                         <br className="lb" />
@@ -171,7 +172,7 @@ export default function page() {
                     <div className="dateline"style={{ marginRight: "200px" }}>
                       „<span className="placeName">Barmen</span>{" "}
                       <span className="date">
-                        4 <span className="orig">Jul<span className="orig">ÿ</span>
+                        4<span className="corr">.</span> <span className="orig">Jul<span className="orig">ÿ</span>
 <span className="corr">y</span></span>
                         <span className="corr">Juli</span> 1813
                       </span>
@@ -207,7 +208,7 @@ export default function page() {
                     für dich gekauft, und in 1{" "}
                     <span className="makierung"><span className="g.rend.script.latin">paquet</span>{" "}
                     <span className="g.rend.script.latin">
-                      <span className="abbr">F.E.</span>{" "}
+                      <span className="abbr corr">F.E.</span>{" "}
                     </span></span>
                     durch <a id="annot.002.s">{/*anchor*/}</a>
                     <span className="g.rend.script.latin">
@@ -311,9 +312,8 @@ export default function page() {
                       <span className="corr">lesen</span> <br className="lb" />
                       und zu betrachten gewohnt bi
                       <span className="orig">ﬅ</span>
-                      <span className="corr">st</span>. —
-                      <span style={{ display: "inline-block" }} width="2em">
-                        
+                      <span className="corr">st</span>. —{" "}
+                      <span className="horizontal">
                       </span>
                       <a id="teaser.part.002.s">{/*anchor*/}</a>
                       <span className="orig">wir</span>
@@ -438,19 +438,19 @@ export default function page() {
                     <br className="lb" />
                     <a id="annot.007.s">{/*anchor*/}</a>
                     <span className="persName">
-                      <span className="g.enc.tagsdecl.suspension.type1">
-                        Hr.{" "}
-                      </span>.
+                      <span className="g.enc.tagsdecl.suspension.type1-withpoint">
+                        Hr
+                      </span>
                       <span className="expan">
                         H<span className="ex">e</span>r
                         <span className="ex">rn</span>
                       </span>
                       {" "}
                       <span className="g.rend.script.latin">
-                        <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
+                        <span className="g.enc.tagsdecl.cc.abbr-colon-sup orig">
                           D<span className="orig"></span>
-                          <span className="corr">.</span>
-                          <sup className="underline">r</sup></span>{" "}
+                          <span className="corr"></span>
+                          <sup className="underline hochgestellt">r</sup></span>{" "}
                         <span className="expan">Doctor</span><span className="makierung"> Osberghaus</span>
                       </span>
                     </span>
@@ -621,9 +621,9 @@ export default function page() {
                     <span className="corr">Platze</span> und ins Reich geht noch
                     ziemlich, auch haben <br className="lb" />
                     <a id="annot.009.s">{/*anchor*/}</a>
-                    <span className="g.enc.tagsdecl.suspension.type1">
+                    <span className="g.enc.tagsdecl.suspension.type1-withpoint">
                       {" "}
-                      Hr.</span>.
+                      Hr</span>
                     <span className="expan">
                       H<span className="ex">e</span>r
                       <span className="ex">ren</span>
@@ -653,7 +653,7 @@ export default function page() {
                       D<span className="ex">utzend</span>
                     </span>{" "}
                     <span className="makierung"><span className="g.rend.script.latin">
-                      <span className="g.enc.tagsdecl.suspension.type2">Lang.)
+                      <span className="g.enc.tagsdecl.suspension.type2 " style={{display:"inline"}} >Lang.
                       </span>
                       
                       <span className="expan">
@@ -687,7 +687,7 @@ export default function page() {
                     </span>
                     und{" "}
                     <span className="placeName">
-                      <span className="abbr"> FF. <sup>a</sup>/<span className="orig">o</span>
+                      <span className="abbr"> FF.<sup>a</sup>/<span className="orig">o</span>
                         <span className="corr">O</span>
                       </span>
                       <span className="expan">
@@ -707,16 +707,16 @@ export default function page() {
                     <span className="corr">s</span>ehr,{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>o <br className="lb" />
-                    daß wir von 3<sup className="double-underline">ter</sup>{" "}
+                    daß wir von 3<sup className="double-underline hochgestellt">ter</sup>{" "}
                     <span className="orig">
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>orte
                     </span>
                     <span className="corr">Sorte</span> <span className="makierung">Kanten</span> großes Lager
                     haben, und daher mit{" "}
-                    <span className="g.enc.tagsdecl.suspension.type1">
+                    <span className="g.enc.tagsdecl.suspension.type1-withpoint">
                       {" "}
-                      Hr.</span>
+                      Hr</span>
                     <span className="expan">
                       H<span className="ex">e</span>r
                       <span className="ex">rn</span>
@@ -727,9 +727,9 @@ export default function page() {
                     </span>
                     <a id="annot.013.e">{/*anchor*/}</a> <br className="lb" />
                     einig wurden, <a id="annot.014.s">{/*anchor*/}</a>
-                    <span className="g.enc.tagsdecl.suspension.type1">
+                    <span className="g.enc.tagsdecl.suspension.type1-withpoint">
                       {" "}
-                      dHr.</span>
+                      dHr</span>
                     {/* <span className="expan">
                       d<span className="ex">en</span> Hr
                     </span> */}
@@ -751,7 +751,7 @@ export default function page() {
                       <span className="corr">s</span>che{" "}
                     </span>
                     <span className="orig">reißen</span>
-                    <span className="corr">reisen</span> zu
+                    <span className="corr">reisen</span> zu{" "}
                     <span className="orig">laßen</span>
                     <span className="corr">lassen</span>;{" "}
                     <span className="orig">ſ</span>
@@ -837,9 +837,9 @@ export default function page() {
                     <span className="corr">vielleicht</span> noch nicht,{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>o auch, daß{" "}
-                    <span className="g.enc.tagsdecl.suspension.type1">
+                    <span className="g.enc.tagsdecl.suspension.type1-withpoint">
                       {" "}
-                      Hr.</span>.{" "}
+                      Hr</span>{" "}
                     <span className="expan">
                       H<span className="ex">err</span>
                     </span>
@@ -905,7 +905,7 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chon vor 14 Tagen 1{" "}
                     <a id="annot.019.s">{/*anchor*/}</a>
-                    <span className="makierung"><span className="g.enc.tagsdecl.suspension.type1">
+                    <span className="makierung"><span className="g.enc.tagsdecl.suspension.type3">
                       {" "}
                       Rempl</span>
                     <span className="expan">
@@ -931,9 +931,9 @@ export default function page() {
                     ko<span className="orig">ﬅ</span>
                     <span className="corr">st</span>et,{" "}
                     <a id="annot.020.s">{/*anchor*/}</a>
-                    <span className="g.enc.tagsdecl.suspension.type1">
+                    <span className="g.enc.tagsdecl.suspension.type1-withpoint">
                       {" "}
-                      Hr.</span>.
+                      Hr</span>
                     {" "}
                     <span className="expan">
                       H<span className="ex">err</span>
@@ -992,7 +992,7 @@ export default function page() {
                     <span className="corr">neue</span> Weg von{" "}
                     <br className="lb" />
                     <a id="annot.022.s">{/*anchor*/}</a>
-                    <span className="g.enc.tagsdecl.suspension.type1">
+                    <span className="g.enc.tagsdecl.suspension.type1-withpoint">
                       {" "}
                       Hr</span>
                     <span className="expan">
@@ -1076,7 +1076,7 @@ export default function page() {
                       gepredigt, wie die er<span className="orig">ﬅ</span>
                       <span className="corr">st</span>e Predigt von{" "}
                       <a id="annot.025.s">{/*anchor*/}</a>
-                      <span className="g.enc.tagsdecl.suspension.type1">
+                      <span className="g.enc.tagsdecl.suspension.type1-withpoint">
                         Hr</span>
                       <span className="expan">
                         H<span className="ex">errn</span>
@@ -1091,9 +1091,9 @@ export default function page() {
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>ei, ob du auch einmal{" "}
                       <a id="annot.026.s">{/*anchor*/}</a>
-                      <span className="g.enc.tagsdecl.suspension.type1">
+                      <span className="g.enc.tagsdecl.suspension.type1-withpoint">
                         dHr</span>
-                      {" "}
+                      
                       {/* <span className="expan">
                         d<span className="ex">en</span> Hr
                       </span> */}
@@ -1119,7 +1119,7 @@ export default function page() {
                       ha<span className="orig">ﬅ</span>
                       <span className="corr">st</span>, was der gute{" "}
                       <a id="annot.027.s">{/*anchor*/}</a>
-                      <span className="g.enc.tagsdecl.suspension.type1">
+                      <span className="g.enc.tagsdecl.suspension.type1-withpoint">
                         Hr</span>
                       <span className="expan">
                         H<span className="ex">err</span>
@@ -1140,10 +1140,10 @@ export default function page() {
                       </span>
                       <span className="corr">schicklich</span>,{" "}
                       <span className="orig">wan</span>{" "}
-                      <span className="corr">wann</span> du
+                      <span className="corr">wann</span> du{" "}
                       <a id="annot.028.s">{/*anchor*/}</a>
-                      <span className="g.enc.tagsdecl.suspension.type1">
-                        dHr.</span>
+                      <span className="g.enc.tagsdecl.suspension.type1-withpoint">
+                        dHr</span>
                       {" "}
                       {/* <span className="expan">
                         d<span className="ex">en</span> Hr
@@ -1154,7 +1154,7 @@ export default function page() {
                       </span>
                       {" "}
                       <span className="g.rend.script.latin">
-                        <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
+                        <span className="g.enc.tagsdecl.cc.abbr-colon-sup orig">
                           P<span className="orig"></span>
                           <span className="corr">.</span>
                           <sup className="double-underline">r</sup>{" "}
@@ -1183,14 +1183,14 @@ export default function page() {
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>ind die Briefe an{" "}
                       <a id="annot.029.s">{/*anchor*/}</a>
-                      <span className="g.enc.tagsdecl.suspension.type1">
+                      <span className="g.enc.tagsdecl.suspension.type1-withpoint">
                         Hr</span>
                       <span className="expan">
                         H<span className="ex">err</span>
                       </span>
 
                       {" "}
-                      <span className="g.enc.tagsdecl.cc.abbr-colon-sup">P<span className="orig"></span>
+                      <span className="g.enc.tagsdecl.cc.abbr-colon-sup orig">P<span className="orig"></span>
                         <span className="corr">.</span>
                         <sup className="double-underline">r</sup> </span>
                       {" "}
@@ -1279,15 +1279,9 @@ export default function page() {
                     <a id="mark.008.e">{/*anchor*/}</a>
                   </p>
                   <p>
-                    <span className="g.enc.tagsdecl.suspension.type1">
+                    <span className="g.enc.tagsdecl.suspension.type1-withpoint">
                       {" "}
                       dHr
-                      {" "}
-                    </span><span className="orig">.</span>
-                    <span className="expan">
-                      <span className="orig">d</span>
-                      <span className="corr">D</span>
-                      <span className="ex">em</span> Hr{" "}
                     </span>
                     <span className="expan">
                       <span className="orig">d</span>
@@ -1400,7 +1394,7 @@ export default function page() {
             <hr />
             <label>jener Dichter</label>
             <p>
-            Vermutlich Christoph Rheineck (1748–1797), Kaufmann, Gastwirt und Komponist in Memmingen. Johann Caspar Engels zitiert die drei letzten Zeilen des Lieds <i>Lebensgebrauch</i> (3 Strophen). Text und Melodie stammen vermutlich von Rheineck. <i>(Dritte Lieder-Sammlung mit Klavier-Melodien. In die Musik gesezt von Christoph Rheineck. Memmingen 1784, S. 16.) </i>
+            Vermutlich Christoph Rheineck (1748–1797), Kaufmann, Gastwirt und Komponist in Memmingen. Johann Caspar Engels zitiert die drei letzten Zeilen des Lieds <i>Lebensgebrauch</i> (3 Strophen). Text und Melodie stammen vermutlich von Rheineck. (<i>Dritte Lieder-Sammlung mit Klavier-Melodien. In die Musik gesezt von Christoph Rheineck. Memmingen 1784, S. 16</i>)
             </p>
           </div>
 
@@ -1437,7 +1431,7 @@ export default function page() {
             <hr />
             <label>Joh: 16 V 24</label>
             <p>
-            Johannes 16,24: „Bisher habt ihr um nichts gebeten in meinem Namen. Bittet, so werdet ihr empfangen, auf dass eure Freude vollkommen sei.“ (LUT)
+            Johannes 16,24: „Bisher habt ihr um nichts gebeten in meinem Namen. Bittet, so werdet ihr empfangen, auf dass eure Freude vollkommen sei.“
           </p>
           </div>
 
@@ -1462,7 +1456,8 @@ export default function page() {
             }}
           >
             <hr />
-            <label>6 mille = 6000.</label>
+            <label>6/m</label>
+            <p>6 mille = 6000.</p>
           </div>
 
            <div
@@ -1487,7 +1482,7 @@ export default function page() {
             <hr />
             <label>Langetten</label>
             <p>
-            Fachterminus der Spitzenherstellung, benannt nach dem praktizierten Schlingstich in Form einer eingerollten Zunge (frz. languette: Zünglein) (vgl. Anne Wanner‘s Textiles in History: http://www.annatextiles.ch/vo_sti/voca3/voc3.htm).
+            Fachterminus der Spitzenherstellung, benannt nach dem praktizierten Schlingstich in Form einer eingerollten Zunge (frz. languette: "Zünglein") (vgl. <i>Anne Wanner‘s Textiles in History</i>: <i>http://www.annatextiles.ch/vo_sti/voca3/voc3.htm</i>).
           </p>
           </div>
 
@@ -1784,7 +1779,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "3916px",
+              top: "3956px",
             }}
           >
             <hr />

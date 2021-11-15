@@ -54,7 +54,7 @@ export default function page() {
                             <span className="g.rend.script.latin">
                               <span className="abbr">Add
                                 <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
-                                  <sup className="double-underline">sse</sup>⹀
+                                  <sup className="double-underline">sse</sup>
                                 </span>
                               </span>
                               <span className="expan">
@@ -69,7 +69,7 @@ export default function page() {
                               </span>{" "}
                               <span className="abbr">Frid
                                 <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
-                                  <sup className="double-underline">h</sup>⹀
+                                  <sup className="double-underline">h</sup>
                                 </span>
                               </span>
                               <span className="expan">
@@ -89,7 +89,7 @@ export default function page() {
                             <span className="g.rend.script.latin">
                               <span className="abbr">f
                                 <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
-                                  <sup className="double-underline">co</sup>⹀
+                                  <sup className="double-underline">co</sup>
                                 </span>
                               </span>
                               <span className="expan">
@@ -98,11 +98,12 @@ export default function page() {
                             </span>{" "}
                             <span className="g.rend.script.latin">Wetzlar</span>
                             <span
-                              style={{ display: "inline-block" }}
+                              style={{ marginRight: "20px" }}
                               width="1word"
                             >
                               &nbsp;
                             </span>
+                            
                             <span className="g.rend.script.latin">in</span>
                           </p>
                         </span>
@@ -138,7 +139,7 @@ export default function page() {
                         <span className="abbr">
                           Kth
                           <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
-                            <sup>r</sup>⹀
+                            <sup className="double-underline">r</sup>
                           </span>
                           </span>
                         <span className="expan">
@@ -189,7 +190,7 @@ export default function page() {
                           12
                           <sup style={{verticalAlign: "super",}}>
                             <span className="g.enc.tagsdecl.suspension.type1">
-                              {" "}t </span>
+                              {" "}t</span>
                             <span className="expan">
                               t<span className="ex">en</span>
                             </span>{" "}
@@ -290,7 +291,7 @@ export default function page() {
                       <span className="orig">Trouppen</span>
                       <span className="corr">Truppen</span></span>, wovon <span className="makierung">der General</span>{" "}
                       in <span className="g.rend.script.latin">Elberfeld</span>{" "}
-                      liegt<a id="teaser.part.002.e">{/*anchor*/}</a> und <span className="makierung">ein-<span className="orig doublehyphen">⹀</span>{" "}
+                      liegt<a id="teaser.part.002.e">{/*anchor*/}</a> und <span className="makierung">ein<span className="orig doublehyphen">⹀</span>{" "}
                       <br className="g.enc.tagsdecl.hyphenation.colon" />
                       liegende{" "}
                       <span className="g.rend.script.latin">
@@ -343,7 +344,7 @@ export default function page() {
                         <span className="corr">s</span>chützen und befre<span className="orig">ÿ</span>
 <span className="corr">y</span>en{" "}
                         <br className="lb" />{" "}
-                        wird.<a id="mark.002.e">{/*anchor*/}</a>
+                        wird.<a id="mark.002.e">{/*anchor*/}</a>{" "}
                       </span>
                       
                       <a id="teaser.part.003.s">{/*anchor*/}</a>
@@ -490,7 +491,7 @@ export default function page() {
                         <span className="corr">Sie</span> läßt dich mit uns
                         allen herzlich grüßen, <br className="lb" />{" "}
                         und empfiehlt dich dem <span className="orig">ſ</span>
-                        <span className="corr">s</span>chutze Gottes, der{" "}
+                        <span className="corr">S</span>chutze Gottes, der{" "}
                         <span className="orig">ſ</span>
                         <span className="corr">s</span>o viel{" "}
                         <span className="orig">gutes</span>
@@ -506,12 +507,13 @@ export default function page() {
                         <a id="mark.003.e">{/*anchor*/}</a>
                       </span>
 
-                      <div className="signed" style={{paddingLeft: "370px", paddingBottom: "15px",}}>
+                      <div className="signed" style={{ paddingBottom: "15px",}}>
                         
                         Dein <span className="orig">Treüer</span>
                         <span className="corr">treuer</span> Vater{" "}
                         <br className="lb" />{" "}
                         <span className="g.rend.script.latin">
+                          <span className="horizontal"></span>
                           <span className="abbr">C.</span>
                           <span className="expan">
                             C<span className="ex">aspar</span>{" "}
@@ -559,23 +561,25 @@ export default function page() {
       
     </div>
     <p>Vereinigte<span className="orig">⸗ </span>
-<span className="corr"></span><span className="underline">Armee</span> von Schlesien.</p>
+<span className="corr">-</span><span className="underline">Armee</span> von Schlesien.</p>
     <p>Avantgarde des kaiserl. russischen</p>
-    <p className="g.enc.tagsdecl.indent-medium" style={{textIndent: "40px",}}>Armee⸗Korps.</p>
-    <p className="g.enc.tagsdecl.indent-very-large"  style={{textIndent: "80px",}}>
-      <span className="spacing">Elberfeld</span> den{" "}
-      <a id="annot.001.s">{/*anchor*/}</a>11. Okt.<a id="annot.001.e">{/*anchor*/}</a>
-    </p>
-    <p className="g.enc.tagsdecl.indent-very-large"  style={{textIndent: "80px",}}>
-      <span className="spacing">Tagsbefehl</span>.
-    </p>
+    <p className="g.enc.tagsdecl.indent-medium" style={{textIndent: "40px",}}>Armee<span className="orig">⸗</span><span className="corr">-</span>Korps.</p>
+    <div className="zeilenabstand">
+      <p className="g.enc.tagsdecl.indent-very-large"  style={{textIndent: "80px",}}>
+        <span className="spacing">Elberfeld</span> den{" "}
+        <a id="annot.001.s">{/*anchor*/}</a>11. Okt.<a id="annot.001.e">{/*anchor*/}</a>
+      </p>
+      <p className="g.enc.tagsdecl.indent-very-large"  style={{textIndent: "80px",}}>
+        <span className="spacing">Tagsbefehl</span>.
+      </p>
+    </div>
     <p className="g.enc.tagsdecl.indent-medium">
       Seit meinem Einzug in diese Stadt ist nun so<span className="orig">⸗ </span>
 <span className="corr"></span><br className="lb" />wohl der
       geringe Theil des Großherzogthums Berg, <br className="lb" />welcher noch
-      nicht besetzt war, als auch die Haupt<span className="orig">⸗ </span>
+      nicht besetzt war, als auch die Haupt<span className="orig">⸗ </span><span className="corr">-</span>{" "}
 <span className="corr"></span><br className="lb" />und
-      Residenzstadt Düsseldorf durch die unter meinen
+      Residenzstadt Düsseldorf durch die unter meinen{" "}
       <br className="lb" />Befehlen stehenden Truppen okkupirt.
     </p>
     <p className="g.enc.tagsdecl.indent-medium">
@@ -602,7 +606,7 @@ export default function page() {
     </p>
     <p className="g.enc.tagsdecl.indent-medium">
     <span style={{ marginLeft: "30px" }} ></span>2. Der Herr Karl Brügelmann ist provisorisch <br className="lb" />als
-      General<span className="orig">⸗ </span>
+      General<span className="orig">⸗</span>
 <span className="corr"> </span>Kommissair des Arrondissements Elberfeld{" "}
       <br className="lb" />ernannt.
     </p>
@@ -611,8 +615,8 @@ export default function page() {
       weitern Befehl fort, ihre Amtsverrichtungen auf <br className="lb" />die
       bisherige Weise auszuüben, Sie stehen jedoch ein<span className="orig">⸗ </span>
 <span className="corr"></span><br className="lb" />zig
-      unter dem ernannten General<span className="orig">⸗ </span>
-<span className="corr"> </span>Kommissair, und un<span className="orig">⸗ </span>
+      unter dem ernannten General<span className="orig">⸗</span><span className="corr">-</span>
+Kommissair, und un<span className="orig">⸗ </span>
 <span className="corr"></span><br className="lb" />ter
       ihrer eigenen persönlichen Verantwortlichkeit müssen{" "}
       <br className="lb" />sie von diesem Augenblicke an, alle Verbindungen und{" "}
@@ -637,16 +641,18 @@ export default function page() {
       <br className="lb" />gestörte Fortdauer der bisherigen und von dem Gene<span className="orig">⸗ </span>
 <span className="corr"></span>
       <br className="lb" />ral<span className="orig">⸗ </span>
-<span className="corr"> </span>Commissair nicht ausdrücklich aufgehobenen Ein<span className="orig">⸗ </span>
+<span className="corr">-</span>Commissair nicht ausdrücklich aufgehobenen Ein<span className="orig">⸗ </span>
 <span className="corr"></span>
       <br className="lb" />richtungen zu wachen.
     </p>
+    
     <p className="g.enc.tagsdecl.indent-very-large signed-right-middle">
-      Der russisch<span className="orig">⸗ </span>
-<span className="corr"> </span>kaiserliche General<span className="orig">⸗ </span>
-<span className="corr"> </span>Major
+    <span style={{ marginLeft: "30px" }} ></span>
+      Der russisch<span className="orig">⸗</span>
+<span className="corr">-</span>kaiserliche General<span className="orig">⸗</span>
+<span className="corr">-</span>Major
     </p>
-    <p className="g.enc.tagsdecl.indent-very-large signed-right-middle">(Unterz.)<span style={{ marginLeft: "30px" }} ></span> Yuſefowitſch.</p>
+    <p className="g.enc.tagsdecl.indent-very-large signed-right-middle"><span style={{ marginLeft: "30px" }} ></span>(Unterz.)<span style={{ marginLeft: "30px" }} ></span> Yuſefowitſch.</p>
   </div>
 </div>
 
@@ -667,7 +673,7 @@ export default function page() {
             <hr />
             <label>glücklich vorübergegangen</label>
             <p>
-            Der Abzug der frz. Truppen erfolgte mit weniger Opfern und Zerstörungen als zu befürchten war. Nach letzten Gefechten am 31. Oktober 1813, insbesondere an der ‚Alten Brücke‘, zogen sich die frz. Truppen am 1./2. November 1813 endgültig zurück und fünf Tage später besetzten alliierte Truppen die Stadt.
+            Der Abzug der frz. Truppen erfolgte mit weniger Opfern und Zerstörungen als zu befürchten war. Nach letzten Gefechten am 31. Oktober, 1813, insbesondere an der ‚Alten Brücke‘, zogen sich die frz. Truppen am 1./2. November 1813 endgültig zurück, und fünf Tage später besetzten alliierte Truppen die Stadt.
             </p>
           </div>
 
@@ -772,7 +778,7 @@ export default function page() {
             <hr />
             <label>künftig klar schreiben</label>
             <p>
-            aus Angst vor Militärzensur hatte Johann Caspar Engels seinen Sohn bei „politischen Nachrichten“ aus Frankfurt zur „Vorsicht“ gemahnt (vgl. Brief Nr. 66 vom 5.4.1813).
+            Aus Angst vor Militärzensur hatte Johann Caspar Engels seinen Sohn bei „politischen Nachrichten“ aus Frankfurt zur „Vorsicht“ gemahnt (vgl. Brief Nr. 66 vom 5.4.1813).
             </p>
           </div>
 
@@ -787,8 +793,8 @@ export default function page() {
             <p>
             Das Datum des „Tagsbefehls“ lautet richtig 11. November 1813.
                         Dieser Tag ist in Elberfeld der Beginn der russischen Kommandantschaft.
-                        (Vgl. Johann Friedrich Knapp: Geschichte, Statistik und Topographie
-                        der Städte Elberfeld und Barmen im Wupperthale. Iserlohn und Barmen 1835, S. 77.)
+                        (Vgl. Johann Friedrich Knapp: <i>Geschichte, Statistik und Topographie
+                        der Städte Elberfeld und Barmen im Wupperthale.</i> Iserlohn und Barmen 1835, S. 77.)
             </p>
           </div>
 

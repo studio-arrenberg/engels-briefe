@@ -1075,7 +1075,7 @@ img {
 }
 
 .unclear{
-  color: #666;
+  color: rgb(0, 0, 0);
 }
 
 
@@ -1181,7 +1181,6 @@ table {
 
 .normalisiert .unclear{
   display: none;
-  color: pink;
 }
 
 .normalisiert .orig,
@@ -1454,9 +1453,9 @@ p > span .latin {
   text-decoration: underline;
 }
 
-/* .vergleichs-ansicht .underline{
+.vergleichs-ansicht .underline{
   border-bottom: 1px solid rgb(49, 49, 49) ;
-} */
+}
 
 
 .vergleichs-ansicht br ::before{
@@ -1802,6 +1801,9 @@ p > span .latin {
   padding-right: 20px;
 }
 
+.vergleichs-ansicht .zeilenabstand{
+  line-height: 150%;
+}
 
 
 /* Detail Ansicht */
@@ -1883,6 +1885,10 @@ p > span .latin {
   text-align: right;
   margin-right: 100px;
   padding-left: 280px;
+}
+
+.detail-ansicht .g\.enc\.tagsdecl\.suspension\.type1-withpoint {
+  display: none;
 }
 
 
