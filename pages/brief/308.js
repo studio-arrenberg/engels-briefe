@@ -187,8 +187,8 @@ export default function page() {
                     <span style={{ display: "inline-block" }} width="4em">
                       &nbsp;
                     </span>
-                    Die Rei<span className="orig">ſ</span>
-                    <span className="corr">s</span>e von{" "}
+                    Die <span className="makierung">Rei<span className="orig">ſ</span>
+                    <span className="corr">s</span>e </span>von{" "}
                     <span className="placeName sans">
                       <span
                         className="strike-through sans"
@@ -224,12 +224,12 @@ export default function page() {
                     <span className="orig">bischen</span>
                     <span className="corr">bißchen</span> Seekrankheit
                     abgerechnet eine
-                    <br className="lb" /> ganz angenehme <span className="makierung">Reise</span> gehabt, und sind
+                    <br className="lb" /> ganz angenehme Reise gehabt, und sind
                     ganz vergnügt,
-                    <br className="lb" /> trotz dem entsetzlichen Wetter. <span className="makierung">(Meine
+                    <br className="lb" /> trotz dem entsetzlichen Wetter. (Meine
                     armen Ziegel<span className="orig">ﬅ</span>
                     <span className="corr">st</span>eine
-                    <br className="lb" /> und Hafer!!)</span> Die Ruhe am fe
+                    <br className="lb" /> und Hafer!!) Die Ruhe am fe
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>en Lande thut uns{" "}
                     <span className="orig">ſ</span>
@@ -632,14 +632,14 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "1200px",
+              top: "1100px",
             }}
           >
             <hr />
-            <label>Rückreise</label>
+            <label>Reise</label>
             <p>
               „Die Rückreise erfolgte mit dem englischen Dampfschiff ‚Countess
-              of Lonsdale‘.“ (Knieriem, S. 580.)
+              of Lonsdale‘.“ (Michael Knieriem (Hg.): Die Herkunft des Friedrich Engels. Trier 1991, S. 580.)
             </p>
           </div>
 
@@ -656,16 +656,7 @@ export default function page() {
               verheiratet mit Georg Gottfried Treviranus (1788–1868).
             </p>
           </div>
-          <div
-            className="stellenerläuterung"
-            style={{
-              top: "1255px",
-            }}
-          >
-            <hr />
-            <label>Meine armen Ziegelsteine und Hafer!</label>
-            <p>Nicht ermittelt.</p>
-          </div>
+          
           <div
             className="stellenerläuterung"
             style={{
@@ -745,7 +736,7 @@ export default function page() {
             <p>
               Susanne Christine Johanne, genannt „Hannchen“, Lipka, geb. van
               Haar (1802–1864), Schwester von Elise Engels, geb. van Haar, und
-              Tante von Friedrich Engels jun. 1824 Heirat mit Heinrich Adolph
+              Tante von Friedrich Engels jun. 1824 Heirat mit <br />Heinrich Adolph
               Lipka (1792–1829).
             </p>
           </div>
@@ -763,7 +754,7 @@ export default function page() {
               Geestrücken eingefasst werden. Deren sandiger Untergrund hat die
               Entstehung der ‚Wurster Heide‘ begünstigt. Die Ähnlichkeit dieser
               Landschaft mit der ‚Lüneburger Heide‘ mag zu Friedrich Engels‘
-              Irrtum geführt haben (vgl. Knieriem, S. 580, Anm. 5).
+              Irrtum geführt haben (vgl. Michael Knieriem (Hg.): Die Herkunft des Friedrich Engels. Trier 1991, S. 580, Anm. 5).
             </p>
           </div>
         </div>

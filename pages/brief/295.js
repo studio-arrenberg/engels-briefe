@@ -1175,7 +1175,7 @@ export default function page() {
             <hr />
             <label>Table dʼhote</label>
             <p>
-              Table d’hôte: Menü mit feststehender Speisenfolge zu einem
+              Menü mit feststehender Speisenfolge zu einem
               festgelegten Preis.
             </p>
           </div>
@@ -1213,8 +1213,8 @@ export default function page() {
             <label>Sovereigne d’or</label>
             <p>
               Sovereign: Englische Goldmünze. Friedrich Engels hängt, wohl in
-              Anlehnung an den deutschen Friedrich d’or, den französischen
-              Zusatz (‚aus Gold‘) an.
+              Anlehnung an den französischen Louis d’or, den französischen
+              Zusatz ("aus Gold") an.
             </p>
           </div>
           <div
@@ -1235,7 +1235,7 @@ export default function page() {
           >
             <hr />
             <label>Pendülen</label>
-            <p>Pendeluhren, von frz. pendule: ‚Pendel‘.</p>
+            <p>Pendeluhren, von frz. pendule: "Pendel".</p>
           </div>
           <div
             className="stellenerläuterung push-right"
@@ -1245,7 +1245,7 @@ export default function page() {
           >
             <hr />
             <label>Diligence</label>
-            <p>frz. Eilpostkutsche.</p>
+            <p>Frz. "Eilpostkutsche".</p>
           </div>
           <div
             className="stellenerläuterung push-right"

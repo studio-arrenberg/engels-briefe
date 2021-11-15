@@ -59,9 +59,9 @@ export default function page() {
                         </span>
                         <br />
                         <span className="small">
-                          <span className="sans">
+                          <span className="">
                             zur eigenhändigen<br /> <span className="underline">Erbrechung</span> 
-                            <span style={{    marginTop: "-60px",
+                            <span clasName="sans" style={{    marginTop: "-60px",
                                 marginRight: "200px",
                                 display: "block",
                                 textAlign: "center",}}>
@@ -176,9 +176,9 @@ export default function page() {
                     <span className="strike-through" style={{ textDecoration: "line-through" }}>
                       dir
                     </span>{" "}
-                    verge<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
+                    verge<span className="orig doublehyphen oblique">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
                     genwärtigen, die Er uns auf <span className="orig">ſ</span>
-                    <span className="corr">s</span>o mannigfal<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
+                    <span className="corr">s</span>o mannigfal<span className="orig doublehyphen oblique">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
                     tige Art, und be<span className="orig">ſ</span>
                     <span className="corr">s</span>onders auch{" "}
                     <span className="orig">jezt</span>
@@ -203,7 +203,7 @@ export default function page() {
                     <span className="corr">s</span>eitig{" "}
                     <br className="lb" />{" "}
                     zum warmen herzlichen <span className="orig">Danck</span>
-                    <span className="corr">Dank</span> dafür er<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
+                    <span className="corr">Dank</span> dafür er<span className="orig doublehyphen oblique">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
                     muntern.<a id="teaser.part.002.e">{/*anchor*/}</a> O! mein
                     lieber! ganz{" "}
                     <span className="orig">oﬀenbahr</span>
@@ -271,7 +271,7 @@ export default function page() {
                     <br className="lb" />{" "}
                     lange Winter Abenden noch manche{" "}
                     <span className="orig">erquikende</span>
-                    <span className="corr">erquickende</span> Seel<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />{" "}
+                    <span className="corr">erquickende</span> Seel<span className="orig doublehyphen oblique">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />{" "}
                     <span className="orig"></span>
                     <span className="corr">
                       <br className="lb" />{" "}
@@ -294,7 +294,7 @@ export default function page() {
                     haben – O! Wie wohl wie innig wohl wird’s uns{" "}
                     <br className="lb" />{" "}
                     dann be<span className="orig">ÿ</span>
-                    <span className="corr">y</span>'m neuen Antrieb zum wiederholten{" "}
+                    <span className="corr">y</span>’m neuen Antrieb zum wiederholten{" "}
                     <br className="lb" />{" "}
                     gemeinschaftlichen <span className="orig">Danck</span>
                     <span className="corr">Dank</span> werden, und wir werden{" "}
@@ -304,7 +304,7 @@ export default function page() {
                     <span className="orig">Hülﬀe</span>
                     <span className="corr">Hülfe</span> Gottes, zum Glauben,{" "}
                     <span className="orig">hoﬀen</span>
-                    <span className="corr">Hoﬀen</span> und Ver<span className="orig doublehyphen">⹀</span>
+                    <span className="corr">Hoﬀen</span> und Ver<span className="orig doublehyphen oblique">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     trauen{" "}
                     <span className="orig">
@@ -359,14 +359,16 @@ export default function page() {
           mir, und ich würde mir versündigen wann ich{" "}
           <span className="orig">jezt</span><span className="corr">jetzt</span><br className="lb" />{" "}
           noch sorgen <span className="orig">wolte</span><span className="corr">wollte</span>: be<span className="orig">ÿ</span>
-<span className="corr">y</span>
- den vielen und großen Vor<span className="orig doublehyphen">⹀</span><br className="g.enc.tagsdecl.hyphenation.divis" />
+<span className="corr">y</span>{" "}
+ den vielen und großen Vor<span className="orig doublehyphen oblique">⹀</span><br className="g.enc.tagsdecl.hyphenation.divis" />
           theilen so mir durch Gottes Güte zu Theil werden –<br className="lb" />{" "}
           weg also mit allen <span className="orig">Bedencklichkeiten</span><span className="corr">Bedenklichkeiten</span>! weg mit allen<br className="lb" />{" "}
           Sorgen! <span style={{textDecoration: 'underline'}}>Froh</span>,{" "}
           <span style={{textDecoration: 'underline'}}>ruhig</span> und{" "}
-          <span style={{textDecoration: 'underline'}}>getro<span className="orig">ﬅ</span>
-<span className="corr">st</span></span> iﬅ{" "}
+          <span style={{textDecoration: 'underline'}}>getro<span className="orig"><span className="orig">ﬅ</span>
+<span className="corr">st</span></span>
+ i<span className="orig">ﬅ</span>
+<span className="corr">st</span>{" "}
           <span className="orig">jezt</span><span className="corr">jetzt</span> mein{" "}
           <span style={{textDecoration: 'underline'}}>Wahlspruch</span><span className="orig" /><span className="corr">.</span>
           <a id="mark.003.e">{/*anchor*/}</a>
@@ -383,15 +385,16 @@ export default function page() {
           schwerlich <span className="orig">heüte</span><span className="corr">heute</span> damit fertig werden; doch will ich
           <span className="damage" /> mein<br className="lb" />{" "}
           <span className="orig">be<span className="orig">ﬅ</span>
-<span className="corr">st</span>es</span><span className="corr">Beﬅes</span> thun und{" "}
+<span className="corr">st</span>es</span><span className="corr">Be<span className="orig">ﬅ</span>
+<span className="corr">st</span>es</span> thun und{" "}
           nun wieder mit frischen Muth anfangen<span className="orig" /><span className="corr">.</span><br className="lb" />{" "}
           <span className="makierung"><span className="persName">Schwe<span className="orig">ﬅ</span>
 <span className="corr">st</span>er Märcker</span></span> und{" "}
           <span className="makierung"><span className="orig">CreißEinnehmers</span><span className="corr">Kreiseinnehmers</span></span> sind unten am<br className="lb" />{" "}
-          Caﬀee trinken und haben mir schon <span className="orig">ruﬀen</span><span className="corr">rufen</span> <span className="orig">laßen</span><span className="corr">lassen</span>.
+          Caﬀee trinken und haben mir schon <span className="orig">ruﬀen</span><span className="corr">rufen</span> <span className="orig">laßen</span><span className="corr">lassen</span>.</span>
         </p>
         <p>
-          Du mein herzlichgeliebter Gatte! muß<span className="orig" /><span className="corr">t</span>
+          Du mein herzlichgeliebter Gatte! muß <span className="orig strikethrough">h</span><span className="orig" /><span className="corr">t</span>
           <span style={{textDecoration: 'line-through'}}></span> mit diesen<br className="lb" />{" "}
           in der Eil geschriebenen Brief vorlieb nehmen und{" "}
           <span className="orig">heüte</span><span className="corr">heute</span><br className="lb" />{" "}
@@ -405,22 +408,24 @@ export default function page() {
           der liebe Gott seÿe<br className="lb" />{" "}
           Dir recht nahe, <span className="orig">beschüze</span><span className="corr">beschütze</span> und erhalte Dich! <br className="lb" />{" "}
           Nun ni<span className="orig">m̅</span>
-<span className="corr">mm</span> noch diese<span className="damage"><span className="gap">[...]</span><span className="supplied" id="supplied.text002"></span></span>tlichen Kuß von Deine<br className="lb" />{" "}
+<span className="corr">mm</span> noch diese<span className="damage"><span className="gap">[...]</span><span className="supplied" id="supplied.text002"></span></span><span className="corr">{" "}zäertlichen</span><span className="orig">tlichen</span> Kuß von Deine<br className="lb" />{" "}
           <div className="dateline-left">
             <span className="placeName">Ruhrorth</span> am{" "}
-            <span className="date">10 {" "}<sup style={{textDecoration: 'underline'}}>ten</sup>{" "}
-              <span className="abbr"> Sept</span><span className="expan">Sept<span className="ex">ember</span></span></span>
+            <span className="date">10 {" "}<sup className="hochgestellt underline" >ten</sup>{" "}
+              <span className="abbr"> Sept</span><span className="expan">Sept<span className="ex">ember</span></span>
+              <span className="damage"><span className="gap"> [...]</span></span>
+              </span>
           </div>
-          <span className="damage"><span className="gap"> [...]</span></span>
-          <div className="signed-space">
-            <br />
+          <div className="text-right-up">
+          <div className="signed-space " style={{paddingLeft: "220px"}}>
             <span className="orig">treüe</span><span className="corr">treue</span> Dich
-            herzlich liebende<span style={{display: 'inline-block'}}>&nbsp;</span>
+            herzlich<span className="orig">^</span><span className="corr"></span>liebende<span style={{display: 'inline-block'}}>&nbsp;</span>
           </div>
-          <div className="signed-space">
-            <span className="persName">Luise Engels{" "}
-              <span className="g.enc.tagsdecl.suspension.type2"> (geb.)</span><span className="expan">geb{" "}<span className="ex">orene</span></span>{" "}
+          <div className="signed-space " style={{paddingLeft: "220px"}}>
+            <span className="">Luise Engels{" "}
+              <span className="g.enc.tagsdecl.suspension.type2" style={{display: "inline"}}> <span className="orig">gb</span></span><span className="expan">geb<span className="ex">orene</span></span>{" "}
               {" "}Noot</span>.
+              </div>
           </div>
         </div>
       
