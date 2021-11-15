@@ -49,7 +49,36 @@ export default function page() {
                       <h3>
                         <span className="headingNumber">1.1. </span>
                       </h3>
-                      <p className="g.enc.tagsdecl.wd.vertical-right">
+                      <p className="g.enc.tagsdecl.wd.vertical-right orig text-right"  style={{ paddingRight: "250px"}}>
+                        <span className="address ">
+                          An den DomCandidaten
+                          <br className="lb" />{" "}
+                          Herrn
+                            <span className="g.rend.script.latin">
+                              {" "}
+                              Snetlage
+                            </span>
+                            <br className="lb" />{" "}
+                            <span className="small">
+
+                            Wohlgeboren{" "}
+                            <br />
+                            <span className="underline">
+                              frei.
+                            </span>{" "}
+                            in
+                            <br className="lb" />{" "}
+                          </span>
+                          <span
+                            className="wave"
+                            className="underline sans"
+                          >
+                            Berlin.-
+                          </span>
+                          <br />
+                        </span>
+                      </p>
+                      <p className="g.enc.tagsdecl.wd.vertical-right corr">
                         <span className="address ">
                           An den DomCandidaten
                           <br className="lb" />{" "}
@@ -117,10 +146,10 @@ export default function page() {
                       <a id="teaser.part.001.s">{/*anchor*/}</a>Freue Dich mit
                       mir, innig<span className="orig">ﬅ</span>
                       <span className="corr">st</span> geliebter{" "}
-                      <span className="persName">Karl</span>,{" "}
+                      <span className="persName">Karl</span>
                     </span>
                   </span>
-                    der
+                  ,{" "}der
                     <br className="lb" />{" "}
                     liebe Gott hat un<span className="orig">ſ</span>
                     <span className="corr">s</span>er{" "}
@@ -392,9 +421,9 @@ export default function page() {
                     <span style={{marginLeft: "30px",}}></span>
                     Deinen lieben Brief vom{" "}
                     <span className="date">
-                      16.
+                      16.{" "}
                       <span className="g.rend.script.latin">
-                        <span className="abbr"> Nov.</span>
+                        <span className="abbr">Nov.</span>
                         <span className="expan">
                           Nov<span className="ex">ember</span>
                         </span>
@@ -410,7 +439,8 @@ export default function page() {
                     <br className="lb" />{" "}
                     <span className="orig">J</span>
 <span className="corr">I</span>ch will mich{" "}
-                    <sup className="sup" id="txt.add001">
+<span className="orig">⦦</span>
+                    <sup  id="txt.add001">
                       aber
                     </sup>{" "}
                     <span className="orig">beßern</span>
@@ -594,7 +624,7 @@ export default function page() {
                     </span>
                   </p>
                   <p className="enc.tagsdecl.indent-medium">
-                    Da hat <span className="orig">ſ</span>
+                    <small className="orig">s</small>Da hat <span className="orig">ſ</span>
                     <span className="corr">s</span>o eben{" "}
                     <span className="persName">
                       Eli<span className="orig">ſ</span>

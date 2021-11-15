@@ -90,7 +90,7 @@ export default function page() {
                   <span className="orig">
                     Her<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
-                    zens<span style={{ display: "inline-block" }}></span>{" "}
+                    zens<span className="orig" style={{ display: "inline-block" }}>^</span>{" "}
                     tippel
                   </span>
                   <span className="corr">
@@ -112,7 +112,7 @@ export default function page() {
                   <span className="expan">
                     u<span className="ex">nd</span>
                   </span>{" "}
-                  er mir ans Herz gewach<span className="orig">ſ</span><span className="corr">s</span>en <span className="orig">ſ</span><span className="corr">s</span>e<span className="orig">ÿ</span>
+                  er mir ans Herz gewach<span className="orig">ſ</span><span className="corr">s</span>en <span className="orig">ſ</span><span className="corr">s</span>e<span className="orig">ÿ<small>t</small></span>
 <span className="corr">y</span>d,{" "}
                   <span className="abbr"> u.</span>
                   <span className="expan">
@@ -160,7 +160,7 @@ export default function page() {
                     <br className="lb" />{" "}
                     wenn ich gerne zärtlich mit Dir,{" "}
                     <br className="lb" />{" "}
-                    Du altes liebes Ge<span className="orig">ſ</span><span className="corr">s</span>icht wäre. –<br className="lb" />{" "}
+                    <small className="orig">w</small>Du altes liebes Ge<span className="orig">ſ</span><span className="corr">s</span>icht wäre. –<br className="lb" />{" "}
                     Hör<span className="orig">ﬅ</span><span className="corr">st</span> Du, Du läßt meine Briefe
                     <br className="lb" />{" "}
                     nicht le<span className="orig">ſ</span><span className="corr">s</span>en, nicht wahr?<a id="mark.001.e">{/*anchor*/}</a>
@@ -186,7 +186,7 @@ export default function page() {
                   <br className="lb" />{" "}
                   all’ den Kleinen bleiben <span className="orig">ſ</span><span className="corr">s</span>oll, und
                   <br className="lb" />{" "}
-                  weiß vor Plai<span className="orig">ſ</span><span className="corr">s</span>ir darüber nicht wohin.
+                  weiß vor <small className="orig">p</small><b className="orig">P</b><span className="corr">P</span>lai<span className="orig">ſ</span><span className="corr">s</span>ir darüber nicht wohin.
                   <br className="lb" />{" "}
                   <a id="annot.001.s">{/*anchor*/}</a>Nun bald haben wir ja
                   zwei,{" "}
@@ -536,13 +536,13 @@ export default function page() {
                       <span className="corr"><sup className="double-underline">ten</sup>{" "}</span>
                     </span>
                     <span className="g.rend.script.latin">
-                      <span className="abbr">Aug.</span>{" "}
+                      <span className="abbr">Aug.</span>
                       <span className="expan">
                         Aug<span className="ex">ust</span>
                       </span>
                     </span>
                   </span>
-                  in <span className="placeName">Ha<span className="orig">m̅</span>
+                  {" "}in <span className="placeName">Ha<span className="orig">m̅</span>
 <span className="corr">mm</span></span> <span className="orig">ſ</span><span className="corr">s</span>e<span className="orig">ÿ</span>
 <span className="corr">y</span>n könnte damit
                   <br className="lb" />{" "}
@@ -597,20 +597,12 @@ export default function page() {
                 </blockquote>
                 <div className="closer">
                   <span className="corr" style={{paddingLeft: "20px",}}></span>
-                  Grüße Eltern <span className="abbr"> u.</span>
-                  <span className="expan">
-                    u<span className="ex">nd</span>
-                  </span>{" "}
-                  Ge<span className="orig">ſ</span><span className="corr">s</span>chwister herzlich <br className="lb" />{" "}
-                  <div className="enc.tagsdecl.indent-small signed">
-                    von Deinem treuen <br className="lb-detail" />{" "}
-                    <span style={{ display: "inline-block" }} width="4words">
-                      &nbsp;
-                    </span>
-                    <span style={{marginLeft: "150px",}}></span>
-                    <span className="glyph">
-                      <sup>.</sup>//.
-                    </span>
+                  Grüße Eltern und Ge<span className="orig">ſ</span><span className="corr">s</span>chwister herzlich <br className="bn" />{" "}
+                  <span className="corr" style={{paddingLeft: "390px",}} /> von deinem treuen
+                  <div className="enc.tagsdecl.indent-small ">
+                    <span style={{marginLeft: "220px",}}></span>
+                    <span className="glyph">//.</span>
+                    <span className="corr" style={{paddingLeft: "450px",}} />
                     <span className="g.rend.script.latin">Friedrich</span>.
                   </div>
                 </div>

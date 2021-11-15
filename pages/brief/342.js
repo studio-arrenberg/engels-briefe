@@ -576,7 +576,7 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chließen, und den{" "}
                     <span className="underline">untern</span> extra
-                    <br className="lb" /> Wirbel{" "}
+                    <br className="lb" /> <span class="makierung">Wirbel</span>{" "}
                     <span className="underline">nicht</span> herum drehen,{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>o daß ich von außen mit
@@ -602,7 +602,7 @@ export default function page() {
                       Eli<span className="orig">ſ</span>
                       <span className="corr">s</span>e
                     </span>
-                    ; grüße die 3 Töchter <span className="orig">ſ</span>
+                    ; grüße die <span className="makierung">3 Töchter</span> <span className="orig">ſ</span>
                     <span className="corr">s</span>o{" "}wie{" "}
                     <span
                       className="strike-through"
@@ -650,9 +650,9 @@ export default function page() {
                   </div>
                   <br className="lb" />{" "}
                   <p>
-                    Einlage an <span className="persName">Hermann</span> laß mit
-                    bei<span className="orig">ſ</span>
-                    <span className="corr">s</span>chließen
+                    Einlage an <span className="persName">Hermann</span> laß mit{" "}
+                    <span className="makierung">bei<span className="orig">ſ</span>
+                    <span className="corr">s</span>chließen</span>
                   </p>
                 </div>
                 <div
