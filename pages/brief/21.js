@@ -352,13 +352,13 @@ export default function page() {
                     </span>
                     <span className="corr">
                       Gegen
-                      <br className="lb" />{" "}
+                      <br className="lb" />
                       gruß
                     </span>{" "}
                     melden.
                   </p>
 
-                  <p className="enc.tagsdecl.indent-medium">
+                  <p className="">
                     <span className="reisen ">
                       <span className="orig">nun</span>
                       <span className="corr">Nun</span> meine Liebe Frau{" "}
@@ -443,10 +443,10 @@ export default function page() {
                       <span className="g.rend.script.latin">Caspar</span>
                     </span>
                     <span className="damage">
-                      <span className="gap"> [...]</span>{" "}
+                      {" "}
                       <span className="supplied">
-                        <span className="hide-normalisiert">⟨</span>ent<span className="orig">ſ</span>
-                        <span className="corr">s</span>chuldigen<span className="hide-normalisiert">⟩</span>
+                        <span className="hide-normalisiert"></span>ent<span className="orig">ſ</span>
+                        <span className="corr">s</span>chuldigen<span className="hide-normalisiert"></span>
                       </span>
                     </span>{" "}
                     und mit einem kurzen Brief
@@ -498,7 +498,7 @@ export default function page() {
                     <div className="">
                       <span className="persName">
                         <span className="g.rend.script.latin">
-                          Casper Engels
+                          Casper Engels<span className="horizontal-right"></span>
                         </span>
                       </span>
                     </div>{" "}
@@ -512,7 +512,7 @@ export default function page() {
                     {/* <div className="dateline dateline-bottom"> */}
                       <span className="g.rend.script.latin">
                         <span className="g.enc.tagsdecl.suspension.type1-withpoint orig">
-                          d.</span>
+                          d</span>
                         <span className="expan">
                           d<span className="ex">en</span>
                         </span>
@@ -522,7 +522,7 @@ export default function page() {
                       {" "}
                       <span className="g.rend.script.latin">
                         <span className="abbr">
-                          {" "}7<sup>ber</sup></span>
+                          {" "}7<sup className="">ber</sup><span className="doublehyphen einzug">⹀</span></span>
                         <span className="expan" />
                       </span>{" "}
                       1791
@@ -534,7 +534,7 @@ export default function page() {
                     Dem guten{" "}<span className="makierung">
                     <span className="g.enc.tagsdecl.suspension.type1-withpoint">
                       {" "}
-                      Hr.</span>
+                      Hr</span>
                     <span className="expan">
                       H<span className="ex">er</span>r
                       <span className="ex">n</span>

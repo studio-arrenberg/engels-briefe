@@ -63,7 +63,7 @@ export default function page() {
                   
                     Nach meinem Wun<span className="orig">ſ</span><span className="corr">s</span>ch, und nach meiner Hoffnung
                     <br className="lb" /> <span className="orig">ſ</span><span className="corr">s</span>ind Sie, wenn Sie die<span className="orig">ſ</span><span className="corr">s</span>en Brief
-                    erhalten, von Ihrer <span className="makierung">Sÿnodal-Rei<span className="orig">ſ</span><span className="corr">s</span>e</span>
+                    erhalten, von Ihrer <span className="makierung"><span className="g.rend.script.latin">Sÿnodal</span>-Rei<span className="orig">ſ</span><span className="corr">s</span>e</span>
                     <br className="lb" /> ge<span className="orig">ſ</span><span className="corr">s</span>und und{" "}
                     <span className="orig">glüklich</span>
                     <span className="corr">glücklich</span>{" "}
@@ -125,13 +125,13 @@ export default function page() {
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span> <span className="orig">ſ</span>
                     
-                    <span className="corr">s</span>ie aber von aller 
+                    <span className="corr">s</span>ie aber von aller{" "}
                     <span className="orig">Schmeicheleÿ</span>
                     <span className="corr">Schmeicheley</span> 
                     
-                    <br className="lb" /> und 
+                    <br className="lb" /> und{" "}
                     <span className="orig">Heucheleÿ,</span>
-                    <span className="corr">Heucheley,</span> 
+                    <span className="corr">Heucheley,</span>{" "}
                      <span className="orig">ſ</span><span className="corr">s</span>o wie von allem{" "}
                     <span className="orig">Stoltz</span>
                     <span className="corr">Stolz</span> weit entfernt;{" "}
@@ -157,7 +157,7 @@ export default function page() {
                       Was ihre Ge<span className="orig">ſ</span><span className="corr">s</span>innungen
                       <br className="lb" />{" "}
                       <span className="orig">betrift</span>
-                      <span className="corr">betrifft</span>, <span className="orig">ſ</span><span className="corr">s</span>o glaube ich, es{" "}
+                      <span className="corr">betrifft</span>,{" "}<span className="orig">ſ</span><span className="corr">s</span>o glaube ich, es{" "}
                       <span className="orig">ſ</span><span className="corr">s</span>agen zu dürfen, daß ihr Chri<span className="orig">ﬅ</span><span className="corr">st</span>enthum aufrichtig,
                       <br className="lb" /> und nicht nur oberflächig, <span className="orig">ſ</span><span className="corr">s</span>ondern
                       fe<span className="orig">ﬅ</span><span className="corr">st</span> und tief gegründet i<span className="orig">ﬅ</span><span className="corr">st</span>; Es i<span className="orig">ﬅ</span><span className="corr">st</span> ihr
@@ -224,10 +224,10 @@ export default function page() {
                     <br className="lb" /> <span className="orig">ſ</span><span className="corr">s</span>ie hat, <span className="orig">ſ</span><span className="corr">s</span>oviel ich weiß, 3 Brüder und
                     2 Schwe<span className="orig">ﬅ</span><span className="corr">st</span>ern; der <span className="makierung">ältere Bruder</span> <br className="lb" /> i<span className="orig">ﬅ</span><span className="corr">st</span>{" "}
                     <span className="makierung">
-                    Ober<span className="orig doublehyphen">⹀</span>Saltz<span className="orig"></span>
+                    OberSaltz<span className="orig"></span><span className="orig doublehyphen">⹀</span>
                     <span className="corr">-</span>
                     <span className="g.rend.script.latin">Inspector</span></span>, und
-                    Zoll-Einnehmer in{" "}
+                    Zoll<span className="corr">-</span>Einnehmer in{" "}
                     <span className="g.rend.script.latin">Ruhrorth</span>; <span className="orig">Zweÿ</span>
                     <span className="corr">Zwey</span> {" "}
                     <span className="orig">ſ</span><span className="corr">s</span>ehr ein<span className="orig doublehyphen">⹀</span>
@@ -253,7 +253,7 @@ export default function page() {
                         gleichfalls in{" "}
                         <span className="g.rend.script.latin">Ruhrorth</span>,
                         und mit
-                        <br className="lb" /> einer <span className="makierung">Karthaus</span> von{" "}
+                        <br className="lb" /> einer <span className="makierung g.rend.script.latin">Karthaus</span> von{" "}
                         <span className="g.rend.script.latin">Hagen</span>{" "}
                         verheirathet; <span className="makierung">der dritte</span> noch unverheirathete
                         <br className="lb" /> be<span className="orig">ſ</span><span className="corr">s</span>orgt die Ge<span className="orig">ſ</span><span className="corr">s</span>chäfte der <span className="makierung">älteren

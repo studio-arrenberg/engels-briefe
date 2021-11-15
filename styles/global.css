@@ -1012,9 +1012,8 @@ img {
 }
 
 .vergleichs-ansicht .persName{
-  font-family: "Gibson-Light";
+  /* font-family: "Gibson-Light"; */
   /* font-size: 80%; */
-
 }
 
 .vergleichs-ansicht .corr,
@@ -1048,6 +1047,11 @@ img {
 .vergleichs-ansicht .unclear + .unclear {
   display: none;
 }
+
+.vergleichs-ansicht .horizontal-right {
+  margin-right: 40px;
+}
+
 
 
 .enc\.tagsdecl\.indent-verysmall  {
@@ -1888,6 +1892,10 @@ p > span .latin {
 }
 
 .detail-ansicht .g\.enc\.tagsdecl\.suspension\.type1-withpoint {
+  display: none;
+}
+
+.detail-ansicht .g\.enc\.tagsdecl\.suspension\.type3without {
   display: none;
 }
 

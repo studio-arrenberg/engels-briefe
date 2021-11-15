@@ -300,6 +300,7 @@ export default function page() {
                       </span>
                       ;{" "}
                     </span>{" "}
+                    <span className="religion">
                     <a id="mark.004.s">{/*anchor*/}</a>für mich{" "}
                     <span className="abbr"> L.</span>
                     <span className="expan">
@@ -668,6 +669,7 @@ export default function page() {
                       </span></span>{" "}
                     
                     muß.
+                    </span>
                   </p>
                 </div>
 
@@ -679,7 +681,9 @@ export default function page() {
                     paddingBottom: "470px",
                   }}
                 >
+                  <span className="religion">
                   <p>
+                    
                     Silvester wurde hier in{" "}
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
@@ -923,7 +927,7 @@ export default function page() {
                     <span className="corr">die</span> Verwunderung darüber daß
                     ich als ein <span className="orig">Junges</span>
                     <span className="corr">junges</span>
-                    <br className="lb" /> Madchen nicht tanzte war von allen
+                    <br className="lb" /> Madchen nicht tanzte war von allen{" "}
                     <span className="unclear">^</span>
                     <span className="g.enc.tagsdecl.suspension.type1">
                       <span className="orig">seit</span>
@@ -1038,7 +1042,9 @@ export default function page() {
                     </span>
                     .<a id="mark.002.e">{/*anchor*/}</a>
                     <a id="mark.004.e">{/*anchor*/}</a>
+                    
                   </p>
+                  </span>
                   <blockquote className="closer">
                     <p>
                       <span className="abbr"> D.</span>
@@ -1055,7 +1061,7 @@ export default function page() {
                       <span className="expan">
                         S<span className="ex">chwester</span>
                       </span>{" "}
-                      Jacobi empfiehl ich mich aufs Herzlich
+                      <span className="g.rend.script.latin">Jacobi</span> empfiehl ich mich aufs Herzlich
                       <span className="orig">
                         <span className="orig">ﬅ</span>
                         <span className="corr">st</span>
