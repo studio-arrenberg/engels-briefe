@@ -51,7 +51,7 @@ export default function page() {
                       <span className="placeName">Hagen</span>{" "}
                       <span className="date">
                         5<span className="corr">.</span>{" "}
-                        <span className="g.enc.tagsdecl.suspension.type3">
+                        <span className="g.enc.tagsdecl.suspension.type3without">
                           {" "}
                           Jan.
                         </span>
@@ -90,14 +90,14 @@ export default function page() {
                         {" "}
                         F
                         <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
-                          <sup className="underline">in</sup>
-                          <span className="orig doublehyphen">⹀</span>
+                          <sup className="">in</sup>
+                          <span className="orig doublehyphen einzug" >⹀</span>
                           <span className="corr">.</span>
                         </span>
                       </span>
                       <span className="expan">
                         F<span className="ex">reund</span>
-                        <sup class="double-underline">in</sup>
+                        <sup class="underline">in</sup>
                         <span className="corr">,</span>
                       </span>
                     </div>
@@ -259,7 +259,7 @@ export default function page() {
                       <span class="insertion">
                         <sup style={{ marginLeft: "10px" }}> {" "}2{" "} </sup>
                       </span>{" "}
-                      
+                      bitte ich dich{" "}
                       <span id="txt.perm002.a">
                         in{" "}
                         <span class="insertion">
@@ -271,7 +271,7 @@ export default function page() {
                         </span>{" "}
                         Jahr{" "}
                       </span>
-                      bitte ich dich{" "}
+                      
                       <br className="lb" /> <span className="orig">ſ</span>
                       <span className="corr">s</span>ehr, und gebe dir{" "}
                       <span className="g.enc.tagsdecl.suspension.type1">
@@ -665,8 +665,8 @@ export default function page() {
                       </span>
                       <span className="expan">
                         trag<span className="ex">en</span>
-                      </span>{" "}
-                    </span>
+                      </span></span>{" "}
+                    
                     muß.
                   </p>
                 </div>
@@ -703,7 +703,8 @@ export default function page() {
                     <span className="expan">
                       groß<span className="ex">en</span>
                     </span>{" "}
-                    Ball gefeÿert
+                    Ball gefe<span className="orig">ÿ</span>
+<span className="corr">y</span>ert
                     <span className="orig" />
                     <span className="corr">.</span>
                     <br className="lb" /> Lieb
@@ -775,7 +776,7 @@ export default function page() {
                     </span>
                     , <span className="orig">Daß</span>
                     <span className="corr">daß</span> ich mich für der{" "}
-                    <span className="makierung">Versuchung </span> fürchtete,
+                    <span className="makierung">Versuchung</span>{" "}fürchtete,
                     <br className="lb" /> weil ich n
                     <span className="overwritten">i</span>
                     <span className="add">o</span>ch nicht einmal, seitdem ich{" "}
@@ -1003,7 +1004,7 @@ export default function page() {
                       {" "}
                       F
                       <span className="g.enc.tagsdecl.cc.abbr-period-sup ">
-                        <sup className="double-underline">din</sup>
+                        <sup className="">din</sup><span className="orig doublehyphen einzug">⹀</span>
                       </span>
                     </span>
                     <span className="expan">
@@ -1096,13 +1097,13 @@ export default function page() {
                     <span className="corr">Freundin</span>, und behalte{" "}
                     <span className="orig">Lieb</span>
                     <span className="corr">lieb</span>
-                    <div className="signed" style={{ paddingLeft: "380px" }}>
+                    <div className="signed" style={{ paddingLeft: "300px" }}>
                       <span style={{ display: "inline-block" }} width="12cm">
                         &nbsp;
                       </span>
                       Deine <span className="orig">treüe</span>
                       <span className="corr">treue</span> aufrichtige
-                      <br className="lb" />{" "}
+                      <br className="lb-detail" />{" "}
                       <span style={{ display: "inline-block" }} width="12cm">
                         &nbsp;
                       </span>
@@ -1129,7 +1130,7 @@ export default function page() {
               Sinnesänderung und Lebensgestaltung eines Christen nach den Regeln
               Christi, innerlich durch das Wirken des Heiligen Geistes und
               äußerlich durch fromme Taten. Sie gilt als ein allmählich zur
-              Vollendung fortschreitendes Werk.<br /> (Pierer’s Universal-Lexikon der Vergangenheit und Gegenwart oder Neuestes encyclopädisches Wörterbuch der Wissenschaften, Künste und Gewerbe. Vierte, umgearbeitete und stark vermehrte Auflage, Band 8. Altenburg 1859, S. 175-176.)
+              Vollendung fortschreitendes Werk.<br /> (Pierer’s Universal-Lexikon der Vergangenheit und Gegenwart oder Neuestes encyclopädisches Wörterbuch der Wissenschaften, Künste und Gewerbe. Vierte, umgearbeitete und stark vermehrte Auflage, Band 8. Altenburg 1859, S. 175–176.)
             </p>
           </div>
 
@@ -1155,9 +1156,8 @@ export default function page() {
           >
             <hr />
             <label>Versuchung</label>
-            <p>
-              Tanzen besaß im 19. Jh. (und darüber hinaus) eine potentiell
-              erotische Bedeutung und galt in streng pietistischen Kreisen somit
+            <p>          
+              Tanz wurde im 19. Jh stark mit Erotik assoziiert und galt in streng pietistischen Kreisen somit
               als Gefahr und Versuchung zur Sünde.
             </p>
           </div>

@@ -71,15 +71,15 @@ export default function page() {
                       <span style={{ marginLeft: "250px" }}></span>
                       <span className="placeName">Barmen</span>{" "}am{" "}
                       <span className="date">
-                        25ten<span className="corr">.</span>{" "}<br className="lb-detail"/>
-                        <span style={{ marginLeft: "300px" }}></span><span className="">
+                        25<sup className="double-underline hochgestellt">ten</sup><span className="corr">.</span>{" "}<br className="lb-detail"/>
+                        <span style={{ marginLeft: "300px" }}></span><span className="sans orig">
                           {" "}
                           Octob.
                         </span>
                         <span className="expan">
                           Okto<span className="ex">ber</span>
-                        </span>
-                        1792
+                        </span>{" "}
+                        <span className="underline">1792</span>
                       </span>
                     </div>
                   </div>
@@ -99,7 +99,8 @@ export default function page() {
                     {" "}<br className="lb" />
                     aus <span className="placeName">Schwalbach</span> muß al<span className="orig">ſ</span><span className="corr">s</span>o
                     Unterwegens liegen ge<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
-                    blieben <span className="orig">ſ</span><span className="corr">s</span>eÿn –{" "}
+                    blieben <span className="orig">ſ</span><span className="corr">s</span>e<span className="orig">ÿ</span>
+<span className="corr">y</span>n –{" "}
                     <span className="reisen">
                       <a id="mark.001.s">{/*anchor*/}</a>
                       wie groß war meine{" "}
@@ -259,7 +260,10 @@ export default function page() {
                     auch <span className="makierung">Kramsvogel</span> gepackt habe, um{" "}
                     <span className="makierung"><span className="persName">Bruder Wilhelm</span></span>{" "}
                     {" "}<br className="lb" />
-                    zu <span className="orig">ſ</span><span className="corr">s</span>chicken, kon̅te ich nicht.{" "}
+                    zu <span className="orig">ſ</span><span className="corr">s</span>chicken, ko<span className="orig">n̅</span>
+<span className="corr">nn</span>te ich nicht.{" "}
+                    <span className="orig">meinen</span>
+                    <span className="corr">Meinen</span> Brief
                   </p>
                   <span className="reisen">
                     <span className="politik">
@@ -270,8 +274,7 @@ export default function page() {
                       <span style={{ display: "inline-block" }} width="1cm">
                         &nbsp;
                       </span>
-                      <span className="orig">meinen</span>
-                      <span className="corr">Meinen</span> Brief
+                      
                       <span className="orig">ſ</span><span className="corr">s</span>o ich un<span className="orig">ſ</span><span className="corr">s</span>erer Ab<span className="orig">ſ</span><span className="corr">s</span>prache gemäß nach<span className="placeName"> Manheim</span> adre<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>irt
                       {" "}<br className="lb" />
                       hatte, hoﬀe ich wir<span className="orig">ﬅ</span><span className="corr">st</span> Du <span className="orig">jezt</span>
@@ -322,6 +325,7 @@ export default function page() {
                       <span style={{ display: "inline-block" }} width="2cm">
                         &nbsp;
                       </span>
+                      <span clasName="orig" style={{paddingRight: "20px"}}></span>
                       Un<span className="orig">ſ</span><span className="corr">s</span>erer Vermuthung nach wir<span className="orig">ﬅ</span><span className="corr">st</span> Du{" "}
                       <span className="orig">Heüte</span>
                       <span className="corr">heute</span>
@@ -421,7 +425,7 @@ export default function page() {
                   {/* Insert Page 4 */}
                   <span className="religion">
                     <p>
-                      3<sup className="underline">ten</sup>{" "}
+                      3<sup className="underline hochgestellt">ten</sup>{" "}
                       Vers vorkämen,{" "}
                       <span className="orig">könte</span>
                       <span className="corr">könnte</span> man <span className="orig">ſ</span>
@@ -539,9 +543,7 @@ export default function page() {
                     {" "}<br className="lb" />
                     wohl <span className="orig">ſ</span><span className="corr">s</span>ehen, ich brauche es Dir al<span className="orig">ſ</span><span className="corr">s</span>o nicht er<span className="orig">ﬅ</span><span className="corr">st</span> zu ver<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
                     <span className="orig">ſ</span><span className="corr">s</span>ichern.
-                  </p>
-                  <div className="closer">
-                    Das Blatt i<span className="orig">ﬅ</span><span className="corr">st</span> voll, ich Dir mein Be<span className="orig">ﬅ</span><span className="corr">st</span>er! al<span className="orig">ſ</span><span className="corr">s</span>o
+                    <span className="horizontal"></span>Das Blatt i<span className="orig">ﬅ</span><span className="corr">st</span> voll, ich Dir mein Be<span className="orig">ﬅ</span><span className="corr">st</span>er! al<span className="orig">ſ</span><span className="corr">s</span>o
                     {" "}<br className="lb" />
                     <span className="orig">jezt</span>
                     <span className="corr">jetzt</span>{" "}
@@ -552,6 +554,10 @@ export default function page() {
                     <span style={{ display: "inline-block" }} width="13cm">
                       &nbsp;
                     </span>
+                  </p>
+                  <div className="closer">
+                    
+                    
                     <div className="signed-morespace">
                       Lui<span className="orig">ſ</span><span className="corr">s</span>e Engels{" "}
                       <span className="g.enc.tagsdecl.cc.abbr-colon">geb<span className="orig">:</span>
@@ -672,7 +678,7 @@ export default function page() {
             <hr />
             <label>die Sache […] getrieben</label>
             <p>
-            Knieriem (Die Herkunft des Friedrich Engels. Briefe aus der Verwandschaft 1791-1847. Trier 1991, S.106, Anm.1 zu Dokument 28) verweist auf eine Auseinandersetzung der Barmer Garnnahrungsgenossen mit dem Elberfelder Kaufmann Johann Peter Schlickum (1758–1841). Gegen Schlickum wurde bei den kurfürstlichen Behörden der Vorwurf des Verstoßes gegen den Eid der Garnnahrungsgenossen erhoben. Er hatte einen Bandwebstuhl herstellen lassen und ins Elsass bringen lassen wollen, wo er Anteile an einer Firma der Bandfabrikation hielt, und zudem versucht, Facharbeiter abzuwerben. Letztlich ohne Erfolg trugen die Barmer ihre Klage gegen die unliebsame Konkurrenz für das französische Absatzgebiet nicht nur in Düsseldorf bei den zuständigen Stellen vor, sondern auch am kurfürstlichen Hof in München. (Vgl. Anne Sophie Overkamp: Fleiß, Glaube, Bildung. Kaufleute als gebildete Stände im Wuppertal 1760–1840. Göttingen 2020, S. 153–155.) Johann Caspar Engels II war einer der Deputierten. Im Zusammenhang mit dem unten angesprochenen Psalm 36 ist anzunehmen, dass Samuel Collenbusch wünschte, die Sühne des Frevels gegen den Eid der Garnnahrungsgenossen würde im Vordergrund stehen gegenüber entgangenen Gewinnen durch entstehende Konkurrenz.
+            Knieriem (Die Herkunft des Friedrich Engels. Briefe aus der Verwandschaft 1791-1847. Trier 1991, S.106, Anm.1 zu Dokument 28) verweist auf eine Auseinandersetzung der Barmer Garnnahrungsgenossen mit dem Elberfelder Kaufmann Johann Peter Schlickum (1758–1841). Gegen Schlickum wurde bei den kurfürstlichen Behörden der Vorwurf des Verstoßes gegen den Eid der Garnnahrungsgenossen erhoben. Er hatte einen Bandwebstuhl herstellen lassen und wollte ihn ins Elsass bringen, wo er Anteile an einer Firma der Bandfabrikation hielt, und zudem versucht, Facharbeiter abzuwerben. Letztlich ohne Erfolg trugen die Barmer ihre Klage gegen die unliebsame Konkurrenz für das französische Absatzgebiet nicht nur in Düsseldorf bei den zuständigen Stellen vor, sondern auch am kurfürstlichen Hof in München. (Vgl. Anne Sophie Overkamp: Fleiß, Glaube, Bildung. Kaufleute als gebildete Stände im Wuppertal 1760–1840. Göttingen 2020, S. 153–155.) Johann Caspar Engels II war einer der Deputierten. Im Zusammenhang mit dem unten angesprochenen Psalm 36 ist anzunehmen, dass Samuel Collenbusch wünschte, die Sühne des Frevels gegen den Eid der Garnnahrungsgenossen würde im Vordergrund stehen gegenüber entgangenen Gewinnen durch entstehende Konkurrenz.
             </p>
           </div>
 

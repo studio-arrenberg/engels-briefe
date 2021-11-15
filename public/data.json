@@ -7,7 +7,8 @@
             "empfänger" : {"name": "eine Unbekannte Freundin", "ort": "7", "id":"10"},
             "text" : "Ich danke Dir herzlich dafür, daß Du mir schon so bald Nachricht von Dir und den Lieben Deinigen gabst, so kurz dein Brief auch war, so machte er mir doch viele Freude.",
             "digitalisate": {"cover": "", "page": ["FE_01.1.png","FE_01.2.png"]},
-            "audio" :"001.mp3"
+            "audio" :"001.mp3",
+            "abschrift" :"Abschrift von Johann Caspar Engels"
         },
         {
             "id" : "4",
@@ -369,7 +370,7 @@
             "picture":"Berlin.jpg",
             "year":"1829",
             "artist":"Johann Heinrich Hintze",
-            "bildnachweis":"Museum Berlin"
+            "bildnachweis":"Berlin Museum"
         },
         {
             "id":"3",
@@ -450,7 +451,7 @@
             "picture":"Paris.jpg",
             "year":"1854",
             "artist":"Charles Meryon",
-            "bildnachweis":"Französische Nationalbibliothek"
+            "bildnachweis":"Bibliothèque nationale de France"
         },
         {
             "id":"12",

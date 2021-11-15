@@ -696,11 +696,7 @@ export default function page() {
                     <hr />
                     <label>Bündelgeschäft</label>
                     <p>
-                      Bei der Textilproduktion ist zu unterscheiden, ob es sich
-                      um Erzeugnisse handelt, welche aus einem endlosen Faden
-                      bestehen, oder um Erzeugnisse, welche aus mehreren Fäden
-                      gewoben werden. Bei letzterem handelt es sich um ein
-                      Bündel.{" "}
+                    Garn wurde in 'Bündeln' oder auf 'Spulen' gehandelt. Ein 'Bündel' enthielt eine Anzahl von zusammengelegten 'Strähnen' von Garn mit einer bestimmten Länge. Die Garnlänge in einer 'Strähne' und die Anzahl der 'Strähnen' in einem 'Bündel' waren nach Herkunft des Garns unterschiedlich.
                     </p>
                   </div>
                   <div
@@ -711,7 +707,7 @@ export default function page() {
                   >
                     <hr />
                     <label>Spools</label>
-                    <p>Engl. ‚Spulen‘.</p>
+                    <p>Engl. "Spulen".</p>
                   </div>
                   <div
                     className="stellenerläuterung"
@@ -744,7 +740,7 @@ export default function page() {
                   <div
                     className="stellenerläuterung"
                     style={{
-                      top: "1400px",
+                      top: "1390px",
                     }}
                   >
                     <hr />
@@ -753,7 +749,7 @@ export default function page() {
                       Peter Albert Ermen (1800–1887), Teilhaber der Firma Ermen
                       & Engels in Manchester und Engelskirchen, zog sich 1852
                       aus der Geschäftsführung zurück. Ab 1831 verheiratet mit
-                      Sarah Forster (1806–?).
+                      <br />Sarah Forster (1806–?).
                     </p>
                   </div>
                   <div
@@ -764,12 +760,12 @@ export default function page() {
                   >
                     <hr />
                     <label>disponible</label>
-                    <p>frz. ‚verfügbar‘.</p>
+                    <p>Frz. "verfügbar".</p>
                   </div>
                   <div
                     className="stellenerläuterung"
                     style={{
-                      top: "1520px",
+                      top: "1500px",
                     }}
                   >
                     <hr />
@@ -818,7 +814,7 @@ export default function page() {
                     <label>albernen Contrakt</label>
                     <p>
                       Knieriem stellt den Sachverhalt schlüssig dar: „Gottfried
-                      Anton Ermen“ hatte 1853 ein Grundstück mit Wassergefälle
+                      Anton Ermen hatte 1853 ein Grundstück mit Wassergefälle
                       in Stein an der Sieg erworben. Hier sollte eine neue
                       Baumwollspinnerei mit 16.000 Spindeln eingerichtet werden.
                       Die Aufwendungen dafür sollten durch Friedrich Engels sen.
@@ -827,8 +823,7 @@ export default function page() {
                       Anton Ermen kurz vor dem Vertragsschluss mit Friedrich
                       Engels sen. an einer Kölner Spinnereigesellschaft
                       beteiligte und dort auch das Wassergefälle an der Sieg
-                      einbrachte. (Knieriem, S. 641. [Hervorhebungen im
-                      Original.])
+                      einbrachte." (Michael Knieriem (Hg.): Die Herkunft des Friedrich Engels. Trier 1991, S. 641. )
                     </p>
                   </div>
                   <div
@@ -861,7 +856,7 @@ export default function page() {
                     <label>Gas</label>
                     <p>
                       Barmen besaß seit 1848 Gasanschluss – 10 Jahre später als
-                      Elberfeld (vgl. Knieriem, S. 564, Anm. 3 zu Brief 305b).
+                      Elberfeld (vgl. Michael Knieriem (Hg.): Die Herkunft des Friedrich Engels. Trier 1991, S. 564, Anm. 3 zu Brief 305b).
                     </p>
                   </div>
                   <div
@@ -874,7 +869,7 @@ export default function page() {
                     <label>3 Töchter</label>
                     <p>
                       Gemeint sind die drei noch lebenden gemeinsamen Töchter
-                      Marie Engels (1824–1901), Hedwig Engels (1830–1904) und
+                      Marie Engels (1824–1901), Hedwig Engels (1830–1904) und<br />
                       Elise Engels (1834–1912).
                     </p>
                   </div>
@@ -886,7 +881,7 @@ export default function page() {
                   >
                     <hr />
                     <label>beischließen</label>
-                    <p>einen Brief (an einen Dritten) beilegen.</p>
+                    <p>Einen Brief (an einen Dritten) beilegen.</p>
                   </div>
                 </div>
               </section>

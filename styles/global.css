@@ -852,6 +852,10 @@ img {
   margin-bottom: 30px;
 }
 
+.abschrift{
+  font-size: 60%;
+}
+
 
 .tapbar {
   position: fixed;
@@ -1412,6 +1416,11 @@ p > span .latin {
   display: inline;
 }
 
+.vergleichs-ansicht .g\.enc\.tagsdecl\.suspension\.type1-withpoint:after {
+  content: "ƺ.";
+  display: inline;
+}
+
 .g\.enc\.tagsdecl\.suspension\.type2 {
   display: none;
 }
@@ -1430,6 +1439,16 @@ p > span .latin {
   display: inline;
 }
 
+.vergleichs-ansicht .g\.enc\.tagsdecl\.suspension\.type3without:after {
+  content: "∮";
+  display: inline;
+}
+
+.vergleichs-ansicht .einzug{
+  margin-left: -10px;
+  font-size: 60%;
+  margin-right: 5px;
+}
 
 .vergleichs-ansicht .insertion{
   text-decoration: underline;
@@ -1445,7 +1464,9 @@ p > span .latin {
   display: inline;
 }
 
-
+.vergleichs-ansicht .oblique{
+  font-style: oblique;
+}
 
 
 .vergleichs-ansicht .overwritten{
@@ -1688,9 +1709,6 @@ p > span .latin {
   /* align-items: flex-end; */
 }
 
-.underline{
-  text-decoration: underline;
-}
 
 
 .orte img {
@@ -1771,10 +1789,19 @@ p > span .latin {
   padding-left: 280px;
 }
 
+.vergleichs-ansicht .horizontal{
+  padding-right: 20px;
+}
+
+
 
 /* Detail Ansicht */
 .detail-ansicht .nopadding{
   padding-right: 0px !important;
+}
+
+.detail-ansicht .nopadding-left{
+  padding-left: 400px !important;
 }
 
 .detail-ansicht .dateline{
@@ -1783,7 +1810,16 @@ p > span .latin {
 
 .detail-ansicht .hochgestellt{
   vertical-align: super;
+  text-decoration: 'none !important'
 }
+
+
+.detail-ansicht .text-right-up{
+  text-align: right;
+  margin-top: -20px !important;
+}
+
+
 
 .detail-ansicht .lb-detail{
   display: block !important;  

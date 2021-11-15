@@ -66,7 +66,7 @@ export default function page() {
                     erhalten, von Ihrer <span className="makierung">Sÿnodal-Rei<span className="orig">ſ</span><span className="corr">s</span>e</span>
                     <br className="lb" /> ge<span className="orig">ſ</span><span className="corr">s</span>und und{" "}
                     <span className="orig">glüklich</span>
-                    <span className="corr">glücklich</span>
+                    <span className="corr">glücklich</span>{" "}
                     <span className="orig">zurückgekom̅en;</span>
                     <span className="corr">zurückgekommen;</span>
                      {" "}
@@ -93,7 +93,7 @@ export default function page() {
                     </span>{" "}
                     ihr natürlicher{" "}
                     <span className="g.rend.script.latin">Character</span> i<span className="orig">ﬅ</span><span className="corr">st</span>{" "}
-                    aufrichtig, gefällig, <span className="orig">zuvorkom̅end,</span><span className="corr">zuvorkommmend,</span>
+                    aufrichtig, gefällig, <span className="orig">zuvorkom̅end,</span><span className="corr">zuvorkommend,</span>
                     <br className="lb" /> und gar nichts fordernd, <span className="makierung">meine Frau</span>,
                     und ich, wir haben in der
                     <br className="lb" /> <span className="orig">gantzen</span>
@@ -222,15 +222,15 @@ export default function page() {
                     <span className="corr">Person</span>, deren <span className="orig">ſ</span><span className="corr">s</span>ie Ur<span className="orig">ſ</span><span className="corr">s</span>ache
                     hätte, <span className="orig">ſ</span><span className="corr">s</span>ich zu <span className="orig">ſ</span><span className="corr">s</span>chämen.
                     <br className="lb" /> <span className="orig">ſ</span><span className="corr">s</span>ie hat, <span className="orig">ſ</span><span className="corr">s</span>oviel ich weiß, 3 Brüder und
-                    2 Schwe<span className="orig">ﬅ</span><span className="corr">st</span>ern; der <span className="makierung">ältere Bruder</span> <br className="lb" /> i<span className="orig">ﬅ</span><span className="corr">st</span>
+                    2 Schwe<span className="orig">ﬅ</span><span className="corr">st</span>ern; der <span className="makierung">ältere Bruder</span> <br className="lb" /> i<span className="orig">ﬅ</span><span className="corr">st</span>{" "}
                     <span className="makierung">
-                    OberSaltz<span className="orig"></span>
+                    Ober<span className="orig doublehyphen">⹀</span>Saltz<span className="orig"></span>
                     <span className="corr">-</span>
                     <span className="g.rend.script.latin">Inspector</span></span>, und
                     Zoll-Einnehmer in{" "}
                     <span className="g.rend.script.latin">Ruhrorth</span>; <span className="orig">Zweÿ</span>
                     <span className="corr">Zwey</span> {" "}
-                    <span className="orig">ſ</span><span className="corr">s</span>ehr ein =
+                    <span className="orig">ſ</span><span className="corr">s</span>ehr ein<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />trägliche
                     und ehrenvolle <span className="makierung">Bedienungen</span>; <span className="orig">ſ</span>
                     <span className="makierung">
@@ -243,12 +243,12 @@ export default function page() {
                         <span className="corr">y</span>te
                       </span>
                       <span className="corr">
-                        zwe
+                      <span className="corr">y</span>te
                         <span className="orig">
-                          <span className="corr">y</span>te
+                          
                         </span>{" "}
                         </span>{" "}
-                        <span className="makierung">Bruder</span> i<span className="orig">ﬅ</span><span className="corr">st</span> <span className="makierung"><span className="orig">Creiß Einnehmer</span>
+                        <span className="makierung">Bruder</span> i<span className="orig">ﬅ</span><span className="corr">st</span> <span className="makierung"><span className="orig">Creiß<span className="orig doublehyphen">⹀</span>Einnehmer</span>
                         <span className="corr">Kreis-Einnehmer</span></span>{" "}
                         gleichfalls in{" "}
                         <span className="g.rend.script.latin">Ruhrorth</span>,
@@ -272,12 +272,12 @@ export default function page() {
                           aufmerk<span className="orig">ſ</span><span className="corr">s</span>ahm auf <span className="orig">ſ</span><span className="corr">s</span>ich
                           <br className="lb" /> <span className="orig">ſ</span><span className="corr">s</span>elb<span className="orig">ﬅ</span><span className="corr">st</span>, und auf Gottes Wort
                           geworden, und hegt den ern<span className="orig">ﬅ</span><span className="corr">st</span>lichen Wun<span className="orig">ſ</span><span className="corr">s</span>ch <span className="orig">ſ</span><span className="corr">s</span>ich
-                          <br className="lb" /> zu be<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>ern; die <span className="makierung">jüngere Schwe<span className="orig">ﬅ</span><span className="corr">st</span>er</span>
+                          <br className="lb" /> zu be<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>ern; die <span className="makierung">jüngere Schwe<span className="orig">ﬅ</span><span className="corr">st</span>er</span>{" "}
                           i<span className="orig">ﬅ</span><span className="corr">st</span>{" "} an Herrn{" "}
                           <span className="g.rend.script.latin">
                             <span className="makierung">Doctor <span className="persName">Maercker</span></span>
                           </span>{" "}
-                          in <span className="g.rend.script.latin">Hagen</span>{" "}verheirathet —;
+                          in <span className="g.rend.script.latin">Hagen</span>{" "}<br />verheirathet —;
                   </p>
                   <p className="enc.tagsdecl.indent-medium">
                     Dieß mein Werthe<span className="orig">ﬅ</span><span className="corr">st</span>er! wäre{" "}
@@ -332,7 +332,7 @@ export default function page() {
                     </div>
 
                     
-                    <div className="signed-right">
+                    <div className="signed-right nopadding-left">
                     Ihr aufrichtiger Freund <br className="lb" />
                       <span className="persName">
                         <span className="abbr"> Fr.</span>

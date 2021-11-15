@@ -54,7 +54,7 @@ export default function page() {
                             {" "}Mad
                             <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
                               <sup>e</sup>
-                              ..
+                              <span className="doublehyphen einzug">⹀</span>
                             </span>
                           </span>
                           <span className="expan">
@@ -197,9 +197,9 @@ export default function page() {
                       <span className="add">
                         <span className="orig">ﬅ</span>
                         <span className="corr">st</span>
-                      </span>{" "}
+                      </span>
                       <span className="strike-through" style={{ textDecoration: "line-through" }}>
-                        möge<span className="orig">ﬅ</span>
+                      {" "}möge<span className="orig">ﬅ</span>
                         <span className="corr">st</span>
                       </span>, und deine Ruhe
                       <br className="lb" />{" "} und dein Wohlbefinden{" "}
@@ -338,7 +338,7 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ehr{" "}
                     <span className="orig">Lieb</span>
-                    <span className="corr">lieb</span> ge
+                    <span className="corr">lieb</span> ge<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />wonnen, und
                     beide Brüder erwarten verlangend je eher{" "}
                     <br className="lb" />{" "} je{" "}
@@ -347,7 +347,7 @@ export default function page() {
                     <span className="orig">Laßen</span>
                     <span className="corr">lassen</span> Ihren herzlichen{" "}
                     <span className="orig">
-                      gegen =
+                      gegen<span className="orig doublehyphen">⹀</span>
                       <br className="g.enc.tagsdecl.hyphenation.eq" />Gruß
                     </span>
                     <span className="corr">
@@ -380,7 +380,7 @@ export default function page() {
                       <span className="corr">s</span>agen{" "}
                       <span className="orig">kan</span>
                       <span className="corr">kann</span>.{" "}
-                      <a id="mark.004.s">{/*anchor*/}</a>ich habe mit dir
+                      <a id="mark.004.s">{/*anchor*/}</a>Ich habe mit dir
                       <br className="lb" />{" "} um 8 Uhr <span className="orig">gebäten</span>
                       <span className="corr">gebeten</span>, und werde{" "}
                       <sup className="sup">nun</sup> mit dir in Gedanken und im
@@ -487,7 +487,7 @@ export default function page() {
                     className="closer"
                     style={{
                       textAlign: "right",
-                      marginRight: "30px",
+                      marginRight: "230px",
                     }}
                   >
                     Dein ewig verbundner und{" "}
@@ -502,18 +502,37 @@ export default function page() {
                         </span>
                       </span>
                     </div>{" "}
-                    <br className="lb" />{" "}{" "}
-                    <span style={{ display: "inline-block" }} width="1lines">
+                    
+                    {/* <span style={{ display: "inline-block" }} width="1lines">
                       &nbsp;
                     </span>{" "}
                     <span style={{ display: "inline-block" }} width="6words">
                       &nbsp;
-                    </span>
+                    </span> */}
+                    {/* <div className="dateline dateline-bottom"> */}
+                      <span className="g.rend.script.latin">
+                        <span className="g.enc.tagsdecl.suspension.type1-withpoint orig">
+                          d.</span>
+                        <span className="expan">
+                          d<span className="ex">en</span>
+                        </span>
+                      </span>{" "}
+                      <span className="orig">9</span>
+                      <span className="corr">9. September</span>
+                      {" "}
+                      <span className="g.rend.script.latin">
+                        <span className="abbr">
+                          {" "}7<sup>ber</sup></span>
+                        <span className="expan" />
+                      </span>{" "}
+                      1791
+                    {/* </div> */}
                     
                   </div>
+                  <br className="lb-detail"/>
                   <p>
                     Dem guten{" "}<span className="makierung">
-                    <span className="g.enc.tagsdecl.suspension.type1">
+                    <span className="g.enc.tagsdecl.suspension.type1-withpoint">
                       {" "}
                       Hr.</span>
                     <span className="expan">
@@ -551,24 +570,7 @@ export default function page() {
                     viel Liebe und Hochachtung für dich
                     <br className="lb" />{" "} hat, bat mich eben, dich zu grüßen.
                   </p>
-                  <div className="dateline dateline-bottom">
-                      <span className="g.rend.script.latin">
-                        <span className="g.enc.tagsdecl.suspension.type1">
-                          (d.</span>
-                        <span className="expan">
-                          d<span className="ex">en</span>
-                        </span>
-                      </span>{" "}
-                      <span className="orig">9</span>
-                      <span className="corr">9. September</span>
-                      {" "}
-                      <span className="g.rend.script.latin">
-                        <span className="abbr">
-                          {" "}7<sup>ber</sup></span>
-                        <span className="expan" />
-                      </span>{" "}
-                      1791
-                    </div>
+                  
                 </div>
               </section>
             </div>

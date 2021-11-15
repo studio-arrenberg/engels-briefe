@@ -20,6 +20,8 @@
 
 <span className="orig doublehyphen">⹀</span>
 
+<span className="orig doublehyphen einzug">⹀</span>
+
 <span className="orig doublehyphen">⹀</span>
 <span className="corr">I</span>
 
@@ -32,6 +34,8 @@
 className="double-underline"
 
 style={{paddingTop: "20px",}}
+
+<span clasName="orig" style={{paddingRight: "20px"}}></span>
 
 1 Religion
 2 Reisen

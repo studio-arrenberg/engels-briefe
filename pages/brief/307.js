@@ -328,7 +328,7 @@ export default function page() {
                       <span className="expan">
                         u<span className="ex">nd</span>
                       </span>{" "}
-                      <span className="persName">Hannchen</span>,
+                      <span className="persName"><span className="makierung">Hannchen</span></span>,
                       <br className="lb" /> die bei Dir angekommen{" "}
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>eÿn werden.
@@ -447,9 +447,7 @@ export default function page() {
             <hr />
             <label>kein Aufschlag […] Gegenteil</label>
             <p>
-              Friedrich Engels sen. erwartet eine Gewinneinbuße beim
-              Seidenverkauf, wobei unter ‚Aufschlag‘ eine behördlich angeordnete
-              Abgabe zu verstehen ist (z.B. Zoll).
+            Unter 'Aufschlag' ist eine behördlich angeordnete Abgabe zu verstehen (z.B. Zoll). Stattdessen erwartet Friedrich Engels sen. eine Gewinneinbuße beim Seidenhandel durch einen niedrigen Verkaufspreis.
             </p>
           </div>
           <div
@@ -464,6 +462,18 @@ export default function page() {
               Über den Gastwirt in London ist nichts Näheres bekannt. Es gab in
               der Stadt hunderte Hotels, Gasthäuser und privat vermietete
               Gästezimmer in verschiedenen Kategorien.
+            </p>
+          </div>
+          <div
+            className="stellenerläuterung push-right"
+            style={{
+              top: "1535px",
+            }}
+          >
+            <hr />
+            <label>Hannchen</label>
+            <p>
+            Susanne Christine Johanne, genannt „Hannchen“, Lipka, geb. van Haar (1802–1864), Schwester von Elise Engels, geb. van Haar, und Tante von Friedrich Engels jun. 1824 Heirat mit Heinrich Adolph Lipka (1792–1829).
             </p>
           </div>
         </div>

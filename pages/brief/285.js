@@ -166,7 +166,7 @@ export default function page() {
                     <br className="lb" /> <a id="mark.001.s">{/*anchor*/}</a>
                     <span className="business">
                     <a id="mark.002.s">{/*anchor*/}</a>
-                    <span className="religion">
+                    <span className="religion"><span className="makierung">
                       <a id="annot.002.s">{/*anchor*/}</a>Wohl erhob{" "}
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>ich im Fabriken
@@ -176,7 +176,7 @@ export default function page() {
                       <span className="expan">
                         u<span className="ex">nd</span>
                       </span>{" "}
-                      Handlungsgebiet ein Sturm <span className="orig">ſ</span>
+                      Handlungsgebiet ein Sturm <span className="orig">ſ</span></span>
                       <span className="corr">s</span>o heftig, daß
                       <br className="lb" /> <span className="orig">ſ</span>
                       <span className="corr">s</span>elb
@@ -287,7 +287,7 @@ export default function page() {
                     <br className="lb" /> der Ausleerung hat.{" "}
                     <a id="teaser.part.001.s">{/*anchor*/}</a>
                     Ihr
-                    <span className="persName"> Friedrich</span>, der{" "}
+                    <span className="persName"> <span className="makierung">Friedrich</span></span>, der{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chon jetzt{" "}
                     <span className="orig">ſ</span>
@@ -845,8 +845,18 @@ export default function page() {
               Düsseldorf geprägte Kurant-, d. h. durch den Metallwert gestützte,
               Münze des frühen 19. Jahrhunderts. Sollten Reichstaler – wie hier
               – in Bergisch Courant umgerechnet werden, musste der etwas
-              geringere Wert des bergischen Geldes berücksichtigt werden. Wohl
-              erhob sich im Fabriken- und Handlungsgebiet […] zusammenstürzten.]
+              geringere Wert des bergischen Geldes berücksichtigt werden.
+            </p>
+          </div>
+          <div
+            className="stellenerläuterung push-right"
+            style={{
+              top: "334px",
+            }}
+          >
+            <hr />
+            <label> Wohl erhob sich im Fabriken- und Handlungsgebiet […] zusammenstürzten.</label>
+            <p>
               Gerhard Bernhard van Haar bezieht sich mutmaßlich auf ein Unwetter
               im Winterhalbjahr 1827/28, das er im biblischen Ton schildert.
             </p>
@@ -882,8 +892,7 @@ export default function page() {
             <hr />
             <label>Schüsselplaggen</label>
             <p>
-              Plagge: niederdt. grasbewachsener Erdflecken; hier rheinisch für
-              Spüllappen.
+            Spüllappen (dialektal).
             </p>
           </div>
           <div
@@ -895,9 +904,9 @@ export default function page() {
             <hr />
             <label>staats</label>
             <p>
-              prächtig, kostbar gekleidet (Rheinisches Wörterbuch,
+              Prächtig, kostbar gekleidet (Rheinisches Wörterbuch,
               digitalisierte Fassung im Wörterbuchnetz des Trier Center for
-              Digital Humanities, Version 3.0
+              Digital Humanities, Version 3.0).
             </p>
           </div>
           <div
@@ -927,7 +936,7 @@ export default function page() {
               Superintendent in Hamm. 1802 Heirat mit Isabella Christina
               Friederike Engels (1780–1834) aus Hamm, nicht verwandt mit der
               Familie Engels aus Barmen. Bernhard van Haar hatte im Frühjahr
-              1826 die Kinder bei sich aufgenommen (vgl. Brief Nr. 285).
+              1826 die Kinder bei sich aufgenommen.
             </p>
           </div>
           <div
@@ -941,6 +950,18 @@ export default function page() {
             <p>
               Auch Friedrichsdor, benannt nach Friedrich dem Großen, war eine
               preußische Goldmünze, die zwischen 1741 und 1855 geprägt wurde.
+            </p>
+          </div>
+          <div
+            className="stellenerläuterung push-right"
+            style={{
+              top: "768px",
+            }}
+          >
+            <hr />
+            <label>Friedrich</label>
+            <p>
+            Friedrich Engels (1820–1895).
             </p>
           </div>
         </div>
