@@ -1789,6 +1789,15 @@ p > span .latin {
   padding-left: 280px;
 }
 
+
+.vergleichs-ansicht .signed-morespace-2{
+  text-align: left;
+  margin-right: 100px;
+  padding-left: 280px;
+  padding-top: 100px;
+}
+
+
 .vergleichs-ansicht .horizontal{
   padding-right: 20px;
 }

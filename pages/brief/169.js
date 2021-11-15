@@ -676,8 +676,7 @@ export default function page() {
                       <span className="expan">
                         u<span className="ex">nd</span>
                       </span>{" "}
-                      uns des Guten freuen, was wir Gott <span className="orig">ſ</span><span className="corr">s</span>e<span className="orig">ÿ</span>
-<span className="corr">y</span> Dank jetzt
+                      uns des Guten freuen, was wir Gott <span /><span className="orig">ſeÿ</span><span className="corr">sey</span> Dank jetzt
                       <br className="lb" />{" "}
                       zu genießen haben, nun wird uns ein wenig Warten
                     </p>
@@ -773,7 +772,7 @@ export default function page() {
                           </span>
                         </span>
                       </span>
-                      <span className="orig">,</span>
+                      <span className="orig">,</span>{" "}
                       <span className="corr" />
                       <span className="placeName">
                         <span className="g.rend.script.latin">Inspruk</span>
@@ -936,7 +935,7 @@ export default function page() {
                         <span className="orig ">ﬅ</span><span className="gap"> <span class="gap-x "> xxxxx</span></span>
                       </span>{" "}
                       <span className="corr">st</span>
-                      <span className="corr">[...]</span>
+                      <span className="corr">[...]{" "}</span>
                       <sup className="sup" id="txt.add001">
                         im Vergleich mit
                       </sup>{" "}
@@ -980,9 +979,9 @@ export default function page() {
                       <span className="expan">
                         M<span className="ex">inchen</span>
                       </span></span>{" "}
-                      <span className="makierung">Sparrenberg</span>{" "}
+                      <span className="makierung">Sparrenberg</span>
                     </span>
-                    
+                    {" "}
                     ein.
                   </p>
                   <p className="enc.tagsdecl.indent-medium" id="mark.012">
@@ -1046,7 +1045,8 @@ export default function page() {
                     </p>
                   </blockquote>
                                     <div className="closer">
-                    <div className="signed-morespace signed-right">Deinen treuen</div>
+                    <div className="signed-morespace-2 signed-right">Deinen treuen</div>
+                    <br />
                   </div>
                   
                   <div className="closer">
@@ -1086,7 +1086,7 @@ export default function page() {
             <hr />
             <label>meinem Oncle</label>
             <p>
-            Benjamin Engels (1751–1820), genannt ‚Patohm’ (Patenonkel), Teilhaber der Firma Caspar Engels Söhne in Barmen. Onkel von Friedrich Engels sen.
+            Benjamin Engels (1751–1820), genannt ‚Pathohm’ (Patenonkel), Teilhaber der Firma Caspar Engels Söhne in Barmen. Onkel von Friedrich Engels sen.
             </p>
           </div>
 
@@ -1125,7 +1125,7 @@ export default function page() {
             <hr />
             <label>Friederike</label>
             <p>
-            Louise Friederike Wilhelmine von Griesheim, geb. van Haar (1789–1880), Schwester von Elise Engels, geb. van Haar <br />(1797–1873) und Tante von Friedrich Engels jun.
+            Louise Friederike Wilhelmine von Griesheim, geb. van Haar <br />(1789–1880), Schwester von Elise Engels, geb. van Haar <br />(1797–1873) und Tante von Friedrich Engels jun.
             </p>
           </div>
 
@@ -1201,9 +1201,9 @@ export default function page() {
             }}
           >
             <hr />
-            <label>Patohm</label>
+            <label>Pathohm</label>
             <p>
-            Benjamin Engels (1751–1820), genannt ‚Patohm‘ (Patenonkel), Teilhaber der Firma Caspar Engels Söhne in Barmen. Onkel des Vaters von Friedrich Engels.
+            Benjamin Engels (1751–1820), genannt ‚Pathohm‘ (Patenonkel), Teilhaber der Firma Caspar Engels Söhne in Barmen. Onkel des Vaters von Friedrich Engels.
             </p>
           </div>
 
@@ -1229,7 +1229,7 @@ export default function page() {
             <hr />
             <label>Ludwig</label>
             <p>
-            Ludwig Leonhard Moritz van Haar (1790–1873 ), preußischer Oberförster in Moers und Xanten. Bruder von Elise Engels, geb. van Haar (1797–1873), und Onkel von Friedrich Engels.
+            Ludwig Leonhard Moritz van Haar (1790–1873), preußischer Oberförster in Moers und Xanten. Bruder von Elise Engels, geb. van Haar (1797–1873), und Onkel von Friedrich Engels.
             </p>
           </div>
 
