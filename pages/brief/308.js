@@ -135,7 +135,7 @@ export default function page() {
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>en Po
                     <span className="orig">ﬅ</span>
-                    <span className="corr">st</span> zu be<span className="orig doublehyphen">⹀</span>
+                    <span className="corr">st</span> zu be
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     nachrichtigen. Zu un<span className="orig">ſ</span>
                     <span className="corr">s</span>rer Freude fanden wir hier
@@ -349,7 +349,7 @@ export default function page() {
                     <br className="lb" /> darüber bald mündlich. Für{" "}
                     <span className="persName makierung">Eduard</span> habe ich die Stelle
                     aus
-                    <br className="g.enc.tagsdecl.hyphenation.divis" /><span className="orig doublehyphen">⹀</span>
+                    <span className="orig doublehyphen">⹀</span><br className="g.enc.tagsdecl.hyphenation.divis" />
                     gemittelt, er muß <span className="orig">ſ</span>
                     <span className="corr">s</span>o gleich abrei
                     <span className="orig">ſ</span>
@@ -361,7 +361,7 @@ export default function page() {
                       <span className="g.rend.script.latin">Hamm</span>
                     </span>{" "}
                     daß er gegen 18
-                    <span className="orig">tƺ</span>.
+                    <sup className="orig">tƺ</sup>.
                      <span className="abbr sans"> Aug</span>
                     <span className="expan">
                       Aug<span className="ex">ust</span>
@@ -394,7 +394,8 @@ export default function page() {
                       u<span className="ex">nd</span>
                     </span>{" "}
                     <span className="orig">ſ</span>
-                    <span className="corr">s</span>eine In
+                    <span className="corr">s</span>eine 
+                    <span className="orig">J</span><span className="corr">I</span>n
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>ruktionen von mir
                     <br className="lb" /> zu empfangen.
@@ -447,18 +448,18 @@ export default function page() {
                   className="page"
                   style={{
                     marginTop: "-20px",
-                    paddingTop: "5px",
+                    paddingTop: "45px",
                     paddingLeft: "80px",
-                    paddingBottom: "180px",
+                    paddingBottom: "150px",
                   }}
                 >
                   {/* Insert Page 2 */}
 
                   <div className="opener">
-                    <span style={{ display: "inline-block", marginLeft: "30px" }} width="4em">
-                      &nbsp;
-                    </span>
+                   
                     <div className="salute" >
+                     <span className="orig" style={{ display: "inline-block", marginLeft: "30px" }} width="4em" />
+                      &nbsp;
                       Liebe <span className="persName">Mutter</span>
                     </div>
                   </div>
@@ -611,12 +612,14 @@ export default function page() {
                     <span style={{ display: "inline-block" }} width="6words">
                       &nbsp;
                     </span>
-                    <div className="signed" style={{marginLeft: "-85px"}}>
+                    <div className="signed orig" style={{marginLeft: "-85px"}}>
                       Dein treuer Sohn
                       <br />{" "}
-                      <span style={{ display: "inline-block" }} width="7words">
-                        &nbsp;
-                      </span>
+                      <div className="persName">Friedrich</div>
+                    </div>
+                    <div className="signed corr" style={{marginLeft: "-85px", textAlign: "right"}}>
+                      Dein treuer Sohn
+                      <br />
                       <div className="persName">Friedrich</div>
                     </div>
                     </p>

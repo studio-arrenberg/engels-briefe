@@ -103,8 +103,8 @@ export default function page() {
                             &nbsp;
                           </span>
                           <span className="xsmall serif">
-                            <span className="expan">
-                              p<span className="ex">e</span><sup>r</sup>.
+                            <span className="">
+                              p<span className="ex">e</span><sup>r</sup><span className="orig>">.</span>
                             </span>
                             <span className="placeName"> Cöln.</span>
                           </span>
@@ -172,7 +172,7 @@ export default function page() {
                       <span className="g.rend.script.latin">Barmen</span>{" "}
                     </span>
                     von <span className="persName makierung">Hermann</span> und{" "}
-                    <span className="persName makierung">Emil</span>. Mit Ver
+                    <span className="persName makierung">Emil</span>. Mit Ver<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     gnügen <span className="orig">ſ</span>
                     <span className="corr">s</span>ah ich daraus, daß es Dir
@@ -300,7 +300,7 @@ export default function page() {
                     <span className="orig">Augenblik</span>
                     <span className="corr">Augenblick</span> hier ₤ 18,000 – in{" "}
                     <span className="makierung">Wech<span className="orig">ſ</span>
-                    <span className="corr">s</span>el{" "}</span>
+                    <span className="corr">s</span>el</span>{" "}
                     <span className="abbr">u.</span>
                     <span className="expan">
                       u<span className="ex">nd</span>
@@ -634,16 +634,18 @@ export default function page() {
 
                     <div  style={{
                       position: "absolute",
-                      right: "120px",
                       width: "200px",
-                      marginTop: "-50px",
+                      marginLeft: "290px",
                       textAlign: "center"
                     }}>
+                      <span className="corr" style={{display: "block", marginTop: "90px!important"}}/>
                       Mit treuer Liebe{" "}
                       <span style={{ display: "inline-block" }} width="13cm">
                         &nbsp;
                       </span>
-                      <div className="">Dein <br className="lb" />{" "}{" "}{" "}Friedrich</div>
+                      <div className="">Dein <br className="lb" />{" "}{" "}{" "}
+                      <span style={{marginLeft: "90px"}} />
+                        Friedrich</div>
                     </div>
                   </div>
                   <br className="lb" />{" "}

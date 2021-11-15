@@ -300,7 +300,7 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>o neu
                     <span className="orig doublehyphen">⹀</span>
-                    <span className="corr">–</span>{" "}wißbegierig i
+                    <span className="corr">‐ –</span>{" "}wißbegierig i
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>, wollte ich{" "}
                     <span className="orig">ſ</span>
@@ -404,7 +404,7 @@ export default function page() {
                     gemüth
                     <span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
-                    lichen <span className="persName"> Herman̅</span> wird die
+                    lichen <span className="persName orig">Herman̅</span><span className="corr">Hermann</span> wird die
                     Zeit kommen, wo er das Eigentliche mit dem Un
                     <span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
@@ -803,7 +803,7 @@ export default function page() {
                     </span>{" "}
                     Achtung der
                     <br className="lb" />{" "}
-                    <div className="signed">
+                    <div className="signed" style={{ paddingLeft: "516px" }}>
                       <span style={{ display: "inline-block" }} width="56em">
                         &nbsp;
                       </span>

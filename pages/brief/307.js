@@ -172,7 +172,7 @@ export default function page() {
                       </span>{" "}
                       aus, und blieben al<span className="orig">ſ</span>
                       <span className="corr">s</span>o{" "}
-                      <span className="abbr"> C<sub>a</sub>.</span>
+                      <span className="abbr"> C<sup>a</sup>.</span>
                       <span className="expan">
                         c<span className="ex">irc</span>a
                       </span>{" "}
@@ -185,7 +185,7 @@ export default function page() {
                       <span className="orig">ﬅ</span>
                       <span className="corr">st</span>e Gefahr,
                       <br className="lb" /> der Aufenthalt kam dadurch daß wir
-                      wegen niedrem{" "}
+                      wegen <span className="orig">niedrem</span><span className="corr">niederm</span>{" "}
                       <span className="orig">Waßer</span>
                       <span className="corr">Wasser</span>
                       <br className="lb" /> bei{" "}
@@ -263,15 +263,17 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chlag</span> wohl aber eher das
                     <br className="lb" /> Gegentheil zu befürchten{" "}
-                    <span className="orig">ſ</span>
-                    <span className="corr">s</span>eÿn.
+                    <span className="orig">ſeÿn</span>
+                    <span className="corr">seyn</span>
                   </p>
                   </span>
                   <p className="enc.tagsdecl.indent-medium">
                     Wir <span className="orig">ſ</span>
-                    <span className="corr">s</span>ind wieder bei un
-                    <span className="orig">ſ</span>
-                    <span className="corr">s</span>rem alten Wirth{" "}
+                    <span className="corr">s</span>ind wieder bei{" "}
+                    <span className="orig">unſrem</span>
+<span className="corr">unserm</span>{" "}
+                    
+                    alten Wirth{" "}
                     <span className="g.enc.tagsdecl.suspension.type1">
                       
                       Hr
@@ -330,13 +332,12 @@ export default function page() {
                       </span>{" "}
                       <span className="persName">Hannchen</span>,
                       <br className="lb" /> die bei Dir angekommen{" "}
-                      <span className="orig">ſ</span>
-                      <span className="corr">s</span>eÿn werden.
+                      <span className="orig">ſeÿn</span>
+                      <span className="corr">seyn</span> werden.
                     </p>
-                  </blockquote>
-                  <div className="closer">
-                    Nun lebe recht wohl, Gott <span className="orig">ſ</span>
-                    <span className="corr">s</span>eÿ mit Dir{" "}
+                 
+                    Nun lebe recht wohl, Gott{" "}
+                    <span className="orig">ſeÿ</span><span className="corr">sey</span> mit Dir{" "}
                     <span className="abbr"> u.</span>
                     <span className="expan">
                       u<span className="ex">nd</span>
@@ -349,14 +350,14 @@ export default function page() {
                       Dein
                       <br className="lb" />{" "}
                       <div className="persName">Friedrich.</div>
-                    </div>
                   </div>
+                  </blockquote>
                 </div>
 
                 <div
                   className="page g.rend.hand.friedrich-engels"
                   style={{
-                    paddingLeft: "80px",
+                    paddingLeft: "25px",
                     paddingTop: "30px",
                     paddingBottom: "30px",
                   }}
@@ -366,9 +367,7 @@ export default function page() {
                     <span className="headingNumber">3. </span>
                   </h2>
                   <div className="opener">
-                    <span style={{ display: "inline-block" }} width="2cm">
-                      &nbsp;
-                    </span>
+                   
                     <a id="teaser.part.001.s">{/*anchor*/}</a>
                     <div className="salute">
                       Liebe <span className="persName">Mutter</span>
@@ -391,24 +390,21 @@ export default function page() {
                       unter mir <span className="orig">ſ</span>
                       <span className="corr">s</span>chwankte – und dem
                       <br className="lb" /> Getö<span className="orig">ſ</span>
-                      <span className="corr">s</span>e um mich herum, daß ich
+                      <span className="corr">s</span>e um mich herum, daß ich {" "}
                       <small className="orig">d</small>Dir nicht viel <span className="orig">ſ</span>
                       <span className="corr">s</span>chreiben kann. <span className="orig">J</span><span className="corr">I</span>ch bin in
                       eine ganz neue Welt ver
                       <span className="orig">ſ</span>
-                      <span className="corr">s</span>etzt.
-                      <a id="teaser.part.001.e">{/*anchor*/}</a>
+                      <span className="corr">s</span>etzt. Lebe recht wohl und grüße Alle recht herzlich von Deinem
                     </p>
-                  </span>
-                  <blockquote className="closer">
-                    <p className="inline">
-                      Lebe recht wohl und grüße Alle recht herzlich von Deinem
-                    </p>
-                  </blockquote>
+                    </span>
                   <div className="closer">
                     
                     <div className="signed">
+                    <span className="orig" style={{display:"inlineBlock", marginLeft:"-70px"}} />
+
                       <span className="persName">Friedrich</span>
+
                     </div>
                   </div>
                 </div>

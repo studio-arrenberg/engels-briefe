@@ -222,18 +222,18 @@ export default function Brief_wrapper(props) {
         {/* brief view */}
         <motion.div
           className="brief_view"
-          // initial="initial"
-          // animate="enter"
-          // exit="exit"
-          // key={`brief-${data.id}`}
-          // variants={constants.animation.section_exit}
+          initial="initial"
+          animate="enter"
+          exit="exit"
+          key={`brief-${data.id}`}
+          variants={constants.animation.section_exit}
         >
           {/* META */}
           <motion.div
             className="meta"
-            // key={`brief-inner-${data.id}`}
-            // variants={constants.animation.post}
-            // layoutId={`${data.id}`}
+            key={`brief-inner-${data.id}`}
+            variants={constants.animation.post}
+            layoutId={`${data.id}`}
           >
             {/* sender */}
             {sen[0].map((item, index) => (
@@ -301,17 +301,17 @@ export default function Brief_wrapper(props) {
           </motion.div>
         <motion.div
           className={`${isView == true ? "vergleichsansicht-true" : "leseansicht-true"}`}
-          // key="briefe-vergleichs-ansicht"
-          // initial="initial"
-          // animate="enter"
-          // exit="exit"
+          key="briefe-vergleichs-ansicht"
+          initial="initial"
+          animate="enter"
+          exit="exit"
           variants={constants.animation.brief} >
           <motion.div
             className="swipewrapper"
-            // key="swipewrapper"
-            // initial="initial"
-            // animate="enter"
-            // exit="exit"
+            key="swipewrapper"
+            initial="initial"
+            animate="enter"
+            exit="exit"
             variants={constants.animation.section_exit}
           >
             <motion.div className="vergleichs-ansicht" >
@@ -404,18 +404,16 @@ export default function Brief_wrapper(props) {
           {/* Tapbar - Navigation */}
           <div className="tapbar">
             <a className={`${isView == true ? "active" : null}`} onClick={() => setView(true)}>
+              <img src={`../icons/vergleichsansicht.svg`} />
               <div >
                 <label>Diplomatische Transkription</label>
-                {/*<p>Betrachten Sie das originale Dokument um es mit der transkribierten Version zu vergleichen.</p>*/}
               </div>
-              <img src={`../icons/vergleichsansicht.svg`} />
             </a>
 
             <a className={`${isView == false ? "active" : null}`} onClick={() => setView(false)}>
             <img src={`../icons/normalisierte-ansicht.svg`} />
               <div>
                 <label>Normalisierte Leseansicht</label>
-                {/*<p>Betrachten Sie den Brief in einer für das Lesen optimierten Ansicht mit zusätzlichen Stellenerläuterungen.</p>*/}
               </div>
             </a>
           </div>

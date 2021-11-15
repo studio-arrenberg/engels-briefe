@@ -282,7 +282,7 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chon der Unter
                     <span className="orig">ſ</span>
-                    <span className="corr">s</span>chlag aus
+                    <span className="corr">s</span>chlag aus<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     gemauert, und zeigt das künftige
                     <br className="lb" />{" "}
@@ -309,8 +309,8 @@ export default function page() {
                     </span>
                     ,<br className="lb" />{" "}
                     da<small className="orig">s</small>ß der 2
-                    <span className="g.enc.tagsdecl.cc.abbr-sup-am double-underline">
-                      <sup>te</sup>.
+                    <span className="g.enc.tagsdecl.cc.abbr-sup-am ">
+                      <sup className="double-underline">te</sup>
                     </span>
                     <span className="corr">te</span>
                     {" "}Lehm aufge<span className="orig">ſ</span>
@@ -349,12 +349,12 @@ export default function page() {
                     läßt jedermann meiner <span className="orig">J</span>
 <span className="corr">I</span>dee Ge<span className="orig doublehyphen">⹀</span>
 <br className="g.enc.tagsdecl.hyphenation.eq" />
-                    rechtigkeit wi<span className="corr">e</span>derfahren.
+                    rechtigkeit widerfahren.
                   </p>
                   <p className="enc.tagsdecl.indent-medium">
                     Wenn nun der 2<span className="corr">te</span>
-                    <span className="g.enc.tagsdecl.cc.abbr-sup-am double-underline">
-                      <sup>te</sup>
+                    <span className="g.enc.tagsdecl.cc.abbr-sup-am">
+                    <sup className="double-underline">te</sup>
                     </span>
                     {" "}Lehm auf
                     <span className="orig doublehyphen">⹀</span>
@@ -415,8 +415,8 @@ export default function page() {
                     <br className="lb" />{" "}
                     als wenn ich ihm
                     <sup className="sup" id="txt.add001"> (dem Pferde)</sup>
-                    <span class="orig" style={{ marginLeft: "-20px" }}></span>
-                    dadurch zu viel
+                    <span class="orig" style={{ marginLeft: "-30px" }}></span>
+                    {" "}dadurch zu viel
                     <br className="lb" />{" "}
                     zumuthete. Doch darüber{" "}
                     <span className="abbr">
@@ -455,7 +455,7 @@ export default function page() {
                     </span>{" "}
                     25<span className="corr">sten</span>
                     <span className="g.enc.tagsdecl.cc.abbr-sup-am">
-                      <sup>sten</sup>⹀
+                      <sup className="double-underline">sten</sup>
                     </span>
                     {" "}
                     <span className="orig">glüklich</span>
@@ -471,7 +471,7 @@ export default function page() {
                     Die We<span className="orig">ﬅ</span>
                     <span className="corr">st</span>en habe ich richtig
                     <br className="lb" />{" "}
-                    gefunden; 
+                    gefunden; {" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ie lagen aber in deiner
                     <br className="lb" />{" "}
@@ -633,7 +633,7 @@ export default function page() {
                         <tr>
                           <td>
                             1{" "}
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span className="double-underline">d{" "}</span><sup style={{ marginLeft: "-5px" }}>o</sup>. </span>
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span >d{" "}</span><sup className="double-underline" style={{ marginLeft: "-5px" }}>o</sup> </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -647,7 +647,7 @@ export default function page() {
                         <tr>
                           <td>
                             1{" "}
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span className="double-underline">d{" "}</span><sup style={{ marginLeft: "-5px" }}>o</sup>. </span>
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span >d{" "}</span><sup className="double-underline" style={{ marginLeft: "-5px" }}>o</sup> </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -661,7 +661,7 @@ export default function page() {
                         <tr>
                           <td>
                             1{" "}
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span className="double-underline">d{" "}</span><sup style={{ marginLeft: "-5px" }}>o</sup>. </span>
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span >d{" "}</span><sup className="double-underline" style={{ marginLeft: "-5px" }}>o</sup> </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -675,7 +675,7 @@ export default function page() {
                         <tr>
                           <td>
                             1{" "}
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span className="double-underline">d{" "}</span><sup style={{ marginLeft: "-5px" }}>o</sup>. </span>
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span >d{" "}</span><sup className="double-underline" style={{ marginLeft: "-5px" }}>o</sup> </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -689,7 +689,7 @@ export default function page() {
                         <tr>
                           <td>
                             1{" "}
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span className="double-underline">d{" "}</span><sup style={{ marginLeft: "-5px" }}>o</sup>. </span>
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span >d{" "}</span><sup className="double-underline" style={{ marginLeft: "-5px" }}>o</sup> </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -703,7 +703,7 @@ export default function page() {
                         <tr>
                           <td>
                             1{" "}
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span className="double-underline">d{" "}</span><sup style={{ marginLeft: "-5px" }}>o</sup>. </span>
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span >d{" "}</span><sup className="double-underline" style={{ marginLeft: "-5px" }}>o</sup> </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -717,7 +717,7 @@ export default function page() {
                         <tr>
                           <td>
                             1{" "}
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span className="double-underline">d{" "}</span><sup style={{ marginLeft: "-5px" }}>o</sup>. </span>
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span >d{" "}</span><sup className="double-underline" style={{ marginLeft: "-5px" }}>o</sup> </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -731,7 +731,7 @@ export default function page() {
                         <tr>
                           <td>
                             1{" "}
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span className="double-underline">d{" "}</span><sup style={{ marginLeft: "-5px" }}>o</sup>. </span>
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span >d{" "}</span><sup className="double-underline" style={{ marginLeft: "-5px" }}>o</sup> </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -745,7 +745,7 @@ export default function page() {
                         <tr>
                           <td>
                             1{" "}
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span className="double-underline">d{" "}</span><sup style={{ marginLeft: "-5px" }}>o</sup>. </span>
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span >d{" "}</span><sup className="double-underline" style={{ marginLeft: "-5px" }}>o</sup> </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -759,7 +759,7 @@ export default function page() {
                         <tr>
                           <td>
                             1{" "}
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span className="double-underline">d{" "}</span><sup style={{ marginLeft: "-5px" }}>o</sup>. </span>
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span >d{" "}</span><sup className="double-underline" style={{ marginLeft: "-5px" }}>o</sup> </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -773,7 +773,7 @@ export default function page() {
                         <tr>
                           <td>
                             1{" "}
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span className="double-underline">d{" "}</span><sup style={{ marginLeft: "-5px" }}>o</sup>. </span>
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span >d{" "}</span><sup className="double-underline" style={{ marginLeft: "-5px" }}>o</sup> </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -787,7 +787,7 @@ export default function page() {
                         <tr>
                           <td>
                             1{" "}
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span className="double-underline">d{" "}</span><sup style={{ marginLeft: "-5px" }}>o</sup>. </span>
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span >d{" "}</span><sup className="double-underline" style={{ marginLeft: "-5px" }}>o</sup> </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -868,12 +868,12 @@ export default function page() {
                         <tr>
                           <td>
                           1{" "}
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span className="double-underline">d{" "}</span><sup style={{ marginLeft: "-5px" }}>o</sup>. </span>
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span >d{" "}</span><sup className="double-underline" style={{ marginLeft: "-5px" }}>o</sup> </span>
                               <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
                           </td>
-                          <td>---</td>
+                          <td style={{ width: "40px" }}>---</td>
                           <td>"</td>
                           <td>7¼</td>
                           <td>"</td>
@@ -883,7 +883,7 @@ export default function page() {
                         <tr>
                           <td>
                           1{" "}
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span className="double-underline">d{" "}</span><sup style={{ marginLeft: "-5px" }}>o</sup>. </span>
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span >d{" "}</span><sup className="double-underline" style={{ marginLeft: "-5px" }}>o</sup> </span>
                       <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -898,7 +898,7 @@ export default function page() {
                         <tr>
                           <td>
                           1{" "}
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span className="double-underline">d{" "}</span><sup style={{ marginLeft: "-5px" }}>o</sup>. </span>
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span >d{" "}</span><sup className="double-underline" style={{ marginLeft: "-5px" }}>o</sup> </span>
     <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -912,8 +912,8 @@ export default function page() {
                         </tr>
                         <tr>
                           <td>
-                            1
-                            <span className="g.enc.tagsdecl.cc.abbr-sup-am">d<sup>o</sup>. </span>
+                          1{" "}
+                            <span className="g.enc.tagsdecl.cc.abbr-sup-am"> <span >d{" "}</span><sup className="double-underline" style={{ marginLeft: "-5px" }}>o</sup> </span>
                             <span className="expan">
                               d<span className="ex">it</span>o
                             </span>
@@ -1026,10 +1026,9 @@ export default function page() {
                     <br className="lb" />{" "}
                     zu wißen, wie viel{" "}
                     <sup className="sup" id="txt.add002">
-                      <span class="orig"  style={{marginRight: "-40px"}} />
                       <span className="g.rend.script.latin">Brunellen</span>
                     </sup>{" "}
-                    du behalten
+                    <span class="orig"  style={{marginRight: "-40px"}} />du behalten
                     <br className="lb" />{" "}
                     mußt, und wie viel ich dem{" "}
                     <a id="annot.016.s">{/*anchor*/}</a>
@@ -1101,8 +1100,8 @@ export default function page() {
                   <p className="enc.tagsdecl.indent-medium">
                     Mit euerer Haushaltung werdet
                     <br className="lb" />{" "}
-                    ihr nun wohl gut in Schuß <span className="orig">ſ</span>
-                    <span className="corr">s</span>eÿn;
+                    ihr nun wohl gut in Schuß <span className="orig">ſeÿn</span>
+<span className="corr">seyn</span>;
                     <br className="lb" />{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>orge nur dafür, liebe{" "}
@@ -1232,7 +1231,7 @@ export default function page() {
                       oft an deinen
                     </p>
                   </blockquote>
-                  <div className="closer" style={{marginLeft: "-90px"}}>
+                  <div className="closer" style={{marginLeft: "-146px"}}>
                     <div className="signed">
                       <span className="glyph">
                         <sup>.</sup>//.
@@ -1430,7 +1429,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "3904px",
+              top: "3830px",
             }}
           >
             <hr />
@@ -1440,7 +1439,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "3990px",
+              top: "3917px",
             }}
           >
             <hr />
@@ -1462,7 +1461,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "4366px",
+              top: "4290px",
             }}
           >
             <hr />
@@ -1475,7 +1474,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "4522px",
+              top: "4445px",
             }}
           >
             <hr />
@@ -1489,7 +1488,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "4583px",
+              top: "4510px",
             }}
           >
             <hr />
@@ -1502,7 +1501,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "4720px",
+              top: "4640px",
             }}
           >
             <hr />
@@ -1515,7 +1514,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "5235px",
+              top: "5162px",
             }}
           >
             <hr />

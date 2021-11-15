@@ -872,7 +872,7 @@ img {
 
 .tapbar a{
   display: flex;
-  width: 550px;
+  width: 450px;
   height: 100%;
   align-items: center;
   padding-left: 20px;
@@ -1435,9 +1435,9 @@ p > span .latin {
   text-decoration: underline;
 }
 
-.vergleichs-ansicht .underline{
+/* .vergleichs-ansicht .underline{
   border-bottom: 1px solid rgb(49, 49, 49) ;
-}
+} */
 
 
 .vergleichs-ansicht br ::before{

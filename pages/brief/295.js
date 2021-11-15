@@ -58,7 +58,7 @@ export default function page() {
                               Adr∮. Mad<sup>m</sup>. de Griesheim
                             </span>
                             <span className="corr">
-                              Adresse: Madame de Griesheim 
+                              Adresse Madame de Griesheim 
                             </span>
                           </span>
                           <br className="lb" />{" "}
@@ -104,7 +104,7 @@ export default function page() {
                   className="page"
                   style={{
                     paddingTop: "75px",
-                    paddingLeft: "260px",
+                    paddingLeft: "140px",
                     paddingBottom: "156px",
                   }}
                 >
@@ -317,7 +317,7 @@ export default function page() {
                     <span className="orgName">
                       <span className="g.rend.script.latin">
                         {" "}
-                        Andrÿ &amp; Guibout
+                        Andr<span className="orig">ÿ</span><span className="corr">y</span> &amp; Guibout
                       </span>
                     </span>
                     , und zu meiner Freude brachte
@@ -471,6 +471,7 @@ export default function page() {
                     <span className="orig">müßen</span>
                     <span className="corr">müssen</span><span class="metamark orig">*</span>
                     <a id="index.xml-anchor-d29e524" />
+                    {" "}
                     <span class="corr">
                       und schon aus dieser Rüksicht will ich mich gerne mit allem bekannt machem um später einen guten Führer abzugeben
                     </span>.{" "}
@@ -490,7 +491,7 @@ export default function page() {
                     <br className="lb" /> es bleibt nichts in der Art zu wün
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chen übrig.
-                    <br className="lb" /> Dabei lebt man hier was für wenig
+                    <br className="lb" /> Dabei lebt man hier<span class="strikethrough">, was</span> für wenig
                     Geld
                     <br className="lb" /> vortrefflich, und{" "}
                     <span className="orig">Speiß</span>
@@ -499,14 +500,13 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ache mit. <span className="orig">J</span><span className="corr">I</span>ch weiß nicht,
                     <br className="lb" /> ob es <span className="orig">am</span>
-                    <span className="corr">an</span> mir oder an den herrlich zu
-                    <br className="g.enc.tagsdecl.hyphenation.divis" />
+                    <span className="corr">an</span> mir oder an den herrlich  <span className="orig">zu</span>                    <br className="g.enc.tagsdecl.hyphenation.divis" />
                     <br />
                     <p>
                       {" "}
-                      <span class="metamark orig">*und schon aus dies er Rük<span className="orig">ſ</span>
+                      <span class="metamark orig">*und <span className="orig">ſ</span>chon aus die<span className="orig">ſ</span>er Rük<span className="orig">ſ</span>
                       <span className="corr">s</span>icht will ich mich gerne mit
-                      allem <br className="lb" /> <span class="orig" style={{ marginLeft: "10px" }}></span>bekannt machƺ um später einen guten Führer abzugebƺ
+                      allem <br className="lb" /> <span class="orig" style={{ marginLeft: "10px" }}></span>bekannt machƺ um ſpäter einen gutƺ Führer abzugebƺ
                       </span>
                     </p></p>
                     <span
@@ -565,7 +565,7 @@ export default function page() {
                 >
                   {/* Insert Page 3 */}
                  
-                    bereiteten Gerichten liegt, ein Gericht{" "}
+                  <span className="corr">zu</span>bereiteten Gerichten liegt, ein Gericht{" "}
                     <span className="orig">
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>chmekt
@@ -771,7 +771,7 @@ export default function page() {
                     <br className="lb" /> daß es mir hier behagt und das macht
                     dir Freude.
                     <br className="lb" /> Um deine Briefe mache kein Couvert
-                    <span className="orig metamark">*</span><span className="corr"> mehr die Adresse behalte aber</span>, <a id="index.xml-anchor-d29e818" />
+                    <span className="orig metamark">*</span><span className="corr"> mehr die Adresse behalte aber <span className="corr">bei</span></span>, <a id="index.xml-anchor-d29e818" />
                     die Hand<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     <span className="orig">ſ</span>
@@ -821,7 +821,7 @@ export default function page() {
                     </span>
                     <span className="corr">aus Boulogne</span> nicht, wo ich
                     eigentlich etwas
-                    <br className="lb" /> Heimweh hatte.
+                    <br className="lb" /> Heimweh hatte. <span className="corr">[...] </span>
                     <span className="damage">
                       <span className="gap"> [...] </span>
                       <span className="supplied">
@@ -887,8 +887,8 @@ export default function page() {
                         <span className="g.rend.script.latin"> Berlin</span>
                       </span>
                       <br className="lb" /> auch nicht unangenehm{" "}
-                      <span className="orig">ſ</span>
-                      <span className="corr">s</span>eÿn. Nun lebe recht wohl{" "}
+                      <span className="orig">ſeÿn</span>
+<span className="corr">seyn</span>. Nun lebe recht wohl{" "}
                       <span className="g.enc.tagsdecl.suspension.type1">
                         Herzensweibch
                       </span>
@@ -974,7 +974,7 @@ export default function page() {
                     </div>
 
                     <span  className="p corr">
-                      PS: Grüße alle dort herzlich von mir, und{" "}
+                      Grüße alle dort herzlich von mir, und{" "}
                         <span className="orig">ſ</span>
                         <span className="corr">s</span>age mir auch ob{" "}
                         <span className="persName">Caspar</span> glücklich mit
@@ -1034,7 +1034,7 @@ export default function page() {
                     <span className="g.rend.script.latin">
                       {" "}
                       An{" "}
-                      <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
+                      <span className=" orig g.enc.tagsdecl.cc.abbr-colon-sup">
                         M<span className="orig">ſ</span>
                         <span className="corr">s</span>
                         <sup>r</sup>.
@@ -1049,11 +1049,8 @@ export default function page() {
                         Adr<span className="ex">esse</span>
                       </span>{" "}
                       <span className="orig">
-                        Meſſ <sup>r</sup>.{" "}
+                        Meſs <sup>r</sup>.{" "}
                       </span>
-                      <span className="corr">
-                        Messieur
-                      </span>{" "}
                       <span className="orgName">
                         Andry &amp;
                         <br className="lb" />{" "}
@@ -1073,9 +1070,6 @@ export default function page() {
                       </span>{" "}
                       Denis
                       <br className="lb bn" />{" "}
-                      <span style={{ display: "inline-block" }} width="2words">
-                        &nbsp;
-                      </span>
                       <span className="placeName " style={{ fontSize: "1.2rem", marginBottom: "-10px" }}>Paris</span>
                     </span>
                   </p>
