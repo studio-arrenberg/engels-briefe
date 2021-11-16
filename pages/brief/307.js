@@ -352,17 +352,6 @@ export default function page() {
                       <div className="persName">Friedrich.</div>
                   </div>
                   </blockquote>
-                </div>
-
-                <div
-                  className="page g.rend.hand.friedrich-engels"
-                  style={{
-                    paddingLeft: "25px",
-                    paddingTop: "30px",
-                    paddingBottom: "30px",
-                  }}
-                  id="index.xml-body.1_div.3"
-                >
                   <h2 className="g.rend.hand.friedrich-engels">
                     <span className="headingNumber">3. </span>
                   </h2>
@@ -408,6 +397,7 @@ export default function page() {
                     </div>
                   </div>
                 </div>
+
               </section>
             </div>
           </div>

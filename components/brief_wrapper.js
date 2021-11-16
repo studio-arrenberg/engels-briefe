@@ -243,8 +243,7 @@ export default function Brief_wrapper(props) {
                     <span className="name">{item.name}</span>
                     <br></br>
                     <span className="name">{item.lebzeit}</span>
-                    <br></br>
-                    <span className="abschrift">{data.abschrift}</span>
+                                    
                     
                   </h2>
                   {/* get the ort */}
