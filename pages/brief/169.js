@@ -226,7 +226,7 @@ export default function page() {
                     marginTop: "50px",
                     paddingTop: "75px",
                     paddingLeft: "110px",
-                    paddingBottom: "105px",
+                    paddingBottom: "75px",
                   }}
                 >
                   {/* Page 2 */}
@@ -341,7 +341,7 @@ export default function page() {
                   style={{
                     paddingTop: "40px",
                     paddingLeft: "110px",
-                    paddingBottom: "85px",
+                    paddingBottom: "65px",
                   }}
                 >
                   {/* Page 3 */}
@@ -911,7 +911,7 @@ export default function page() {
                   style={{
                     paddingTop: "85px",
                     paddingLeft: "110px",
-                    paddingBottom: "228px",
+                    paddingBottom: "120px",
                   }}
                 >
                   {/* Page 6 */}

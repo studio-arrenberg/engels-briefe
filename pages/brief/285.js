@@ -315,7 +315,7 @@ export default function page() {
                   style={{
                     paddingTop: "63px",
                     paddingLeft: "105px",
-                    paddingBottom: "58px",
+                    paddingBottom: "20px",
                     marginBottom: "22px",
                   }}
                 >

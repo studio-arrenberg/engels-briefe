@@ -38,7 +38,7 @@ export default function page() {
                   style={{
                     paddingTop: "100px",
                     paddingLeft: "80px",
-                    paddingBottom: "250px",
+                    paddingBottom: "220px",
                     marginTop: "20px",
                   }}
                 >
@@ -305,7 +305,7 @@ export default function page() {
                   style={{
                     paddingTop: "65px",
                     paddingLeft: "70px",
-                    paddingBottom: "290px",
+                    paddingBottom: "270px",
                     marginTop: "20px",
                   }}
                 >

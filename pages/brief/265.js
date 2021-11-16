@@ -336,7 +336,7 @@ export default function page() {
                     marginTop: "35px",
                     paddingTop: "50px",
                     paddingLeft: "70px",
-                    paddingBottom: "279px",
+                    paddingBottom: "260px",
                   }}
                 >
                   {/* Insert Page 3 */}

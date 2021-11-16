@@ -34,7 +34,7 @@ export default function page() {
                 <section
                   className="kuvert"
                   id="index.xml-body.1_div.1"
-                  style={{ paddingTop: "200px", paddingBottom: "360px" }}
+                  style={{ paddingTop: "200px", paddingBottom: "320px" }}
                 >
                   {/* Insert Kuvert */}
                   <div className="kuvert" id="index.xml-body.1_div.1">
@@ -70,7 +70,7 @@ export default function page() {
                   style={{
                     paddingTop: "15px",
                     paddingLeft: "80px",
-                    paddingBottom: "115px"
+                    paddingBottom: "85px"
                   }}
                 >
                   {/* Insert Page 1 */}

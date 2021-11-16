@@ -9,6 +9,9 @@
 <span className="orig">m̅</span>
 <span className="corr">mm</span>
 
+<span className="orig">n̅</span>
+<span className="corr">nn</span>
+
 <span className="orig">ﬅ</span>
 <span className="corr">st</span>
 
@@ -34,6 +37,8 @@
 className="double-underline"
 
 style={{paddingTop: "20px",}}
+
+g.rend.script.latin
 
 <span clasName="orig" style={{paddingRight: "20px"}}></span>
 
