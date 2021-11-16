@@ -71,15 +71,15 @@ export default function page() {
                       <span style={{ marginLeft: "250px" }}></span>
                       <span className="placeName">Barmen</span>{" "}am{" "}
                       <span className="date">
-                        25<sup className="double-underline hochgestellt">ten</sup><span className="corr">.</span>{" "}<br className="lb-detail"/>
+                        25<sup className="underline hochgestellt">ten</sup><span className="corr"></span>{" "}<br className="lb-detail"/>
                         <span style={{ marginLeft: "300px" }}></span><span className="sans orig">
                           {" "}
                           Octob.
                         </span>
                         <span className="expan">
-                          Okto<span className="ex">ber</span>
+                          Okto<span className="orig">ber</span>
                         </span>{" "}
-                        <span className="underline">1792</span>
+                        <span className="underline">1792.</span>
                       </span>
                     </div>
                   </div>
@@ -551,9 +551,6 @@ export default function page() {
                     <span className="orig">von</span>
                     <span className="corr">Von</span> ganzem Herzen bin ich
                     Deine treue {" "}<br className="lb" />
-                    <span style={{ display: "inline-block" }} width="13cm">
-                      &nbsp;
-                    </span>
                   </p>
                   <div className="closer">
                     

@@ -1022,7 +1022,8 @@ img {
 }
 
 .vergleichs-ansicht .ex {
-  display: none;}
+  display: none;
+}
 
 
 .vergleichs-ansicht .abbr + .expan{
@@ -1458,9 +1459,13 @@ p > span .latin {
 }
 
 .vergleichs-ansicht .underline{
-  border-bottom: 1px solid rgb(49, 49, 49) ;
+  border-bottom: 0.2px solid rgb(49, 49, 49) ;
+  padding-bottom: 1px;
 }
 
+ .underline-white{
+  border-bottom: 1px solid rgb(255, 255, 255) ;
+}
 
 .vergleichs-ansicht br ::before{
   content: "⹀";

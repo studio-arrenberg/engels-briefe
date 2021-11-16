@@ -60,13 +60,13 @@ export default function page() {
                         <br />
                         <span className="small">
                           <span className="">
-                            zur eigenhändigen<br /> <span className="underline">Erbrechung</span> 
+                            zur eigenhändigen<br /> <span className="underline-white">Erbrechung</span> 
                             <span clasName="sans" style={{    marginTop: "-60px",
                                 marginRight: "200px",
                                 display: "block",
                                 textAlign: "center",}}>
                               im 
-                              <br /><span className="underline">Barmen</span>
+                              <br /><span className="underline-white">Barmen</span>
                             </span>
                             </span>
                         </span>
@@ -253,12 +253,12 @@ export default function page() {
                       <span className="corr">.</span>
                     </span>
                     <span className="expan">
-                      Ps<span className="ex">alm</span>
+                      Ps.<span className="orig">alm</span>
                     </span>{" "}
                     66,{" "}
-                    <span className="abbr"> vs</span>
+                    <span className="abbr g.rend.script.latin"> vs</span>
                     <span className="expan">
-                      v<span className="ex">er</span>s
+                      v<span className="orig">er</span>s
                     </span>{" "}
                     20.</span><a id="annot.001.e">{/*anchor*/}</a>
                     <a id="mark.001.e">{/*anchor*/}</a> Wann’s unsren{" "}
@@ -348,8 +348,8 @@ export default function page() {
                 <p>
                   <span className="religion">
           macht mir Muth und <span className="orig">ﬅärckt</span><span className="corr">stärkt</span> mein Vertrauen so daß<br className="lb" />{" "}
-          ich <span style={{textDecoration: 'underline'}}>ruhig</span>{" "}und{" "}
-          <span style={{textDecoration: 'underline'}}><span className="orig">getroﬅ</span>
+          ich <span className="underline">ruhig</span>{" "}und{" "}
+          <span className="underline"><span className="orig">getroﬅ</span>{" "}
 <span className="corr">getrost</span></span> in{" "}
           <a id="annot.002.s">{/*anchor*/}</a>die<a id="annot.002.e">{/*anchor*/}</a>{" "}
           {" "}Zukunft blicke und<br className="lb" />{" "}keine einzige Sorge in meinem Herzen einkehren{" "}
@@ -363,16 +363,16 @@ export default function page() {
  den vielen und großen Vor<span className="orig doublehyphen oblique">⹀</span><br className="g.enc.tagsdecl.hyphenation.divis" />
           theilen so mir durch Gottes Güte zu Theil werden –<br className="lb" />{" "}
           weg also mit allen <span className="orig">Bedencklichkeiten</span><span className="corr">Bedenklichkeiten</span>! weg mit allen<br className="lb" />{" "}
-          Sorgen! <span style={{textDecoration: 'underline'}}>Froh</span>,{" "}
-          <span style={{textDecoration: 'underline'}}>ruhig</span> und{" "}
-          <span style={{textDecoration: 'underline'}}>getro<span className="orig"><span className="orig">ﬅ</span>
-<span className="corr">st</span></span>
+          Sorgen! <span className="underline">Froh</span>,{" "}
+          <span className="underline">ruhig</span> und{" "}
+          <span className="underline">getro<span className="orig"><span className="orig">ﬅ</span>
+<span className="corr">st</span></span></span>{" "}
  i<span className="orig">ﬅ</span>
 <span className="corr">st</span>{" "}
           <span className="orig">jezt</span><span className="corr">jetzt</span> mein{" "}
-          <span style={{textDecoration: 'underline'}}>Wahlspruch</span><span className="orig" /><span className="corr">.</span>
+          <span className="underline">Wahlspruch</span><span className="orig" /><span className="corr">.</span>
           <a id="mark.003.e">{/*anchor*/}</a>
-          </span>
+          
           <br className="lb" />{" "}
           Äußerlich i<span className="orig">ﬅ</span>
 <span className="corr">st</span> es aber nun ungemein unruhig hier{" "}
@@ -394,7 +394,7 @@ export default function page() {
           Caﬀee trinken und haben mir schon <span className="orig">ruﬀen</span><span className="corr">rufen</span> <span className="orig">laßen</span><span className="corr">lassen</span>.</span>
         </p>
         <p>
-          Du mein herzlichgeliebter Gatte! muß <span className="orig strikethrough">h</span><span className="orig" /><span className="corr">t</span>
+          Du mein herzlichgeliebter Gatte! muß<span className="orig strikethrough">h</span><span className="orig" /><span className="corr">[t]</span>
           <span style={{textDecoration: 'line-through'}}></span> mit diesen<br className="lb" />{" "}
           in der Eil geschriebenen Brief vorlieb nehmen und{" "}
           <span className="orig">heüte</span><span className="corr">heute</span><br className="lb" />{" "}
@@ -408,10 +408,10 @@ export default function page() {
           der liebe Gott seÿe<br className="lb" />{" "}
           Dir recht nahe, <span className="orig">beschüze</span><span className="corr">beschütze</span> und erhalte Dich! <br className="lb" />{" "}
           Nun ni<span className="orig">m̅</span>
-<span className="corr">mm</span> noch diese<span className="damage"><span className="gap">[...]</span><span className="supplied" id="supplied.text002"></span></span><span className="corr">{" "}zäertlichen</span><span className="orig">tlichen</span> Kuß von Deine<br className="lb" />{" "}
+<span className="corr">mm</span> noch diese<span className="add"><span className="corr">[</span>n<span className="corr">]</span> </span><span className="damage"><span className="gap">[...]</span><span className="supplied" id="supplied.text002"></span></span><span className="corr">{" "}<span className="corr">[</span>zär<span className="corr">]</span>tlichen</span><span className="orig">tlichen</span> Kuß von Deine<br className="lb" />{" "}
           <div className="dateline-left">
             <span className="placeName">Ruhrorth</span> am{" "}
-            <span className="date">10 {" "}<sup className="hochgestellt underline" >ten</sup>{" "}
+            <span className="date">10<span className="orig">{" "}</span><sup className="hochgestellt underline" >ten</sup>{" "}
               <span className="abbr"> Sept</span><span className="expan">Sept<span className="ex">ember</span></span>
               <span className="damage"><span className="gap"> [...]</span></span>
               </span>
@@ -443,7 +443,7 @@ export default function page() {
             }}
           >
             <hr />
-            <label>Ps: 66, vs 20</label>
+            <label>Ps. 66, vs 20</label>
             <p>
             Psalm 66, 20: „Gelobt sei Gott, der mein Gebet nicht verwirft noch seine Güte von mir wendet.“
 
@@ -453,7 +453,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "2361px",
+              top: "2411px",
             }}
           >
             <hr />
@@ -466,7 +466,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "2446px",
+              top: "2496px",
             }}
           >
             <hr />
@@ -479,7 +479,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "2446px;",
+              top: "2496px;",
             }}
           >
             <hr />
