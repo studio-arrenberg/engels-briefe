@@ -59,11 +59,12 @@ export function Familie({ data }) {
         >
           <div className="item_preview">
             <img src={`../pictures/personen/thumbnails-jpg-50-png-40/${data.picture}`} />
-            <span className="bildnachweis">{data.bildnachweis}</span>
+            <span className="bildnachweis bildnachweis_detail">{data.bildnachweis}</span>
 
             <div className="item_description">
               <h2>{data.name}</h2>
               <p>{data.beschreibung}</p>
+              
             </div>
           </div>
         </motion.div>

@@ -54,12 +54,14 @@ export function Thema() {
             <a onClick={() => useState.setState({ ScrollThemen: window.scrollX })}>
               <div key={data.id} className="item_preview">
                 <img src={`../pictures/themen/thumbnails/${data.picture}`} />
-                <span className="bildnachweis">{data.bildnachweis}</span>  
+                  
 
                 <div className="item_description">
                   <h2>{data.title}</h2>
                   
                   <>{data.kurzbeschreibung.split('\n').map( (it, i) => <p key={'x'+i}>{it}</p> )}</>
+                  
+                  <span className="bildnachweis">{data.bildnachweis}</span>
                 </div>
                 
               </div>

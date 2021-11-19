@@ -445,7 +445,7 @@ export default function Brief_wrapper(props) {
 
                   .map((data) => data.title)}
 
-                <span className="bildnachweis">
+                <span className="bildnachweis bildnachweis_briefansicht">
                   {orte
                     .filter((item) => {
                       return item.id === data.sender.ort;
@@ -472,7 +472,7 @@ export default function Brief_wrapper(props) {
 
                   .map((data) => data.title)}
 
-                <span className="bildnachweis">
+                <span className="bildnachweis bildnachweis_briefansicht">
                   {orte
                     .filter((item) => {
                       return item.id === data.empfänger.ort;

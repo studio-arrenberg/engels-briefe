@@ -55,7 +55,7 @@ export function Thema({ data }) {
         >
           <div key={data.id} className="item_preview">
             <img src={`../pictures/themen/thumbnails/${data.picture}`} />
-            <span className="bildnachweis">{data.bildnachweis}</span>
+            <span className="bildnachweis_detail bildnachweis">{data.bildnachweis}</span>
 
             <div className="item_description">
               <h2>{data.title}</h2>

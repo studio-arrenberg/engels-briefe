@@ -58,12 +58,13 @@ export function Familie({ data }) {
           >
             <a onClick={() => useState.setState({ ScrollFamilie: window.scrollX })}>
               <div className="item_preview">
-                <img src={`../pictures/personen/thumbnails-jpg-50-png-40/${data.picture}`} />
+                <img src={`../pictures/personen/thumbnails-jpg-50-png-40/${data.picture}`} className="picture"/>
 
                 <div className="item_description">
                   <h2>{data.name}</h2>
                   <p>{data.lebzeit}</p>
                   <p>{data.kurzbeschreibung}</p>
+                  <span className="bildnachweis">{data.bildnachweis}</span>
                   <Count id={data.id} />
                 </div>
               </div>
