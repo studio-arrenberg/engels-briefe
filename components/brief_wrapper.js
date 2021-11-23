@@ -322,6 +322,7 @@ export default function Brief_wrapper(props) {
               <motion.div 
                 key="digitalisat1"
                 className="vergleich-l digitalisate"
+                id={data.id}
                 style={{
                   margin: 10,
                   x: x_slow,
