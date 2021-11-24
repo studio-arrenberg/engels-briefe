@@ -858,7 +858,7 @@ export default function page() {
             <label> Wohl erhob sich im Fabriken- und Handlungsgebiet […] zusammenstürzten.</label>
             <p>
               Gerhard Bernhard van Haar bezieht sich mutmaßlich auf ein Unwetter
-              im Winterhalbjahr 1827/28, das er im biblischen Ton schildert.
+              im Winterhalbjahr 1825/26, das er im biblischen Ton schildert.
             </p>
           </div>
           <div
