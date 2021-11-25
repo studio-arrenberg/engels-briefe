@@ -248,7 +248,16 @@
             "kurzbeschreibung":"Das Briefkonvolut dokumentiert Aufbau und Wandel des 1747 von Benjamin Engels in Unterbarmen gegründeten Textilunternehmens und stellt damit zugleich ein wertvolles Zeugnis aus der Zeit der Frühindustrialisierung im bergischen und rheinischen Raum dar.",
             "picture":"geschaeftliches.jpg",
             "bildnachweis":"Fabrik Ermen & Engels mit Villa Engels. Unbek. Künstler. Photographie, 1868. © Archiv Ermen & Engels, LVR-Industriemuseum Engelskirchen"
+        },{
+            "id":"7", 
+            "title":"Friedrich Engels jun.",
+            "slug":"engelsjunior",
+            "beschreibung":"Das Briefkonvolut dokumentiert Aufbau und Wandel des 1747 von Benjamin Engels in Unterbarmen gegründeten Textilunternehmens und stellt damit zugleich ein wertvolles Zeugnis aus der Zeit der Frühindustrialisierung im bergischen und rheinischen Raum dar. Der weitere Aufbau der Manufaktur Caspar Engels Söhne und die Ausweitung der Geschäftsbeziehungen durch den Großvater Johann Caspar (II) werden ebenso thematisch wie die Firmenneugründungen des Vaters Friedrich sen. Dieser trat 1837 aus dem Familienunternehmen aus, gründete seine eigene Seidenhandelsfirma Friedr. Engels & Comp. und zugleich mit dem Fabrikanten Peter Albert Ermen die Baumwollspinnerei Ermen & Engels, mit einer Firmenniederlassung in Engelskirchen und Manchester. Im dortigen Kontor wird Friedrich Engels jun. zunächst zwischen 1842 und 1844 und schließlich von 1850 bis 1869 tätig sein.",
+            "kurzbeschreibung":"Das Briefkonvolut dokumentiert Aufbau und Wandel des 1747 von Benjamin Engels in Unterbarmen gegründeten Textilunternehmens und stellt damit zugleich ein wertvolles Zeugnis aus der Zeit der Frühindustrialisierung im bergischen und rheinischen Raum dar.",
+            "picture":"engelsjunior.jpg",
+            "bildnachweis":"\"Friedrich Engels im Alter von 19 Jahren\". Georg Wilhelm Feistkorn (1811–1843). Bleistiftzeichnung, 1840. Museum Industriekultur Wuppertal © Gerd Neumann | Stadt Wuppertal | Medienzentrum"
         }
+
     ],
     "familie":[
         {
@@ -348,8 +357,8 @@
             "kurzbeschreibung":"Friedrich Engels bereiste als 17-Jähriger 1838 mit seinem Vater erstmals England.",
             "lebzeit":"1820 – 1895",
             "generation": "4",
-            "picture":"Friedrich_Engels_jun.jpg",
-            "bildnachweis":"Fotografie, 1857–1859. Wikimedia Commons"
+            "picture":"engelsjunior.jpg",
+            "bildnachweis":"\"Friedrich Engels im Alter von 19 Jahren\". Georg Wilhelm Feistkorn (1811–1843). Bleistiftzeichnung, 1840. Museum Industriekultur Wuppertal © Gerd Neumann | Stadt Wuppertal | Medienzentrum"
         }
         
     ],
