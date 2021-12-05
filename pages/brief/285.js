@@ -617,9 +617,10 @@ export default function page() {
                     <span style={{ display: "inline-block" }} width="1char">
                       &nbsp;
                     </span>
+                    <span className="business">
                     <a id="mark.003.s">{/*anchor*/}</a>Ihr
                     <a id="annot.004.s">{/*anchor*/}</a>
-                    <span className="business">
+                    
                     <span className="g.rend.script.latin">
                       {" "}
                       <span className="makierung">Conto‐Corrent</span>

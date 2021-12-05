@@ -514,6 +514,7 @@ export default function page() {
                     denn die nehmen recht herzlich Antheil an mir.
                   </p>
                   <p className="" id="mark.007">
+                  <span className="liebe">
                   <span style={{ marginLeft: "30px" }} ></span>
                     Zu Zeiten will mir die Geduld reißen, bis ich
                     <br className="lb" />{" "}
@@ -527,6 +528,7 @@ export default function page() {
                       u<span className="ex">nd</span>
                     </span>{" "}
                     gute Sache wie
+                    </span>
                   </p>
                 </div>
                 <div
@@ -539,6 +541,7 @@ export default function page() {
                 >
                   {/* Page 4 */}
                   <p>
+                    <span className="liebe">
                     un<span className="orig">ſ</span><span className="corr">s</span>ere Liebe mit einer <span className="orig">ſ</span><span className="corr">s</span>o äng<span className="orig">ﬅ</span><span className="corr">st</span>lichen Vor<span className="orig">ſ</span><span className="corr">s</span>ichtigkeit
                     <br className="lb" />{" "}
                     behandeln zu <span className="orig">müßen</span>
@@ -554,6 +557,7 @@ export default function page() {
                     wenn er auf einem andern Wege als durch mich, etwas
                     <br className="lb" />{" "}
                     Be<span className="orig">ﬅ</span><span className="corr">st</span>immtes darüber gehört hätte.
+                    </span>
                   </p>
                   <p className="enc.tagsdecl.indent-medium">
                     Bis nach meiner Rei<span className="orig">ſ</span><span className="corr">s</span>e – doch darüber Morgen mehr,
@@ -984,6 +988,7 @@ export default function page() {
                     {" "}
                     ein.
                   </p>
+                  <span className="religion">
                   <p className="enc.tagsdecl.indent-medium" id="mark.012">
                     Morgen gehe ich zum <span className="abbr"> heil.</span>
                     <span className="expan">
@@ -995,6 +1000,7 @@ export default function page() {
                     <br className="lb" />{" "}
                     wichtige Handlung begehen kann!
                   </p>
+                  </span>
                   <blockquote className="closer">
                     <p className="enc.tagsdecl.indent-medium">
                       <span className="makierung">Meine Ge<span className="orig">ſ</span><span className="corr">s</span>chwi<span className="orig">ﬅ</span><span className="corr">st</span>er</span>, meine{" "}

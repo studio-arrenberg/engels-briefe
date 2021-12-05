@@ -72,6 +72,7 @@ export default function page() {
                   &nbsp;
                 </span>
                 <p className="enc.tagsdecl.indent-small">
+                  <span className="engelsjunior">
                   <a id="teaser.part.001.s">{/*anchor*/}</a>Dein lieber Brief
                   vom
                   <span className="date">
@@ -132,7 +133,7 @@ export default function page() {
                   <br className="lb" />{" "}
                   aber demohngeachtet fühle ich eine
                   <br className="lb" />{" "}
-                  Leere. <a id="mark.001.s">{/*anchor*/}</a>
+                  Leere.</span> <a id="mark.001.s">{/*anchor*/}</a>
                   <span className="liebe">
                     Aber höre einmal{" "}
                     <span className="persName">Eli<span className="orig">ſ</span><span className="corr">s</span>e</span>{" "}
@@ -167,6 +168,7 @@ export default function page() {
                   </span>
                 </p>
                 <p className="enc.tagsdecl.indent-medium">
+                  <span className="engelsjunior">
                   Aber was macht denn <span className="makierung">mein klein<span className="orig doublehyphen">⹀</span>
                   <br className="g.enc.tagsdecl.hyphenation.eq" />
                   <span style={{ display: "inline-block" }} width="-4em">
@@ -202,6 +204,7 @@ export default function page() {
                     lie<span className="orig">ſ</span><span className="corr">s</span>eli
                   </span>
                   !<a id="annot.001.e">{/*anchor*/}</a>
+                  </span>
                 </p>
               </div>
 
@@ -302,6 +305,7 @@ export default function page() {
                 </p>
                 <a id="annot.003.s">{/*anchor*/}</a>
                 <p className="enc.tagsdecl.indent-medium">
+                  <span className="engelsjunior">
                   Deine Erzählung vom kleinen{" "}
                   <span className="g.rend.script.latin">
                     <span className="abbr"> Fried.</span>
@@ -319,6 +323,7 @@ export default function page() {
                   ob kein{" "}
                   <span className="g.rend.script.latin">Mechanicus</span> drin{" "}
                   <span className="orig">ﬅ</span><span className="corr">st</span>ekt.
+                  </span>
                 </p>
                 <a id="annot.003.e">{/*anchor*/}</a>
                 <p className="enc.tagsdecl.indent-medium">

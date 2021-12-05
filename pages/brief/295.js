@@ -125,6 +125,7 @@ export default function page() {
                     </div>
                   </div>
                   <p>
+                    <span className="reisen">
                     <a id="teaser.part.001.s">{/*anchor*/}</a>{" "}Seit Vorge
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>ern Abend{" "}
@@ -304,6 +305,7 @@ export default function page() {
                     </span>{" "}
                     in keinem Betracht aushalten.
                     </span> 
+                    </span>
                   </p>
                   <p>
                   <span className="business">
@@ -447,8 +449,11 @@ export default function page() {
                     <br className="lb" /> auf eine Woche mehr oder weniger{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ehen.
+                    
                   </p>
+                  
                   <p>
+                    <span className="reisen">
                     <span className="orig">Ueberhaupt</span>
                     <span className="corr">Überhaupt</span> werde ich immer mehr
                     überzeugt
@@ -508,7 +513,8 @@ export default function page() {
                       <span className="corr">s</span>icht will ich mich gerne mit
                       allem <br className="lb" /> <span class="orig" style={{ marginLeft: "10px" }}></span>bekannt machƺ um ſpäter einen gutƺ Führer abzugebƺ
                       </span>
-                    </p></p>
+                    </p></span></p>
+                    
                     <span
                       style={{ top: "-420px" }}
                       className="vertical-links orig"
@@ -550,6 +556,7 @@ export default function page() {
                         <span className="corr">s</span>chreiben.
                       </span>
                     </span>
+                    
                 
                 </div>
 
@@ -564,7 +571,7 @@ export default function page() {
                   }}
                 >
                   {/* Insert Page 3 */}
-                 
+                 <span className="reisen">
                   <span className="corr">zu</span>bereiteten Gerichten liegt, ein Gericht{" "}
                     <span className="orig">
                       <span className="orig">ſ</span>
@@ -669,7 +676,7 @@ export default function page() {
                       abge<span className="orig">ſ</span>
                       <span className="corr">s</span>chrekt
                     </span>
-                    <span className="corr">abgeschreckt</span>.
+                    <span className="corr">abgeschreckt</span>.</span>
                     <br className="lb" /> Was un<span className="orig">ſ</span>
                     <span className="corr">s</span>er <span className="sans">Logis</span> anbelangt{" "}
                     <span className="orig">ſ</span>

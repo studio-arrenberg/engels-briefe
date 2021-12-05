@@ -77,7 +77,7 @@ export default function page() {
                           Octob.
                         </span>
                         <span className="expan">
-                          Okto<span className="orig">ber</span>
+                          Okto<span className="corr">b.</span>
                         </span>{" "}
                         <span className="underline">1792.</span>
                       </span>
@@ -249,7 +249,7 @@ export default function page() {
                     </span>
 
                     </p>
-                  <p>
+                  <p className="no-margin">
                   <span className="orig">J</span>
 <span className="corr">I</span>ch hätte Dir <span className="orig">ſ</span><span className="corr">s</span>chon gleich{" "}
                     <span className="orig">Ge<span className="orig">ﬅ</span><span className="corr">st</span>ern</span>
@@ -262,8 +262,12 @@ export default function page() {
                     {" "}<br className="lb" />
                     zu <span className="orig">ſ</span><span className="corr">s</span>chicken, ko<span className="orig">n̅</span>
 <span className="corr">nn</span>te ich nicht.{" "}
+<span className="reisen">
+<span className="politik">
                     <span className="orig">meinen</span>
                     <span className="corr">Meinen</span> Brief
+                    </span>
+                    </span>
                   </p>
                   <span className="reisen">
                     <span className="politik">
@@ -271,10 +275,6 @@ export default function page() {
                       <a id="mark.005.s">{/*anchor*/}</a>
                       <a id="mark.006.s">{/*anchor*/}</a>
 
-                      <span style={{ display: "inline-block" }} width="1cm">
-                        &nbsp;
-                      </span>
-                      
                       <span className="orig">ſ</span><span className="corr">s</span>o ich un<span className="orig">ſ</span><span className="corr">s</span>erer Ab<span className="orig">ſ</span><span className="corr">s</span>prache gemäß nach<span className="placeName"> Manheim</span> adre<span className="orig">ſ</span><span className="corr">s</span><span className="orig">ſ</span><span className="corr">s</span>irt
                       {" "}<br className="lb" />
                       hatte, hoﬀe ich wir<span className="orig">ﬅ</span><span className="corr">st</span> Du <span className="orig">jezt</span>
@@ -317,6 +317,8 @@ export default function page() {
                       <span className="placeName"> Manheim</span></span> ge
                       <span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />rei<span className="orig">ﬅ</span><span className="corr">st</span> bi<span className="orig">ﬅ</span><span className="corr">st</span> <a id="mark.006.e">{/*anchor*/}</a>
                       </span>
+                      </span>
+                      <span className="reisen">
                       – Vielleicht
                       i<span className="orig">ﬅ</span><span className="corr">st</span> es auch für die Sache
                       {" "}<br className="lb" />
@@ -331,9 +333,9 @@ export default function page() {
                       <span className="corr">heute</span>
                       {" "}<br className="lb" />
                       in <span className="placeName">München</span> anko<span className="orig">m̅</span>
-<span className="corr">mm</span>en.{" "}
+<span className="corr">mm</span>en.{" "}</span>
                       <a id="mark.005.e">{/*anchor*/}</a>
-                  </span>
+                  
                   <span className="religion">
                       <a id="mark.007.s">{/*anchor*/}</a>
                       <span className="orig">ich</span>
@@ -619,7 +621,7 @@ export default function page() {
             }}
           >
             <hr />
-            <label>Krammetsvogel</label>
+            <label>Kramsvogel</label>
             <p>
             Wacholderdrossel. Die Vögel wurden bis zum Beginn des 20. Jhs. in großer Zahl gefangen und gegessen.
 
@@ -675,7 +677,7 @@ export default function page() {
             <hr />
             <label>die Sache […] getrieben</label>
             <p>
-            Knieriem (Die Herkunft des Friedrich Engels. Briefe aus der Verwandschaft 1791-1847. Trier 1991, S.106, Anm.1 zu Dokument 28) verweist auf eine Auseinandersetzung der Barmer Garnnahrungsgenossen mit dem Elberfelder Kaufmann Johann Peter Schlickum (1758–1841). Gegen Schlickum wurde bei den kurfürstlichen Behörden der Vorwurf des Verstoßes gegen den Eid der Garnnahrungsgenossen erhoben. Er hatte einen Bandwebstuhl herstellen lassen und wollte ihn ins Elsass bringen, wo er Anteile an einer Firma der Bandfabrikation hielt, und zudem versucht, Facharbeiter abzuwerben. Letztlich ohne Erfolg trugen die Barmer ihre Klage gegen die unliebsame Konkurrenz für das französische Absatzgebiet nicht nur in Düsseldorf bei den zuständigen Stellen vor, sondern auch am kurfürstlichen Hof in München. (Vgl. Anne Sophie Overkamp: Fleiß, Glaube, Bildung. Kaufleute als gebildete Stände im Wuppertal 1760–1840. Göttingen 2020, S. 153–155.) Johann Caspar Engels II war einer der Deputierten. Im Zusammenhang mit dem unten angesprochenen Psalm 36 ist anzunehmen, dass Samuel Collenbusch wünschte, die Sühne des Frevels gegen den Eid der Garnnahrungsgenossen würde im Vordergrund stehen gegenüber entgangenen Gewinnen durch entstehende Konkurrenz.
+            Knieriem (Die Herkunft des Friedrich Engels. Briefe aus der Verwandschaft 1791–1847. Trier 1991, S. 106, Anm. 1 zu Dokument 28) verweist auf eine Auseinandersetzung der Barmer Garnnahrungsgenossen mit dem Elberfelder Kaufmann Johann Peter Schlickum (1758–1841). Gegen Schlickum wurde bei den kurfürstlichen Behörden der Vorwurf des Verstoßes gegen den Eid der Garnnahrungsgenossen erhoben. Er hatte einen Bandwebstuhl herstellen lassen und wollte ihn ins Elsass bringen, wo er Anteile an einer Firma der Bandfabrikation hielt. Zudem hatte er versucht, Facharbeiter abzuwerben. Letztlich ohne Erfolg trugen die Barmer ihre Klage gegen die unliebsame Konkurrenz für das französische Absatzgebiet nicht nur in Düsseldorf bei den zuständigen Stellen vor, sondern auch am kurfürstlichen Hof in München. (Vgl. Anne Sophie Overkamp: Fleiß, Glaube, Bildung. Kaufleute als gebildete Stände im Wuppertal 1760–1840. Göttingen 2020, S. 153–155.) Johann Caspar Engels II war einer der Deputierten. Im Zusammenhang mit dem unten angesprochenen Psalm 36 ist anzunehmen, dass Samuel Collenbusch wünschte, die Sühne des Frevels gegen den Eid der Garnnahrungsgenossen würde im Vordergrund stehen gegenüber entgangenen Gewinnen durch entstehende Konkurrenz.
             </p>
           </div>
 
@@ -688,7 +690,7 @@ export default function page() {
             <hr />
             <label>36. Psalm</label>
             <p>
-            Verse 1–4 lauten: „Von David, dem Knecht des Herrn, vorzusingen. Es sinnt der Sünder auf Frevel im Grund seines Herzens, er kennt kein Erschrecken vor Gott. Er schmeichelt Gott vor dessen Augen und findet doch seine Strafe für seinen Hass. Seine Worte sind falsch und erlogen, verständig und gut handelt er nicht mehr.“ (LUT)
+            Verse 1–4 lauten: „Von David, dem Knecht des Herrn, vorzusingen. Es sinnt der Sünder auf Frevel im Grund seines Herzens, er kennt kein Erschrecken vor Gott. Er schmeichelt Gott vor dessen Augen und findet doch seine Strafe für seinen Hass. Seine Worte sind falsch und erlogen, verständig und gut handelt er nicht mehr.“
             </p>
           </div>
 

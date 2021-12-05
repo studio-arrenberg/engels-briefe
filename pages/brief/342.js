@@ -187,7 +187,9 @@ export default function page() {
                     <span className="corr">st</span>.{" "}
                     <a id="teaser.part.002.s">{/*anchor*/}</a>
                     <a id="mark.001.s">{/*anchor*/}</a>
+                    <span className="engelsjunior">
                     <span className="reisen">
+                      
                       Aus <span className="persName">Friedrichs</span> Brief
                       <br className="lb" /> ha<span className="orig">ﬅ</span>
                       <span className="corr">st</span> Du meine{" "}
@@ -210,7 +212,7 @@ export default function page() {
                     <span className="corr">s</span>o{" "}
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>ark wie früher
-                    <br className="lb" /> aus.{"  "}
+                    <br className="lb" /> aus.{"  "}</span>
                     <a id="teaser.part.003.e">{/*anchor*/}</a>
                     <span style={{ display: "inline-block" }} width="1cm">
                       &nbsp;

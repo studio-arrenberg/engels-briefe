@@ -140,6 +140,7 @@ export default function page() {
                       </span>
                     </div>
                   </div>
+                  <span className="engelsjunior">
                   <p>
                   <span className="opener">
                     <span className="salute">
@@ -257,6 +258,7 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>und hatten.
                   </p>
+                  
                   <p className="enc.tagsdecl.indent-medium">
                     Meine gute{" "}
                     <span className="persName">
@@ -294,7 +296,7 @@ export default function page() {
                     Blähungen herrührten, und auf einige Verordnung
                     <br className="lb" />{" "}
                     des <span className="makierung">Arztes</span> bald wieder ver<span className="orig">ſ</span>
-                    <span className="corr">s</span>chwanden. Das
+                    <span className="corr">s</span>chwanden. <span className="religion">Das
                     <br className="lb" />{" "}
                     kleine Knäbchen <span className="orig">ſ</span>
                     <span className="corr">s</span>chläft fa
@@ -325,7 +327,9 @@ export default function page() {
                     es <span className="orig">ſ</span>
                     <span className="corr">s</span>ehe. Der gute Gott nehme nun
                     ferner beide
+                    </span>
                   </p>
+                  </span>
                 </div>
                 <div
                   className="page"
@@ -338,6 +342,9 @@ export default function page() {
                 >
                   {/* Insert Page 2 */}
                   <p>
+                    
+                    <span className="engelsjunior">
+                      <span className="religion">
                     Lieben in Seinen Heiligen Schutz. Er{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>e<span className="orig">ÿ</span>
@@ -368,7 +375,7 @@ export default function page() {
                     zu geben! Dieß i<span className="orig">ﬅ</span>
                     <span className="corr">st</span> nun mein tägliches{" "}
                     <span className="orig">Gebät</span>
-                    <span className="corr">Gebet</span>.<br className="lb" />{" "}
+                    <span className="corr">Gebet</span>.</span><br className="lb" />{" "}</span>
                     <span className="orig">J</span>
 <span className="corr">I</span>ch hatte vor, Dir <span className="orig">ſ</span>
                     <span className="corr">s</span>chon am Mittwoch unmittelbar
@@ -624,6 +631,7 @@ export default function page() {
                     </span>
                   </p>
                   <p className="enc.tagsdecl.indent-medium">
+                    <span className="engelsjunior">
                     <small className="orig">s</small>Da hat <span className="orig">ſ</span>
                     <span className="corr">s</span>o eben{" "}
                     <span className="persName">
@@ -651,7 +659,7 @@ export default function page() {
                     <br className="lb" />{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>olche Freuden empfinden,
-                    Herzens <span className="persName">Karl</span>.
+                    Herzens <span className="persName">Karl</span>.</span>
                   </p>
                   <div className="closer">
                     Nun lebe recht wohl. Dein Andenken lebt

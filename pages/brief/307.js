@@ -355,6 +355,7 @@ export default function page() {
                   <h2 className="g.rend.hand.friedrich-engels">
                     <span className="headingNumber">3. </span>
                   </h2>
+                  <span className="engelsjunior">
                   <div className="opener">
                    
                     <a id="teaser.part.001.s">{/*anchor*/}</a>
@@ -396,6 +397,7 @@ export default function page() {
 
                     </div>
                   </div>
+                  </span>
                 </div>
 
               </section>

@@ -162,7 +162,8 @@ export default function page() {
                               Eckhard{" "}
                             </span>
                           </span>
-                          <span className="abbr"> s<sup className="double-underline">r</sup></span>
+                          <span className="abbr"> <span className="orig">ſ</span>
+<span className="corr">s</span><sup className="double-underline">r</sup></span>
                           <span className="expan">
                             s<span className="ex">enio</span><sup className="double-underline">r</sup>
                           </span>{" "}
@@ -178,8 +179,9 @@ export default function page() {
                             className="underline serif"
 
                           >
-                            Ganzfrei<span clasName="" style={{paddingRight: "20px"}}></span>
+                            Ganzfrei
                           </span>
+                          <span clasName="" style={{paddingRight: "20px"}}></span>
                           <span style={{ display: "inline-block" }}>
                             &nbsp;
                           </span>
@@ -406,14 +408,14 @@ export default function page() {
                     </span></span>
                     <span className="corr">F</span>
                     
-                    <a id="annot.001.e">{/*anchor*/}</a> |:
+                    <a id="annot.001.e">{/*anchor*/}</a> <span className="orig">|:</span><span className="corr">(</span>
                     <span className="orig"> </span>
                     <span className="corr" />
                     <spam className="makierung">was freilig viel i<span className="orig">ﬅ</span>
                     <span className="corr">st</span></spam>
                     <span className="orig"> </span>
                     <span className="corr" />
-                    :| <span className="orig">ſ</span>
+                    <span className="orig">:|</span><span className="corr">)</span> <span className="orig">ſ</span>
                     <span className="corr">s</span>einerzeit{" "}
                     <br className="lb" />
                     für das <span className="orig">neüe</span>
@@ -461,9 +463,7 @@ export default function page() {
                     <span className="persName">
                       <span className="g.enc.tagsdecl.suspension.type1">
                         dHr</span>
-                      <span className="orig">
-                        d<span className="ex">em</span> Hr
-                      </span>
+                      
                       <span className="expan">
                         d<span className="ex">em</span> H
                         <span className="ex">e</span>r
@@ -928,7 +928,7 @@ export default function page() {
             <hr />
             <label>accodirte</label>
             <p>
-            Accordi(e)ren. Frz. accorder: „gewähren", ‚zu etwas seine Zustimmung „geben".
+            Accordi(e)ren. Frz. accorder: „gewähren".
           </p>
           </div>
 

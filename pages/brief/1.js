@@ -38,7 +38,7 @@ export default function page() {
                   style={{
                     paddingTop: "35px",
                     paddingLeft: "75px",
-                    paddingBottom: "260px",
+                    paddingBottom: "240px",
                   }}
                 >
                   <div className="opener">
@@ -678,7 +678,7 @@ export default function page() {
                   style={{
                     paddingTop: "50px",
                     paddingLeft: "70px",
-                    paddingBottom: "470px",
+                    paddingBottom: "444px",
                   }}
                 >
                   <span className="religion">
@@ -927,7 +927,7 @@ export default function page() {
                     <span className="corr">die</span> Verwunderung darüber daß
                     ich als ein <span className="orig">Junges</span>
                     <span className="corr">junges</span>
-                    <br className="lb" /> Madchen nicht tanzte war von allen{" "}
+                    <br className="lb" /> Madchen nicht tanzte war von allen<span className="corr">{" "}</span>
                     <span className="unclear">^</span>
                     <span className="g.enc.tagsdecl.suspension.type1">
                       <span className="orig">seit</span>
@@ -1136,7 +1136,7 @@ export default function page() {
               Sinnesänderung und Lebensgestaltung eines Christen nach den Regeln
               Christi, innerlich durch das Wirken des Heiligen Geistes und
               äußerlich durch fromme Taten. Sie gilt als ein allmählich zur
-              Vollendung fortschreitendes Werk.<br /> (Pierer’s Universal-Lexikon der Vergangenheit und Gegenwart oder Neuestes encyclopädisches Wörterbuch der Wissenschaften, Künste und Gewerbe. Vierte, umgearbeitete und stark vermehrte Auflage, Band 8. Altenburg 1859, S. 175–176.)
+              Vollendung fortschreitendes Werk.<br /> (Vgl. Pierer’s Universal-Lexikon der Vergangenheit und Gegenwart oder Neuestes encyclopädisches Wörterbuch der Wissenschaften, Künste und Gewerbe. Vierte, umgearbeitete und stark vermehrte Auflage, Band 8. Altenburg 1859, S. 175–176.)
             </p>
           </div>
 
@@ -1146,7 +1146,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "2000px",
+              top: "2040px",
             }}
           >
             <hr />
@@ -1157,7 +1157,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "1430px",
+              top: "1445px",
             }}
           >
             <hr />

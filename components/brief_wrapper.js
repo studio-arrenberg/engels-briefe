@@ -434,7 +434,7 @@ export default function Brief_wrapper(props) {
                   .filter((item) => {
                     return item.id === data.sender.ort;
                   })
-                  .map((data) => data.title)}.jpg`}
+                  .map((data) => data.picture)}`}
                 key={data.sender.id}
               />
               {/* get the ort */}
@@ -461,7 +461,7 @@ export default function Brief_wrapper(props) {
                   .filter((item) => {
                     return item.id === data.empfänger.ort;
                   })
-                  .map((data) => data.title)}.jpg`}
+                  .map((data) => data.picture)}`}
                 key={data.empfänger.id}
               />
 

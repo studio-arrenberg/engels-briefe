@@ -112,6 +112,7 @@ export default function page() {
                       </span>
                     </div>
                   </div>
+
                   <div className="opener">
                     <div className="salute">
                       Liebe{" "}
@@ -122,6 +123,7 @@ export default function page() {
                     </div>
                   </div>
                   <p>
+                    <span className="reisen">
                     Ge<span className="orig">ﬅ</span>
                     <span className="corr">st</span>ern Abend{" "}
                     <span className="orig">ſ</span>
@@ -182,8 +184,10 @@ export default function page() {
                     <br className="lb" /> Seefahrt in Ungewißheit zu{" "}
                     <span className="orig">laßen</span>
                     <span className="corr">lassen</span>.
+                    </span>
                   </p>
                   <p>
+                    <span className="reisen">
                     <span style={{ display: "inline-block" }} width="4em">
                       &nbsp;
                     </span>
@@ -226,7 +230,7 @@ export default function page() {
                     abgerechnet eine
                     <br className="lb" /> ganz angenehme Reise gehabt, und sind
                     ganz vergnügt,
-                    <br className="lb" /> trotz dem entsetzlichen Wetter. (Meine
+                    <br className="lb" /> trotz dem entsetzlichen Wetter. </span>(Meine
                     armen Ziegel<span className="orig">ﬅ</span>
                     <span className="corr">st</span>eine
                     <br className="lb" /> und Hafer!!) Die Ruhe am fe
@@ -399,13 +403,13 @@ export default function page() {
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>ruktionen von mir
                     <br className="lb" /> zu empfangen.
-                    <a id="mark.001.e">{/*anchor*/}</a></span> Hier werde ich nicht
+                    <a id="mark.001.e">{/*anchor*/}</a></span> <span className="reisen">Hier werde ich nicht
                     lange bleiben, und am
                     <br className="lb" /> Montag oder Dien
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>ag abrei
                     <span className="orig">ſ</span>
-                    <span className="corr">s</span>en.{" "}
+                    <span className="corr">s</span>en.{" "}</span>
                     <span className="persName">Friedrich</span> wird noch
                     etwas <span className="orig">ſ</span>
                     <span className="corr">s</span>chreiben   </p>
@@ -454,7 +458,7 @@ export default function page() {
                   }}
                 >
                   {/* Insert Page 2 */}
-
+                  <span className="engelsjunior">
                   <div className="opener">
                    
                     <div className="salute" >
@@ -623,6 +627,7 @@ export default function page() {
                       <div className="persName">Friedrich</div>
                     </div>
                     </p>
+                    </span>
                 </div>
               </section>
             </div>

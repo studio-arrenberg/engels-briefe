@@ -87,6 +87,16 @@
 
 @font-face {
   font-family: "Charter";
+  src: local("Charter Bold"),
+    url("../webfonts/charter/charter_bold.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Charter";
   src: local("Charter Bold Italic"),
     url("../webfonts/charter/charter_bold_italic.woff") format("woff");
   font-style: italic;
@@ -328,15 +338,16 @@ main {
   top: 0px;
   z-index: 2000;
   overflow: hidden;
+  
 }
 
 .intro-stage {
   position: fixed;
   width: 750px;
   padding-left: 100px;
-  top: 0px;
+  top: 100px;
   height: 100%;
-  z-index: 250;
+  z-index: 2000;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -398,14 +409,9 @@ main {
 /* Impressum */
 
 .impressum-link{
-  display: block;
-  position: fixed;
-  bottom: 75px;
-  left: 125px;
   font-size: 1.4rem;
   opacity: 0.7;
-  z-index: 2000;
-  padding: 50px;
+  z-index: 10000;
 }
 .impressum-link:focus{
   text-decoration: none;
@@ -416,6 +422,10 @@ main {
   z-index: 101;
   padding-top: 100px;
   margin-left: 100px;
+}
+
+.startbutton{
+  margin-bottom: 300px;
 }
 
 .impressum p{
@@ -847,7 +857,9 @@ img {
 .page {
   background-color: #fff;
   margin-bottom: 30px;
+  
 }
+
 
 .abschrift{
   font-size: 60%;
@@ -1372,6 +1384,7 @@ table {
 .reisen-active .reisen,
 .business-active .business,
 .musik-active .musik,
+.engelsjunior-active .engelsjunior,
 .politik-active .politik {
   color: #000;
 }
@@ -1492,6 +1505,15 @@ p > span .latin {
   transform: translateY(-5px);
 }
 
+.vergleichs-ansicht .kuvert .underline{
+  border-bottom: 0.2px solid rgb(255, 255, 255) ;
+  padding-bottom: 1px;
+}
+
+.vergleichs-ansicht .indent-small{
+  margin-right: 20px;
+}
+
 .normalisiert .hide-doublehypen{
   display: none;
 }
@@ -1548,7 +1570,16 @@ p > span .latin {
   margin-right: -4px;
   transform: rotate(0deg) translateY(2px) translateX(-6px) scale(1.8) scaleX(-1); 
   display: inline-block;
-  color: #000
+  color: #000;
+}
+
+.vergleichs-ansicht .sup#txt\.add003::after{
+  content: "⦦";
+  font-weight: 100;
+  margin-right: -10px;
+  transform: rotate(0deg) translateY(2px) translateX(-34px) scale(1.8) scaleX(1);
+  display: inline-block;
+  color: #000;
 }
 
 .vergleichs-ansicht .double-underline{
@@ -1827,6 +1858,18 @@ p > span .latin {
   line-height: 150%;
 }
 
+.vergleichs-ansicht .spacing{
+  letter-spacing: 4px;
+}
+
+.vergleichs-ansicht .umlaut{
+  font-family: "Times New Roman";
+  font-weight: lighter;
+  line-height: 1.6rem;
+  letter-spacing: 0px;
+  font-size: 1rem;
+}
+
 
 /* Detail Ansicht */
 .detail-ansicht .nopadding{
@@ -1916,6 +1959,22 @@ p > span .latin {
 .detail-ansicht .g\.enc\.tagsdecl\.suspension\.type3without {
   display: none;
 }
+
+.no-margin{
+  margin-block-end: 0em !important;
+}
+
+.detail-ansicht .horizontal{
+  padding-right: 20px;
+}
+
+.detail-ansicht .page{
+  min-height: 900px;
+}
+
+
+
+
 
 
 

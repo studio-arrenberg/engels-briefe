@@ -86,7 +86,8 @@ export default function page() {
                             <span className="expan">
                               Frid<sup class="double-underline orig">h</sup><span className="ex">ric</span>h
                             </span>{" "}
-                            Eckhardt <span className="abbr"> Sr.</span>
+                            Eckhardt <span className="abbr serif"> <span className="orig">ſ</span>
+<span className="corr">s</span>r.</span>
                             <span className="expan">
                               S<span className="ex">enio</span>r
                             </span>
@@ -216,7 +217,7 @@ export default function page() {
                       <span className="persName">
                         <span className="abbr"> Eng.</span>
                         <span className="expan">
-                          Eng<span className="ex">elbert</span>
+                          Eng.{/*<span className="ex">elbert</span>*/}
                         </span>{" "}
                         Sieperman
                       </span>
@@ -447,11 +448,11 @@ export default function page() {
                       </span>
                       {" "}
                       <span className="g.rend.script.latin">
-                        <span className="g.enc.tagsdecl.cc.abbr-colon-sup orig">
+                        <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
                           D<span className="orig"></span>
                           <span className="corr"></span>
                           <sup className="underline hochgestellt">r</sup></span>{" "}
-                        <span className="expan">Doctor</span><span className="makierung"> Osberghaus</span>
+                        {/*<span className="expan">Doctor</span>*/}<span className="makierung"> Osberghaus</span>
                       </span>
                     </span>
                     <a id="annot.007.e">{/*anchor*/}</a>, der alles näher be
@@ -615,6 +616,7 @@ export default function page() {
                     </span>
                   </p>
                   <p className="enc.tagsdecl.indent-small">
+                    <span className="business">
                     <span className="orig">die</span>
                     <span className="corr">Die</span> Handlung hier aufm{" "}
                     <span className="orig">Plaze</span>
@@ -653,14 +655,17 @@ export default function page() {
                       D<span className="ex">utzend</span>
                     </span>{" "}
                     <span className="makierung"><span className="g.rend.script.latin">
-                      <span className="g.enc.tagsdecl.suspension.type2 " style={{display:"inline"}} >Lang.
+                      <span className="orig">
+                      <span className="g.enc.tagsdecl.suspension.type2 " style={{display:"inline"}} >
+                        Lang
+                      </span>
                       </span>
                       
                       <span className="expan">
-                        Lang<span className="ex">etten</span>{" "}
+                        Lang<span className="ex">etten</span>
                       </span>
                     </span>
-                    </span>
+                    </span>{" "}
                     und 600{" "}
                     <span className="orig">
                       <span className="orig">ﬅ</span>
@@ -792,7 +797,7 @@ export default function page() {
                     <span className="corr">s</span>ein{" "}
                     <span className="orig">gede<span className="orig">ÿ</span>
 <span className="corr">y</span>en</span>
-                    <span className="corr">Gedeihen</span>.
+                    <span className="corr">Gedeihen</span>.</span>
                   </p>
                   <p className="enc.tagsdecl.indent-small">
                     Daß von der <a id="annot.015.s">{/*anchor*/}</a>
@@ -1128,7 +1133,7 @@ export default function page() {
                       <span className="g.rend.script.latin">
                         <span className="persName"><span className="makierung">de Neufville</span></span>
                       </span>
-                      <a id="annot.027.e">{/*anchor*/}</a> macht
+                      <a id="annot.027.e">{/*anchor*/}</a> macht{" "}
                       <span className="abbr">p.</span>
                     </p>
                     <p className="enc.tagsdecl.indent-verysmall">
@@ -1316,7 +1321,7 @@ export default function page() {
             <hr />
             <label>passato</label>
             <p>
-            passato. Ital. Kaufmannssprache: „des vergangenen Monats“.
+            Ital. Kaufmannssprache: „des vergangenen Monats“.
             </p>
           </div>
 
