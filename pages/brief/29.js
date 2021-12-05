@@ -175,7 +175,7 @@ export default function page() {
                   style={{
                     paddingTop: "40px",
                     paddingLeft: "80px",
-                    paddingBottom: "250px",
+                    paddingBottom: "239px",
                   }}
                 >
                   {/* Insert Page 2 */}
@@ -305,7 +305,7 @@ export default function page() {
                   style={{
                     paddingTop: "65px",
                     paddingLeft: "70px",
-                    paddingBottom: "270px",
+                    paddingBottom: "275px",
                     marginTop: "20px",
                   }}
                 >
@@ -421,7 +421,7 @@ export default function page() {
                   style={{
                     paddingTop: "40px",
                     paddingLeft: "70px",
-                    paddingBottom: "130px",
+                    paddingBottom: "170px",
                   }}
                 >
                   {/* Insert Page 4 */}
@@ -486,11 +486,12 @@ export default function page() {
                     <span className="abbr"> hE<span className="orig">:</span>
                       <span className="corr">.</span>
                     </span>
+                    <span className="makierung">
                     <span className="expan">
                       H<span className="ex">err</span>
                     </span>
                     {" "}<br className="lb" />
-                    <span className="makierung">Vater</span>, und <span className="makierung">Brögelmanns</span> mitgetheilt.
+                    Vater</span>, und <span className="makierung">Brögelmanns</span> mitgetheilt.
                     <a id="mark.009.e">{/*anchor*/}</a>
                     </span>
                     <span style={{ display: "inline-block" }} width="12mm">
@@ -577,7 +578,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "44px",
+              top: "104px",
             }}
           >
             <hr />
@@ -590,7 +591,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "240px",
+              top: "311px",
             }}
           >
             <hr />
@@ -604,7 +605,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "1060px",
+              top: "1334px",
             }}
           >
             <hr />
@@ -617,7 +618,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "1076px",
+              top: "1328px",
             }}
           >
             <hr />
@@ -631,7 +632,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "1116px;",
+              top: "1390px",
             }}
           >
             <hr />
@@ -644,7 +645,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "1604px",
+              top: "1901px",
             }}
           >
             <hr />
@@ -658,7 +659,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "1887px",
+              top: "2223px",
             }}
           >
             <hr />
@@ -684,7 +685,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "2030px",
+              top: "2372px",
             }}
           >
             <hr />
@@ -695,9 +696,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "2200px;",
+              top: "2397px;",
             }}
           >
             <hr />
@@ -710,7 +711,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "2400px",
+              top: "2837px",
             }}
           >
             <hr />
@@ -723,7 +724,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "2462px",
+              top: "2901px",
             }}
           >
             <hr />
@@ -736,7 +737,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "2612px",
+              top: "3048px",
             }}
           >
             <hr />
@@ -749,7 +750,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "2631px",
+              top: "3044px",
             }}
           >
             <hr />
@@ -762,7 +763,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "2700px",
+              top: "3142px",
             }}
           >
             <hr />
@@ -775,7 +776,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "2700px",
+              top: "3116px",
             }}
           >
             <hr />
@@ -788,7 +789,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "2787px",
+              top: "3207px",
             }}
           >
             <hr />
@@ -801,7 +802,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "2813px",
+              top: "3262px",
             }}
           >
             <hr />

@@ -89,7 +89,7 @@ export default function page() {
                   style={{
                     paddingTop: "95px",
                     paddingLeft: "80px",
-                    paddingBottom: "250px",
+                    paddingBottom: "232px",
                   }}
                 >
                   <span type="liebe-ehe" from="#mark.002.s" to="#mark.002.e" />
@@ -267,7 +267,7 @@ export default function page() {
                   style={{
                     paddingTop: "55px",
                     paddingLeft: "80px",
-                    paddingBottom: "270px",
+                    paddingBottom: "253px",
                   }}
                 >
                   <span className="liebe religion ">
@@ -434,7 +434,7 @@ export default function page() {
                   style={{
                     paddingTop: "40px",
                     paddingLeft: "70px",
-                    paddingBottom: "490px",
+                    paddingBottom: "515px",
                   }}
                 >
                   <p>
@@ -596,7 +596,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "1590px",
+              top: "1665px",
             }}
           >
             <hr />
@@ -610,7 +610,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "1698px",
+              top: "1781px",
             }}
           >
             <hr />
@@ -624,7 +624,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "2051px",
+              top: "2145px",
             }}
           >
             <hr />
@@ -636,7 +636,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "2051px",
+              top: "2147px",
             }}
           >
             <hr />
@@ -648,7 +648,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "2772px;",
+              top: "2845px;",
             }}
           >
             <hr />
@@ -660,7 +660,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "2832px",
+              top: "2920px",
             }}
           >
             <hr />

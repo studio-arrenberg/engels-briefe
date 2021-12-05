@@ -86,7 +86,7 @@ export default function page() {
                   style={{
                     paddingTop: "100px",
                     paddingLeft: "100px",
-                    paddingBottom: "280px",
+                    paddingBottom: "258px",
                   }}
                 >
                   <p>
@@ -223,7 +223,8 @@ export default function page() {
                   style={{
                     paddingTop: "100px",
                     paddingLeft: "70px",
-                    paddingBottom: "240px",
+                    paddingBottom: "225px",
+                    marginBottom: "40px",
                   }}
                 ><span className="religion">
                   <p>
@@ -341,7 +342,7 @@ export default function page() {
                   style={{
                     paddingTop: "100px",
                     paddingLeft: "70px",
-                    paddingBottom: "80px",
+                    paddingBottom: "111px",
                   }}
                 >  
                   <p>
@@ -439,7 +440,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "1480px",
+              top: "1742px",
             }}
           >
             <hr />
@@ -453,7 +454,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "2411px",
+              top: "2825px",
             }}
           >
             <hr />
@@ -464,9 +465,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "2496px",
+              top: "2879px",
             }}
           >
             <hr />
@@ -477,9 +478,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung push-right"
+            className="stellenerläuterung"
             style={{
-              top: "2496px;",
+              top: "2913px;",
             }}
           >
             <hr />

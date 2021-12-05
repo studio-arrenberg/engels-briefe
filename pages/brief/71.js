@@ -550,7 +550,7 @@ export default function page() {
                   style={{
                     paddingTop: "20px",
                     paddingLeft: "100px",
-                    paddingBottom: "500px",
+                    paddingBottom: "464px",
                   }}
                 >
                   {/* Insert Page 2 */}
@@ -692,7 +692,7 @@ Kommissair, und un<span className="orig">⸗ </span>
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "806px",
+              top: "840px",
             }}
           >
             <hr />
@@ -718,7 +718,7 @@ Kommissair, und un<span className="orig">⸗ </span>
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "945px",
+              top: "983px",
             }}
           >
             <hr />
@@ -731,7 +731,7 @@ Kommissair, und un<span className="orig">⸗ </span>
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "1017px",
+              top: "1053px",
             }}
           >
             <hr />
@@ -758,7 +758,7 @@ Kommissair, und un<span className="orig">⸗ </span>
           <div
             className="stellenerläuterung"
             style={{
-              top: "1353px",
+              top: "1153px",
             }}
           >
             <hr />
@@ -771,7 +771,7 @@ Kommissair, und un<span className="orig">⸗ </span>
           <div
             className="stellenerläuterung"
             style={{
-              top: "1156px",
+              top: "1214px",
             }}
           >
             <hr />
@@ -784,7 +784,7 @@ Kommissair, und un<span className="orig">⸗ </span>
           <div
             className="stellenerläuterung"
             style={{
-              top: "1226px",
+              top: "1290px",
             }}
           >
             <hr />
@@ -797,7 +797,7 @@ Kommissair, und un<span className="orig">⸗ </span>
           <div
             className="stellenerläuterung"
             style={{
-              top: "1529px",
+              top: "1614px",
             }}
           >
             <hr />

@@ -65,6 +65,12 @@ g.rend.script.latin
 </div>
 
 
+<!-- Abstände zwischen den digitalisaten anpassen -->
+.vergleichs-ansicht #brief-71 img:nth-of-type(2) {
+  margin-bottom: 56px;
+}
+
+
 
 
 
