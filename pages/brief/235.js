@@ -41,7 +41,7 @@ export default function page() {
                 <section
                   className="kuvert"
                   id="index.xml-body.1_div.1"
-                  style={{ paddingTop: "220px", paddingBottom: "245px" }}
+                  style={{ paddingTop: "220px", paddingBottom: "215px" }}
                 >
                   {/* Insert Kuvert */}
                   <div className="kuvert" id="index.xml-body.1_div.1">
@@ -63,10 +63,9 @@ export default function page() {
 
                             Wohlgeboren{" "}
                             <br />
+                            <div style={{marginRight: "300px"}}>
                             <span className="underline">
-                              frei.
-                            </span>{" "}
-                            in
+                              frei.</span>{" "}in</div>
                             <br className="lb" />{" "}
                           </span>
                           <span
@@ -118,7 +117,7 @@ export default function page() {
                   style={{
                     paddingTop: "0px",
                     paddingLeft: "80px",
-                    paddingBottom: "30px",
+                    paddingBottom: "22px",
                   }}
                 >
                   {/* Insert Page 1 */}
@@ -523,7 +522,7 @@ export default function page() {
                     marginTop: "-8px",
                     paddingTop: "50px",
                     paddingLeft: "70px",
-                    paddingBottom: "150px",
+                    paddingBottom: "137px",
                   }}
                 >
                   {/* Insert Page 3 */}

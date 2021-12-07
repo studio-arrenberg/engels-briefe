@@ -102,9 +102,9 @@ export default function page() {
                           >
                             &nbsp;
                           </span>
-                          <span className="xsmall serif">
+                          <span className="xsmall sans">
                             <span className="">
-                              p<span className="ex">e</span><sup>r</sup><span className="orig>">.</span>
+                              p<span className="ex">e</span><sup>r</sup>
                             </span>
                             <span className="placeName"> Cöln.</span>
                           </span>
@@ -125,7 +125,7 @@ export default function page() {
                   style={{
                     paddingTop: "15px",
                     paddingLeft: "120px",
-                    paddingBottom: "70px",
+                    paddingBottom: "48px",
                   }}
                 >
                   {/* Insert Page 1 */}
@@ -399,9 +399,9 @@ export default function page() {
                 <div
                   className="page"
                   style={{
-                    paddingTop: "35px",
+                    paddingTop: "55px",
                     paddingLeft: "120px",
-                    paddingBottom: "137px",
+                    paddingBottom: "100px",
                   }}
                 >
                   {/* Insert Page 2 */}
@@ -633,11 +633,12 @@ export default function page() {
                     <span style={{ display: "inline-block" }} width="11cm">
                       &nbsp;
                     </span>
-
-                    <div  style={{
+                    
+                                        <div className="orig"  style={{
                       position: "absolute",
                       width: "200px",
                       marginLeft: "290px",
+                      marginTop: "-151px",
                       textAlign: "center"
                     }}>
                       <span className="corr" style={{display: "block", marginTop: "90px!important"}}/>
@@ -648,6 +649,20 @@ export default function page() {
                       <div className="">Dein <br className="lb" />{" "}{" "}{" "}
                       <span style={{marginLeft: "90px"}} />
                         Friedrich</div>
+                    </div>
+
+
+                    <div className="corr" style={{
+                      position: "absolute",
+                      width: "557px",
+                      marginLeft: "290px",
+                      textAlign: "right",
+                      marginTop: "70px!important",
+
+                    }}>
+                      
+                      Mit treuer Liebe<br className="bn" />
+                      Dein <br className="bn" />Friedrich
                     </div>
                   </div>
                   <br className="lb" />{" "}
@@ -773,7 +788,7 @@ export default function page() {
                     }}
                   >
                     <hr />
-                    <label>Gottfr Ermen</label>
+                    <label>Gottfried Ermen</label>
                     <p>
                       Peter Jacob Gottfried Ermen (1811–1899), Teilhaber und
                       Chef der Firma Ermen & Engels in Engelskirchen.

@@ -88,7 +88,7 @@ export default function page() {
                 <div
                   className="page"
                   style={{
-                    paddingTop: "40px",
+                    paddingTop: "23px",
                     paddingLeft: "110px",
                     paddingBottom: "17px",
                   }}
@@ -226,7 +226,7 @@ export default function page() {
                     marginTop: "50px",
                     paddingTop: "75px",
                     paddingLeft: "110px",
-                    paddingBottom: "75px",
+                    paddingBottom: "89px",
                   }}
                 >
                   {/* Page 2 */}
@@ -341,7 +341,7 @@ export default function page() {
                   style={{
                     paddingTop: "40px",
                     paddingLeft: "110px",
-                    paddingBottom: "65px",
+                    paddingBottom: "76px",
                   }}
                 >
                   {/* Page 3 */}
@@ -536,7 +536,8 @@ export default function page() {
                   style={{
                     paddingTop: "40px",
                     paddingLeft: "110px",
-                    paddingBottom: "59px",
+                    paddingBottom: "46px",
+                    marginTop: "-7px",
                   }}
                 >
                   {/* Page 4 */}
@@ -915,7 +916,7 @@ export default function page() {
                   style={{
                     paddingTop: "85px",
                     paddingLeft: "110px",
-                    paddingBottom: "120px",
+                    paddingBottom: "261px",
                   }}
                 >
                   {/* Page 6 */}
@@ -1050,8 +1051,10 @@ export default function page() {
                       denke oft an
                     </p>
                   </blockquote>
-                                    <div className="closer">
-                    <div className="signed-morespace-2 signed-right">Deinen treuen</div>
+                    <div className="closer">
+                    <div className="signed-morespace-2 signed-right" style={{
+                        paddingTop: "50px",
+                      }} >Deinen treuen</div>
                     <br />
                   </div>
                   

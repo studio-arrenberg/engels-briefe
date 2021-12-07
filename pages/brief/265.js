@@ -54,9 +54,9 @@ export default function page() {
                 <div
                   className="page"
                   style={{
-                    paddingTop: "80px",
+                    paddingTop: "183px",
                     paddingLeft: "120px",
-                    paddingBottom: "190px",
+                    paddingBottom: "80px",
                   }}
                 >
                   {/* Insert Page 1 */}
@@ -194,7 +194,7 @@ export default function page() {
                     Uebrigens bin ich mit den{" "}
                     <span className="g.enc.tagsdecl.suspension.type1">
                       Arbeit</span>
-                    <span className="expan">
+                    <span className="expan makierung">
                       Arbeit<span className="ex">en</span>
                     </span>
                     <br className="lb" />{" "}
@@ -292,7 +292,7 @@ export default function page() {
                     <span className="corr">s</span>o warmes Wetter{" "}
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
-                      (behalt</span>
+                      behalt</span>
                     <span className="expan">
                       behalt<span className="ex">en</span>
                     </span>
@@ -336,7 +336,7 @@ export default function page() {
                     marginTop: "35px",
                     paddingTop: "50px",
                     paddingLeft: "70px",
-                    paddingBottom: "260px",
+                    paddingBottom: "270px",
                   }}
                 >
                   {/* Insert Page 3 */}
@@ -415,7 +415,7 @@ export default function page() {
                     <br className="lb" />{" "}
                     als wenn ich ihm
                     <sup className="sup" id="txt.add001"> (dem Pferde)</sup>
-                    <span class="orig" style={{ marginLeft: "-30px" }}></span>
+                    <span class="orig" style={{ marginLeft: "-41px" }}></span>
                     {" "}dadurch zu viel
                     <br className="lb" />{" "}
                     zumuthete. Doch darüber{" "}
@@ -492,7 +492,7 @@ export default function page() {
                   style={{
                     paddingTop: "55px",
                     paddingLeft: "70px",
-                    paddingBottom: "128px",
+                    paddingBottom: "123px",
                   }}
                 >
                   {/* Insert Page 4 */}
@@ -816,7 +816,7 @@ export default function page() {
                     marginTop: "-6px",
                     paddingTop: "60px",
                     paddingLeft: "70px",
-                    paddingBottom: "173px",
+                    paddingBottom: "172px",
                   }}
                 >
                   {/* Insert Page 5 */}
@@ -853,8 +853,8 @@ export default function page() {
 <br className="g.enc.tagsdecl.hyphenation.eq" />
                             stift mit{" "}
                             <span className="g.rend.script.latin">
-                              <span className="orig">
-                                <sup class="double-underline">Fch</sup>
+                              <span className="orig">F
+                                <sup class="double-underline">ch</sup>
                               </span>
                               <span className="corr">Friedrich</span>
                             </span>
@@ -1046,8 +1046,9 @@ export default function page() {
                   style={{
                     paddingTop: "70px",
                     paddingLeft: "70px",
-                    paddingBottom: "238px",
+                    paddingBottom: "236px",
                     marginBottom: "40px",
+                    marginTop:"-5px"
                   }}
                 >
                   {/* Insert Page 6 */}
@@ -1294,6 +1295,17 @@ export default function page() {
             <label>Oller</label>
             <p>Dachboden.</p>
           </div>
+          <div
+            className="stellenerläuterung"
+            style={{
+              top: "955px",
+            }}
+          >
+            <hr />
+            <label>Arbeiten</label>
+            <p>Renovierungsabreiten am Haus Brucher Rotte Nr. 173.</p>
+          </div>
+          
           <div
             className="stellenerläuterung"
             style={{

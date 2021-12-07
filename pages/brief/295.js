@@ -105,7 +105,7 @@ export default function page() {
                   style={{
                     paddingTop: "75px",
                     paddingLeft: "140px",
-                    paddingBottom: "156px",
+                    paddingBottom: "138px",
                   }}
                 >
                   {/* Insert Page 1 */}
@@ -276,9 +276,9 @@ export default function page() {
                     <br className="lb" /> einem die Schillinge (26{" "}
                     <span className="orig">ﬅ</span>
                     <span className="makierung">
-                      <span className="corr">st</span>über){" "}
+                      <span className="corr">st</span>über
                     </span>
-                    um die{" "}
+                    ){" "}um die{" "}
                     <span
                       className="strike-through"
                       style={{ textDecoration: "line-through" }}
@@ -516,7 +516,7 @@ export default function page() {
                     </p></span></p>
                     
                     <span
-                      style={{ top: "-420px" }}
+                      style={{ top: "-420px", left:"-410px" }}
                       className="vertical-links orig"
                       id="Note3"
                     >
@@ -1059,14 +1059,10 @@ export default function page() {
                         Meſs <sup>r</sup>.{" "}
                       </span>
                       <span className="orgName">
-                        Andry &amp;
+                        Andr<span className="orig">ÿ</span>
+<span className="corr">y</span> &amp;
                         <br className="lb" />{" "}
-                        <span
-                          style={{ display: "inline-block" }}
-                          width="2words"
-                        >
-                          &nbsp;
-                        </span>
+                     
                         Guibout
                       </span>
                       <br className="lb bn" />{" "}
@@ -1106,10 +1102,10 @@ export default function page() {
                         <span className="expan">
                           Minch<span className="ex">en</span>
                         </span>{" "}
-                        Sparenberg{" "}
+                        Sparenberg
                       </span>
                     </span>
-                    könnte
+                    {" "}könnte
                     <br className="lb" /> auch wohl an{" "}
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}

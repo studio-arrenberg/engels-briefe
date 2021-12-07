@@ -72,7 +72,6 @@ export default function page() {
                           Herren{" "}
                           <span className="persName">
                             <span className="abbr">
-                              (
                               <span className="g.rend.script.latin">
                                 {" "}
                                 Friedr.
@@ -126,6 +125,7 @@ export default function page() {
                 <div
                   className="page"
                   style={{
+                    marginTop: "5px",
                     paddingTop: "35px",
                     paddingLeft: "80px",
                     paddingBottom: "75px",
@@ -264,7 +264,7 @@ export default function page() {
                     <span className="corr">s</span>chlag</span> wohl aber eher das
                     <br className="lb" /> Gegentheil zu befürchten{" "}
                     <span className="orig">ſeÿn</span>
-                    <span className="corr">seyn</span>
+                    <span className="corr">seyn.</span>
                   </p>
                   </span>
                   <p className="enc.tagsdecl.indent-medium">
@@ -359,7 +359,7 @@ export default function page() {
                   <div className="opener">
                    
                     <a id="teaser.part.001.s">{/*anchor*/}</a>
-                    <div className="salute">
+                    <div className="salute enc.tagsdecl.indent-large">
                       Liebe <span className="persName">Mutter</span>
                     </div>
                   </div>
@@ -388,15 +388,9 @@ export default function page() {
                       <span className="corr">s</span>etzt. Lebe recht wohl und grüße Alle recht herzlich von Deinem
                     </p>
                     </span>
-                  <div className="closer">
-                    
-                    <div className="signed">
-                    <span className="orig" style={{display:"inlineBlock", marginLeft:"-70px"}} />
-
-                      <span className="persName">Friedrich</span>
-
-                    </div>
-                  </div>
+                  <div style={{
+              marginLeft: "430px !important",
+            }} className="">Friedrich</div>
                   </span>
                 </div>
 

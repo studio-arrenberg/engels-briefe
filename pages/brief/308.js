@@ -98,6 +98,7 @@ export default function page() {
                     paddingTop: "15px",
                     paddingLeft: "80px",
                     paddingBottom: "10px",
+                    marginTop:"27px"
                   }}
                 >
                   {/* Insert Page 1 */}
@@ -137,7 +138,7 @@ export default function page() {
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>en Po
                     <span className="orig">ﬅ</span>
-                    <span className="corr">st</span> zu be
+                    <span className="corr">st</span> zu be<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     nachrichtigen. Zu un<span className="orig">ſ</span>
                     <span className="corr">s</span>rer Freude fanden wir hier
@@ -398,7 +399,7 @@ export default function page() {
                       u<span className="ex">nd</span>
                     </span>{" "}
                     <span className="orig">ſ</span>
-                    <span className="corr">s</span>eine 
+                    <span className="corr">s</span>eine{" "}
                     <span className="orig">J</span><span className="corr">I</span>n
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>ruktionen von mir
@@ -452,7 +453,7 @@ export default function page() {
                   className="page"
                   style={{
                     marginTop: "-20px",
-                    paddingTop: "45px",
+                    paddingTop: "65px",
                     paddingLeft: "80px",
                     paddingBottom: "150px",
                   }}
@@ -621,10 +622,9 @@ export default function page() {
                       <br />{" "}
                       <div className="persName">Friedrich</div>
                     </div>
-                    <div className="signed corr" style={{marginLeft: "-85px", textAlign: "right"}}>
-                      Dein treuer Sohn
-                      <br />
-                      <div className="persName">Friedrich</div>
+                    <div  style={{width:"100%", textAlign: "right"}} className="corr">
+                      Dein treuer Sohn <br className="bn" />
+                      Friedrich
                     </div>
                     </p>
                     </span>

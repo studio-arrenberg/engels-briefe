@@ -91,7 +91,7 @@ export default function page() {
                   <span className="orig">
                     Her<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
-                    zens<span className="orig" style={{ display: "inline-block" }}>^</span>{" "}
+                    zens^
                     tippel
                   </span>
                   <span className="corr">
@@ -213,7 +213,7 @@ export default function page() {
                 style={{
                   paddingTop: "70px",
                   paddingLeft: "80px",
-                  paddingBottom: "214px",
+                  paddingBottom: "203px",
                 }}
               >
                 {/* Insert Page 2 */}
@@ -355,7 +355,7 @@ export default function page() {
                 style={{
                   paddingTop: "60px",
                   paddingLeft: "70px",
-                  paddingBottom: "244px",
+                  paddingBottom: "249px",
                 }}
               >
                 {/* Insert Page 3 */}

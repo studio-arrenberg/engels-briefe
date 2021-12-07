@@ -43,10 +43,10 @@ export default function page() {
                 <div
                   className="page"
                   style={{
-                    marginBottom: "22px",
+                    marginBottom: "25px",
                     paddingTop: "35px",
                     paddingLeft: "150px",
-                    paddingBottom: "50px",
+                    paddingBottom: "30px",
                   }}
                 >
                   {/* Insert Page 1 */}
@@ -315,7 +315,7 @@ export default function page() {
                   style={{
                     paddingTop: "63px",
                     paddingLeft: "105px",
-                    paddingBottom: "20px",
+                    paddingBottom: "38px",
                     marginBottom: "22px",
                   }}
                 >
@@ -553,7 +553,7 @@ export default function page() {
                   style={{
                     paddingTop: "66px",
                     paddingLeft: "135px",
-                    paddingBottom: "40px",
+                    paddingBottom: "25px",
                   }}
                 >
                   {/* Insert Page 3 */}
@@ -859,7 +859,7 @@ export default function page() {
             <label> Wohl erhob sich im Fabriken- und Handlungsgebiet […] zusammenstürzten.</label>
             <p>
               Gerhard Bernhard van Haar bezieht sich mutmaßlich auf ein Unwetter
-              im Winterhalbjahr 1825/26, das er im biblischen Ton schildert.
+              im Winterhalbjahr 1825/26, das er im biblischen Ton schildert. In zeitgenössischen Quellen wird ein Orkan beschrieben, der am 12. und 13. Januar 1828 in England, Frankreich und Deutschland tobte. 
             </p>
           </div>
           <div

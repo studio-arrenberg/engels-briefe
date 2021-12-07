@@ -1874,6 +1874,16 @@ p > span .latin {
   margin-bottom: 56px;
 }
 
+.vergleichs-ansicht #brief-308 img:nth-of-type(2) {
+  margin-bottom: 74px;
+}
+
+
+.vergleichs-ansicht #brief-169 img:nth-of-type(6) {
+  margin-bottom:107px;
+}
+
+
 
 /* Detail Ansicht */
 .detail-ansicht .nopadding{
