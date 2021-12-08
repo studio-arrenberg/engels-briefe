@@ -637,7 +637,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "1100px",
+              top: "1142px",
             }}
           >
             <hr />
@@ -651,7 +651,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "960px",
+              top: "987px",
             }}
           >
             <hr />
@@ -665,7 +665,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "1545px",
+              top: "1612px",
             }}
           >
             <hr />
@@ -675,7 +675,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "1430px",
+              top: "1470px",
             }}
           >
             <hr />
@@ -692,7 +692,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "1460px",
+              top: "1541px",
             }}
           >
             <hr />
@@ -705,7 +705,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "1600px",
+              top: "1642px",
             }}
           >
             <hr />
@@ -720,7 +720,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "1797px",
+              top: "1854px",
             }}
           >
             <hr />
@@ -733,7 +733,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "1797px",
+              top: "1854px",
             }}
           >
             <hr />
@@ -748,7 +748,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "2780px",
+              top: "2828px",
             }}
           >
             <hr />

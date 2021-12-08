@@ -117,7 +117,7 @@ export default function page() {
                   style={{
                     paddingTop: "0px",
                     paddingLeft: "80px",
-                    paddingBottom: "22px",
+                    paddingBottom: "33px",
                   }}
                 >
                   {/* Insert Page 1 */}
@@ -722,9 +722,9 @@ export default function page() {
         <div className={`stellenerläuterungen ${isStellen ? "activ" : null}`}>
           
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "850px",
+              top: "804px",
             }}
           >
             <hr />
@@ -776,7 +776,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "2280px",
+              top: "2265px",
             }}
           >
             <hr />
@@ -802,7 +802,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "2860px",
+              top: "2865px",
             }}
           >
             <hr />
@@ -815,7 +815,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "2960px",
+              top: "2958px",
             }}
           >
             <hr />
@@ -828,7 +828,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "3190px",
+              top: "3202px",
             }}
           >
             <hr />

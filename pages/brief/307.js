@@ -400,9 +400,9 @@ export default function page() {
         </div>
         <div className={`stellenerläuterungen ${isStellen ? "activ" : null}`}>
           <div
-            className="stellenerläuterung "
+            className="stellenerläuterung push-right "
             style={{
-              top: "964px",
+              top: "974px",
             }}
           >
             <hr />
@@ -411,9 +411,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung push-right"
+            className="stellenerläuterung "
             style={{
-              top: "964px",
+              top: "1007px",
             }}
           >
             <hr />
@@ -423,7 +423,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "1265px",
+              top: "1285px",
             }}
           >
             <hr />
@@ -435,7 +435,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "1325px",
+              top: "1347px",
             }}
           >
             <hr />
@@ -449,7 +449,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "1535px",
+              top: "1580px",
             }}
           >
             <hr />

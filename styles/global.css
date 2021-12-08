@@ -338,7 +338,7 @@ main {
   top: 0px;
   z-index: 2000;
   overflow: hidden;
-  
+  cursor: pointer;
 }
 
 .intro-stage {
@@ -1992,7 +1992,35 @@ p > span .latin {
 
 
 
+/* RESPONSIVE */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 900px)
+  and (orientation: landscape) {
+
+  .gardient{
+    width: 50px;
+  }
 
 
 
+  .scrollable-index .item{
+   width: 200px;
+   transform: scale(0.5); 
 
+  }
+
+.intro-stage {
+  transform: scale(0.7); 
+  width: 70%;
+  left: 0px;
+  padding-left: 0px;
+}
+
+ 
+
+  .intro-stage h1{
+    font-size: 2rem;
+  }
+  }

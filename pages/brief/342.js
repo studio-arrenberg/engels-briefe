@@ -678,9 +678,9 @@ export default function page() {
                   }`}
                 >
                   <div
-                    className="stellenerläuterung push-right"
+                    className="stellenerläuterung "
                     style={{
-                      top: "860px",
+                      top: "874px",
                     }}
                   >
                     <hr />
@@ -693,9 +693,9 @@ export default function page() {
                   </div>
 
                   <div
-                    className="stellenerläuterung"
+                    className="stellenerläuterung push-right"
                     style={{
-                      top: "860px",
+                      top: "874px",
                     }}
                   >
                     <hr />
@@ -709,7 +709,7 @@ export default function page() {
                   <div
                     className="stellenerläuterung push-right"
                     style={{
-                      top: "1080px",
+                      top: "1108px",
                     }}
                   >
                     <hr />
@@ -721,7 +721,7 @@ export default function page() {
                   <div
                     className="stellenerläuterung"
                     style={{
-                      top: "1165px",
+                      top: "1194px",
                     }}
                   >
                     <hr />
@@ -731,7 +731,7 @@ export default function page() {
                   <div
                     className="stellenerläuterung"
                     style={{
-                      top: "1290px",
+                      top: "1313px",
                     }}
                   >
                     <hr />
@@ -742,9 +742,9 @@ export default function page() {
                     </p>
                   </div>
                   <div
-                    className="stellenerläuterung push-right"
+                    className="stellenerläuterung "
                     style={{
-                      top: "1370px",
+                      top: "1399px",
                     }}
                   >
                     <hr />
@@ -757,9 +757,9 @@ export default function page() {
                     </p>
                   </div>
                   <div
-                    className="stellenerläuterung"
+                    className="stellenerläuterung push-right"
                     style={{
-                      top: "1390px",
+                      top: "1399px",
                     }}
                   >
                     <hr />
@@ -772,9 +772,9 @@ export default function page() {
                     </p>
                   </div>
                   <div
-                    className="stellenerläuterung push-right"
+                    className="stellenerläuterung"
                     style={{
-                      top: "1460px",
+                      top: "1489px",
                     }}
                   >
                     <hr />
@@ -784,7 +784,7 @@ export default function page() {
                   <div
                     className="stellenerläuterung"
                     style={{
-                      top: "1500px",
+                      top: "1544px",
                     }}
                   >
                     <hr />
@@ -797,7 +797,7 @@ export default function page() {
                   <div
                     className="stellenerläuterung push-right"
                     style={{
-                      top: "1570px",
+                      top: "1604px",
                     }}
                   >
                     <hr />
@@ -813,7 +813,7 @@ export default function page() {
                   <div
                     className="stellenerläuterung"
                     style={{
-                      top: "2140px",
+                      top: "2184px",
                     }}
                   >
                     <hr />
@@ -826,7 +826,7 @@ export default function page() {
                   <div
                     className="stellenerläuterung push-right"
                     style={{
-                      top: "2190px",
+                      top: "2245px",
                     }}
                   >
                     <hr />
@@ -848,7 +848,7 @@ export default function page() {
                   <div
                     className="stellenerläuterung push-right"
                     style={{
-                      top: "2430px",
+                      top: "2480px",
                     }}
                   >
                     <hr />
@@ -858,7 +858,7 @@ export default function page() {
                   <div
                     className="stellenerläuterung"
                     style={{
-                      top: "2490px",
+                      top: "2541px",
                     }}
                   >
                     <hr />
@@ -868,7 +868,7 @@ export default function page() {
                   <div
                     className="stellenerläuterung push-right"
                     style={{
-                      top: "2540px",
+                      top: "2600px",
                     }}
                   >
                     <hr />
@@ -881,7 +881,7 @@ export default function page() {
                   <div
                     className="stellenerläuterung"
                     style={{
-                      top: "2610px",
+                      top: "2660px",
                     }}
                   >
                     <hr />
@@ -895,7 +895,7 @@ export default function page() {
                   <div
                     className="stellenerläuterung push-right"
                     style={{
-                      top: "2670px",
+                      top: "2724px",
                     }}
                   >
                     <hr />
