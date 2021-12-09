@@ -105,7 +105,7 @@ export default function page() {
                   style={{
                     paddingTop: "75px",
                     paddingLeft: "140px",
-                    paddingBottom: "156px",
+                    paddingBottom: "138px",
                   }}
                 >
                   {/* Insert Page 1 */}
@@ -125,6 +125,7 @@ export default function page() {
                     </div>
                   </div>
                   <p>
+                    <span className="reisen">
                     <a id="teaser.part.001.s">{/*anchor*/}</a>{" "}Seit Vorge
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>ern Abend{" "}
@@ -275,9 +276,9 @@ export default function page() {
                     <br className="lb" /> einem die Schillinge (26{" "}
                     <span className="orig">ﬅ</span>
                     <span className="makierung">
-                      <span className="corr">st</span>über){" "}
+                      <span className="corr">st</span>über
                     </span>
-                    um die{" "}
+                    ){" "}um die{" "}
                     <span
                       className="strike-through"
                       style={{ textDecoration: "line-through" }}
@@ -304,6 +305,7 @@ export default function page() {
                     </span>{" "}
                     in keinem Betracht aushalten.
                     </span> 
+                    </span>
                   </p>
                   <p>
                   <span className="business">
@@ -447,8 +449,11 @@ export default function page() {
                     <br className="lb" /> auf eine Woche mehr oder weniger{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ehen.
+                    
                   </p>
+                  
                   <p>
+                    <span className="reisen">
                     <span className="orig">Ueberhaupt</span>
                     <span className="corr">Überhaupt</span> werde ich immer mehr
                     überzeugt
@@ -508,9 +513,10 @@ export default function page() {
                       <span className="corr">s</span>icht will ich mich gerne mit
                       allem <br className="lb" /> <span class="orig" style={{ marginLeft: "10px" }}></span>bekannt machƺ um ſpäter einen gutƺ Führer abzugebƺ
                       </span>
-                    </p></p>
+                    </p></span></p>
+                    
                     <span
-                      style={{ top: "-420px" }}
+                      style={{ top: "-420px", left:"-410px" }}
                       className="vertical-links orig"
                       id="Note3"
                     >
@@ -550,6 +556,7 @@ export default function page() {
                         <span className="corr">s</span>chreiben.
                       </span>
                     </span>
+                    
                 
                 </div>
 
@@ -564,7 +571,7 @@ export default function page() {
                   }}
                 >
                   {/* Insert Page 3 */}
-                 
+                 <span className="reisen">
                   <span className="corr">zu</span>bereiteten Gerichten liegt, ein Gericht{" "}
                     <span className="orig">
                       <span className="orig">ſ</span>
@@ -669,7 +676,7 @@ export default function page() {
                       abge<span className="orig">ſ</span>
                       <span className="corr">s</span>chrekt
                     </span>
-                    <span className="corr">abgeschreckt</span>.
+                    <span className="corr">abgeschreckt</span>.</span>
                     <br className="lb" /> Was un<span className="orig">ſ</span>
                     <span className="corr">s</span>er <span className="sans">Logis</span> anbelangt{" "}
                     <span className="orig">ſ</span>
@@ -1052,14 +1059,10 @@ export default function page() {
                         Meſs <sup>r</sup>.{" "}
                       </span>
                       <span className="orgName">
-                        Andry &amp;
+                        Andr<span className="orig">ÿ</span>
+<span className="corr">y</span> &amp;
                         <br className="lb" />{" "}
-                        <span
-                          style={{ display: "inline-block" }}
-                          width="2words"
-                        >
-                          &nbsp;
-                        </span>
+                     
                         Guibout
                       </span>
                       <br className="lb bn" />{" "}
@@ -1099,10 +1102,10 @@ export default function page() {
                         <span className="expan">
                           Minch<span className="ex">en</span>
                         </span>{" "}
-                        Sparenberg{" "}
+                        Sparenberg
                       </span>
                     </span>
-                    könnte
+                    {" "}könnte
                     <br className="lb" /> auch wohl an{" "}
                     <span className="g.enc.tagsdecl.suspension.type1">
                       {" "}
@@ -1143,7 +1146,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "811px",
+              top: "815px",
             }}
           >
             <hr />
@@ -1154,7 +1157,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "1240px",
+              top: "1256px",
             }}
           >
             <hr />
@@ -1169,7 +1172,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "2724px",
+              top: "2766px",
             }}
           >
             <hr />
@@ -1182,7 +1185,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "2756px",
+              top: "2798px",
             }}
           >
             <hr />
@@ -1196,7 +1199,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "2815px",
+              top: "2857px",
             }}
           >
             <hr />
@@ -1206,7 +1209,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "2844px",
+              top: "2888px",
             }}
           >
             <hr />
@@ -1220,7 +1223,7 @@ export default function page() {
           <div
             className="stellenerläuterung "
             style={{
-              top: "2987px",
+              top: "3035px",
             }}
           >
             <hr />
@@ -1230,7 +1233,7 @@ export default function page() {
           <div
             className="stellenerläuterung "
             style={{
-              top: "3100px",
+              top: "3152px",
             }}
           >
             <hr />
@@ -1240,7 +1243,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "811px",
+              top: "815px",
             }}
           >
             <hr />
@@ -1250,7 +1253,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "3385px",
+              top: "3445px",
             }}
           >
             <hr />
@@ -1265,7 +1268,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "3413px",
+              top: "3473px",
             }}
           >
             <hr />
@@ -1275,7 +1278,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "4149px",
+              top: "4219px",
             }}
           >
             <hr />

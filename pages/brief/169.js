@@ -88,7 +88,7 @@ export default function page() {
                 <div
                   className="page"
                   style={{
-                    paddingTop: "40px",
+                    paddingTop: "23px",
                     paddingLeft: "110px",
                     paddingBottom: "17px",
                   }}
@@ -226,7 +226,7 @@ export default function page() {
                     marginTop: "50px",
                     paddingTop: "75px",
                     paddingLeft: "110px",
-                    paddingBottom: "75px",
+                    paddingBottom: "89px",
                   }}
                 >
                   {/* Page 2 */}
@@ -341,7 +341,7 @@ export default function page() {
                   style={{
                     paddingTop: "40px",
                     paddingLeft: "110px",
-                    paddingBottom: "65px",
+                    paddingBottom: "76px",
                   }}
                 >
                   {/* Page 3 */}
@@ -514,6 +514,7 @@ export default function page() {
                     denn die nehmen recht herzlich Antheil an mir.
                   </p>
                   <p className="" id="mark.007">
+                  <span className="liebe">
                   <span style={{ marginLeft: "30px" }} ></span>
                     Zu Zeiten will mir die Geduld reißen, bis ich
                     <br className="lb" />{" "}
@@ -527,6 +528,7 @@ export default function page() {
                       u<span className="ex">nd</span>
                     </span>{" "}
                     gute Sache wie
+                    </span>
                   </p>
                 </div>
                 <div
@@ -534,11 +536,13 @@ export default function page() {
                   style={{
                     paddingTop: "40px",
                     paddingLeft: "110px",
-                    paddingBottom: "59px",
+                    paddingBottom: "46px",
+                    marginTop: "-7px",
                   }}
                 >
                   {/* Page 4 */}
                   <p>
+                    <span className="liebe">
                     un<span className="orig">ſ</span><span className="corr">s</span>ere Liebe mit einer <span className="orig">ſ</span><span className="corr">s</span>o äng<span className="orig">ﬅ</span><span className="corr">st</span>lichen Vor<span className="orig">ſ</span><span className="corr">s</span>ichtigkeit
                     <br className="lb" />{" "}
                     behandeln zu <span className="orig">müßen</span>
@@ -554,6 +558,7 @@ export default function page() {
                     wenn er auf einem andern Wege als durch mich, etwas
                     <br className="lb" />{" "}
                     Be<span className="orig">ﬅ</span><span className="corr">st</span>immtes darüber gehört hätte.
+                    </span>
                   </p>
                   <p className="enc.tagsdecl.indent-medium">
                     Bis nach meiner Rei<span className="orig">ſ</span><span className="corr">s</span>e – doch darüber Morgen mehr,
@@ -911,7 +916,7 @@ export default function page() {
                   style={{
                     paddingTop: "85px",
                     paddingLeft: "110px",
-                    paddingBottom: "120px",
+                    paddingBottom: "261px",
                   }}
                 >
                   {/* Page 6 */}
@@ -984,6 +989,7 @@ export default function page() {
                     {" "}
                     ein.
                   </p>
+                  <span className="religion">
                   <p className="enc.tagsdecl.indent-medium" id="mark.012">
                     Morgen gehe ich zum <span className="abbr"> heil.</span>
                     <span className="expan">
@@ -995,6 +1001,7 @@ export default function page() {
                     <br className="lb" />{" "}
                     wichtige Handlung begehen kann!
                   </p>
+                  </span>
                   <blockquote className="closer">
                     <p className="enc.tagsdecl.indent-medium">
                       <span className="makierung">Meine Ge<span className="orig">ſ</span><span className="corr">s</span>chwi<span className="orig">ﬅ</span><span className="corr">st</span>er</span>, meine{" "}
@@ -1044,8 +1051,10 @@ export default function page() {
                       denke oft an
                     </p>
                   </blockquote>
-                                    <div className="closer">
-                    <div className="signed-morespace-2 signed-right">Deinen treuen</div>
+                    <div className="closer">
+                    <div className="signed-morespace-2 signed-right" style={{
+                        paddingTop: "50px",
+                      }} >Deinen treuen</div>
                     <br />
                   </div>
                   
@@ -1067,7 +1076,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "770px",
+              top: "800px",
             }}
           >
             <hr />
@@ -1080,7 +1089,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "960px",
+              top: "1000px",
             }}
           >
             <hr />
@@ -1091,9 +1100,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "1160px",
+              top: "1172px",
             }}
           >
             <hr />
@@ -1106,7 +1115,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "1320px",
+              top: "1373px",
             }}
           >
             <hr />
@@ -1119,7 +1128,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "2000px",
+              top: "2054px",
             }}
           >
             <hr />
@@ -1132,7 +1141,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "3150px",
+              top: "3228px",
             }}
           >
             <hr />
@@ -1145,7 +1154,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "3150px",
+              top: "3228px",
             }}
           >
             <hr />
@@ -1158,7 +1167,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "3350px",
+              top: "3430px",
             }}
           >
             <hr />
@@ -1171,7 +1180,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "3460px",
+              top: "3546px",
             }}
           >
             <hr />
@@ -1184,7 +1193,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "3570px",
+              top: "3664px",
             }}
           >
             <hr />
@@ -1197,7 +1206,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "4620px",
+              top: "4739px",
             }}
           >
             <hr />
@@ -1210,7 +1219,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "5870px",
+              top: "6002px",
             }}
           >
             <hr />
@@ -1223,7 +1232,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "5920px",
+              top: "6062px",
             }}
           >
             <hr />
@@ -1236,7 +1245,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "6950px",
+              top: "7114px",
             }}
           >
             <hr />
@@ -1249,7 +1258,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "7100px",
+              top: "7260px",
             }}
           >
             <hr />
@@ -1262,7 +1271,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "7150px",
+              top: "7316px",
             }}
           >
             <hr />
@@ -1275,7 +1284,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "4770px",
+              top: "4883px",
             }}
           >
             <hr />

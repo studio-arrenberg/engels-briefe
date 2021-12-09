@@ -70,7 +70,7 @@ export default function page() {
                   style={{
                     paddingTop: "15px",
                     paddingLeft: "80px",
-                    paddingBottom: "85px"
+                    paddingBottom: "81px"
                   }}
                 >
                   {/* Insert Page 1 */}
@@ -93,7 +93,7 @@ export default function page() {
                         {" "}
                         1816.<br className="lb" />
                         <span style={{ display: "inline-block" }} width="13cm">
-                          &nbsp;
+                          &nbsp;<span className="indent-small"></span>
                         </span>
                         <span className="corr"><br className="lb-detail"/></span>
                         Sam<span className="orig">ﬅ</span>
@@ -147,7 +147,7 @@ export default function page() {
                   </p>
                   <p>
                     <span style={{ display: "inline-block" }} width="2em">
-                      &nbsp;
+                      &nbsp;<span className="indent-small"></span>
                     </span>
                     Vermuthlich <span className="orig">ſ</span>
                     <span className="corr">s</span>ind wir zu einer Zeit in un
@@ -162,7 +162,7 @@ export default function page() {
                   </p>
                   <p>
                     <span style={{ display: "inline-block" }} width="2em">
-                      &nbsp;
+                      &nbsp;<span className="indent-small"></span>
                     </span>
                     <span className="makierung">Das waren ein paar frohe und wichtige Wochen, die
                     <br className="lb" />{" "}
@@ -288,7 +288,7 @@ export default function page() {
                         <br className="lb" />{" "}
                         nicht begreifen können;
                         <span style={{ display: "inline-block" }} width="2em">
-                          &nbsp;
+                          &nbsp;<span className="indent-small"></span>
                         </span>
                         denn die<span className="orig">ſ</span>
                         <span className="corr">s</span>e Stimmung, worin
@@ -319,7 +319,7 @@ export default function page() {
                   style={{
                     paddingTop: "80px",
                     paddingLeft: "80px",
-                    paddingBottom: "87px",
+                    paddingBottom: "76px",
                   }}
                 >
                   {/* Insert Page 2 */}
@@ -327,7 +327,7 @@ export default function page() {
                     <p>
                       <span className="religion">
                         <span style={{ display: "inline-block" }} width="2em">
-                          &nbsp;
+                          &nbsp;<span className="indent-small"></span>
                         </span>
                         Nein <span className="orig">ſ</span>
                         <span className="corr">s</span>o wollen wir es nicht
@@ -358,14 +358,14 @@ export default function page() {
                       <span className="corr">s</span>ehen kann, und ich bin
                       <br className="lb" />{" "}
                       überzeugt, er läßt mich{" "}
-                      <sup className="sup" id="txt.add001">
+                      <sup className="sup" id="txt.add003">
                         dann
                       </sup>{" "}
                       keine Fehlbitte thun.
                     </p>
                     <p>
-                      <span style={{ display: "inline-block" }} width="4em">
-                        &nbsp;
+                      <span className="" style={{ display: "inline-block" }} width="4em">
+                        &nbsp;<span className="indent-small"></span>
                       </span>
                       Auf die<span className="orig">ſ</span>
                       <span className="corr">s</span>e Wei
@@ -407,7 +407,7 @@ export default function page() {
                   <p>
                     <span className="liebe">
                       <span style={{ display: "inline-block" }} width="8em">
-                        &nbsp;
+                        &nbsp;<span className="indent-small"></span>
                       </span>
                       <a id="teaser.part.002.s">{/*anchor*/}</a>Die
                       <span className="orig">ſ</span>
@@ -496,8 +496,8 @@ export default function page() {
                   </p>
                   <span className="liebe">
                     <p>
-                      <span style={{ display: "inline-block" }} width="4em">
-                        &nbsp;
+                      <span className="" style={{ display: "inline-block" }} width="4em">
+                        &nbsp;<span className="indent-small"></span>
                       </span>
                       <a id="mark.003.s">{/*anchor*/}</a>Ich glaube fa
                       <span className="orig">ﬅ</span>
@@ -513,7 +513,7 @@ export default function page() {
                       <br className="lb" />{" "}
                       doch einmal be<span className="orig">ﬅ</span>
                       <span className="corr">st</span>immter gewahr werden.
-                      <span style={{ display: "inline-block" }} width="2em">
+                      <span className="" style={{ display: "inline-block" }} width="4em">
                         &nbsp;
                       </span>
                       <span className="orig">Laße</span>
@@ -539,7 +539,7 @@ export default function page() {
                   style={{
                     paddingTop: "60px",
                     paddingLeft: "80px",
-                    paddingBottom: "105px",
+                    paddingBottom: "100px",
                   }}
                 >
                   <span className="liebe">
@@ -568,8 +568,8 @@ export default function page() {
                       <span className="corr">st</span>. –
                     </p>
                     <p>
-                      <span style={{ display: "inline-block" }} width="4em">
-                        &nbsp;
+                      <span className="" style={{ display: "inline-block" }} width="4em">
+                        &nbsp;<span className="indent-small"></span>
                       </span>
                       Mit den Briefen{" "}
                       <span className="orig">müßen</span>
@@ -585,7 +585,7 @@ export default function page() {
                       <br className="lb" />{" "}
                       Wenn ich doch nur jemand wüßte woran Du oder{" "}
                       <span className="persName">
-                        <span className="abbr"> M.</span>
+                        <span className="abbr"> M.</span>{" "}
                         <span className="expan">
                           M<span className="ex">inchen</span>{" "}
                         </span>
@@ -617,8 +617,8 @@ export default function page() {
                   </span>
                   <blockquote className="closer">
                     <p>
-                      <span style={{ display: "inline-block" }} width="4em">
-                        &nbsp;
+                      <span className="" style={{ display: "inline-block" }} width="4em">
+                        &nbsp;<span className="indent-small"></span>
                       </span>
                       Jetzt <span className="orig">ſ</span>
                       <span className="corr">s</span>oll ich wohl{" "}
@@ -644,12 +644,12 @@ export default function page() {
                       recht wohl und vergnügt bei den
                       <br className="lb" />{" "}
                       Deinigen.{" "}
-                      <span style={{ display: "inline-block" }} width="2em">
+                      <span className="" style={{ display: "inline-block" }} width="4em">
                         &nbsp;
                       </span>
                       
                       <span className="persName">
-                        <span className="abbr"> M.</span>
+                        <span className="abbr"> M.</span>{" "}
                         <span className="expan">
                           M<span className="ex">inchen</span>{" "}
                         </span>
@@ -716,8 +716,8 @@ export default function page() {
                   </blockquote>
                   <blockquote className="closer">
                     <p>
-                      <span style={{ display: "inline-block" }} width="4em">
-                        &nbsp;
+                      <span className="" style={{ display: "inline-block" }} width="4em">
+                        &nbsp;<span className="indent-small"></span>
                       </span>
                       Verzeihe mir mein <span className="orig">ſ</span>
                       <span className="corr">s</span>chlechtes Schreiben, mein
@@ -748,8 +748,8 @@ export default function page() {
                   </blockquote>
                   <blockquote className="closer">
                     <p>
-                      <span style={{ display: "inline-block" }} width="4em">
-                        &nbsp;
+                      <span className="" style={{ display: "inline-block" }} width="4em">
+                        &nbsp;<span className="indent-small"></span>
                       </span>
                       Nochmals lebe recht wohl. Der gute Gott{" "}
                       <span className="orig">ſ</span>
@@ -761,12 +761,12 @@ export default function page() {
                   </blockquote>
                   <div className="closer">
                     <span style={{ display: "inline-block" }} width="6words">
-                      &nbsp;
+                      &nbsp;<span className="indent-small"></span>
                     </span>
                     <div className="signed-space" style={{paddingLeft: "320px",}}>
                       Deinem treuen
                       <span style={{ display: "inline-block" }} width="7words">
-                        &nbsp;
+                        &nbsp;<span className="indent-small"></span>
                       </span>
                       <br className="lb-detail" />
                       <span className="orig" style={{marginRight:"20px"}}></span>
@@ -783,7 +783,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "1040px",
+              top: "1089px",
             }}
           >
             <hr />
@@ -796,7 +796,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "1945px",
+              top: "2010px",
             }}
           >
             <hr />
@@ -809,7 +809,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "2435px",
+              top: "2514px",
             }}
           >
             <hr />
@@ -823,7 +823,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "2580px",
+              top: "2670px",
             }}
           >
             <hr />
@@ -836,7 +836,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "3211px",
+              top: "3308px",
             }}
           >
             <hr />
@@ -849,7 +849,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "3762px",
+              top: "3826px",
             }}
           >
             <hr />
@@ -860,9 +860,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung push-right"
+            className="stellenerläuterung"
             style={{
-              top: "3712px",
+              top: "3776px",
             }}
           >
             <hr />
@@ -875,7 +875,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "3762px",
+              top: "3807px",
             }}
           >
             <hr />

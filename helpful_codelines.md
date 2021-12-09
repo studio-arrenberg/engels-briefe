@@ -21,6 +21,19 @@
 <span className="orig">J</span>
 <span className="corr">I</span>
 
+<span className="orig">ſ</span>
+<span className="corr">s</span>
+
+
+<span className="orig umlaut">aͤ</span>
+<span className="corr">ä</span>
+
+<span className="orig umlaut">oͤ</span>
+<span className="corr">ö</span>
+
+<span className="orig umlaut">uͤ</span>
+<span className="corr">ü</span>
+
 <span className="orig doublehyphen">⹀</span>
 
 <span className="orig doublehyphen einzug">⹀</span>
@@ -50,6 +63,12 @@ g.rend.script.latin
 6 Geschäftliches
 
 </div>
+
+
+<!-- Abstände zwischen den digitalisaten anpassen -->
+.vergleichs-ansicht #brief-71 img:nth-of-type(2) {
+  margin-bottom: 56px;
+}
 
 
 

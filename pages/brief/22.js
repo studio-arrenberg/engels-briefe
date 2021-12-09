@@ -61,7 +61,7 @@ export default function page() {
                         <span className="small">
                           <span className="">
                             zur eigenhändigen<br /> <span className="underline-white">Erbrechung</span> 
-                            <span clasName="sans" style={{    marginTop: "-60px",
+                            <span className="sans" style={{    marginTop: "-60px",
                                 marginRight: "200px",
                                 display: "block",
                                 textAlign: "center",}}>
@@ -86,7 +86,7 @@ export default function page() {
                   style={{
                     paddingTop: "100px",
                     paddingLeft: "100px",
-                    paddingBottom: "280px",
+                    paddingBottom: "258px",
                   }}
                 >
                   <p>
@@ -223,7 +223,8 @@ export default function page() {
                   style={{
                     paddingTop: "100px",
                     paddingLeft: "70px",
-                    paddingBottom: "240px",
+                    paddingBottom: "225px",
+                    marginBottom: "40px",
                   }}
                 ><span className="religion">
                   <p>
@@ -341,7 +342,7 @@ export default function page() {
                   style={{
                     paddingTop: "100px",
                     paddingLeft: "70px",
-                    paddingBottom: "80px",
+                    paddingBottom: "111px",
                   }}
                 >  
                   <p>
@@ -366,11 +367,11 @@ export default function page() {
           Sorgen! <span className="underline">Froh</span>,{" "}
           <span className="underline">ruhig</span> und{" "}
           <span className="underline">getro<span className="orig"><span className="orig">ﬅ</span>
-<span className="corr">st</span></span></span>{" "}
+</span><span className="corr">st</span></span>{" "}
  i<span className="orig">ﬅ</span>
 <span className="corr">st</span>{" "}
           <span className="orig">jezt</span><span className="corr">jetzt</span> mein{" "}
-          <span className="underline">Wahlspruch</span><span className="orig" /><span className="corr">.</span>
+          <span className="underline">Wahlspruch</span><span className="orig" /><span className="corr">.</span></span>
           <a id="mark.003.e">{/*anchor*/}</a>
           
           <br className="lb" />{" "}
@@ -391,10 +392,10 @@ export default function page() {
           <span className="makierung"><span className="persName">Schwe<span className="orig">ﬅ</span>
 <span className="corr">st</span>er Märcker</span></span> und{" "}
           <span className="makierung"><span className="orig">CreißEinnehmers</span><span className="corr">Kreiseinnehmers</span></span> sind unten am<br className="lb" />{" "}
-          Caﬀee trinken und haben mir schon <span className="orig">ruﬀen</span><span className="corr">rufen</span> <span className="orig">laßen</span><span className="corr">lassen</span>.</span>
+          Caﬀee trinken und haben mir schon <span className="orig">ruﬀen</span><span className="corr">rufen</span> <span className="orig">laßen</span><span className="corr">lassen</span>.
         </p>
         <p>
-          Du mein herzlichgeliebter Gatte! muß<span className="orig strikethrough">h</span><span className="orig" /><span className="corr">[t]</span>
+          Du mein herzlichgeliebter Gatte! muß <span className="orig strikethrough">h</span><span className="orig" /><span className="corr">[t]</span>
           <span style={{textDecoration: 'line-through'}}></span> mit diesen<br className="lb" />{" "}
           in der Eil geschriebenen Brief vorlieb nehmen und{" "}
           <span className="orig">heüte</span><span className="corr">heute</span><br className="lb" />{" "}
@@ -439,7 +440,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "1480px",
+              top: "1742px",
             }}
           >
             <hr />
@@ -453,7 +454,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "2411px",
+              top: "2825px",
             }}
           >
             <hr />
@@ -464,9 +465,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "2496px",
+              top: "2879px",
             }}
           >
             <hr />
@@ -477,9 +478,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung push-right"
+            className="stellenerläuterung"
             style={{
-              top: "2496px;",
+              top: "2913px;",
             }}
           >
             <hr />

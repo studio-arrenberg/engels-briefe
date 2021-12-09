@@ -61,7 +61,7 @@ export default function page() {
                             Mad<sup className="double-underline"></sup><span className="ex">ame</span>
                           </span>{" "}
                         </span>
-                        <span className="persName">Louise Engels <span className="small"> <span className="makierung">né</span> Nooth</span></span>
+                        <span className="persName">Louise Engels <span className="small"> <span className="makierung">née</span> Nooth</span></span>
                         <br />{" "}
                         <span style={{ display: "inline-block" }} width="6cm">
                           &nbsp;
@@ -89,7 +89,7 @@ export default function page() {
                   style={{
                     paddingTop: "95px",
                     paddingLeft: "80px",
-                    paddingBottom: "250px",
+                    paddingBottom: "232px",
                   }}
                 >
                   <span type="liebe-ehe" from="#mark.002.s" to="#mark.002.e" />
@@ -267,7 +267,7 @@ export default function page() {
                   style={{
                     paddingTop: "55px",
                     paddingLeft: "80px",
-                    paddingBottom: "270px",
+                    paddingBottom: "253px",
                   }}
                 >
                   <span className="liebe religion ">
@@ -380,7 +380,7 @@ export default function page() {
                       <span className="corr">s</span>agen{" "}
                       <span className="orig">kan</span>
                       <span className="corr">kann</span>.{" "}
-                      <a id="mark.004.s">{/*anchor*/}</a>Ich habe mit dir
+                      <a id="mark.004.s">{/*anchor*/}</a><span className="orig">I</span><span className="corr">i</span>ch habe mit dir
                       <br className="lb" />{" "} um 8 Uhr <span className="orig">gebäten</span>
                       <span className="corr">gebeten</span>, und werde{" "}
                       <sup className="sup">nun</sup> mit dir in Gedanken und im
@@ -434,7 +434,7 @@ export default function page() {
                   style={{
                     paddingTop: "40px",
                     paddingLeft: "70px",
-                    paddingBottom: "490px",
+                    paddingBottom: "515px",
                   }}
                 >
                   <p>
@@ -445,8 +445,10 @@ export default function page() {
                     <span className="damage">
                       {" "}
                       <span className="supplied">
+                        <span className="orig">{"<"}</span>
                         <span className="hide-normalisiert"></span>ent<span className="orig">ſ</span>
                         <span className="corr">s</span>chuldigen<span className="hide-normalisiert"></span>
+                        <span className="orig">{">"}</span>
                       </span>
                     </span>{" "}
                     und mit einem kurzen Brief
@@ -594,7 +596,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "1590px",
+              top: "1665px",
             }}
           >
             <hr />
@@ -608,7 +610,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "1698px",
+              top: "1781px",
             }}
           >
             <hr />
@@ -622,7 +624,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "2051px",
+              top: "2145px",
             }}
           >
             <hr />
@@ -634,7 +636,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "2051px",
+              top: "2147px",
             }}
           >
             <hr />
@@ -646,7 +648,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "2772px;",
+              top: "2845px;",
             }}
           >
             <hr />
@@ -658,7 +660,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "2832px",
+              top: "2920px",
             }}
           >
             <hr />

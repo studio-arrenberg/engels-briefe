@@ -173,9 +173,7 @@ export default function page() {
                       –</span>
                       
                       <br className="lb" />
-                      <span style={{ display: "inline-block" }} width="10cm">
-                        &nbsp;
-                      </span>
+                      
                     </span>
                   </p>{" "}
                 </div>
@@ -186,7 +184,7 @@ export default function page() {
                     marginTop: "40px",
                     paddingTop: "120px",
                     paddingLeft: "70px",
-                    paddingBottom: "30px",
+                    paddingBottom: "15px",
                   }}
                 >
                   <p>
@@ -238,7 +236,8 @@ export default function page() {
                     <span className="g.rend.script.latin">Mauritz</span> von{" "}
                     <span className="placeName">We<span className="orig">ſ</span><span className="corr">s</span>el</span>;
                     <br className="lb" /> Der{" "}
-                      Zwe
+                    <span className="makierung">
+                      <span className="orig">Z</span><span className="corr">z</span>we
                       <span className="orig">
                         <span className="corr">y</span>te
                       </span>
@@ -248,7 +247,7 @@ export default function page() {
                           
                         </span>{" "}
                         </span>{" "}
-                        <span className="makierung">Bruder</span> i<span className="orig">ﬅ</span><span className="corr">st</span> <span className="makierung"><span className="orig">Creiß<span className="orig doublehyphen">⹀</span>Einnehmer</span>
+                        Bruder</span> i<span className="orig">ﬅ</span><span className="corr">st</span> <span className="makierung"><span className="orig">Creiß<span className="orig doublehyphen">⹀</span>Einnehmer</span>
                         <span className="corr">Kreis-Einnehmer</span></span>{" "}
                         gleichfalls in{" "}
                         <span className="g.rend.script.latin">Ruhrorth</span>,
@@ -279,6 +278,7 @@ export default function page() {
                           </span>{" "}
                           in <span className="g.rend.script.latin">Hagen</span>{" "}<br />verheirathet —;
                   </p>
+                  <span className="liebe">
                   <p className="enc.tagsdecl.indent-medium">
                     Dieß mein Werthe<span className="orig">ﬅ</span><span className="corr">st</span>er! wäre{" "}
                     <span className="orig">ohngefehr</span>
@@ -309,6 +309,7 @@ export default function page() {
                     {" "}<span className="orig">ſ</span><span className="corr">s</span>chätzen, der <span className="orig">ſ</span><span className="corr">s</span>ie zur Gattin bekömmt.</span>
                     <a id="mark.002.e">{/*anchor*/}</a>
                   </p>
+                  </span>
                   <div className="closer indent-medium">
                     <span className="orig">meine</span>
                     <span className="corr">Meine</span> Frau und ich, wir grüßen
@@ -350,7 +351,7 @@ export default function page() {
 
         <div className={`stellenerläuterungen ${isStellen ? "activ" : null}`}>
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
               top: "749px",
             }}
@@ -363,7 +364,7 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung push-right"
+            className="stellenerläuterung"
             style={{
               top: "830px",
             }}
@@ -381,7 +382,7 @@ export default function page() {
           >
             <hr />
             <label>meine Frau</label>
-            <p>Clara Friederika Hoffmann, geb. Klein (1753–1823).</p>
+            <p>Clara Friederika Hoffmann, geb. Klein (1756–1823).</p>
           </div>
 
           <div
@@ -453,7 +454,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "1850px",
+              top: "2036px",
             }}
           >
             <hr />
@@ -468,7 +469,7 @@ export default function page() {
             }}
           >
             <hr />
-            <label>Creiß-Einnehmer</label>
+            <label>Kreiß-Einnehmer</label>
             <p>Vereidigter Einnehmer der Kreissteuern.</p>
           </div>
 
@@ -484,9 +485,9 @@ export default function page() {
           </div>
 
           <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
-              top: "2040px",
+              top: "2091px",
             }}
           >
             <hr />
@@ -497,7 +498,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "2090px",
+              top: "2146px",
             }}
           >
             <hr />
@@ -508,7 +509,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "2130px",
+              top: "2215px",
             }}
           >
             <hr />
@@ -519,7 +520,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "2180px",
+              top: "2215px",
             }}
           >
             <hr />
@@ -530,7 +531,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "2200px",
+              top: "2425px",
             }}
           >
             <hr />

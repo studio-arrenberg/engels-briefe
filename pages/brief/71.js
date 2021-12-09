@@ -76,13 +76,14 @@ export default function page() {
                                 Frid<span className="ex">rich</span>
                               </span>{" "}
                               Echkardt{" "}
-                              <span className="abbr">s
+                              <span className="abbr"><span className="orig">ſ</span>
+<span className="corr">s</span>
                                 <span className="g.enc.tagsdecl.cc.abbr-colon-sup">
-                                  <sup className="double-underline">r</sup>⹀
+                                  <sup className="double-underline">r</sup>
                                 </span>
                               </span>
                               <span className="expan">
-                                s<span className="ex">enio</span>r
+                                <span className="orig">ſ</span><span className="corr">s</span><span className="ex">enio</span>r
                               </span>
                             </span>{" "}
                             <br className="lb" />{" "}
@@ -526,7 +527,7 @@ export default function page() {
                     <span className="corr"><br /></span>
                     <a id="index.xml-anchor-d29e733" />
                     <div className="notemarginLeft" id="txt.margin001">
-                    
+                    <span className="politik">
                       <p className="g.enc.tagsdecl.wd.vertical-right vertical-links">
                         Da alles nun wieder <span className="orig">Teüsch</span>
                         <span className="corr">deutsch</span> i
@@ -540,6 +541,7 @@ export default function page() {
                         <span className="corr">s</span>chreiben
                         </span>
                       </p>
+                      </span>
                     </div>
                   </div>
                   </div>
@@ -548,7 +550,7 @@ export default function page() {
                   style={{
                     paddingTop: "20px",
                     paddingLeft: "100px",
-                    paddingBottom: "500px",
+                    paddingBottom: "464px",
                   }}
                 >
                   {/* Insert Page 2 */}
@@ -579,19 +581,23 @@ export default function page() {
       geringe Theil des Großherzogthums Berg, <br className="lb" />welcher noch
       nicht besetzt war, als auch die Haupt<span className="orig">⸗ </span><span className="corr">-</span>{" "}
 <span className="corr"></span><br className="lb" />und
-      Residenzstadt Düsseldorf durch die unter meinen{" "}
+      Residenzstadt D<span className="orig umlaut">uͤ</span>
+<span className="corr">ü</span>sseldorf durch die unter meinen{" "}
       <br className="lb" />Befehlen stehenden Truppen okkupirt.
     </p>
     <p className="g.enc.tagsdecl.indent-medium">
     <span style={{ marginLeft: "30px" }} ></span>
       Ueberall fand ich Proben der guten Gesinnungen, <br className="lb" />welche
-      die Bewohner des Großherzogthums beseelen, <br className="lb" />Es wird für
+      die Bewohner des Großherzogthums beseelen, <br className="lb" />Es wird f<span className="orig umlaut">uͤ</span>
+<span className="corr">ü</span>r
       mich die angenehmste Pflicht seyn, da<span className="orig">⸗ </span>
 <span className="corr"></span><br className="lb" />von eine
-      günstige Rechenschaft abzustatten.
+      g<span className="orig umlaut">uͤ</span>
+<span className="corr">ü</span>nstige Rechenschaft abzustatten.
     </p>
     <p className="g.enc.tagsdecl.indent-medium">
-    <span style={{ marginLeft: "30px" }} ></span>Indessen finde ich nöthig bis auf weitere Einrich<span className="orig">⸗ </span>
+    <span style={{ marginLeft: "30px" }} ></span>Indessen finde ich n<span className="orig umlaut">oͤ</span>
+<span className="corr">ö</span>thig bis auf weitere Einrich<span className="orig">⸗ </span>
 <span className="corr"></span><br className="lb" />tung
       nachfolgende Verordnungen zu treffen.
     </p>
@@ -602,46 +608,63 @@ export default function page() {
       Forderung welche nicht mit dem Visa <br className="lb" />des Herrn
       Kommandanten versehen ist, darf angenom<span className="orig">⸗ </span>
 <span className="corr"></span><br className="lb" />men und
-      ausgeführt werden.
+      ausgef<span className="orig umlaut">uͤ</span>
+<span className="corr">ü</span>hrt werden.
     </p>
     <p className="g.enc.tagsdecl.indent-medium">
-    <span style={{ marginLeft: "30px" }} ></span>2. Der Herr Karl Brügelmann ist provisorisch <br className="lb" />als
+    <span style={{ marginLeft: "30px" }} ></span>2. Der Herr Karl Br<span className="orig umlaut">uͤ</span>
+<span className="corr">ü</span>gelmann ist provisorisch <br className="lb" />als
       General<span className="orig">⸗</span>
 <span className="corr"> </span>Kommissair des Arrondissements Elberfeld{" "}
       <br className="lb" />ernannt.
     </p>
     <p className="g.enc.tagsdecl.indent-medium">
-    <span style={{ marginLeft: "30px" }} ></span>3. Die konstituirten Landesbehörden fahren bis <br className="lb" />auf
+    <span style={{ marginLeft: "30px" }} ></span>3. Die konstituirten Landesbeh<span className="orig umlaut">oͤ</span>
+<span className="corr">ö</span>rden fahren bis <br className="lb" />auf
       weitern Befehl fort, ihre Amtsverrichtungen auf <br className="lb" />die
-      bisherige Weise auszuüben, Sie stehen jedoch ein<span className="orig">⸗ </span>
+      bisherige Weise auszu<span className="orig umlaut">uͤ</span>
+<span className="corr">ü</span>ben, Sie stehen jedoch ein<span className="orig">⸗ </span>
 <span className="corr"></span><br className="lb" />zig
       unter dem ernannten General<span className="orig">⸗</span><span className="corr">-</span>
 Kommissair, und un<span className="orig">⸗ </span>
 <span className="corr"></span><br className="lb" />ter
-      ihrer eigenen persönlichen Verantwortlichkeit müssen{" "}
+      ihrer eigenen pers<span className="orig umlaut">oͤ</span>
+<span className="corr">ö</span>nlichen Verantwortlichkeit m<span className="orig umlaut">uͤ</span>
+<span className="corr">ü</span>ssen{" "}
       <br className="lb" />sie von diesem Augenblicke an, alle Verbindungen und{" "}
-      <br className="lb" />Verhältnisse mit französischen oder andern außer dem{" "}
-      <br className="lb" />Arrondissement befindlichen Großherzoglichen Behörden{" "}
-      <br className="lb" />aufgeben. Diesemnach dürfen weder Gelder an der<span className="orig">⸗ </span>
+      <br className="lb" />Verh<span className="orig umlaut">aͤ</span>
+<span className="corr">ä</span>ltnisse mit franz<span className="orig umlaut">oͤ</span>
+<span className="corr">ö</span>sischen oder andern außer dem{" "}
+      <br className="lb" />Arrondissement befindlichen Großherzoglichen Beh<span className="orig umlaut">oͤ</span>
+<span className="corr">ö</span>rden{" "}
+      <br className="lb" />aufgeben. Diesemnach d<span className="orig umlaut">uͤ</span>
+<span className="corr">ü</span>rfen weder Gelder an der<span className="orig">⸗ </span>
 <span className="corr"></span>
-      <br className="lb" />gleichen Behörden eingesendet, noch auch Befehle oder{" "}
-      <br className="lb" />Aufträge von denselben angenommen oder befolgt{" "}
+      <br className="lb" />gleichen Beh<span className="orig umlaut">oͤ</span>
+<span className="corr">ö</span>rden eingesendet, noch auch Befehle oder{" "}
+      <br className="lb" />Auftr<span className="orig umlaut">aͤ</span>
+<span className="corr">ä</span>ge von denselben angenommen oder befolgt{" "}
       <br className="lb" />werden.
     </p>
     <p className="g.enc.tagsdecl.indent-medium">
     <span style={{ marginLeft: "30px" }} ></span>4. Schließlich werden alle Einwohner der hiesigen{" "}
-      <br className="lb" />Stadt, welcher ich für die gute Aufnahme meiner{" "}
+      <br className="lb" />Stadt, welcher ich f<span className="orig umlaut">uͤ</span>
+<span className="corr">ü</span>r die gute Aufnahme meiner{" "}
       <br className="lb" />Truppen, den herzlichsten Dank sage, samt allen Be<span className="orig">⸗ </span>
 <span className="corr"></span>
       <br className="lb" />wohnern des Arrondissements Elberfeld aufgefordert,{" "}
-      <br className="lb" />mit demselben guten Geiste, wie bisher, für die Er<span className="orig">⸗ </span>
+      <br className="lb" />mit demselben guten Geiste, wie bisher, f<span className="orig umlaut">uͤ</span>
+<span className="corr">ü</span>r die Er<span className="orig">⸗ </span>
 <span className="corr"></span>
-      <br className="lb" />haltung der Ruhe und Ordnung, so wie für die un<span className="orig">⸗ </span>
+      <br className="lb" />haltung der Ruhe und Ordnung, so wie f<span className="orig umlaut">uͤ</span>
+<span className="corr">ü</span>r die un<span className="orig">⸗ </span>
 <span className="corr"></span>
-      <br className="lb" />gestörte Fortdauer der bisherigen und von dem Gene<span className="orig">⸗ </span>
+      <br className="lb" />gest<span className="orig umlaut">oͤ</span>
+<span className="corr">ö</span>rte Fortdauer der bisherigen und von dem Gene<span className="orig">⸗ </span>
 <span className="corr"></span>
       <br className="lb" />ral<span className="orig">⸗ </span>
-<span className="corr">-</span>Commissair nicht ausdrücklich aufgehobenen Ein<span className="orig">⸗ </span>
+<span className="corr">-</span>Commissair nicht ausdr<span className="orig umlaut">uͤ</span>
+<span className="corr">ü</span>cklich aufgehobenen Ein<span className="orig">⸗ </span>
 <span className="corr"></span>
       <br className="lb" />richtungen zu wachen.
     </p>
@@ -652,7 +675,9 @@ Kommissair, und un<span className="orig">⸗ </span>
 <span className="corr">-</span>kaiserliche General<span className="orig">⸗</span>
 <span className="corr">-</span>Major
     </p>
-    <p className="g.enc.tagsdecl.indent-very-large signed-right-middle"><span style={{ marginLeft: "30px" }} ></span>(Unterz.)<span style={{ marginLeft: "30px" }} ></span> Yuſefowitſch.</p>
+    <p className="g.enc.tagsdecl.indent-very-large signed-right-middle"><span style={{ marginLeft: "30px" }} ></span>(Unterz.)<span style={{ marginLeft: "30px" }} ></span> <span className="spacing">Yu<span className="orig">ſ</span>
+<span className="corr">s</span>efowit<span className="orig">ſ</span>
+<span className="corr">s</span>ch.</span></p>
   </div>
 </div>
 
@@ -667,13 +692,13 @@ Kommissair, und un<span className="orig">⸗ </span>
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "806px",
+              top: "840px",
             }}
           >
             <hr />
             <label>glücklich vorübergegangen</label>
             <p>
-            Der Abzug der frz. Truppen erfolgte mit weniger Opfern und Zerstörungen als zu befürchten war. Nach letzten Gefechten am 31. Oktober, 1813, insbesondere an der ‚Alten Brücke‘, zogen sich die frz. Truppen am 1./2. November 1813 endgültig zurück, und fünf Tage später besetzten alliierte Truppen die Stadt.
+            Der Abzug der frz. Truppen erfolgte mit weniger Opfern und Zerstörungen, als zu befürchten war. Nach letzten Gefechten am 31. Oktober, 1813, insbesondere an der ‚Alten Brücke‘, zogen sich die frz. Truppen am 1./2. November 1813 endgültig zurück, und fünf Tage später besetzten alliierte Truppen die Stadt.
             </p>
           </div>
 
@@ -693,7 +718,7 @@ Kommissair, und un<span className="orig">⸗ </span>
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "945px",
+              top: "983px",
             }}
           >
             <hr />
@@ -706,7 +731,7 @@ Kommissair, und un<span className="orig">⸗ </span>
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "1017px",
+              top: "1053px",
             }}
           >
             <hr />
@@ -733,7 +758,7 @@ Kommissair, und un<span className="orig">⸗ </span>
           <div
             className="stellenerläuterung"
             style={{
-              top: "1353px",
+              top: "1153px",
             }}
           >
             <hr />
@@ -746,7 +771,7 @@ Kommissair, und un<span className="orig">⸗ </span>
           <div
             className="stellenerläuterung"
             style={{
-              top: "1156px",
+              top: "1214px",
             }}
           >
             <hr />
@@ -759,7 +784,7 @@ Kommissair, und un<span className="orig">⸗ </span>
           <div
             className="stellenerläuterung"
             style={{
-              top: "1226px",
+              top: "1290px",
             }}
           >
             <hr />
@@ -772,7 +797,7 @@ Kommissair, und un<span className="orig">⸗ </span>
           <div
             className="stellenerläuterung"
             style={{
-              top: "1529px",
+              top: "1614px",
             }}
           >
             <hr />

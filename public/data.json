@@ -1,10 +1,11 @@
 { "briefe":[
         {
             "id" : "1",
+            "briefid" : "brief-1",
             "datum" : "5. Januar 1791",
             "themen" : {"name":["Religion"], "id":[1]},
             "sender": {"name":"Louise Engels, geb. Noot","ort":"7", "id":"2"},
-            "empfänger" : {"name": "eine Unbekannte Freundin", "ort": "", "id":"10"},
+            "empfänger" : {"name": "eine Unbekannte Freundin", "ort": "14", "id":"10"},
             "text" : "Ich danke Dir herzlich dafür, daß Du mir schon so bald Nachricht von Dir und den Lieben Deinigen gabst, so kurz dein Brief auch war, so machte er mir doch viele Freude.",
             "digitalisate": {"cover": "", "page": ["FE_01.1.png","FE_01.2.png"]},
             "audio" :"001.mp3",
@@ -12,6 +13,7 @@
         },
         {
             "id" : "4",
+            "briefid" : "brief-4",
             "datum" : "12. Mai 1791",
             "themen" : {"name":["Religion", "Liebe / Ehe"], "id":[1,3]},
             "sender": {"name":"Friedrich Christian Hoffmann","ort":"4", "id":"1"},
@@ -22,6 +24,7 @@
         },
         {
             "id" : "21",
+            "briefid" : "brief-21",
             "datum" : "9. September 1791",
             "themen" : {"name":["Liebe / Ehe","Religion"], "id":[3,1]},
             "sender": {"name":"Johann Caspar Engels","ort":"1", "id":"3"},
@@ -32,6 +35,7 @@
         },
         {
             "id" : "22",
+            "briefid" : "brief-22",
             "datum" : "10. September 1791",
             "themen" : {"name":["Reisen","Religion"], "id":[2,1]},
             "sender": {"name":"Louise Engels, geb. Noot","ort":"12", "id":"2"},
@@ -42,6 +46,7 @@
         },
         {
             "id" : "29",
+            "briefid" : "brief-29",
             "datum" : "25. Oktober 1791",
             "themen" : {"name":["Reisen","Religion","Liebe / Ehe", "Politik"], "id":[1,2,3,5]},
             "sender": {"name":"Louise Engels, geb. Noot","ort":"1", "id":"2"},
@@ -52,6 +57,7 @@
         },
         {
             "id" : "68",
+            "briefid" : "brief-68",
             "datum" : "04. Juli 1813",
             "themen" : {"name":["Religion", "Politik", "Geschäftliches", "Musik"], "id":[1,5,6,4]},
             "sender": {"name":"Johann Caspar Engels","ort":"1", "id":"3"},
@@ -62,6 +68,7 @@
         },
         {
             "id" : "71",
+            "briefid" : "brief-71",
             "title" : "Lieber Friedrich!",
             "datum" : "12. November 1813",
             "themen" : {"name":["Religion", "Politik"], "id":[1,5]},
@@ -73,6 +80,7 @@
         },
         {
             "id" : "75",
+            "briefid" : "brief-75",
             "title" : "Lieber Friedrich!",
             "datum" : "03. Februar 1814",
             "themen" : {"name":["Religion", "Musik", "Politik", "Geschäftliches"], "id":[1,4,5,6]},
@@ -84,6 +92,7 @@
         },
         {
             "id" : "130",
+            "briefid" : "brief-130",
             "title" : "Liebe Elise.",
             "datum" : "21. September 1816",
             "themen" : {"name":["Religion", "Liebe / Ehe"], "id":[1,3]},
@@ -95,6 +104,7 @@
         },
         {
             "id" : "169",
+            "briefid" : "brief-169",
             "title" : "",
             "datum" : "3. Juli 1818",
             "themen" : {"name":["Religion", "Liebe / Ehe", "Reisen"], "id":[1,2,3]},
@@ -106,9 +116,10 @@
         },
         {
             "id" : "235",
+            "briefid" : "brief-235",
             "title" : "",
             "datum" : "1. Dezember 1820",
-            "themen" : {"name":["Religion", "Reisen"], "id":[1,2]},
+            "themen" : {"name":["Religion", "Reisen", "Friedrich Engels jun."], "id":[1,2,7]},
             "sender": {"name":"Friedrich Engels sen.","ort":"1", "id":"9"},
             "empfänger" : {"name": "Karl Wilhelm Moritz Snethlage", "ort": "2", "id":"6"},
             "text" : "Freue Dich mit mir, innigst geliebter Karl! der liebe Gott hat unser Gebet erhört, und uns am verfloßnen Dienstagabend, den 29. Nov. Abends um 9 Uhr ein Kindlein, und zwar einen gesunden wohlgestalteten Knaben geschenkt.",
@@ -117,9 +128,10 @@
         },
         {
             "id" : "255",
+            "briefid" : "brief-255",
             "title" : "",
             "datum" : "9. Juli 1822",
-            "themen" : {"name":["Liebe / Ehe", "Reisen", "Geschäftliches"], "id":[3,2,6]},
+            "themen" : {"name":["Liebe / Ehe", "Reisen", "Geschäftliches", "Friedrich Engels jun."], "id":[3,2,6,7]},
             "sender": {"name":"Friedrich Engels sen.","ort":"1", "id":"9"},
             "empfänger" : {"name": "Elise Engels, geb. van Haar", "ort": "8", "id":"5"},
             "text" : "Dein lieber Brief vom 5. ds. gewährte mir eine rechte Beruhigung, denn ich sahe daraus, daß es Dir und dem kleinen Herzenstippel gut geht. Du glaubst gar nicht, Herzensmama, wie sehr Du u. er mir ans Herz gewachsen seyd, u. Du glaubst auch gar nicht, wie unbehaglich, wie ekelig mir zu Muthe ohne Euch ist.",
@@ -128,6 +140,7 @@
         },
         {
             "id" : "265",
+            "briefid" : "brief-265",
             "title" : "",
             "datum" : "31. Mai 1823",
             "themen" : {"name":["Liebe / Ehe", "Geschäftliches"], "id":[3,6]},
@@ -139,6 +152,7 @@
         },
         {
             "id" : "285",
+            "briefid" : "brief-285",
             "title" : "",
             "datum" : "20. April 1826",
             "themen" : {"name":["Religion", "Geschäftliches"], "id":[1,6]},
@@ -150,9 +164,10 @@
         },
         {
             "id" : "295",
+            "briefid" : "brief-295",
             "title" : "",
             "datum" : "16. August 1827",
-            "themen" : {"name":["Liebe / Ehe", "Geschäftliches"], "id":[3,6]},
+            "themen" : {"name":["Liebe / Ehe", "Geschäftliches", "Reisen"], "id":[3,6,2]},
             "sender": {"name":"Friedrich Engels sen.","ort":"11", "id":"9"},
             "empfänger" : {"name": "Elise Engels, geb. van Haar", "ort": "8", "id":"5"},
             "text" : "Seit Vorgestern Abend sind wir hier in Paris liebe Elise, wo wir zwar etwas ermüdet nach einer 32stündigen Fahrt auf der Diligence, aber sehr vergnügt ankamen. In Boulogne waren wir in einem Hôtel welches so sehr auf englischen Fuß eingerichtet war daß selbst sämmtliche Domestiken kaum französisch verstanden.",
@@ -161,9 +176,10 @@
         },
         {
             "id" : "307",
+            "briefid" : "brief-307",
             "title" : "Liebe Elise.",
             "datum" : "26. Juli 1838",
-            "themen" : {"name":["Reisen", "Geschäftliches"], "id":[2,6]},
+            "themen" : {"name":["Reisen", "Geschäftliches", "Friedrich Engels jun."], "id":[2,6,7]},
             "sender": {"name":"Friedrich Engels sen.","ort":"13", "id":"9"},
             "empfänger" : {"name": "Elise Engels, geb. van Haar", "ort": "1", "id":"5"},
             "text" : "Soeben Donnerstag Morgen um 7 Uhr sind wir hier glücklich angekommen, nachdem wir eine ungewöhnlich lange Überfahrt gehabt haben. ",
@@ -173,8 +189,9 @@
         },
         {
             "id" : "308",
+            "briefid" : "brief-308",
             "datum" : "11. August 1838",
-            "themen" : {"name":["Geschäftliches"], "id":[6]},
+            "themen" : {"name":["Geschäftliches","Friedrich Engels jun.", "Reisen"], "id":[6,7,2]},
             "sender": {"name":"Friedrich Engels sen.","ort":"3", "id":"9"},
             "empfänger" : {"name": "Elise Engels, geb. van Haar", "ort": "1", "id":"5"},
             "text" : "Gestern Abend sind wir hier Gott sey Dank gesund und wohl angekommen, und ich eile Dich davon mit der ersten Post zu benachrichtigen. ",
@@ -184,8 +201,9 @@
         },
         {
             "id" : "342",
+            "briefid" : "brief-342",
             "datum" : "10. September 1858",
-            "themen" : {"name":["Reisen", "Geschäftliches"], "id":[2,6]},
+            "themen" : {"name":["Reisen", "Geschäftliches", "Friedrich Engels jun."], "id":[2,6,7]},
             "sender": {"name":"Friedrich Engels sen.","ort":"9", "id":"9"},
             "empfänger" : {"name": "Elise Engels, geb. van Haar", "ort": "5", "id":"5"},
             "text" : "Gestern Morgen erhielt ich Deinen l. Brief und gleichzeitig einen aus Barmen von Hermann und Emil. Mit Vergnügen sah ich daraus, daß es Dir wieder besser ging, und Du bald wieder ganz hergestellt bist. Aus Friedrichs Brief hast Du meine glückliche Ankunft gesehen.",
@@ -208,7 +226,7 @@
             "id":"2",
             "title":"Reisen",
             "slug":"reisen",
-            "beschreibung":"Die Korrespondenz innerhalb der engeren Familie verdankt sich nicht zuletzt den zahlreichen Reisen zumal der männlichen Mitglieder. Friedrichs Großvater und vermehrt sein Vater unternahmen ausgedehnte Geschäftsreisen, die sie auch ins Ausland, nach Frankreich und England führten. \n Für den angehenden Kaufmann war zudem vor der Heirat eine eigene Reise obligatorisch, die nicht nur beruflichen Zwecken dienen sollte, sondern gemäß bürgerlichen Vorstellungen auch der eigenen Bildung. \n Friedrich sen. unternahm während seiner Verlobungszeit eine solche, von Juli bis November 1818 währende Reise nach Süddeutschland, Österreich und Italien.",
+            "beschreibung":"Die Korrespondenz innerhalb der engeren Familie verdankt sich nicht zuletzt den zahlreichen Reisen zumal der männlichen Mitglieder. Friedrichs Großvater und vermehrt sein Vater unternahmen ausgedehnte Geschäftsreisen, die sie auch ins Ausland, nach vor allem Frankreich und England führten. \n Für den angehenden Kaufmann war zudem vor der Heirat eine eigene Reise obligatorisch, die nicht nur beruflichen Zwecken dienen sollte, sondern gemäß bürgerlichen Vorstellungen auch der eigenen Bildung. \n Friedrich sen. unternahm während seiner Verlobungszeit eine solche, von Juli bis November 1818 währende Reise nach Süddeutschland, Österreich und Italien.",
             "kurzbeschreibung":"Die Korrespondenz innerhalb der engeren Familie verdankt sich nicht zuletzt den zahlreichen Reisen zumal der männlichen Mitglieder.",
             "picture":"reisen.jpg",
             "bildnachweis":"\"Die Ankunft der Postkutsche\". Carl Spitzweg (1808–1885). Öl auf Leinwand, 1859. Wikimedia Commons"
@@ -226,7 +244,7 @@
             "id":"4",
             "title":"Musik",
             "slug":"musik",
-            "beschreibung":"Die Musik hatte im Familienleben der Engels eine große Bedeutung. Anders als etwa Theater oder auch (Roman)Literatur gehörte sie nicht zu den vom Pietismus verfemten Künsten. Der Großvater, selbst ein leidenschaftlicher Organist, ließ seinen Sohn Friedrich sen. Klavier, Cello und – auf dessen Wunsch – auch Fagott spielen lernen und erkundigte sich in seinen Briefen regelmäßig nach den Fortschritten im Üben. Für die Zeit der zweijährigen Kaufmannslehre, die Friedrich sen. in Frankfurt absolvierte, wurde selbstverständlich ein eigener Flügel angeschafft.",
+            "beschreibung":"Seiner Braut Elise schenkt er 1818 zum 21. Geburtstag eine Gitarre, zum „Spielen und Singen“ (Brief vom 6./7.4.1818).Die Musik hatte im Familienleben der Engels eine große Bedeutung. Anders als etwa Theater oder auch (Roman)Literatur gehörte sie nicht zu den vom Pietismus verfemten Künsten. Der Großvater, selbst ein leidenschaftlicher Organist, ließ seinen Sohn Friedrich sen. Klavier, Cello und – auf dessen Wunsch – auch Fagott spielen lernen und erkundigte sich in seinen Briefen regelmäßig nach den Fortschritten im Üben. Für die Zeit der zweijährigen Kaufmannslehre, die Friedrich sen. in Frankfurt absolvierte, wurde selbstverständlich ein eigener Flügel angeschafft.",
             "kurzbeschreibung":"Die Musik hatte im Familienleben der Engels eine große Bedeutung. Anders als etwa Theater oder auch (Roman)Literatur gehörte sie nicht zu den vom Pietismus verfemten Künsten.",
             "picture":"musik.jpg",
             "bildnachweis":"\"Die Familie Begas\". Karl Begas (1794–1854). Öl auf Leinwand, 1821. Wallraf-Richartz-Museum & Fondation Corboud Köln © Rheinisches Bildarchiv Köln"
@@ -252,8 +270,8 @@
             "id":"7", 
             "title":"Friedrich Engels jun.",
             "slug":"engelsjunior",
-            "beschreibung":"Das Briefkonvolut dokumentiert Aufbau und Wandel des 1747 von Benjamin Engels in Unterbarmen gegründeten Textilunternehmens und stellt damit zugleich ein wertvolles Zeugnis aus der Zeit der Frühindustrialisierung im bergischen und rheinischen Raum dar. Der weitere Aufbau der Manufaktur Caspar Engels Söhne und die Ausweitung der Geschäftsbeziehungen durch den Großvater Johann Caspar (II) werden ebenso thematisch wie die Firmenneugründungen des Vaters Friedrich sen. Dieser trat 1837 aus dem Familienunternehmen aus, gründete seine eigene Seidenhandelsfirma Friedr. Engels & Comp. und zugleich mit dem Fabrikanten Peter Albert Ermen die Baumwollspinnerei Ermen & Engels, mit einer Firmenniederlassung in Engelskirchen und Manchester. Im dortigen Kontor wird Friedrich Engels jun. zunächst zwischen 1842 und 1844 und schließlich von 1850 bis 1869 tätig sein.",
-            "kurzbeschreibung":"Das Briefkonvolut dokumentiert Aufbau und Wandel des 1747 von Benjamin Engels in Unterbarmen gegründeten Textilunternehmens und stellt damit zugleich ein wertvolles Zeugnis aus der Zeit der Frühindustrialisierung im bergischen und rheinischen Raum dar.",
+            "beschreibung":"Im Wuppertaler Briefkonvolut ND 3 ist kein eigenständiger Brief von Friedrich Engels jun. überliefert. Er ist lediglich Mitautor zweier Briefe, die der Vater von der gemeinsamen Englandreise im Sommer 1838 an die Mutter schreibt (Briefe vom 26.7.1838 und 11.8.1838). Darüber hinaus wird er verschiedentlich erwähnt: in unserer Auswahl in drei Briefen des Vaters (an K.W.M. Snethlage vom 1.12.1820: Geburtsanzeige; an die Mutter vom 9.7.1822 und 10.9.1858, dem letzten Brief des Konvoluts) sowie in einem Brief des Großvaters mütterlicherseits, G.B. van Haar (an den Vater vom 20.4.1826).",
+            "kurzbeschreibung":"Im Wuppertaler Briefkonvolut ND 3 ist kein eigenständiger Brief von Friedrich Engels jun. überliefert. Er ist lediglich Mitautor zweier Briefe, die der Vater von der gemeinsamen Englandreise im Sommer 1838 an die Mutter schreibt (Briefe vom 26.7.1838 und 11.8.1838).",
             "picture":"engelsjunior.jpg",
             "bildnachweis":"\"Friedrich Engels im Alter von 19 Jahren\". Georg Wilhelm Feistkorn (1811–1843). Bleistiftzeichnung, 1840. Museum Industriekultur Wuppertal © Gerd Neumann | Stadt Wuppertal | Medienzentrum"
         }
@@ -412,7 +430,7 @@
             "id":"6",
             "title":"Frankfurt am Main",
             "beschreibung":"Gefecht der Alliierten und Franzosen an der Alten Brücke",
-            "picture":"Frankfurt.jpg",
+            "picture":"Frankfurt am Main.jpg",
             "year":"1813",
             "artist":"Unbekannter Künstler",
             "bildnachweis":"Gefecht der Alliierten und Franzosen an der Alten Brücke, 1813. Unbek. Künstler. Gouache auf Papier. © Historisches Museum, Frankfurt am Main"
@@ -479,6 +497,15 @@
             "year":"1837-1840",
             "artist":"Unbekannter Künstler",
             "bildnachweis":"Euston Station. Unbek. Künstler. Lithographie, um 1837. © The Trustees of the British Museum"
+        },
+        {
+            "id":"14",
+            "title":"",
+            "beschreibung":"",
+            "picture":"Unbekannter Ort.png",
+            "year":"",
+            "artist":"",
+            "bildnachweis":""
         }
     ]
 }

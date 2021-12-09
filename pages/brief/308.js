@@ -98,6 +98,7 @@ export default function page() {
                     paddingTop: "15px",
                     paddingLeft: "80px",
                     paddingBottom: "10px",
+                    marginTop:"27px"
                   }}
                 >
                   {/* Insert Page 1 */}
@@ -112,6 +113,7 @@ export default function page() {
                       </span>
                     </div>
                   </div>
+
                   <div className="opener">
                     <div className="salute">
                       Liebe{" "}
@@ -122,6 +124,7 @@ export default function page() {
                     </div>
                   </div>
                   <p>
+                    <span className="reisen">
                     Ge<span className="orig">ﬅ</span>
                     <span className="corr">st</span>ern Abend{" "}
                     <span className="orig">ſ</span>
@@ -135,7 +138,7 @@ export default function page() {
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>en Po
                     <span className="orig">ﬅ</span>
-                    <span className="corr">st</span> zu be
+                    <span className="corr">st</span> zu be<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     nachrichtigen. Zu un<span className="orig">ſ</span>
                     <span className="corr">s</span>rer Freude fanden wir hier
@@ -182,8 +185,10 @@ export default function page() {
                     <br className="lb" /> Seefahrt in Ungewißheit zu{" "}
                     <span className="orig">laßen</span>
                     <span className="corr">lassen</span>.
+                    </span>
                   </p>
                   <p>
+                    <span className="reisen">
                     <span style={{ display: "inline-block" }} width="4em">
                       &nbsp;
                     </span>
@@ -226,7 +231,7 @@ export default function page() {
                     abgerechnet eine
                     <br className="lb" /> ganz angenehme Reise gehabt, und sind
                     ganz vergnügt,
-                    <br className="lb" /> trotz dem entsetzlichen Wetter. (Meine
+                    <br className="lb" /> trotz dem entsetzlichen Wetter. </span>(Meine
                     armen Ziegel<span className="orig">ﬅ</span>
                     <span className="corr">st</span>eine
                     <br className="lb" /> und Hafer!!) Die Ruhe am fe
@@ -394,18 +399,18 @@ export default function page() {
                       u<span className="ex">nd</span>
                     </span>{" "}
                     <span className="orig">ſ</span>
-                    <span className="corr">s</span>eine 
+                    <span className="corr">s</span>eine{" "}
                     <span className="orig">J</span><span className="corr">I</span>n
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>ruktionen von mir
                     <br className="lb" /> zu empfangen.
-                    <a id="mark.001.e">{/*anchor*/}</a></span> Hier werde ich nicht
+                    <a id="mark.001.e">{/*anchor*/}</a></span> <span className="reisen">Hier werde ich nicht
                     lange bleiben, und am
                     <br className="lb" /> Montag oder Dien
                     <span className="orig">ﬅ</span>
                     <span className="corr">st</span>ag abrei
                     <span className="orig">ſ</span>
-                    <span className="corr">s</span>en.{" "}
+                    <span className="corr">s</span>en.{" "}</span>
                     <span className="persName">Friedrich</span> wird noch
                     etwas <span className="orig">ſ</span>
                     <span className="corr">s</span>chreiben   </p>
@@ -448,13 +453,13 @@ export default function page() {
                   className="page"
                   style={{
                     marginTop: "-20px",
-                    paddingTop: "45px",
+                    paddingTop: "65px",
                     paddingLeft: "80px",
                     paddingBottom: "150px",
                   }}
                 >
                   {/* Insert Page 2 */}
-
+                  <span className="engelsjunior">
                   <div className="opener">
                    
                     <div className="salute" >
@@ -617,12 +622,12 @@ export default function page() {
                       <br />{" "}
                       <div className="persName">Friedrich</div>
                     </div>
-                    <div className="signed corr" style={{marginLeft: "-85px", textAlign: "right"}}>
-                      Dein treuer Sohn
-                      <br />
-                      <div className="persName">Friedrich</div>
+                    <div  style={{width:"100%", textAlign: "right"}} className="corr">
+                      Dein treuer Sohn <br className="bn" />
+                      Friedrich
                     </div>
                     </p>
+                    </span>
                 </div>
               </section>
             </div>
@@ -632,7 +637,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "1100px",
+              top: "1142px",
             }}
           >
             <hr />
@@ -646,7 +651,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "960px",
+              top: "987px",
             }}
           >
             <hr />
@@ -660,7 +665,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "1545px",
+              top: "1612px",
             }}
           >
             <hr />
@@ -670,7 +675,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "1430px",
+              top: "1470px",
             }}
           >
             <hr />
@@ -687,7 +692,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "1460px",
+              top: "1541px",
             }}
           >
             <hr />
@@ -700,7 +705,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "1600px",
+              top: "1642px",
             }}
           >
             <hr />
@@ -715,7 +720,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "1797px",
+              top: "1854px",
             }}
           >
             <hr />
@@ -728,7 +733,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "1797px",
+              top: "1854px",
             }}
           >
             <hr />
@@ -743,7 +748,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "2780px",
+              top: "2828px",
             }}
           >
             <hr />

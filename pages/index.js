@@ -27,18 +27,27 @@ export default function Home() {
         exit="exit"
         variants={constants.animation.landing_children}
       >
+        <Link href="/briefe" scroll={false}>
+            <a className="">
         <div className="intro-stage">
-          <h1>Briefe der Familie Engels</h1>
-          <p>
+        
+          
+          <h1 lassName="startup-information">Briefe der Familie Engels</h1>
+          <p className="startup-information">
             Erhalten Sie anhand von 18 ausgewählten Briefen aus dem Zeitraum von
             1791 bis 1858 Einblick in das Familien- und Geschäftsleben der
             Eltern und Großeltern von Friedrich Engels.
           </p>
-          <a className="button">Korrespondenz entdecken</a>
+          <a className="button startbutton startup-information">Korrespondenz entdecken</a>
+          
+          <Link href="/impressum" scroll={false}>
+            <a className="impressum-link">Über das Projekt</a>
+          </Link>
+          
         </div>
-        <Link href="/impressum" scroll={false}>
-          <a className="impressum-link">Über das Projekt</a>
-        </Link>
+        </a>
+          </Link>
+        
 
         <div className="intro-stage-background"></div>
 
