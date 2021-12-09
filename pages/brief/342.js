@@ -102,7 +102,7 @@ export default function page() {
                           >
                             &nbsp;
                           </span>
-                          <span className="xsmall serif">
+                          <span className="xsmall sans">
                             <span className="">
                               p<span className="ex">e</span><sup>r</sup><span className="orig>">.</span>
                             </span>
