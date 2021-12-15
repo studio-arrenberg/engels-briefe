@@ -61,7 +61,7 @@ export default function page() {
                             Mad<sup className="double-underline"></sup><span className="ex">ame</span>
                           </span>{" "}
                         </span>
-                        <span className="persName">Louise Engels <span className="small"> <span className="makierung">née</span> Nooth</span></span>
+                        <span className="persName">Louise Engels <span className="small"> <span className="makierung">né</span> Nooth</span></span>
                         <br />{" "}
                         <span style={{ display: "inline-block" }} width="6cm">
                           &nbsp;
@@ -380,7 +380,7 @@ export default function page() {
                       <span className="corr">s</span>agen{" "}
                       <span className="orig">kan</span>
                       <span className="corr">kann</span>.{" "}
-                      <a id="mark.004.s">{/*anchor*/}</a><span className="orig">I</span><span className="corr">i</span>ch habe mit dir
+                      <a id="mark.004.s">{/*anchor*/}</a><span className="orig">i</span><span className="corr">I</span>ch habe mit dir
                       <br className="lb" />{" "} um 8 Uhr <span className="orig">gebäten</span>
                       <span className="corr">gebeten</span>, und werde{" "}
                       <sup className="sup">nun</sup> mit dir in Gedanken und im
@@ -670,7 +670,7 @@ export default function page() {
           </div>
 
           {/* <div
-            className="stellenerläuterung"
+            className="stellenerläuterung push-right"
             style={{
               top: "350px",
             }}
@@ -679,8 +679,8 @@ export default function page() {
             <label>né</label>
             <p> Frz. (korrekt wäre die feminine Form née) „geborene“.
             </p>
-          </div>
- */}
+          </div> */}
+
 
         </div>
       </Brief_wrapper>
