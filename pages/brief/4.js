@@ -469,7 +469,7 @@ export default function page() {
             }}
           >
             <hr />
-            <label>Kreiß-Einnehmer</label>
+            <label>Kreis-Einnehmer</label>
             <p>Vereidigter Einnehmer der Kreissteuern.</p>
           </div>
 

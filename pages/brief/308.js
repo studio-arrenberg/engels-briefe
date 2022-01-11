@@ -613,7 +613,7 @@ export default function page() {
                     herzlich von mir,
                     <br className="lb" /> auch die Großmutter und die Tante, und
                     lebe recht wohl
-                    <br className="lb" />{" "}
+                    <br className="lb-detail" />{" "}
                     <span style={{ display: "inline-block" }} width="6words">
                       &nbsp;
                     </span>
@@ -622,7 +622,7 @@ export default function page() {
                       <br />{" "}
                       <div className="persName">Friedrich</div>
                     </div>
-                    <div  style={{width:"100%", textAlign: "right"}} className="corr">
+                    <div  style={{width:"100%", textAlign: "right"}} className="corr signed text-right normalisiert-block">
                       Dein treuer Sohn <br className="bn" />
                       Friedrich
                     </div>

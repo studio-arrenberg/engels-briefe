@@ -404,7 +404,7 @@ export default function page() {
                     <br className="lb" />{" "}
                     <span className="add">
                       <span className="g.enc.tagsdecl.suspension.type1">
-                        näch<span className="orig">ﬅ</span>
+                        <span className="einzug-negativ"></span>näch<span className="orig">ﬅ</span>
                         <span className="corr">st</span>
                       </span>
                       <span className="expan">
@@ -1288,6 +1288,18 @@ export default function page() {
               Haushälterin bei Johann Caspar Engels (1753–1821), Friedrich
               Engels sen. (1796–1860) und Louise Snethlage, geb. Engels
               (1799–1845).
+            </p>
+          </div>
+          <div
+            className="stellenerläuterung push-right"
+            style={{
+              top: "1366px",
+            }}
+          >
+            <hr />
+            <label>Andry & Guibout</label>
+            <p>
+            Großhändler für Kurzwaren, zu denen auch Bänder gehören, <br />in Paris, 98 rue St.-Denis.
             </p>
           </div>
         </div>

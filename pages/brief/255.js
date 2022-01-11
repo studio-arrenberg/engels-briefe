@@ -91,8 +91,7 @@ export default function page() {
                   <span className="orig">
                     Her<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
-                    zens^
-                    tippel
+                    zens^tippel
                   </span>
                   <span className="corr">
                     Her

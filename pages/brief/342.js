@@ -842,7 +842,7 @@ export default function page() {
                       Anton Ermen kurz vor dem Vertragsschluss mit Friedrich
                       Engels sen. an einer Kölner Spinnereigesellschaft
                       beteiligte und dort auch das Wassergefälle an der Sieg
-                      einbrachte." (Michael Knieriem (Hg.): Die Herkunft des Friedrich Engels. Trier 1991, S. 641. )
+                      einbrachte." (Michael Knieriem (Hg.): Die Herkunft des Friedrich Engels. Trier 1991, S. 641.)
                     </p>
                   </div>
                   <div
