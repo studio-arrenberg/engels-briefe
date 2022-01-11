@@ -28,7 +28,6 @@ export default function Home() {
         variants={constants.animation.landing_children}
       >
         <Link href="/briefe" scroll={false}>
-            <a className="">
         <div className="intro-stage">
         
           
@@ -45,7 +44,7 @@ export default function Home() {
           </Link>
           
         </div>
-        </a>
+        
           </Link>
         
 
