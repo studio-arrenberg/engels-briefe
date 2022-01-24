@@ -480,7 +480,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "2913px;",
+              top: "2913px",
             }}
           >
             <hr />
