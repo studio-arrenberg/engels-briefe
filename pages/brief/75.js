@@ -603,7 +603,7 @@ export default function page() {
                     <br className="lb" />
                     die Briefe erhalten, und wie es den
                     <span className="orig">ſ</span>
-                    <span className="corr">s</span>elben ergangen{" "}
+                    <span className="corr">s</span>elben ergangen
                     <span className="strike-through" style={{ textDecoration: "line-through" }}>
                       i<span className="orig">ﬅ</span>
                       <span className="corr">st</span>

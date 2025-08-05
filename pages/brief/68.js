@@ -179,10 +179,11 @@ export default function page() {
                       </span>
                     </div>
                     <a id="teaser.part.001.s">{/*anchor*/}</a>
+                    <p>
                     <div className="enc.tagsdecl.indent-large">
-                      Lieber <span className="persName">Friedrich</span>!
-                      
+                      Lieber <span className="persName">Friedrich</span>!                      
                     </div>
+                    </p>
                     <a id="teaser.part.001.e">{/*anchor*/}</a>
                   </div>
                   <span className="business">
@@ -210,7 +211,9 @@ export default function page() {
                     <span className="makierung"><span className="g.rend.script.latin">paquet</span>{" "}
                     <span className="g.rend.script.latin">
                       <span className="abbr corr">F.E.</span>{" "}
-                    </span></span>
+                      <span className="orig">F.E.</span>{" "}
+                    </span>
+                    </span>
                     durch <a id="annot.002.s">{/*anchor*/}</a>
                     <span className="g.rend.script.latin">
                       <span className="makierung">
@@ -1399,7 +1402,7 @@ export default function page() {
             <hr />
             <label>jener Dichter</label>
             <p>
-            Vermutlich Christoph Rheineck (1748–1797), Kaufmann, Gastwirt und Komponist in Memmingen. Johann Caspar Engels zitiert die drei letzten Zeilen des Lieds <i>Lebensgebrauch</i> (3 Strophen). Text und Melodie stammen vermutlich von Rheineck. (<i>Dritte Lieder-Sammlung mit Klavier-Melodien. In die Musik gesezt von Christoph Rheineck. Memmingen 1784, S. 16</i>)
+            Vermutlich Christoph Rheineck (1748–1797), Kaufmann, Gastwirt und Komponist in Memmingen. Johann Caspar Engels zitiert die drei letzten Zeilen des Lieds <i>Lebensgebrauch</i> (3 Strophen). Text und Melodie stammen vermutlich von Rheineck. (<i>Dritte Lieder-Sammlung mit Klavier-Melodien. In die Musik gesezt von Christoph Rheineck. </i>Memmingen 1784, S. 16.)
             </p>
           </div>
 
@@ -1424,7 +1427,7 @@ export default function page() {
             <hr />
             <label>Osberghaus</label>
             <p>
-            Christian Leopold Osberghaus (1774–1854 ), Arzt, ab 1806 Kreisphysikus in Ründeroth bei Engelskirchen</p>
+            Christian Leopold Osberghaus (1774–1854 ), Arzt, ab 1806 Kreisphysikus in Ründeroth bei Engelskirchen.</p>
           </div>
 
           <div
@@ -1449,7 +1452,7 @@ export default function page() {
             <hr />
             <label>Gebauer und Querfurth</label>
             <p>
-            Kunden der Firma Caspar Engels Söhne
+            Kunden der Firma Caspar Engels Söhne.
           </p>
           </div>
 
@@ -1644,7 +1647,7 @@ export default function page() {
             <hr />
             <label>Wittenstein</label>
             <p>
-            Vermutlich Johannes Friedrich Wittenstein (1772–1847), Besitzer einer Türkischrot-Färberei an der Haspeler Brücke in Barmen. Bruder von Johanna Wilhelmine Overbeck, geb. Wittenstein (1774–1844) {/*, verehelicht mit Johann Heinrich Overbeck (1767–1833), Kaufmann in Unterbarmen.  */}
+            Vermutlich Johannes Friedrich Wittenstein (1772–1847), Besitzer einer Türkischrot-Färberei an der Haspeler Brücke in Barmen. Bruder von Johanna Wilhelmine Overbeck, geb. Wittenstein (1774–1844). {/*, verehelicht mit Johann Heinrich Overbeck (1767–1833), Kaufmann in Unterbarmen.  */}
 
           </p>
           </div>

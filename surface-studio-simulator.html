@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft Surface Studio Simulator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #1a1a1a;
+            color: white;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        .header {
+            background: #2d2d2d;
+            padding: 10px 20px;
+            border-bottom: 1px solid #444;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 1000;
+        }
+
+        .device-info {
+            font-size: 14px;
+            color: #ccc;
+        }
+
+        .controls {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .url-input {
+            background: #3c3c3c;
+            border: 1px solid #555;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 4px;
+            width: 400px;
+            font-size: 14px;
+        }
+
+        .load-btn {
+            background: #0078d4;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .load-btn:hover {
+            background: #106ebe;
+        }
+
+        .simulator-container {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #0f0f0f;
+            padding: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .device-frame {
+            width: 4500px;
+            height: 3000px;
+            background: #000;
+            border: 8px solid #333;
+            border-radius: 12px;
+            box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+            position: relative;
+            transform-origin: center center;
+            /* Dynamic scaling will be applied via JavaScript */
+        }
+
+        .iframe-container {
+            width: 100%;
+            height: 100%;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .surface-iframe {
+            width: 4500px !important;
+            height: 3000px !important;
+            border: none;
+            background: white;
+            /* Prevent any external CSS from changing the iframe dimensions */
+            min-width: 4500px;
+            max-width: 4500px;
+            min-height: 3000px;
+            max-height: 3000px;
+        }
+
+        .scale-indicator {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            z-index: 100;
+        }
+
+        /* Responsive scaling - fallback for older browsers */
+        @media (max-width: 4600px) {
+            .device-frame {
+                transform: scale(0.2);
+            }
+        }
+
+        @media (max-width: 2300px) {
+            .device-frame {
+                transform: scale(0.15);
+            }
+        }
+
+        @media (max-width: 1500px) {
+            .device-frame {
+                transform: scale(0.12);
+            }
+        }
+
+        @media (max-width: 1000px) {
+            .device-frame {
+                transform: scale(0.1);
+            }
+            .url-input {
+                width: 200px;
+            }
+        }
+
+        .bezel {
+            position: absolute;
+            bottom: -40px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 200px;
+            height: 30px;
+            background: #2a2a2a;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="device-info">
+            Microsoft Surface Studio Simulator - 4500 × 3000px (3:2 aspect ratio)
+        </div>
+        <div class="controls">
+            <input 
+                type="url" 
+                class="url-input" 
+                placeholder="Enter website URL (e.g., https://example.com)"
+                value="http://localhost:3000"
+                id="urlInput"
+            >
+            <button class="load-btn" onclick="loadWebsite()">Load</button>
+        </div>
+    </div>
+
+    <div class="simulator-container">
+        <div class="device-frame">
+            <div class="scale-indicator" id="scaleIndicator">Scale: 20%</div>
+            <div class="iframe-container">
+                <iframe 
+                    class="surface-iframe" 
+                    id="surfaceFrame"
+                    src="http://localhost:3000"
+                    title="Surface Studio Display Simulation"
+                    sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-top-navigation"
+                ></iframe>
+            </div>
+            <div class="bezel">Surface Studio</div>
+        </div>
+    </div>
+
+    <script>
+        // Calculate optimal scale based on available space
+        function calculateOptimalScale() {
+            const container = document.querySelector('.simulator-container');
+            const deviceFrame = document.querySelector('.device-frame');
+            
+            // Get container dimensions (accounting for padding)
+            const containerRect = container.getBoundingClientRect();
+            const availableWidth = containerRect.width - 40; // 20px padding on each side
+            const availableHeight = containerRect.height - 40; // 20px padding on each side
+            
+            // Surface Studio dimensions plus border (maintaining exact 3:2 aspect ratio)
+            const deviceWidth = 4500 + 16; // 8px border on each side
+            const deviceHeight = 3000 + 16; // 8px border on each side
+            
+            // Calculate scale factors for width and height
+            const scaleX = availableWidth / deviceWidth;
+            const scaleY = availableHeight / deviceHeight;
+            
+            // Use the smaller scale to ensure the device fits completely AND maintains aspect ratio
+            const optimalScale = Math.min(scaleX, scaleY, 1); // Don't scale up beyond 100%
+            
+            return Math.max(optimalScale, 0.05); // Minimum scale of 5% for extreme cases
+        }
+
+        // Apply optimal scaling while preserving aspect ratio and resolution
+        function applyOptimalScaling() {
+            const deviceFrame = document.querySelector('.device-frame');
+            const iframe = document.getElementById('surfaceFrame');
+            const scale = calculateOptimalScale();
+            
+            // Apply uniform scaling to maintain aspect ratio
+            deviceFrame.style.transform = `scale(${scale})`;
+            
+            // Ensure iframe maintains its exact resolution (4500x3000)
+            iframe.style.width = '4500px';
+            iframe.style.height = '3000px';
+            
+            // Update scale indicator
+            const scaleIndicator = document.getElementById('scaleIndicator');
+            scaleIndicator.textContent = `Scale: ${Math.round(scale * 100)}% | Resolution: 4500×3000px`;
+            
+            // Log for debugging (can be removed in production)
+            console.log(`Applied scale: ${(scale * 100).toFixed(1)}% | Iframe resolution: 4500×3000px`);
+        }
+
+        function loadWebsite() {
+            const urlInput = document.getElementById('urlInput');
+            const iframe = document.getElementById('surfaceFrame');
+            let url = urlInput.value.trim();
+            
+            // Add https:// if no protocol is specified
+            if (url && !url.startsWith('http://') && !url.startsWith('https://')) {
+                url = 'https://' + url;
+            }
+            
+            if (url) {
+                iframe.src = url;
+            }
+        }
+
+        // Allow Enter key to load website
+        document.getElementById('urlInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                loadWebsite();
+            }
+        });
+
+        // Update scale indicator based on screen size
+        function updateScaleIndicator() {
+            const scaleIndicator = document.getElementById('scaleIndicator');
+            const deviceFrame = document.querySelector('.device-frame');
+            const computedStyle = window.getComputedStyle(deviceFrame);
+            const transform = computedStyle.transform;
+            
+            if (transform && transform !== 'none') {
+                const matrix = transform.match(/matrix\(([^)]+)\)/);
+                if (matrix) {
+                    const scale = parseFloat(matrix[1].split(',')[0]);
+                    scaleIndicator.textContent = `Scale: ${Math.round(scale * 100)}%`;
+                }
+            }
+        }
+
+        // Initialize and handle resize events
+        function initialize() {
+            applyOptimalScaling();
+        }
+
+        // Update scaling on resize with debouncing to maintain aspect ratio
+        let resizeTimeout;
+        window.addEventListener('resize', function() {
+            clearTimeout(resizeTimeout);
+            resizeTimeout = setTimeout(() => {
+                applyOptimalScaling();
+                // Ensure aspect ratio is maintained after resize
+                const deviceFrame = document.querySelector('.device-frame');
+                const currentTransform = deviceFrame.style.transform;
+                console.log('Window resized - maintaining aspect ratio:', currentTransform);
+            }, 100);
+        });
+
+        // Initialize when page loads
+        window.addEventListener('load', initialize);
+        document.addEventListener('DOMContentLoaded', initialize);
+
+        // Handle iframe loading errors
+        document.getElementById('surfaceFrame').addEventListener('error', function() {
+            console.warn('Failed to load the website. This might be due to CORS restrictions.');
+        });
+    </script>
+</body>
+</html>

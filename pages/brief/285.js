@@ -76,17 +76,15 @@ export default function page() {
                     </div>
                   </div>
                   <p>
-                      <span style={{ display: "inline-block" }} width="3em">
+                      {/* <span style={{ display: "inline-block" }} width="3em">
                         &nbsp;
-                      </span>
+                      </span> */}
                       Ja, lieber
-                      <span className="persName"> Friedrich</span>,
-                    
-                  
-                    der{" "}<span className="orig">⦦</span>
-                    <sup className="" id="txt.add001">
+                      <span className="persName"> Friedrich</span>,{" "}                    
+                    {/* der{" "}<span className="orig">⦦</span> */}
+                    <sup className="txt-add001_285 sup" id="txt.add001">
                       Herr
-                    </sup>{" "}
+                    </sup>
                     hat
                     <span
                       className="strike-through"
@@ -222,7 +220,8 @@ export default function page() {
                       derben zogen.<a id="annot.002.e">{/*anchor*/}</a> Es
                       gehört zur Lebensweisheit, aus dem Bö
                       <span className="orig">ſ</span>
-                      <span className="corr">s</span>en oder <small className="orig">u</small>Unangeneh<span className="orig doublehyphen">⹀</span>
+                      <span className="corr">s</span>en oder <small className="orig">u</small>
+                      <span className="bold">U</span>nangeneh<span className="orig doublehyphen">⹀</span>
                       <br className="g.enc.tagsdecl.hyphenation.eq" />
                       men nicht nur das Kleinere zu wählen;{" "}
                       <span className="orig">ſ</span>
@@ -464,11 +463,11 @@ export default function page() {
                         <span className="corr">st</span>aats
                       </span>
                     </span>
-                    „<span className="orig">.</span>
+                    &rdquo;<span className="orig">.</span>
                     <span className="corr">?</span>
                     <br className="lb" /> Wer nennt die jungen, heranreifenden
                     Mädchen: „mein <span className="orig">ſ</span>
-                    <span className="corr">s</span>chönes Kind„; mag
+                    <span className="corr">s</span>chönes Kind&rdquo; mag
                     <br className="lb" /> es nun Kätchen oder Klärchen heißen
                     <span className="orig">.</span>
                     <span className="corr">?</span> Welcher Bräutigam hält nicht{" "}
@@ -614,9 +613,9 @@ export default function page() {
                     <span className="corr">st</span>immen fehlen.
                   </p>
                   <p>
-                    <span style={{ display: "inline-block" }} width="1char">
+                    {/* <span style={{ display: "inline-block" }} width="1char">
                       &nbsp;
-                    </span>
+                    </span> */}
                     <span className="business">
                     <a id="mark.003.s">{/*anchor*/}</a>Ihr
                     <a id="annot.004.s">{/*anchor*/}</a>
@@ -712,9 +711,9 @@ export default function page() {
                   </p>
                   <p>
                   <span className="business">
-                    <span style={{ display: "inline-block" }} width="1char">
+                    {/* <span style={{ display: "inline-block" }} width="1char">
                       &nbsp;
-                    </span>
+                    </span> */}
                     Wenn Sie
                     <span className="g.rend.script.latin">
                       {" "}
@@ -777,9 +776,9 @@ export default function page() {
                     <a id="mark.003.e">{/*anchor*/}</a>
                   </p>
                   <div className="closer">
-                    <span style={{ display: "inline-block" }} width="1char">
+                    {/* <span style={{ display: "inline-block" }} width="1char">
                       &nbsp;
-                    </span>
+                    </span> */}
                     Leben Sie wohl! <a id="annot.005.s">{/*anchor*/}</a>Gott{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>egne Sie{" "}
@@ -804,16 +803,17 @@ export default function page() {
                     </span>{" "}
                     Achtung der
                     <br className="lb" />{" "}
-                    <div className="signed text-right" style={{ paddingLeft: "516px" }}>
-                      <span style={{ display: "inline-block" }} width="56em">
-                        &nbsp;
-                      </span>
+                    <div className="signed text-right" style={{ marginRight: "0px !important", textAlign: "right" }}>                      
                       Ihrige
-                      <br className="lb bn" />{" "}
-                      <span style={{ display: "inline-block" }} width="54em">
-                        &nbsp;
+                      <span className="g.rend.script.latin" >
+                      <br className="lb bn " />{" "}                      
+                      <span className="corr break-normalisiert"></span>
+                      {/* <span style={{ display: "inline-block" }} width="54em">
+                        &nbsp;^
+                      </span> */}
+                      {/* <span className="orig" style={{ marginLeft: "-30px" }}></span> */}
+                        Van Har.
                       </span>
-                      <span class="orig" style={{ marginLeft: "-30px" }}></span><span className="g.rend.script.latin"> van Haar</span>.
                     </div>
                   </div>
                 </div>

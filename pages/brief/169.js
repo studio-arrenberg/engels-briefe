@@ -144,7 +144,7 @@ export default function page() {
                       mit <span className="makierung">meinem Oncle</span> davon zu <span className="orig">ſ</span><span className="corr">s</span>prechen, und ich <span className="orig">ﬅ</span><span className="corr">st</span>immte
                       <br className="lb" />{" "}
                       ihnen ganz bei. Du wir<span className="orig">ﬅ</span><span className="corr">st</span> die<span className="orig">ſ</span><span className="corr">s</span>en indeß <span className="orig">ſ</span><span className="corr">s</span>o auch
-                      {" "}<span className="strikethrough">haben</span>
+                      {" "}<span className="strikethrough" style={{ textDecoration: "line-through", transform: "translateY(10%)" }}>haben</span>
                       <br className="lb" />{" "}
                       kennen gelernt haben, daß es bei die<span className="orig">ſ</span><span className="corr">s</span>em herzensguten
                       <br className="lb" />{" "}
@@ -197,7 +197,7 @@ export default function page() {
                       Rechte wie gewöhnliche Verwandten hat. Sobald er al<span className="orig">ſ</span><span className="corr">s</span>o
                       <br className="lb" />{" "}
                       eingeweiht i<span className="orig">ﬅ</span><span className="corr">st</span>,{" "}
-                      <span className="strike-through" style={{ textDecoration: "line-through" }}>
+                      <span className="strike-through" style={{ textDecoration: "line-through", transform: "translateY(10%)" }}>
                         leite
                       </span>{" "}
                       <span className="orig">ſ</span><span className="corr">s</span>chreibe ich an deine lieben Eltern.
@@ -271,10 +271,10 @@ export default function page() {
                         <span className="corr">vergessen</span>,
                         <br className="lb" />{" "}
                         un<span className="orig">ſ</span><span className="corr">s</span>erm lieben himmli<span className="orig">ſ</span><span className="corr">s</span>chen Vater{" "}
-                        <span className="strike-through" style={{ textDecoration: "line-through" }}>
+                        <span className="strike-through" style={{ textDecoration: "line-through", transform: "translateY(10%)" }}>
                           für
                         </span>{" "}
-                        <span className="strike-through" style={{ textDecoration: "line-through" }}>
+                        <span className="strike-through" style={{ textDecoration: "line-through", transform: "translateY(10%)" }}>
                           die<span className="orig">ſ</span><span className="corr">s</span>en
                         </span>{" "}
                         herzlich
@@ -513,21 +513,26 @@ export default function page() {
                     <br className="lb" />{" "}
                     denn die nehmen recht herzlich Antheil an mir.
                   </p>
-                  <p className="" id="mark.007">
+                  <p id="mark.007">
                   <span className="liebe">
-                  <span style={{ marginLeft: "30px" }} ></span>
-                    Zu Zeiten will mir die Geduld reißen, bis ich
-                    <br className="lb" />{" "}
-                    unter un<span className="orig">ſ</span><span className="corr">s</span>eren beiden Familien un<span className="orig">ſ</span><span className="corr">s</span>er Verhältniß <sup className="sup" id="txt.add002">ganz</sup> be<span className="orig doublehyphen">⹀</span>
-                    <br className="g.enc.tagsdecl.hyphenation.divis" />
-                    kannt <span className="orig">ſ</span><span className="corr">s</span>ehe, denn du glaub<span className="orig">ﬅ</span><span className="corr">st</span> gar nicht, wie unangenehm
-                    <br className="lb" />{" "}
-                    es mir oft gewe<span className="orig">ſ</span><span className="corr">s</span>en i<span className="orig">ﬅ</span><span className="corr">st</span>, eine <span className="orig">ſ</span><span className="corr">s</span>o ehrliche{" "}
-                    <span className="abbr"> u.</span>
-                    <span className="expan">
-                      u<span className="ex">nd</span>
-                    </span>{" "}
-                    gute Sache wie
+                    <span style={{ marginLeft: "30px" }}>
+                      Zu Zeiten will mir die Geduld reißen, bis ich
+                    </span>
+                      <br className=" red" />{" "}                      
+                      unter un<span className="orig">ſ</span>
+                      <span className="corr">s</span>eren beiden Familien un<span className="orig">ſ</span>
+                      <span className="corr">s</span>
+                      <span>er Verhältniß</span> <sup className="sup txt-add002" id="txt.add002">ganz</sup> be
+                      <span className="orig doublehyphen">⹀</span>
+                      <br className="g.enc.tagsdecl.hyphenation.divis" />
+                      kannt <span className="orig">ſ</span><span className="corr">s</span>ehe, denn du glaub<span className="orig">ﬅ</span><span className="corr">st</span> gar nicht, wie unangenehm
+                      <br className="lb" />{" "}                      
+                      es mir oft gewe<span className="orig">ſ</span><span className="corr">s</span>en i<span className="orig">ﬅ</span><span className="corr">st</span>, eine <span className="orig">ſ</span><span className="corr">s</span>o ehrliche{" "}
+                      <span className="abbr"> u.</span>
+                      <span className="expan">
+                        u<span className="ex">nd</span>
+                      </span>{" "}
+                      gute Sache wie
                     </span>
                   </p>
                 </div>
@@ -745,7 +750,7 @@ export default function page() {
                       <span className="placeName">
                         <span className="g.rend.script.latin">
                           <span className="abbr">
-                            {" "}Frankfurt <sup>a</sup>/M)
+                            {" "}Frankfurt <sup>a</sup>/M
                           </span>
                           <span className="expan">
                             Frankfurt a<span className="ex">m</span> M
@@ -936,8 +941,11 @@ export default function page() {
                       <br className="lb" />{" "}
                       im Ganzen i<span className="orig">ﬅ</span><span className="corr">st</span> es doch ein erbärmliches Behelfsmittel
                       <br className="lb" />{" "}
-                      <span className="strikethrough">
-                        <span className="orig ">ﬅ</span><span className="gap"> <span class="gap-x "> xxxxx</span></span>
+                      <span className="">
+                        <span className="orig strikethrough">ﬅ</span>
+                        <span className="gap"> 
+                          <span className="gap-x strikethrough"> xxxxx</span>
+                        </span>
                       </span>{" "}
                       <span className="corr">st</span>
                       <span className="corr">[...]{" "}</span>
@@ -955,7 +963,7 @@ export default function page() {
                       <span className="orig">laßen</span>
                       <span className="corr">lassen</span>
                       <br className="lb" />{" "}
-                      und die Seelen in einander zu ergießen. -
+                      und die Seelen in einander zu ergießen. <span className="">–</span>
                       <a id="mark.011.e"></a>
                     </span>
                   </p>
@@ -1002,7 +1010,7 @@ export default function page() {
                     wichtige Handlung begehen kann!
                   </p>
                   </span>
-                  <blockquote className="closer">
+                  <div className="closer">
                     <p className="enc.tagsdecl.indent-medium">
                       <span className="makierung">Meine Ge<span className="orig">ſ</span><span className="corr">s</span>chwi<span className="orig">ﬅ</span><span className="corr">st</span>er</span>, meine{" "}
                       <span className="abbr"> l.</span>
@@ -1050,11 +1058,9 @@ export default function page() {
                       </span>{" "}
                       denke oft an
                     </p>
-                  </blockquote>
+                  </div>
                     <div className="closer">
-                    <div className="signed-morespace-2 signed-right" style={{
-                        paddingTop: "50px",
-                      }} >Deinen treuen</div>
+                    <div className="signed-morespace-2 signed-right padding-169" >Deinen treuen</div>
                     <br />
                   </div>
                   

@@ -1045,7 +1045,7 @@ export default function page() {
                     
                   </p>
                   </span>
-                  <blockquote className="closer">
+                  {/*Removed Blockquote  Tag*/}
                     <p>
                       <span className="abbr"> D.</span>
                       <span className="expan">
@@ -1070,8 +1070,8 @@ export default function page() {
                       <span className="orig" />
                       <span className="corr">.</span>
                     </p>
-                  </blockquote>
-                  <blockquote className="closer">
+                  
+                   {/*Removed Blockquote  Tag*/}
                     <p>
                       <span className="makierung">
                         <a id="annot.001.s">{/*anchor*/}</a>Meine{" "}
@@ -1096,7 +1096,7 @@ export default function page() {
                       <span className="orig" />
                       <span className="corr">.</span>
                     </p>
-                  </blockquote>
+                  
                   <div className="closer">
                     Lebe recht wohl ewig geliebte{" "}
                     <span className="orig">Freündin</span>
@@ -1104,9 +1104,10 @@ export default function page() {
                     <span className="orig">Lieb</span>
                     <span className="corr">lieb</span>
                     <div className="signed" style={{ paddingLeft: "300px" }}>
-                      <span style={{ display: "inline-block" }} width="12cm">
+                      {/* <span style={{ display: "inline-block" }} width="12cm">
                         &nbsp;
-                      </span>
+                      </span> */}
+                      <span className="corr" style={{display: "block", height:"7px"}}></span>
                       Deine <span className="orig">treüe</span>
                       <span className="corr">treue</span> aufrichtige
                       <br className="lb-detail" />{" "}

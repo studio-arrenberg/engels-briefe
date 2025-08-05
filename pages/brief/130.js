@@ -91,11 +91,12 @@ export default function page() {
                           </span>
                         </span>
                         {" "}
-                        1816.<br className="lb" />
+                        1816.<br className="corr" style={{ display: "block !important" }} />
                         <span style={{ display: "inline-block" }} width="13cm">
-                          &nbsp;<span className="indent-small"></span>
+                          <span className="indent-small"></span>
                         </span>
                         <span className="corr"><br className="lb-detail"/></span>
+                        
                         Sam<span className="orig">ﬅ</span>
                         <span className="corr">st</span>ag
                       </span>{" "}
@@ -147,7 +148,7 @@ export default function page() {
                   </p>
                   <p>
                     <span style={{ display: "inline-block" }} width="2em">
-                      &nbsp;<span className="indent-small"></span>
+                      <span className="indent-small"></span>
                     </span>
                     Vermuthlich <span className="orig">ſ</span>
                     <span className="corr">s</span>ind wir zu einer Zeit in un
@@ -162,7 +163,7 @@ export default function page() {
                   </p>
                   <p>
                     <span style={{ display: "inline-block" }} width="2em">
-                      &nbsp;<span className="indent-small"></span>
+                      <span className="indent-small"></span>
                     </span>
                     <span className="makierung">Das waren ein paar frohe und wichtige Wochen, die
                     <br className="lb" />{" "}
@@ -288,7 +289,7 @@ export default function page() {
                         <br className="lb" />{" "}
                         nicht begreifen können;
                         <span style={{ display: "inline-block" }} width="2em">
-                          &nbsp;<span className="indent-small"></span>
+                          <span className="indent-small"></span>
                         </span>
                         denn die<span className="orig">ſ</span>
                         <span className="corr">s</span>e Stimmung, worin
@@ -327,7 +328,7 @@ export default function page() {
                     <p>
                       <span className="religion">
                         <span style={{ display: "inline-block" }} width="2em">
-                          &nbsp;<span className="indent-small"></span>
+                          <span className="indent-small"></span>
                         </span>
                         Nein <span className="orig">ſ</span>
                         <span className="corr">s</span>o wollen wir es nicht
@@ -365,7 +366,7 @@ export default function page() {
                     </p>
                     <p>
                       <span className="" style={{ display: "inline-block" }} width="4em">
-                        &nbsp;<span className="indent-small"></span>
+                        <span className="indent-small"></span>
                       </span>
                       Auf die<span className="orig">ſ</span>
                       <span className="corr">s</span>e Wei
@@ -407,7 +408,7 @@ export default function page() {
                   <p>
                     <span className="liebe">
                       <span style={{ display: "inline-block" }} width="8em">
-                        &nbsp;<span className="indent-small"></span>
+                        <span className="indent-small"></span>
                       </span>
                       <a id="teaser.part.002.s">{/*anchor*/}</a>Die
                       <span className="orig">ſ</span>
@@ -497,7 +498,7 @@ export default function page() {
                   <span className="liebe">
                     <p>
                       <span className="" style={{ display: "inline-block" }} width="4em">
-                        &nbsp;<span className="indent-small"></span>
+                        <span className="indent-small"></span>
                       </span>
                       <a id="mark.003.s">{/*anchor*/}</a>Ich glaube fa
                       <span className="orig">ﬅ</span>
@@ -514,7 +515,7 @@ export default function page() {
                       doch einmal be<span className="orig">ﬅ</span>
                       <span className="corr">st</span>immter gewahr werden.
                       <span className="" style={{ display: "inline-block" }} width="4em">
-                        &nbsp;
+                        
                       </span>
                       <span className="orig">Laße</span>
                       <span className="corr">Lasse</span>
@@ -569,7 +570,7 @@ export default function page() {
                     </p>
                     <p>
                       <span className="" style={{ display: "inline-block" }} width="4em">
-                        &nbsp;<span className="indent-small"></span>
+                        <span className="indent-small"></span>
                       </span>
                       Mit den Briefen{" "}
                       <span className="orig">müßen</span>
@@ -615,10 +616,10 @@ export default function page() {
                       <a id="mark.003.e">{/*anchor*/}</a>
                     </p>
                   </span>
-                  <blockquote className="closer">
+                  {/* <blockquote className="closer"> */}
                     <p>
                       <span className="" style={{ display: "inline-block" }} width="4em">
-                        &nbsp;<span className="indent-small"></span>
+                        <span className="indent-small"></span>
                       </span>
                       Jetzt <span className="orig">ſ</span>
                       <span className="corr">s</span>oll ich wohl{" "}
@@ -644,10 +645,8 @@ export default function page() {
                       recht wohl und vergnügt bei den
                       <br className="lb" />{" "}
                       Deinigen.{" "}
-                      <span className="" style={{ display: "inline-block" }} width="4em">
-                        &nbsp;
-                      </span>
-                      
+                      <span className="orig" style={{ display: "inline-block" }} width="4em">                        
+                      </span>                      
                       <span className="persName">
                         <span className="abbr"> M.</span>{" "}
                         <span className="expan">
@@ -713,11 +712,11 @@ export default function page() {
                       <span className="overwritten">g</span>
                       <span className="add">n</span>icht gerne.
                     </p>
-                  </blockquote>
-                  <blockquote className="closer">
+                  {/* </blockquote> */}
+                  {/* <blockquote className="closer"> */}
                     <p>
                       <span className="" style={{ display: "inline-block" }} width="4em">
-                        &nbsp;<span className="indent-small"></span>
+                        <span className="indent-small"></span>
                       </span>
                       Verzeihe mir mein <span className="orig">ſ</span>
                       <span className="corr">s</span>chlechtes Schreiben, mein
@@ -745,11 +744,11 @@ export default function page() {
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>ind, eingerichtet.
                     </p>
-                  </blockquote>
-                  <blockquote className="closer">
+                  {/* </blockquote> */}
+                  {/* <blockquote className="closer"> */}
                     <p>
                       <span className="" style={{ display: "inline-block" }} width="4em">
-                        &nbsp;<span className="indent-small"></span>
+                        <span className="indent-small"></span>
                       </span>
                       Nochmals lebe recht wohl. Der gute Gott{" "}
                       <span className="orig">ſ</span>
@@ -758,18 +757,25 @@ export default function page() {
                       <br className="lb" />{" "}
                       Dir und
                     </p>
-                  </blockquote>
+                  {/* </blockquote> */}
                   <div className="closer">
-                    <span style={{ display: "inline-block" }} width="6words">
-                      &nbsp;<span className="indent-small"></span>
+                    <span className="orig" style={{ display: "inline-block" }} width="6words">
+                      <span className="indent-small"></span>
                     </span>
                     <div className="signed-space" style={{paddingLeft: "320px",}}>
-                      Deinem treuen
+                      Deinem treuen 
                       <span style={{ display: "inline-block" }} width="7words">
-                        &nbsp;<span className="indent-small"></span>
+                        <span className="indent-small"></span>
                       </span>
+                      <span></span>
+
                       <br className="lb-detail" />
+                      <span style={{ display: "inline-block" }} width="7words">
+                        <span className="indent-small"></span>
+                      </span>
                       <span className="orig" style={{marginRight:"20px"}}></span>
+                      <span className="corr break-normalisiert"></span>
+                      
                       <span className="g.rend.script.latin">Friedrich</span>.
                     </div>
                   </div>
@@ -881,7 +887,7 @@ export default function page() {
             <hr />
             <label>Comptoristen</label>
             <p>
-            Schreiber, Buchhalter, Kaufleute
+            Schreiber, Buchhalter, Kaufleute.
             </p>
           </div>
 

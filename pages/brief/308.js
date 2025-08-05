@@ -162,7 +162,8 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chon{" "}
                     <span className="orig">ſ</span>
-                    <span className="corr">s</span>agte. <span className="orig">J</span><span className="corr">I</span>ch<span className="orig doublehyphen">⹀</span>
+                    <span className="corr">s</span>agte. <span className="orig">J</span><span className="corr">I</span>ch
+                    {/* <span className="orig doublehyphen">⹀</span> */}
                     <br className="lb" /> bedaure nun nicht aus{" "}
                     <span className="placeName">
                       <span className="g.rend.script.latin">Manchester</span>
@@ -189,9 +190,9 @@ export default function page() {
                   </p>
                   <p>
                     <span className="reisen">
-                    <span style={{ display: "inline-block" }} width="4em">
+                    {/* <span style={{ display: "inline-block" }} width="4em">
                       &nbsp;
-                    </span>
+                    </span> */}
                     Die <span className="makierung">Rei<span className="orig">ſ</span>
                     <span className="corr">s</span>e </span>von{" "}
                     <span className="placeName sans">
@@ -265,9 +266,9 @@ export default function page() {
                     <span className="corr">müssen</span>.
                   </p>
                   <p>
-                    <span style={{ display: "inline-block" }} width="8em">
+                    {/* <span style={{ display: "inline-block" }} width="8em">
                       &nbsp;
-                    </span>
+                    </span> */}
                     <span className="business">
                     <a id="mark.001.s">{/*anchor*/}</a>Dem{" "}
                     
@@ -366,8 +367,8 @@ export default function page() {
                       <span className="g.rend.script.latin">Hamm</span>
                     </span>{" "}
                     daß er gegen 18
-                    <sup className="orig">tƺ</sup>.
-                     <span className="abbr sans"> Aug</span>
+                    <sup className="orig">tƺ</sup>.{" "}
+                     <span className="abbr sans">Aug</span>
                     <span className="expan">
                       Aug<span className="ex">ust</span>
                     </span>{" "}
@@ -377,7 +378,7 @@ export default function page() {
                     </span>{" "}
                     kommt, um die
                     <br className="lb" />{" "}
-                    <span className="persName"><small className="orig">E</small>Mutter</span>{" "}
+                    <span className="persName"><small className="orig">E</small><span className="bold">M</span>utter</span>{" "}
                     <sup className="sup" id="txt.add001">
                       <span className="persName">
                         <span className="g.enc.tagsdecl.suspension.type1">
@@ -416,10 +417,10 @@ export default function page() {
                     <span className="corr">s</span>chreiben   </p>
 
                   <div className="closer">
-                    <span style={{ display: "inline-block" }} width="2em">
+                    {/* <span style={{ display: "inline-block" }} width="2em">
                       &nbsp;
-                    </span>
-                    Nun <small className="orig">l</small>Adieu liebe{" "}
+                    </span> */}
+                    Nun <small className="orig">l</small><span className="bold">A</span>dieu liebe{" "}
                     <span className="persName">
                       Eli<span className="orig">ſ</span>
                       <span className="corr">s</span>e
@@ -436,9 +437,9 @@ export default function page() {
                     </span>{" "}
                     <span className="orig">küße</span>
                     <span className="corr">küsse</span> die Kinder
-                    <span style={{ display: "inline-block" }} width="8em">
+                    {/* <span style={{ display: "inline-block" }} width="8em">
                       &nbsp;
-                    </span>
+                    </span> */}
                     <div className="signed">
                       Dein <span className="persName">Friedrich</span>.
                     </div>
@@ -464,7 +465,7 @@ export default function page() {
                    
                     <div className="salute" >
                      <span className="orig" style={{ display: "inline-block", marginLeft: "30px" }} width="4em" />
-                      &nbsp;
+                      
                       Liebe <span className="persName">Mutter</span>
                     </div>
                   </div>
@@ -560,7 +561,7 @@ export default function page() {
                     <span className="corr">st</span>e, und wenn wir noch
                     <br className="lb" /> eine Stunde gefahren hätten, hätten
                     wir <span className="orig">ſ</span>
-                    <span className="corr">s</span>chon a<small className="orig">u</small>ns Land gehen können,
+                    <span className="corr">s</span>chon a<small className="orig">u</small><span className="bold">n</span>s Land gehen können,
                     <br className="lb" /> aber der Loot
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>e wollte nicht weiter fahren,
@@ -617,7 +618,7 @@ export default function page() {
                     <span style={{ display: "inline-block" }} width="6words">
                       &nbsp;
                     </span>
-                    <div className="signed orig" style={{marginLeft: "-85px"}}>
+                    <div className="signed orig" style={{marginLeft: "-200px"}}>
                       Dein treuer Sohn
                       <br />{" "}
                       <div className="persName">Friedrich</div>
@@ -644,7 +645,7 @@ export default function page() {
             <label>Reise</label>
             <p>
               „Die Rückreise erfolgte mit dem englischen Dampfschiff ‚Countess
-              of Lonsdale‘.“ (Michael Knieriem (Hg.): Die Herkunft des Friedrich Engels. Trier 1991, S. 580.)
+              of Lonsdale‘.“ (Michael Knieriem (Hg.): <i>Die Herkunft des Friedrich Engels.</i> Trier 1991, S. 580.)
             </p>
           </div>
 
@@ -759,7 +760,7 @@ export default function page() {
               Geestrücken eingefasst werden. Deren sandiger Untergrund hat die
               Entstehung der ‚Wurster Heide‘ begünstigt. Die Ähnlichkeit dieser
               Landschaft mit der ‚Lüneburger Heide‘ mag zu Friedrich Engels‘
-              Irrtum geführt haben (vgl. Michael Knieriem (Hg.): Die Herkunft des Friedrich Engels. Trier 1991, S. 580, Anm. 5).
+              Irrtum geführt haben (vgl. Michael Knieriem (Hg.): <i>Die Herkunft des Friedrich Engels.</i> Trier 1991, S. 580, Anm. 5).
             </p>
           </div>
         </div>

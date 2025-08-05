@@ -80,7 +80,7 @@ ADDED BY MORITZ
 <span className="orig doublehyphen">⹀</span>
 
 
-// halbgeviertstrick
+// Halbgeviertstrich
 <span className="orig">–</span>
 
 
@@ -99,6 +99,7 @@ ADDED BY MORITZ
 
 // break normalisiert
 <br className="bn" />
+<span className="corr break-normalisiert"></span>
 
 
 // oberzeichen für Buchstabe oder Zahl mit punkt drüber

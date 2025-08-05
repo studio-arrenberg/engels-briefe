@@ -263,7 +263,7 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chlag</span> wohl aber eher das
                     <br className="lb" /> Gegentheil zu befürchten{" "}
-                    <span className="orig">ſeÿn</span>
+                    <span className="orig">ſeÿn.</span>
                     <span className="corr">seyn.</span>
                   </p>
                   </span>
@@ -349,7 +349,7 @@ export default function page() {
                   }}>
                       Dein
                       <br className="lb" />{" "}
-                      <div className="persName">Friedrich.</div>
+                      <div className="persName g.rend.script.latin">Friedrich.</div>
                   </div>
                   </blockquote>
                   <h2 className="g.rend.hand.friedrich-engels">
@@ -381,16 +381,16 @@ export default function page() {
                       <span className="corr">s</span>chwankte – und dem
                       <br className="lb" /> Getö<span className="orig">ſ</span>
                       <span className="corr">s</span>e um mich herum, daß ich {" "}
-                      <small className="orig">d</small>Dir nicht viel <span className="orig">ſ</span>
+                      <small className="orig">d</small><span className="bold">D</span>ir nicht viel <span className="orig">ſ</span>
                       <span className="corr">s</span>chreiben kann. <span className="orig">J</span><span className="corr">I</span>ch bin in
                       eine ganz neue Welt ver
                       <span className="orig">ſ</span>
                       <span className="corr">s</span>etzt. Lebe recht wohl und grüße Alle recht herzlich von Deinem
                     </p>
                     </span>
-                  <div style={{
-              marginLeft: "430px !important",
-            }} className="">Friedrich</div>
+                  <div style={{marginLeft: "430px !important",}} className="g.rend.script.latin">
+                    Friedrich
+                  </div>
                   </span>
                 </div>
 

@@ -414,7 +414,7 @@ export default function page() {
                     <span className="corr">s</span>chien nämlich zu fürchten,
                     <br className="lb" />{" "}
                     als wenn ich ihm
-                    <sup className="sup" id="txt.add001"> (dem Pferde)</sup>
+                    <sup className="sup" id="txt.add001_265"> (dem Pferde)</sup>
                     <span class="orig" style={{ marginLeft: "-41px" }}></span>
                     {" "}dadurch zu viel
                     <br className="lb" />{" "}
@@ -1014,7 +1014,7 @@ export default function page() {
                     <a id="annot.015.e">{/*anchor*/}</a> von{" "}
                     <span className="g.rend.script.latin">Brunellen</span>
                     <br className="lb" />{" "}
-                    nicht mehr ü<small className="orig">h</small>ber zu häufigen Stuhlgang
+                    nicht mehr ü<small className="orig">h</small><b>b</b>er zu häufigen Stuhlgang
                     <br className="lb" />{" "}
                     zu klagen hatte<span className="orig">ﬅ</span>
                     <span className="corr">st</span>, das wün
@@ -1025,7 +1025,7 @@ export default function page() {
                     <span className="corr">st</span>em zu erfahren, um
                     <br className="lb" />{" "}
                     zu wißen, wie viel{" "}
-                    <sup className="sup" id="txt.add002">
+                    <sup className="sup txt-add002_265" id="txt.add002">
                       <span className="g.rend.script.latin">Brunellen</span>
                     </sup>{" "}
                     <span class="orig"  style={{marginRight: "-40px"}} />du behalten
@@ -1155,7 +1155,7 @@ export default function page() {
                     </span>
                     .
                   </p>
-                  <blockquote className="closer">
+                  <div className="closer">
                     <p className="enc.tagsdecl.indent-medium">
                       Nun Adieu liebe{" "}
                       <span className="persName">
@@ -1191,7 +1191,7 @@ export default function page() {
                         <br className="g.enc.tagsdecl.hyphenation.eq" />
                       </span>
                     </p>
-                  </blockquote>
+                  </div>
                 </div>
                 <div
                   className="page"

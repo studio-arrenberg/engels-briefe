@@ -58,23 +58,14 @@ export default function Brief({ data }) {
                     ))} */}
 
                       <span className="sender_name">
-                      {/* {familie[data.sender.id].name} */}
-                        {familie.filter((item) => {
-                            return item.id === data.sender.id;
-                          })
-                          .map((data) => data.name
-                        )}
+                        {data.sender.name}
                       </span>
                   
                   <br></br>
 
                       <span className="empfänger_name">
                       <img className="small-icon" src="../icons/forward.svg" />
-                        {familie.filter((item) => {
-                            return item.id === data.empfänger.id;
-                          })
-                          .map((data) => data.name
-                        )}
+                        {data.empfänger.name}
                       </span>
                       
                 </h2>

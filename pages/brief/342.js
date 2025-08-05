@@ -554,14 +554,12 @@ export default function page() {
                     <span className="orig metamark">*</span>
                     <span className="corr">Dienstag Abend </span>
                     <span
-                      className="strike-through  underline orig">
+                      className="strikethrough underline orig">
                         Dienﬅag
                       </span>{" "}
-                    <sup className="sup" id="txt.add003">
+                    <sup className="sup txt-add003_342" id="txt.add003">
                       <span
-                        className="strike-through"
-                        style={{ textDecoration: "line-through" }}
-                      >
+                        className="strikethrough">
                         Mittwoc
                       </span>
                       <span className="strikethrough">h</span>
@@ -614,6 +612,7 @@ export default function page() {
                     </span>
                     <br className="lb" /> die übrigen herzlich von mir.
                     <br className="lb" />{" "}
+                    <span className="corr break-normalisiert"></span>
                     <div className="note orig" id="txt.margin001" style={{
                       marginLeft: "60px",
                       marginTop: "20px"
@@ -634,11 +633,11 @@ export default function page() {
                       &nbsp;
                     </span>
                     
-                                        <div className="orig"  style={{
+                    <div className="orig"  style={{
                       position: "absolute",
                       width: "200px",
                       marginLeft: "290px",
-                      marginTop: "-151px",
+                      marginTop: "-55px",
                       textAlign: "center"
                     }}>
                       <span className="corr" style={{display: "block", marginTop: "90px!important"}}/>
@@ -661,8 +660,8 @@ export default function page() {
 
                     }}>
                       
-                      Mit treuer Liebe<br className="bn" />
-                      Dein <br className="bn" />Friedrich
+                      Mit treuer Liebe<span className="corr break-normalisiert"></span>
+                      Dein <span className="corr break-normalisiert"></span>Friedrich
                     </div>
                   </div>
                   <br className="lb" />{" "}
@@ -842,7 +841,7 @@ export default function page() {
                       Anton Ermen kurz vor dem Vertragsschluss mit Friedrich
                       Engels sen. an einer Kölner Spinnereigesellschaft
                       beteiligte und dort auch das Wassergefälle an der Sieg
-                      einbrachte." (Michael Knieriem (Hg.): Die Herkunft des Friedrich Engels. Trier 1991, S. 641.)
+                      einbrachte." (Michael Knieriem (Hg.): <i>Die Herkunft des Friedrich Engels.</i> Trier 1991, S. 641.)
                     </p>
                   </div>
                   <div
@@ -875,7 +874,7 @@ export default function page() {
                     <label>Gas</label>
                     <p>
                       Barmen besaß seit 1848 Gasanschluss – 10 Jahre später als
-                      Elberfeld (vgl. Michael Knieriem (Hg.): Die Herkunft des Friedrich Engels. Trier 1991, S. 564, Anm. 3 zu Brief 305b).
+                      Elberfeld (vgl. Michael Knieriem (Hg.): <i>Die Herkunft des Friedrich Engels.</i> Trier 1991, S. 564, Anm. 3 zu Brief 305b).
                     </p>
                   </div>
                   <div

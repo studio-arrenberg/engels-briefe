@@ -61,7 +61,7 @@ export function Thema() {
                   
                   <>{data.kurzbeschreibung.split('\n').map( (it, i) => <p key={'x'+i}>{it}</p> )}</>
                   
-                  <span className="bildnachweis">{data.bildnachweis}</span>
+                  <span  style={{ whiteSpace: 'pre-line', verticalAlign: 'bottom' }}  className="bildnachweis">{data.bildnachweis}</span>
                 </div>
                 
               </div>

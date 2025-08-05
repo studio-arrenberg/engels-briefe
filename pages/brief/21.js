@@ -270,6 +270,7 @@ export default function page() {
                     paddingBottom: "253px",
                   }}
                 >
+                  <p>
                   <span className="liebe religion ">
                     <span className="orig">Hofnung</span>
                     <span className="corr">Hoffnung</span> wollen wirs <span className="orig">J</span><span className="corr">I</span>hm
@@ -306,6 +307,7 @@ export default function page() {
                     <span className="orig">wohlgefält</span>
                     <span className="corr">wohlgefällt</span>.
                   </span>
+                  </p>
                   <p>
                   <span className="orig">i</span>
                     <span className="corr">I</span>ch kam wie ge<span className="orig">ſ</span>

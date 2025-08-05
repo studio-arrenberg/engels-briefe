@@ -51,7 +51,8 @@ export default function page() {
                     </h3>
                     <p className="g.enc.tagsdecl.wd.vertical-right">
                       <span className="address">
-                        <span className="small">Herrn</span>
+                        <span className="indent-22 small" style={{                                
+                                display: "inline-block",}}>Herrn</span>
                         <br />
                         Herrn{" "}
                         <span className="g.rend.script.latin">
@@ -395,7 +396,7 @@ export default function page() {
           Caﬀee trinken und haben mir schon <span className="orig">ruﬀen</span><span className="corr">rufen</span> <span className="orig">laßen</span><span className="corr">lassen</span>.
         </p>
         <p>
-          Du mein herzlichgeliebter Gatte! muß <span className="orig strikethrough">h</span><span className="orig" /><span className="corr">[t]</span>
+          Du mein herzlichgeliebter Gatte! muß <span className="orig strikethrough">h</span><span className="orig" />{/* <span className="corr">[t]</span> */}
           <span style={{textDecoration: 'line-through'}}></span> mit diesen<br className="lb" />{" "}
           in der Eil geschriebenen Brief vorlieb nehmen und{" "}
           <span className="orig">heüte</span><span className="corr">heute</span><br className="lb" />{" "}
@@ -486,7 +487,8 @@ export default function page() {
             <hr />
             <label>Kreiseinnehmers</label>
             <p>
-            Die Eheleute Gerhard Peter Noot (1751–1836), Bruder von Louise Noot, und Anna Clara Maria Noot, geb. Karthaus (1750–1816). (Siehe Brief 4.) 
+            Die Eheleute Gerhard Peter Noot (1751–1836), Bruder von Louise Noot, und Anna Clara Maria Noot, geb. Karthaus (1750–1816). <br />
+            (Siehe den Brief von Friedrich Christian Hoffmann, Düsseldorf, den 12. Mai 1791, an Johann Caspar Engels II.) 
             </p>
           </div>
 

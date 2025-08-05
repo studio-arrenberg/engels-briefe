@@ -55,7 +55,7 @@ export default function page() {
                           <br className="lb" />{" "}
                           <span className="small-adress">
                             <span className="sans orig">
-                              Adr∮. Mad<sup>m</sup>. de Griesheim
+                              Adr∮. Mad<sup>m</sup><span style={{marginLeft: "-10px"}}>.</span> de Griesheim
                             </span>
                             <span className="corr">
                               Adresse Madame de Griesheim 
@@ -309,15 +309,15 @@ export default function page() {
                   </p>
                   <p>
                   <span className="business">
-                    <span style={{ marginLeft: "24px" }} width="3em">
+                    {/* <span style={{ marginLeft: "24px" }} width="3em">
                       &nbsp;
-                    </span>
+                    </span> */}
                     <a id="mark.001.s">{/*anchor*/}</a>Am andern Morgen{" "}
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chickten wir gleich zu
                     <br className="lb" />{" "}
                     <span className="orgName">
-                      <span className="g.rend.script.latin">
+                      <span className="g.rend.script.latin markierung">
                         {" "}
                         Andr<span className="orig">ÿ</span><span className="corr">y</span> &amp; Guibout
                       </span>
@@ -906,7 +906,7 @@ export default function page() {
                       <span className="corr">küsse</span> die Kinder und in
                       <br className="lb" /> Gedanken auch einmal recht tüchtig <br />
                       <span className="signature" style={{display: "block", textAlign: "right", paddingBottom: "20px"}}>
-                      Deinen <span className="persName">Friedrich</span>
+                      Deinen <span className="g.rend.script.latin">Friedrich</span>
                       </span>
                     </span>
 
@@ -977,7 +977,7 @@ export default function page() {
                       <span className="corr">küsse</span> die Kinder und in
                       <br className="lb" /> Gedanken auch einmal recht tüchtig
                       <span class="orig metamark" style={{ marginLeft: "40px" }}></span>
-                      Deinen <span className="persName">Friedrich</span>
+                      Deinen <span className="g.rend.script.latin">Friedrich</span>
                     </div>
 
                     <span  className="p corr">
@@ -1044,7 +1044,7 @@ export default function page() {
                       <span className=" orig g.enc.tagsdecl.cc.abbr-colon-sup">
                         M<span className="orig">ſ</span>
                         <span className="corr">s</span>
-                        <sup>r</sup>.
+                        <sup>r</sup><span style={{marginLeft: "-5px"}}>.</span>
                       </span>{" "}
                       <span className="expan">
                         M<span className="ex">on</span>s
@@ -1056,7 +1056,7 @@ export default function page() {
                         Adr<span className="ex">esse</span>
                       </span>{" "}
                       <span className="orig">
-                        Meſs <sup>r</sup>.{" "}
+                        Meſs<sup>r</sup><span style={{marginLeft: "-5px"}}>.</span>{" "}
                       </span>
                       <span className="orgName">
                         Andr<span className="orig">ÿ</span>
@@ -1097,7 +1097,7 @@ export default function page() {
                     <span className="makierung">
                       <span className="persName">
                         <span className="g.enc.tagsdecl.suspension.type1">
-                          Minch{" "}
+                          Minch
                         </span>
                         <span className="expan">
                           Minch<span className="ex">en</span>
@@ -1157,7 +1157,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "1256px",
+              top: "1245px",
             }}
           >
             <hr />
@@ -1172,7 +1172,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "2766px",
+              top: "2746px",
             }}
           >
             <hr />
@@ -1185,7 +1185,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "2798px",
+              top: "2778px",
             }}
           >
             <hr />
@@ -1193,13 +1193,13 @@ export default function page() {
             <p>
               Das Restaurant des nicht näher bezeichneten Inhabers Prévôt im
               Pariser Stadtpalast, dem „Palais Royal“, im 1. Arrondissement.
-              (Vgl. Galignani’s New Paris Guide. Paris 1827, S. 175.)
+              <br />(Vgl. <i>Galignani’s New Paris Guide.</i> Paris 1827, S. 175.)
             </p>
           </div>
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "2857px",
+              top: "2840px",
             }}
           >
             <hr />
@@ -1209,7 +1209,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "2888px",
+              top: "2868px",
             }}
           >
             <hr />
@@ -1233,7 +1233,7 @@ export default function page() {
           <div
             className="stellenerläuterung "
             style={{
-              top: "3152px",
+              top: "3130px",
             }}
           >
             <hr />
@@ -1253,7 +1253,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "3445px",
+              top: "3415px",
             }}
           >
             <hr />
@@ -1268,7 +1268,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "3473px",
+              top: "3443px",
             }}
           >
             <hr />
@@ -1278,7 +1278,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "4219px",
+              top: "4100px",
             }}
           >
             <hr />

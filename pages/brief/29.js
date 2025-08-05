@@ -327,7 +327,7 @@ export default function page() {
                       <span style={{ display: "inline-block" }} width="2cm">
                         &nbsp;
                       </span>
-                      <span clasName="orig" style={{paddingRight: "20px"}}></span>
+                      <span className="orig" style={{paddingRight: "20px"}}></span>
                       Un<span className="orig">ſ</span><span className="corr">s</span>erer Vermuthung nach wir<span className="orig">ﬅ</span><span className="corr">st</span> Du{" "}
                       <span className="orig">Heüte</span>
                       <span className="corr">heute</span>
@@ -545,8 +545,8 @@ export default function page() {
                     <span className="corr">Inhalt</span> meines Briefes
                     {" "}<br className="lb" />
                     wohl <span className="orig">ſ</span><span className="corr">s</span>ehen, ich brauche es Dir al<span className="orig">ſ</span><span className="corr">s</span>o nicht er<span className="orig">ﬅ</span><span className="corr">st</span> zu ver<span className="hide-doublehypen">⹀</span><br className="g.enc.tagsdecl.hyphenation.doublehyphen" />
-                    <span className="orig">ſ</span><span className="corr">s</span>ichern.
-                    <span className="horizontal"></span>Das Blatt i<span className="orig">ﬅ</span><span className="corr">st</span> voll, ich Dir mein Be<span className="orig">ﬅ</span><span className="corr">st</span>er! al<span className="orig">ſ</span><span className="corr">s</span>o
+                    <span className="orig">ſ</span><span className="corr">s</span>ichern. 
+                    <span className="horizontal"></span> Das Blatt i<span className="orig">ﬅ</span><span className="corr">st</span> voll, ich Dir mein Be<span className="orig">ﬅ</span><span className="corr">st</span>er! al<span className="orig">ſ</span><span className="corr">s</span>o
                     {" "}<br className="lb" />
                     <span className="orig">jezt</span>
                     <span className="corr">jetzt</span>{" "}
@@ -769,7 +769,7 @@ export default function page() {
             <hr />
             <label>Herrn Vater</label>
             <p>
-            Johann Caspar Korten (1721–1805), Kaufmann und Besitzer einer Bleicherei in Barmen. Vater von Johanna Konstantia Engels, geb. Korten (1761–1790), heiratete 1789 Johann Caspar Engels II (1753–1821).
+            Johann Caspar Korten (1721–1805), Kaufmann und Besitzer einer Bleicherei in Barmen. Vater von Johanna Konstantia Engels, geb. Korten (1761–1790), heiratete 1789 Johann Caspar Engels II <br />(1753–1821).
             </p>
           </div>
 

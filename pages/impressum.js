@@ -21,7 +21,7 @@ export default function Briefe() {
         variants={constants.animation.section_exit}
       >
 
-     <h1>Die Medieninstallation wurde im Rahmen eines Kooperationsprojekts zwischen der Bergischen Universität Wuppertal, dem Museum Industriekultur Wuppertal und dem Stadtarchiv Wuppertal erarbeitet. Sie bietet eine kommentierte Auswahledition (18 Briefe) des im Stadtarchiv Wuppertal unter der Signatur ND 3 in der ‚Dokumentation Friedrich Engels‘ aufbewahrten Konvoluts von 342 Briefen der Familie Engels aus dem Zeitraum von 1791 bis 1858. Die Sammlung ist als Online-Edition vollständig einsehbar unter: <span className="underline"><i>www.familie-engels-briefe.de</i></span>  <br /><br />Für finanzielle Förderung danken wir dem Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen sowie der Bergischen Universität Wuppertal.</h1>
+     <h1>Die Medieninstallation wurde im Rahmen eines Kooperationsprojekts zwischen der Bergischen Universität Wuppertal, dem Museum Industriekultur Wuppertal und dem Stadtarchiv Wuppertal erarbeitet. Sie bietet eine kommentierte Auswahledition <span className="nowrap">(18 Briefe)</span> des im Stadtarchiv Wuppertal unter der Signatur ND 3 in der ‚Dokumentation Friedrich Engels‘ aufbewahrten Konvoluts von 342 Briefen der Familie Engels aus dem Zeitraum von 1791 bis 1858. Die Sammlung ist als Online-Edition vollständig einsehbar unter: <span className="underline"><i>www.familie-engels-briefe.de</i></span>  <br /><br />Für finanzielle Förderung danken wir dem Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen sowie der Bergischen Universität Wuppertal.</h1>
       <h2>Museumsinstallation</h2>
       <p>
         <b>Philologische Inhalte (Transkriptionen, Textkonstitution, Kommentare)</b> <br />

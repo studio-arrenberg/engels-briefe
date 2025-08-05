@@ -1027,7 +1027,7 @@ img {
 
 .vergleichs-ansicht .corr,
 .vergleichs-ansicht .stellenerläuterungen {
-  display: none;
+  display: none !important;
 }
 
 .vergleichs-ansicht .ex {
@@ -1064,23 +1064,27 @@ img {
 
 
 
-.enc\.tagsdecl\.indent-verysmall  {
+.vergleichs-ansicht .enc\.tagsdecl\.indent-verysmall  {
   text-indent: 10px;
 }
 
-.enc\.tagsdecl\.indent-small  {
+.vergleichs-ansicht .enc\.tagsdecl\.indent-small  {
   text-indent: 20px;
 }
 
 
-.enc\.tagsdecl\.indent-medium, .vergleichs-ansicht .indent-medium, .indent-medium   {
+.vergleichs-ansicht .enc\.tagsdecl\.indent-medium, .vergleichs-ansicht .indent-medium   {
   text-indent: 30px;
 }
 
 
 
-.enc\.tagsdecl\.indent-large  {
+.vergleichs-ansicht.enc\.tagsdecl\.indent-large  {
   text-indent: 60px;
+}
+
+.vergleichs-ansicht .indent-22{
+  text-indent: 200px;
 }
 
 
@@ -1175,8 +1179,9 @@ table {
   margin: 0 !important;
 }
 
-.normalisiert .page p{
+.normalisiert .page p, .normalisiert .paragraph{
   margin-bottom: 7px;
+  display: inline-block;
 }
 
 .normalisiert .abbr{
@@ -1200,7 +1205,7 @@ table {
 
 .normalisiert .orig,
 .normalisiert .page br {
-  display: none;
+  display: none !important;
 }
 
 
@@ -1221,6 +1226,14 @@ table {
   margin: unset !important;
 }
 
+.normalisiert .break-normalisiert {
+  display: block;
+}
+
+.vergleichs-ansicht .break-normalisiert {
+  display: none;  
+}
+
 .normalisiert sup {
   font-size: inherit;
   vertical-align: unset;
@@ -1235,7 +1248,7 @@ table {
   text-align: right;
 }
 
-.normalisiert .makierung {
+.normalisiert .makierung, .normalisiert .markierung{
   border-bottom: 2px dotted black;
 }
 
@@ -1395,13 +1408,13 @@ table {
 
 p > span .latin {
   font-family: "Gibson-Regular";
-  font-size: 90%;
+  /* font-size: 90%; */
 }
 
 
-.g\.rend\.script\.latin {
+.vergleichs-ansicht .g\.rend\.script\.latin, .vergleichs-ansicht .latin{
   font-family: "Gibson-Light";
-  font-size: 95%; 
+  /* font-size: 95%;  */
 }
 
 .headingNumber {
@@ -1557,6 +1570,8 @@ p > span .latin {
 
 .strikethrough{
   text-decoration:line-through;
+  text-underline-offset: 50%; /* This affects strikethrough position in some browsers */
+
 }
 
 .border-bottom{
@@ -1564,21 +1579,69 @@ p > span .latin {
   border-bottom: 2px solid black;
 }
 
+.txt-add002{
+  display: inline-block;
+  margin-top: -10px;
+}
 
-.vergleichs-ansicht .sup#txt\.add001::after, .vergleichs-ansicht .sup#txt\.add002::after{
+
+.vergleichs-ansicht .sup#txt\.add002::after{
   content: "⦦";
   font-weight: 100;
   margin-right: -4px;
+  margin-left: 2px;
   transform: rotate(0deg) translateY(2px) translateX(-6px) scale(1.8) scaleX(-1); 
   display: inline-block;
   color: #000;
+}
+
+.vergleichs-ansicht .txt-add002_265::after{    
+  transform: rotate(0deg) translateY(2px) translateX(-2px) scale(1.8) scaleX(-1) !important;  
+}
+
+.vergleichs-ansicht .txt-add001_285::after{
+  transform: rotate(0deg) translateY(2px) translateX(-37px) scale(1.8) scaleX(1) !important; 
+  margin-right: -6px !important;   
+}
+
+.vergleichs-ansicht .txt-add003_342::after{
+   transform: rotate(0deg) translateY(0px) translateX(-37px) scale(-1.8) scaleX(-1) !important; 
+  margin-right: -30px !important;
+}
+
+.vergleichs-ansicht .sup#txt\.add001::after{
+  content: "⦦";
+  font-weight: 100;
+  margin-right: -4px;
+  margin-left: 2px;
+  transform: rotate(0deg) translateY(2px) translateX(-6px) scale(1.8) scaleX(-1); 
+  display: inline-block;
+  color: #000;
+}
+
+.vergleichs-ansicht #txt\.add001_265::after{
+  content: "⦦";
+  font-weight: 100;
+  margin-right: -4px;
+  margin-left: 2px;
+  transform: rotate(0deg) translateY(5px) translateX(-2px) scale(1.8) scaleX(-1); 
+  display: inline-block;  
+}
+
+.vergleichs-ansicht #txt\.add001_235::after{
+  content: "⦦";
+  font-weight: 100;
+  margin-right: -4px;
+  transform: rotate(0deg) translateY(2px) translateX(-35px) scale(1.8) scaleX(1); 
+  display: inline-block;
+  color: #000;  
 }
 
 .vergleichs-ansicht .sup#txt\.add003::after{
   content: "⦦";
   font-weight: 100;
   margin-right: -10px;
-  transform: rotate(0deg) translateY(2px) translateX(-34px) scale(1.8) scaleX(1);
+  transform: rotate(0deg) translateY(2px) translateX(-32px) scale(1.8) scaleX(1);
   display: inline-block;
   color: #000;
 }
@@ -1772,7 +1835,8 @@ p > span .latin {
   margin-top: 20px;
   font-size: 0.8rem;
   align-self: flex-end;
-  opacity: 0.8;
+  opacity: 0.8;  
+  white-space: pre-line;
 }
 
 .item_preview .bildnachweis{
@@ -1784,6 +1848,7 @@ p > span .latin {
 .bildnachweis_detail{
   margin-bottom: -90px;  
   font-size: 1rem;
+  white-space: pre-line;  
 }
 
 .bildnachweis_briefansicht{
@@ -1819,6 +1884,10 @@ p > span .latin {
 .vergleichs-ansicht .expan{
   display: none;
   
+}
+
+.nowrap{
+    white-space: nowrap;
 }
 
 .vergleichs-ansicht .dateline-left{
@@ -1857,6 +1926,10 @@ p > span .latin {
 
 .vergleichs-ansicht .horizontal{
   padding-right: 20px;
+}
+
+.normalisiert .horizontal{
+ display:none;
 }
 
 .vergleichs-ansicht .zeilenabstand{
@@ -1918,6 +1991,10 @@ p > span .latin {
 
 .detail-ansicht .lb-detail{
   display: block !important;  
+}
+
+.red{
+  background-color: red;
 }
 
 .detail-ansicht .normalisiert-block{
@@ -1995,8 +2072,14 @@ p > span .latin {
   min-height: 900px;
 }
 
+.vergleichs-ansicht .padding-169 {
+  padding-top: 50px;
+}
 
 
+.vergleichs-ansicht .bold{
+  font-weight: bold;
+}
 
 
 

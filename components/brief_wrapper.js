@@ -446,13 +446,13 @@ export default function Brief_wrapper(props) {
 
                   .map((data) => data.title)}
 
-                <span className="bildnachweis bildnachweis_briefansicht">
+                <span style={{ whiteSpace: 'pre-line', verticalAlign: 'bottom' }} className="bildnachweis bildnachweis_briefansicht">
                   {orte
                     .filter((item) => {
                       return item.id === data.sender.ort;
                     })
                     .map((data) => data.bildnachweis)}
-                </span>
+                </span>                                      
               </h2>
             </div>
             <div className="empfänger-ort">
@@ -471,16 +471,17 @@ export default function Brief_wrapper(props) {
                     return item.id === data.empfänger.ort;
                   })
 
-                  .map((data) => data.title)}
-
-                <span className="bildnachweis bildnachweis_briefansicht">
+                  .map((data) => data.title)}                                        
+              
+                <span style={{ whiteSpace: 'pre-line', verticalAlign: 'bottom' }} className="bildnachweis bildnachweis_briefansicht">
                   {orte
                     .filter((item) => {
                       return item.id === data.empfänger.ort;
                     })
-                    .map((data) => data.bildnachweis)}
+                    .map((data) => data.bildnachweis)}                      
                 </span>
-              </h2>
+                </h2>
+              
             </div>
           </motion.div>
           <IdleTimer />

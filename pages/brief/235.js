@@ -41,7 +41,7 @@ export default function page() {
                 <section
                   className="kuvert"
                   id="index.xml-body.1_div.1"
-                  style={{ paddingTop: "220px", paddingBottom: "215px" }}
+                  style={{ paddingTop: "220px", paddingBottom: "175px" }}
                 >
                   {/* Insert Kuvert */}
                   <div className="kuvert" id="index.xml-body.1_div.1">
@@ -65,13 +65,12 @@ export default function page() {
                             <br />
                             <div style={{marginRight: "300px"}}>
                             <span className="underline">
-                              frei.</span>{" "}in</div>
+                              frei.</span>{" "}</div>
                             <br className="lb" />{" "}
+                            <span style={{marginRight: "50px"}}>in</span>
+                            <br />
                           </span>
-                          <span
-                            className="wave"
-                            className="underline sans"
-                          >
+                          <span className="underline sans wave">
                             Berlin.-
                           </span>
                           <br />
@@ -97,10 +96,7 @@ export default function page() {
                             in
                             <br className="lb" />{" "}
                           </span>
-                          <span
-                            className="wave"
-                            className="underline sans"
-                          >
+                          <span className="underline sans wave">                          
                             Berlin.-
                           </span>
                           <br />
@@ -130,7 +126,7 @@ export default function page() {
                       <span className="date">
                         1.{" "}
                         <span className="g.rend.script.latin">
-                          <span className="abbr"> Decr.</span>{" "}
+                          <span className="abbr"> Decbr.</span>{" "}
                           <span className="expan">
                             Dec<span className="ex">embe</span>r{" "}
                           </span>
@@ -439,16 +435,18 @@ export default function page() {
                     <br className="lb" />{" "}
                     richtig erhalten; er hat mir große Freude gemacht,
                     <br className="lb" />{" "}
-                    obgleich Deine Schreibe=Großmut<span className="orig">h</span> mich etwas be
+                    obgleich Deine Schreibe
+                    <span className="orig">⹀</span>
+                    <span className="corr">-</span>
+                    Großmut<span className="">h</span> mich etwas be
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>chämte.
                     <br className="lb" />{" "}
                     <span className="orig">J</span>
-<span className="corr">I</span>ch will mich{" "}
-<span className="orig">⦦</span>
-                    <sup  id="txt.add001">
+                  <span className="corr">I</span>ch will mich{" "}
+                    <sup style={{marginLeft: "6px"}} id="txt.add001_235">
                       aber
-                    </sup>{" "}
+                    </sup>
                     <span className="orig">beßern</span>
                     <span className="corr">bessern</span> in die
                     <span className="orig">ſ</span>
@@ -724,7 +722,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "804px",
+              top: "760px",
             }}
           >
             <hr />
@@ -737,7 +735,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "1300px",
+              top: "1260px",
             }}
           >
             <hr />
@@ -750,7 +748,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "1340px",
+              top: "1280px",
             }}
           >
             <hr />
@@ -763,7 +761,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "1350px",
+              top: "1320px",
             }}
           >
             <hr />
@@ -776,7 +774,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "2265px",
+              top: "2225px",
             }}
           >
             <hr />
@@ -789,7 +787,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "2360px",
+              top: "2300px",
             }}
           >
             <hr />
@@ -802,7 +800,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "2865px",
+              top: "2815px",
             }}
           >
             <hr />
@@ -815,7 +813,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "2958px",
+              top: "2910px",
             }}
           >
             <hr />
@@ -828,7 +826,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "3202px",
+              top: "3150px",
             }}
           >
             <hr />

@@ -185,7 +185,7 @@ export default function page() {
                   {/* Insert Page 1 */}
                   <div className="writing-session" id="index.xml-body.1_div.2">
                     <div className="opener">
-                      <div className="dateline text-right">
+                      <div className="dateline-left dateline" style={{ marginLeft: "190px" }}>
                         <span className="placeName">Barmen</span>{" "}
                         <span className="date">
                           12
@@ -562,7 +562,7 @@ export default function page() {
     <div className="pagebreak" id="index.xml-pb-d29e302">
       
     </div>
-    <p>Vereinigte<span className="orig">⸗ </span>
+    <p>Vereinigte<span className="orig">⸗</span>
 <span className="corr">-</span><span className="underline">Armee</span> von Schlesien.</p>
     <p>Avantgarde des kaiserl. russischen</p>
     <p className="g.enc.tagsdecl.indent-medium" style={{textIndent: "40px",}}>Armee<span className="orig">⸗</span><span className="corr">-</span>Korps.</p>
@@ -737,7 +737,7 @@ Kommissair, und un<span className="orig">⸗ </span>
             <hr />
             <label>einliegende Proclamation</label>
             <p>
-            Siehe die Beilage: „Tagsbefehl“ von der „Avantgarde des kaiserl. russischen Armee-Korps“ vom 11. November 1813. Der Druck der Proklamation enthält das offenbar falsche Datum „11. Okt.“. In der Literatur wird der 11. November 1813 in Elberfeld als Beginn der russischen Kommandantschaft genannt und jener „Tagsbefehl“ auf diesen Tag datiert. (Vgl. Johann Friedrich Knapp: Geschichte, Statistik und Topographie der Städte Elberfeld und Barmen im Wupperthale. Iserlohn und Barmen 1835. S. 77.) Außerdem bezieht sich Johann Caspar Engels im Brief (Z. 4–5) auf den Abzug der Franzosen aus Frankfurt am Main. Der erfolgte bis zum 2. November 1813.
+            Siehe die Beilage: „Tagsbefehl“ von der „Avantgarde des kaiserl. russischen Armee-Korps“ vom 11. November 1813. Der Druck der Proklamation enthält das offenbar falsche Datum „11. Okt.“. In der Literatur wird der 11. November 1813 in Elberfeld als Beginn der russischen Kommandantschaft genannt und jener „Tagsbefehl“ auf diesen Tag datiert. (Vgl. Johann Friedrich Knapp: <i>Geschichte, Statistik und Topographie der Städte Elberfeld und Barmen im Wupperthale.</i> Iserlohn und Barmen 1835. S. 77.) Außerdem bezieht sich Johann Caspar Engels im Brief (Z. 4–5) auf den Abzug der Franzosen aus Frankfurt am Main. Der erfolgte bis zum 2. November 1813.
             </p>
           </div>
 
@@ -803,7 +803,7 @@ Kommissair, und un<span className="orig">⸗ </span>
             <hr />
             <label>künftig klar schreiben</label>
             <p>
-            Aus Angst vor Militärzensur hatte Johann Caspar Engels seinen Sohn bei „politischen Nachrichten“ aus Frankfurt zur „Vorsicht“ gemahnt (vgl. Brief Nr. 66 vom 5.4.1813).
+            Aus Angst vor Militärzensur hatte Johann Caspar Engels seinen Sohn bei „politischen Nachrichten“ aus Frankfurt zur „Vorsicht“ gemahnt (vgl. seinen Brief vom 5.4.1813).
             </p>
           </div>
 

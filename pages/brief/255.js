@@ -573,7 +573,7 @@ export default function page() {
                   <br className="lb" />{" "}
                   mich freuen. –
                 </p>
-                <blockquote className="closer">
+                <div className="closer">
                   <p className="enc.tagsdecl.indent-medium">
                     Nun Adieu, es i<span className="orig">ﬅ</span><span className="corr">st</span> gleich eilf Uhr.
                     <br className="lb" />{" "}
@@ -585,8 +585,8 @@ export default function page() {
                     <br className="lb" />{" "}
                     will<span className="orig">ﬅ</span><span className="corr">st</span> Du, es thut mir <span className="orig">ſ</span><span className="corr">s</span>o gut. –
                   </p>
-                </blockquote>
-                <blockquote className="closer">
+                </div>
+                <div className="closer">
                   <p className="enc.tagsdecl.indent-small">
                     Lebe recht wohl, Du{" "}
                     <span className="orig">
@@ -598,14 +598,14 @@ export default function page() {
                     <br className="lb" />{" "}
                     und behalte mich <span className="orig">ſ</span><span className="corr">s</span>o lieb wie ich Dich.
                   </p>
-                </blockquote>
+                </div>
                 <div className="closer">
-                  <span className="corr" style={{paddingLeft: "20px",}}></span>
+                  {/* <span className="corr" style={{paddingLeft: "20px",}}></span> */}
                   Grüße Eltern und Ge<span className="orig">ſ</span><span className="corr">s</span>chwister herzlich <br className="bn" />{" "}
                   <span className="corr" style={{paddingLeft: "390px",}} /> von deinem treuen
                   <div className="enc.tagsdecl.indent-small ">
                     <span style={{marginLeft: "220px",}}></span>
-                    <span className="glyph">//.</span>
+                    <span className="glyph">˙//. </span>
                     <span className="corr" style={{paddingLeft: "450px",}} />
                     <span className="g.rend.script.latin">Friedrich</span>.
                   </div>
@@ -640,7 +640,7 @@ export default function page() {
             <hr />
             <label>mein kleinstes Herzenstuksken</label>
             <p>
-            Kosenamen für das noch nicht geb. zweite Kind, mit dem Elise Engels schwanger geht: Hermann, geb. am 9.10.1820.
+            Kosename für das noch nicht geborene zweite Kind von Elise Engels: Hermann, geboren am 29.10.1822.
             </p>
           </div>
 
