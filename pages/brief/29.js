@@ -63,11 +63,7 @@ export default function page() {
                   {/* Insert Page 1 */}
                   <p>
                   <div className="opener">
-                    <div
-                      className="dateline"
-                      className="dateline-center"
-                      
-                    >
+                    <div className="dateline-center margin-top">
                       <span style={{ marginLeft: "250px" }}></span>
                       <span className="placeName">Barmen</span>{" "}am{" "}
                       <span className="date">
@@ -556,9 +552,7 @@ export default function page() {
                     Deine treue {" "}<br className="lb" />
                   </p>
                   <div className="closer">
-                    
-                    
-                    <div className="signed-morespace">
+                    <div className="signed-morespace more-line-height">
                       Lui<span className="orig">ſ</span><span className="corr">s</span>e Engels{" "}
                       <span className="g.enc.tagsdecl.cc.abbr-colon">geb<span className="orig">:</span>
                         <span className="corr">.</span>{" "}

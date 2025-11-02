@@ -5,7 +5,7 @@
             "datum" : "5. Januar 1791",
             "themen" : {"name":["Religion"], "id":[1]},
             "sender": {"name":"Ida Louise Friederike Noot","ort":"7", "id":"2"},
-            "empfänger" : {"name": "eine Unbekannte Freundin", "ort": "14", "id":"10"},
+            "empfänger" : {"name": "eine unbekannte Freundin", "ort": "14", "id":"10"},
             "text" : "Ich danke Dir herzlich dafür, daß Du mir schon so bald Nachricht von Dir und den Lieben Deinigen gabst, so kurz dein Brief auch war, so machte er mir doch viele Freude.",
             "digitalisate": {"cover": "", "page": ["FE_01.1.png","FE_01.2.png"]},
             "audio" :"001.mp3",
@@ -73,7 +73,7 @@
             "datum" : "12. November 1813",
             "themen" : {"name":["Religion", "Politik"], "id":[1,5]},
             "sender": {"name":"Johann Caspar Engels","ort":"1", "id":"3"},
-            "empfänger" : {"name": "Ffriedrich Engels sen.", "ort": "6", "id":"9"},
+            "empfänger" : {"name": "Friedrich Engels sen.", "ort": "6", "id":"9"},
             "text" : "Deine Briefe haben wir richtig erhalten, und freuen uns deines Wohlseins, und daß alles für die Stadt Frankfurth so glücklich vorübergegangen ist; angenehm war uns deine Beschreibung, wiewohl wir dieselbe späth erhielten, und durch die Hemmung der Post, dir nicht antworten konnten.",
             "digitalisate": {"cover": "FE_71.2.png", "page": ["FE_71.1.png", "FE_71.3.png"]},
             "audio" :"071.mp3"

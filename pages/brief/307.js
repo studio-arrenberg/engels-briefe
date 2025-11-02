@@ -347,9 +347,11 @@ export default function page() {
                     <div className="signed" style={{
                     marginLeft: "-120px",
                   }}>
+                    <span className="text-right">
                       Dein
                       <br className="lb" />{" "}
                       <div className="persName g.rend.script.latin">Friedrich.</div>
+                    </span>
                   </div>
                   </blockquote>
                   <h2 className="g.rend.hand.friedrich-engels">

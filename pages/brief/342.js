@@ -650,22 +650,19 @@ export default function page() {
                         Friedrich</div>
                     </div>
 
-
                     <div className="corr" style={{
                       position: "absolute",
                       width: "557px",
                       marginLeft: "290px",
-                      textAlign: "right",
-                      marginTop: "70px!important",
-
+                      textAlign: "right",                      
                     }}>
-                      
                       Mit treuer Liebe<span className="corr break-normalisiert"></span>
                       Dein <span className="corr break-normalisiert"></span>Friedrich
                     </div>
                   </div>
-                  <br className="lb" />{" "}
+                  <br className="lb" />{" "}                  
                   <p>
+                    <span style={{marginTop:"55px !important", display:"block"}} className="corr"></span>
                     Einlage an <span className="persName">Hermann</span> laß mit{" "}
                     <span className="makierung">bei<span className="orig">ſ</span>
                     <span className="corr">s</span>chließen</span>

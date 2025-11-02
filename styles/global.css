@@ -1096,6 +1096,7 @@ img {
   color: rgb(0, 0, 0);
 }
 
+sup { vertical-align: top; position: relative; top: -0.5em; }
 
 .text-right {
   text-align: right;
@@ -1108,6 +1109,12 @@ img {
   padding-right: 0px;
   text-align: right !important;
   }
+
+.normalisiert  .page div .margin-top {
+  margin-top: -5;
+  padding-bottom:15px;
+  display: block;  
+}
 
 
 .vergleichs-ansicht .text-center {
@@ -1882,8 +1889,7 @@ p > span .latin {
 
 /* Vergleichs Ansicht */
 .vergleichs-ansicht .expan{
-  display: none;
-  
+  display: none; 
 }
 
 .nowrap{
@@ -1932,6 +1938,18 @@ p > span .latin {
  display:none;
 }
 
+.normalisiert .more-line-height{
+  padding-top: 10px;  
+}
+
+.normalisiert 
+
+.vergleichs-ansicht #brief_71_signed{
+  padding-bottom: "15px"; 
+  margin-top: -28px;
+  padding-left:320px;  
+}
+
 .vergleichs-ansicht .zeilenabstand{
   line-height: 150%;
 }
@@ -1959,6 +1977,10 @@ p > span .latin {
 
 .vergleichs-ansicht #brief-169 img:nth-of-type(6) {
   margin-bottom:107px;
+}
+
+.normalisiert #brief_265_closer{
+  padding-right: 40px;  
 }
 
 
@@ -1995,6 +2017,10 @@ p > span .latin {
 
 .red{
   background-color: red;
+}
+
+.blue{
+  background-color: blue;
 }
 
 .detail-ansicht .normalisiert-block{

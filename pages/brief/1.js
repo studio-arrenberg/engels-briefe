@@ -42,11 +42,7 @@ export default function page() {
                   }}
                 >
                   <div className="opener">
-                    <div
-                      className="dateline"
-                      className="dateline-center"
-                      
-                    >
+                    <div className="dateline-center">
                       <span style={{ marginLeft: "150px" }}></span>
                       <span className="placeName">Hagen</span>{" "}
                       <span className="date">
@@ -1103,14 +1099,15 @@ export default function page() {
                     <span className="corr">Freundin</span>, und behalte{" "}
                     <span className="orig">Lieb</span>
                     <span className="corr">lieb</span>
-                    <div className="signed" style={{ paddingLeft: "300px" }}>
+                    <div className="signed text-right" style={{ paddingLeft: "300px"}}>
                       {/* <span style={{ display: "inline-block" }} width="12cm">
                         &nbsp;
                       </span> */}
                       <span className="corr" style={{display: "block", height:"7px"}}></span>
                       Deine <span className="orig">treüe</span>
                       <span className="corr">treue</span> aufrichtige
-                      <br className="lb-detail" />{" "}
+                      <br className="lb-detail" />
+                      <span className="corr break-normalisiert"></span>{" "}
                       <span style={{ display: "inline-block" }} width="12cm">
                         &nbsp;
                       </span>

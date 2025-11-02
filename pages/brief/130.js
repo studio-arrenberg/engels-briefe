@@ -758,7 +758,7 @@ export default function page() {
                       Dir und
                     </p>
                   {/* </blockquote> */}
-                  <div className="closer">
+                  <div className="closer text-right">
                     <span className="orig" style={{ display: "inline-block" }} width="6words">
                       <span className="indent-small"></span>
                     </span>

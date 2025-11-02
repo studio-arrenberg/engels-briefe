@@ -506,22 +506,21 @@ export default function page() {
                         <span className="unclear">wolle</span>
                         <span className="unclear">wolte</span>.
                         <a id="mark.003.e">{/*anchor*/}</a>
-                      </span>
-
-                      <div className="signed" style={{ paddingBottom: "15px",}}>
-                        
-                        Dein <span className="orig">Treüer</span>
-                        <span className="corr">treuer</span> Vater{" "}
-                        <br className="lb" />{" "}
-                        <span className="g.rend.script.latin">
-                          <span className="horizontal"></span>
-                          <span className="abbr">C.</span>
-                          <span className="expan">
-                            C<span className="ex">aspar</span>{" "}
+                      </span>                      
+                        <div id="brief_71_signed" className="signed" style={{ paddingBottom: "15px"}}>
+                          Dein <span className="orig">Treüer</span>
+                          <span className="corr">treuer</span> Vater{" "}
+                          <br className="lb" />{" "}
+                          <span className="g.rend.script.latin">
+                            <span className="horizontal"></span>
+                            <span className="abbr">C. </span>
+                            <span className="expan">
+                              C<span className="ex">aspar</span>{" "}
+                            </span>
+                            Engels
                           </span>
-                          Engels
-                        </span>
-                        .
+                          .
+                        
                       </div>
                     </div>
                     <span className="corr"><br /></span>
@@ -550,136 +549,133 @@ export default function page() {
                   style={{
                     paddingTop: "20px",
                     paddingLeft: "100px",
-                    paddingBottom: "464px",
+                    paddingBottom: "464px",                    
                   }}
                 >
                   {/* Insert Page 2 */}
                   <div className="writing-session" id="index.xml-body.1_div.2">
-                  <div>
-  
-  <div className="g.rend.type.gothic" id="index.xml-body.1_div.2">
-    <h2 className="g.rend.type.gothic"><span className="headingNumber">2. </span></h2>
-    <div className="pagebreak" id="index.xml-pb-d29e302">
+                    <div>  
+    <div className="g.rend.type.gothic" id="index.xml-body.1_div.2">
+      <h2 className="g.rend.type.gothic"><span className="headingNumber">2. </span></h2>
+      <div className="pagebreak" id="index.xml-pb-d29e302"></div>
+      <p>Vereinigte<span className="orig">⸗</span>
+  <span className="corr">-</span><span className="underline">Armee</span> von Schlesien.</p>
+      <p>Avantgarde des kaiserl. russischen</p>
+      <p className="g.enc.tagsdecl.indent-medium" style={{textIndent: "40px",}}>Armee<span className="orig">⸗</span><span className="corr">-</span>Korps.</p>
+      <div className="zeilenabstand">
+        <p className="g.enc.tagsdecl.indent-very-large"  style={{textIndent: "80px",}}>
+          <span className="spacing">Elberfeld</span> den{" "}
+          <a id="annot.001.s">{/*anchor*/}</a>11. Okt.<a id="annot.001.e">{/*anchor*/}</a>
+        </p>
+        <p className="g.enc.tagsdecl.indent-very-large"  style={{textIndent: "80px",}}>
+          <span className="spacing">Tagsbefehl</span>.
+        </p>
+      </div>
+      <p className="g.enc.tagsdecl.indent-medium">
+        Seit meinem Einzug in diese Stadt ist nun so<span className="orig">⸗ </span>
+  <span className="corr"></span><br className="lb" />wohl der
+        geringe Theil des Großherzogthums Berg, <br className="lb" />welcher noch
+        nicht besetzt war, als auch die Haupt<span className="orig">⸗ </span><span className="corr">-</span>{" "}
+  <span className="corr"></span><br className="lb" />und
+        Residenzstadt D<span className="orig umlaut">uͤ</span>
+  <span className="corr">ü</span>sseldorf durch die unter meinen{" "}
+        <br className="lb" />Befehlen stehenden Truppen okkupirt.
+      </p>
+      <p className="g.enc.tagsdecl.indent-medium">
+      <span style={{ marginLeft: "30px" }} ></span>
+        Ueberall fand ich Proben der guten Gesinnungen, <br className="lb" />welche
+        die Bewohner des Großherzogthums beseelen, <br className="lb" />Es wird f<span className="orig umlaut">uͤ</span>
+  <span className="corr">ü</span>r
+        mich die angenehmste Pflicht seyn, da<span className="orig">⸗ </span>
+  <span className="corr"></span><br className="lb" />von eine
+        g<span className="orig umlaut">uͤ</span>
+  <span className="corr">ü</span>nstige Rechenschaft abzustatten.
+      </p>
+      <p className="g.enc.tagsdecl.indent-medium">
+      <span style={{ marginLeft: "30px" }} ></span>Indessen finde ich n<span className="orig umlaut">oͤ</span>
+  <span className="corr">ö</span>thig bis auf weitere Einrich<span className="orig">⸗ </span>
+  <span className="corr"></span><br className="lb" />tung
+        nachfolgende Verordnungen zu treffen.
+      </p>
+      <p className="g.enc.tagsdecl.indent-medium">
+      <span style={{ marginLeft: "30px" }} ></span>Art. 1. Der Obrist und Ritter von Chomiekoff <br className="lb" />ist als
+        Kommandant von Elberfeld und Barmen er<span className="orig">⸗ </span>
+  <span className="corr"></span><br className="lb" />nannt. Keine
+        Forderung welche nicht mit dem Visa <br className="lb" />des Herrn
+        Kommandanten versehen ist, darf angenom<span className="orig">⸗ </span>
+  <span className="corr"></span><br className="lb" />men und
+        ausgef<span className="orig umlaut">uͤ</span>
+  <span className="corr">ü</span>hrt werden.
+      </p>
+      <p className="g.enc.tagsdecl.indent-medium">
+      <span style={{ marginLeft: "30px" }} ></span>2. Der Herr Karl Br<span className="orig umlaut">uͤ</span>
+  <span className="corr">ü</span>gelmann ist provisorisch <br className="lb" />als
+        General<span className="orig">⸗</span>
+  <span className="corr"> </span>Kommissair des Arrondissements Elberfeld{" "}
+        <br className="lb" />ernannt.
+      </p>
+      <p className="g.enc.tagsdecl.indent-medium">
+      <span style={{ marginLeft: "30px" }} ></span>3. Die konstituirten Landesbeh<span className="orig umlaut">oͤ</span>
+  <span className="corr">ö</span>rden fahren bis <br className="lb" />auf
+        weitern Befehl fort, ihre Amtsverrichtungen auf <br className="lb" />die
+        bisherige Weise auszu<span className="orig umlaut">uͤ</span>
+  <span className="corr">ü</span>ben, Sie stehen jedoch ein<span className="orig">⸗ </span>
+  <span className="corr"></span><br className="lb" />zig
+        unter dem ernannten General<span className="orig">⸗</span><span className="corr">-</span>
+  Kommissair, und un<span className="orig">⸗ </span>
+  <span className="corr"></span><br className="lb" />ter
+        ihrer eigenen pers<span className="orig umlaut">oͤ</span>
+  <span className="corr">ö</span>nlichen Verantwortlichkeit m<span className="orig umlaut">uͤ</span>
+  <span className="corr">ü</span>ssen{" "}
+        <br className="lb" />sie von diesem Augenblicke an, alle Verbindungen und{" "}
+        <br className="lb" />Verh<span className="orig umlaut">aͤ</span>
+  <span className="corr">ä</span>ltnisse mit franz<span className="orig umlaut">oͤ</span>
+  <span className="corr">ö</span>sischen oder andern außer dem{" "}
+        <br className="lb" />Arrondissement befindlichen Großherzoglichen Beh<span className="orig umlaut">oͤ</span>
+  <span className="corr">ö</span>rden{" "}
+        <br className="lb" />aufgeben. Diesemnach d<span className="orig umlaut">uͤ</span>
+  <span className="corr">ü</span>rfen weder Gelder an der<span className="orig">⸗ </span>
+  <span className="corr"></span>
+        <br className="lb" />gleichen Beh<span className="orig umlaut">oͤ</span>
+  <span className="corr">ö</span>rden eingesendet, noch auch Befehle oder{" "}
+        <br className="lb" />Auftr<span className="orig umlaut">aͤ</span>
+  <span className="corr">ä</span>ge von denselben angenommen oder befolgt{" "}
+        <br className="lb" />werden.
+      </p>
+      <p className="g.enc.tagsdecl.indent-medium">
+      <span style={{ marginLeft: "30px" }} ></span>4. Schließlich werden alle Einwohner der hiesigen{" "}
+        <br className="lb" />Stadt, welcher ich f<span className="orig umlaut">uͤ</span>
+  <span className="corr">ü</span>r die gute Aufnahme meiner{" "}
+        <br className="lb" />Truppen, den herzlichsten Dank sage, samt allen Be<span className="orig">⸗ </span>
+  <span className="corr"></span>
+        <br className="lb" />wohnern des Arrondissements Elberfeld aufgefordert,{" "}
+        <br className="lb" />mit demselben guten Geiste, wie bisher, f<span className="orig umlaut">uͤ</span>
+  <span className="corr">ü</span>r die Er<span className="orig">⸗ </span>
+  <span className="corr"></span>
+        <br className="lb" />haltung der Ruhe und Ordnung, so wie f<span className="orig umlaut">uͤ</span>
+  <span className="corr">ü</span>r die un<span className="orig">⸗ </span>
+  <span className="corr"></span>
+        <br className="lb" />gest<span className="orig umlaut">oͤ</span>
+  <span className="corr">ö</span>rte Fortdauer der bisherigen und von dem Gene<span className="orig">⸗ </span>
+  <span className="corr"></span>
+        <br className="lb" />ral<span className="orig">⸗ </span>
+  <span className="corr">-</span>Commissair nicht ausdr<span className="orig umlaut">uͤ</span>
+  <span className="corr">ü</span>cklich aufgehobenen Ein<span className="orig">⸗ </span>
+  <span className="corr"></span>
+        <br className="lb" />richtungen zu wachen.
+      </p>
       
-    </div>
-    <p>Vereinigte<span className="orig">⸗</span>
-<span className="corr">-</span><span className="underline">Armee</span> von Schlesien.</p>
-    <p>Avantgarde des kaiserl. russischen</p>
-    <p className="g.enc.tagsdecl.indent-medium" style={{textIndent: "40px",}}>Armee<span className="orig">⸗</span><span className="corr">-</span>Korps.</p>
-    <div className="zeilenabstand">
-      <p className="g.enc.tagsdecl.indent-very-large"  style={{textIndent: "80px",}}>
-        <span className="spacing">Elberfeld</span> den{" "}
-        <a id="annot.001.s">{/*anchor*/}</a>11. Okt.<a id="annot.001.e">{/*anchor*/}</a>
+      <p className="g.enc.tagsdecl.indent-very-large signed-right-middle">
+      <span style={{ marginLeft: "30px" }} ></span>
+        Der russisch<span className="orig">⸗</span>
+  <span className="corr">-</span>kaiserliche General<span className="orig">⸗</span>
+  <span className="corr">-</span>Major
       </p>
-      <p className="g.enc.tagsdecl.indent-very-large"  style={{textIndent: "80px",}}>
-        <span className="spacing">Tagsbefehl</span>.
-      </p>
+      <p className="g.enc.tagsdecl.indent-very-large signed-right-middle"><span style={{ marginLeft: "30px" }} ></span>(Unterz.)<span style={{ marginLeft: "30px" }} ></span> <span className="spacing">Yu<span className="orig">ſ</span>
+  <span className="corr">s</span>efowit<span className="orig">ſ</span>
+  <span className="corr">s</span>ch.</span></p>
     </div>
-    <p className="g.enc.tagsdecl.indent-medium">
-      Seit meinem Einzug in diese Stadt ist nun so<span className="orig">⸗ </span>
-<span className="corr"></span><br className="lb" />wohl der
-      geringe Theil des Großherzogthums Berg, <br className="lb" />welcher noch
-      nicht besetzt war, als auch die Haupt<span className="orig">⸗ </span><span className="corr">-</span>{" "}
-<span className="corr"></span><br className="lb" />und
-      Residenzstadt D<span className="orig umlaut">uͤ</span>
-<span className="corr">ü</span>sseldorf durch die unter meinen{" "}
-      <br className="lb" />Befehlen stehenden Truppen okkupirt.
-    </p>
-    <p className="g.enc.tagsdecl.indent-medium">
-    <span style={{ marginLeft: "30px" }} ></span>
-      Ueberall fand ich Proben der guten Gesinnungen, <br className="lb" />welche
-      die Bewohner des Großherzogthums beseelen, <br className="lb" />Es wird f<span className="orig umlaut">uͤ</span>
-<span className="corr">ü</span>r
-      mich die angenehmste Pflicht seyn, da<span className="orig">⸗ </span>
-<span className="corr"></span><br className="lb" />von eine
-      g<span className="orig umlaut">uͤ</span>
-<span className="corr">ü</span>nstige Rechenschaft abzustatten.
-    </p>
-    <p className="g.enc.tagsdecl.indent-medium">
-    <span style={{ marginLeft: "30px" }} ></span>Indessen finde ich n<span className="orig umlaut">oͤ</span>
-<span className="corr">ö</span>thig bis auf weitere Einrich<span className="orig">⸗ </span>
-<span className="corr"></span><br className="lb" />tung
-      nachfolgende Verordnungen zu treffen.
-    </p>
-    <p className="g.enc.tagsdecl.indent-medium">
-    <span style={{ marginLeft: "30px" }} ></span>Art. 1. Der Obrist und Ritter von Chomiekoff <br className="lb" />ist als
-      Kommandant von Elberfeld und Barmen er<span className="orig">⸗ </span>
-<span className="corr"></span><br className="lb" />nannt. Keine
-      Forderung welche nicht mit dem Visa <br className="lb" />des Herrn
-      Kommandanten versehen ist, darf angenom<span className="orig">⸗ </span>
-<span className="corr"></span><br className="lb" />men und
-      ausgef<span className="orig umlaut">uͤ</span>
-<span className="corr">ü</span>hrt werden.
-    </p>
-    <p className="g.enc.tagsdecl.indent-medium">
-    <span style={{ marginLeft: "30px" }} ></span>2. Der Herr Karl Br<span className="orig umlaut">uͤ</span>
-<span className="corr">ü</span>gelmann ist provisorisch <br className="lb" />als
-      General<span className="orig">⸗</span>
-<span className="corr"> </span>Kommissair des Arrondissements Elberfeld{" "}
-      <br className="lb" />ernannt.
-    </p>
-    <p className="g.enc.tagsdecl.indent-medium">
-    <span style={{ marginLeft: "30px" }} ></span>3. Die konstituirten Landesbeh<span className="orig umlaut">oͤ</span>
-<span className="corr">ö</span>rden fahren bis <br className="lb" />auf
-      weitern Befehl fort, ihre Amtsverrichtungen auf <br className="lb" />die
-      bisherige Weise auszu<span className="orig umlaut">uͤ</span>
-<span className="corr">ü</span>ben, Sie stehen jedoch ein<span className="orig">⸗ </span>
-<span className="corr"></span><br className="lb" />zig
-      unter dem ernannten General<span className="orig">⸗</span><span className="corr">-</span>
-Kommissair, und un<span className="orig">⸗ </span>
-<span className="corr"></span><br className="lb" />ter
-      ihrer eigenen pers<span className="orig umlaut">oͤ</span>
-<span className="corr">ö</span>nlichen Verantwortlichkeit m<span className="orig umlaut">uͤ</span>
-<span className="corr">ü</span>ssen{" "}
-      <br className="lb" />sie von diesem Augenblicke an, alle Verbindungen und{" "}
-      <br className="lb" />Verh<span className="orig umlaut">aͤ</span>
-<span className="corr">ä</span>ltnisse mit franz<span className="orig umlaut">oͤ</span>
-<span className="corr">ö</span>sischen oder andern außer dem{" "}
-      <br className="lb" />Arrondissement befindlichen Großherzoglichen Beh<span className="orig umlaut">oͤ</span>
-<span className="corr">ö</span>rden{" "}
-      <br className="lb" />aufgeben. Diesemnach d<span className="orig umlaut">uͤ</span>
-<span className="corr">ü</span>rfen weder Gelder an der<span className="orig">⸗ </span>
-<span className="corr"></span>
-      <br className="lb" />gleichen Beh<span className="orig umlaut">oͤ</span>
-<span className="corr">ö</span>rden eingesendet, noch auch Befehle oder{" "}
-      <br className="lb" />Auftr<span className="orig umlaut">aͤ</span>
-<span className="corr">ä</span>ge von denselben angenommen oder befolgt{" "}
-      <br className="lb" />werden.
-    </p>
-    <p className="g.enc.tagsdecl.indent-medium">
-    <span style={{ marginLeft: "30px" }} ></span>4. Schließlich werden alle Einwohner der hiesigen{" "}
-      <br className="lb" />Stadt, welcher ich f<span className="orig umlaut">uͤ</span>
-<span className="corr">ü</span>r die gute Aufnahme meiner{" "}
-      <br className="lb" />Truppen, den herzlichsten Dank sage, samt allen Be<span className="orig">⸗ </span>
-<span className="corr"></span>
-      <br className="lb" />wohnern des Arrondissements Elberfeld aufgefordert,{" "}
-      <br className="lb" />mit demselben guten Geiste, wie bisher, f<span className="orig umlaut">uͤ</span>
-<span className="corr">ü</span>r die Er<span className="orig">⸗ </span>
-<span className="corr"></span>
-      <br className="lb" />haltung der Ruhe und Ordnung, so wie f<span className="orig umlaut">uͤ</span>
-<span className="corr">ü</span>r die un<span className="orig">⸗ </span>
-<span className="corr"></span>
-      <br className="lb" />gest<span className="orig umlaut">oͤ</span>
-<span className="corr">ö</span>rte Fortdauer der bisherigen und von dem Gene<span className="orig">⸗ </span>
-<span className="corr"></span>
-      <br className="lb" />ral<span className="orig">⸗ </span>
-<span className="corr">-</span>Commissair nicht ausdr<span className="orig umlaut">uͤ</span>
-<span className="corr">ü</span>cklich aufgehobenen Ein<span className="orig">⸗ </span>
-<span className="corr"></span>
-      <br className="lb" />richtungen zu wachen.
-    </p>
-    
-    <p className="g.enc.tagsdecl.indent-very-large signed-right-middle">
-    <span style={{ marginLeft: "30px" }} ></span>
-      Der russisch<span className="orig">⸗</span>
-<span className="corr">-</span>kaiserliche General<span className="orig">⸗</span>
-<span className="corr">-</span>Major
-    </p>
-    <p className="g.enc.tagsdecl.indent-very-large signed-right-middle"><span style={{ marginLeft: "30px" }} ></span>(Unterz.)<span style={{ marginLeft: "30px" }} ></span> <span className="spacing">Yu<span className="orig">ſ</span>
-<span className="corr">s</span>efowit<span className="orig">ſ</span>
-<span className="corr">s</span>ch.</span></p>
   </div>
-</div>
 
                   </div>
                 </div>

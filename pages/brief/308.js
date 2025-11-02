@@ -615,13 +615,10 @@ export default function page() {
                     <br className="lb" /> auch die Großmutter und die Tante, und
                     lebe recht wohl
                     <br className="lb-detail" />{" "}
-                    <span style={{ display: "inline-block" }} width="6words">
-                      &nbsp;
-                    </span>
                     <div className="signed orig" style={{marginLeft: "-200px"}}>
                       Dein treuer Sohn
                       <br />{" "}
-                      <div className="persName">Friedrich</div>
+                      <div style={{ marginLeft: "45px" }} className="persName">Friedrich</div>
                     </div>
                     <div  style={{width:"100%", textAlign: "right"}} className="corr signed text-right normalisiert-block">
                       Dein treuer Sohn <br className="bn" />
@@ -684,7 +681,7 @@ export default function page() {
             <p>
               Nicht ermittelter Nachbar der Familie Engels. Die Flur ‚In den
               Springen‘ lag südlich des ‚Barmer Bruchs‘ und ist z.B. verzeichnet
-              in der Topographische Aufnahme der Rheinlande (1801–1828) von Jean
+              in der <i>Topographischen Aufnahme der Rheinlande</i> (1801–1828) von Jean
               Joseph Tranchot (1752–1815), frz. Geograph. Die heutigen
               Straßennamen „Im Springen“ und „Springer Straße“ nehmen Bezug auf
               die historische Flurbezeichnung.

@@ -61,9 +61,9 @@ export default function page() {
                 >
                   {/* Insert Page 1 */}
 
-                  <div className=" ">
+                  <div className="more-line-height">
                   <span class="orig" style={{ marginLeft: "80px" }} />
-                  <span class="corr " style={{ marginLeft: "400px!important" }} />
+                  <span class="corr " style={{ marginLeft: "400px !important", lineHeight:"3.2rem" }} />
                     <span className="g.rend.script.latin">Barmen</span>{" "}
                     <span className="date">
                       31. <span className="g.rend.script.latin">Ma
@@ -502,7 +502,8 @@ export default function page() {
                     <a id="annot.009.s">{/*anchor*/}</a>
                     <span className="g.rend.script.latin">
                       <span className="makierung">Colonial</span>
-                    </span>{" "}
+                      <span className="orig">{" "}</span>
+                    </span>
                     <a id="annot.009.e">{/*anchor*/}</a>waaren
                     <br className="lb" />{" "}
                     haben wir
@@ -1202,7 +1203,7 @@ export default function page() {
                   }}
                 >
                   {/* Insert Page 7 */}
-                  <blockquote>
+                  <div>
                     <p>
                       <span className="liebe">
                         <span className="orig">ſ</span>
@@ -1219,8 +1220,8 @@ export default function page() {
                         <a id="mark.002.e">{/*anchor*/}</a>
                       </span>
                     </p>
-                  </blockquote>
-                  <blockquote className="closer">
+                  </div>
+                  <div className="closer">
                     <p className="enc.tagsdecl.indent-medium">
                     <span className="orig">Küße</span><span className="corr">Küsse</span> die beiden <a id="annot.022.s">{/*anchor*/}</a>
                       <span className="makierung">Knaben</span>{" "}
@@ -1231,9 +1232,9 @@ export default function page() {
                       <br className="lb" />{" "}
                       oft an deinen
                     </p>
-                  </blockquote>
-                  <div className="closer" style={{marginLeft: "-146px"}}>
-                    <div className="signed">
+                  </div>
+                  <div id="brief_265_closer" className="closer" style={{marginLeft: "-146px"}}>
+                    <div className="signed text-right">
                       <span className="glyph">
                         <sup>.</sup>//.
                       </span>
@@ -1250,7 +1251,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "227px",
+              top: "265px",
             }}
           >
             <hr />
@@ -1261,7 +1262,7 @@ export default function page() {
           <div
             className="stellenerläuterung push-right"
             style={{
-              top: "265px",
+              top: "295px",
             }}
           >
             <hr />
@@ -1274,7 +1275,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "380px",
+              top: "415px",
             }}
           >
             <hr />

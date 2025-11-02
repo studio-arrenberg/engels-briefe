@@ -164,17 +164,19 @@ export default function page() {
                     <br className="lb" /> <a id="mark.001.s">{/*anchor*/}</a>
                     <span className="business">
                     <a id="mark.002.s">{/*anchor*/}</a>
-                    <span className="religion"><span className="makierung">
-                      <a id="annot.002.s">{/*anchor*/}</a>Wohl erhob{" "}
-                      <span className="orig">ſ</span>
-                      <span className="corr">s</span>ich im Fabriken
-                      <span className="orig doublehyphen">⹀</span>
-                      <span className="corr">-</span>{" "}
-                      <span className="abbr"> u</span>
-                      <span className="expan">
-                        u<span className="ex">nd</span>
-                      </span>{" "}
-                      Handlungsgebiet ein Sturm <span className="orig">ſ</span></span>
+                    <span className="religion">
+                      <span className="makierung">
+                        <a id="annot.002.s">{/*anchor*/}</a>Wohl erhob{" "}
+                        <span className="orig">ſ</span>
+                        <span className="corr">s</span>ich im Fabriken
+                        <span className="orig doublehyphen">⹀</span>
+                        <span className="corr">-</span>{" "}
+                        <span className="abbr"> u</span>
+                        <span className="expan">
+                          u<span className="ex">nd</span>
+                        </span>{" "}
+                      Handlungsgebiet ein Sturm <span className="orig">ſ</span>
+                      </span>
                       <span className="corr">s</span>o heftig, daß
                       <br className="lb" /> <span className="orig">ſ</span>
                       <span className="corr">s</span>elb
@@ -305,7 +307,7 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>agen, – der durch Fragen
                     <br className="lb" />{" "}
-                    <span class="orig" style={{ marginLeft: "500px" }}></span>
+                    <span className="orig" style={{ marginLeft: "500px" }}></span>
                     <span className="underline orig">jedem</span>
                   </p>
                 </div>
@@ -382,8 +384,7 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>ein Steckenpferd. Haben doch
                     wir al
-                    <span className="orig doublehyphen">⹀</span>
-                    <span className="orig doublehyphen">⹀</span>
+                    <span className="orig doublehyphen">⹀</span>                    
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
                     ten Leute noch das Un<span className="orig">ſ</span>
                     <span className="corr">s</span>rige,{" "}
@@ -538,12 +539,11 @@ export default function page() {
                     <span className="orig">ſ</span>
                     <span className="corr">s</span>em{" "}
                     <span className="orig">ſ</span>
-                    <span className="corr">s</span>o gar die <span className="orig">Eitel
+                    <span className="corr">s</span>o gar die <span className="orig">Eitel</span>
                     <span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.eq" />
-                    <span class="orig" style={{ marginLeft: "560px" }}></span>
-                    <span className="underline">keit</span>
-                    </span>
+                    <span className="orig" style={{ marginLeft: "560px" }}></span>
+                    <span className="underline">keit</span>                    
                   </p>
                 </div>
 
@@ -613,102 +613,104 @@ export default function page() {
                     <span className="corr">st</span>immen fehlen.
                   </p>
                   <p>
-                    {/* <span style={{ display: "inline-block" }} width="1char">
-                      &nbsp;
-                    </span> */}
-                    <span className="business">
-                    <a id="mark.003.s">{/*anchor*/}</a>Ihr
-                    <a id="annot.004.s">{/*anchor*/}</a>
-                    
-                    <span className="g.rend.script.latin">
-                      {" "}
-                      <span className="makierung">Conto‐Corrent</span>
-                    </span>
-                    <a id="annot.004.e">{/*anchor*/}</a> enthält ohne Ihr Ver
-                    <span className="orig">ſ</span>
-                    <span className="corr">s</span>chulden ein Ver
-                    <span className="orig">ſ</span>
-                    <span className="corr">s</span>ehen. Sie konn
-                    <span className="orig doublehyphen">⹀</span>
-                    <br className="g.enc.tagsdecl.hyphenation.eq" />
-                    ten nicht wi<span className="orig">ſ</span>
-                    <span className="corr">s</span>
-                    <span className="orig">ſ</span>
-                    <span className="corr">s</span>en, daß ich{" "}
-                    <span className="abbr"> d</span>
-                    <span className="expan">
-                      d<span className="ex">em </span>
-                    </span>
-                    <span className="g.enc.tagsdecl.suspension.type2">
-                      {" "}
-                      (H.
-                    </span>
-                    <span className="makierung">
-                      <span className="expan">
-                        H<span className="ex">errn</span>
-                      </span>
-                      <span className="persName">
-                        {" "}
-                        <span className="abbr">
-                          {" "}
-                          <span className="hi">vdKuhlen </span>{" "}
-                        </span>
-                        <span className="expan">
-                          v<span className="ex">on </span>d
-                          <span className="ex">er </span>Kuhlen
-                        </span>
-                      </span>
-                    </span>{" "}
-                    <span className="abbr"> d.</span>
-                    <span className="expan">
-                      d<span className="ex">en</span>
-                    </span>{" "}
-                    <span className="oberzeichen">˙</span>14. Janu<small className="orig">r</small>ar die<span className="orig">ſ</span>
-                    <span className="corr">s</span>es Jahrs zum
-                    <br className="lb" /> zweiten Mal die vollen 75.{" "}
-                    <span className="abbr"> rttr.</span>
-                    <span className="expan">Reichsthaler</span> gegen Quittung
-                    namens
-                    <span className="orgName">
+                    <span className="">
+                      <span className="business">
+                      Ihr                                            
                       <span className="g.rend.script.latin">
                         {" "}
-                        <span className="abbr"> Casp.</span>
-                        <span className="expan">
-                          Casp<span className="ex">ar</span>
-                        </span>{" "}
-                        Engels
+                        <span className="makierung">Conto‐Corrent</span>
                       </span>
-                      <br className="lb" /> Söhne
-                    </span>{" "}
-                    bezahlt habe, <span className="abbr"> u</span>
-                    <span className="expan">
-                      u<span className="ex">nd</span>
-                    </span>{" "}
-                    es, ohne mir wehe zu thun, zahlen konnte. Die
-                    <span className="orig">ſ</span>
-                    <span className="corr">s</span>e 2
-                    <sup>
-                      <sup className="double-underline">te</sup>
-                    </sup>
-                    <br className="lb" /> Quittung{" "}
-                    <span className="orig">ﬅ</span>
-                    <span className="corr">st</span>eht auf dem Blatt der er
-                    <span className="orig">ﬅ</span>
-                    <span className="corr">st</span>en. Unter d<small className="orig">er</small>ie
-                    <span className="orig">ſ</span>
-                    <span className="corr">s</span>elben wird bei
-                    <br className="lb" /> Leben <span className="abbr"> u</span>
-                    <span className="expan">
-                      u<span className="ex">nd</span>
-                    </span>{" "}
-                    Wohl<span className="orig">ſ</span>
-                    <span className="corr">s</span>ein im künftigen Januar auch
-                    die dritte kommen, wenn
-                    <br className="lb" />{" "}
-                    <span class="orig" style={{ marginLeft: "-40px" }}/>
-                      S<span class="underline">ie {"   "}an</span>ders mich mit der Zahlung ferner beauftragen.
-                    </span>
+                      enthält ohne Ihr Ver
+                      <span className="orig">ſ</span>
+                      <span className="corr">s</span>chulden ein Ver
+                      <span className="orig">ſ</span>
+                      <span className="corr">s</span>ehen. Sie konn
+                      <span className="orig doublehyphen">⹀</span>
+                      <br className="g.enc.tagsdecl.hyphenation.eq" />
+                      ten nicht wi<span className="orig">ſ</span>
+                      <span className="corr">s</span>
+                      <span className="orig">ſ</span>
+                      <span className="corr">s</span>en, daß ich{" "}
+                      <span className="abbr"> d</span>
+                      <span className="expan">
+                        d<span className="ex">em </span>
+                      </span>
+                      <span className="g.enc.tagsdecl.suspension.type2">
+                        {" "}
+                        (H.
+                      </span>
+                      <span className="makierung">
+                        <span className="expan">
+                          H<span className="ex">errn</span>
+                        </span>
+                        <span className="persName">
+                          {" "}
+                          <span className="abbr">
+                            {" "}
+                            <span className="hi">vdKuhlen </span>{" "}
+                          </span>
+                          <span className="expan">
+                            v<span className="ex">on </span>d
+                            <span className="ex">er </span>Kuhlen
+                          </span>
+                        </span>
+                      </span>{" "}
+                      <span className="abbr"> d.</span>
+                      <span className="expan">
+                        d<span className="ex">en</span>
+                      </span>{" "}
+                      <span className="oberzeichen">˙</span>14. Janu<small className="orig">r</small>ar die<span className="orig">ſ</span>
+                      <span className="corr">s</span>es Jahrs zum                      
+                        <br className="" /> zweiten Mal die vollen 75.{" "}
+                        <span className="abbr"> rttr.</span>W
+                        <span className="expan">Reichsthaler</span> gegen Quittung namens
+                        <span className="orgName">
+                          <span className="g.rend.script.latin">
+                            {" "}
+                            <span className="abbr"> Casp.</span>
+                            <span className="expan">
+                              Casp<span className="ex">ar</span>
+                            </span>{" "}
+                            Engels
+                          </span>    
+                        </span>{" "}
+                    </span>                    
+                    <span className="">
+                      <br className="" />Söhne
+                      bezahlt habe, <span className="abbr"> u</span>
+                      <span className="expan">
+                        u<span className="ex">nd</span>
+                      </span>{" "}
+                      es, ohne mir wehe zu thun, zahlen konnte. Die
+                      <span className="orig">ſ</span>
+                      <span className="corr">s</span>e 2
+                      
+                      <sup className="double-underline">te</sup>                      
+                      
+                      <br className="lb" /> Quittung{" "}
+                      <span className="orig">ﬅ</span>
+                      <span className="corr">st</span>eht auf dem Blatt der er
+                      <span className="orig">ﬅ</span>
+                      <span className="corr">st</span>en. Unter d<small className="orig">er</small>ie
+                      <span className="orig">ſ</span>
+                      <span className="corr">s</span>elben wird bei
+                      <br className="lb" /> Leben <span className="abbr"> u</span>
+                      <span className="expan">
+                        u<span className="ex">nd</span>
+                      </span>{" "}
+                      Wohl<span className="orig">ſ</span>
+                      <span className="corr">s</span>ein im künftigen Januar auch
+                      die dritte kommen, wenn
+                      <br className="lb" />{" "}
+                      <span className="orig" style={{ marginLeft: "-40px"}}>
+                        S
+                        </span>                  
+                        <span className="underline">ie {"   "}an</span>
+                        ders mich mit der Zahlung ferner beauftragen.
+                      </span>
+                    </span>                    
                   </p>
+                  
                   <p>
                   <span className="business">
                     {/* <span style={{ display: "inline-block" }} width="1char">
@@ -812,7 +814,7 @@ export default function page() {
                         &nbsp;^
                       </span> */}
                       {/* <span className="orig" style={{ marginLeft: "-30px" }}></span> */}
-                        Van Har.
+                        Van Haar.
                       </span>
                     </div>
                   </div>

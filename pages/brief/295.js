@@ -55,7 +55,7 @@ export default function page() {
                           <br className="lb" />{" "}
                           <span className="small-adress">
                             <span className="sans orig">
-                              Adr∮. Mad<sup>m</sup><span style={{marginLeft: "-10px"}}>.</span> de Griesheim
+                              Adr∮. Mad<sup>m</sup><span style={{marginLeft: "-10px", marginRight: "9px"}}>.</span>de Griesheim
                             </span>
                             <span className="corr">
                               Adresse Madame de Griesheim 
@@ -1040,6 +1040,7 @@ export default function page() {
                     <br className="lb bn" />{" "}
                     <span className="g.rend.script.latin">
                       {" "}
+                      <span className="corr break-normalisiert"></span>
                       An{" "}
                       <span className=" orig g.enc.tagsdecl.cc.abbr-colon-sup">
                         M<span className="orig">ſ</span>
@@ -1052,6 +1053,7 @@ export default function page() {
                       </span>{" "}
                       <span className="persName">Charles Bredt</span>{" "}
                       <br className="lb bn" /> <span className="abbr">Adr.</span>
+                      <span className="corr break-normalisiert"></span>
                       <span className="expan">
                         Adr<span className="ex">esse</span>
                       </span>{" "}
@@ -1066,17 +1068,18 @@ export default function page() {
                         Guibout
                       </span>
                       <br className="lb bn" />{" "}
-                      
+                      <span className="corr break-normalisiert"></span>
                       Rue S<span className="abbr">t.</span>
                       <span className="expan">
                         <span className="ex">ain</span>t
                       </span>{" "}
                       Denis
                       <br className="lb bn" />{" "}
+                      <span className="corr break-normalisiert"></span>
                       <span className="placeName " style={{ fontSize: "1.2rem", marginBottom: "-10px" }}>Paris</span>
                     </span>
                   </p>
-                  
+                      <span className="corr break-normalisiert"></span>
                     <br className="lb" /> Falls Du die frühere ver<span className="orig doublehyphen">⹀</span>
                     <br className="g.enc.tagsdecl.hyphenation.divis" />
                     <span className="g.enc.tagsdecl.suspension.type1">
