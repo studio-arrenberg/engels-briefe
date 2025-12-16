@@ -891,7 +891,7 @@ export default function page() {
                   <div
                     className="stellenerläuterung push-right"
                     style={{
-                      top: "2724px",
+                      top: "2784px",
                     }}
                   >
                     <hr />

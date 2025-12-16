@@ -1281,7 +1281,7 @@ export default function page() {
           <div
             className="stellenerläuterung"
             style={{
-              top: "4100px",
+              top: "4185px",
             }}
           >
             <hr />

@@ -179,7 +179,7 @@ export default function page() {
                   style={{
                     paddingTop: "20px",
                     paddingLeft: "100px",
-                    paddingBottom: "0px",
+                    paddingBottom: "35px",
                   }}
                 >
                   {/* Insert Page 1 */}
@@ -504,14 +504,14 @@ export default function page() {
                         <br className="lb" />{" "}
                         ferner alles herrlich hinausführen
                         <span className="unclear">wolle</span>
-                        <span className="unclear">wolte</span>.
+                        <span className="unclear">wolte</span>.{" "}
                         <a id="mark.003.e">{/*anchor*/}</a>
-                      </span>                      
-                        <div id="brief_71_signed" className="signed" style={{ paddingBottom: "15px"}}>
-                          Dein <span className="orig">Treüer</span>
+                      </span>
+                        <span id="brief_71_signed" className="" style={{ paddingBottom: "15px"}}>
+                          <span style={{marginLeft: "30px"}}>Dein <span className="orig">Treüer</span></span>
                           <span className="corr">treuer</span> Vater{" "}
                           <br className="lb" />{" "}
-                          <span className="g.rend.script.latin">
+                          <span className="g.rend.script.latin" style={{ marginLeft: "305px"}}>
                             <span className="horizontal"></span>
                             <span className="abbr">C. </span>
                             <span className="expan">
@@ -519,9 +519,8 @@ export default function page() {
                             </span>
                             Engels
                           </span>
-                          .
-                        
-                      </div>
+                          .                        
+                        </span>
                     </div>
                     <span className="corr"><br /></span>
                     <a id="index.xml-anchor-d29e733" />
